@@ -1,0 +1,37 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE); p <- .libPaths(); p <- c('\''/tmp/tmp/built'\'', p); .libPaths(p); if(BiocManager::install('\''exomePeak2'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://packagemanager.posit.co/cran/__linux__/jammy/latest
+Bioconductor version 3.17 (BiocManager 1.30.20), R 4.3.0 (2023-04-21)
+Installing package(s) 'exomePeak2'
+Warning: dependency ‘speedglm’ is not available
+also installing the dependency ‘mclust’
+
+trying URL 'https://packagemanager.posit.co/cran/__linux__/jammy/latest/src/contrib/mclust_6.0.0.tar.gz'
+Content type 'binary/octet-stream' length 4093485 bytes (3.9 MB)
+==================================================
+downloaded 3.9 MB
+
+trying URL 'https://bioconductor.org/packages/3.17/bioc/src/contrib/exomePeak2_1.11.0.tar.gz'
+Content type 'application/x-gzip' length 2384315 bytes (2.3 MB)
+==================================================
+downloaded 2.3 MB
+
+* installing *binary* package ‘mclust’ ...
+* ‘mclust’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘mclust’ as ‘mclust_6.0.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (mclust)
+ERROR: dependency ‘speedglm’ is not available for package ‘exomePeak2’
+* removing ‘/tmp/tmp/built/exomePeak2’
+
+The downloaded source packages are in
+	‘/tmp/RtmpOZsO9E/downloaded_packages’
+Warning message:
+In install.packages(...) :
+  installation of package ‘exomePeak2’ had non-zero exit status
+
+real	0m7.187s
+user	0m4.402s
+sys	0m0.470s
