@@ -1,0 +1,115 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE); p <- .libPaths(); p <- c('\''/tmp/tmp/built'\'', p); .libPaths(p); if(BiocManager::install('\''alpine'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://packagemanager.posit.co/cran/__linux__/jammy/latest
+Bioconductor version 3.17 (BiocManager 1.30.20), R 4.3.0 (2023-04-21)
+Installing package(s) 'alpine'
+Warning: dependency ‘speedglm’ is not available
+trying URL 'https://bioconductor.org/packages/3.17/bioc/src/contrib/alpine_1.25.0.tar.gz'
+Content type 'application/x-gzip' length 458266 bytes (447 KB)
+==================================================
+downloaded 447 KB
+
+ERROR: dependency ‘speedglm’ is not available for package ‘alpine’
+* removing ‘/tmp/tmp/built/alpine’
+
+The downloaded source packages are in
+	‘/tmp/RtmpZoVpIr/downloaded_packages’
+Warning message:
+In install.packages(...) :
+  installation of package ‘alpine’ had non-zero exit status
+
+real	0m4.102s
+user	0m2.349s
+sys	0m0.298s
+* installing *binary* package ‘lazyeval’ ...
+* ‘lazyeval’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘lazyeval’ as ‘lazyeval_0.2.2_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (lazyeval)
+* installing *binary* package ‘crosstalk’ ...
+* ‘crosstalk’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘crosstalk’ as ‘crosstalk_1.2.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (crosstalk)
+* installing *binary* package ‘DT’ ...
+* ‘DT’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘DT’ as ‘DT_0.27_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (DT)
+* installing *source* package ‘interactiveDisplayBase’ ...
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘interactiveDisplayBase’ as ‘interactiveDisplayBase_1.38.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (interactiveDisplayBase)
+* installing *source* package ‘AnnotationHub’ ...
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+Warning: replacing previous import ‘utils::findMatches’ by ‘S4Vectors::findMatches’ when loading ‘AnnotationDbi’
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+Warning: replacing previous import ‘utils::findMatches’ by ‘S4Vectors::findMatches’ when loading ‘AnnotationDbi’
+** testing if installed package can be loaded from final location
+Warning: replacing previous import ‘utils::findMatches’ by ‘S4Vectors::findMatches’ when loading ‘AnnotationDbi’
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘AnnotationHub’ as ‘AnnotationHub_3.8.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (AnnotationHub)
+* installing *source* package ‘ExperimentHub’ ...
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+Warning message:
+replacing previous import ‘utils::findMatches’ by ‘S4Vectors::findMatches’ when loading ‘AnnotationDbi’ 
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+Warning: replacing previous import ‘utils::findMatches’ by ‘S4Vectors::findMatches’ when loading ‘AnnotationDbi’
+** testing if installed package can be loaded from final location
+Warning: replacing previous import ‘utils::findMatches’ by ‘S4Vectors::findMatches’ when loading ‘AnnotationDbi’
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘ExperimentHub’ as ‘ExperimentHub_2.8.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (ExperimentHub)
+* installing *source* package ‘alpineData’ ...
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+Warning message:
+replacing previous import ‘utils::findMatches’ by ‘S4Vectors::findMatches’ when loading ‘AnnotationDbi’ 
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+Warning: replacing previous import ‘utils::findMatches’ by ‘S4Vectors::findMatches’ when loading ‘AnnotationDbi’
+Warning: Package 'alpineData' is deprecated and will be removed from
+  Bioconductor version 3.18
+** testing if installed package can be loaded from final location
+Warning: replacing previous import ‘utils::findMatches’ by ‘S4Vectors::findMatches’ when loading ‘AnnotationDbi’
+Warning: Package 'alpineData' is deprecated and will be removed from
+  Bioconductor version 3.18
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘alpineData’ as ‘alpineData_1.26.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (alpineData)
