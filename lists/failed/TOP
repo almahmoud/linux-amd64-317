@@ -1,0 +1,31 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE); p <- .libPaths(); p <- c('\''/tmp/tmp/built'\'', p); .libPaths(p); if(BiocManager::install('\''TOP'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://packagemanager.posit.co/cran/__linux__/jammy/latest
+Warning: unable to access index for repository https://packagemanager.posit.co/cran/__linux__/jammy/latest/src/contrib:
+  cannot open URL 'https://packagemanager.posit.co/cran/__linux__/jammy/latest/src/contrib/PACKAGES'
+Bioconductor version 3.17 (BiocManager 1.30.20), R 4.3.0 (2023-04-21)
+Installing package(s) 'TOP'
+Warning: unable to access index for repository https://packagemanager.posit.co/cran/__linux__/jammy/latest/src/contrib:
+  cannot open URL 'https://packagemanager.posit.co/cran/__linux__/jammy/latest/src/contrib/PACKAGES'
+Warning: dependencies ‘assertthat’, ‘caret’, ‘directPA’, ‘doParallel’, ‘ggnewscale’, ‘ggraph’, ‘ggthemes’, ‘glmnet’, ‘Hmisc’, ‘latex2exp’, ‘plotly’, ‘pROC’, ‘tidygraph’, ‘statmod’ are not available
+trying URL 'https://bioconductor.org/packages/3.17/bioc/src/contrib/TOP_1.0.0.tar.gz'
+Content type 'application/x-gzip' length 477551 bytes (466 KB)
+==================================================
+downloaded 466 KB
+
+ERROR: dependencies ‘assertthat’, ‘caret’, ‘directPA’, ‘doParallel’, ‘ggnewscale’, ‘ggraph’, ‘ggthemes’, ‘glmnet’, ‘Hmisc’, ‘latex2exp’, ‘plotly’, ‘pROC’, ‘tidygraph’, ‘statmod’ are not available for package ‘TOP’
+* removing ‘/tmp/tmp/built/TOP’
+
+The downloaded source packages are in
+	‘/tmp/RtmpZsoqUT/downloaded_packages’
+Warning: unable to access index for repository https://packagemanager.posit.co/cran/__linux__/jammy/latest/src/contrib:
+  cannot open URL 'https://packagemanager.posit.co/cran/__linux__/jammy/latest/src/contrib/PACKAGES'
+Warning message:
+In install.packages(...) :
+  installation of package ‘TOP’ had non-zero exit status
+
+real	0m3.852s
+user	0m1.905s
+sys	0m0.259s
