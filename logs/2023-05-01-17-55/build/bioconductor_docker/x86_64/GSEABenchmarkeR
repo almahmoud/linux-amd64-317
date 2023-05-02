@@ -1,0 +1,137 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE); p <- .libPaths(); p <- c('\''/tmp/tmp/built'\'', p); .libPaths(p); if(BiocManager::install('\''GSEABenchmarkeR'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://packagemanager.posit.co/cran/__linux__/jammy/latest
+Bioconductor version 3.17 (BiocManager 1.30.20), R 4.3.0 (2023-04-21)
+Installing package(s) 'GSEABenchmarkeR'
+also installing the dependencies ‘KEGGandMetacoreDzPathwaysGEO’, ‘KEGGdzPathwaysGEO’
+
+trying URL 'https://bioconductor.org/packages/3.17/data/experiment/src/contrib/KEGGandMetacoreDzPathwaysGEO_1.20.0.tar.gz'
+Content type 'application/x-gzip' length 103362869 bytes (98.6 MB)
+==================================================
+downloaded 98.6 MB
+
+trying URL 'https://bioconductor.org/packages/3.17/data/experiment/src/contrib/KEGGdzPathwaysGEO_1.38.0.tar.gz'
+Content type 'application/x-gzip' length 314643305 bytes (300.1 MB)
+==================================================
+downloaded 300.1 MB
+
+trying URL 'https://bioconductor.org/packages/3.17/bioc/src/contrib/GSEABenchmarkeR_1.20.0.tar.gz'
+Content type 'application/x-gzip' length 568405 bytes (555 KB)
+==================================================
+downloaded 555 KB
+
+* installing *source* package ‘KEGGandMetacoreDzPathwaysGEO’ ...
+** using staged installation
+** data
+** inst
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘KEGGandMetacoreDzPathwaysGEO’ as ‘KEGGandMetacoreDzPathwaysGEO_1.20.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (KEGGandMetacoreDzPathwaysGEO)
+* installing *source* package ‘KEGGdzPathwaysGEO’ ...
+** using staged installation
+** R
+** data
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘KEGGdzPathwaysGEO’ as ‘KEGGdzPathwaysGEO_1.38.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (KEGGdzPathwaysGEO)
+* installing *source* package ‘GSEABenchmarkeR’ ...
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘GSEABenchmarkeR’ as ‘GSEABenchmarkeR_1.20.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (GSEABenchmarkeR)
+
+The downloaded source packages are in
+	‘/tmp/Rtmpa2VOxh/downloaded_packages’
+
+real	1m17.247s
+user	1m3.831s
+sys	0m5.340s
+* installing *binary* package ‘tzdb’ ...
+* ‘tzdb’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘tzdb’ as ‘tzdb_0.3.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (tzdb)
+* installing *binary* package ‘R.methodsS3’ ...
+* ‘R.methodsS3’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘R.methodsS3’ as ‘R.methodsS3_1.8.2_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (R.methodsS3)
+* installing *binary* package ‘data.table’ ...
+* ‘data.table’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘data.table’ as ‘data.table_1.14.8_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (data.table)
+* installing *binary* package ‘vroom’ ...
+* ‘vroom’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘vroom’ as ‘vroom_1.6.3_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (vroom)
+* installing *binary* package ‘R.oo’ ...
+* ‘R.oo’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘R.oo’ as ‘R.oo_1.25.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (R.oo)
+* installing *binary* package ‘readr’ ...
+* ‘readr’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘readr’ as ‘readr_2.1.4_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (readr)
+* installing *binary* package ‘R.utils’ ...
+* ‘R.utils’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘R.utils’ as ‘R.utils_2.12.2_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (R.utils)
+* installing *source* package ‘GEOquery’ ...
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘GEOquery’ as ‘GEOquery_2.68.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (GEOquery)
+* installing *source* package ‘GSE62944’ ...
+** using staged installation
+** inst
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘GSE62944’ as ‘GSE62944_1.28.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (GSE62944)
