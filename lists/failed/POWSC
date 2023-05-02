@@ -1,0 +1,31 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE); p <- .libPaths(); p <- c('\''/tmp/tmp/built'\'', p); .libPaths(p); if(BiocManager::install('\''POWSC'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://packagemanager.posit.co/cran/__linux__/jammy/latest
+Warning: unable to access index for repository https://packagemanager.posit.co/cran/__linux__/jammy/latest/src/contrib:
+  cannot open URL 'https://packagemanager.posit.co/cran/__linux__/jammy/latest/src/contrib/PACKAGES'
+Bioconductor version 3.17 (BiocManager 1.30.20), R 4.3.0 (2023-04-21)
+Installing package(s) 'POWSC'
+Warning: unable to access index for repository https://packagemanager.posit.co/cran/__linux__/jammy/latest/src/contrib:
+  cannot open URL 'https://packagemanager.posit.co/cran/__linux__/jammy/latest/src/contrib/PACKAGES'
+Warning: dependency ‘pheatmap’ is not available
+trying URL 'https://bioconductor.org/packages/3.17/bioc/src/contrib/POWSC_1.8.0.tar.gz'
+Content type 'application/x-gzip' length 1165998 bytes (1.1 MB)
+==================================================
+downloaded 1.1 MB
+
+ERROR: dependency ‘pheatmap’ is not available for package ‘POWSC’
+* removing ‘/tmp/tmp/built/POWSC’
+
+The downloaded source packages are in
+	‘/tmp/RtmpwKigBe/downloaded_packages’
+Warning: unable to access index for repository https://packagemanager.posit.co/cran/__linux__/jammy/latest/src/contrib:
+  cannot open URL 'https://packagemanager.posit.co/cran/__linux__/jammy/latest/src/contrib/PACKAGES'
+Warning message:
+In install.packages(...) :
+  installation of package ‘POWSC’ had non-zero exit status
+
+real	0m5.726s
+user	0m1.924s
+sys	0m0.278s
