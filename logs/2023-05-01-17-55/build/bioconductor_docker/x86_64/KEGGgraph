@@ -1,0 +1,68 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE); p <- .libPaths(); p <- c('\''/tmp/tmp/built'\'', p); .libPaths(p); if(BiocManager::install('\''KEGGgraph'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://packagemanager.posit.co/cran/__linux__/jammy/latest
+Bioconductor version 3.17 (BiocManager 1.30.20), R 4.3.0 (2023-04-21)
+Installing package(s) 'KEGGgraph'
+also installing the dependencies ‘bitops’, ‘XML’, ‘RCurl’
+
+trying URL 'https://packagemanager.posit.co/cran/__linux__/jammy/latest/src/contrib/bitops_1.0-7.tar.gz'
+Content type 'binary/octet-stream' length 24849 bytes (24 KB)
+==================================================
+downloaded 24 KB
+
+trying URL 'https://packagemanager.posit.co/cran/__linux__/jammy/latest/src/contrib/XML_3.99-0.14.tar.gz'
+Content type 'binary/octet-stream' length 1805454 bytes (1.7 MB)
+==================================================
+downloaded 1.7 MB
+
+trying URL 'https://packagemanager.posit.co/cran/__linux__/jammy/latest/src/contrib/RCurl_1.98-1.12.tar.gz'
+Content type 'binary/octet-stream' length 1064508 bytes (1.0 MB)
+==================================================
+downloaded 1.0 MB
+
+trying URL 'https://bioconductor.org/packages/3.17/bioc/src/contrib/KEGGgraph_1.60.0.tar.gz'
+Content type 'application/x-gzip' length 1364034 bytes (1.3 MB)
+==================================================
+downloaded 1.3 MB
+
+* installing *binary* package ‘bitops’ ...
+* ‘bitops’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘bitops’ as ‘bitops_1.0-7_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (bitops)
+* installing *binary* package ‘XML’ ...
+* ‘XML’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘XML’ as ‘XML_3.99-0.14_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (XML)
+* installing *binary* package ‘RCurl’ ...
+* ‘RCurl’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘RCurl’ as ‘RCurl_1.98-1.12_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (RCurl)
+* installing *source* package ‘KEGGgraph’ ...
+** using staged installation
+** R
+** data
+*** moving datasets to lazyload DB
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘KEGGgraph’ as ‘KEGGgraph_1.60.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (KEGGgraph)
+
+The downloaded source packages are in
+	‘/tmp/Rtmpz8FYWI/downloaded_packages’
+
+real	0m12.575s
+user	0m9.013s
+sys	0m1.181s
