@@ -1216,7 +1216,6 @@
     "CNVMetrics": [],
     "CNVPanelizer": [],
     "CNVRanger": [
-        "GDSArray",
         "RaggedExperiment"
     ],
     "CNVrd2": [
@@ -2406,7 +2405,6 @@
         "enrichplot",
         "pathview"
     ],
-    "GDSArray": [],
     "genbankr": [
         "BSgenome",
         "GenomicAlignments",
@@ -6297,8 +6295,7 @@
         "rtracklayer"
     ],
     "VariantExperiment": [
-        "DelayedDataFrame",
-        "GDSArray"
+        "DelayedDataFrame"
     ],
     "VariantFiltering": [
         "AnnotationHub",
