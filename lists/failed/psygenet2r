@@ -1,0 +1,31 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE); p <- .libPaths(); p <- c('\''/tmp/tmp/built'\'', p); .libPaths(p); if(BiocManager::install('\''psygenet2r'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://packagemanager.posit.co/cran/__linux__/jammy/latest
+Warning: unable to access index for repository https://packagemanager.posit.co/cran/__linux__/jammy/latest/src/contrib:
+  cannot open URL 'https://packagemanager.posit.co/cran/__linux__/jammy/latest/src/contrib/PACKAGES'
+Bioconductor version 3.17 (BiocManager 1.30.20), R 4.3.0 (2023-04-21)
+Installing package(s) 'psygenet2r'
+Warning: unable to access index for repository https://packagemanager.posit.co/cran/__linux__/jammy/latest/src/contrib:
+  cannot open URL 'https://packagemanager.posit.co/cran/__linux__/jammy/latest/src/contrib/PACKAGES'
+Warning: dependencies ‘igraph’, ‘ggplot2’, ‘reshape2’, ‘labeling’ are not available
+trying URL 'https://bioconductor.org/packages/3.17/bioc/src/contrib/psygenet2r_1.31.0.tar.gz'
+Content type 'application/x-gzip' length 3210323 bytes (3.1 MB)
+==================================================
+downloaded 3.1 MB
+
+ERROR: dependencies ‘igraph’, ‘ggplot2’, ‘reshape2’, ‘labeling’ are not available for package ‘psygenet2r’
+* removing ‘/tmp/tmp/built/psygenet2r’
+
+The downloaded source packages are in
+	‘/tmp/RtmpL15zho/downloaded_packages’
+Warning: unable to access index for repository https://packagemanager.posit.co/cran/__linux__/jammy/latest/src/contrib:
+  cannot open URL 'https://packagemanager.posit.co/cran/__linux__/jammy/latest/src/contrib/PACKAGES'
+Warning message:
+In install.packages(...) :
+  installation of package ‘psygenet2r’ had non-zero exit status
+
+real	0m9.100s
+user	0m2.427s
+sys	0m0.372s
