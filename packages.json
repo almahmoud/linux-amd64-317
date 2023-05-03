@@ -90,22 +90,18 @@
         "biovizBase"
     ],
     "ATACCoGAPS": [
-        "TFBSTools",
         "chromVAR",
         "motifmatchr"
     ],
     "ATACseqQC": [
         "ChIPpeakAnno",
-        "TFBSTools",
         "motifStack",
         "regioneR"
     ],
     "ATACseqTFEA": [
-        "TFBSTools",
         "motifmatchr"
     ],
     "atSNP": [
-        "TFBSTools",
         "motifStack"
     ],
     "attract": [
@@ -304,9 +300,7 @@
     "ChromSCape": [
         "batchelor"
     ],
-    "chromVAR": [
-        "TFBSTools"
-    ],
+    "chromVAR": [],
     "cicero": [
         "Gviz",
         "VariantAnnotation",
@@ -444,7 +438,6 @@
         "cytomapper"
     ],
     "dagLogo": [
-        "TFBSTools",
         "motifStack"
     ],
     "DAMEfinder": [
@@ -532,7 +525,6 @@
         "pathview"
     ],
     "enhancerHomologSearch": [
-        "TFBSTools",
         "motifmatchr"
     ],
     "ENmix": [],
@@ -543,7 +535,6 @@
         "pathview"
     ],
     "enrichTF": [
-        "TFBSTools",
         "motifmatchr",
         "pipeFrame"
     ],
@@ -578,7 +569,6 @@
         "VariantAnnotation"
     ],
     "esATAC": [
-        "TFBSTools",
         "motifmatchr",
         "pipeFrame"
     ],
@@ -866,9 +856,7 @@
     "MatrixQCvis": [
         "vsn"
     ],
-    "MatrixRider": [
-        "TFBSTools"
-    ],
+    "MatrixRider": [],
     "mCSEA": [
         "Gviz",
         "VariantAnnotation",
@@ -983,22 +971,15 @@
         "GSEABase"
     ],
     "MoleculeExperiment": [],
-    "monaLisa": [
-        "TFBSTools"
-    ],
+    "monaLisa": [],
     "motifbreakR": [
         "Gviz",
-        "TFBSTools",
         "VariantAnnotation",
         "biovizBase",
         "motifStack"
     ],
-    "motifmatchr": [
-        "TFBSTools"
-    ],
-    "motifStack": [
-        "TFBSTools"
-    ],
+    "motifmatchr": [],
+    "motifStack": [],
     "msgbsR": [
         "VariantAnnotation",
         "biovizBase",
@@ -1063,7 +1044,6 @@
         "ATACseqQC",
         "ChIPpeakAnno",
         "Gviz",
-        "TFBSTools",
         "VariantAnnotation",
         "biovizBase",
         "motifStack",
@@ -1130,7 +1110,6 @@
     ],
     "PAA": [],
     "pageRank": [
-        "TFBSTools",
         "motifmatchr"
     ],
     "pairedGSEA": [],
@@ -1178,7 +1157,6 @@
     "preciseTAD": [],
     "primirTSS": [
         "Gviz",
-        "TFBSTools",
         "VariantAnnotation",
         "biovizBase"
     ],
@@ -1322,7 +1300,6 @@
     "ribosomeProfilingQC": [
         "EDASeq",
         "RUVSeq",
-        "TFBSTools",
         "motifStack"
     ],
     "Ringo": [
@@ -1538,7 +1515,6 @@
     "spatzie": [
         "GenomicInteractions",
         "Gviz",
-        "TFBSTools",
         "VariantAnnotation",
         "biovizBase",
         "motifmatchr"
@@ -1593,7 +1569,6 @@
     ],
     "TDbasedUFEadv": [],
     "terraTCGAdata": [],
-    "TFBSTools": [],
     "TFHAZ": [
         "ORFik"
     ],
