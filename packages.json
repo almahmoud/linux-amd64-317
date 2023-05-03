@@ -245,7 +245,6 @@
         "SpatialExperiment",
         "SummarizedExperiment",
         "VariantAnnotation",
-        "alabaster.base",
         "alabaster.bumpy",
         "alabaster.mae",
         "alabaster.matrix",
@@ -260,10 +259,7 @@
         "rtracklayer",
         "scuttle"
     ],
-    "alabaster.base": [],
-    "alabaster.bumpy": [
-        "alabaster.base"
-    ],
+    "alabaster.bumpy": [],
     "alabaster.mae": [
         "DelayedArray",
         "GenomeInfoDb",
@@ -271,20 +267,17 @@
         "HDF5Array",
         "MultiAssayExperiment",
         "SummarizedExperiment",
-        "alabaster.base",
         "alabaster.matrix",
         "alabaster.ranges",
         "alabaster.se"
     ],
     "alabaster.matrix": [
         "DelayedArray",
-        "HDF5Array",
-        "alabaster.base"
+        "HDF5Array"
     ],
     "alabaster.ranges": [
         "GenomeInfoDb",
-        "GenomicRanges",
-        "alabaster.base"
+        "GenomicRanges"
     ],
     "alabaster.sce": [
         "DelayedArray",
@@ -293,7 +286,6 @@
         "HDF5Array",
         "SingleCellExperiment",
         "SummarizedExperiment",
-        "alabaster.base",
         "alabaster.matrix",
         "alabaster.ranges",
         "alabaster.se"
@@ -304,7 +296,6 @@
         "GenomicRanges",
         "HDF5Array",
         "SummarizedExperiment",
-        "alabaster.base",
         "alabaster.matrix",
         "alabaster.ranges"
     ],
@@ -318,7 +309,6 @@
         "SingleCellExperiment",
         "SpatialExperiment",
         "SummarizedExperiment",
-        "alabaster.base",
         "alabaster.matrix",
         "alabaster.ranges",
         "alabaster.sce",
@@ -328,8 +318,7 @@
     ],
     "alabaster.string": [
         "Biostrings",
-        "GenomeInfoDb",
-        "alabaster.base"
+        "GenomeInfoDb"
     ],
     "alabaster.vcf": [
         "AnnotationDbi",
@@ -345,7 +334,6 @@
         "Rsamtools",
         "SummarizedExperiment",
         "VariantAnnotation",
-        "alabaster.base",
         "alabaster.matrix",
         "alabaster.ranges",
         "alabaster.se",
