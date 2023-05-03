@@ -156,7 +156,6 @@
     ],
     "ATACCoGAPS": [
         "BSgenome",
-        "CNEr",
         "GenomicFeatures",
         "OrganismDbi",
         "TFBSTools",
@@ -167,7 +166,6 @@
     ],
     "ATACseqQC": [
         "BSgenome",
-        "CNEr",
         "ChIPpeakAnno",
         "GenomicFeatures",
         "TFBSTools",
@@ -177,13 +175,11 @@
     ],
     "ATACseqTFEA": [
         "BSgenome",
-        "CNEr",
         "TFBSTools",
         "motifmatchr"
     ],
     "atSNP": [
         "BSgenome",
-        "CNEr",
         "TFBSTools",
         "motifStack"
     ],
@@ -582,7 +578,6 @@
     ],
     "chromVAR": [
         "BSgenome",
-        "CNEr",
         "TFBSTools"
     ],
     "cicero": [
@@ -635,7 +630,6 @@
     ],
     "clusterProfiler": [],
     "cn.farms": [],
-    "CNEr": [],
     "CNVfilteR": [
         "BSgenome",
         "CopyNumberPlots",
@@ -837,7 +831,6 @@
     "dada2": [],
     "dagLogo": [
         "BSgenome",
-        "CNEr",
         "TFBSTools",
         "motifStack"
     ],
@@ -1037,7 +1030,6 @@
     ],
     "enhancerHomologSearch": [
         "BSgenome",
-        "CNEr",
         "TFBSTools",
         "motifmatchr"
     ],
@@ -1054,7 +1046,6 @@
     ],
     "enrichTF": [
         "BSgenome",
-        "CNEr",
         "TFBSTools",
         "clusterProfiler",
         "motifmatchr",
@@ -1135,7 +1126,6 @@
     ],
     "esATAC": [
         "BSgenome",
-        "CNEr",
         "ChIPseeker",
         "GenomicFeatures",
         "TFBSTools",
@@ -1695,7 +1685,6 @@
     ],
     "MatrixRider": [
         "BSgenome",
-        "CNEr",
         "TFBSTools"
     ],
     "MBECS": [
@@ -1931,7 +1920,6 @@
     ],
     "monaLisa": [
         "BSgenome",
-        "CNEr",
         "TFBSTools"
     ],
     "Motif2Site": [
@@ -1939,7 +1927,6 @@
     ],
     "motifbreakR": [
         "BSgenome",
-        "CNEr",
         "GenomicFeatures",
         "Gviz",
         "MotifDb",
@@ -1952,12 +1939,10 @@
     "MotifDb": [],
     "motifmatchr": [
         "BSgenome",
-        "CNEr",
         "TFBSTools"
     ],
     "motifStack": [
         "BSgenome",
-        "CNEr",
         "TFBSTools"
     ],
     "MsExperiment": [],
@@ -2068,7 +2053,6 @@
     "NADfinder": [
         "ATACseqQC",
         "BSgenome",
-        "CNEr",
         "ChIPpeakAnno",
         "GenomicFeatures",
         "Gviz",
@@ -2208,7 +2192,6 @@
     ],
     "pageRank": [
         "BSgenome",
-        "CNEr",
         "TFBSTools",
         "motifmatchr"
     ],
@@ -2308,7 +2291,6 @@
     ],
     "primirTSS": [
         "BSgenome",
-        "CNEr",
         "GenomicFeatures",
         "Gviz",
         "TFBSTools",
@@ -2603,7 +2585,6 @@
     ],
     "ribosomeProfilingQC": [
         "BSgenome",
-        "CNEr",
         "EDASeq",
         "GenomicFeatures",
         "RUVSeq",
@@ -3033,7 +3014,6 @@
     ],
     "spatzie": [
         "BSgenome",
-        "CNEr",
         "GenomicFeatures",
         "GenomicInteractions",
         "Gviz",
@@ -3152,8 +3132,7 @@
         "TCGAutils"
     ],
     "TFBSTools": [
-        "BSgenome",
-        "CNEr"
+        "BSgenome"
     ],
     "TFEA.ChIP": [
         "GenomicFeatures"
