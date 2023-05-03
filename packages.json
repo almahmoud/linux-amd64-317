@@ -6,9 +6,7 @@
     "a4Base": [
         "genefilter"
     ],
-    "ACE": [
-        "QDNAseq"
-    ],
+    "ACE": [],
     "ADaCGH2": [
         "affy",
         "genefilter",
@@ -459,7 +457,6 @@
         "ExperimentHub",
         "GenomicFeatures",
         "OrganismDbi",
-        "QDNAseq",
         "VariantAnnotation",
         "annotatr",
         "bsseq",
@@ -1870,9 +1867,7 @@
         "GenomicFeatures",
         "rtracklayer"
     ],
-    "GeneBreak": [
-        "QDNAseq"
-    ],
+    "GeneBreak": [],
     "genefilter": [],
     "genefu": [],
     "GeneMeta": [
@@ -2115,9 +2110,7 @@
         "BSgenome",
         "rtracklayer"
     ],
-    "HiCcompare": [
-        "QDNAseq"
-    ],
+    "HiCcompare": [],
     "HiCDCPlus": [
         "BSgenome",
         "GenomicFeatures",
@@ -2130,7 +2123,6 @@
     ],
     "HiCDOC": [
         "HiCcompare",
-        "QDNAseq",
         "multiHiCcompare"
     ],
     "HiCExperiment": [],
@@ -2954,8 +2946,7 @@
         "graphite"
     ],
     "multiHiCcompare": [
-        "HiCcompare",
-        "QDNAseq"
+        "HiCcompare"
     ],
     "MultimodalExperiment": [],
     "multiSight": [
@@ -3512,7 +3503,6 @@
         "ExperimentHub",
         "genefilter"
     ],
-    "QDNAseq": [],
     "QFeatures": [],
     "qpcrNorm": [
         "affy"
@@ -4432,8 +4422,7 @@
     ],
     "speckle": [],
     "SpectralTAD": [
-        "HiCcompare",
-        "QDNAseq"
+        "HiCcompare"
     ],
     "SPIA": [
         "KEGGgraph"
@@ -4573,8 +4562,7 @@
     ],
     "systemPipeTools": [],
     "TADCompare": [
-        "HiCcompare",
-        "QDNAseq"
+        "HiCcompare"
     ],
     "tanggle": [],
     "TAPseq": [
