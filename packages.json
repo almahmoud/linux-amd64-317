@@ -51,7 +51,6 @@
         "GSEABase"
     ],
     "bandle": [
-        "MSnbase",
         "pRoloc"
     ],
     "batchelor": [],
@@ -104,7 +103,6 @@
         "Gviz"
     ],
     "CAMERA": [
-        "MSnbase",
         "xcms"
     ],
     "canceR": [
@@ -160,12 +158,9 @@
         "KEGGgraph"
     ],
     "cliqueMS": [
-        "MSnbase",
         "xcms"
     ],
-    "CluMSID": [
-        "MSnbase"
-    ],
+    "CluMSID": [],
     "CNVfilteR": [
         "CopyNumberPlots",
         "karyoploteR"
@@ -198,7 +193,6 @@
         "karyoploteR"
     ],
     "cosmiq": [
-        "MSnbase",
         "xcms"
     ],
     "cosmosR": [
@@ -222,9 +216,7 @@
     "DaMiRseq": [
         "EDASeq"
     ],
-    "DAPAR": [
-        "MSnbase"
-    ],
+    "DAPAR": [],
     "debrowser": [
         "KEGGgraph",
         "pathview"
@@ -233,9 +225,7 @@
         "KEGGgraph",
         "NCIgraph"
     ],
-    "DEP": [
-        "MSnbase"
-    ],
+    "DEP": [],
     "derfinder": [],
     "derfinderPlot": [
         "derfinder",
@@ -285,7 +275,6 @@
     ],
     "flagme": [
         "CAMERA",
-        "MSnbase",
         "xcms"
     ],
     "FLAMES": [
@@ -379,7 +368,6 @@
     "IntEREst": [],
     "IPO": [
         "CAMERA",
-        "MSnbase",
         "xcms"
     ],
     "karyoploteR": [],
@@ -393,7 +381,6 @@
     "lisaClust": [],
     "LOBSTAHS": [
         "CAMERA",
-        "MSnbase",
         "xcms"
     ],
     "lumi": [],
@@ -407,7 +394,6 @@
     ],
     "MAIT": [
         "CAMERA",
-        "MSnbase",
         "xcms"
     ],
     "maser": [
@@ -432,7 +418,6 @@
         "GSEABase"
     ],
     "Metab": [
-        "MSnbase",
         "xcms"
     ],
     "MetaboSignal": [
@@ -441,7 +426,6 @@
     ],
     "metaMS": [
         "CAMERA",
-        "MSnbase",
         "xcms"
     ],
     "methylclock": [],
@@ -477,7 +461,6 @@
         "gmapR"
     ],
     "MobilityTransformR": [
-        "MSnbase",
         "xcms"
     ],
     "mogsa": [
@@ -489,24 +472,16 @@
     "msgbsR": [
         "ggbio"
     ],
-    "msmsEDA": [
-        "MSnbase"
-    ],
+    "msmsEDA": [],
     "msmsTests": [
-        "MSnbase",
         "msmsEDA"
     ],
-    "MSnbase": [],
     "MSnID": [
-        "MSnbase",
         "msmsEDA",
         "msmsTests"
     ],
-    "MSstatsQC": [
-        "MSnbase"
-    ],
+    "MSstatsQC": [],
     "MSstatsQCgui": [
-        "MSnbase",
         "MSstatsQC"
     ],
     "multicrispr": [
@@ -527,7 +502,6 @@
         "trackViewer"
     ],
     "ncGTW": [
-        "MSnbase",
         "xcms"
     ],
     "NCIgraph": [
@@ -579,9 +553,7 @@
         "GSEABase"
     ],
     "PDATK": [],
-    "peakPantheR": [
-        "MSnbase"
-    ],
+    "peakPantheR": [],
     "PFP": [
         "KEGGgraph"
     ],
@@ -600,22 +572,16 @@
     "primirTSS": [
         "Gviz"
     ],
-    "PrInCE": [
-        "MSnbase"
-    ],
-    "pRoloc": [
-        "MSnbase"
-    ],
+    "PrInCE": [],
+    "pRoloc": [],
     "pRolocGUI": [
-        "MSnbase",
         "pRoloc"
     ],
     "PROMISE": [
         "GSEABase"
     ],
     "Prostar": [
-        "DAPAR",
-        "MSnbase"
+        "DAPAR"
     ],
     "ProteoDisco": [],
     "protGear": [],
@@ -623,16 +589,12 @@
         "derfinder",
         "recount"
     ],
-    "ptairMS": [
-        "MSnbase"
-    ],
+    "ptairMS": [],
     "PureCN": [],
     "Pviz": [
         "Gviz"
     ],
-    "qPLEXanalyzer": [
-        "MSnbase"
-    ],
+    "qPLEXanalyzer": [],
     "QuasR": [],
     "R3CPET": [
         "ggbio"
@@ -679,12 +641,9 @@
         "karyoploteR"
     ],
     "Risa": [
-        "MSnbase",
         "xcms"
     ],
-    "RMassBank": [
-        "MSnbase"
-    ],
+    "RMassBank": [],
     "RNAAgeCalc": [
         "derfinder",
         "recount"
@@ -839,9 +798,7 @@
     "svaRetro": [
         "StructuralVariantAnnotation"
     ],
-    "synapter": [
-        "MSnbase"
-    ],
+    "synapter": [],
     "tanggle": [],
     "TBSignatureProfiler": [
         "GSEABase",
@@ -863,9 +820,7 @@
         "GSEABase",
         "GSVA"
     ],
-    "topdownr": [
-        "MSnbase"
-    ],
+    "topdownr": [],
     "trackViewer": [
         "Gviz"
     ],
@@ -892,9 +847,7 @@
         "lumi"
     ],
     "webbioc": [],
-    "xcms": [
-        "MSnbase"
-    ],
+    "xcms": [],
     "YAPSA": [
         "SomaticSignatures",
         "ggbio"
