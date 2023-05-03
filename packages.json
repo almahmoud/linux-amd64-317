@@ -164,7 +164,6 @@
     ],
     "airpart": [
         "BiocSingular",
-        "ScaledMatrix",
         "SingleCellExperiment",
         "SummarizedExperiment",
         "apeglm",
@@ -310,7 +309,6 @@
         "DECIPHER",
         "DirichletMultinomial",
         "MultiAssayExperiment",
-        "ScaledMatrix",
         "SingleCellExperiment",
         "SummarizedExperiment",
         "TreeSummarizedExperiment",
@@ -684,7 +682,6 @@
     ],
     "BASiCS": [
         "BiocSingular",
-        "ScaledMatrix",
         "SingleCellExperiment",
         "SummarizedExperiment",
         "scran",
@@ -694,7 +691,6 @@
         "BASiCS",
         "BiocSingular",
         "HDF5Array",
-        "ScaledMatrix",
         "SingleCellExperiment",
         "SummarizedExperiment",
         "glmGamPoi",
@@ -708,7 +704,6 @@
     ],
     "batchelor": [
         "BiocSingular",
-        "ScaledMatrix",
         "SingleCellExperiment",
         "SummarizedExperiment",
         "scuttle"
@@ -722,7 +717,6 @@
     ],
     "BayesSpace": [
         "BiocSingular",
-        "ScaledMatrix",
         "SingleCellExperiment",
         "SummarizedExperiment",
         "scater",
@@ -781,7 +775,6 @@
         "KEGGREST",
         "MAST",
         "MultiAssayExperiment",
-        "ScaledMatrix",
         "SingleCellExperiment",
         "SummarizedExperiment",
         "TreeSummarizedExperiment",
@@ -904,9 +897,7 @@
         "AnnotationDbi",
         "KEGGREST"
     ],
-    "BiocSingular": [
-        "ScaledMatrix"
-    ],
+    "BiocSingular": [],
     "BiocSklearn": [
         "SummarizedExperiment"
     ],
@@ -950,7 +941,6 @@
     ],
     "BioTIP": [
         "BiocSingular",
-        "ScaledMatrix",
         "SingleCellExperiment",
         "SummarizedExperiment",
         "scran",
@@ -1322,7 +1312,6 @@
     ],
     "CATALYST": [
         "BiocSingular",
-        "ScaledMatrix",
         "SingleCellExperiment",
         "SummarizedExperiment",
         "scater",
@@ -1419,7 +1408,6 @@
     ],
     "celda": [
         "BiocSingular",
-        "ScaledMatrix",
         "SingleCellExperiment",
         "SummarizedExperiment",
         "scater",
@@ -1452,7 +1440,6 @@
     ],
     "CelliD": [
         "BiocSingular",
-        "ScaledMatrix",
         "SingleCellExperiment",
         "SummarizedExperiment",
         "scater",
@@ -1465,7 +1452,6 @@
     ],
     "CellMixS": [
         "BiocSingular",
-        "ScaledMatrix",
         "SingleCellExperiment",
         "SummarizedExperiment",
         "scater",
@@ -1719,7 +1705,6 @@
         "BiocSingular",
         "GenomicAlignments",
         "Rsamtools",
-        "ScaledMatrix",
         "SingleCellExperiment",
         "SummarizedExperiment",
         "batchelor",
@@ -1807,7 +1792,6 @@
     ],
     "CiteFuse": [
         "BiocSingular",
-        "ScaledMatrix",
         "SingleCellExperiment",
         "SummarizedExperiment",
         "scran",
@@ -1867,7 +1851,6 @@
         "BiocSingular",
         "HDF5Array",
         "KEGGREST",
-        "ScaledMatrix",
         "SingleCellExperiment",
         "SummarizedExperiment",
         "annotate",
@@ -2078,7 +2061,6 @@
         "HDF5Array",
         "RaggedExperiment",
         "Rsamtools",
-        "ScaledMatrix",
         "SummarizedExperiment",
         "rtracklayer"
     ],
@@ -2106,7 +2088,6 @@
     "concordexR": [],
     "condiments": [
         "BiocSingular",
-        "ScaledMatrix",
         "SingleCellExperiment",
         "SummarizedExperiment",
         "TrajectoryUtils",
@@ -2139,7 +2120,6 @@
         "GSVA",
         "HDF5Array",
         "KEGGREST",
-        "ScaledMatrix",
         "SingleCellExperiment",
         "SummarizedExperiment",
         "annotate",
@@ -2496,7 +2476,6 @@
     "cytofQC": [
         "BiocSingular",
         "CATALYST",
-        "ScaledMatrix",
         "SingleCellExperiment",
         "SummarizedExperiment",
         "scater",
@@ -2700,8 +2679,7 @@
     ],
     "DelayedTensor": [
         "BiocSingular",
-        "HDF5Array",
-        "ScaledMatrix"
+        "HDF5Array"
     ],
     "DELocal": [
         "DESeq2",
@@ -2877,7 +2855,6 @@
     ],
     "Dino": [
         "BiocSingular",
-        "ScaledMatrix",
         "SingleCellExperiment",
         "SummarizedExperiment",
         "scran",
@@ -2889,7 +2866,6 @@
     ],
     "distinct": [
         "BiocSingular",
-        "ScaledMatrix",
         "SingleCellExperiment",
         "SummarizedExperiment",
         "scater",
@@ -3150,7 +3126,6 @@
         "KEGGREST",
         "KEGGgraph",
         "PADOG",
-        "ScaledMatrix",
         "SingleCellExperiment",
         "SummarizedExperiment",
         "annotate",
@@ -3471,7 +3446,6 @@
         "GSVA",
         "HDF5Array",
         "KEGGREST",
-        "ScaledMatrix",
         "SingleCellExperiment",
         "SummarizedExperiment",
         "UCell",
@@ -3487,7 +3461,6 @@
         "HDF5Array",
         "KEGGREST",
         "Rsamtools",
-        "ScaledMatrix",
         "SingleCellExperiment",
         "SpatialExperiment",
         "SummarizedExperiment",
@@ -3744,7 +3717,6 @@
         "MultiAssayExperiment",
         "OrganismDbi",
         "Rsamtools",
-        "ScaledMatrix",
         "SingleCellExperiment",
         "SummarizedExperiment",
         "VariantAnnotation",
@@ -4406,7 +4378,6 @@
         "GSEABase",
         "HDF5Array",
         "KEGGREST",
-        "ScaledMatrix",
         "SingleCellExperiment",
         "SummarizedExperiment",
         "annotate"
@@ -4882,7 +4853,6 @@
         "DOSE",
         "GOSemSim",
         "KEGGREST",
-        "ScaledMatrix",
         "SingleCellExperiment",
         "SummarizedExperiment",
         "clusterProfiler",
@@ -5406,7 +5376,6 @@
     ],
     "MEB": [
         "BiocSingular",
-        "ScaledMatrix",
         "SingleCellExperiment",
         "SummarizedExperiment",
         "scater",
@@ -5723,7 +5692,6 @@
         "DECIPHER",
         "DirichletMultinomial",
         "MultiAssayExperiment",
-        "ScaledMatrix",
         "SingleCellExperiment",
         "SummarizedExperiment",
         "TreeSummarizedExperiment",
@@ -5740,7 +5708,6 @@
         "DECIPHER",
         "DirichletMultinomial",
         "MultiAssayExperiment",
-        "ScaledMatrix",
         "SingleCellExperiment",
         "SummarizedExperiment",
         "TreeSummarizedExperiment",
@@ -5766,7 +5733,6 @@
         "DESeq2",
         "DirichletMultinomial",
         "MultiAssayExperiment",
-        "ScaledMatrix",
         "SingleCellExperiment",
         "SummarizedExperiment",
         "TreeSummarizedExperiment",
@@ -5798,7 +5764,6 @@
     ],
     "miloR": [
         "BiocSingular",
-        "ScaledMatrix",
         "SingleCellExperiment",
         "SummarizedExperiment"
     ],
@@ -6162,7 +6127,6 @@
     ],
     "msImpute": [
         "BiocSingular",
-        "ScaledMatrix",
         "SingleCellExperiment",
         "SummarizedExperiment",
         "scran",
@@ -6315,7 +6279,6 @@
     ],
     "mumosa": [
         "BiocSingular",
-        "ScaledMatrix",
         "SingleCellExperiment",
         "SummarizedExperiment",
         "batchelor",
@@ -6337,7 +6300,6 @@
     "muscat": [
         "BiocSingular",
         "DESeq2",
-        "ScaledMatrix",
         "SingleCellExperiment",
         "SummarizedExperiment",
         "scater",
@@ -6434,7 +6396,6 @@
         "HDF5Array",
         "KEGGREST",
         "Rsamtools",
-        "ScaledMatrix",
         "SummarizedExperiment",
         "bsseq",
         "rtracklayer"
@@ -6509,7 +6470,6 @@
         "BiocSingular",
         "HDF5Array",
         "KEGGREST",
-        "ScaledMatrix",
         "SingleCellExperiment",
         "SummarizedExperiment",
         "annotate",
@@ -6629,7 +6589,6 @@
         "KEGGREST",
         "RUVSeq",
         "Rsamtools",
-        "ScaledMatrix",
         "ShortRead",
         "SingleCellExperiment",
         "SummarizedExperiment",
@@ -6771,7 +6730,6 @@
         "GSVA",
         "HDF5Array",
         "KEGGREST",
-        "ScaledMatrix",
         "SingleCellExperiment",
         "SummarizedExperiment",
         "annotate"
@@ -6957,8 +6915,7 @@
         "topGO"
     ],
     "PCAtools": [
-        "BiocSingular",
-        "ScaledMatrix"
+        "BiocSingular"
     ],
     "PDATK": [
         "AnnotationDbi",
@@ -6991,7 +6948,6 @@
     ],
     "peco": [
         "BiocSingular",
-        "ScaledMatrix",
         "SingleCellExperiment",
         "SummarizedExperiment",
         "scater",
@@ -7101,7 +7057,6 @@
     ],
     "pipeComp": [
         "BiocSingular",
-        "ScaledMatrix",
         "SingleCellExperiment",
         "SummarizedExperiment",
         "scater",
@@ -8446,7 +8401,6 @@
     "Scale4C": [
         "SummarizedExperiment"
     ],
-    "ScaledMatrix": [],
     "SCAN.UPC": [
         "AnnotationDbi",
         "KEGGREST",
@@ -8488,14 +8442,12 @@
     ],
     "SCArray": [
         "BiocSingular",
-        "ScaledMatrix",
         "SingleCellExperiment",
         "SummarizedExperiment"
     ],
     "SCArray.sat": [
         "BiocSingular",
         "SCArray",
-        "ScaledMatrix",
         "SingleCellExperiment",
         "SummarizedExperiment"
     ],
@@ -8510,7 +8462,6 @@
     ],
     "scater": [
         "BiocSingular",
-        "ScaledMatrix",
         "SingleCellExperiment",
         "SummarizedExperiment",
         "scuttle"
@@ -8554,7 +8505,6 @@
         "BiocSingular",
         "GenomicAlignments",
         "Rsamtools",
-        "ScaledMatrix",
         "SingleCellExperiment",
         "SummarizedExperiment",
         "rtracklayer",
@@ -8564,7 +8514,6 @@
     ],
     "scDD": [
         "BiocSingular",
-        "ScaledMatrix",
         "SingleCellExperiment",
         "SummarizedExperiment",
         "scran",
@@ -8591,7 +8540,6 @@
         "HDF5Array",
         "KEGGREST",
         "Rsamtools",
-        "ScaledMatrix",
         "SingleCellExperiment",
         "SingleCellSignalR",
         "SpatialExperiment",
@@ -8626,7 +8574,6 @@
     ],
     "scMerge": [
         "BiocSingular",
-        "ScaledMatrix",
         "SingleCellExperiment",
         "SummarizedExperiment",
         "batchelor",
@@ -8698,9 +8645,7 @@
         "SingleCellExperiment",
         "SummarizedExperiment"
     ],
-    "scPCA": [
-        "ScaledMatrix"
-    ],
+    "scPCA": [],
     "scPipe": [
         "AnnotationDbi",
         "DropletUtils",
@@ -8717,7 +8662,6 @@
     ],
     "scran": [
         "BiocSingular",
-        "ScaledMatrix",
         "SingleCellExperiment",
         "SummarizedExperiment",
         "scuttle"
@@ -8763,7 +8707,6 @@
     ],
     "scry": [
         "BiocSingular",
-        "ScaledMatrix",
         "SingleCellExperiment",
         "SummarizedExperiment"
     ],
@@ -8806,7 +8749,6 @@
         "KEGGREST",
         "OrganismDbi",
         "Rsamtools",
-        "ScaledMatrix",
         "SingleCellExperiment",
         "SummarizedExperiment",
         "biomaRt",
@@ -8825,7 +8767,6 @@
     ],
     "scviR": [
         "BiocSingular",
-        "ScaledMatrix",
         "SingleCellExperiment",
         "SummarizedExperiment",
         "scater",
@@ -9070,7 +9011,6 @@
         "HDF5Array",
         "KEGGREST",
         "Rsamtools",
-        "ScaledMatrix",
         "SingleCellExperiment",
         "SummarizedExperiment",
         "annotate",
@@ -9138,7 +9078,6 @@
     ],
     "SingleCellSignalR": [
         "BiocSingular",
-        "ScaledMatrix",
         "SingleCellExperiment",
         "SummarizedExperiment",
         "scran",
@@ -9160,7 +9099,6 @@
         "KEGGREST",
         "MAST",
         "Rsamtools",
-        "ScaledMatrix",
         "SingleCellExperiment",
         "SingleR",
         "SummarizedExperiment",
@@ -9200,7 +9138,6 @@
     ],
     "SingleR": [
         "BiocSingular",
-        "ScaledMatrix",
         "SummarizedExperiment"
     ],
     "singscore": [
@@ -9221,7 +9158,6 @@
         "GSVA",
         "HDF5Array",
         "KEGGREST",
-        "ScaledMatrix",
         "SingleCellExperiment",
         "SummarizedExperiment",
         "annotate",
@@ -9338,7 +9274,6 @@
         "BiocSingular",
         "DropletUtils",
         "HDF5Array",
-        "ScaledMatrix",
         "SingleCellExperiment",
         "SummarizedExperiment",
         "scater",
@@ -9401,7 +9336,6 @@
         "AnnotationDbi",
         "BiocSingular",
         "KEGGREST",
-        "ScaledMatrix",
         "SingleCellExperiment",
         "SummarizedExperiment",
         "annotate",
@@ -9787,7 +9721,6 @@
         "GSVA",
         "HDF5Array",
         "KEGGREST",
-        "ScaledMatrix",
         "SingleCellExperiment",
         "SummarizedExperiment",
         "annotate",
@@ -9979,7 +9912,6 @@
         "GSVA",
         "HDF5Array",
         "KEGGREST",
-        "ScaledMatrix",
         "SingleCellExperiment",
         "SummarizedExperiment",
         "annotate"
@@ -10134,7 +10066,6 @@
         "AnnotationDbi",
         "BiocSingular",
         "KEGGREST",
-        "ScaledMatrix",
         "SingleCellExperiment",
         "SummarizedExperiment",
         "scater",
@@ -10297,7 +10228,6 @@
     "universalmotif": [],
     "VAExprs": [
         "BiocSingular",
-        "ScaledMatrix",
         "SingleCellExperiment",
         "SummarizedExperiment",
         "scater",
@@ -10402,7 +10332,6 @@
     ],
     "velociraptor": [
         "BiocSingular",
-        "ScaledMatrix",
         "SingleCellExperiment",
         "SummarizedExperiment",
         "scuttle",
