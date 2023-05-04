@@ -2583,7 +2583,6 @@
     "hiAnnotator": [
         "BSgenome"
     ],
-    "HiCcompare": [],
     "HiCDCPlus": [
         "AnnotationDbi",
         "BSgenome",
@@ -2597,7 +2596,6 @@
         "ensembldb"
     ],
     "HiCDOC": [
-        "HiCcompare",
         "multiHiCcompare"
     ],
     "HiLDA": [
@@ -3536,9 +3534,7 @@
         "KEGGREST",
         "graphite"
     ],
-    "multiHiCcompare": [
-        "HiCcompare"
-    ],
+    "multiHiCcompare": [],
     "multiMiR": [
         "AnnotationDbi",
         "KEGGREST"
@@ -5250,9 +5246,7 @@
         "ensembldb",
         "motifmatchr"
     ],
-    "SpectralTAD": [
-        "HiCcompare"
-    ],
+    "SpectralTAD": [],
     "SPIAT": [
         "DropletUtils",
         "SpatialExperiment"
@@ -5411,9 +5405,7 @@
     ],
     "syntenet": [],
     "systemPipeR": [],
-    "TADCompare": [
-        "HiCcompare"
-    ],
+    "TADCompare": [],
     "TAPseq": [
         "AnnotationDbi",
         "BSgenome",
