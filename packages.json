@@ -165,7 +165,6 @@
         "ShortRead"
     ],
     "ANCOMBC": [
-        "TreeSummarizedExperiment",
         "mia",
         "scater"
     ],
@@ -454,7 +453,6 @@
         "ANCOMBC",
         "AnnotationDbi",
         "KEGGREST",
-        "TreeSummarizedExperiment",
         "annotate",
         "genefilter",
         "mia",
@@ -870,8 +868,7 @@
     "CBEA": [
         "AnnotationDbi",
         "BiocSet",
-        "KEGGREST",
-        "TreeSummarizedExperiment"
+        "KEGGREST"
     ],
     "cBioPortalData": [
         "AnnotationDbi",
@@ -2251,8 +2248,7 @@
     ],
     "ExperimentSubset": [
         "DropletUtils",
-        "SpatialExperiment",
-        "TreeSummarizedExperiment"
+        "SpatialExperiment"
     ],
     "ExpressionAtlas": [],
     "extraChIPs": [
@@ -3589,20 +3585,15 @@
         "biomaRt"
     ],
     "mia": [
-        "TreeSummarizedExperiment",
         "scater"
     ],
-    "miaSim": [
-        "TreeSummarizedExperiment"
-    ],
+    "miaSim": [],
     "miaViz": [
-        "TreeSummarizedExperiment",
         "mia",
         "scater"
     ],
     "microbiomeMarker": [
         "ANCOMBC",
-        "TreeSummarizedExperiment",
         "mia",
         "scater"
     ],
@@ -3614,9 +3605,7 @@
         "clusterProfiler",
         "enrichplot"
     ],
-    "microSTASIS": [
-        "TreeSummarizedExperiment"
-    ],
+    "microSTASIS": [],
     "midasHLA": [],
     "miloR": [],
     "mimager": [],
@@ -6208,7 +6197,6 @@
         "slingshot"
     ],
     "treekoR": [],
-    "TreeSummarizedExperiment": [],
     "trena": [
         "AnnotationDbi",
         "BSgenome",
