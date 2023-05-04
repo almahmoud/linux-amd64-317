@@ -55,7 +55,6 @@
         "AnnotationForge",
         "BSgenome",
         "Category",
-        "DESeq2",
         "GOstats",
         "GSEABase",
         "GenomicAlignments",
@@ -93,7 +92,6 @@
         "AnnotationForge",
         "BSgenome",
         "Category",
-        "DESeq2",
         "GOstats",
         "GSEABase",
         "GenomicAlignments",
@@ -211,9 +209,7 @@
         "GenomicAlignments",
         "ShortRead"
     ],
-    "Anaquin": [
-        "DESeq2"
-    ],
+    "Anaquin": [],
     "ANCOMBC": [
         "MultiAssayExperiment",
         "SingleCellExperiment",
@@ -226,7 +222,6 @@
         "GenomicAlignments"
     ],
     "animalcules": [
-        "DESeq2",
         "MultiAssayExperiment"
     ],
     "annaffy": [
@@ -276,13 +271,10 @@
         "regioneR",
         "rtracklayer"
     ],
-    "anota2seq": [
-        "DESeq2"
-    ],
+    "anota2seq": [],
     "APAlyzer": [
         "AnnotationDbi",
         "BSgenome",
-        "DESeq2",
         "GenomicAlignments",
         "GenomicFeatures",
         "KEGGREST",
@@ -572,7 +564,6 @@
     "benchdamic": [
         "ANCOMBC",
         "AnnotationDbi",
-        "DESeq2",
         "KEGGREST",
         "MAST",
         "MultiAssayExperiment",
@@ -759,7 +750,6 @@
     ],
     "blacksheepr": [
         "AnnotationDbi",
-        "DESeq2",
         "DEXSeq",
         "KEGGREST",
         "annotate",
@@ -851,7 +841,6 @@
         "GenomicAlignments"
     ],
     "BRGenomics": [
-        "DESeq2",
         "GenomicAlignments",
         "rtracklayer"
     ],
@@ -1149,7 +1138,6 @@
     ],
     "CeTF": [
         "AnnotationDbi",
-        "DESeq2",
         "DOSE",
         "GOSemSim",
         "KEGGREST",
@@ -1265,7 +1253,6 @@
     "ChIPQC": [
         "AnnotationDbi",
         "BSgenome",
-        "DESeq2",
         "DiffBind",
         "GenomicAlignments",
         "GenomicFeatures",
@@ -1366,7 +1353,6 @@
         "AnnotationDbi",
         "AnnotationHub",
         "BSgenome",
-        "DESeq2",
         "GenomicAlignments",
         "GenomicFeatures",
         "KEGGREST",
@@ -1618,7 +1604,6 @@
     ],
     "consensusDE": [
         "AnnotationDbi",
-        "DESeq2",
         "EDASeq",
         "GenomicAlignments",
         "GenomicFeatures",
@@ -1696,7 +1681,6 @@
         "SingleCellExperiment"
     ],
     "coseq": [
-        "DESeq2",
         "HTSFilter"
     ],
     "CoSIA": [
@@ -1718,7 +1702,6 @@
     ],
     "countsimQC": [
         "AnnotationDbi",
-        "DESeq2",
         "KEGGREST",
         "annotate",
         "genefilter"
@@ -1964,7 +1947,6 @@
     ],
     "DaMiRseq": [
         "AnnotationDbi",
-        "DESeq2",
         "EDASeq",
         "GenomicAlignments",
         "GenomicFeatures",
@@ -1994,7 +1976,6 @@
     "debCAM": [],
     "debrowser": [
         "AnnotationDbi",
-        "DESeq2",
         "DOSE",
         "GOSemSim",
         "KEGGREST",
@@ -2043,9 +2024,7 @@
         "biomaRt",
         "rtracklayer"
     ],
-    "DEFormats": [
-        "DESeq2"
-    ],
+    "DEFormats": [],
     "DegNorm": [
         "AnnotationDbi",
         "GenomicAlignments",
@@ -2054,16 +2033,10 @@
         "biomaRt",
         "rtracklayer"
     ],
-    "DEGreport": [
-        "DESeq2"
-    ],
+    "DEGreport": [],
     "DelayedTensor": [],
-    "DELocal": [
-        "DESeq2"
-    ],
-    "deltaCaptureC": [
-        "DESeq2"
-    ],
+    "DELocal": [],
+    "deltaCaptureC": [],
     "DeMixT": [
         "AnnotationDbi",
         "BSgenome",
@@ -2119,7 +2092,6 @@
         "regioneR",
         "rtracklayer"
     ],
-    "DESeq2": [],
     "DESpace": [
         "DropletUtils",
         "SingleCellExperiment",
@@ -2129,12 +2101,8 @@
     "destiny": [
         "SingleCellExperiment"
     ],
-    "DEsubs": [
-        "DESeq2"
-    ],
-    "DEWSeq": [
-        "DESeq2"
-    ],
+    "DEsubs": [],
+    "DEWSeq": [],
     "DExMA": [
         "AnnotationDbi",
         "KEGGREST",
@@ -2144,7 +2112,6 @@
     ],
     "DEXSeq": [
         "AnnotationDbi",
-        "DESeq2",
         "KEGGREST",
         "annotate",
         "biomaRt",
@@ -2153,7 +2120,6 @@
     ],
     "DiffBind": [
         "BSgenome",
-        "DESeq2",
         "GenomicAlignments",
         "GreyListChIP",
         "ShortRead",
@@ -2179,7 +2145,6 @@
     ],
     "diffUTR": [
         "AnnotationDbi",
-        "DESeq2",
         "DEXSeq",
         "GenomicAlignments",
         "GenomicFeatures",
@@ -2338,7 +2303,6 @@
     "easier": [
         "AnnotationDbi",
         "AnnotationHub",
-        "DESeq2",
         "ExperimentHub",
         "KEGGREST",
         "quantiseqr"
@@ -2358,9 +2322,7 @@
         "ShortRead",
         "biomaRt"
     ],
-    "EBSEA": [
-        "DESeq2"
-    ],
+    "EBSEA": [],
     "EDASeq": [
         "AnnotationDbi",
         "GenomicAlignments",
@@ -2382,7 +2344,6 @@
     ],
     "eegc": [
         "AnnotationDbi",
-        "DESeq2",
         "DOSE",
         "GOSemSim",
         "KEGGREST",
@@ -2495,7 +2456,6 @@
         "BRGenomics",
         "BSgenome",
         "ChIPseeker",
-        "DESeq2",
         "DOSE",
         "GOSemSim",
         "GenomicAlignments",
@@ -2620,9 +2580,7 @@
         "biomaRt",
         "rtracklayer"
     ],
-    "ERSSA": [
-        "DESeq2"
-    ],
+    "ERSSA": [],
     "esATAC": [
         "AnnotationDbi",
         "BSgenome",
@@ -2700,7 +2658,6 @@
     "exomePeak2": [
         "AnnotationDbi",
         "BSgenome",
-        "DESeq2",
         "GenomicAlignments",
         "GenomicFeatures",
         "KEGGREST",
@@ -2876,7 +2833,6 @@
     "FRASER": [
         "AnnotationDbi",
         "BSgenome",
-        "DESeq2",
         "GenomicAlignments",
         "GenomicFeatures",
         "KEGGREST",
@@ -2932,7 +2888,6 @@
     "GAprediction": [],
     "GARS": [
         "AnnotationDbi",
-        "DESeq2",
         "DaMiRseq",
         "EDASeq",
         "GenomicAlignments",
@@ -2955,7 +2910,6 @@
     "gCrisprTools": [],
     "GDCRNATools": [
         "AnnotationDbi",
-        "DESeq2",
         "DOSE",
         "GOSemSim",
         "KEGGREST",
@@ -3027,7 +2981,6 @@
     ],
     "GeneTonic": [
         "AnnotationDbi",
-        "DESeq2",
         "KEGGREST"
     ],
     "geneXtendeR": [
@@ -3167,9 +3120,7 @@
         "annotate",
         "genefilter"
     ],
-    "Glimma": [
-        "DESeq2"
-    ],
+    "Glimma": [],
     "glmGamPoi": [
         "SingleCellExperiment"
     ],
@@ -3291,7 +3242,6 @@
     ],
     "GRaNIE": [
         "AnnotationDbi",
-        "DESeq2",
         "KEGGREST",
         "biomaRt",
         "topGO"
@@ -3431,7 +3381,6 @@
     ],
     "hermes": [
         "AnnotationDbi",
-        "DESeq2",
         "KEGGREST",
         "MultiAssayExperiment",
         "biomaRt"
@@ -3525,16 +3474,13 @@
         "gmapR",
         "rtracklayer"
     ],
-    "HTSFilter": [
-        "DESeq2"
-    ],
+    "HTSFilter": [],
     "HumanTranscriptomeCompendium": [],
     "hummingbird": [],
     "iasva": [],
     "icetea": [
         "AnnotationDbi",
         "BSgenome",
-        "DESeq2",
         "GenomicAlignments",
         "GenomicFeatures",
         "KEGGREST",
@@ -3568,7 +3514,6 @@
         "AnnotationDbi",
         "AnnotationForge",
         "Category",
-        "DESeq2",
         "GOstats",
         "GSEABase",
         "GenomicAlignments",
@@ -3638,7 +3583,6 @@
     ],
     "INSPEcT": [
         "AnnotationDbi",
-        "DESeq2",
         "GenomicAlignments",
         "GenomicFeatures",
         "KEGGREST",
@@ -3681,7 +3625,6 @@
     "IntEREst": [
         "AnnotationDbi",
         "BSgenome",
-        "DESeq2",
         "DEXSeq",
         "GenomicAlignments",
         "GenomicFeatures",
@@ -3752,7 +3695,6 @@
         "AnnotationDbi",
         "AnnotationHub",
         "BSgenome",
-        "DESeq2",
         "DEXSeq",
         "GenomicAlignments",
         "GenomicFeatures",
@@ -3768,7 +3710,6 @@
     "isomiRs": [
         "AnnotationDbi",
         "DEGreport",
-        "DESeq2",
         "KEGGREST"
     ],
     "ITALICS": [
@@ -3819,7 +3760,6 @@
     "KEGGREST": [],
     "kissDE": [
         "BSgenome",
-        "DESeq2",
         "DSS",
         "GenomicAlignments",
         "bsseq",
@@ -3967,7 +3907,6 @@
     ],
     "magpie": [
         "AnnotationDbi",
-        "DESeq2",
         "GenomicAlignments",
         "GenomicFeatures",
         "KEGGREST",
@@ -4376,12 +4315,9 @@
     ],
     "microbiome": [],
     "microbiomeDASim": [],
-    "microbiomeExplorer": [
-        "DESeq2"
-    ],
+    "microbiomeExplorer": [],
     "microbiomeMarker": [
         "ANCOMBC",
-        "DESeq2",
         "MultiAssayExperiment",
         "SingleCellExperiment",
         "TreeSummarizedExperiment",
@@ -4541,9 +4477,7 @@
         "AnnotationDbi",
         "KEGGREST"
     ],
-    "MLSeq": [
-        "DESeq2"
-    ],
+    "MLSeq": [],
     "MMAPPR2": [
         "AnnotationDbi",
         "BSgenome",
@@ -4770,7 +4704,6 @@
     "multiOmicsViz": [],
     "multiSight": [
         "AnnotationDbi",
-        "DESeq2",
         "DOSE",
         "GOSemSim",
         "KEGGREST",
@@ -4800,7 +4733,6 @@
         "rtracklayer"
     ],
     "muscat": [
-        "DESeq2",
         "SingleCellExperiment",
         "scater",
         "scuttle"
@@ -4890,7 +4822,6 @@
     ],
     "NBAMSeq": [
         "AnnotationDbi",
-        "DESeq2",
         "KEGGREST",
         "annotate",
         "genefilter"
@@ -4911,9 +4842,7 @@
     "Nebulosa": [
         "SingleCellExperiment"
     ],
-    "NetActivity": [
-        "DESeq2"
-    ],
+    "NetActivity": [],
     "netboost": [
         "AnnotationDbi",
         "KEGGREST"
@@ -5012,7 +4941,6 @@
     "octad": [
         "AnnotationDbi",
         "AnnotationHub",
-        "DESeq2",
         "EDASeq",
         "ExperimentHub",
         "GSEABase",
@@ -5135,7 +5063,6 @@
     "ORFik": [
         "AnnotationDbi",
         "BSgenome",
-        "DESeq2",
         "GenomicAlignments",
         "GenomicFeatures",
         "KEGGREST",
@@ -5164,7 +5091,6 @@
     ],
     "OUTRIDER": [
         "AnnotationDbi",
-        "DESeq2",
         "GenomicAlignments",
         "GenomicFeatures",
         "KEGGREST",
@@ -5213,7 +5139,6 @@
     "PAIRADISE": [],
     "pairedGSEA": [
         "AnnotationDbi",
-        "DESeq2",
         "DEXSeq",
         "KEGGREST",
         "annotate",
@@ -5243,9 +5168,7 @@
         "GenomicAlignments",
         "rtracklayer"
     ],
-    "PathoStat": [
-        "DESeq2"
-    ],
+    "PathoStat": [],
     "pathRender": [
         "AnnotationDbi",
         "KEGGREST"
@@ -5258,7 +5181,6 @@
         "AnnotationDbi",
         "AnnotationForge",
         "Category",
-        "DESeq2",
         "GOstats",
         "GSEABase",
         "KEGGREST",
@@ -5307,7 +5229,6 @@
     ],
     "phantasus": [
         "AnnotationDbi",
-        "DESeq2",
         "KEGGREST"
     ],
     "PharmacoGx": [
@@ -5413,9 +5334,7 @@
         "KEGGREST",
         "ontoProc"
     ],
-    "POMA": [
-        "DESeq2"
-    ],
+    "POMA": [],
     "POWSC": [
         "MAST",
         "SingleCellExperiment"
@@ -5468,7 +5387,6 @@
     "PrInCE": [],
     "proActiv": [
         "AnnotationDbi",
-        "DESeq2",
         "GenomicAlignments",
         "GenomicFeatures",
         "KEGGREST",
@@ -5854,7 +5772,6 @@
     "RegEnrich": [
         "AnnotationDbi",
         "BiocSet",
-        "DESeq2",
         "DOSE",
         "GOSemSim",
         "KEGGREST"
@@ -5874,7 +5791,6 @@
         "AnnotationDbi",
         "BSgenome",
         "DEFormats",
-        "DESeq2",
         "GenomicAlignments",
         "GenomicFeatures",
         "GenomicFiles",
@@ -5929,7 +5845,6 @@
         "AnnotationForge",
         "BSgenome",
         "Category",
-        "DESeq2",
         "GOstats",
         "GSEABase",
         "GenomicAlignments",
@@ -6003,7 +5918,6 @@
     ],
     "rgsepd": [
         "AnnotationDbi",
-        "DESeq2",
         "GenomicAlignments",
         "GenomicFeatures",
         "KEGGREST",
@@ -6023,7 +5937,6 @@
     "RiboCrypt": [
         "AnnotationDbi",
         "BSgenome",
-        "DESeq2",
         "GenomicAlignments",
         "GenomicFeatures",
         "KEGGREST",
@@ -6033,7 +5946,6 @@
     ],
     "RiboDiPA": [
         "AnnotationDbi",
-        "DESeq2",
         "GenomicAlignments",
         "GenomicFeatures",
         "KEGGREST",
@@ -6132,7 +6044,6 @@
     ],
     "Rmmquant": [
         "AnnotationDbi",
-        "DESeq2",
         "GenomicAlignments",
         "GenomicFeatures",
         "KEGGREST",
@@ -6421,7 +6332,6 @@
     ],
     "scBFA": [
         "AnnotationDbi",
-        "DESeq2",
         "KEGGREST",
         "SingleCellExperiment",
         "annotate",
@@ -6486,7 +6396,6 @@
         "scuttle"
     ],
     "scGPS": [
-        "DESeq2",
         "SingleCellExperiment"
     ],
     "schex": [
@@ -6719,7 +6628,6 @@
     "SeqGate": [],
     "SeqGSEA": [
         "AnnotationDbi",
-        "DESeq2",
         "KEGGREST",
         "biomaRt"
     ],
@@ -6742,7 +6650,6 @@
     ],
     "SEtools": [
         "AnnotationDbi",
-        "DESeq2",
         "KEGGREST",
         "annotate",
         "genefilter",
@@ -6895,7 +6802,6 @@
     "singleCellTK": [
         "AnnotationDbi",
         "AnnotationHub",
-        "DESeq2",
         "DropletUtils",
         "ExperimentHub",
         "GSEABase",
@@ -7013,7 +6919,6 @@
     "SNPhood": [
         "AnnotationDbi",
         "BSgenome",
-        "DESeq2",
         "GenomicAlignments",
         "GenomicFeatures",
         "KEGGREST",
@@ -7350,9 +7255,7 @@
         "GenomicAlignments",
         "ShortRead"
     ],
-    "systemPipeTools": [
-        "DESeq2"
-    ],
+    "systemPipeTools": [],
     "TADCompare": [
         "HiCcompare",
         "InteractionSet",
@@ -7370,7 +7273,6 @@
     "TBSignatureProfiler": [
         "ASSIGN",
         "AnnotationDbi",
-        "DESeq2",
         "GSEABase",
         "GSVA",
         "KEGGREST",
@@ -7402,7 +7304,6 @@
     ],
     "TEKRABber": [
         "AnnotationDbi",
-        "DESeq2",
         "KEGGREST",
         "apeglm",
         "biomaRt"
@@ -7450,7 +7351,6 @@
     "TFHAZ": [
         "AnnotationDbi",
         "BSgenome",
-        "DESeq2",
         "GenomicAlignments",
         "GenomicFeatures",
         "KEGGREST",
@@ -7592,7 +7492,6 @@
     ],
     "tRanslatome": [
         "AnnotationDbi",
-        "DESeq2",
         "GOSemSim",
         "KEGGREST",
         "topGO"
@@ -7717,7 +7616,6 @@
     "UMI4Cats": [
         "AnnotationDbi",
         "BSgenome",
-        "DESeq2",
         "GenomicAlignments",
         "GenomicFeatures",
         "KEGGREST",
@@ -7845,9 +7743,7 @@
         "scuttle",
         "zellkonverter"
     ],
-    "vidger": [
-        "DESeq2"
-    ],
+    "vidger": [],
     "ViSEAGO": [
         "AnnotationDbi",
         "AnnotationForge",
@@ -7893,7 +7789,6 @@
         "AnnotationDbi",
         "BSgenome",
         "ChIPpeakAnno",
-        "DESeq2",
         "DiffBind",
         "GenomicAlignments",
         "GenomicFeatures",
