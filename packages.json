@@ -133,7 +133,6 @@
         "VariantAnnotation",
         "alabaster.mae",
         "alabaster.sce",
-        "alabaster.se",
         "alabaster.spatial",
         "alabaster.vcf",
         "biomaRt",
@@ -141,18 +140,13 @@
         "scuttle"
     ],
     "alabaster.mae": [
-        "MultiAssayExperiment",
-        "alabaster.se"
+        "MultiAssayExperiment"
     ],
-    "alabaster.sce": [
-        "alabaster.se"
-    ],
-    "alabaster.se": [],
+    "alabaster.sce": [],
     "alabaster.spatial": [
         "DropletUtils",
         "SpatialExperiment",
         "alabaster.sce",
-        "alabaster.se",
         "scuttle"
     ],
     "alabaster.vcf": [
@@ -162,7 +156,6 @@
         "GenomicFeatures",
         "KEGGREST",
         "VariantAnnotation",
-        "alabaster.se",
         "biomaRt",
         "rtracklayer"
     ],
