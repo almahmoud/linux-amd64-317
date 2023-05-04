@@ -1,7 +1,6 @@
 {
     "a4": [
         "AnnotationDbi",
-        "KEGGREST",
         "a4Base",
         "annaffy",
         "annotate",
@@ -9,37 +8,31 @@
     ],
     "a4Base": [
         "AnnotationDbi",
-        "KEGGREST",
         "annaffy",
         "annotate",
         "genefilter"
     ],
     "ADaCGH2": [
         "AnnotationDbi",
-        "KEGGREST",
         "annotate",
         "genefilter",
         "snapCGH",
         "tilingArray"
     ],
     "ADAM": [
-        "AnnotationDbi",
-        "KEGGREST"
+        "AnnotationDbi"
     ],
     "ADAMgui": [
         "ADAM",
-        "AnnotationDbi",
-        "KEGGREST"
+        "AnnotationDbi"
     ],
     "adductomicsR": [
         "AnnotationDbi",
         "AnnotationHub",
-        "ExperimentHub",
-        "KEGGREST"
+        "ExperimentHub"
     ],
     "adSplit": [
-        "AnnotationDbi",
-        "KEGGREST"
+        "AnnotationDbi"
     ],
     "affycoretools": [
         "AnnotationDbi",
@@ -48,7 +41,6 @@
         "GOstats",
         "GSEABase",
         "GenomicFeatures",
-        "KEGGREST",
         "OrganismDbi",
         "ReportingTools",
         "VariantAnnotation",
@@ -60,13 +52,11 @@
         "ggbio"
     ],
     "affylmGUI": [
-        "AnnotationDbi",
-        "KEGGREST"
+        "AnnotationDbi"
     ],
     "AGDEX": [
         "AnnotationDbi",
         "GSEABase",
-        "KEGGREST",
         "annotate"
     ],
     "AgiMicroRna": [
@@ -76,7 +66,6 @@
         "GOstats",
         "GSEABase",
         "GenomicFeatures",
-        "KEGGREST",
         "OrganismDbi",
         "ReportingTools",
         "VariantAnnotation",
@@ -94,14 +83,12 @@
         "AnnotationHub",
         "AnnotationHubData",
         "GenomicFeatures",
-        "KEGGREST",
         "OrganismDbi",
         "biomaRt"
     ],
     "alabaster": [
         "AnnotationDbi",
         "GenomicFeatures",
-        "KEGGREST",
         "VariantAnnotation",
         "alabaster.vcf",
         "biomaRt"
@@ -109,7 +96,6 @@
     "alabaster.vcf": [
         "AnnotationDbi",
         "GenomicFeatures",
-        "KEGGREST",
         "VariantAnnotation",
         "biomaRt"
     ],
@@ -117,7 +103,6 @@
         "AnnotationDbi",
         "GenomicFeatures",
         "Gviz",
-        "KEGGREST",
         "VariantAnnotation",
         "biomaRt",
         "biovizBase",
@@ -126,47 +111,37 @@
     "alpine": [
         "AnnotationDbi",
         "GenomicFeatures",
-        "KEGGREST",
         "biomaRt"
     ],
     "AMARETTO": [
         "AnnotationDbi",
         "AnnotationHub",
-        "ExperimentHub",
-        "KEGGREST"
+        "ExperimentHub"
     ],
     "amplican": [],
     "annaffy": [
-        "AnnotationDbi",
-        "KEGGREST"
+        "AnnotationDbi"
     ],
     "annmap": [
         "AnnotationDbi",
-        "KEGGREST",
         "annotate",
         "genefilter"
     ],
     "annotate": [
-        "AnnotationDbi",
-        "KEGGREST"
+        "AnnotationDbi"
     ],
-    "AnnotationDbi": [
-        "KEGGREST"
-    ],
+    "AnnotationDbi": [],
     "AnnotationForge": [
-        "AnnotationDbi",
-        "KEGGREST"
+        "AnnotationDbi"
     ],
     "AnnotationHub": [
-        "AnnotationDbi",
-        "KEGGREST"
+        "AnnotationDbi"
     ],
     "AnnotationHubData": [
         "AnnotationDbi",
         "AnnotationForge",
         "AnnotationHub",
         "GenomicFeatures",
-        "KEGGREST",
         "OrganismDbi",
         "biomaRt"
     ],
@@ -174,23 +149,19 @@
         "AnnotationDbi",
         "AnnotationHub",
         "GenomicFeatures",
-        "KEGGREST",
         "biomaRt"
     ],
     "APAlyzer": [
         "AnnotationDbi",
         "GenomicFeatures",
-        "KEGGREST",
         "VariantAnnotation",
         "biomaRt"
     ],
     "apComplex": [
-        "AnnotationDbi",
-        "KEGGREST"
+        "AnnotationDbi"
     ],
     "APL": [
         "AnnotationDbi",
-        "KEGGREST",
         "topGO"
     ],
     "appreci8R": [
@@ -198,7 +169,6 @@
         "AnnotationHub",
         "GenomicFeatures",
         "GenomicScores",
-        "KEGGREST",
         "OrganismDbi",
         "VariantAnnotation",
         "biomaRt"
@@ -206,7 +176,6 @@
     "arrayMvout": [
         "AnnotationDbi",
         "GenomicFeatures",
-        "KEGGREST",
         "annotate",
         "biomaRt",
         "bumphunter",
@@ -217,20 +186,17 @@
     ],
     "arrayQualityMetrics": [
         "AnnotationDbi",
-        "KEGGREST",
         "annotate",
         "beadarray",
         "genefilter"
     ],
     "artMS": [
-        "AnnotationDbi",
-        "KEGGREST"
+        "AnnotationDbi"
     ],
     "ASpli": [
         "AnnotationDbi",
         "GenomicFeatures",
         "Gviz",
-        "KEGGREST",
         "VariantAnnotation",
         "biomaRt",
         "biovizBase",
@@ -238,7 +204,6 @@
     ],
     "ASSIGN": [
         "AnnotationDbi",
-        "KEGGREST",
         "annotate",
         "genefilter",
         "sva"
@@ -248,7 +213,6 @@
         "CNEr",
         "CoGAPS",
         "GenomicFeatures",
-        "KEGGREST",
         "OrganismDbi",
         "TFBSTools",
         "annotate",
@@ -265,7 +229,6 @@
         "ChIPpeakAnno",
         "GenomicFeatures",
         "GenomicScores",
-        "KEGGREST",
         "TFBSTools",
         "annotate",
         "biomaRt",
@@ -275,20 +238,17 @@
     "ATACseqTFEA": [
         "AnnotationDbi",
         "CNEr",
-        "KEGGREST",
         "TFBSTools",
         "annotate",
         "motifmatchr"
     ],
     "atena": [
         "AnnotationDbi",
-        "AnnotationHub",
-        "KEGGREST"
+        "AnnotationHub"
     ],
     "atSNP": [
         "AnnotationDbi",
         "CNEr",
-        "KEGGREST",
         "TFBSTools",
         "annotate",
         "motifStack"
@@ -299,26 +259,22 @@
         "Category",
         "GOstats",
         "GSEABase",
-        "KEGGREST",
         "annotate",
         "genefilter"
     ],
     "AUCell": [
         "AnnotationDbi",
         "GSEABase",
-        "KEGGREST",
         "annotate"
     ],
     "BadRegionFinder": [
         "AnnotationDbi",
         "GenomicFeatures",
-        "KEGGREST",
         "VariantAnnotation",
         "biomaRt"
     ],
     "ballgown": [
         "AnnotationDbi",
-        "KEGGREST",
         "annotate",
         "genefilter",
         "sva"
@@ -326,12 +282,10 @@
     "bambu": [
         "AnnotationDbi",
         "GenomicFeatures",
-        "KEGGREST",
         "biomaRt"
     ],
     "bandle": [
         "AnnotationDbi",
-        "KEGGREST",
         "MLInterfaces",
         "annotate",
         "biomaRt",
@@ -340,7 +294,6 @@
     ],
     "BatchQC": [
         "AnnotationDbi",
-        "KEGGREST",
         "annotate",
         "genefilter",
         "sva"
@@ -348,17 +301,14 @@
     "BBCAnalyzer": [
         "AnnotationDbi",
         "GenomicFeatures",
-        "KEGGREST",
         "VariantAnnotation",
         "biomaRt"
     ],
     "beadarray": [
-        "AnnotationDbi",
-        "KEGGREST"
+        "AnnotationDbi"
     ],
     "benchdamic": [
         "AnnotationDbi",
-        "KEGGREST",
         "annotate",
         "genefilter",
         "zinbwave"
@@ -366,25 +316,21 @@
     "BgeeCall": [
         "AnnotationDbi",
         "GenomicFeatures",
-        "KEGGREST",
         "biomaRt"
     ],
     "BgeeDB": [
         "AnnotationDbi",
-        "KEGGREST",
         "topGO"
     ],
     "BGmix": [],
     "BicARE": [
         "AnnotationDbi",
         "GSEABase",
-        "KEGGREST",
         "annotate"
     ],
     "bigmelon": [
         "AnnotationDbi",
         "GenomicFeatures",
-        "KEGGREST",
         "annotate",
         "biomaRt",
         "bumphunter",
@@ -398,7 +344,6 @@
         "AnnotationDbi",
         "GenomicFeatures",
         "Gviz",
-        "KEGGREST",
         "VariantAnnotation",
         "biomaRt",
         "biovizBase",
@@ -408,7 +353,6 @@
         "AnnotationDbi",
         "DOSE",
         "GOSemSim",
-        "KEGGREST",
         "ReactomePA",
         "clusterProfiler",
         "enrichplot",
@@ -416,68 +360,56 @@
     ],
     "biocGraph": [
         "AnnotationDbi",
-        "KEGGREST",
         "annotate",
         "geneplotter"
     ],
     "BiocHubsShiny": [
         "AnnotationDbi",
         "AnnotationHub",
-        "ExperimentHub",
-        "KEGGREST"
+        "ExperimentHub"
     ],
     "BiocOncoTK": [
         "AnnotationDbi",
         "AnnotationHub",
         "ExperimentHub",
         "GenomicFeatures",
-        "KEGGREST",
         "biomaRt"
     ],
     "BioCor": [
         "AnnotationDbi",
         "GSEABase",
-        "KEGGREST",
         "annotate"
     ],
     "BiocSet": [
-        "AnnotationDbi",
-        "KEGGREST"
+        "AnnotationDbi"
     ],
     "biomaRt": [
-        "AnnotationDbi",
-        "KEGGREST"
+        "AnnotationDbi"
     ],
     "BioMM": [
         "AnnotationDbi",
-        "KEGGREST",
         "topGO"
     ],
     "BioNAR": [
         "AnnotationDbi",
-        "AnnotationHub",
-        "KEGGREST"
+        "AnnotationHub"
     ],
     "BioNERO": [
         "AnnotationDbi",
-        "KEGGREST",
         "annotate",
         "genefilter",
         "sva"
     ],
     "BioNet": [
-        "AnnotationDbi",
-        "KEGGREST"
+        "AnnotationDbi"
     ],
     "BioNetStat": [
         "AnnotationDbi",
-        "KEGGREST",
         "pathview"
     ],
     "biovizBase": [
         "AnnotationDbi",
         "GenomicFeatures",
-        "KEGGREST",
         "VariantAnnotation",
         "biomaRt",
         "ensembldb"
@@ -487,7 +419,6 @@
         "AnnotationHub",
         "ExperimentHub",
         "GenomicFeatures",
-        "KEGGREST",
         "OrganismDbi",
         "VariantAnnotation",
         "annotatr",
@@ -497,14 +428,12 @@
     ],
     "BiSeq": [
         "AnnotationDbi",
-        "KEGGREST",
         "annotate",
         "globaltest"
     ],
     "blacksheepr": [
         "AnnotationDbi",
         "DEXSeq",
-        "KEGGREST",
         "annotate",
         "biomaRt",
         "genefilter",
@@ -512,31 +441,26 @@
     ],
     "blima": [
         "AnnotationDbi",
-        "KEGGREST",
         "beadarray"
     ],
     "BLMA": [
         "AnnotationDbi",
-        "KEGGREST",
         "PADOG",
         "ROntoTools"
     ],
     "BloodGen3Module": [
         "AnnotationDbi",
         "AnnotationHub",
-        "ExperimentHub",
-        "KEGGREST"
+        "ExperimentHub"
     ],
     "bnbc": [
         "AnnotationDbi",
-        "KEGGREST",
         "annotate",
         "genefilter",
         "sva"
     ],
     "bnem": [
         "AnnotationDbi",
-        "KEGGREST",
         "annotate",
         "genefilter",
         "sva"
@@ -544,7 +468,6 @@
     "BOBaFIT": [
         "AnnotationDbi",
         "GenomicFeatures",
-        "KEGGREST",
         "OrganismDbi",
         "VariantAnnotation",
         "biomaRt",
@@ -558,7 +481,6 @@
         "AnnotationHub",
         "GenomicFeatures",
         "GenomicFiles",
-        "KEGGREST",
         "OrganismDbi",
         "VariantAnnotation",
         "biomaRt",
@@ -571,13 +493,11 @@
     ],
     "branchpointer": [
         "AnnotationDbi",
-        "KEGGREST",
         "biomaRt"
     ],
     "BubbleTree": [
         "AnnotationDbi",
         "GenomicFeatures",
-        "KEGGREST",
         "VariantAnnotation",
         "biomaRt",
         "biovizBase",
@@ -586,20 +506,17 @@
     "bumphunter": [
         "AnnotationDbi",
         "GenomicFeatures",
-        "KEGGREST",
         "biomaRt"
     ],
     "BUSpaRse": [
         "AnnotationDbi",
         "GenomicFeatures",
-        "KEGGREST",
         "biomaRt",
         "ensembldb"
     ],
     "CAFE": [
         "AnnotationDbi",
         "GenomicFeatures",
-        "KEGGREST",
         "OrganismDbi",
         "VariantAnnotation",
         "annotate",
@@ -614,7 +531,6 @@
         "GenomicFiles",
         "GenomicInteractions",
         "Gviz",
-        "KEGGREST",
         "VariantAnnotation",
         "biomaRt",
         "biovizBase",
@@ -624,7 +540,6 @@
         "AnnotationDbi",
         "BioNERO",
         "GenomicFeatures",
-        "KEGGREST",
         "OrganismDbi",
         "VariantAnnotation",
         "annotate",
@@ -642,7 +557,6 @@
         "GenomicFiles",
         "GenomicInteractions",
         "Gviz",
-        "KEGGREST",
         "VariantAnnotation",
         "biomaRt",
         "biovizBase",
@@ -652,7 +566,6 @@
         "AnnotationDbi",
         "Category",
         "GSEABase",
-        "KEGGREST",
         "annotate",
         "biomaRt",
         "genefilter",
@@ -661,20 +574,17 @@
     "cardelino": [
         "AnnotationDbi",
         "GenomicFeatures",
-        "KEGGREST",
         "VariantAnnotation",
         "biomaRt"
     ],
     "casper": [
         "AnnotationDbi",
         "GenomicFeatures",
-        "KEGGREST",
         "biomaRt"
     ],
     "Category": [
         "AnnotationDbi",
         "GSEABase",
-        "KEGGREST",
         "annotate",
         "genefilter"
     ],
@@ -684,14 +594,12 @@
         "Category",
         "GOstats",
         "GSEABase",
-        "KEGGREST",
         "annotate",
         "genefilter"
     ],
     "cbaf": [
         "AnnotationDbi",
         "GenomicFeatures",
-        "KEGGREST",
         "RTCGAToolbox",
         "TCGAutils",
         "annotate",
@@ -701,13 +609,11 @@
     ],
     "CBEA": [
         "AnnotationDbi",
-        "BiocSet",
-        "KEGGREST"
+        "BiocSet"
     ],
     "cBioPortalData": [
         "AnnotationDbi",
         "GenomicFeatures",
-        "KEGGREST",
         "RTCGAToolbox",
         "TCGAutils",
         "biomaRt"
@@ -718,19 +624,16 @@
         "DOSE",
         "ExperimentHub",
         "GOSemSim",
-        "KEGGREST",
         "clusterProfiler",
         "enrichplot",
         "graphite"
     ],
     "ccmap": [
-        "AnnotationDbi",
-        "KEGGREST"
+        "AnnotationDbi"
     ],
     "CCPROMISE": [
         "AnnotationDbi",
         "GSEABase",
-        "KEGGREST",
         "PROMISE",
         "annotate"
     ],
@@ -738,41 +641,35 @@
         "AnnotationDbi",
         "Category",
         "GSEABase",
-        "KEGGREST",
         "annotate",
         "genefilter"
     ],
     "cellity": [
         "AnnotationDbi",
-        "KEGGREST",
         "topGO"
     ],
     "CEMiTool": [
         "AnnotationDbi",
         "DOSE",
         "GOSemSim",
-        "KEGGREST",
         "clusterProfiler",
         "enrichplot"
     ],
     "Cepo": [
         "AnnotationDbi",
         "GSEABase",
-        "KEGGREST",
         "annotate"
     ],
     "CeTF": [
         "AnnotationDbi",
         "DOSE",
         "GOSemSim",
-        "KEGGREST",
         "clusterProfiler",
         "enrichplot"
     ],
     "cghMCR": [
         "AnnotationDbi",
         "CNTools",
-        "KEGGREST",
         "annotate",
         "genefilter"
     ],
@@ -783,7 +680,6 @@
         "ExperimentHub",
         "GenomicFeatures",
         "Gviz",
-        "KEGGREST",
         "VariantAnnotation",
         "annotate",
         "biomaRt",
@@ -806,20 +702,17 @@
         "AnnotationDbi",
         "GenomicFeatures",
         "Gviz",
-        "KEGGREST",
         "VariantAnnotation",
         "biomaRt",
         "biovizBase",
         "ensembldb"
     ],
     "chipenrich": [
-        "AnnotationDbi",
-        "KEGGREST"
+        "AnnotationDbi"
     ],
     "ChIPexoQual": [
         "AnnotationDbi",
         "GenomicFeatures",
-        "KEGGREST",
         "VariantAnnotation",
         "biomaRt",
         "biovizBase",
@@ -828,14 +721,12 @@
     "ChIPpeakAnno": [
         "AnnotationDbi",
         "GenomicFeatures",
-        "KEGGREST",
         "biomaRt",
         "ensembldb"
     ],
     "ChIPQC": [
         "AnnotationDbi",
         "GenomicFeatures",
-        "KEGGREST",
         "biomaRt"
     ],
     "ChIPseeker": [
@@ -843,7 +734,6 @@
         "DOSE",
         "GOSemSim",
         "GenomicFeatures",
-        "KEGGREST",
         "biomaRt",
         "enrichplot"
     ],
@@ -851,31 +741,26 @@
     "ChIPXpress": [],
     "ChromHeatMap": [
         "AnnotationDbi",
-        "KEGGREST",
         "annotate"
     ],
     "chromPlot": [
         "AnnotationDbi",
-        "KEGGREST",
         "biomaRt"
     ],
     "chromVAR": [
         "AnnotationDbi",
         "CNEr",
-        "KEGGREST",
         "TFBSTools",
         "annotate"
     ],
     "CHRONOS": [
         "AnnotationDbi",
-        "KEGGREST",
         "biomaRt"
     ],
     "cicero": [
         "AnnotationDbi",
         "GenomicFeatures",
         "Gviz",
-        "KEGGREST",
         "VariantAnnotation",
         "biomaRt",
         "biovizBase",
@@ -885,7 +770,6 @@
         "AnnotationDbi",
         "AnnotationHub",
         "GenomicFeatures",
-        "KEGGREST",
         "VariantAnnotation",
         "biomaRt",
         "gwascat"
@@ -893,28 +777,24 @@
     "CircSeqAlignTk": [
         "AnnotationDbi",
         "GenomicFeatures",
-        "KEGGREST",
         "Rhisat2",
         "SGSeq",
         "biomaRt"
     ],
     "ClassifyR": [
         "AnnotationDbi",
-        "KEGGREST",
         "annotate",
         "genefilter"
     ],
     "clipper": [
         "AnnotationDbi",
         "GenomicFeatures",
-        "KEGGREST",
         "annotate",
         "biomaRt",
         "qpgraph"
     ],
     "clusterExperiment": [
         "AnnotationDbi",
-        "KEGGREST",
         "annotate",
         "genefilter",
         "zinbwave"
@@ -923,17 +803,14 @@
         "AnnotationDbi",
         "DOSE",
         "GOSemSim",
-        "KEGGREST",
         "enrichplot"
     ],
     "CNEr": [
         "AnnotationDbi",
-        "KEGGREST",
         "annotate"
     ],
     "CNTools": [
         "AnnotationDbi",
-        "KEGGREST",
         "annotate",
         "genefilter"
     ],
@@ -941,7 +818,6 @@
         "AnnotationDbi",
         "CopyNumberPlots",
         "GenomicFeatures",
-        "KEGGREST",
         "VariantAnnotation",
         "biomaRt",
         "biovizBase",
@@ -952,7 +828,6 @@
         "AnnotationDbi",
         "CopyNumberPlots",
         "GenomicFeatures",
-        "KEGGREST",
         "VariantAnnotation",
         "biomaRt",
         "biovizBase",
@@ -962,36 +837,30 @@
     "CNVrd2": [
         "AnnotationDbi",
         "GenomicFeatures",
-        "KEGGREST",
         "VariantAnnotation",
         "biomaRt"
     ],
     "CoCiteStats": [
-        "AnnotationDbi",
-        "KEGGREST"
+        "AnnotationDbi"
     ],
     "COCOA": [],
     "codelink": [
         "AnnotationDbi",
-        "KEGGREST",
         "annotate"
     ],
     "CoGAPS": [
         "AnnotationDbi",
-        "KEGGREST",
         "biomaRt"
     ],
     "Cogito": [
         "AnnotationDbi",
         "GenomicFeatures",
-        "KEGGREST",
         "biomaRt"
     ],
     "comapr": [
         "AnnotationDbi",
         "GenomicFeatures",
         "Gviz",
-        "KEGGREST",
         "VariantAnnotation",
         "biomaRt",
         "biovizBase",
@@ -1001,7 +870,6 @@
         "AnnotationDbi",
         "GenomicFeatures",
         "Gviz",
-        "KEGGREST",
         "VariantAnnotation",
         "biomaRt",
         "biovizBase",
@@ -1012,7 +880,6 @@
         "AnnotationHub",
         "ExperimentHub",
         "GenomicFeatures",
-        "KEGGREST",
         "biomaRt",
         "bumphunter"
     ],
@@ -1020,7 +887,6 @@
         "AnnotationDbi",
         "GenomicFeatures",
         "Gviz",
-        "KEGGREST",
         "VariantAnnotation",
         "biomaRt",
         "biovizBase",
@@ -1032,7 +898,6 @@
         "AnnotationDbi",
         "EDASeq",
         "GenomicFeatures",
-        "KEGGREST",
         "RUVSeq",
         "biomaRt",
         "ensembldb"
@@ -1041,28 +906,24 @@
         "AnnotationDbi",
         "GSEABase",
         "GSVA",
-        "KEGGREST",
         "annotate",
         "biomaRt",
         "genefu"
     ],
     "consICA": [
         "AnnotationDbi",
-        "KEGGREST",
         "topGO"
     ],
     "contiBAIT": [
         "AnnotationDbi",
         "GenomicFeatures",
         "GenomicFiles",
-        "KEGGREST",
         "VariantAnnotation",
         "biomaRt"
     ],
     "conumee": [
         "AnnotationDbi",
         "GenomicFeatures",
-        "KEGGREST",
         "annotate",
         "biomaRt",
         "bumphunter",
@@ -1072,7 +933,6 @@
     "CopyNumberPlots": [
         "AnnotationDbi",
         "GenomicFeatures",
-        "KEGGREST",
         "VariantAnnotation",
         "biomaRt",
         "biovizBase",
@@ -1083,24 +943,20 @@
         "AnnotationDbi",
         "AnnotationHub",
         "ExperimentHub",
-        "KEGGREST",
         "biomaRt"
     ],
     "cosmosR": [
         "AnnotationDbi",
         "GSEABase",
-        "KEGGREST",
         "annotate"
     ],
     "countsimQC": [
         "AnnotationDbi",
-        "KEGGREST",
         "annotate",
         "genefilter"
     ],
     "covRNA": [
         "AnnotationDbi",
-        "KEGGREST",
         "annotate",
         "genefilter"
     ],
@@ -1108,7 +964,6 @@
         "AnnotationDbi",
         "GSEABase",
         "GenomicFeatures",
-        "KEGGREST",
         "annotate",
         "biomaRt"
     ],
@@ -1117,7 +972,6 @@
         "AnnotationHub",
         "ExperimentHub",
         "GenomicFeatures",
-        "KEGGREST",
         "VariantAnnotation",
         "biomaRt",
         "crisprScore"
@@ -1125,21 +979,18 @@
     "crisprScore": [
         "AnnotationDbi",
         "AnnotationHub",
-        "ExperimentHub",
-        "KEGGREST"
+        "ExperimentHub"
     ],
     "crisprseekplus": [
         "AnnotationDbi",
         "ChIPpeakAnno",
         "GUIDEseq",
         "GenomicFeatures",
-        "KEGGREST",
         "biomaRt",
         "ensembldb"
     ],
     "CrispRVariants": [
-        "AnnotationDbi",
-        "KEGGREST"
+        "AnnotationDbi"
     ],
     "crisprVerse": [
         "AnnotationDbi",
@@ -1147,7 +998,6 @@
         "ExperimentHub",
         "GenomicFeatures",
         "Gviz",
-        "KEGGREST",
         "VariantAnnotation",
         "biomaRt",
         "biovizBase",
@@ -1162,7 +1012,6 @@
         "ExperimentHub",
         "GenomicFeatures",
         "Gviz",
-        "KEGGREST",
         "VariantAnnotation",
         "biomaRt",
         "biovizBase",
@@ -1172,37 +1021,31 @@
     ],
     "crossmeta": [
         "AnnotationDbi",
-        "KEGGREST",
         "annotate",
         "genefilter",
         "sva"
     ],
     "csdR": [
-        "AnnotationDbi",
-        "KEGGREST"
+        "AnnotationDbi"
     ],
     "CSSQ": [
         "AnnotationDbi",
         "GenomicFeatures",
-        "KEGGREST",
         "biomaRt"
     ],
     "CTdata": [
         "AnnotationDbi",
         "AnnotationHub",
-        "ExperimentHub",
-        "KEGGREST"
+        "ExperimentHub"
     ],
     "cTRAP": [
         "AnnotationDbi",
-        "AnnotationHub",
-        "KEGGREST"
+        "AnnotationHub"
     ],
     "cummeRbund": [
         "AnnotationDbi",
         "GenomicFeatures",
         "Gviz",
-        "KEGGREST",
         "VariantAnnotation",
         "biomaRt",
         "biovizBase",
@@ -1210,20 +1053,17 @@
     ],
     "customCMPdb": [
         "AnnotationDbi",
-        "AnnotationHub",
-        "KEGGREST"
+        "AnnotationHub"
     ],
     "customProDB": [
         "AnnotationDbi",
         "GenomicFeatures",
-        "KEGGREST",
         "VariantAnnotation",
         "biomaRt"
     ],
     "dagLogo": [
         "AnnotationDbi",
         "CNEr",
-        "KEGGREST",
         "TFBSTools",
         "UniProt.ws",
         "annotate",
@@ -1233,7 +1073,6 @@
     "DAMEfinder": [
         "AnnotationDbi",
         "GenomicFeatures",
-        "KEGGREST",
         "VariantAnnotation",
         "biomaRt",
         "bumphunter"
@@ -1242,7 +1081,6 @@
         "AnnotationDbi",
         "EDASeq",
         "GenomicFeatures",
-        "KEGGREST",
         "annotate",
         "biomaRt",
         "genefilter",
@@ -1251,19 +1089,16 @@
     "dasper": [
         "AnnotationDbi",
         "GenomicFeatures",
-        "KEGGREST",
         "biomaRt"
     ],
     "dce": [
         "AnnotationDbi",
-        "KEGGREST",
         "graphite"
     ],
     "debrowser": [
         "AnnotationDbi",
         "DOSE",
         "GOSemSim",
-        "KEGGREST",
         "annotate",
         "clusterProfiler",
         "enrichplot",
@@ -1274,14 +1109,12 @@
     "decompTumor2Sig": [
         "AnnotationDbi",
         "GenomicFeatures",
-        "KEGGREST",
         "VariantAnnotation",
         "biomaRt"
     ],
     "deconvR": [
         "AnnotationDbi",
         "GenomicFeatures",
-        "KEGGREST",
         "annotate",
         "biomaRt",
         "bumphunter",
@@ -1291,19 +1124,16 @@
     "deepSNV": [
         "AnnotationDbi",
         "GenomicFeatures",
-        "KEGGREST",
         "VariantAnnotation",
         "biomaRt"
     ],
     "DegNorm": [
         "AnnotationDbi",
         "GenomicFeatures",
-        "KEGGREST",
         "biomaRt"
     ],
     "DeMixT": [
         "AnnotationDbi",
-        "KEGGREST",
         "annotate",
         "genefilter",
         "sva"
@@ -1312,7 +1142,6 @@
         "AnnotationDbi",
         "GenomicFeatures",
         "GenomicFiles",
-        "KEGGREST",
         "VariantAnnotation",
         "biomaRt",
         "bumphunter"
@@ -1321,7 +1150,6 @@
         "AnnotationDbi",
         "GenomicFeatures",
         "GenomicFiles",
-        "KEGGREST",
         "OrganismDbi",
         "VariantAnnotation",
         "biomaRt",
@@ -1335,34 +1163,29 @@
         "AnnotationDbi",
         "ChIPpeakAnno",
         "GenomicFeatures",
-        "KEGGREST",
         "biomaRt",
         "ensembldb"
     ],
     "DExMA": [
         "AnnotationDbi",
-        "KEGGREST",
         "annotate",
         "genefilter",
         "sva"
     ],
     "DEXSeq": [
         "AnnotationDbi",
-        "KEGGREST",
         "annotate",
         "biomaRt",
         "genefilter",
         "geneplotter"
     ],
     "diffcoexp": [
-        "AnnotationDbi",
-        "KEGGREST"
+        "AnnotationDbi"
     ],
     "diffUTR": [
         "AnnotationDbi",
         "DEXSeq",
         "GenomicFeatures",
-        "KEGGREST",
         "annotate",
         "biomaRt",
         "ensembldb",
@@ -1376,7 +1199,6 @@
         "ExperimentHub",
         "GenomicFeatures",
         "Gviz",
-        "KEGGREST",
         "VariantAnnotation",
         "annotate",
         "biomaRt",
@@ -1392,7 +1214,6 @@
         "AnnotationDbi",
         "GenomicFeatures",
         "Gviz",
-        "KEGGREST",
         "VariantAnnotation",
         "biomaRt",
         "biovizBase",
@@ -1402,7 +1223,6 @@
         "AnnotationDbi",
         "AnnotationHub",
         "GenomicFeatures",
-        "KEGGREST",
         "annotatr",
         "biomaRt",
         "bumphunter"
@@ -1410,70 +1230,59 @@
     "DNAfusion": [
         "AnnotationDbi",
         "GenomicFeatures",
-        "KEGGREST",
         "biomaRt"
     ],
     "DominoEffect": [
         "AnnotationDbi",
         "GenomicFeatures",
-        "KEGGREST",
         "VariantAnnotation",
         "biomaRt"
     ],
     "doppelgangR": [
         "AnnotationDbi",
-        "KEGGREST",
         "annotate",
         "genefilter",
         "sva"
     ],
     "DOSE": [
         "AnnotationDbi",
-        "GOSemSim",
-        "KEGGREST"
+        "GOSemSim"
     ],
     "drugTargetInteractions": [
         "AnnotationDbi",
         "GenomicFeatures",
-        "KEGGREST",
         "UniProt.ws",
         "biomaRt",
         "ensembldb"
     ],
     "DrugVsDisease": [
         "AnnotationDbi",
-        "KEGGREST",
         "annotate",
         "biomaRt"
     ],
     "easier": [
         "AnnotationDbi",
         "AnnotationHub",
-        "ExperimentHub",
-        "KEGGREST"
+        "ExperimentHub"
     ],
     "EasyCellType": [
         "AnnotationDbi",
         "DOSE",
         "GOSemSim",
-        "KEGGREST",
         "clusterProfiler",
         "enrichplot"
     ],
     "easyRNASeq": [
         "AnnotationDbi",
-        "KEGGREST",
         "biomaRt"
     ],
     "EDASeq": [
         "AnnotationDbi",
         "GenomicFeatures",
-        "KEGGREST",
         "biomaRt"
     ],
     "edge": [
         "AnnotationDbi",
-        "KEGGREST",
         "annotate",
         "genefilter",
         "sva"
@@ -1482,7 +1291,6 @@
         "AnnotationDbi",
         "DOSE",
         "GOSemSim",
-        "KEGGREST",
         "clusterProfiler",
         "enrichplot"
     ],
@@ -1490,7 +1298,6 @@
         "AnnotationDbi",
         "GSEABase",
         "GSVA",
-        "KEGGREST",
         "PADOG",
         "annotate",
         "gage",
@@ -1502,7 +1309,6 @@
     "enhancerHomologSearch": [
         "AnnotationDbi",
         "CNEr",
-        "KEGGREST",
         "TFBSTools",
         "annotate",
         "motifmatchr"
@@ -1512,7 +1318,6 @@
         "AnnotationHub",
         "ExperimentHub",
         "GenomicFeatures",
-        "KEGGREST",
         "annotate",
         "biomaRt",
         "bumphunter",
@@ -1523,7 +1328,6 @@
     "EnrichmentBrowser": [
         "AnnotationDbi",
         "GSEABase",
-        "KEGGREST",
         "annotate",
         "graphite",
         "pathview",
@@ -1532,15 +1336,13 @@
     "enrichplot": [
         "AnnotationDbi",
         "DOSE",
-        "GOSemSim",
-        "KEGGREST"
+        "GOSemSim"
     ],
     "enrichTF": [
         "AnnotationDbi",
         "CNEr",
         "DOSE",
         "GOSemSim",
-        "KEGGREST",
         "TFBSTools",
         "annotate",
         "clusterProfiler",
@@ -1550,20 +1352,17 @@
     "ensembldb": [
         "AnnotationDbi",
         "GenomicFeatures",
-        "KEGGREST",
         "biomaRt"
     ],
     "ensemblVEP": [
         "AnnotationDbi",
         "GenomicFeatures",
-        "KEGGREST",
         "VariantAnnotation",
         "biomaRt"
     ],
     "epialleleR": [
         "AnnotationDbi",
         "GenomicFeatures",
-        "KEGGREST",
         "VariantAnnotation",
         "biomaRt"
     ],
@@ -1574,13 +1373,11 @@
         "DOSE",
         "GOSemSim",
         "GenomicFeatures",
-        "KEGGREST",
         "biomaRt",
         "enrichplot"
     ],
     "epigenomix": [
         "AnnotationDbi",
-        "KEGGREST",
         "beadarray"
     ],
     "EpiMix": [
@@ -1588,7 +1385,6 @@
         "AnnotationHub",
         "ExperimentHub",
         "GenomicFeatures",
-        "KEGGREST",
         "biomaRt"
     ],
     "epimutacions": [
@@ -1597,7 +1393,6 @@
         "ExperimentHub",
         "GenomicFeatures",
         "Gviz",
-        "KEGGREST",
         "OrganismDbi",
         "VariantAnnotation",
         "annotate",
@@ -1611,13 +1406,11 @@
     "EpiTxDb": [
         "AnnotationDbi",
         "GenomicFeatures",
-        "KEGGREST",
         "biomaRt"
     ],
     "epivizr": [
         "AnnotationDbi",
         "GenomicFeatures",
-        "KEGGREST",
         "OrganismDbi",
         "biomaRt",
         "bumphunter",
@@ -1627,7 +1420,6 @@
     "epivizrChart": [
         "AnnotationDbi",
         "GenomicFeatures",
-        "KEGGREST",
         "OrganismDbi",
         "biomaRt",
         "ensembldb",
@@ -1636,7 +1428,6 @@
     "epivizrData": [
         "AnnotationDbi",
         "GenomicFeatures",
-        "KEGGREST",
         "OrganismDbi",
         "biomaRt",
         "ensembldb"
@@ -1644,7 +1435,6 @@
     "epivizrStandalone": [
         "AnnotationDbi",
         "GenomicFeatures",
-        "KEGGREST",
         "OrganismDbi",
         "biomaRt",
         "bumphunter",
@@ -1656,7 +1446,6 @@
         "AnnotationDbi",
         "GenomicFeatures",
         "GenomicFiles",
-        "KEGGREST",
         "OrganismDbi",
         "VariantAnnotation",
         "biomaRt"
@@ -1668,7 +1457,6 @@
         "DOSE",
         "GOSemSim",
         "GenomicFeatures",
-        "KEGGREST",
         "TFBSTools",
         "annotate",
         "biomaRt",
@@ -1680,43 +1468,36 @@
         "AnnotationDbi",
         "GSEABase",
         "GSVA",
-        "KEGGREST",
         "annotate"
     ],
     "escheR": [
         "AnnotationDbi",
         "AnnotationHub",
-        "ExperimentHub",
-        "KEGGREST"
+        "ExperimentHub"
     ],
     "esetVis": [
         "AnnotationDbi",
-        "KEGGREST",
         "MLP"
     ],
     "EventPointer": [
         "AnnotationDbi",
         "GenomicFeatures",
-        "KEGGREST",
         "SGSeq",
         "biomaRt"
     ],
     "EWCE": [
         "AnnotationDbi",
         "AnnotationHub",
-        "ExperimentHub",
-        "KEGGREST"
+        "ExperimentHub"
     ],
     "exomePeak2": [
         "AnnotationDbi",
         "GenomicFeatures",
-        "KEGGREST",
         "biomaRt"
     ],
     "ExperimentHub": [
         "AnnotationDbi",
-        "AnnotationHub",
-        "KEGGREST"
+        "AnnotationHub"
     ],
     "ExperimentHubData": [
         "AnnotationDbi",
@@ -1725,7 +1506,6 @@
         "AnnotationHubData",
         "ExperimentHub",
         "GenomicFeatures",
-        "KEGGREST",
         "OrganismDbi",
         "biomaRt"
     ],
@@ -1736,7 +1516,6 @@
         "GenomicFeatures",
         "GenomicInteractions",
         "Gviz",
-        "KEGGREST",
         "VariantAnnotation",
         "biomaRt",
         "biovizBase",
@@ -1745,44 +1524,36 @@
     "factR": [
         "AnnotationDbi",
         "GenomicFeatures",
-        "KEGGREST",
         "biomaRt"
     ],
     "famat": [
         "AnnotationDbi",
         "DOSE",
         "GOSemSim",
-        "KEGGREST",
         "clusterProfiler",
         "enrichplot"
     ],
     "fastLiquidAssociation": [
         "AnnotationDbi",
-        "KEGGREST",
         "LiquidAssociation"
     ],
     "fcoex": [
         "AnnotationDbi",
         "DOSE",
         "GOSemSim",
-        "KEGGREST",
         "clusterProfiler",
         "enrichplot"
     ],
     "fcScan": [
         "AnnotationDbi",
         "GenomicFeatures",
-        "KEGGREST",
         "VariantAnnotation",
         "biomaRt"
     ],
-    "FELLA": [
-        "KEGGREST"
-    ],
+    "FELLA": [],
     "ffpe": [
         "AnnotationDbi",
         "GenomicFeatures",
-        "KEGGREST",
         "annotate",
         "biomaRt",
         "bumphunter",
@@ -1794,13 +1565,11 @@
     "FindIT2": [
         "AnnotationDbi",
         "GenomicFeatures",
-        "KEGGREST",
         "biomaRt"
     ],
     "FLAMES": [
         "AnnotationDbi",
         "GenomicFeatures",
-        "KEGGREST",
         "OrganismDbi",
         "VariantAnnotation",
         "bambu",
@@ -1811,20 +1580,17 @@
     ],
     "FoldGO": [
         "AnnotationDbi",
-        "KEGGREST",
         "topGO"
     ],
     "FRASER": [
         "AnnotationDbi",
         "GenomicFeatures",
-        "KEGGREST",
         "OUTRIDER",
         "biomaRt"
     ],
     "funtooNorm": [
         "AnnotationDbi",
         "GenomicFeatures",
-        "KEGGREST",
         "annotate",
         "biomaRt",
         "bumphunter",
@@ -1834,7 +1600,6 @@
     "GA4GHclient": [
         "AnnotationDbi",
         "GenomicFeatures",
-        "KEGGREST",
         "VariantAnnotation",
         "biomaRt"
     ],
@@ -1842,20 +1607,17 @@
         "AnnotationDbi",
         "GA4GHclient",
         "GenomicFeatures",
-        "KEGGREST",
         "VariantAnnotation",
         "biomaRt"
     ],
     "gage": [
-        "AnnotationDbi",
-        "KEGGREST"
+        "AnnotationDbi"
     ],
     "GARS": [
         "AnnotationDbi",
         "DaMiRseq",
         "EDASeq",
         "GenomicFeatures",
-        "KEGGREST",
         "annotate",
         "biomaRt",
         "genefilter",
@@ -1865,7 +1627,6 @@
         "AnnotationDbi",
         "DOSE",
         "GOSemSim",
-        "KEGGREST",
         "biomaRt",
         "clusterProfiler",
         "enrichplot",
@@ -1874,78 +1635,65 @@
     "genbankr": [
         "AnnotationDbi",
         "GenomicFeatures",
-        "KEGGREST",
         "VariantAnnotation",
         "biomaRt"
     ],
     "geneAttribution": [
         "AnnotationDbi",
         "GenomicFeatures",
-        "KEGGREST",
         "biomaRt"
     ],
     "genefilter": [
         "AnnotationDbi",
-        "KEGGREST",
         "annotate"
     ],
     "genefu": [
         "AnnotationDbi",
-        "KEGGREST",
         "biomaRt"
     ],
     "GeneMeta": [
         "AnnotationDbi",
-        "KEGGREST",
         "annotate",
         "genefilter"
     ],
     "geneplotter": [
         "AnnotationDbi",
-        "KEGGREST",
         "annotate"
     ],
     "GeneStructureTools": [
         "AnnotationDbi",
         "GenomicFeatures",
         "Gviz",
-        "KEGGREST",
         "VariantAnnotation",
         "biomaRt",
         "biovizBase",
         "ensembldb"
     ],
     "GeneTonic": [
-        "AnnotationDbi",
-        "KEGGREST"
+        "AnnotationDbi"
     ],
     "geneXtendeR": [
-        "AnnotationDbi",
-        "KEGGREST"
+        "AnnotationDbi"
     ],
     "GenomicFeatures": [
         "AnnotationDbi",
-        "KEGGREST",
         "biomaRt"
     ],
     "GenomicFiles": [
         "AnnotationDbi",
         "GenomicFeatures",
-        "KEGGREST",
         "VariantAnnotation",
         "biomaRt"
     ],
     "GenomicInteractionNodes": [
         "AnnotationDbi",
         "GenomicFeatures",
-        "KEGGREST",
         "biomaRt"
     ],
     "GenomicInteractions": [
         "AnnotationDbi",
         "GenomicFeatures",
         "Gviz",
-        "KEGGREST",
         "VariantAnnotation",
         "biomaRt",
         "biovizBase",
@@ -1954,7 +1702,6 @@
     "GenomicOZone": [
         "AnnotationDbi",
         "GenomicFeatures",
-        "KEGGREST",
         "OrganismDbi",
         "VariantAnnotation",
         "biomaRt",
@@ -1964,27 +1711,23 @@
     ],
     "GenomicScores": [
         "AnnotationDbi",
-        "AnnotationHub",
-        "KEGGREST"
+        "AnnotationHub"
     ],
     "GenVisR": [
         "AnnotationDbi",
         "GenomicFeatures",
-        "KEGGREST",
         "VariantAnnotation",
         "biomaRt"
     ],
     "gep2pep": [
         "AnnotationDbi",
         "GSEABase",
-        "KEGGREST",
         "annotate"
     ],
     "gespeR": [
         "AnnotationDbi",
         "Category",
         "GSEABase",
-        "KEGGREST",
         "annotate",
         "biomaRt",
         "cellHTS2",
@@ -1993,7 +1736,6 @@
     "ggbio": [
         "AnnotationDbi",
         "GenomicFeatures",
-        "KEGGREST",
         "OrganismDbi",
         "VariantAnnotation",
         "biomaRt",
@@ -2003,31 +1745,26 @@
     "GISPA": [
         "AnnotationDbi",
         "GSEABase",
-        "KEGGREST",
         "annotate",
         "genefilter"
     ],
     "glmSparseNet": [
         "AnnotationDbi",
-        "KEGGREST",
         "biomaRt"
     ],
     "GlobalAncova": [
         "AnnotationDbi",
         "GSEABase",
-        "KEGGREST",
         "annotate",
         "globaltest"
     ],
     "globaltest": [
         "AnnotationDbi",
-        "KEGGREST",
         "annotate"
     ],
     "gmapR": [
         "AnnotationDbi",
         "GenomicFeatures",
-        "KEGGREST",
         "VariantAnnotation",
         "biomaRt"
     ],
@@ -2037,46 +1774,37 @@
         "Category",
         "GOstats",
         "GSEABase",
-        "KEGGREST",
         "annotate",
         "genefilter"
     ],
     "gmoviz": [
         "AnnotationDbi",
         "GenomicFeatures",
-        "KEGGREST",
         "biomaRt"
     ],
     "GOexpress": [
         "AnnotationDbi",
-        "KEGGREST",
         "biomaRt"
     ],
     "GOfuncR": [
-        "AnnotationDbi",
-        "KEGGREST"
+        "AnnotationDbi"
     ],
     "GOpro": [
-        "AnnotationDbi",
-        "KEGGREST"
+        "AnnotationDbi"
     ],
     "goProfiles": [
-        "AnnotationDbi",
-        "KEGGREST"
+        "AnnotationDbi"
     ],
     "GOSemSim": [
-        "AnnotationDbi",
-        "KEGGREST"
+        "AnnotationDbi"
     ],
     "goseq": [
         "AnnotationDbi",
         "GenomicFeatures",
-        "KEGGREST",
         "biomaRt"
     ],
     "GOSim": [
         "AnnotationDbi",
-        "KEGGREST",
         "annotate",
         "topGO"
     ],
@@ -2084,14 +1812,12 @@
         "AnnotationDbi",
         "DOSE",
         "GOSemSim",
-        "KEGGREST",
         "clusterProfiler",
         "enrichplot",
         "goProfiles"
     ],
     "goSTAG": [
         "AnnotationDbi",
-        "KEGGREST",
         "biomaRt"
     ],
     "GOstats": [
@@ -2099,27 +1825,22 @@
         "AnnotationForge",
         "Category",
         "GSEABase",
-        "KEGGREST",
         "annotate",
         "genefilter"
     ],
     "goTools": [
-        "AnnotationDbi",
-        "KEGGREST"
+        "AnnotationDbi"
     ],
     "GRaNIE": [
         "AnnotationDbi",
-        "KEGGREST",
         "biomaRt",
         "topGO"
     ],
     "graphite": [
-        "AnnotationDbi",
-        "KEGGREST"
+        "AnnotationDbi"
     ],
     "GSEABase": [
         "AnnotationDbi",
-        "KEGGREST",
         "annotate"
     ],
     "GSEABenchmarkeR": [
@@ -2128,7 +1849,6 @@
         "EnrichmentBrowser",
         "ExperimentHub",
         "GSEABase",
-        "KEGGREST",
         "annotate",
         "graphite",
         "pathview",
@@ -2136,48 +1856,41 @@
     ],
     "gsean": [
         "AnnotationDbi",
-        "KEGGREST",
         "PPInfer",
         "biomaRt"
     ],
     "GSReg": [
         "AnnotationDbi",
         "GenomicFeatures",
-        "KEGGREST",
         "OrganismDbi",
         "biomaRt"
     ],
     "GSRI": [
         "AnnotationDbi",
         "GSEABase",
-        "KEGGREST",
         "annotate",
         "genefilter"
     ],
     "GSVA": [
         "AnnotationDbi",
         "GSEABase",
-        "KEGGREST",
         "annotate"
     ],
     "GUIDEseq": [
         "AnnotationDbi",
         "ChIPpeakAnno",
         "GenomicFeatures",
-        "KEGGREST",
         "biomaRt",
         "ensembldb"
     ],
     "Guitar": [
         "AnnotationDbi",
         "GenomicFeatures",
-        "KEGGREST",
         "biomaRt"
     ],
     "Gviz": [
         "AnnotationDbi",
         "GenomicFeatures",
-        "KEGGREST",
         "VariantAnnotation",
         "biomaRt",
         "biovizBase",
@@ -2187,31 +1900,26 @@
         "AnnotationDbi",
         "AnnotationHub",
         "GenomicFeatures",
-        "KEGGREST",
         "VariantAnnotation",
         "biomaRt"
     ],
     "gwasurvivr": [
         "AnnotationDbi",
         "GenomicFeatures",
-        "KEGGREST",
         "VariantAnnotation",
         "biomaRt"
     ],
     "GWENA": [
-        "AnnotationDbi",
-        "KEGGREST"
+        "AnnotationDbi"
     ],
     "HelloRanges": [
         "AnnotationDbi",
         "GenomicFeatures",
-        "KEGGREST",
         "VariantAnnotation",
         "biomaRt"
     ],
     "hermes": [
         "AnnotationDbi",
-        "KEGGREST",
         "biomaRt"
     ],
     "HiCDCPlus": [
@@ -2219,7 +1927,6 @@
         "GenomicFeatures",
         "GenomicInteractions",
         "Gviz",
-        "KEGGREST",
         "VariantAnnotation",
         "biomaRt",
         "biovizBase",
@@ -2228,24 +1935,20 @@
     "HiLDA": [
         "AnnotationDbi",
         "GenomicFeatures",
-        "KEGGREST",
         "biomaRt"
     ],
     "hipathia": [
         "AnnotationDbi",
-        "AnnotationHub",
-        "KEGGREST"
+        "AnnotationHub"
     ],
     "hpar": [
         "AnnotationDbi",
         "AnnotationHub",
-        "ExperimentHub",
-        "KEGGREST"
+        "ExperimentHub"
     ],
     "HTSeqGenie": [
         "AnnotationDbi",
         "GenomicFeatures",
-        "KEGGREST",
         "VariantAnnotation",
         "VariantTools",
         "biomaRt",
@@ -2254,14 +1957,12 @@
     "icetea": [
         "AnnotationDbi",
         "GenomicFeatures",
-        "KEGGREST",
         "VariantAnnotation",
         "biomaRt"
     ],
     "iCheck": [
         "AnnotationDbi",
         "GenomicFeatures",
-        "KEGGREST",
         "annotate",
         "biomaRt",
         "bumphunter",
@@ -2278,7 +1979,6 @@
         "GOstats",
         "GSEABase",
         "GenomicFeatures",
-        "KEGGREST",
         "annotate",
         "biomaRt",
         "genefilter",
@@ -2288,13 +1988,11 @@
     ],
     "idiogram": [
         "AnnotationDbi",
-        "KEGGREST",
         "annotate"
     ],
     "igvR": [
         "AnnotationDbi",
         "GenomicFeatures",
-        "KEGGREST",
         "VariantAnnotation",
         "biomaRt"
     ],
@@ -2302,25 +2000,21 @@
         "AnnotationDbi",
         "GenomicFeatures",
         "IVAS",
-        "KEGGREST",
         "biomaRt"
     ],
     "InPAS": [
         "AnnotationDbi",
         "GenomicFeatures",
-        "KEGGREST",
         "biomaRt"
     ],
     "INSPEcT": [
         "AnnotationDbi",
         "GenomicFeatures",
-        "KEGGREST",
         "biomaRt"
     ],
     "intansv": [
         "AnnotationDbi",
         "GenomicFeatures",
-        "KEGGREST",
         "OrganismDbi",
         "VariantAnnotation",
         "biomaRt",
@@ -2332,13 +2026,11 @@
         "AnnotationDbi",
         "Category",
         "GSEABase",
-        "KEGGREST",
         "annotate",
         "genefilter"
     ],
     "InterCellar": [
         "AnnotationDbi",
-        "KEGGREST",
         "biomaRt"
     ],
     "IntEREst": [
@@ -2346,7 +2038,6 @@
         "DEXSeq",
         "GenomicFeatures",
         "GenomicFiles",
-        "KEGGREST",
         "VariantAnnotation",
         "annotate",
         "biomaRt",
@@ -2355,26 +2046,22 @@
     ],
     "ipdDb": [
         "AnnotationDbi",
-        "AnnotationHub",
-        "KEGGREST"
+        "AnnotationHub"
     ],
     "IRISFGM": [
         "AnnotationDbi",
         "DOSE",
         "GOSemSim",
-        "KEGGREST",
         "clusterProfiler",
         "enrichplot"
     ],
     "iSEEhub": [
         "AnnotationDbi",
         "AnnotationHub",
-        "ExperimentHub",
-        "KEGGREST"
+        "ExperimentHub"
     ],
     "isobar": [
         "AnnotationDbi",
-        "KEGGREST",
         "biomaRt"
     ],
     "IsoformSwitchAnalyzeR": [
@@ -2382,7 +2069,6 @@
         "AnnotationHub",
         "DEXSeq",
         "GenomicFeatures",
-        "KEGGREST",
         "annotate",
         "biomaRt",
         "ensembldb",
@@ -2391,19 +2077,16 @@
         "tximeta"
     ],
     "isomiRs": [
-        "AnnotationDbi",
-        "KEGGREST"
+        "AnnotationDbi"
     ],
     "IVAS": [
         "AnnotationDbi",
         "GenomicFeatures",
-        "KEGGREST",
         "biomaRt"
     ],
     "karyoploteR": [
         "AnnotationDbi",
         "GenomicFeatures",
-        "KEGGREST",
         "VariantAnnotation",
         "biomaRt",
         "biovizBase",
@@ -2412,58 +2095,47 @@
     "katdetectr": [
         "AnnotationDbi",
         "GenomicFeatures",
-        "KEGGREST",
         "VariantAnnotation",
         "biomaRt"
     ],
     "KEGGlincs": [
-        "AnnotationDbi",
-        "KEGGREST"
+        "AnnotationDbi"
     ],
     "keggorthology": [
-        "AnnotationDbi",
-        "KEGGREST"
+        "AnnotationDbi"
     ],
-    "KEGGREST": [],
     "kissDE": [],
     "KnowSeq": [
         "AnnotationDbi",
-        "KEGGREST",
         "annotate",
         "genefilter",
         "sva"
     ],
     "LACE": [
         "AnnotationDbi",
-        "KEGGREST",
         "biomaRt"
     ],
     "lineagespot": [
         "AnnotationDbi",
         "GenomicFeatures",
-        "KEGGREST",
         "VariantAnnotation",
         "biomaRt"
     ],
     "LiquidAssociation": [
-        "AnnotationDbi",
-        "KEGGREST"
+        "AnnotationDbi"
     ],
     "lisaClust": [],
     "LRBaseDbi": [
-        "AnnotationDbi",
-        "KEGGREST"
+        "AnnotationDbi"
     ],
     "LRcell": [
         "AnnotationDbi",
         "AnnotationHub",
-        "ExperimentHub",
-        "KEGGREST"
+        "ExperimentHub"
     ],
     "lumi": [
         "AnnotationDbi",
         "GenomicFeatures",
-        "KEGGREST",
         "annotate",
         "biomaRt",
         "bumphunter",
@@ -2474,35 +2146,29 @@
     "m6Aboost": [
         "AnnotationDbi",
         "AnnotationHub",
-        "ExperimentHub",
-        "KEGGREST"
+        "ExperimentHub"
     ],
     "Macarron": [
-        "AnnotationDbi",
-        "KEGGREST"
+        "AnnotationDbi"
     ],
     "macat": [
         "AnnotationDbi",
-        "KEGGREST",
         "annotate"
     ],
     "MACSr": [
         "AnnotationDbi",
         "AnnotationHub",
-        "ExperimentHub",
-        "KEGGREST"
+        "ExperimentHub"
     ],
     "MADSEQ": [
         "AnnotationDbi",
         "GenomicFeatures",
-        "KEGGREST",
         "VariantAnnotation",
         "biomaRt"
     ],
     "MAGAR": [
         "AnnotationDbi",
         "GenomicFeatures",
-        "KEGGREST",
         "RnBeads",
         "annotate",
         "biomaRt",
@@ -2517,7 +2183,6 @@
         "DOSE",
         "ExperimentHub",
         "GOSemSim",
-        "KEGGREST",
         "clusterProfiler",
         "enrichplot",
         "pathview"
@@ -2525,19 +2190,16 @@
     "magpie": [
         "AnnotationDbi",
         "GenomicFeatures",
-        "KEGGREST",
         "TRESS",
         "biomaRt"
     ],
     "maPredictDSC": [
-        "AnnotationDbi",
-        "KEGGREST"
+        "AnnotationDbi"
     ],
     "maser": [
         "AnnotationDbi",
         "GenomicFeatures",
         "Gviz",
-        "KEGGREST",
         "VariantAnnotation",
         "biomaRt",
         "biovizBase",
@@ -2548,42 +2210,35 @@
         "AnnotationHub",
         "ExperimentHub",
         "GSEABase",
-        "KEGGREST",
         "annotate"
     ],
     "MatrixQCvis": [
         "AnnotationDbi",
         "AnnotationHub",
-        "ExperimentHub",
-        "KEGGREST"
+        "ExperimentHub"
     ],
     "MatrixRider": [
         "AnnotationDbi",
         "CNEr",
-        "KEGGREST",
         "TFBSTools",
         "annotate"
     ],
     "MBECS": [
         "AnnotationDbi",
-        "KEGGREST",
         "annotate",
         "genefilter",
         "sva"
     ],
     "mbOmic": [
-        "AnnotationDbi",
-        "KEGGREST"
+        "AnnotationDbi"
     ],
     "MCbiclust": [
-        "AnnotationDbi",
-        "KEGGREST"
+        "AnnotationDbi"
     ],
     "mCSEA": [
         "AnnotationDbi",
         "GenomicFeatures",
         "Gviz",
-        "KEGGREST",
         "OrganismDbi",
         "VariantAnnotation",
         "biomaRt",
@@ -2594,7 +2249,6 @@
         "AnnotationDbi",
         "GenomicFeatures",
         "Gviz",
-        "KEGGREST",
         "VariantAnnotation",
         "annotate",
         "biomaRt",
@@ -2610,7 +2264,6 @@
     "MEAT": [
         "AnnotationDbi",
         "GenomicFeatures",
-        "KEGGREST",
         "annotate",
         "biomaRt",
         "bumphunter",
@@ -2622,19 +2275,16 @@
     ],
     "MEDIPS": [
         "AnnotationDbi",
-        "KEGGREST",
         "biomaRt"
     ],
     "MeSHDbi": [
-        "AnnotationDbi",
-        "KEGGREST"
+        "AnnotationDbi"
     ],
     "meshes": [
         "AnnotationDbi",
         "AnnotationHub",
         "DOSE",
         "GOSemSim",
-        "KEGGREST",
         "MeSHDbi",
         "enrichplot"
     ],
@@ -2642,21 +2292,18 @@
         "AnnotationDbi",
         "Category",
         "GSEABase",
-        "KEGGREST",
         "MeSHDbi",
         "annotate",
         "genefilter"
     ],
     "MesKit": [
-        "AnnotationDbi",
-        "KEGGREST"
+        "AnnotationDbi"
     ],
     "MetaboSignal": [
         "AnnotationDbi",
         "AnnotationHub",
         "ExperimentHub",
         "GenomicFeatures",
-        "KEGGREST",
         "MWASTools",
         "biomaRt",
         "ensembldb",
@@ -2666,7 +2313,6 @@
     "metagene": [
         "AnnotationDbi",
         "GenomicFeatures",
-        "KEGGREST",
         "biomaRt",
         "ensembldb"
     ],
@@ -2674,7 +2320,6 @@
         "AnnotationDbi",
         "DOSE",
         "GOSemSim",
-        "KEGGREST",
         "clusterProfiler",
         "enrichplot"
     ],
@@ -2682,13 +2327,11 @@
         "AnnotationDbi",
         "AnnotationHub",
         "ExperimentHub",
-        "KEGGREST",
         "sesame"
     ],
     "MethylAid": [
         "AnnotationDbi",
         "GenomicFeatures",
-        "KEGGREST",
         "annotate",
         "biomaRt",
         "bumphunter",
@@ -2698,7 +2341,6 @@
     "methylCC": [
         "AnnotationDbi",
         "GenomicFeatures",
-        "KEGGREST",
         "annotate",
         "biomaRt",
         "bumphunter",
@@ -2713,7 +2355,6 @@
         "ExperimentHub",
         "ExperimentHubData",
         "GenomicFeatures",
-        "KEGGREST",
         "OrganismDbi",
         "annotate",
         "biomaRt",
@@ -2726,7 +2367,6 @@
         "DOSE",
         "GOSemSim",
         "GenomicFeatures",
-        "KEGGREST",
         "annotate",
         "biomaRt",
         "bumphunter",
@@ -2741,7 +2381,6 @@
         "AnnotationDbi",
         "GenomicFeatures",
         "Gviz",
-        "KEGGREST",
         "VariantAnnotation",
         "biomaRt",
         "biovizBase",
@@ -2749,7 +2388,6 @@
     ],
     "MethylSeekR": [
         "AnnotationDbi",
-        "KEGGREST",
         "annotate",
         "geneplotter"
     ],
@@ -2757,7 +2395,6 @@
     "methylumi": [
         "AnnotationDbi",
         "GenomicFeatures",
-        "KEGGREST",
         "annotate",
         "biomaRt",
         "bumphunter",
@@ -2766,12 +2403,10 @@
     ],
     "MGFM": [
         "AnnotationDbi",
-        "KEGGREST",
         "annotate"
     ],
     "MGFR": [
         "AnnotationDbi",
-        "KEGGREST",
         "annotate",
         "biomaRt"
     ],
@@ -2780,7 +2415,6 @@
         "AnnotationDbi",
         "DOSE",
         "GOSemSim",
-        "KEGGREST",
         "clusterProfiler",
         "enrichplot"
     ],
@@ -2791,7 +2425,6 @@
         "GOstats",
         "GSEABase",
         "GenomicFeatures",
-        "KEGGREST",
         "annotate",
         "biomaRt",
         "bumphunter",
@@ -2803,7 +2436,6 @@
     "minfi": [
         "AnnotationDbi",
         "GenomicFeatures",
-        "KEGGREST",
         "annotate",
         "biomaRt",
         "bumphunter",
@@ -2811,21 +2443,17 @@
     ],
     "MinimumDistance": [],
     "MiRaGE": [
-        "AnnotationDbi",
-        "KEGGREST"
+        "AnnotationDbi"
     ],
     "mirIntegrator": [
         "AnnotationDbi",
-        "KEGGREST",
         "ROntoTools"
     ],
     "miRNAmeConverter": [
-        "AnnotationDbi",
-        "KEGGREST"
+        "AnnotationDbi"
     ],
     "miRNAtap": [
-        "AnnotationDbi",
-        "KEGGREST"
+        "AnnotationDbi"
     ],
     "miRSM": [
         "AnnotationDbi",
@@ -2833,7 +2461,6 @@
         "DOSE",
         "GOSemSim",
         "GSEABase",
-        "KEGGREST",
         "ReactomePA",
         "SPONGE",
         "annotate",
@@ -2847,7 +2474,6 @@
         "AnnotationDbi",
         "DOSE",
         "GOSemSim",
-        "KEGGREST",
         "ReactomePA",
         "SPONGE",
         "biomaRt",
@@ -2858,7 +2484,6 @@
     "missMethyl": [
         "AnnotationDbi",
         "GenomicFeatures",
-        "KEGGREST",
         "annotate",
         "biomaRt",
         "bumphunter",
@@ -2869,25 +2494,21 @@
     "mitoClone2": [
         "AnnotationDbi",
         "GenomicFeatures",
-        "KEGGREST",
         "VariantAnnotation",
         "biomaRt",
         "deepSNV"
     ],
     "MLInterfaces": [
         "AnnotationDbi",
-        "KEGGREST",
         "annotate",
         "genefilter"
     ],
     "MLP": [
-        "AnnotationDbi",
-        "KEGGREST"
+        "AnnotationDbi"
     ],
     "MMAPPR2": [
         "AnnotationDbi",
         "GenomicFeatures",
-        "KEGGREST",
         "VariantAnnotation",
         "VariantTools",
         "biomaRt",
@@ -2896,17 +2517,14 @@
     ],
     "moanin": [
         "AnnotationDbi",
-        "KEGGREST",
         "topGO"
     ],
     "MODA": [
-        "AnnotationDbi",
-        "KEGGREST"
+        "AnnotationDbi"
     ],
     "mogsa": [
         "AnnotationDbi",
         "GSEABase",
-        "KEGGREST",
         "annotate",
         "genefilter",
         "graphite"
@@ -2914,7 +2532,6 @@
     "monaLisa": [
         "AnnotationDbi",
         "CNEr",
-        "KEGGREST",
         "TFBSTools",
         "annotate"
     ],
@@ -2923,7 +2540,6 @@
         "CNEr",
         "GenomicFeatures",
         "Gviz",
-        "KEGGREST",
         "TFBSTools",
         "VariantAnnotation",
         "annotate",
@@ -2935,33 +2551,28 @@
     "motifmatchr": [
         "AnnotationDbi",
         "CNEr",
-        "KEGGREST",
         "TFBSTools",
         "annotate"
     ],
     "motifStack": [
         "AnnotationDbi",
         "CNEr",
-        "KEGGREST",
         "TFBSTools",
         "annotate"
     ],
     "MouseFM": [
         "AnnotationDbi",
-        "KEGGREST",
         "biomaRt"
     ],
     "MsBackendRawFileReader": [],
     "MsDataHub": [
         "AnnotationDbi",
         "AnnotationHub",
-        "ExperimentHub",
-        "KEGGREST"
+        "ExperimentHub"
     ],
     "msgbsR": [
         "AnnotationDbi",
         "GenomicFeatures",
-        "KEGGREST",
         "OrganismDbi",
         "VariantAnnotation",
         "biomaRt",
@@ -2971,17 +2582,14 @@
         "ggbio"
     ],
     "mslp": [
-        "AnnotationDbi",
-        "KEGGREST"
+        "AnnotationDbi"
     ],
     "MSnID": [
         "AnnotationDbi",
-        "AnnotationHub",
-        "KEGGREST"
+        "AnnotationHub"
     ],
     "MSPrep": [
         "AnnotationDbi",
-        "KEGGREST",
         "annotate",
         "genefilter",
         "sva"
@@ -2989,7 +2597,6 @@
     "multicrispr": [
         "AnnotationDbi",
         "GenomicFeatures",
-        "KEGGREST",
         "VariantAnnotation",
         "biomaRt",
         "biovizBase",
@@ -2999,18 +2606,15 @@
     "multiGSEA": [
         "AnnotationDbi",
         "AnnotationHub",
-        "KEGGREST",
         "graphite"
     ],
     "multiMiR": [
-        "AnnotationDbi",
-        "KEGGREST"
+        "AnnotationDbi"
     ],
     "multiSight": [
         "AnnotationDbi",
         "DOSE",
         "GOSemSim",
-        "KEGGREST",
         "ReactomePA",
         "clusterProfiler",
         "enrichplot",
@@ -3019,14 +2623,12 @@
     "MungeSumstats": [
         "AnnotationDbi",
         "GenomicFeatures",
-        "KEGGREST",
         "VariantAnnotation",
         "biomaRt"
     ],
     "musicatk": [
         "AnnotationDbi",
         "GenomicFeatures",
-        "KEGGREST",
         "VariantAnnotation",
         "biomaRt",
         "decompTumor2Sig"
@@ -3034,23 +2636,18 @@
     "MutationalPatterns": [
         "AnnotationDbi",
         "GenomicFeatures",
-        "KEGGREST",
         "VariantAnnotation",
         "biomaRt"
     ],
-    "MWASTools": [
-        "KEGGREST"
-    ],
+    "MWASTools": [],
     "mygene": [
         "AnnotationDbi",
         "GenomicFeatures",
-        "KEGGREST",
         "biomaRt"
     ],
     "myvariant": [
         "AnnotationDbi",
         "GenomicFeatures",
-        "KEGGREST",
         "VariantAnnotation",
         "biomaRt"
     ],
@@ -3063,7 +2660,6 @@
         "GenomicFeatures",
         "GenomicScores",
         "Gviz",
-        "KEGGREST",
         "TFBSTools",
         "VariantAnnotation",
         "annotate",
@@ -3074,45 +2670,36 @@
         "trackViewer"
     ],
     "NanoMethViz": [
-        "AnnotationDbi",
-        "KEGGREST"
+        "AnnotationDbi"
     ],
     "NanoStringQCPro": [
-        "AnnotationDbi",
-        "KEGGREST"
+        "AnnotationDbi"
     ],
     "nanotatoR": [
-        "AnnotationDbi",
-        "KEGGREST"
+        "AnnotationDbi"
     ],
     "NBAMSeq": [
         "AnnotationDbi",
-        "KEGGREST",
         "annotate",
         "genefilter"
     ],
     "nearBynding": [
         "AnnotationDbi",
         "GenomicFeatures",
-        "KEGGREST",
         "biomaRt"
     ],
     "netboost": [
-        "AnnotationDbi",
-        "KEGGREST"
+        "AnnotationDbi"
     ],
     "netOmics": [
-        "AnnotationDbi",
-        "KEGGREST"
+        "AnnotationDbi"
     ],
     "NetSAM": [
         "AnnotationDbi",
-        "KEGGREST",
         "biomaRt"
     ],
     "netSmooth": [
         "AnnotationDbi",
-        "KEGGREST",
         "annotate",
         "clusterExperiment",
         "genefilter",
@@ -3125,7 +2712,6 @@
         "GOstats",
         "GSEABase",
         "GenomicFeatures",
-        "KEGGREST",
         "annotate",
         "biomaRt",
         "bumphunter",
@@ -3137,20 +2723,17 @@
     "NoRCE": [
         "AnnotationDbi",
         "GenomicFeatures",
-        "KEGGREST",
         "biomaRt"
     ],
     "npGSEA": [
         "AnnotationDbi",
         "GSEABase",
-        "KEGGREST",
         "annotate"
     ],
     "NxtIRFcore": [
         "AnnotationDbi",
         "AnnotationHub",
         "ExperimentHub",
-        "KEGGREST",
         "annotate",
         "genefilter"
     ],
@@ -3162,7 +2745,6 @@
         "GSEABase",
         "GSVA",
         "GenomicFeatures",
-        "KEGGREST",
         "RUVSeq",
         "annotate",
         "biomaRt"
@@ -3171,7 +2753,6 @@
         "AnnotationDbi",
         "GenomicFeatures",
         "GenomicFiles",
-        "KEGGREST",
         "VariantAnnotation",
         "biomaRt",
         "bumphunter",
@@ -3183,7 +2764,6 @@
         "AnnotationHub",
         "GenomicFeatures",
         "Gviz",
-        "KEGGREST",
         "VariantAnnotation",
         "biomaRt",
         "biovizBase",
@@ -3192,12 +2772,10 @@
     "omada": [],
     "OmaDB": [
         "AnnotationDbi",
-        "KEGGREST",
         "topGO"
     ],
     "omicRexposome": [
         "AnnotationDbi",
-        "KEGGREST",
         "annotate",
         "genefilter",
         "sva"
@@ -3207,60 +2785,50 @@
         "AnnotationDbi",
         "GenomicFeatures",
         "HelloRanges",
-        "KEGGREST",
         "VariantAnnotation",
         "biomaRt"
     ],
     "OncoScore": [
         "AnnotationDbi",
-        "KEGGREST",
         "biomaRt"
     ],
     "ontoProc": [
         "AnnotationDbi",
-        "AnnotationHub",
-        "KEGGREST"
+        "AnnotationHub"
     ],
     "oposSOM": [
         "AnnotationDbi",
-        "KEGGREST",
         "biomaRt"
     ],
     "oppar": [
         "AnnotationDbi",
         "GSEABase",
         "GSVA",
-        "KEGGREST",
         "annotate"
     ],
     "ORFik": [
         "AnnotationDbi",
         "GenomicFeatures",
-        "KEGGREST",
         "biomaRt"
     ],
     "Organism.dplyr": [
         "AnnotationDbi",
         "GenomicFeatures",
-        "KEGGREST",
         "biomaRt"
     ],
     "OrganismDbi": [
         "AnnotationDbi",
         "GenomicFeatures",
-        "KEGGREST",
         "biomaRt"
     ],
     "OUTRIDER": [
         "AnnotationDbi",
         "GenomicFeatures",
-        "KEGGREST",
         "biomaRt"
     ],
     "OutSplice": [
         "AnnotationDbi",
         "GenomicFeatures",
-        "KEGGREST",
         "Repitools",
         "Ringo",
         "annotate",
@@ -3269,19 +2837,16 @@
     ],
     "PAA": [
         "AnnotationDbi",
-        "KEGGREST",
         "annotate",
         "genefilter",
         "sva"
     ],
     "PADOG": [
-        "AnnotationDbi",
-        "KEGGREST"
+        "AnnotationDbi"
     ],
     "pageRank": [
         "AnnotationDbi",
         "CNEr",
-        "KEGGREST",
         "TFBSTools",
         "annotate",
         "motifmatchr"
@@ -3289,33 +2854,27 @@
     "pairedGSEA": [
         "AnnotationDbi",
         "DEXSeq",
-        "KEGGREST",
         "annotate",
         "biomaRt",
         "genefilter",
         "geneplotter",
         "sva"
     ],
-    "pairkat": [
-        "KEGGREST"
-    ],
+    "pairkat": [],
     "PanomiR": [
         "AnnotationDbi",
         "DOSE",
         "GOSemSim",
         "GSEABase",
-        "KEGGREST",
         "annotate",
         "clusterProfiler",
         "enrichplot"
     ],
     "pathRender": [
-        "AnnotationDbi",
-        "KEGGREST"
+        "AnnotationDbi"
     ],
     "pathview": [
-        "AnnotationDbi",
-        "KEGGREST"
+        "AnnotationDbi"
     ],
     "pcaExplorer": [
         "AnnotationDbi",
@@ -3323,7 +2882,6 @@
         "Category",
         "GOstats",
         "GSEABase",
-        "KEGGREST",
         "annotate",
         "biomaRt",
         "genefilter",
@@ -3331,13 +2889,11 @@
     ],
     "PDATK": [
         "AnnotationDbi",
-        "KEGGREST",
         "biomaRt",
         "genefu"
     ],
     "PECA": [
         "AnnotationDbi",
-        "KEGGREST",
         "annotate",
         "genefilter"
     ],
@@ -3345,19 +2901,16 @@
         "AnnotationDbi",
         "DOSE",
         "GOSemSim",
-        "KEGGREST",
         "clusterProfiler",
         "enrichplot"
     ],
     "phantasus": [
-        "AnnotationDbi",
-        "KEGGREST"
+        "AnnotationDbi"
     ],
     "phenoTest": [
         "AnnotationDbi",
         "Category",
         "GSEABase",
-        "KEGGREST",
         "annotate",
         "biomaRt",
         "genefilter"
@@ -3366,7 +2919,6 @@
         "AnnotationDbi",
         "AnnotationHub",
         "ExperimentHub",
-        "KEGGREST",
         "OmaDB",
         "topGO"
     ],
@@ -3374,7 +2926,6 @@
         "AnnotationDbi",
         "DOSE",
         "GOSemSim",
-        "KEGGREST",
         "ReactomePA",
         "clusterProfiler",
         "enrichplot",
@@ -3384,7 +2935,6 @@
         "AnnotationDbi",
         "GenomicFeatures",
         "Gviz",
-        "KEGGREST",
         "VariantAnnotation",
         "biomaRt",
         "biovizBase",
@@ -3396,31 +2946,26 @@
         "Category",
         "GOstats",
         "GSEABase",
-        "KEGGREST",
         "annotate",
         "genefilter"
     ],
     "pogos": [
         "AnnotationDbi",
         "AnnotationHub",
-        "KEGGREST",
         "ontoProc"
     ],
     "PPInfer": [
         "AnnotationDbi",
-        "KEGGREST",
         "biomaRt"
     ],
     "preciseTAD": [
         "AnnotationDbi",
         "GenomicFeatures",
-        "KEGGREST",
         "biomaRt",
         "rCGH"
     ],
     "PREDA": [
         "AnnotationDbi",
-        "KEGGREST",
         "annotate"
     ],
     "primirTSS": [
@@ -3430,7 +2975,6 @@
         "GenomicFeatures",
         "GenomicScores",
         "Gviz",
-        "KEGGREST",
         "TFBSTools",
         "VariantAnnotation",
         "annotate",
@@ -3442,13 +2986,11 @@
     "proActiv": [
         "AnnotationDbi",
         "GenomicFeatures",
-        "KEGGREST",
         "biomaRt"
     ],
     "proBAMr": [
         "AnnotationDbi",
         "GenomicFeatures",
-        "KEGGREST",
         "biomaRt"
     ],
     "profileplyr": [
@@ -3457,7 +2999,6 @@
         "DOSE",
         "GOSemSim",
         "GenomicFeatures",
-        "KEGGREST",
         "biomaRt",
         "enrichplot",
         "rGREAT"
@@ -3465,12 +3006,10 @@
     "projectR": [
         "AnnotationDbi",
         "CoGAPS",
-        "KEGGREST",
         "biomaRt"
     ],
     "pRoloc": [
         "AnnotationDbi",
-        "KEGGREST",
         "MLInterfaces",
         "annotate",
         "biomaRt",
@@ -3478,7 +3017,6 @@
     ],
     "pRolocGUI": [
         "AnnotationDbi",
-        "KEGGREST",
         "MLInterfaces",
         "annotate",
         "biomaRt",
@@ -3488,12 +3026,10 @@
     "PROMISE": [
         "AnnotationDbi",
         "GSEABase",
-        "KEGGREST",
         "annotate"
     ],
     "PROPS": [
         "AnnotationDbi",
-        "KEGGREST",
         "annotate",
         "genefilter",
         "sva"
@@ -3502,7 +3038,6 @@
         "AnnotationDbi",
         "GOSemSim",
         "GenomicFeatures",
-        "KEGGREST",
         "Rcpi",
         "biomaRt",
         "ensembldb"
@@ -3510,18 +3045,15 @@
     "ProteoDisco": [
         "AnnotationDbi",
         "GenomicFeatures",
-        "KEGGREST",
         "VariantAnnotation",
         "biomaRt"
     ],
     "ProteoMM": [
         "AnnotationDbi",
-        "KEGGREST",
         "biomaRt"
     ],
     "protGear": [
         "AnnotationDbi",
-        "KEGGREST",
         "annotate",
         "genefilter"
     ],
@@ -3530,7 +3062,6 @@
         "AnnotationHub",
         "GenomicFeatures",
         "GenomicFiles",
-        "KEGGREST",
         "VariantAnnotation",
         "biomaRt",
         "bumphunter",
@@ -3540,14 +3071,12 @@
     "psygenet2r": [
         "AnnotationDbi",
         "BgeeDB",
-        "KEGGREST",
         "biomaRt",
         "topGO"
     ],
     "PureCN": [
         "AnnotationDbi",
         "GenomicFeatures",
-        "KEGGREST",
         "VariantAnnotation",
         "biomaRt"
     ],
@@ -3555,7 +3084,6 @@
         "AnnotationDbi",
         "GenomicFeatures",
         "Gviz",
-        "KEGGREST",
         "VariantAnnotation",
         "biomaRt",
         "biovizBase",
@@ -3564,34 +3092,29 @@
     "pwOmics": [
         "AnnotationDbi",
         "AnnotationHub",
-        "KEGGREST",
         "biomaRt"
     ],
     "pwrEWAS": [
         "AnnotationDbi",
         "AnnotationHub",
         "ExperimentHub",
-        "KEGGREST",
         "annotate",
         "genefilter"
     ],
     "qpgraph": [
         "AnnotationDbi",
         "GenomicFeatures",
-        "KEGGREST",
         "annotate",
         "biomaRt"
     ],
     "qsmooth": [
         "AnnotationDbi",
-        "KEGGREST",
         "annotate",
         "genefilter",
         "sva"
     ],
     "qsvaR": [
         "AnnotationDbi",
-        "KEGGREST",
         "annotate",
         "genefilter",
         "sva"
@@ -3599,7 +3122,6 @@
     "quantro": [
         "AnnotationDbi",
         "GenomicFeatures",
-        "KEGGREST",
         "annotate",
         "biomaRt",
         "bumphunter",
@@ -3610,14 +3132,12 @@
         "AnnotationDbi",
         "GenomicFeatures",
         "GenomicFiles",
-        "KEGGREST",
         "VariantAnnotation",
         "biomaRt"
     ],
     "R3CPET": [
         "AnnotationDbi",
         "GenomicFeatures",
-        "KEGGREST",
         "OrganismDbi",
         "VariantAnnotation",
         "biomaRt",
@@ -3628,13 +3148,11 @@
     "R453Plus1Toolbox": [
         "AnnotationDbi",
         "GenomicFeatures",
-        "KEGGREST",
         "VariantAnnotation",
         "biomaRt"
     ],
     "ramwas": [
         "AnnotationDbi",
-        "KEGGREST",
         "biomaRt"
     ],
     "RareVariantVis": [
@@ -3642,39 +3160,33 @@
         "AnnotationHub",
         "GenomicFeatures",
         "GenomicScores",
-        "KEGGREST",
         "VariantAnnotation",
         "biomaRt"
     ],
     "RCAS": [
         "AnnotationDbi",
         "GenomicFeatures",
-        "KEGGREST",
         "biomaRt"
     ],
     "rCGH": [
         "AnnotationDbi",
         "GenomicFeatures",
-        "KEGGREST",
         "biomaRt"
     ],
     "RcisTarget": [
         "AUCell",
         "AnnotationDbi",
         "GSEABase",
-        "KEGGREST",
         "annotate"
     ],
     "Rcpi": [
         "AnnotationDbi",
-        "GOSemSim",
-        "KEGGREST"
+        "GOSemSim"
     ],
     "ReactomePA": [
         "AnnotationDbi",
         "DOSE",
         "GOSemSim",
-        "KEGGREST",
         "enrichplot",
         "graphite"
     ],
@@ -3682,7 +3194,6 @@
         "AnnotationDbi",
         "GenomicFeatures",
         "GenomicFiles",
-        "KEGGREST",
         "VariantAnnotation",
         "biomaRt",
         "bumphunter",
@@ -3691,7 +3202,6 @@
     "recountmethylation": [
         "AnnotationDbi",
         "GenomicFeatures",
-        "KEGGREST",
         "annotate",
         "biomaRt",
         "bumphunter",
@@ -3701,14 +3211,12 @@
     "recoup": [
         "AnnotationDbi",
         "GenomicFeatures",
-        "KEGGREST",
         "biomaRt"
     ],
     "REDseq": [
         "AnnotationDbi",
         "ChIPpeakAnno",
         "GenomicFeatures",
-        "KEGGREST",
         "biomaRt",
         "ensembldb"
     ],
@@ -3716,14 +3224,12 @@
         "AnnotationDbi",
         "BiocSet",
         "DOSE",
-        "GOSemSim",
-        "KEGGREST"
+        "GOSemSim"
     ],
     "regionReport": [
         "AnnotationDbi",
         "GenomicFeatures",
         "GenomicFiles",
-        "KEGGREST",
         "VariantAnnotation",
         "biomaRt",
         "bumphunter",
@@ -3734,7 +3240,6 @@
         "AnnotationHub",
         "GenomicFeatures",
         "Gviz",
-        "KEGGREST",
         "VariantAnnotation",
         "biomaRt",
         "biovizBase",
@@ -3744,7 +3249,6 @@
         "AnnotationDbi",
         "AnnotationHub",
         "GenomicFeatures",
-        "KEGGREST",
         "annotate",
         "biomaRt",
         "bumphunter",
@@ -3753,7 +3257,6 @@
     ],
     "Repitools": [
         "AnnotationDbi",
-        "KEGGREST",
         "Ringo",
         "annotate",
         "genefilter"
@@ -3765,7 +3268,6 @@
         "GOstats",
         "GSEABase",
         "GenomicFeatures",
-        "KEGGREST",
         "OrganismDbi",
         "VariantAnnotation",
         "annotate",
@@ -3777,13 +3279,11 @@
     ],
     "RepViz": [
         "AnnotationDbi",
-        "KEGGREST",
         "biomaRt"
     ],
     "RESOLVE": [
         "AnnotationDbi",
         "GenomicFeatures",
-        "KEGGREST",
         "MutationalPatterns",
         "VariantAnnotation",
         "biomaRt"
@@ -3791,57 +3291,48 @@
     "restfulSE": [
         "AnnotationDbi",
         "AnnotationHub",
-        "ExperimentHub",
-        "KEGGREST"
+        "ExperimentHub"
     ],
     "rGenomeTracks": [
         "AnnotationDbi",
-        "AnnotationHub",
-        "KEGGREST"
+        "AnnotationHub"
     ],
     "RgnTX": [
         "AnnotationDbi",
         "GenomicFeatures",
-        "KEGGREST",
         "biomaRt"
     ],
     "rGREAT": [
         "AnnotationDbi",
         "GenomicFeatures",
-        "KEGGREST",
         "biomaRt"
     ],
     "rgsepd": [
         "AnnotationDbi",
         "GenomicFeatures",
-        "KEGGREST",
         "biomaRt",
         "goseq"
     ],
     "Rhisat2": [
         "AnnotationDbi",
         "GenomicFeatures",
-        "KEGGREST",
         "SGSeq",
         "biomaRt"
     ],
     "RiboCrypt": [
         "AnnotationDbi",
         "GenomicFeatures",
-        "KEGGREST",
         "ORFik",
         "biomaRt"
     ],
     "RiboDiPA": [
         "AnnotationDbi",
         "GenomicFeatures",
-        "KEGGREST",
         "biomaRt"
     ],
     "RiboProfiling": [
         "AnnotationDbi",
         "GenomicFeatures",
-        "KEGGREST",
         "OrganismDbi",
         "VariantAnnotation",
         "biomaRt",
@@ -3854,7 +3345,6 @@
         "CNEr",
         "EDASeq",
         "GenomicFeatures",
-        "KEGGREST",
         "RUVSeq",
         "TFBSTools",
         "annotate",
@@ -3863,14 +3353,12 @@
     ],
     "Ringo": [
         "AnnotationDbi",
-        "KEGGREST",
         "annotate",
         "genefilter"
     ],
     "RIPAT": [
         "AnnotationDbi",
         "GenomicFeatures",
-        "KEGGREST",
         "VariantAnnotation",
         "biomaRt",
         "biovizBase",
@@ -3881,7 +3369,6 @@
         "AnnotationDbi",
         "BgeeDB",
         "GenomicFeatures",
-        "KEGGREST",
         "biomaRt",
         "ensembldb",
         "topGO"
@@ -3891,20 +3378,17 @@
         "AnnotationHub",
         "ExperimentHub",
         "GenomicFeatures",
-        "KEGGREST",
         "biomaRt"
     ],
     "Rmmquant": [
         "AnnotationDbi",
         "GenomicFeatures",
-        "KEGGREST",
         "biomaRt"
     ],
     "RNAAgeCalc": [
         "AnnotationDbi",
         "GenomicFeatures",
         "GenomicFiles",
-        "KEGGREST",
         "VariantAnnotation",
         "biomaRt",
         "bumphunter",
@@ -3914,7 +3398,6 @@
     "rnaEditr": [
         "AnnotationDbi",
         "GenomicFeatures",
-        "KEGGREST",
         "biomaRt",
         "bumphunter"
     ],
@@ -3922,7 +3405,6 @@
         "AnnotationDbi",
         "Category",
         "GSEABase",
-        "KEGGREST",
         "annotate",
         "cellHTS2",
         "genefilter",
@@ -3932,7 +3414,6 @@
         "AnnotationDbi",
         "GenomicFeatures",
         "Gviz",
-        "KEGGREST",
         "VariantAnnotation",
         "biomaRt",
         "biovizBase",
@@ -3942,7 +3423,6 @@
         "AnnotationDbi",
         "GenomicFeatures",
         "Gviz",
-        "KEGGREST",
         "RNAmodR",
         "VariantAnnotation",
         "biomaRt",
@@ -3953,7 +3433,6 @@
         "AnnotationDbi",
         "GenomicFeatures",
         "Gviz",
-        "KEGGREST",
         "RNAmodR",
         "VariantAnnotation",
         "biomaRt",
@@ -3964,7 +3443,6 @@
         "AnnotationDbi",
         "GenomicFeatures",
         "Gviz",
-        "KEGGREST",
         "RNAmodR",
         "VariantAnnotation",
         "biomaRt",
@@ -3975,7 +3453,6 @@
         "AnnotationDbi",
         "GenomicFeatures",
         "GenomicFiles",
-        "KEGGREST",
         "VariantAnnotation",
         "biomaRt",
         "bumphunter",
@@ -3985,7 +3462,6 @@
     "RnBeads": [
         "AnnotationDbi",
         "GenomicFeatures",
-        "KEGGREST",
         "annotate",
         "biomaRt",
         "bumphunter",
@@ -3993,14 +3469,11 @@
         "methylumi",
         "minfi"
     ],
-    "ROntoTools": [
-        "KEGGREST"
-    ],
+    "ROntoTools": [],
     "Rqc": [
         "AnnotationDbi",
         "GenomicFeatures",
         "GenomicFiles",
-        "KEGGREST",
         "VariantAnnotation",
         "biomaRt",
         "biovizBase",
@@ -4008,39 +3481,32 @@
     ],
     "rrvgo": [
         "AnnotationDbi",
-        "GOSemSim",
-        "KEGGREST"
+        "GOSemSim"
     ],
     "RTCGAToolbox": [
         "AnnotationDbi",
         "GenomicFeatures",
-        "KEGGREST",
         "TCGAutils",
         "biomaRt"
     ],
     "rTRM": [
-        "AnnotationDbi",
-        "KEGGREST"
+        "AnnotationDbi"
     ],
     "rTRMui": [
         "AnnotationDbi",
-        "KEGGREST",
         "rTRM"
     ],
     "RUVSeq": [
         "AnnotationDbi",
         "EDASeq",
         "GenomicFeatures",
-        "KEGGREST",
         "biomaRt"
     ],
     "safe": [
-        "AnnotationDbi",
-        "KEGGREST"
+        "AnnotationDbi"
     ],
     "sampleClassifier": [
         "AnnotationDbi",
-        "KEGGREST",
         "MGFM",
         "MGFR",
         "annotate",
@@ -4048,12 +3514,10 @@
     ],
     "SBGNview": [
         "AnnotationDbi",
-        "KEGGREST",
         "pathview"
     ],
     "SCAN.UPC": [
         "AnnotationDbi",
-        "KEGGREST",
         "annotate",
         "genefilter",
         "sva"
@@ -4062,24 +3526,20 @@
         "AnnotationDbi",
         "AnnotationHub",
         "GenomicFeatures",
-        "KEGGREST",
         "biomaRt",
         "ensembldb"
     ],
     "scAnnotatR": [
         "AnnotationDbi",
-        "AnnotationHub",
-        "KEGGREST"
+        "AnnotationHub"
     ],
     "SCATE": [
         "AnnotationDbi",
         "AnnotationHub",
-        "ExperimentHub",
-        "KEGGREST"
+        "ExperimentHub"
     ],
     "scBFA": [
         "AnnotationDbi",
-        "KEGGREST",
         "annotate",
         "genefilter",
         "zinbwave"
@@ -4088,7 +3548,6 @@
         "AnnotationDbi",
         "Cepo",
         "GSEABase",
-        "KEGGREST",
         "annotate"
     ],
     "scFeatures": [
@@ -4097,7 +3556,6 @@
         "GSEABase",
         "GSVA",
         "GenomicFeatures",
-        "KEGGREST",
         "annotate",
         "biomaRt",
         "ensembldb"
@@ -4106,7 +3564,6 @@
         "AnnotationDbi",
         "AnnotationHub",
         "GenomicFeatures",
-        "KEGGREST",
         "annotatr",
         "biomaRt"
     ],
@@ -4114,26 +3571,22 @@
         "AnnotationDbi",
         "EDASeq",
         "GenomicFeatures",
-        "KEGGREST",
         "RUVSeq",
         "biomaRt"
     ],
     "scoreInvHap": [
         "AnnotationDbi",
         "GenomicFeatures",
-        "KEGGREST",
         "VariantAnnotation",
         "biomaRt"
     ],
     "scPipe": [
         "AnnotationDbi",
-        "KEGGREST",
         "biomaRt"
     ],
     "scruff": [
         "AnnotationDbi",
         "GenomicFeatures",
-        "KEGGREST",
         "OrganismDbi",
         "VariantAnnotation",
         "biomaRt",
@@ -4150,7 +3603,6 @@
         "GOSemSim",
         "GOstats",
         "GSEABase",
-        "KEGGREST",
         "MeSHDbi",
         "ReactomePA",
         "annotate",
@@ -4162,13 +3614,11 @@
     "scTGIF": [
         "AnnotationDbi",
         "GSEABase",
-        "KEGGREST",
         "annotate"
     ],
     "scTreeViz": [
         "AnnotationDbi",
         "GenomicFeatures",
-        "KEGGREST",
         "OrganismDbi",
         "biomaRt",
         "bumphunter",
@@ -4182,7 +3632,6 @@
         "DOSE",
         "GOSemSim",
         "GenomicFeatures",
-        "KEGGREST",
         "biomaRt",
         "enrichplot"
     ],
@@ -4190,17 +3639,14 @@
         "AnnotationDbi",
         "GenomicFeatures",
         "HiLDA",
-        "KEGGREST",
         "biomaRt"
     ],
     "SemDist": [
         "AnnotationDbi",
-        "KEGGREST",
         "annotate"
     ],
     "seq2pathway": [
         "AnnotationDbi",
-        "KEGGREST",
         "biomaRt"
     ],
     "seqArchRplus": [
@@ -4209,7 +3655,6 @@
         "DOSE",
         "GOSemSim",
         "GenomicFeatures",
-        "KEGGREST",
         "biomaRt",
         "clusterProfiler",
         "enrichplot"
@@ -4217,30 +3662,25 @@
     "seqCAT": [
         "AnnotationDbi",
         "GenomicFeatures",
-        "KEGGREST",
         "VariantAnnotation",
         "biomaRt"
     ],
     "SeqGSEA": [
         "AnnotationDbi",
-        "KEGGREST",
         "biomaRt"
     ],
     "SeqSQC": [
         "AnnotationDbi",
         "AnnotationHub",
-        "ExperimentHub",
-        "KEGGREST"
+        "ExperimentHub"
     ],
     "sesame": [
         "AnnotationDbi",
         "AnnotationHub",
-        "ExperimentHub",
-        "KEGGREST"
+        "ExperimentHub"
     ],
     "SEtools": [
         "AnnotationDbi",
-        "KEGGREST",
         "annotate",
         "genefilter",
         "sva"
@@ -4251,20 +3691,17 @@
         "Category",
         "GOstats",
         "GSEABase",
-        "KEGGREST",
         "annotate",
         "genefilter"
     ],
     "SGSeq": [
         "AnnotationDbi",
         "GenomicFeatures",
-        "KEGGREST",
         "biomaRt"
     ],
     "shinyepico": [
         "AnnotationDbi",
         "GenomicFeatures",
-        "KEGGREST",
         "annotate",
         "biomaRt",
         "bumphunter",
@@ -4274,7 +3711,6 @@
     "shinyMethyl": [
         "AnnotationDbi",
         "GenomicFeatures",
-        "KEGGREST",
         "annotate",
         "biomaRt",
         "bumphunter",
@@ -4283,7 +3719,6 @@
     ],
     "SigCheck": [
         "AnnotationDbi",
-        "KEGGREST",
         "MLInterfaces",
         "annotate",
         "genefilter"
@@ -4295,7 +3730,6 @@
         "ExperimentHub",
         "GOSemSim",
         "GSEABase",
-        "KEGGREST",
         "annotate",
         "clusterProfiler",
         "enrichplot"
@@ -4303,7 +3737,6 @@
     "signeR": [
         "AnnotationDbi",
         "GenomicFeatures",
-        "KEGGREST",
         "VariantAnnotation",
         "biomaRt"
     ],
@@ -4312,7 +3745,6 @@
         "GSEABase",
         "GSVA",
         "GenomicFeatures",
-        "KEGGREST",
         "annotate",
         "biomaRt",
         "consensusOV",
@@ -4322,27 +3754,23 @@
     "SigsPack": [
         "AnnotationDbi",
         "GenomicFeatures",
-        "KEGGREST",
         "VariantAnnotation",
         "biomaRt"
     ],
     "SIM": [
         "AnnotationDbi",
-        "KEGGREST",
         "annotate",
         "globaltest"
     ],
     "SimBindProfiles": [
         "AnnotationDbi",
-        "KEGGREST",
         "Ringo",
         "annotate",
         "genefilter"
     ],
     "simplifyEnrichment": [
         "AnnotationDbi",
-        "GOSemSim",
-        "KEGGREST"
+        "GOSemSim"
     ],
     "singleCellTK": [
         "AnnotationDbi",
@@ -4351,7 +3779,6 @@
         "GSEABase",
         "GSVA",
         "GenomicFeatures",
-        "KEGGREST",
         "annotate",
         "biomaRt",
         "ensembldb",
@@ -4363,7 +3790,6 @@
         "AnnotationDbi",
         "GenomicFeatures",
         "GenomicFiles",
-        "KEGGREST",
         "QuasR",
         "VariantAnnotation",
         "biomaRt"
@@ -4371,27 +3797,23 @@
     "singscore": [
         "AnnotationDbi",
         "GSEABase",
-        "KEGGREST",
         "annotate"
     ],
     "SISPA": [
         "AnnotationDbi",
         "GSEABase",
         "GSVA",
-        "KEGGREST",
         "annotate",
         "genefilter"
     ],
     "sitadela": [
         "AnnotationDbi",
         "GenomicFeatures",
-        "KEGGREST",
         "biomaRt"
     ],
     "skewr": [
         "AnnotationDbi",
         "GenomicFeatures",
-        "KEGGREST",
         "annotate",
         "biomaRt",
         "bumphunter",
@@ -4404,20 +3826,17 @@
     "slalom": [
         "AnnotationDbi",
         "GSEABase",
-        "KEGGREST",
         "annotate"
     ],
     "SMITE": [
         "AnnotationDbi",
         "BioNet",
         "GenomicFeatures",
-        "KEGGREST",
         "biomaRt",
         "goseq"
     ],
     "snapCGH": [
         "AnnotationDbi",
-        "KEGGREST",
         "annotate",
         "genefilter",
         "tilingArray"
@@ -4425,14 +3844,12 @@
     "SNPhood": [
         "AnnotationDbi",
         "GenomicFeatures",
-        "KEGGREST",
         "VariantAnnotation",
         "biomaRt"
     ],
     "SomaticSignatures": [
         "AnnotationDbi",
         "GenomicFeatures",
-        "KEGGREST",
         "OrganismDbi",
         "VariantAnnotation",
         "biomaRt",
@@ -4445,12 +3862,10 @@
         "AnnotationDbi",
         "BiocSet",
         "GSEABase",
-        "KEGGREST",
         "annotate"
     ],
     "spatialHeatmap": [
         "AnnotationDbi",
-        "KEGGREST",
         "annotate",
         "genefilter"
     ],
@@ -4460,7 +3875,6 @@
         "GenomicFeatures",
         "GenomicInteractions",
         "Gviz",
-        "KEGGREST",
         "TFBSTools",
         "VariantAnnotation",
         "annotate",
@@ -4471,34 +3885,29 @@
     ],
     "SpidermiR": [
         "AnnotationDbi",
-        "KEGGREST",
         "miRNAtap"
     ],
     "SpliceWiz": [
         "AnnotationDbi",
         "AnnotationHub",
         "ExperimentHub",
-        "KEGGREST",
         "annotate",
         "genefilter"
     ],
     "SplicingGraphs": [
         "AnnotationDbi",
         "GenomicFeatures",
-        "KEGGREST",
         "biomaRt"
     ],
     "splineTimeR": [
         "AnnotationDbi",
         "GSEABase",
-        "KEGGREST",
         "annotate"
     ],
     "SPLINTER": [
         "AnnotationDbi",
         "GenomicFeatures",
         "Gviz",
-        "KEGGREST",
         "VariantAnnotation",
         "biomaRt",
         "biovizBase",
@@ -4506,23 +3915,19 @@
     ],
     "SPONGE": [
         "AnnotationDbi",
-        "KEGGREST",
         "biomaRt"
     ],
     "SPsimSeq": [
-        "AnnotationDbi",
-        "KEGGREST"
+        "AnnotationDbi"
     ],
     "sSNAPPY": [
         "AnnotationDbi",
-        "KEGGREST",
         "graphite"
     ],
     "standR": [
         "AnnotationDbi",
         "EDASeq",
         "GenomicFeatures",
-        "KEGGREST",
         "RUVSeq",
         "biomaRt"
     ],
@@ -4530,14 +3935,12 @@
         "AnnotationDbi",
         "Category",
         "GSEABase",
-        "KEGGREST",
         "annotate",
         "cellHTS2",
         "genefilter"
     ],
     "StarBioTrek": [
         "AnnotationDbi",
-        "KEGGREST",
         "SpidermiR",
         "graphite",
         "miRNAtap"
@@ -4545,35 +3948,29 @@
     "strandCheckR": [
         "AnnotationDbi",
         "GenomicFeatures",
-        "KEGGREST",
         "biomaRt"
     ],
     "StructuralVariantAnnotation": [
         "AnnotationDbi",
         "GenomicFeatures",
-        "KEGGREST",
         "VariantAnnotation",
         "biomaRt"
     ],
     "SubCellBarCode": [
-        "AnnotationDbi",
-        "KEGGREST"
+        "AnnotationDbi"
     ],
     "surfaltr": [
         "AnnotationDbi",
-        "KEGGREST",
         "biomaRt"
     ],
     "sva": [
         "AnnotationDbi",
-        "KEGGREST",
         "annotate",
         "genefilter"
     ],
     "svaNUMT": [
         "AnnotationDbi",
         "GenomicFeatures",
-        "KEGGREST",
         "StructuralVariantAnnotation",
         "VariantAnnotation",
         "biomaRt"
@@ -4581,7 +3978,6 @@
     "svaRetro": [
         "AnnotationDbi",
         "GenomicFeatures",
-        "KEGGREST",
         "StructuralVariantAnnotation",
         "VariantAnnotation",
         "biomaRt"
@@ -4589,18 +3985,15 @@
     "SVMDO": [
         "AnnotationDbi",
         "DOSE",
-        "GOSemSim",
-        "KEGGREST"
+        "GOSemSim"
     ],
     "SWATH2stats": [
         "AnnotationDbi",
-        "KEGGREST",
         "biomaRt"
     ],
     "TAPseq": [
         "AnnotationDbi",
         "GenomicFeatures",
-        "KEGGREST",
         "biomaRt"
     ],
     "TBSignatureProfiler": [
@@ -4608,7 +4001,6 @@
         "AnnotationDbi",
         "GSEABase",
         "GSVA",
-        "KEGGREST",
         "annotate",
         "genefilter",
         "singscore",
@@ -4617,69 +4009,58 @@
     "TCGAutils": [
         "AnnotationDbi",
         "GenomicFeatures",
-        "KEGGREST",
         "biomaRt"
     ],
     "TDbasedUFEadv": [
         "AnnotationDbi",
         "DOSE",
         "GOSemSim",
-        "KEGGREST",
         "enrichplot"
     ],
     "TEKRABber": [
         "AnnotationDbi",
-        "KEGGREST",
         "biomaRt"
     ],
     "tenXplore": [
         "AnnotationDbi",
         "AnnotationHub",
         "ExperimentHub",
-        "KEGGREST",
         "ontoProc",
         "restfulSE"
     ],
     "terraTCGAdata": [
         "AnnotationDbi",
         "GenomicFeatures",
-        "KEGGREST",
         "TCGAutils",
         "biomaRt"
     ],
     "TFBSTools": [
         "AnnotationDbi",
         "CNEr",
-        "KEGGREST",
         "annotate"
     ],
     "TFEA.ChIP": [
         "AnnotationDbi",
         "GenomicFeatures",
-        "KEGGREST",
         "biomaRt"
     ],
     "TFHAZ": [
         "AnnotationDbi",
         "GenomicFeatures",
-        "KEGGREST",
         "ORFik",
         "biomaRt"
     ],
     "TFutils": [
         "AnnotationDbi",
         "GSEABase",
-        "KEGGREST",
         "annotate"
     ],
     "tigre": [
         "AnnotationDbi",
-        "KEGGREST",
         "annotate"
     ],
     "tilingArray": [
         "AnnotationDbi",
-        "KEGGREST",
         "annotate",
         "genefilter"
     ],
@@ -4687,32 +4068,27 @@
         "AnnotationDbi",
         "DOSE",
         "GOSemSim",
-        "KEGGREST",
         "biomaRt",
         "clusterProfiler",
         "enrichplot"
     ],
     "TIN": [
-        "AnnotationDbi",
-        "KEGGREST"
+        "AnnotationDbi"
     ],
     "TissueEnrich": [
         "AnnotationDbi",
         "GSEABase",
-        "KEGGREST",
         "annotate"
     ],
     "TitanCNA": [
         "AnnotationDbi",
         "GenomicFeatures",
-        "KEGGREST",
         "VariantAnnotation",
         "biomaRt"
     ],
     "tLOH": [
         "AnnotationDbi",
         "GenomicFeatures",
-        "KEGGREST",
         "VariantAnnotation",
         "biomaRt"
     ],
@@ -4720,25 +4096,21 @@
         "AnnotationDbi",
         "GSEABase",
         "GSVA",
-        "KEGGREST",
         "annotate"
     ],
     "TOP": [
         "AnnotationDbi",
         "ClassifyR",
-        "KEGGREST",
         "annotate",
         "genefilter"
     ],
     "topGO": [
-        "AnnotationDbi",
-        "KEGGREST"
+        "AnnotationDbi"
     ],
     "trackViewer": [
         "AnnotationDbi",
         "GenomicFeatures",
         "Gviz",
-        "KEGGREST",
         "VariantAnnotation",
         "biomaRt",
         "biovizBase",
@@ -4746,43 +4118,34 @@
     ],
     "transcriptogramer": [
         "AnnotationDbi",
-        "KEGGREST",
         "biomaRt",
         "topGO"
     ],
     "transcriptR": [
         "AnnotationDbi",
         "GenomicFeatures",
-        "KEGGREST",
         "biomaRt"
     ],
     "tRanslatome": [
         "AnnotationDbi",
         "GOSemSim",
-        "KEGGREST",
         "topGO"
     ],
-    "transomics2cytoscape": [
-        "KEGGREST"
-    ],
+    "transomics2cytoscape": [],
     "trena": [
         "AnnotationDbi",
-        "KEGGREST",
         "biomaRt"
     ],
     "TRESS": [
         "AnnotationDbi",
         "GenomicFeatures",
-        "KEGGREST",
         "biomaRt"
     ],
     "tricycle": [
-        "AnnotationDbi",
-        "KEGGREST"
+        "AnnotationDbi"
     ],
     "trigger": [
         "AnnotationDbi",
-        "KEGGREST",
         "annotate",
         "genefilter",
         "sva"
@@ -4792,7 +4155,6 @@
         "AnnotationDbi",
         "GenomicFeatures",
         "Gviz",
-        "KEGGREST",
         "VariantAnnotation",
         "biomaRt",
         "biovizBase",
@@ -4802,14 +4164,12 @@
     "txcutr": [
         "AnnotationDbi",
         "GenomicFeatures",
-        "KEGGREST",
         "biomaRt"
     ],
     "tximeta": [
         "AnnotationDbi",
         "AnnotationHub",
         "GenomicFeatures",
-        "KEGGREST",
         "biomaRt",
         "ensembldb"
     ],
@@ -4817,14 +4177,12 @@
         "AnnotationDbi",
         "AnnotationHub",
         "GenomicFeatures",
-        "KEGGREST",
         "Organism.dplyr",
         "biomaRt"
     ],
     "UMI4Cats": [
         "AnnotationDbi",
         "GenomicFeatures",
-        "KEGGREST",
         "annotate",
         "biomaRt"
     ],
@@ -4832,7 +4190,6 @@
         "AnnotationDbi",
         "GenomicFeatures",
         "Gviz",
-        "KEGGREST",
         "OrganismDbi",
         "VariantAnnotation",
         "biomaRt",
@@ -4840,20 +4197,17 @@
         "ensembldb"
     ],
     "UniProt.ws": [
-        "AnnotationDbi",
-        "KEGGREST"
+        "AnnotationDbi"
     ],
     "Uniquorn": [
         "AnnotationDbi",
         "GenomicFeatures",
-        "KEGGREST",
         "VariantAnnotation",
         "biomaRt"
     ],
     "VariantAnnotation": [
         "AnnotationDbi",
         "GenomicFeatures",
-        "KEGGREST",
         "biomaRt"
     ],
     "VariantFiltering": [
@@ -4862,7 +4216,6 @@
         "GenomicFeatures",
         "GenomicScores",
         "Gviz",
-        "KEGGREST",
         "VariantAnnotation",
         "biomaRt",
         "biovizBase",
@@ -4871,13 +4224,11 @@
     "VariantTools": [
         "AnnotationDbi",
         "GenomicFeatures",
-        "KEGGREST",
         "VariantAnnotation",
         "biomaRt"
     ],
     "VaSP": [
         "AnnotationDbi",
-        "KEGGREST",
         "annotate",
         "ballgown",
         "genefilter",
@@ -4887,20 +4238,17 @@
         "AnnotationDbi",
         "GenomicFeatures",
         "GenomicFiles",
-        "KEGGREST",
         "VariantAnnotation",
         "biomaRt"
     ],
     "VegaMC": [
         "AnnotationDbi",
-        "KEGGREST",
         "biomaRt"
     ],
     "ViSEAGO": [
         "AnnotationDbi",
         "AnnotationForge",
         "GOSemSim",
-        "KEGGREST",
         "biomaRt",
         "topGO"
     ],
@@ -4909,7 +4257,6 @@
         "AnnotationHub",
         "ExperimentHub",
         "GSEABase",
-        "KEGGREST",
         "annotate"
     ],
     "Voyager": [],
@@ -4917,7 +4264,6 @@
         "AnnotationDbi",
         "AnnotationHub",
         "GenomicFeatures",
-        "KEGGREST",
         "VariantAnnotation",
         "biomaRt",
         "gwascat"
@@ -4926,14 +4272,12 @@
         "AnnotationDbi",
         "ChIPpeakAnno",
         "GenomicFeatures",
-        "KEGGREST",
         "biomaRt",
         "ensembldb"
     ],
     "wateRmelon": [
         "AnnotationDbi",
         "GenomicFeatures",
-        "KEGGREST",
         "annotate",
         "biomaRt",
         "bumphunter",
@@ -4945,25 +4289,21 @@
     "wavClusteR": [
         "AnnotationDbi",
         "GenomicFeatures",
-        "KEGGREST",
         "biomaRt"
     ],
     "webbioc": [
         "AnnotationDbi",
-        "KEGGREST",
         "annaffy"
     ],
     "XDE": [
         "AnnotationDbi",
         "GeneMeta",
-        "KEGGREST",
         "annotate",
         "genefilter"
     ],
     "YAPSA": [
         "AnnotationDbi",
         "GenomicFeatures",
-        "KEGGREST",
         "OrganismDbi",
         "SomaticSignatures",
         "VariantAnnotation",
@@ -4975,7 +4315,6 @@
     "yarn": [
         "AnnotationDbi",
         "GenomicFeatures",
-        "KEGGREST",
         "annotate",
         "biomaRt",
         "bumphunter",
@@ -4987,7 +4326,6 @@
         "AnnotationDbi",
         "EnrichmentBrowser",
         "GSEABase",
-        "KEGGREST",
         "annotate",
         "graphite",
         "pathview",
@@ -4995,14 +4333,12 @@
     ],
     "zinbwave": [
         "AnnotationDbi",
-        "KEGGREST",
         "annotate",
         "genefilter"
     ],
     "ZygosityPredictor": [
         "AnnotationDbi",
         "GenomicFeatures",
-        "KEGGREST",
         "VariantAnnotation",
         "biomaRt"
     ]
