@@ -1327,7 +1327,6 @@
         "topGO"
     ],
     "condiments": [
-        "TrajectoryUtils",
         "distinct",
         "scater",
         "slingshot"
@@ -2310,8 +2309,7 @@
         "rtracklayer"
     ],
     "FEAST": [
-        "TSCAN",
-        "TrajectoryUtils"
+        "TSCAN"
     ],
     "FELLA": [
         "KEGGREST"
@@ -5368,7 +5366,6 @@
     ],
     "scran": [],
     "scRNAseqApp": [
-        "TrajectoryUtils",
         "rtracklayer",
         "slingshot"
     ],
@@ -5636,7 +5633,6 @@
         "GenomicFeatures",
         "KEGGREST",
         "TSCAN",
-        "TrajectoryUtils",
         "annotate",
         "batchelor",
         "biomaRt",
@@ -5705,9 +5701,7 @@
         "KEGGREST",
         "annotate"
     ],
-    "slingshot": [
-        "TrajectoryUtils"
-    ],
+    "slingshot": [],
     "SMITE": [
         "AnnotationDbi",
         "BioNet",
@@ -6154,10 +6148,8 @@
         "rtracklayer"
     ],
     "tradeSeq": [
-        "TrajectoryUtils",
         "slingshot"
     ],
-    "TrajectoryUtils": [],
     "transcriptogramer": [
         "AnnotationDbi",
         "KEGGREST",
@@ -6188,7 +6180,6 @@
         "rtracklayer"
     ],
     "traviz": [
-        "TrajectoryUtils",
         "slingshot"
     ],
     "treekoR": [],
@@ -6224,9 +6215,7 @@
         "BSgenome",
         "rtracklayer"
     ],
-    "TSCAN": [
-        "TrajectoryUtils"
-    ],
+    "TSCAN": [],
     "tscR": [],
     "TVTB": [
         "AnnotationDbi",
