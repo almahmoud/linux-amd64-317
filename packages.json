@@ -102,15 +102,12 @@
         "AnnotationDbi",
         "GenomicFeatures",
         "KEGGREST",
-        "SpatialExperiment",
         "VariantAnnotation",
         "alabaster.spatial",
         "alabaster.vcf",
         "biomaRt"
     ],
-    "alabaster.spatial": [
-        "SpatialExperiment"
-    ],
+    "alabaster.spatial": [],
     "alabaster.vcf": [
         "AnnotationDbi",
         "GenomicFeatures",
@@ -1249,9 +1246,7 @@
         "AnnotationHub",
         "KEGGREST"
     ],
-    "CTSV": [
-        "SpatialExperiment"
-    ],
+    "CTSV": [],
     "cummeRbund": [
         "AnnotationDbi",
         "GenomicFeatures",
@@ -1275,11 +1270,8 @@
         "biomaRt"
     ],
     "cytofQC": [],
-    "cytomapper": [
-        "SpatialExperiment"
-    ],
+    "cytomapper": [],
     "cytoviewer": [
-        "SpatialExperiment",
         "cytomapper"
     ],
     "dagLogo": [
@@ -1404,9 +1396,7 @@
         "ensembldb",
         "regioneR"
     ],
-    "DESpace": [
-        "SpatialExperiment"
-    ],
+    "DESpace": [],
     "DExMA": [
         "AnnotationDbi",
         "KEGGREST",
@@ -1774,8 +1764,7 @@
         "AnnotationDbi",
         "AnnotationHub",
         "ExperimentHub",
-        "KEGGREST",
-        "SpatialExperiment"
+        "KEGGREST"
     ],
     "esetVis": [
         "AnnotationDbi",
@@ -1817,9 +1806,7 @@
         "OrganismDbi",
         "biomaRt"
     ],
-    "ExperimentSubset": [
-        "SpatialExperiment"
-    ],
+    "ExperimentSubset": [],
     "ExpressionAtlas": [],
     "extraChIPs": [
         "AnnotationDbi",
@@ -2099,9 +2086,7 @@
         "ensembldb"
     ],
     "ggmanh": [],
-    "ggspavis": [
-        "SpatialExperiment"
-    ],
+    "ggspavis": [],
     "GISPA": [
         "AnnotationDbi",
         "GSEABase",
@@ -2419,7 +2404,6 @@
         "biomaRt"
     ],
     "imcRtools": [
-        "SpatialExperiment",
         "cytomapper"
     ],
     "InPAS": [
@@ -2573,7 +2557,6 @@
         "KEGGREST"
     ],
     "lisaClust": [
-        "SpatialExperiment",
         "spicyR"
     ],
     "LOBSTAHS": [],
@@ -3058,9 +3041,7 @@
         "genefilter",
         "graphite"
     ],
-    "MoleculeExperiment": [
-        "SpatialExperiment"
-    ],
+    "MoleculeExperiment": [],
     "monaLisa": [
         "AnnotationDbi",
         "CNEr",
@@ -3290,9 +3271,7 @@
         "quantro",
         "yarn"
     ],
-    "nnSVG": [
-        "SpatialExperiment"
-    ],
+    "nnSVG": [],
     "NoRCE": [
         "AnnotationDbi",
         "GenomicFeatures",
@@ -4278,7 +4257,6 @@
         "GenomicFeatures",
         "KEGGREST",
         "SingleCellSignalR",
-        "SpatialExperiment",
         "annotate",
         "biomaRt",
         "ensembldb"
@@ -4525,7 +4503,6 @@
         "genefilter"
     ],
     "simpleSeg": [
-        "SpatialExperiment",
         "cytomapper"
     ],
     "simplifyEnrichment": [
@@ -4641,16 +4618,9 @@
         "annotate"
     ],
     "SparseSignatures": [],
-    "spaSim": [
-        "SpatialExperiment"
-    ],
-    "spatialDE": [
-        "SpatialExperiment"
-    ],
-    "SpatialExperiment": [],
-    "SpatialFeatureExperiment": [
-        "SpatialExperiment"
-    ],
+    "spaSim": [],
+    "spatialDE": [],
+    "SpatialFeatureExperiment": [],
     "spatialHeatmap": [
         "AnnotationDbi",
         "KEGGREST",
@@ -4673,12 +4643,8 @@
         "motifmatchr"
     ],
     "SpectralTAD": [],
-    "SPIAT": [
-        "SpatialExperiment"
-    ],
-    "spicyR": [
-        "SpatialExperiment"
-    ],
+    "SPIAT": [],
+    "spicyR": [],
     "SpidermiR": [
         "AnnotationDbi",
         "KEGGREST",
@@ -4720,9 +4686,7 @@
         "KEGGREST",
         "biomaRt"
     ],
-    "SpotClean": [
-        "SpatialExperiment"
-    ],
+    "SpotClean": [],
     "SPsimSeq": [
         "AnnotationDbi",
         "KEGGREST"
@@ -4739,7 +4703,6 @@
         "GenomicFeatures",
         "KEGGREST",
         "RUVSeq",
-        "SpatialExperiment",
         "biomaRt"
     ],
     "staRank": [
@@ -4758,9 +4721,7 @@
         "graphite",
         "miRNAtap"
     ],
-    "stJoincount": [
-        "SpatialExperiment"
-    ],
+    "stJoincount": [],
     "strandCheckR": [
         "AnnotationDbi",
         "GenomicFeatures",
@@ -5139,7 +5100,6 @@
         "annotate"
     ],
     "Voyager": [
-        "SpatialExperiment",
         "SpatialFeatureExperiment"
     ],
     "vtpnet": [
