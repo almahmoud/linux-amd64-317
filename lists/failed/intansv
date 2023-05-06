@@ -1,0 +1,34 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE); p <- .libPaths(); p <- c('\''/tmp/tmp/built'\'', p); .libPaths(p); if(BiocManager::install('\''intansv'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://packagemanager.posit.co/cran/__linux__/jammy/latest
+Bioconductor version 3.17 (BiocManager 1.30.20), R 4.3.0 (2023-04-21)
+Installing package(s) 'intansv'
+trying URL 'https://bioconductor.org/packages/3.17/bioc/src/contrib/intansv_1.40.0.tar.gz'
+Content type 'application/x-gzip' length 629013 bytes (614 KB)
+==================================================
+downloaded 614 KB
+
+* installing *source* package ‘intansv’ ...
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+Error: package or namespace load failed for ‘ggbio’ in loadNamespace(i, c(lib.loc, .libPaths()), versionCheck = vI[[i]]):
+ there is no package called ‘DBI’
+Execution halted
+ERROR: lazy loading failed for package ‘intansv’
+* removing ‘/tmp/tmp/built/intansv’
+
+The downloaded source packages are in
+	‘/tmp/RtmpXfjnno/downloaded_packages’
+Old packages: 'cachem', 'later', 'profvis', 'sass', 'testthat', 'waldo',
+  'class', 'KernSmooth', 'MASS', 'nnet'
+Warning message:
+In install.packages(...) :
+  installation of package ‘intansv’ had non-zero exit status
+
+real	0m11.097s
+user	0m8.878s
+sys	0m0.557s
