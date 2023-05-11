@@ -336,7 +336,6 @@
     ],
     "bioCancer": [
         "ReactomePA",
-        "clusterProfiler",
         "geNetClassifier"
     ],
     "BiocOncoTK": [
@@ -514,9 +513,7 @@
         "RTCGAToolbox",
         "TCGAutils"
     ],
-    "CBNplot": [
-        "clusterProfiler"
-    ],
+    "CBNplot": [],
     "ccImpute": [],
     "CCPROMISE": [],
     "celda": [
@@ -531,9 +528,7 @@
     "CellMixS": [
         "scater"
     ],
-    "CEMiTool": [
-        "clusterProfiler"
-    ],
+    "CEMiTool": [],
     "censcyt": [
         "FlowSOM",
         "cytolib",
@@ -544,9 +539,7 @@
         "HDF5Array",
         "rhdf5"
     ],
-    "CeTF": [
-        "clusterProfiler"
-    ],
+    "CeTF": [],
     "CexoR": [
         "BSgenome",
         "genomation"
@@ -682,7 +675,6 @@
         "rhdf5",
         "zinbwave"
     ],
-    "clusterProfiler": [],
     "cmapR": [
         "cytolib",
         "flowCore",
@@ -1021,7 +1013,6 @@
         "ncdfFlow"
     ],
     "debrowser": [
-        "clusterProfiler",
         "pathview",
         "sva"
     ],
@@ -1200,18 +1191,14 @@
     "easier": [
         "progeny"
     ],
-    "EasyCellType": [
-        "clusterProfiler"
-    ],
+    "EasyCellType": [],
     "EBcoexpress": [],
     "EBSeqHMM": [],
     "EDASeq": [],
     "edge": [
         "sva"
     ],
-    "eegc": [
-        "clusterProfiler"
-    ],
+    "eegc": [],
     "EGAD": [
         "GEOquery"
     ],
@@ -1250,7 +1237,6 @@
     "enrichTF": [
         "BSgenome",
         "TFBSTools",
-        "clusterProfiler",
         "motifmatchr",
         "pipeFrame"
     ],
@@ -1325,7 +1311,6 @@
         "BSgenome",
         "ChIPseeker",
         "TFBSTools",
-        "clusterProfiler",
         "motifmatchr",
         "pipeFrame"
     ],
@@ -1371,16 +1356,12 @@
     ],
     "fabia": [],
     "factR": [],
-    "famat": [
-        "clusterProfiler"
-    ],
+    "famat": [],
     "fCCAC": [
         "BSgenome",
         "genomation"
     ],
-    "fcoex": [
-        "clusterProfiler"
-    ],
+    "fcoex": [],
     "fcScan": [
         "BSgenome",
         "VariantAnnotation"
@@ -1582,7 +1563,6 @@
     ],
     "GCSscore": [],
     "GDCRNATools": [
-        "clusterProfiler",
         "pathview"
     ],
     "genbankr": [
@@ -1690,9 +1670,7 @@
     "GOexpress": [],
     "GOfuncR": [],
     "goseq": [],
-    "goSorensen": [
-        "clusterProfiler"
-    ],
+    "goSorensen": [],
     "GOstats": [],
     "GOTHiC": [
         "BSgenome"
@@ -1906,7 +1884,6 @@
         "xcms"
     ],
     "IRISFGM": [
-        "clusterProfiler",
         "scater",
         "scran"
     ],
@@ -2006,7 +1983,6 @@
         "siggenes"
     ],
     "MAGeCKFlute": [
-        "clusterProfiler",
         "pathview"
     ],
     "magpie": [
@@ -2145,9 +2121,7 @@
         "mzR",
         "xcms"
     ],
-    "MetaPhOR": [
-        "clusterProfiler"
-    ],
+    "MetaPhOR": [],
     "metapone": [],
     "metaSeq": [
         "NOISeq"
@@ -2203,7 +2177,6 @@
         "GEOquery",
         "HDF5Array",
         "bumphunter",
-        "clusterProfiler",
         "methylumi",
         "minfi",
         "missMethyl",
@@ -2277,9 +2250,7 @@
         "rhdf5",
         "scater"
     ],
-    "MicrobiomeProfiler": [
-        "clusterProfiler"
-    ],
+    "MicrobiomeProfiler": [],
     "MicrobiotaProcess": [
         "ggtreeExtra"
     ],
@@ -2327,15 +2298,13 @@
         "BicARE",
         "ReactomePA",
         "SPONGE",
-        "clusterProfiler",
         "fabia",
         "miRspongeR",
         "multtest"
     ],
     "miRspongeR": [
         "ReactomePA",
-        "SPONGE",
-        "clusterProfiler"
+        "SPONGE"
     ],
     "missMethyl": [
         "GEOquery",
@@ -2393,8 +2362,7 @@
         "TFBSTools"
     ],
     "MoonlightR": [
-        "GEOquery",
-        "clusterProfiler"
+        "GEOquery"
     ],
     "mosbi": [
         "fabia"
@@ -2535,7 +2503,6 @@
     "multiscan": [],
     "multiSight": [
         "ReactomePA",
-        "clusterProfiler",
         "multtest"
     ],
     "multtest": [],
@@ -2741,7 +2708,6 @@
         "exomeCopy"
     ],
     "PanomiR": [
-        "clusterProfiler",
         "multtest"
     ],
     "PathoStat": [
@@ -2783,9 +2749,7 @@
     "periodicDNA": [
         "BSgenome"
     ],
-    "PFP": [
-        "clusterProfiler"
-    ],
+    "PFP": [],
     "phantasus": [
         "GEOquery",
         "rhdf5"
@@ -2807,8 +2771,7 @@
     ],
     "piano": [],
     "Pigengene": [
-        "ReactomePA",
-        "clusterProfiler"
+        "ReactomePA"
     ],
     "PING": [
         "BSgenome",
@@ -3434,8 +3397,7 @@
     ],
     "seqArchRplus": [
         "BSgenome",
-        "ChIPseeker",
-        "clusterProfiler"
+        "ChIPseeker"
     ],
     "seqCAT": [
         "BSgenome",
@@ -3481,7 +3443,6 @@
     ],
     "signatureSearch": [
         "HDF5Array",
-        "clusterProfiler",
         "rhdf5"
     ],
     "signeR": [
@@ -3778,8 +3739,7 @@
     "tilingArray": [],
     "timeOmics": [],
     "TimiRGeN": [
-        "Mfuzz",
-        "clusterProfiler"
+        "Mfuzz"
     ],
     "TitanCNA": [
         "BSgenome",
