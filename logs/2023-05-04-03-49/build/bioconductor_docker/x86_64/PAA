@@ -1,0 +1,122 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE); p <- .libPaths(); p <- c('\''/tmp/tmp/built'\'', p); .libPaths(p); if(BiocManager::install('\''PAA'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://packagemanager.posit.co/cran/__linux__/jammy/latest
+Bioconductor version 3.17 (BiocManager 1.30.20), R 4.3.0 (2023-04-21)
+Installing package(s) 'PAA'
+also installing the dependencies ‘caTools’, ‘igraph’, ‘gplots’, ‘gtools’, ‘mRMRe’, ‘randomForest’, ‘ROCR’
+
+trying URL 'https://packagemanager.posit.co/cran/__linux__/jammy/latest/src/contrib/caTools_1.18.2.tar.gz'
+Content type 'binary/octet-stream' length 199662 bytes (194 KB)
+==================================================
+downloaded 194 KB
+
+trying URL 'https://packagemanager.posit.co/cran/__linux__/jammy/latest/src/contrib/igraph_1.4.2.tar.gz'
+Content type 'binary/octet-stream' length 4889333 bytes (4.7 MB)
+==================================================
+downloaded 4.7 MB
+
+trying URL 'https://packagemanager.posit.co/cran/__linux__/jammy/latest/src/contrib/gplots_3.1.3.tar.gz'
+Content type 'binary/octet-stream' length 594720 bytes (580 KB)
+==================================================
+downloaded 580 KB
+
+trying URL 'https://packagemanager.posit.co/cran/__linux__/jammy/latest/src/contrib/gtools_3.9.4.tar.gz'
+Content type 'binary/octet-stream' length 353531 bytes (345 KB)
+==================================================
+downloaded 345 KB
+
+trying URL 'https://packagemanager.posit.co/cran/__linux__/jammy/latest/src/contrib/mRMRe_2.1.2.1.tar.gz'
+Content type 'binary/octet-stream' length 1776859 bytes (1.7 MB)
+==================================================
+downloaded 1.7 MB
+
+trying URL 'https://packagemanager.posit.co/cran/__linux__/jammy/latest/src/contrib/randomForest_4.7-1.1.tar.gz'
+Content type 'binary/octet-stream' length 216340 bytes (211 KB)
+==================================================
+downloaded 211 KB
+
+trying URL 'https://packagemanager.posit.co/cran/__linux__/jammy/latest/src/contrib/ROCR_1.0-11.tar.gz'
+Content type 'binary/octet-stream' length 464171 bytes (453 KB)
+==================================================
+downloaded 453 KB
+
+trying URL 'https://bioconductor.org/packages/3.17/bioc/src/contrib/PAA_1.34.0.tar.gz'
+Content type 'application/x-gzip' length 4090877 bytes (3.9 MB)
+==================================================
+downloaded 3.9 MB
+
+* installing *binary* package ‘caTools’ ...
+* ‘caTools’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘caTools’ as ‘caTools_1.18.2_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (caTools)
+* installing *binary* package ‘igraph’ ...
+* ‘igraph’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘igraph’ as ‘igraph_1.4.2_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (igraph)
+* installing *binary* package ‘gtools’ ...
+* ‘gtools’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘gtools’ as ‘gtools_3.9.4_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (gtools)
+* installing *binary* package ‘randomForest’ ...
+* ‘randomForest’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘randomForest’ as ‘randomForest_4.7-1.1_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (randomForest)
+* installing *binary* package ‘gplots’ ...
+* ‘gplots’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘gplots’ as ‘gplots_3.1.3_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (gplots)
+* installing *binary* package ‘mRMRe’ ...
+* ‘mRMRe’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘mRMRe’ as ‘mRMRe_2.1.2.1_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (mRMRe)
+* installing *binary* package ‘ROCR’ ...
+* ‘ROCR’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘ROCR’ as ‘ROCR_1.0-11_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (ROCR)
+* installing *source* package ‘PAA’ ...
+** using staged installation
+** libs
+using C compiler: ‘gcc (Ubuntu 11.3.0-1ubuntu1~22.04) 11.3.0’
+using C++ compiler: ‘g++ (Ubuntu 11.3.0-1ubuntu1~22.04) 11.3.0’
+gcc -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c PAA_init.c -o PAA_init.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c RcppExports.cpp -o RcppExports.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c joinMCountResults.cpp -o joinMCountResults.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c mCount.cpp -o mCount.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c mMsMatrix.cpp -o mMsMatrix.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c sampling.cpp -o sampling.o
+g++ -std=gnu++17 -shared -L/usr/local/lib/R/lib -L/usr/local/lib -o PAA.so PAA_init.o RcppExports.o joinMCountResults.o mCount.o mMsMatrix.o sampling.o -L/usr/local/lib/R/lib -lR
+installing to /tmp/tmp/built/00LOCK-PAA/00new/PAA/libs
+** R
+** demo
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘PAA’ as ‘PAA_1.34.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (PAA)
+
+The downloaded source packages are in
+	‘/tmp/RtmpEJ0Nul/downloaded_packages’
+Old packages: 'BiocParallel', 'DelayedArray', 'limma', 'cachem', 'evaluate',
+  'httpuv', 'httr', 'httr2', 'later', 'profvis', 'sass', 'testthat', 'waldo',
+  'class', 'KernSmooth', 'MASS', 'nnet'
+
+real	0m55.555s
+user	0m42.107s
+sys	0m3.149s
