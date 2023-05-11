@@ -698,13 +698,11 @@
         "DiffBind",
         "GenomicFeatures",
         "GreyListChIP",
-        "chipseq",
         "systemPipeR"
     ],
     "ChIPseeker": [
         "GenomicFeatures"
     ],
-    "chipseq": [],
     "ChIPseqR": [],
     "ChIPsim": [],
     "ChIPXpress": [
@@ -2073,7 +2071,6 @@
         "GenomicFeatures",
         "VariantAnnotation",
         "VariantTools",
-        "chipseq",
         "gmapR"
     ],
     "hyperdraw": [],
@@ -3284,7 +3281,6 @@
     "profileplyr": [
         "ChIPseeker",
         "GenomicFeatures",
-        "chipseq",
         "rGREAT",
         "soGGi"
     ],
@@ -4108,9 +4104,7 @@
         "GenomicFeatures",
         "VariantAnnotation"
     ],
-    "soGGi": [
-        "chipseq"
-    ],
+    "soGGi": [],
     "SomaticSignatures": [
         "BSgenome",
         "GenomicFeatures",
@@ -4382,8 +4376,7 @@
         "slingshot"
     ],
     "transcriptR": [
-        "GenomicFeatures",
-        "chipseq"
+        "GenomicFeatures"
     ],
     "transformGamPoi": [
         "HDF5Array",
