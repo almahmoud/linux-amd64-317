@@ -26,7 +26,6 @@
         "tilingArray"
     ],
     "adductomicsR": [
-        "ExperimentHub",
         "mzR"
     ],
     "adSplit": [
@@ -198,7 +197,6 @@
     ],
     "AlpsNMR": [],
     "AMARETTO": [
-        "ExperimentHub",
         "HDF5Array",
         "rhdf5",
         "rhdf5filters"
@@ -504,11 +502,8 @@
     "BiocHail": [
         "basilisk"
     ],
-    "BiocHubsShiny": [
-        "ExperimentHub"
-    ],
+    "BiocHubsShiny": [],
     "BiocOncoTK": [
-        "ExperimentHub",
         "GenomicFeatures",
         "HDF5Array",
         "Rgraphviz",
@@ -557,7 +552,6 @@
     "biscuiteer": [
         "BSgenome",
         "CGHcall",
-        "ExperimentHub",
         "GenomicFeatures",
         "HDF5Array",
         "OrganismDbi",
@@ -586,9 +580,7 @@
         "ROntoTools",
         "Rgraphviz"
     ],
-    "BloodGen3Module": [
-        "ExperimentHub"
-    ],
+    "BloodGen3Module": [],
     "bluster": [],
     "bnbc": [
         "genefilter",
@@ -791,7 +783,6 @@
     ],
     "CBNplot": [
         "DOSE",
-        "ExperimentHub",
         "clusterProfiler",
         "enrichplot"
     ],
@@ -889,7 +880,6 @@
         "BSgenome",
         "DMRcate",
         "DSS",
-        "ExperimentHub",
         "GEOquery",
         "GenomicFeatures",
         "Gviz",
@@ -1205,7 +1195,6 @@
         "rtracklayer"
     ],
     "coMethDMR": [
-        "ExperimentHub",
         "GenomicFeatures",
         "bumphunter",
         "rtracklayer"
@@ -1309,9 +1298,7 @@
     ],
     "corral": [],
     "coseq": [],
-    "CoSIA": [
-        "ExperimentHub"
-    ],
+    "CoSIA": [],
     "cosmiq": [
         "MSnbase",
         "MsCoreUtils",
@@ -1351,7 +1338,6 @@
     ],
     "crisprDesign": [
         "BSgenome",
-        "ExperimentHub",
         "GenomicFeatures",
         "VariantAnnotation",
         "basilisk",
@@ -1360,7 +1346,6 @@
         "rtracklayer"
     ],
     "crisprScore": [
-        "ExperimentHub",
         "basilisk"
     ],
     "CRISPRseek": [
@@ -1384,7 +1369,6 @@
     ],
     "crisprVerse": [
         "BSgenome",
-        "ExperimentHub",
         "GenomicFeatures",
         "Gviz",
         "VariantAnnotation",
@@ -1399,7 +1383,6 @@
     ],
     "crisprViz": [
         "BSgenome",
-        "ExperimentHub",
         "GenomicFeatures",
         "Gviz",
         "VariantAnnotation",
@@ -1422,9 +1405,7 @@
         "GenomicFeatures",
         "rtracklayer"
     ],
-    "CTdata": [
-        "ExperimentHub"
-    ],
+    "CTdata": [],
     "CTDquerier": [],
     "cTRAP": [
         "rhdf5",
@@ -1763,7 +1744,6 @@
     "DMRcate": [
         "BSgenome",
         "DSS",
-        "ExperimentHub",
         "GEOquery",
         "GenomicFeatures",
         "Gviz",
@@ -1853,7 +1833,6 @@
     ],
     "dyebias": [],
     "easier": [
-        "ExperimentHub",
         "progeny"
     ],
     "EasyCellType": [
@@ -1913,7 +1892,6 @@
         "rtracklayer"
     ],
     "ENmix": [
-        "ExperimentHub",
         "GEOquery",
         "GenomicFeatures",
         "HDF5Array",
@@ -1985,14 +1963,12 @@
         "rtracklayer"
     ],
     "EpiMix": [
-        "ExperimentHub",
         "GEOquery",
         "GenomicFeatures",
         "rtracklayer"
     ],
     "epimutacions": [
         "BSgenome",
-        "ExperimentHub",
         "GEOquery",
         "GenomicFeatures",
         "Gviz",
@@ -2081,7 +2057,6 @@
     ],
     "escheR": [
         "DropletUtils",
-        "ExperimentHub",
         "HDF5Array",
         "SpatialExperiment",
         "basilisk",
@@ -2101,9 +2076,7 @@
         "rhdf5filters",
         "rtracklayer"
     ],
-    "EWCE": [
-        "ExperimentHub"
-    ],
+    "EWCE": [],
     "ExCluster": [
         "rtracklayer"
     ],
@@ -2113,10 +2086,8 @@
         "GenomicFeatures",
         "rtracklayer"
     ],
-    "ExperimentHub": [],
     "ExperimentHubData": [
         "AnnotationHubData",
-        "ExperimentHub",
         "GenomicFeatures",
         "OrganismDbi",
         "rtracklayer"
@@ -2638,7 +2609,6 @@
     "GSEABase": [],
     "GSEABenchmarkeR": [
         "EnrichmentBrowser",
-        "ExperimentHub",
         "GSEABase",
         "KEGGgraph",
         "Rgraphviz",
@@ -2782,9 +2752,7 @@
         "rtracklayer"
     ],
     "hmdbQuery": [],
-    "hpar": [
-        "ExperimentHub"
-    ],
+    "hpar": [],
     "HTSeqGenie": [
         "BSgenome",
         "GenomicFeatures",
@@ -2954,7 +2922,6 @@
         "iSEE"
     ],
     "iSEEhub": [
-        "ExperimentHub",
         "iSEE"
     ],
     "iSEEu": [
@@ -3053,9 +3020,7 @@
         "rhdf5",
         "rhdf5filters"
     ],
-    "LRcell": [
-        "ExperimentHub"
-    ],
+    "LRcell": [],
     "lumi": [
         "GEOquery",
         "GenomicFeatures",
@@ -3072,7 +3037,6 @@
     ],
     "m6Aboost": [
         "BSgenome",
-        "ExperimentHub",
         "rtracklayer"
     ],
     "Maaslin2": [
@@ -3084,7 +3048,6 @@
     ],
     "macat": [],
     "MACSr": [
-        "ExperimentHub",
         "basilisk"
     ],
     "MADSEQ": [
@@ -3111,7 +3074,6 @@
     ],
     "MAGeCKFlute": [
         "DOSE",
-        "ExperimentHub",
         "KEGGgraph",
         "Rgraphviz",
         "clusterProfiler",
@@ -3153,12 +3115,9 @@
     "massiR": [],
     "MAST": [],
     "mastR": [
-        "ExperimentHub",
         "GSEABase"
     ],
-    "MatrixQCvis": [
-        "ExperimentHub"
-    ],
+    "MatrixQCvis": [],
     "MatrixRider": [
         "BSgenome",
         "CNEr",
@@ -3277,7 +3236,6 @@
         "multtest"
     ],
     "MetaboSignal": [
-        "ExperimentHub",
         "GenomicFeatures",
         "KEGGgraph",
         "MWASTools",
@@ -3333,7 +3291,6 @@
     ],
     "MethPed": [],
     "MethReg": [
-        "ExperimentHub",
         "sesame"
     ],
     "methrix": [
@@ -3374,7 +3331,6 @@
     ],
     "methylclock": [
         "AnnotationHubData",
-        "ExperimentHub",
         "ExperimentHubData",
         "GEOquery",
         "GenomicFeatures",
@@ -3751,9 +3707,7 @@
         "Spectra"
     ],
     "MsCoreUtils": [],
-    "MsDataHub": [
-        "ExperimentHub"
-    ],
+    "MsDataHub": [],
     "MsExperiment": [
         "MsCoreUtils",
         "QFeatures",
@@ -4052,7 +4006,6 @@
     ],
     "NxtIRFcore": [
         "BSgenome",
-        "ExperimentHub",
         "HDF5Array",
         "genefilter",
         "rhdf5",
@@ -4064,7 +4017,6 @@
     ],
     "octad": [
         "EDASeq",
-        "ExperimentHub",
         "GSEABase",
         "GSVA",
         "GenomicFeatures",
@@ -4299,7 +4251,6 @@
     ],
     "philr": [],
     "PhyloProfile": [
-        "ExperimentHub",
         "OmaDB"
     ],
     "phyloseq": [
@@ -4529,7 +4480,6 @@
     ],
     "pwOmics": [],
     "pwrEWAS": [
-        "ExperimentHub",
         "genefilter"
     ],
     "qcmetrics": [],
@@ -4800,9 +4750,7 @@
         "VariantAnnotation",
         "rtracklayer"
     ],
-    "restfulSE": [
-        "ExperimentHub"
-    ],
+    "restfulSE": [],
     "ReUseData": [
         "Rcwl",
         "RcwlPipelines",
@@ -4918,7 +4866,6 @@
     ],
     "RLSeq": [
         "BSgenome",
-        "ExperimentHub",
         "GenomicFeatures",
         "regioneR",
         "rtracklayer"
@@ -5119,9 +5066,7 @@
     "SCArray.sat": [
         "SCArray"
     ],
-    "SCATE": [
-        "ExperimentHub"
-    ],
+    "SCATE": [],
     "scater": [
         "basilisk",
         "densvis",
@@ -5347,12 +5292,8 @@
     "seqsetvis": [
         "rtracklayer"
     ],
-    "SeqSQC": [
-        "ExperimentHub"
-    ],
-    "sesame": [
-        "ExperimentHub"
-    ],
+    "SeqSQC": [],
+    "sesame": [],
     "SEtools": [
         "genefilter",
         "sva"
@@ -5415,7 +5356,6 @@
     ],
     "signatureSearch": [
         "DOSE",
-        "ExperimentHub",
         "GSEABase",
         "HDF5Array",
         "clusterProfiler",
@@ -5488,7 +5428,6 @@
     ],
     "singleCellTK": [
         "DropletUtils",
-        "ExperimentHub",
         "GSEABase",
         "GSVA",
         "GenomicFeatures",
@@ -5724,7 +5663,6 @@
     ],
     "SpliceWiz": [
         "BSgenome",
-        "ExperimentHub",
         "HDF5Array",
         "genefilter",
         "rhdf5",
@@ -5892,7 +5830,6 @@
     "TEKRABber": [],
     "TENxIO": [],
     "tenXplore": [
-        "ExperimentHub",
         "Rgraphviz",
         "ontoProc",
         "restfulSE"
@@ -6172,7 +6109,6 @@
     "viper": [],
     "ViSEAGO": [],
     "vissE": [
-        "ExperimentHub",
         "GSEABase"
     ],
     "Voyager": [
