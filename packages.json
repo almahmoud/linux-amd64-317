@@ -75,7 +75,6 @@
         "rtracklayer"
     ],
     "airpart": [
-        "BiocNeighbors",
         "basilisk",
         "densvis",
         "scater",
@@ -208,7 +207,6 @@
         "ShortRead"
     ],
     "ANCOMBC": [
-        "BiocNeighbors",
         "TreeSummarizedExperiment",
         "basilisk",
         "densvis",
@@ -387,14 +385,12 @@
         "rtracklayer"
     ],
     "BASiCS": [
-        "BiocNeighbors",
         "bluster",
         "scran",
         "scuttle"
     ],
     "BASiCStan": [
         "BASiCS",
-        "BiocNeighbors",
         "HDF5Array",
         "bluster",
         "glmGamPoi",
@@ -406,7 +402,6 @@
     "BasicSTARRseq": [],
     "basilisk": [],
     "batchelor": [
-        "BiocNeighbors",
         "scuttle"
     ],
     "BatchQC": [
@@ -414,7 +409,6 @@
         "sva"
     ],
     "BayesSpace": [
-        "BiocNeighbors",
         "basilisk",
         "bluster",
         "densvis",
@@ -438,7 +432,6 @@
     "benchdamic": [
         "ALDEx2",
         "ANCOMBC",
-        "BiocNeighbors",
         "MAST",
         "NOISeq",
         "TreeSummarizedExperiment",
@@ -515,7 +508,6 @@
     "BiocHubsShiny": [
         "ExperimentHub"
     ],
-    "BiocNeighbors": [],
     "BiocOncoTK": [
         "ExperimentHub",
         "GenomicFeatures",
@@ -552,7 +544,6 @@
     ],
     "biosigner": [],
     "BioTIP": [
-        "BiocNeighbors",
         "bluster",
         "scran",
         "scuttle"
@@ -600,9 +591,7 @@
     "BloodGen3Module": [
         "ExperimentHub"
     ],
-    "bluster": [
-        "BiocNeighbors"
-    ],
+    "bluster": [],
     "bnbc": [
         "genefilter",
         "rhdf5",
@@ -766,7 +755,6 @@
         "rtracklayer"
     ],
     "CATALYST": [
-        "BiocNeighbors",
         "FlowSOM",
         "basilisk",
         "cytolib",
@@ -822,7 +810,6 @@
         "MAST"
     ],
     "celda": [
-        "BiocNeighbors",
         "basilisk",
         "bluster",
         "densvis",
@@ -840,7 +827,6 @@
         "genefilter"
     ],
     "CelliD": [
-        "BiocNeighbors",
         "basilisk",
         "densvis",
         "scater",
@@ -849,7 +835,6 @@
     "cellity": [],
     "CellMapper": [],
     "CellMixS": [
-        "BiocNeighbors",
         "basilisk",
         "densvis",
         "scater",
@@ -1008,7 +993,6 @@
         "rtracklayer"
     ],
     "ChromSCape": [
-        "BiocNeighbors",
         "basilisk",
         "batchelor",
         "bluster",
@@ -1053,7 +1037,6 @@
         "rtracklayer"
     ],
     "CiteFuse": [
-        "BiocNeighbors",
         "bluster",
         "rhdf5",
         "rhdf5filters",
@@ -1256,7 +1239,6 @@
         "Spectra"
     ],
     "condiments": [
-        "BiocNeighbors",
         "TrajectoryUtils",
         "basilisk",
         "densvis",
@@ -1493,7 +1475,6 @@
         "Mfuzz"
     ],
     "cydar": [
-        "BiocNeighbors",
         "cytolib",
         "flowCore"
     ],
@@ -1508,7 +1489,6 @@
         "flowCore"
     ],
     "cytofQC": [
-        "BiocNeighbors",
         "CATALYST",
         "FlowSOM",
         "basilisk",
@@ -1771,14 +1751,12 @@
         "viper"
     ],
     "Dino": [
-        "BiocNeighbors",
         "bluster",
         "scran",
         "scuttle"
     ],
     "discordant": [],
     "distinct": [
-        "BiocNeighbors",
         "basilisk",
         "densvis",
         "scater",
@@ -2105,7 +2083,6 @@
         "rtracklayer"
     ],
     "escape": [
-        "BiocNeighbors",
         "GSEABase",
         "GSVA",
         "HDF5Array",
@@ -2114,7 +2091,6 @@
         "rhdf5filters"
     ],
     "escheR": [
-        "BiocNeighbors",
         "DropletUtils",
         "ExperimentHub",
         "HDF5Array",
@@ -2246,7 +2222,6 @@
     ],
     "FLAMES": [
         "BSgenome",
-        "BiocNeighbors",
         "DropletUtils",
         "GenomicFeatures",
         "HDF5Array",
@@ -2891,7 +2866,6 @@
         "rtracklayer"
     ],
     "imcRtools": [
-        "BiocNeighbors",
         "DropletUtils",
         "HDF5Array",
         "SpatialExperiment",
@@ -2976,7 +2950,6 @@
         "xcms"
     ],
     "IRISFGM": [
-        "BiocNeighbors",
         "DOSE",
         "basilisk",
         "bluster",
@@ -3268,7 +3241,6 @@
         "wateRmelon"
     ],
     "MEB": [
-        "BiocNeighbors",
         "basilisk",
         "densvis",
         "scater",
@@ -3494,7 +3466,6 @@
     "MGFM": [],
     "MGFR": [],
     "mia": [
-        "BiocNeighbors",
         "TreeSummarizedExperiment",
         "basilisk",
         "densvis",
@@ -3505,7 +3476,6 @@
         "TreeSummarizedExperiment"
     ],
     "miaViz": [
-        "BiocNeighbors",
         "TreeSummarizedExperiment",
         "basilisk",
         "densvis",
@@ -3538,7 +3508,6 @@
     "microbiomeMarker": [
         "ALDEx2",
         "ANCOMBC",
-        "BiocNeighbors",
         "TreeSummarizedExperiment",
         "basilisk",
         "biomformat",
@@ -3563,9 +3532,7 @@
     "microSTASIS": [
         "TreeSummarizedExperiment"
     ],
-    "miloR": [
-        "BiocNeighbors"
-    ],
+    "miloR": [],
     "mimager": [
         "oligo"
     ],
@@ -3819,7 +3786,6 @@
         "rtracklayer"
     ],
     "msImpute": [
-        "BiocNeighbors",
         "bluster",
         "scran",
         "scuttle"
@@ -3916,7 +3882,6 @@
     ],
     "multtest": [],
     "mumosa": [
-        "BiocNeighbors",
         "batchelor",
         "bluster",
         "scran",
@@ -3929,7 +3894,6 @@
         "rtracklayer"
     ],
     "muscat": [
-        "BiocNeighbors",
         "basilisk",
         "densvis",
         "scater",
@@ -4038,7 +4002,6 @@
     ],
     "NetSAM": [],
     "netSmooth": [
-        "BiocNeighbors",
         "HDF5Array",
         "basilisk",
         "clusterExperiment",
@@ -4306,7 +4269,6 @@
         "genefilter"
     ],
     "peco": [
-        "BiocNeighbors",
         "basilisk",
         "densvis",
         "scater",
@@ -4383,7 +4345,6 @@
         "rtracklayer"
     ],
     "pipeComp": [
-        "BiocNeighbors",
         "basilisk",
         "bluster",
         "densvis",
@@ -5175,7 +5136,6 @@
         "ExperimentHub"
     ],
     "scater": [
-        "BiocNeighbors",
         "basilisk",
         "densvis",
         "scuttle"
@@ -5205,7 +5165,6 @@
         "flowCore"
     ],
     "scDblFinder": [
-        "BiocNeighbors",
         "basilisk",
         "bluster",
         "densvis",
@@ -5215,7 +5174,6 @@
         "scuttle"
     ],
     "scDD": [
-        "BiocNeighbors",
         "bluster",
         "scran",
         "scuttle"
@@ -5225,7 +5183,6 @@
     "scds": [],
     "scFeatures": [
         "AUCell",
-        "BiocNeighbors",
         "DropletUtils",
         "GSEABase",
         "GSVA",
@@ -5251,7 +5208,6 @@
     ],
     "scmap": [],
     "scMerge": [
-        "BiocNeighbors",
         "basilisk",
         "batchelor",
         "bluster",
@@ -5310,7 +5266,6 @@
         "scuttle"
     ],
     "scran": [
-        "BiocNeighbors",
         "bluster",
         "scuttle"
     ],
@@ -5350,7 +5305,6 @@
         "schex"
     ],
     "scTreeViz": [
-        "BiocNeighbors",
         "GenomicFeatures",
         "OrganismDbi",
         "basilisk",
@@ -5367,7 +5321,6 @@
     ],
     "scuttle": [],
     "scviR": [
-        "BiocNeighbors",
         "basilisk",
         "densvis",
         "scater",
@@ -5541,14 +5494,12 @@
     "simplifyEnrichment": [],
     "single": [],
     "SingleCellSignalR": [
-        "BiocNeighbors",
         "bluster",
         "multtest",
         "scran",
         "scuttle"
     ],
     "singleCellTK": [
-        "BiocNeighbors",
         "DropletUtils",
         "ExperimentHub",
         "GSEABase",
@@ -5589,9 +5540,7 @@
         "VariantAnnotation",
         "rtracklayer"
     ],
-    "SingleR": [
-        "BiocNeighbors"
-    ],
+    "SingleR": [],
     "singscore": [
         "GSEABase"
     ],
@@ -5671,7 +5620,6 @@
         "multtest"
     ],
     "Spaniel": [
-        "BiocNeighbors",
         "DropletUtils",
         "HDF5Array",
         "basilisk",
@@ -5716,7 +5664,6 @@
         "scuttle"
     ],
     "SpatialFeatureExperiment": [
-        "BiocNeighbors",
         "DropletUtils",
         "HDF5Array",
         "SpatialExperiment",
@@ -5725,7 +5672,6 @@
         "scuttle"
     ],
     "spatialHeatmap": [
-        "BiocNeighbors",
         "basilisk",
         "bluster",
         "densvis",
@@ -6095,7 +6041,6 @@
         "rtracklayer"
     ],
     "tricycle": [
-        "BiocNeighbors",
         "basilisk",
         "densvis",
         "scater",
@@ -6142,9 +6087,7 @@
         "ensembldb",
         "rtracklayer"
     ],
-    "UCell": [
-        "BiocNeighbors"
-    ],
+    "UCell": [],
     "Ularcirc": [
         "BSgenome",
         "GenomicFeatures",
@@ -6178,7 +6121,6 @@
     ],
     "updateObject": [],
     "VAExprs": [
-        "BiocNeighbors",
         "basilisk",
         "densvis",
         "scater",
@@ -6248,7 +6190,6 @@
         "GSEABase"
     ],
     "Voyager": [
-        "BiocNeighbors",
         "DropletUtils",
         "HDF5Array",
         "SpatialExperiment",
