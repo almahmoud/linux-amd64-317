@@ -603,7 +603,6 @@
         "flowMerge"
     ],
     "consensusDE": [
-        "EDASeq",
         "RUVSeq"
     ],
     "consensusOV": [
@@ -768,9 +767,7 @@
     "DAMEfinder": [
         "VariantAnnotation"
     ],
-    "DaMiRseq": [
-        "EDASeq"
-    ],
+    "DaMiRseq": [],
     "DAPAR": [
         "MSnbase",
         "MsCoreUtils",
@@ -922,7 +919,6 @@
     "EasyCellType": [],
     "EBcoexpress": [],
     "EBSeqHMM": [],
-    "EDASeq": [],
     "edge": [],
     "eegc": [],
     "EGAD": [
@@ -1224,8 +1220,7 @@
     "gaga": [],
     "GAprediction": [],
     "GARS": [
-        "DaMiRseq",
-        "EDASeq"
+        "DaMiRseq"
     ],
     "GateFinder": [
         "cytolib",
@@ -2086,7 +2081,6 @@
         "multtest"
     ],
     "octad": [
-        "EDASeq",
         "GSVA",
         "HDF5Array",
         "RUVSeq"
@@ -2475,7 +2469,6 @@
     ],
     "ribor": [],
     "ribosomeProfilingQC": [
-        "EDASeq",
         "RUVSeq",
         "TFBSTools",
         "motifStack"
@@ -2591,9 +2584,7 @@
     ],
     "rTRMui": [],
     "RUVcorr": [],
-    "RUVSeq": [
-        "EDASeq"
-    ],
+    "RUVSeq": [],
     "SBGNview": [
         "pathview"
     ],
@@ -2643,7 +2634,6 @@
         "regioneR"
     ],
     "scone": [
-        "EDASeq",
         "RUVSeq"
     ],
     "Sconify": [
@@ -2894,7 +2884,6 @@
     ],
     "standR": [
         "DropletUtils",
-        "EDASeq",
         "HDF5Array",
         "RUVSeq",
         "SpatialExperiment"
