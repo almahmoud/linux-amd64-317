@@ -394,7 +394,6 @@
         "sva"
     ],
     "bnem": [
-        "CellNOptR",
         "epiNEM",
         "mnem",
         "sva"
@@ -546,7 +545,6 @@
     "CellMixS": [
         "scater"
     ],
-    "CellNOptR": [],
     "CEMiTool": [
         "clusterProfiler"
     ],
@@ -709,18 +707,10 @@
         "exomeCopy"
     ],
     "CNAnorm": [],
-    "CNORdt": [
-        "CellNOptR"
-    ],
-    "CNORfeeder": [
-        "CellNOptR"
-    ],
-    "CNORfuzzy": [
-        "CellNOptR"
-    ],
-    "CNORode": [
-        "CellNOptR"
-    ],
+    "CNORdt": [],
+    "CNORfeeder": [],
+    "CNORfuzzy": [],
+    "CNORode": [],
     "CNTools": [],
     "CNVfilteR": [
         "BSgenome",
@@ -2146,8 +2136,7 @@
         "BSgenome"
     ],
     "MEIGOR": [
-        "CNORode",
-        "CellNOptR"
+        "CNORode"
     ],
     "meshes": [],
     "meshr": [
