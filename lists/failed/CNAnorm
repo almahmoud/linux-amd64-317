@@ -1,0 +1,21 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE); p <- .libPaths(); p <- c('\''/tmp/tmp/built'\'', p); .libPaths(p); if(BiocManager::install('\''CNAnorm'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://packagemanager.posit.co/cran/__linux__/jammy/latest
+Bioconductor version 3.17 (BiocManager 1.30.20), R 4.3.0 (2023-04-21)
+Installing package(s) 'CNAnorm'
+trying URL 'https://bioconductor.org/packages/3.17/bioc/src/contrib/CNAnorm_1.46.1.tar.gz'
+Error in download.file(url, destfile, method, mode = "wb", ...) : 
+  cannot open URL 'https://bioconductor.org/packages/3.17/bioc/src/contrib/CNAnorm_1.46.1.tar.gz'
+In addition: Warning message:
+In download.file(url, destfile, method, mode = "wb", ...) :
+  URL 'https://bioconductor.org/packages/3.17/bioc/src/contrib/CNAnorm_1.46.1.tar.gz': status was 'SSL connect error'
+Warning in download.packages(pkgs, destdir = tmpd, available = available,  :
+  download of package ‘CNAnorm’ failed
+Old packages: 'cachem', 'evaluate', 'httpuv', 'httr', 'httr2', 'later',
+  'profvis', 'sass', 'testthat', 'waldo', 'class', 'KernSmooth', 'MASS', 'nnet'
+
+real	0m4.159s
+user	0m2.413s
+sys	0m0.209s
