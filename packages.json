@@ -8,13 +8,11 @@
         "mzR"
     ],
     "affycoretools": [
-        "ReportingTools",
-        "ggbio"
+        "ReportingTools"
     ],
     "AgiMicroRna": [
         "ReportingTools",
-        "affycoretools",
-        "ggbio"
+        "affycoretools"
     ],
     "alabaster": [
         "DropletUtils",
@@ -78,27 +76,20 @@
         "QDNAseq",
         "dmrseq"
     ],
-    "BOBaFIT": [
-        "ggbio"
-    ],
+    "BOBaFIT": [],
     "borealis": [],
     "brainflowprobes": [
         "GenomicFiles",
         "derfinder",
-        "derfinderPlot",
-        "ggbio"
+        "derfinderPlot"
     ],
-    "CAFE": [
-        "ggbio"
-    ],
+    "CAFE": [],
     "CAGEfightR": [
         "GenomicFiles",
         "GenomicInteractions",
         "Gviz"
     ],
-    "cageminer": [
-        "ggbio"
-    ],
+    "cageminer": [],
     "CAGEr": [
         "CAGEfightR",
         "GenomicFiles",
@@ -359,8 +350,7 @@
     ],
     "derfinderPlot": [
         "GenomicFiles",
-        "derfinder",
-        "ggbio"
+        "derfinder"
     ],
     "DESpace": [
         "DropletUtils",
@@ -460,8 +450,7 @@
     ],
     "FLAMES": [
         "DropletUtils",
-        "bambu",
-        "ggbio"
+        "bambu"
     ],
     "flowAI": [
         "cytolib",
@@ -614,9 +603,7 @@
     "GenomicInteractions": [
         "Gviz"
     ],
-    "GenomicOZone": [
-        "ggbio"
-    ],
+    "GenomicOZone": [],
     "GEOexplorer": [
         "GEOquery"
     ],
@@ -627,7 +614,6 @@
     "gespeR": [
         "cellHTS2"
     ],
-    "ggbio": [],
     "ggcyto": [
         "cytolib",
         "flowCore",
@@ -699,9 +685,7 @@
     "INSPEcT": [
         "plgem"
     ],
-    "intansv": [
-        "ggbio"
-    ],
+    "intansv": [],
     "IntEREst": [
         "GenomicFiles"
     ],
@@ -946,9 +930,7 @@
     "MsFeatures": [
         "MsCoreUtils"
     ],
-    "msgbsR": [
-        "ggbio"
-    ],
+    "msgbsR": [],
     "msmsEDA": [
         "MSnbase",
         "MsCoreUtils",
@@ -1182,9 +1164,7 @@
     "QuasR": [
         "GenomicFiles"
     ],
-    "R3CPET": [
-        "ggbio"
-    ],
+    "R3CPET": [],
     "RadioGx": [
         "CoreGx",
         "piano"
@@ -1221,15 +1201,11 @@
         "GEOquery",
         "minfi"
     ],
-    "ReportingTools": [
-        "ggbio"
-    ],
+    "ReportingTools": [],
     "RESOLVE": [],
     "rexposome": [],
     "RGraph2js": [],
-    "RiboProfiling": [
-        "ggbio"
-    ],
+    "RiboProfiling": [],
     "ribosomeProfilingQC": [],
     "RIPAT": [],
     "Risa": [
@@ -1332,9 +1308,7 @@
     "scPipe": [
         "DropletUtils"
     ],
-    "scruff": [
-        "ggbio"
-    ],
+    "scruff": [],
     "scTreeViz": [],
     "sevenbridges": [],
     "shinyepico": [
@@ -1373,9 +1347,7 @@
         "minfi",
         "wateRmelon"
     ],
-    "SomaticSignatures": [
-        "ggbio"
-    ],
+    "SomaticSignatures": [],
     "Spaniel": [
         "DropletUtils"
     ],
@@ -1535,8 +1507,7 @@
         "mzR"
     ],
     "YAPSA": [
-        "SomaticSignatures",
-        "ggbio"
+        "SomaticSignatures"
     ],
     "yarn": [
         "GEOquery",
