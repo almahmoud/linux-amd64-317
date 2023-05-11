@@ -30,7 +30,6 @@
         "DropletUtils",
         "SpatialExperiment",
         "alabaster.mae",
-        "alabaster.matrix",
         "alabaster.sce",
         "alabaster.se",
         "alabaster.spatial",
@@ -38,27 +37,20 @@
         "alabaster.vcf"
     ],
     "alabaster.mae": [
-        "alabaster.matrix",
         "alabaster.se"
     ],
-    "alabaster.matrix": [],
     "alabaster.sce": [
-        "alabaster.matrix",
         "alabaster.se"
     ],
-    "alabaster.se": [
-        "alabaster.matrix"
-    ],
+    "alabaster.se": [],
     "alabaster.spatial": [
         "DropletUtils",
         "SpatialExperiment",
-        "alabaster.matrix",
         "alabaster.sce",
         "alabaster.se"
     ],
     "alabaster.string": [],
     "alabaster.vcf": [
-        "alabaster.matrix",
         "alabaster.se",
         "alabaster.string"
     ],
