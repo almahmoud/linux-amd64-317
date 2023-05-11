@@ -34,7 +34,6 @@
         "SpatialExperiment",
         "alabaster.mae",
         "alabaster.matrix",
-        "alabaster.ranges",
         "alabaster.sce",
         "alabaster.se",
         "alabaster.spatial",
@@ -43,32 +42,26 @@
     ],
     "alabaster.mae": [
         "alabaster.matrix",
-        "alabaster.ranges",
         "alabaster.se"
     ],
     "alabaster.matrix": [],
-    "alabaster.ranges": [],
     "alabaster.sce": [
         "alabaster.matrix",
-        "alabaster.ranges",
         "alabaster.se"
     ],
     "alabaster.se": [
-        "alabaster.matrix",
-        "alabaster.ranges"
+        "alabaster.matrix"
     ],
     "alabaster.spatial": [
         "DropletUtils",
         "SpatialExperiment",
         "alabaster.matrix",
-        "alabaster.ranges",
         "alabaster.sce",
         "alabaster.se"
     ],
     "alabaster.string": [],
     "alabaster.vcf": [
         "alabaster.matrix",
-        "alabaster.ranges",
         "alabaster.se",
         "alabaster.string"
     ],
