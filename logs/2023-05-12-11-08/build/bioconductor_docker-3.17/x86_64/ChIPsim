@@ -1,0 +1,51 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE); p <- .libPaths(); p <- c('\''/tmp/tmp/built'\'', p); .libPaths(p); if(BiocManager::install('\''ChIPsim'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://packagemanager.posit.co/cran/__linux__/jammy/latest
+Bioconductor version 3.17 (BiocManager 1.30.20), R 4.3.0 (2023-04-21)
+Installing package(s) 'ChIPsim'
+trying URL 'https://bioconductor.org/packages/3.17/bioc/src/contrib/ChIPsim_1.54.0.tar.gz'
+Content type 'application/x-gzip' length 531228 bytes (518 KB)
+==================================================
+downloaded 518 KB
+
+* installing *source* package ‘ChIPsim’ ...
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘ChIPsim’ as ‘ChIPsim_1.54.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (ChIPsim)
+
+The downloaded source packages are in
+	‘/tmp/RtmpoloCNl/downloaded_packages’
+Old packages: 'cachem', 'evaluate', 'httpuv', 'httr', 'httr2', 'later',
+  'profvis', 'sass', 'testthat', 'waldo', 'class', 'KernSmooth', 'MASS', 'nnet'
+
+real	0m26.627s
+user	0m24.596s
+sys	0m1.693s
+* installing *binary* package ‘expint’ ...
+* ‘expint’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘expint’ as ‘expint_0.1-8_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (expint)
+* installing *binary* package ‘actuar’ ...
+* ‘actuar’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘actuar’ as ‘actuar_3.3-2_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (actuar)
+* installing *binary* package ‘expint’ ...
+* ‘expint’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘expint’ as ‘expint_0.1-8_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (expint)
