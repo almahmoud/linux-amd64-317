@@ -2,9 +2,7 @@
     "ACE": [
         "QDNAseq"
     ],
-    "adductomicsR": [
-        "mzR"
-    ],
+    "adductomicsR": [],
     "alabaster": [
         "SpatialExperiment",
         "alabaster.spatial"
@@ -16,7 +14,6 @@
     "bandle": [
         "MSnbase",
         "MsCoreUtils",
-        "mzR",
         "pRoloc"
     ],
     "benchdamic": [],
@@ -38,7 +35,6 @@
         "MSnbase",
         "MsCoreUtils",
         "MsFeatures",
-        "mzR",
         "xcms"
     ],
     "canceR": [],
@@ -64,13 +60,11 @@
         "MSnbase",
         "MsCoreUtils",
         "MsFeatures",
-        "mzR",
         "xcms"
     ],
     "CluMSID": [
         "MSnbase",
-        "MsCoreUtils",
-        "mzR"
+        "MsCoreUtils"
     ],
     "cmapR": [
         "cytolib",
@@ -110,7 +104,6 @@
         "MSnbase",
         "MsCoreUtils",
         "MsFeatures",
-        "mzR",
         "xcms"
     ],
     "CTSV": [
@@ -179,8 +172,7 @@
     ],
     "DAPAR": [
         "MSnbase",
-        "MsCoreUtils",
-        "mzR"
+        "MsCoreUtils"
     ],
     "ddPCRclust": [
         "cytolib",
@@ -192,8 +184,7 @@
     ],
     "DEP": [
         "MSnbase",
-        "MsCoreUtils",
-        "mzR"
+        "MsCoreUtils"
     ],
     "DepecheR": [],
     "derfinder": [],
@@ -203,9 +194,7 @@
     "DESpace": [
         "SpatialExperiment"
     ],
-    "DIAlignR": [
-        "mzR"
-    ],
+    "DIAlignR": [],
     "diffcyt": [
         "FlowSOM",
         "cytolib",
@@ -229,7 +218,6 @@
         "MSnbase",
         "MsCoreUtils",
         "MsFeatures",
-        "mzR",
         "xcms"
     ],
     "FLAMES": [],
@@ -411,7 +399,6 @@
         "MSnbase",
         "MsCoreUtils",
         "MsFeatures",
-        "mzR",
         "xcms"
     ],
     "lisaClust": [
@@ -423,7 +410,6 @@
         "MSnbase",
         "MsCoreUtils",
         "MsFeatures",
-        "mzR",
         "xcms"
     ],
     "MAGAR": [
@@ -434,7 +420,6 @@
         "MSnbase",
         "MsCoreUtils",
         "MsFeatures",
-        "mzR",
         "xcms"
     ],
     "massiR": [],
@@ -443,7 +428,6 @@
         "MSnbase",
         "MsCoreUtils",
         "MsFeatures",
-        "mzR",
         "xcms"
     ],
     "MetaboAnnotation": [
@@ -466,7 +450,6 @@
         "MSnbase",
         "MsCoreUtils",
         "MsFeatures",
-        "mzR",
         "xcms"
     ],
     "metaSeq": [],
@@ -489,7 +472,6 @@
         "MsCoreUtils",
         "MsFeatures",
         "Spectra",
-        "mzR",
         "xcms"
     ],
     "MoleculeExperiment": [
@@ -529,29 +511,23 @@
     ],
     "msmsEDA": [
         "MSnbase",
-        "MsCoreUtils",
-        "mzR"
+        "MsCoreUtils"
     ],
     "msmsTests": [
         "MSnbase",
         "MsCoreUtils",
-        "msmsEDA",
-        "mzR"
+        "msmsEDA"
     ],
     "MSnbase": [
-        "MsCoreUtils",
-        "mzR"
+        "MsCoreUtils"
     ],
     "MSnID": [
         "MSnbase",
         "MsCoreUtils",
         "msmsEDA",
-        "msmsTests",
-        "mzR"
+        "msmsTests"
     ],
-    "msPurity": [
-        "mzR"
-    ],
+    "msPurity": [],
     "msqrob2": [
         "MsCoreUtils",
         "QFeatures"
@@ -564,14 +540,12 @@
     ],
     "MSstatsQC": [
         "MSnbase",
-        "MsCoreUtils",
-        "mzR"
+        "MsCoreUtils"
     ],
     "MSstatsQCgui": [
         "MSnbase",
         "MSstatsQC",
-        "MsCoreUtils",
-        "mzR"
+        "MsCoreUtils"
     ],
     "multiHiCcompare": [
         "HiCcompare",
@@ -581,7 +555,6 @@
         "variancePartition"
     ],
     "musicatk": [],
-    "mzR": [],
     "NanoTube": [],
     "ncdfFlow": [
         "cytolib",
@@ -591,7 +564,6 @@
         "MSnbase",
         "MsCoreUtils",
         "MsFeatures",
-        "mzR",
         "xcms"
     ],
     "netOmics": [
@@ -637,8 +609,7 @@
     ],
     "peakPantheR": [
         "MSnbase",
-        "MsCoreUtils",
-        "mzR"
+        "MsCoreUtils"
     ],
     "PharmacoGx": [
         "CoreGx",
@@ -650,25 +621,21 @@
     "piano": [],
     "PrInCE": [
         "MSnbase",
-        "MsCoreUtils",
-        "mzR"
+        "MsCoreUtils"
     ],
     "pRoloc": [
         "MSnbase",
-        "MsCoreUtils",
-        "mzR"
+        "MsCoreUtils"
     ],
     "pRolocGUI": [
         "MSnbase",
         "MsCoreUtils",
-        "mzR",
         "pRoloc"
     ],
     "Prostar": [
         "DAPAR",
         "MSnbase",
-        "MsCoreUtils",
-        "mzR"
+        "MsCoreUtils"
     ],
     "proteasy": [],
     "psichomics": [
@@ -681,8 +648,7 @@
     ],
     "ptairMS": [
         "MSnbase",
-        "MsCoreUtils",
-        "mzR"
+        "MsCoreUtils"
     ],
     "QDNAseq": [],
     "QFeatures": [
@@ -693,8 +659,7 @@
     ],
     "qPLEXanalyzer": [
         "MSnbase",
-        "MsCoreUtils",
-        "mzR"
+        "MsCoreUtils"
     ],
     "QuasR": [],
     "RadioGx": [
@@ -721,14 +686,12 @@
         "MSnbase",
         "MsCoreUtils",
         "MsFeatures",
-        "mzR",
         "xcms"
     ],
     "Rmagpie": [],
     "RMassBank": [
         "MSnbase",
-        "MsCoreUtils",
-        "mzR"
+        "MsCoreUtils"
     ],
     "RNAAgeCalc": [
         "derfinder",
@@ -780,9 +743,7 @@
     "scPipe": [],
     "sevenbridges": [],
     "sigsquared": [],
-    "SIMAT": [
-        "mzR"
-    ],
+    "SIMAT": [],
     "SIMD": [],
     "simpleSeg": [
         "SpatialExperiment",
@@ -836,23 +797,19 @@
     "synapsis": [],
     "synapter": [
         "MSnbase",
-        "MsCoreUtils",
-        "mzR"
+        "MsCoreUtils"
     ],
     "TADCompare": [
         "HiCcompare",
         "QDNAseq"
     ],
     "tanggle": [],
-    "TargetDecoy": [
-        "mzR"
-    ],
+    "TargetDecoy": [],
     "timeOmics": [],
     "TimiRGeN": [],
     "topdownr": [
         "MSnbase",
-        "MsCoreUtils",
-        "mzR"
+        "MsCoreUtils"
     ],
     "ToxicoGx": [
         "CoreGx",
@@ -884,17 +841,14 @@
     "xcms": [
         "MSnbase",
         "MsCoreUtils",
-        "MsFeatures",
-        "mzR"
+        "MsFeatures"
     ],
     "Xeva": [
         "CoreGx",
         "PharmacoGx",
         "piano"
     ],
-    "yamss": [
-        "mzR"
-    ],
+    "yamss": [],
     "zenith": [
         "variancePartition"
     ],
