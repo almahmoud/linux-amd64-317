@@ -5,7 +5,6 @@
     ],
     "alabaster.spatial": [],
     "bandle": [
-        "MSnbase",
         "pRoloc"
     ],
     "BGmix": [],
@@ -16,7 +15,6 @@
     ],
     "CAGEr": [],
     "CAMERA": [
-        "MSnbase",
         "xcms"
     ],
     "CATALYST": [
@@ -29,12 +27,9 @@
     "ChIC": [],
     "ChIPXpress": [],
     "cliqueMS": [
-        "MSnbase",
         "xcms"
     ],
-    "CluMSID": [
-        "MSnbase"
-    ],
+    "CluMSID": [],
     "cmapR": [],
     "CNAnorm": [],
     "CNVfilteR": [],
@@ -49,7 +44,6 @@
     ],
     "CoreGx": [],
     "cosmiq": [
-        "MSnbase",
         "xcms"
     ],
     "CTSV": [],
@@ -90,18 +84,14 @@
     "cytoviewer": [
         "cytomapper"
     ],
-    "DAPAR": [
-        "MSnbase"
-    ],
+    "DAPAR": [],
     "ddPCRclust": [
         "flowDensity",
         "flowViz",
         "flowWorkspace",
         "ncdfFlow"
     ],
-    "DEP": [
-        "MSnbase"
-    ],
+    "DEP": [],
     "derfinderPlot": [],
     "DESpace": [],
     "diffcyt": [
@@ -111,7 +101,6 @@
     "ExperimentSubset": [],
     "flagme": [
         "CAMERA",
-        "MSnbase",
         "xcms"
     ],
     "flowAI": [],
@@ -197,7 +186,6 @@
     "infinityFlow": [],
     "IPO": [
         "CAMERA",
-        "MSnbase",
         "xcms"
     ],
     "lisaClust": [
@@ -205,17 +193,14 @@
     ],
     "LOBSTAHS": [
         "CAMERA",
-        "MSnbase",
         "xcms"
     ],
     "MAGAR": [],
     "MAIT": [
         "CAMERA",
-        "MSnbase",
         "xcms"
     ],
     "Metab": [
-        "MSnbase",
         "xcms"
     ],
     "MetaboAnnotation": [
@@ -227,7 +212,6 @@
     ],
     "metaMS": [
         "CAMERA",
-        "MSnbase",
         "xcms"
     ],
     "MetCirc": [
@@ -238,7 +222,6 @@
     ],
     "miRSM": [],
     "MobilityTransformR": [
-        "MSnbase",
         "Spectra",
         "xcms"
     ],
@@ -261,16 +244,11 @@
     "MsExperiment": [
         "Spectra"
     ],
-    "msmsEDA": [
-        "MSnbase"
-    ],
+    "msmsEDA": [],
     "msmsTests": [
-        "MSnbase",
         "msmsEDA"
     ],
-    "MSnbase": [],
     "MSnID": [
-        "MSnbase",
         "msmsEDA",
         "msmsTests"
     ],
@@ -279,11 +257,8 @@
         "MsExperiment",
         "Spectra"
     ],
-    "MSstatsQC": [
-        "MSnbase"
-    ],
+    "MSstatsQC": [],
     "MSstatsQCgui": [
-        "MSnbase",
         "MSstatsQC"
     ],
     "multiHiCcompare": [
@@ -293,7 +268,6 @@
     "musicatk": [],
     "ncdfFlow": [],
     "ncGTW": [
-        "MSnbase",
         "xcms"
     ],
     "netOmics": [],
@@ -317,37 +291,25 @@
         "flowWorkspace",
         "ncdfFlow"
     ],
-    "peakPantheR": [
-        "MSnbase"
-    ],
+    "peakPantheR": [],
     "PharmacoGx": [
         "CoreGx"
     ],
-    "PrInCE": [
-        "MSnbase"
-    ],
-    "pRoloc": [
-        "MSnbase"
-    ],
+    "PrInCE": [],
+    "pRoloc": [],
     "pRolocGUI": [
-        "MSnbase",
         "pRoloc"
     ],
     "Prostar": [
-        "DAPAR",
-        "MSnbase"
+        "DAPAR"
     ],
     "psichomics": [
         "recount"
     ],
     "PSMatch": [],
-    "ptairMS": [
-        "MSnbase"
-    ],
+    "ptairMS": [],
     "qmtools": [],
-    "qPLEXanalyzer": [
-        "MSnbase"
-    ],
+    "qPLEXanalyzer": [],
     "RadioGx": [
         "CoreGx"
     ],
@@ -355,12 +317,9 @@
     "recount": [],
     "regionReport": [],
     "Risa": [
-        "MSnbase",
         "xcms"
     ],
-    "RMassBank": [
-        "MSnbase"
-    ],
+    "RMassBank": [],
     "RNAAgeCalc": [
         "recount"
     ],
@@ -400,15 +359,11 @@
     "SpotClean": [],
     "standR": [],
     "stJoincount": [],
-    "synapter": [
-        "MSnbase"
-    ],
+    "synapter": [],
     "TADCompare": [
         "HiCcompare"
     ],
-    "topdownr": [
-        "MSnbase"
-    ],
+    "topdownr": [],
     "ToxicoGx": [
         "CoreGx"
     ],
@@ -422,9 +377,7 @@
         "SpatialFeatureExperiment"
     ],
     "vulcan": [],
-    "xcms": [
-        "MSnbase"
-    ],
+    "xcms": [],
     "Xeva": [
         "CoreGx",
         "PharmacoGx"
