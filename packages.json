@@ -13,7 +13,6 @@
     "AlpsNMR": [],
     "bandle": [
         "MSnbase",
-        "MsCoreUtils",
         "pRoloc"
     ],
     "benchdamic": [],
@@ -33,7 +32,6 @@
     ],
     "CAMERA": [
         "MSnbase",
-        "MsCoreUtils",
         "MsFeatures",
         "xcms"
     ],
@@ -58,13 +56,11 @@
     "ChIPXpress": [],
     "cliqueMS": [
         "MSnbase",
-        "MsCoreUtils",
         "MsFeatures",
         "xcms"
     ],
     "CluMSID": [
-        "MSnbase",
-        "MsCoreUtils"
+        "MSnbase"
     ],
     "cmapR": [
         "cytolib",
@@ -83,7 +79,6 @@
     "CNVPanelizer": [],
     "CompoundDb": [
         "MetaboCoreUtils",
-        "MsCoreUtils",
         "Spectra"
     ],
     "CONFESS": [
@@ -102,7 +97,6 @@
     ],
     "cosmiq": [
         "MSnbase",
-        "MsCoreUtils",
         "MsFeatures",
         "xcms"
     ],
@@ -171,8 +165,7 @@
         "cytomapper"
     ],
     "DAPAR": [
-        "MSnbase",
-        "MsCoreUtils"
+        "MSnbase"
     ],
     "ddPCRclust": [
         "cytolib",
@@ -183,8 +176,7 @@
         "ncdfFlow"
     ],
     "DEP": [
-        "MSnbase",
-        "MsCoreUtils"
+        "MSnbase"
     ],
     "DepecheR": [],
     "derfinder": [],
@@ -216,7 +208,6 @@
     "flagme": [
         "CAMERA",
         "MSnbase",
-        "MsCoreUtils",
         "MsFeatures",
         "xcms"
     ],
@@ -397,7 +388,6 @@
     "IPO": [
         "CAMERA",
         "MSnbase",
-        "MsCoreUtils",
         "MsFeatures",
         "xcms"
     ],
@@ -408,7 +398,6 @@
     "LOBSTAHS": [
         "CAMERA",
         "MSnbase",
-        "MsCoreUtils",
         "MsFeatures",
         "xcms"
     ],
@@ -418,7 +407,6 @@
     "MAIT": [
         "CAMERA",
         "MSnbase",
-        "MsCoreUtils",
         "MsFeatures",
         "xcms"
     ],
@@ -426,20 +414,16 @@
     "mBPCR": [],
     "Metab": [
         "MSnbase",
-        "MsCoreUtils",
         "MsFeatures",
         "xcms"
     ],
     "MetaboAnnotation": [
         "CompoundDb",
         "MetaboCoreUtils",
-        "MsCoreUtils",
         "QFeatures",
         "Spectra"
     ],
-    "MetaboCoreUtils": [
-        "MsCoreUtils"
-    ],
+    "MetaboCoreUtils": [],
     "MetaCyto": [
         "FlowSOM",
         "cytolib",
@@ -448,13 +432,11 @@
     "metaMS": [
         "CAMERA",
         "MSnbase",
-        "MsCoreUtils",
         "MsFeatures",
         "xcms"
     ],
     "metaSeq": [],
     "MetCirc": [
-        "MsCoreUtils",
         "Spectra"
     ],
     "MicrobiotaProcess": [
@@ -469,7 +451,6 @@
     "MobilityTransformR": [
         "MSnbase",
         "MetaboCoreUtils",
-        "MsCoreUtils",
         "MsFeatures",
         "Spectra",
         "xcms"
@@ -481,71 +462,53 @@
         "fabia"
     ],
     "MsBackendMassbank": [
-        "MsCoreUtils",
         "Spectra"
     ],
     "MsBackendMgf": [
-        "MsCoreUtils",
         "Spectra"
     ],
     "MsBackendMsp": [
-        "MsCoreUtils",
         "Spectra"
     ],
     "MsBackendRawFileReader": [
-        "MsCoreUtils",
         "Spectra"
     ],
     "MsBackendSql": [
-        "MsCoreUtils",
         "Spectra"
     ],
-    "MsCoreUtils": [],
     "MsExperiment": [
-        "MsCoreUtils",
         "QFeatures",
         "Spectra"
     ],
-    "MsFeatures": [
-        "MsCoreUtils"
-    ],
+    "MsFeatures": [],
     "msmsEDA": [
-        "MSnbase",
-        "MsCoreUtils"
+        "MSnbase"
     ],
     "msmsTests": [
         "MSnbase",
-        "MsCoreUtils",
         "msmsEDA"
     ],
-    "MSnbase": [
-        "MsCoreUtils"
-    ],
+    "MSnbase": [],
     "MSnID": [
         "MSnbase",
-        "MsCoreUtils",
         "msmsEDA",
         "msmsTests"
     ],
     "msPurity": [],
     "msqrob2": [
-        "MsCoreUtils",
         "QFeatures"
     ],
     "MsQuality": [
-        "MsCoreUtils",
         "MsExperiment",
         "QFeatures",
         "Spectra"
     ],
     "MSstatsQC": [
-        "MSnbase",
-        "MsCoreUtils"
+        "MSnbase"
     ],
     "MSstatsQCgui": [
         "MSnbase",
-        "MSstatsQC",
-        "MsCoreUtils"
+        "MSstatsQC"
     ],
     "multiHiCcompare": [
         "HiCcompare",
@@ -562,7 +525,6 @@
     ],
     "ncGTW": [
         "MSnbase",
-        "MsCoreUtils",
         "MsFeatures",
         "xcms"
     ],
@@ -606,8 +568,7 @@
         "ncdfFlow"
     ],
     "peakPantheR": [
-        "MSnbase",
-        "MsCoreUtils"
+        "MSnbase"
     ],
     "PharmacoGx": [
         "CoreGx",
@@ -618,22 +579,18 @@
     ],
     "piano": [],
     "PrInCE": [
-        "MSnbase",
-        "MsCoreUtils"
+        "MSnbase"
     ],
     "pRoloc": [
-        "MSnbase",
-        "MsCoreUtils"
+        "MSnbase"
     ],
     "pRolocGUI": [
         "MSnbase",
-        "MsCoreUtils",
         "pRoloc"
     ],
     "Prostar": [
         "DAPAR",
-        "MSnbase",
-        "MsCoreUtils"
+        "MSnbase"
     ],
     "proteasy": [],
     "psichomics": [
@@ -641,23 +598,16 @@
         "recount"
     ],
     "PSMatch": [
-        "MsCoreUtils",
         "QFeatures"
     ],
     "ptairMS": [
-        "MSnbase",
-        "MsCoreUtils"
+        "MSnbase"
     ],
     "QDNAseq": [],
-    "QFeatures": [
-        "MsCoreUtils"
-    ],
-    "qmtools": [
-        "MsCoreUtils"
-    ],
+    "QFeatures": [],
+    "qmtools": [],
     "qPLEXanalyzer": [
-        "MSnbase",
-        "MsCoreUtils"
+        "MSnbase"
     ],
     "QuasR": [],
     "RadioGx": [
@@ -680,13 +630,11 @@
     "RESOLVE": [],
     "Risa": [
         "MSnbase",
-        "MsCoreUtils",
         "MsFeatures",
         "xcms"
     ],
     "RMassBank": [
-        "MSnbase",
-        "MsCoreUtils"
+        "MSnbase"
     ],
     "RNAAgeCalc": [
         "derfinder",
@@ -732,7 +680,6 @@
         "flowCore"
     ],
     "scp": [
-        "MsCoreUtils",
         "QFeatures"
     ],
     "scPipe": [],
@@ -761,9 +708,7 @@
     "SpatialOmicsOverlay": [
         "RBioFormats"
     ],
-    "Spectra": [
-        "MsCoreUtils"
-    ],
+    "Spectra": [],
     "SpectralTAD": [
         "HiCcompare",
         "QDNAseq"
@@ -787,8 +732,7 @@
     "STROMA4": [],
     "supraHex": [],
     "synapter": [
-        "MSnbase",
-        "MsCoreUtils"
+        "MSnbase"
     ],
     "TADCompare": [
         "HiCcompare",
@@ -798,8 +742,7 @@
     "timeOmics": [],
     "TimiRGeN": [],
     "topdownr": [
-        "MSnbase",
-        "MsCoreUtils"
+        "MSnbase"
     ],
     "ToxicoGx": [
         "CoreGx",
@@ -828,7 +771,6 @@
     "wppi": [],
     "xcms": [
         "MSnbase",
-        "MsCoreUtils",
         "MsFeatures"
     ],
     "Xeva": [
