@@ -1,0 +1,152 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE); p <- .libPaths(); p <- c('\''/tmp/tmp/built'\'', p); .libPaths(p); if(BiocManager::install('\''hermes'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://packagemanager.posit.co/cran/__linux__/jammy/latest
+Bioconductor version 3.17 (BiocManager 1.30.20), R 4.3.0 (2023-04-21)
+Installing package(s) 'hermes'
+also installing the dependencies ‘gridExtra’, ‘backports’, ‘nortest’, ‘rbibutils’, ‘ggfortify’, ‘assertthat’, ‘checkmate’, ‘EnvStats’, ‘forcats’, ‘ggrepel’, ‘Rdpack’
+
+trying URL 'https://packagemanager.posit.co/cran/__linux__/jammy/latest/src/contrib/gridExtra_2.3.tar.gz'
+Content type 'binary/octet-stream' length 1106992 bytes (1.1 MB)
+==================================================
+downloaded 1.1 MB
+
+trying URL 'https://packagemanager.posit.co/cran/__linux__/jammy/latest/src/contrib/backports_1.4.1.tar.gz'
+Content type 'binary/octet-stream' length 95020 bytes (92 KB)
+==================================================
+downloaded 92 KB
+
+trying URL 'https://packagemanager.posit.co/cran/__linux__/jammy/latest/src/contrib/nortest_1.0-4.tar.gz'
+Content type 'binary/octet-stream' length 36166 bytes (35 KB)
+==================================================
+downloaded 35 KB
+
+trying URL 'https://packagemanager.posit.co/cran/__linux__/jammy/latest/src/contrib/rbibutils_2.2.13.tar.gz'
+Content type 'binary/octet-stream' length 877841 bytes (857 KB)
+==================================================
+downloaded 857 KB
+
+trying URL 'https://packagemanager.posit.co/cran/__linux__/jammy/latest/src/contrib/ggfortify_0.4.16.tar.gz'
+Content type 'binary/octet-stream' length 2198931 bytes (2.1 MB)
+==================================================
+downloaded 2.1 MB
+
+trying URL 'https://packagemanager.posit.co/cran/__linux__/jammy/latest/src/contrib/assertthat_0.2.1.tar.gz'
+Content type 'binary/octet-stream' length 52457 bytes (51 KB)
+==================================================
+downloaded 51 KB
+
+trying URL 'https://packagemanager.posit.co/cran/__linux__/jammy/latest/src/contrib/checkmate_2.2.0.tar.gz'
+Content type 'binary/octet-stream' length 717504 bytes (700 KB)
+==================================================
+downloaded 700 KB
+
+trying URL 'https://packagemanager.posit.co/cran/__linux__/jammy/latest/src/contrib/EnvStats_2.7.0.tar.gz'
+Content type 'binary/octet-stream' length 6028395 bytes (5.7 MB)
+==================================================
+downloaded 5.7 MB
+
+trying URL 'https://packagemanager.posit.co/cran/__linux__/jammy/latest/src/contrib/forcats_1.0.0.tar.gz'
+Content type 'binary/octet-stream' length 421625 bytes (411 KB)
+==================================================
+downloaded 411 KB
+
+trying URL 'https://packagemanager.posit.co/cran/__linux__/jammy/latest/src/contrib/ggrepel_0.9.3.tar.gz'
+Content type 'binary/octet-stream' length 270444 bytes (264 KB)
+==================================================
+downloaded 264 KB
+
+trying URL 'https://packagemanager.posit.co/cran/__linux__/jammy/latest/src/contrib/Rdpack_2.4.tar.gz'
+Content type 'binary/octet-stream' length 956454 bytes (934 KB)
+==================================================
+downloaded 934 KB
+
+trying URL 'https://bioconductor.org/packages/3.17/bioc/src/contrib/hermes_1.4.0.tar.gz'
+Content type 'application/x-gzip' length 3705803 bytes (3.5 MB)
+==================================================
+downloaded 3.5 MB
+
+* installing *binary* package ‘gridExtra’ ...
+* ‘gridExtra’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘gridExtra’ as ‘gridExtra_2.3_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (gridExtra)
+* installing *binary* package ‘backports’ ...
+* ‘backports’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘backports’ as ‘backports_1.4.1_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (backports)
+* installing *binary* package ‘nortest’ ...
+* ‘nortest’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘nortest’ as ‘nortest_1.0-4_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (nortest)
+* installing *binary* package ‘rbibutils’ ...
+* ‘rbibutils’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘rbibutils’ as ‘rbibutils_2.2.13_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (rbibutils)
+* installing *binary* package ‘assertthat’ ...
+* ‘assertthat’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘assertthat’ as ‘assertthat_0.2.1_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (assertthat)
+* installing *binary* package ‘forcats’ ...
+* ‘forcats’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘forcats’ as ‘forcats_1.0.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (forcats)
+* installing *binary* package ‘ggrepel’ ...
+* ‘ggrepel’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘ggrepel’ as ‘ggrepel_0.9.3_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (ggrepel)
+* installing *binary* package ‘ggfortify’ ...
+* ‘ggfortify’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘ggfortify’ as ‘ggfortify_0.4.16_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (ggfortify)
+* installing *binary* package ‘checkmate’ ...
+* ‘checkmate’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘checkmate’ as ‘checkmate_2.2.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (checkmate)
+* installing *binary* package ‘EnvStats’ ...
+* ‘EnvStats’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘EnvStats’ as ‘EnvStats_2.7.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (EnvStats)
+* installing *binary* package ‘Rdpack’ ...
+* ‘Rdpack’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘Rdpack’ as ‘Rdpack_2.4_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (Rdpack)
+* installing *source* package ‘hermes’ ...
+** using staged installation
+** R
+** data
+*** moving datasets to lazyload DB
+** inst
+** byte-compile and prepare package for lazy loading
+Creating a new generic function for ‘filter’ in package ‘hermes’
+** help
+*** installing help indices
+*** copying figures
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘hermes’ as ‘hermes_1.4.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (hermes)
+
+The downloaded source packages are in
+	‘/tmp/Rtmp7UYP1h/downloaded_packages’
+Old packages: 'cachem', 'evaluate', 'httpuv', 'httr', 'httr2', 'later',
+  'profvis', 'sass', 'testthat', 'waldo', 'class', 'KernSmooth', 'MASS', 'nnet'
+
+real	0m57.833s
+user	0m45.580s
+sys	0m3.691s
