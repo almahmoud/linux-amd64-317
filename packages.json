@@ -577,15 +577,13 @@
     "MSstatsQC": [
         "MSnbase",
         "MsCoreUtils",
-        "mzR",
-        "qcmetrics"
+        "mzR"
     ],
     "MSstatsQCgui": [
         "MSnbase",
         "MSstatsQC",
         "MsCoreUtils",
-        "mzR",
-        "qcmetrics"
+        "mzR"
     ],
     "multiHiCcompare": [
         "HiCcompare",
@@ -704,7 +702,6 @@
         "MsCoreUtils",
         "mzR"
     ],
-    "qcmetrics": [],
     "QDNAseq": [],
     "QFeatures": [
         "MsCoreUtils"
