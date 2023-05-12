@@ -1,0 +1,129 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE); p <- .libPaths(); p <- c('\''/tmp/tmp/built'\'', p); .libPaths(p); if(BiocManager::install('\''BiSeq'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://packagemanager.posit.co/cran/__linux__/jammy/latest
+Bioconductor version 3.17 (BiocManager 1.30.20), R 4.3.0 (2023-04-21)
+Installing package(s) 'BiSeq'
+also installing the dependencies ‘zoo’, ‘flexmix’, ‘lmtest’, ‘modeltools’, ‘sandwich’, ‘sfsmisc’, ‘Formula’, ‘betareg’, ‘lokern’
+
+trying URL 'https://packagemanager.posit.co/cran/__linux__/jammy/latest/src/contrib/zoo_1.8-12.tar.gz'
+Content type 'binary/octet-stream' length 1015488 bytes (991 KB)
+==================================================
+downloaded 991 KB
+
+trying URL 'https://packagemanager.posit.co/cran/__linux__/jammy/latest/src/contrib/flexmix_2.3-19.tar.gz'
+Content type 'binary/octet-stream' length 1719088 bytes (1.6 MB)
+==================================================
+downloaded 1.6 MB
+
+trying URL 'https://packagemanager.posit.co/cran/__linux__/jammy/latest/src/contrib/lmtest_0.9-40.tar.gz'
+Content type 'binary/octet-stream' length 398739 bytes (389 KB)
+==================================================
+downloaded 389 KB
+
+trying URL 'https://packagemanager.posit.co/cran/__linux__/jammy/latest/src/contrib/modeltools_0.2-23.tar.gz'
+Content type 'binary/octet-stream' length 223742 bytes (218 KB)
+==================================================
+downloaded 218 KB
+
+trying URL 'https://packagemanager.posit.co/cran/__linux__/jammy/latest/src/contrib/sandwich_3.0-2.tar.gz'
+Content type 'binary/octet-stream' length 1456618 bytes (1.4 MB)
+==================================================
+downloaded 1.4 MB
+
+trying URL 'https://packagemanager.posit.co/cran/__linux__/jammy/latest/src/contrib/sfsmisc_1.1-15.tar.gz'
+Content type 'binary/octet-stream' length 657695 bytes (642 KB)
+==================================================
+downloaded 642 KB
+
+trying URL 'https://packagemanager.posit.co/cran/__linux__/jammy/latest/src/contrib/Formula_1.2-5.tar.gz'
+Content type 'binary/octet-stream' length 158389 bytes (154 KB)
+==================================================
+downloaded 154 KB
+
+trying URL 'https://packagemanager.posit.co/cran/__linux__/jammy/latest/src/contrib/betareg_3.1-4.tar.gz'
+Content type 'binary/octet-stream' length 929554 bytes (907 KB)
+==================================================
+downloaded 907 KB
+
+trying URL 'https://packagemanager.posit.co/cran/__linux__/jammy/latest/src/contrib/lokern_1.1-10.tar.gz'
+Content type 'binary/octet-stream' length 97841 bytes (95 KB)
+==================================================
+downloaded 95 KB
+
+trying URL 'https://bioconductor.org/packages/3.17/bioc/src/contrib/BiSeq_1.40.0.tar.gz'
+Content type 'application/x-gzip' length 937325 bytes (915 KB)
+==================================================
+downloaded 915 KB
+
+* installing *binary* package ‘zoo’ ...
+* ‘zoo’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘zoo’ as ‘zoo_1.8-12_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (zoo)
+* installing *binary* package ‘modeltools’ ...
+* ‘modeltools’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘modeltools’ as ‘modeltools_0.2-23_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (modeltools)
+* installing *binary* package ‘sfsmisc’ ...
+* ‘sfsmisc’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘sfsmisc’ as ‘sfsmisc_1.1-15_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (sfsmisc)
+* installing *binary* package ‘Formula’ ...
+* ‘Formula’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘Formula’ as ‘Formula_1.2-5_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (Formula)
+* installing *binary* package ‘flexmix’ ...
+* ‘flexmix’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘flexmix’ as ‘flexmix_2.3-19_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (flexmix)
+* installing *binary* package ‘lmtest’ ...
+* ‘lmtest’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘lmtest’ as ‘lmtest_0.9-40_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (lmtest)
+* installing *binary* package ‘sandwich’ ...
+* ‘sandwich’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘sandwich’ as ‘sandwich_3.0-2_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (sandwich)
+* installing *binary* package ‘lokern’ ...
+* ‘lokern’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘lokern’ as ‘lokern_1.1-10_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (lokern)
+* installing *binary* package ‘betareg’ ...
+* ‘betareg’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘betareg’ as ‘betareg_3.1-4_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (betareg)
+* installing *source* package ‘BiSeq’ ...
+** using staged installation
+** R
+** data
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘BiSeq’ as ‘BiSeq_1.40.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (BiSeq)
+
+The downloaded source packages are in
+	‘/tmp/RtmpA3A4RW/downloaded_packages’
+Old packages: 'cachem', 'evaluate', 'httpuv', 'httr', 'httr2', 'later',
+  'profvis', 'sass', 'testthat', 'waldo', 'class', 'KernSmooth', 'MASS', 'nnet'
+
+real	1m4.457s
+user	0m53.485s
+sys	0m3.855s
