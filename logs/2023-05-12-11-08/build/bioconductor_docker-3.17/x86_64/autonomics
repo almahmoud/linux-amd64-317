@@ -1,0 +1,399 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE); p <- .libPaths(); p <- c('\''/tmp/tmp/built'\'', p); .libPaths(p); if(BiocManager::install('\''autonomics'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://packagemanager.posit.co/cran/__linux__/jammy/latest
+Bioconductor version 3.17 (BiocManager 1.30.20), R 4.3.0 (2023-04-21)
+Installing package(s) 'autonomics'
+also installing the dependencies ‘rematch’, ‘assertive.base’, ‘assertive.properties’, ‘assertive.types’, ‘assertive.numbers’, ‘assertive.strings’, ‘assertive.datetimes’, ‘assertive.files’, ‘assertive.sets’, ‘assertive.matrices’, ‘assertive.models’, ‘assertive.data’, ‘assertive.data.uk’, ‘assertive.data.us’, ‘assertive.reflection’, ‘assertive.code’, ‘gtable’, ‘isoband’, ‘R.oo’, ‘R.methodsS3’, ‘cellranger’, ‘farver’, ‘labeling’, ‘munsell’, ‘RColorBrewer’, ‘viridisLite’, ‘abind’, ‘assertive’, ‘colorspace’, ‘data.table’, ‘ggplot2’, ‘ggrepel’, ‘gridExtra’, ‘R.utils’, ‘readxl’, ‘scales’
+
+trying URL 'https://packagemanager.posit.co/cran/__linux__/jammy/latest/src/contrib/rematch_1.0.1.tar.gz'
+Content type 'binary/octet-stream' length 12215 bytes (11 KB)
+==================================================
+downloaded 11 KB
+
+trying URL 'https://packagemanager.posit.co/cran/__linux__/jammy/latest/src/contrib/assertive.base_0.0-9.tar.gz'
+Content type 'binary/octet-stream' length 109959 bytes (107 KB)
+==================================================
+downloaded 107 KB
+
+trying URL 'https://packagemanager.posit.co/cran/__linux__/jammy/latest/src/contrib/assertive.properties_0.0-5.tar.gz'
+Content type 'binary/octet-stream' length 87774 bytes (85 KB)
+==================================================
+downloaded 85 KB
+
+trying URL 'https://packagemanager.posit.co/cran/__linux__/jammy/latest/src/contrib/assertive.types_0.0-3.tar.gz'
+Content type 'binary/octet-stream' length 836911 bytes (817 KB)
+==================================================
+downloaded 817 KB
+
+trying URL 'https://packagemanager.posit.co/cran/__linux__/jammy/latest/src/contrib/assertive.numbers_0.0-2.tar.gz'
+Content type 'binary/octet-stream' length 90964 bytes (88 KB)
+==================================================
+downloaded 88 KB
+
+trying URL 'https://packagemanager.posit.co/cran/__linux__/jammy/latest/src/contrib/assertive.strings_0.0-3.tar.gz'
+Content type 'binary/octet-stream' length 64468 bytes (62 KB)
+==================================================
+downloaded 62 KB
+
+trying URL 'https://packagemanager.posit.co/cran/__linux__/jammy/latest/src/contrib/assertive.datetimes_0.0-3.tar.gz'
+Content type 'binary/octet-stream' length 24907 bytes (24 KB)
+==================================================
+downloaded 24 KB
+
+trying URL 'https://packagemanager.posit.co/cran/__linux__/jammy/latest/src/contrib/assertive.files_0.0-2.tar.gz'
+Content type 'binary/octet-stream' length 66199 bytes (64 KB)
+==================================================
+downloaded 64 KB
+
+trying URL 'https://packagemanager.posit.co/cran/__linux__/jammy/latest/src/contrib/assertive.sets_0.0-3.tar.gz'
+Content type 'binary/octet-stream' length 18185 bytes (17 KB)
+==================================================
+downloaded 17 KB
+
+trying URL 'https://packagemanager.posit.co/cran/__linux__/jammy/latest/src/contrib/assertive.matrices_0.0-2.tar.gz'
+Content type 'binary/octet-stream' length 29236 bytes (28 KB)
+==================================================
+downloaded 28 KB
+
+trying URL 'https://packagemanager.posit.co/cran/__linux__/jammy/latest/src/contrib/assertive.models_0.0-2.tar.gz'
+Content type 'binary/octet-stream' length 15680 bytes (15 KB)
+==================================================
+downloaded 15 KB
+
+trying URL 'https://packagemanager.posit.co/cran/__linux__/jammy/latest/src/contrib/assertive.data_0.0-3.tar.gz'
+Content type 'binary/octet-stream' length 51191 bytes (49 KB)
+==================================================
+downloaded 49 KB
+
+trying URL 'https://packagemanager.posit.co/cran/__linux__/jammy/latest/src/contrib/assertive.data.uk_0.0-2.tar.gz'
+Content type 'binary/octet-stream' length 34361 bytes (33 KB)
+==================================================
+downloaded 33 KB
+
+trying URL 'https://packagemanager.posit.co/cran/__linux__/jammy/latest/src/contrib/assertive.data.us_0.0-2.tar.gz'
+Content type 'binary/octet-stream' length 24723 bytes (24 KB)
+==================================================
+downloaded 24 KB
+
+trying URL 'https://packagemanager.posit.co/cran/__linux__/jammy/latest/src/contrib/assertive.reflection_0.0-5.tar.gz'
+Content type 'binary/octet-stream' length 119397 bytes (116 KB)
+==================================================
+downloaded 116 KB
+
+trying URL 'https://packagemanager.posit.co/cran/__linux__/jammy/latest/src/contrib/assertive.code_0.0-3.tar.gz'
+Content type 'binary/octet-stream' length 44039 bytes (43 KB)
+==================================================
+downloaded 43 KB
+
+trying URL 'https://packagemanager.posit.co/cran/__linux__/jammy/latest/src/contrib/gtable_0.3.3.tar.gz'
+Content type 'binary/octet-stream' length 215580 bytes (210 KB)
+==================================================
+downloaded 210 KB
+
+trying URL 'https://packagemanager.posit.co/cran/__linux__/jammy/latest/src/contrib/isoband_0.2.7.tar.gz'
+Content type 'binary/octet-stream' length 1642505 bytes (1.6 MB)
+==================================================
+downloaded 1.6 MB
+
+trying URL 'https://packagemanager.posit.co/cran/__linux__/jammy/latest/src/contrib/R.oo_1.25.0.tar.gz'
+Content type 'binary/octet-stream' length 963511 bytes (940 KB)
+==================================================
+downloaded 940 KB
+
+trying URL 'https://packagemanager.posit.co/cran/__linux__/jammy/latest/src/contrib/R.methodsS3_1.8.2.tar.gz'
+Content type 'binary/octet-stream' length 80219 bytes (78 KB)
+==================================================
+downloaded 78 KB
+
+trying URL 'https://packagemanager.posit.co/cran/__linux__/jammy/latest/src/contrib/cellranger_1.1.0.tar.gz'
+Content type 'binary/octet-stream' length 100989 bytes (98 KB)
+==================================================
+downloaded 98 KB
+
+trying URL 'https://packagemanager.posit.co/cran/__linux__/jammy/latest/src/contrib/farver_2.1.1.tar.gz'
+Content type 'binary/octet-stream' length 1457375 bytes (1.4 MB)
+==================================================
+downloaded 1.4 MB
+
+trying URL 'https://packagemanager.posit.co/cran/__linux__/jammy/latest/src/contrib/labeling_0.4.2.tar.gz'
+Content type 'binary/octet-stream' length 60100 bytes (58 KB)
+==================================================
+downloaded 58 KB
+
+trying URL 'https://packagemanager.posit.co/cran/__linux__/jammy/latest/src/contrib/munsell_0.5.0.tar.gz'
+Content type 'binary/octet-stream' length 243612 bytes (237 KB)
+==================================================
+downloaded 237 KB
+
+trying URL 'https://packagemanager.posit.co/cran/__linux__/jammy/latest/src/contrib/RColorBrewer_1.1-3.tar.gz'
+Content type 'binary/octet-stream' length 53104 bytes (51 KB)
+==================================================
+downloaded 51 KB
+
+trying URL 'https://packagemanager.posit.co/cran/__linux__/jammy/latest/src/contrib/viridisLite_0.4.2.tar.gz'
+Content type 'binary/octet-stream' length 1296750 bytes (1.2 MB)
+==================================================
+downloaded 1.2 MB
+
+trying URL 'https://packagemanager.posit.co/cran/__linux__/jammy/latest/src/contrib/abind_1.4-5.tar.gz'
+Content type 'binary/octet-stream' length 61357 bytes (59 KB)
+==================================================
+downloaded 59 KB
+
+trying URL 'https://packagemanager.posit.co/cran/__linux__/jammy/latest/src/contrib/assertive_0.3-6.tar.gz'
+Content type 'binary/octet-stream' length 1072261 bytes (1.0 MB)
+==================================================
+downloaded 1.0 MB
+
+trying URL 'https://packagemanager.posit.co/cran/__linux__/jammy/latest/src/contrib/colorspace_2.1-0.tar.gz'
+Content type 'binary/octet-stream' length 2593417 bytes (2.5 MB)
+==================================================
+downloaded 2.5 MB
+
+trying URL 'https://packagemanager.posit.co/cran/__linux__/jammy/latest/src/contrib/data.table_1.14.8.tar.gz'
+Content type 'binary/octet-stream' length 2126876 bytes (2.0 MB)
+==================================================
+downloaded 2.0 MB
+
+trying URL 'https://packagemanager.posit.co/cran/__linux__/jammy/latest/src/contrib/ggplot2_3.4.2.tar.gz'
+Content type 'binary/octet-stream' length 4286745 bytes (4.1 MB)
+==================================================
+downloaded 4.1 MB
+
+trying URL 'https://packagemanager.posit.co/cran/__linux__/jammy/latest/src/contrib/ggrepel_0.9.3.tar.gz'
+Content type 'binary/octet-stream' length 270444 bytes (264 KB)
+==================================================
+downloaded 264 KB
+
+trying URL 'https://packagemanager.posit.co/cran/__linux__/jammy/latest/src/contrib/gridExtra_2.3.tar.gz'
+Content type 'binary/octet-stream' length 1106992 bytes (1.1 MB)
+==================================================
+downloaded 1.1 MB
+
+trying URL 'https://packagemanager.posit.co/cran/__linux__/jammy/latest/src/contrib/R.utils_2.12.2.tar.gz'
+Content type 'binary/octet-stream' length 1401342 bytes (1.3 MB)
+==================================================
+downloaded 1.3 MB
+
+trying URL 'https://packagemanager.posit.co/cran/__linux__/jammy/latest/src/contrib/readxl_1.4.2.tar.gz'
+Content type 'binary/octet-stream' length 876203 bytes (855 KB)
+==================================================
+downloaded 855 KB
+
+trying URL 'https://packagemanager.posit.co/cran/__linux__/jammy/latest/src/contrib/scales_1.2.1.tar.gz'
+Content type 'binary/octet-stream' length 606846 bytes (592 KB)
+==================================================
+downloaded 592 KB
+
+trying URL 'https://bioconductor.org/packages/3.17/bioc/src/contrib/autonomics_1.8.0.tar.gz'
+Content type 'application/x-gzip' length 2438308 bytes (2.3 MB)
+==================================================
+downloaded 2.3 MB
+
+* installing *binary* package ‘rematch’ ...
+* ‘rematch’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘rematch’ as ‘rematch_1.0.1_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (rematch)
+* installing *binary* package ‘assertive.base’ ...
+* ‘assertive.base’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘assertive.base’ as ‘assertive.base_0.0-9_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (assertive.base)
+* installing *binary* package ‘gtable’ ...
+* ‘gtable’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘gtable’ as ‘gtable_0.3.3_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (gtable)
+* installing *binary* package ‘isoband’ ...
+* ‘isoband’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘isoband’ as ‘isoband_0.2.7_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (isoband)
+* installing *binary* package ‘R.methodsS3’ ...
+* ‘R.methodsS3’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘R.methodsS3’ as ‘R.methodsS3_1.8.2_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (R.methodsS3)
+* installing *binary* package ‘farver’ ...
+* ‘farver’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘farver’ as ‘farver_2.1.1_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (farver)
+* installing *binary* package ‘labeling’ ...
+* ‘labeling’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘labeling’ as ‘labeling_0.4.2_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (labeling)
+* installing *binary* package ‘RColorBrewer’ ...
+* ‘RColorBrewer’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘RColorBrewer’ as ‘RColorBrewer_1.1-3_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (RColorBrewer)
+* installing *binary* package ‘viridisLite’ ...
+* ‘viridisLite’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘viridisLite’ as ‘viridisLite_0.4.2_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (viridisLite)
+* installing *binary* package ‘abind’ ...
+* ‘abind’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘abind’ as ‘abind_1.4-5_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (abind)
+* installing *binary* package ‘colorspace’ ...
+* ‘colorspace’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘colorspace’ as ‘colorspace_2.1-0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (colorspace)
+* installing *binary* package ‘data.table’ ...
+* ‘data.table’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘data.table’ as ‘data.table_1.14.8_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (data.table)
+* installing *binary* package ‘assertive.properties’ ...
+* ‘assertive.properties’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘assertive.properties’ as ‘assertive.properties_0.0-5_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (assertive.properties)
+* installing *binary* package ‘assertive.numbers’ ...
+* ‘assertive.numbers’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘assertive.numbers’ as ‘assertive.numbers_0.0-2_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (assertive.numbers)
+* installing *binary* package ‘assertive.sets’ ...
+* ‘assertive.sets’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘assertive.sets’ as ‘assertive.sets_0.0-3_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (assertive.sets)
+* installing *binary* package ‘assertive.matrices’ ...
+* ‘assertive.matrices’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘assertive.matrices’ as ‘assertive.matrices_0.0-2_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (assertive.matrices)
+* installing *binary* package ‘assertive.models’ ...
+* ‘assertive.models’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘assertive.models’ as ‘assertive.models_0.0-2_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (assertive.models)
+* installing *binary* package ‘assertive.reflection’ ...
+* ‘assertive.reflection’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘assertive.reflection’ as ‘assertive.reflection_0.0-5_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (assertive.reflection)
+* installing *binary* package ‘R.oo’ ...
+* ‘R.oo’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘R.oo’ as ‘R.oo_1.25.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (R.oo)
+* installing *binary* package ‘cellranger’ ...
+* ‘cellranger’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘cellranger’ as ‘cellranger_1.1.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (cellranger)
+* installing *binary* package ‘munsell’ ...
+* ‘munsell’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘munsell’ as ‘munsell_0.5.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (munsell)
+* installing *binary* package ‘gridExtra’ ...
+* ‘gridExtra’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘gridExtra’ as ‘gridExtra_2.3_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (gridExtra)
+* installing *binary* package ‘assertive.types’ ...
+* ‘assertive.types’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘assertive.types’ as ‘assertive.types_0.0-3_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (assertive.types)
+* installing *binary* package ‘assertive.files’ ...
+* ‘assertive.files’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘assertive.files’ as ‘assertive.files_0.0-2_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (assertive.files)
+* installing *binary* package ‘R.utils’ ...
+* ‘R.utils’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘R.utils’ as ‘R.utils_2.12.2_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (R.utils)
+* installing *binary* package ‘readxl’ ...
+* ‘readxl’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘readxl’ as ‘readxl_1.4.2_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (readxl)
+* installing *binary* package ‘scales’ ...
+* ‘scales’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘scales’ as ‘scales_1.2.1_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (scales)
+* installing *binary* package ‘assertive.strings’ ...
+* ‘assertive.strings’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘assertive.strings’ as ‘assertive.strings_0.0-3_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (assertive.strings)
+* installing *binary* package ‘assertive.datetimes’ ...
+* ‘assertive.datetimes’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘assertive.datetimes’ as ‘assertive.datetimes_0.0-3_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (assertive.datetimes)
+* installing *binary* package ‘assertive.code’ ...
+* ‘assertive.code’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘assertive.code’ as ‘assertive.code_0.0-3_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (assertive.code)
+* installing *binary* package ‘ggplot2’ ...
+* ‘ggplot2’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘ggplot2’ as ‘ggplot2_3.4.2_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (ggplot2)
+* installing *binary* package ‘assertive.data’ ...
+* ‘assertive.data’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘assertive.data’ as ‘assertive.data_0.0-3_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (assertive.data)
+* installing *binary* package ‘assertive.data.uk’ ...
+* ‘assertive.data.uk’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘assertive.data.uk’ as ‘assertive.data.uk_0.0-2_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (assertive.data.uk)
+* installing *binary* package ‘assertive.data.us’ ...
+* ‘assertive.data.us’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘assertive.data.us’ as ‘assertive.data.us_0.0-2_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (assertive.data.us)
+* installing *binary* package ‘ggrepel’ ...
+* ‘ggrepel’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘ggrepel’ as ‘ggrepel_0.9.3_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (ggrepel)
+* installing *binary* package ‘assertive’ ...
+* ‘assertive’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘assertive’ as ‘assertive_0.3-6_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (assertive)
+* installing *source* package ‘autonomics’ ...
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+Note: wrong number of arguments to '/' 
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘autonomics’ as ‘autonomics_1.8.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (autonomics)
+
+The downloaded source packages are in
+	‘/tmp/RtmpfUjKvi/downloaded_packages’
+Old packages: 'cachem', 'evaluate', 'httpuv', 'httr', 'httr2', 'later',
+  'profvis', 'sass', 'testthat', 'waldo', 'class', 'KernSmooth', 'MASS', 'nnet'
+
+real	1m3.395s
+user	0m44.183s
+sys	0m5.677s
