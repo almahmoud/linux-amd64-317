@@ -1,0 +1,175 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE); p <- .libPaths(); p <- c('\''/tmp/tmp/built'\'', p); .libPaths(p); if(BiocManager::install('\''BiocHubsShiny'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://packagemanager.posit.co/cran/__linux__/jammy/latest
+Bioconductor version 3.17 (BiocManager 1.30.20), R 4.3.0 (2023-04-21)
+Installing package(s) 'BiocHubsShiny'
+also installing the dependencies ‘shinyAce’, ‘shinyjs’, ‘shinythemes’, ‘shinytoastr’
+
+trying URL 'https://packagemanager.posit.co/cran/__linux__/jammy/latest/src/contrib/shinyAce_0.4.2.tar.gz'
+Content type 'binary/octet-stream' length 1740809 bytes (1.7 MB)
+==================================================
+downloaded 1.7 MB
+
+trying URL 'https://packagemanager.posit.co/cran/__linux__/jammy/latest/src/contrib/shinyjs_2.1.0.tar.gz'
+Content type 'binary/octet-stream' length 1084640 bytes (1.0 MB)
+==================================================
+downloaded 1.0 MB
+
+trying URL 'https://packagemanager.posit.co/cran/__linux__/jammy/latest/src/contrib/shinythemes_1.2.0.tar.gz'
+Content type 'binary/octet-stream' length 963506 bytes (940 KB)
+==================================================
+downloaded 940 KB
+
+trying URL 'https://packagemanager.posit.co/cran/__linux__/jammy/latest/src/contrib/shinytoastr_2.1.1.tar.gz'
+Content type 'binary/octet-stream' length 79454 bytes (77 KB)
+==================================================
+downloaded 77 KB
+
+trying URL 'https://bioconductor.org/packages/3.17/bioc/src/contrib/BiocHubsShiny_1.0.0.tar.gz'
+Content type 'application/x-gzip' length 1680213 bytes (1.6 MB)
+==================================================
+downloaded 1.6 MB
+
+* installing *binary* package ‘shinyAce’ ...
+* ‘shinyAce’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘shinyAce’ as ‘shinyAce_0.4.2_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (shinyAce)
+* installing *binary* package ‘shinyjs’ ...
+* ‘shinyjs’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘shinyjs’ as ‘shinyjs_2.1.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (shinyjs)
+* installing *binary* package ‘shinythemes’ ...
+* ‘shinythemes’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘shinythemes’ as ‘shinythemes_1.2.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (shinythemes)
+* installing *binary* package ‘shinytoastr’ ...
+* ‘shinytoastr’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘shinytoastr’ as ‘shinytoastr_2.1.1_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (shinytoastr)
+* installing *source* package ‘BiocHubsShiny’ ...
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘BiocHubsShiny’ as ‘BiocHubsShiny_1.0.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (BiocHubsShiny)
+
+The downloaded source packages are in
+	‘/tmp/RtmphEAOGt/downloaded_packages’
+Old packages: 'cachem', 'evaluate', 'httpuv', 'httr', 'httr2', 'later',
+  'profvis', 'sass', 'testthat', 'waldo', 'class', 'KernSmooth', 'MASS', 'nnet'
+
+real	0m21.450s
+user	0m17.151s
+sys	0m1.714s
+* installing *binary* package ‘AsioHeaders’ ...
+* ‘AsioHeaders’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘AsioHeaders’ as ‘AsioHeaders_1.22.1-2_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (AsioHeaders)
+* installing *source* package ‘websocket’ ...
+** package ‘websocket’ successfully unpacked and MD5 sums checked
+** using staged installation
+Found pkg-config cflags and libs!
+Using PKG_CFLAGS=
+Using PKG_LIBS=-lssl -lcrypto
+** libs
+using C++ compiler: ‘g++ (Ubuntu 11.3.0-1ubuntu1~22.04) 11.3.0’
+using C++11
+g++ -std=gnu++11 -I"/usr/local/lib/R/include" -DNDEBUG -I./lib  -I'/usr/local/lib/R/site-library/cpp11/include' -I'/tmp/tmp/built/AsioHeaders/include' -I'/usr/local/lib/R/site-library/later/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c cpp11.cpp -o cpp11.o
+g++ -std=gnu++11 -I"/usr/local/lib/R/include" -DNDEBUG -I./lib  -I'/usr/local/lib/R/site-library/cpp11/include' -I'/tmp/tmp/built/AsioHeaders/include' -I'/usr/local/lib/R/site-library/later/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c debug.cpp -o debug.o
+g++ -std=gnu++11 -I"/usr/local/lib/R/include" -DNDEBUG -I./lib  -I'/usr/local/lib/R/site-library/cpp11/include' -I'/tmp/tmp/built/AsioHeaders/include' -I'/usr/local/lib/R/site-library/later/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c websocket.cpp -o websocket.o
+g++ -std=gnu++11 -I"/usr/local/lib/R/include" -DNDEBUG -I./lib  -I'/usr/local/lib/R/site-library/cpp11/include' -I'/tmp/tmp/built/AsioHeaders/include' -I'/usr/local/lib/R/site-library/later/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c websocket_connection.cpp -o websocket_connection.o
+g++ -std=gnu++11 -I"/usr/local/lib/R/include" -DNDEBUG -I./lib  -I'/usr/local/lib/R/site-library/cpp11/include' -I'/tmp/tmp/built/AsioHeaders/include' -I'/usr/local/lib/R/site-library/later/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c websocket_task.cpp -o websocket_task.o
+g++ -std=gnu++11 -shared -L/usr/local/lib/R/lib -L/usr/local/lib -o websocket.so cpp11.o debug.o websocket.o websocket_connection.o websocket_task.o -lssl -lcrypto -L/usr/local/lib/R/lib -lR
+installing to /tmp/tmp/built/00LOCK-websocket/00new/websocket/libs
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+*** copying figures
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘websocket’ as ‘websocket_1.4.1_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (websocket)
+* installing *binary* package ‘chromote’ ...
+* ‘chromote’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘chromote’ as ‘chromote_0.1.1_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (chromote)
+* installing *binary* package ‘backports’ ...
+* ‘backports’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘backports’ as ‘backports_1.4.1_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (backports)
+* installing *binary* package ‘globals’ ...
+* ‘globals’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘globals’ as ‘globals_0.16.2_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (globals)
+* installing *binary* package ‘pingr’ ...
+* ‘pingr’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘pingr’ as ‘pingr_2.0.2_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (pingr)
+* installing *binary* package ‘checkmate’ ...
+* ‘checkmate’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘checkmate’ as ‘checkmate_2.2.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (checkmate)
+* installing *binary* package ‘shinytest2’ ...
+* ‘shinytest2’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘shinytest2’ as ‘shinytest2_0.2.1_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (shinytest2)
+* installing *source* package ‘websocket’ ...
+** package ‘websocket’ successfully unpacked and MD5 sums checked
+** using staged installation
+Found pkg-config cflags and libs!
+Using PKG_CFLAGS=
+Using PKG_LIBS=-lssl -lcrypto
+** libs
+using C++ compiler: ‘g++ (Ubuntu 11.3.0-1ubuntu1~22.04) 11.3.0’
+using C++11
+g++ -std=gnu++11 -I"/usr/local/lib/R/include" -DNDEBUG -I./lib  -I'/usr/local/lib/R/site-library/cpp11/include' -I'/tmp/tmp/built/AsioHeaders/include' -I'/usr/local/lib/R/site-library/later/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c cpp11.cpp -o cpp11.o
+g++ -std=gnu++11 -I"/usr/local/lib/R/include" -DNDEBUG -I./lib  -I'/usr/local/lib/R/site-library/cpp11/include' -I'/tmp/tmp/built/AsioHeaders/include' -I'/usr/local/lib/R/site-library/later/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c debug.cpp -o debug.o
+g++ -std=gnu++11 -I"/usr/local/lib/R/include" -DNDEBUG -I./lib  -I'/usr/local/lib/R/site-library/cpp11/include' -I'/tmp/tmp/built/AsioHeaders/include' -I'/usr/local/lib/R/site-library/later/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c websocket.cpp -o websocket.o
+g++ -std=gnu++11 -I"/usr/local/lib/R/include" -DNDEBUG -I./lib  -I'/usr/local/lib/R/site-library/cpp11/include' -I'/tmp/tmp/built/AsioHeaders/include' -I'/usr/local/lib/R/site-library/later/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c websocket_connection.cpp -o websocket_connection.o
+g++ -std=gnu++11 -I"/usr/local/lib/R/include" -DNDEBUG -I./lib  -I'/usr/local/lib/R/site-library/cpp11/include' -I'/tmp/tmp/built/AsioHeaders/include' -I'/usr/local/lib/R/site-library/later/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c websocket_task.cpp -o websocket_task.o
+g++ -std=gnu++11 -shared -L/usr/local/lib/R/lib -L/usr/local/lib -o websocket.so cpp11.o debug.o websocket.o websocket_connection.o websocket_task.o -lssl -lcrypto -L/usr/local/lib/R/lib -lR
+installing to /tmp/tmp/built/00LOCK-websocket/00new/websocket/libs
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+*** copying figures
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘websocket’ as ‘websocket_1.4.1_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (websocket)
