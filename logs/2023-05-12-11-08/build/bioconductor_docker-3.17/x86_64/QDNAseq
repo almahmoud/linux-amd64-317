@@ -1,0 +1,119 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE); p <- .libPaths(); p <- c('\''/tmp/tmp/built'\'', p); .libPaths(p); if(BiocManager::install('\''QDNAseq'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://packagemanager.posit.co/cran/__linux__/jammy/latest
+Bioconductor version 3.17 (BiocManager 1.30.20), R 4.3.0 (2023-04-21)
+Installing package(s) 'QDNAseq'
+also installing the dependencies ‘listenv’, ‘parallelly’, ‘R.oo’, ‘R.methodsS3’, ‘future’, ‘globals’, ‘R.utils’, ‘future.apply’
+
+trying URL 'https://packagemanager.posit.co/cran/__linux__/jammy/latest/src/contrib/listenv_0.9.0.tar.gz'
+Content type 'binary/octet-stream' length 105140 bytes (102 KB)
+==================================================
+downloaded 102 KB
+
+trying URL 'https://packagemanager.posit.co/cran/__linux__/jammy/latest/src/contrib/parallelly_1.35.0.tar.gz'
+Content type 'binary/octet-stream' length 327972 bytes (320 KB)
+==================================================
+downloaded 320 KB
+
+trying URL 'https://packagemanager.posit.co/cran/__linux__/jammy/latest/src/contrib/R.oo_1.25.0.tar.gz'
+Content type 'binary/octet-stream' length 963511 bytes (940 KB)
+==================================================
+downloaded 940 KB
+
+trying URL 'https://packagemanager.posit.co/cran/__linux__/jammy/latest/src/contrib/R.methodsS3_1.8.2.tar.gz'
+Content type 'binary/octet-stream' length 80219 bytes (78 KB)
+==================================================
+downloaded 78 KB
+
+trying URL 'https://packagemanager.posit.co/cran/__linux__/jammy/latest/src/contrib/future_1.32.0.tar.gz'
+Content type 'binary/octet-stream' length 637502 bytes (622 KB)
+==================================================
+downloaded 622 KB
+
+trying URL 'https://packagemanager.posit.co/cran/__linux__/jammy/latest/src/contrib/globals_0.16.2.tar.gz'
+Content type 'binary/octet-stream' length 104912 bytes (102 KB)
+==================================================
+downloaded 102 KB
+
+trying URL 'https://packagemanager.posit.co/cran/__linux__/jammy/latest/src/contrib/R.utils_2.12.2.tar.gz'
+Content type 'binary/octet-stream' length 1401342 bytes (1.3 MB)
+==================================================
+downloaded 1.3 MB
+
+trying URL 'https://packagemanager.posit.co/cran/__linux__/jammy/latest/src/contrib/future.apply_1.10.0.tar.gz'
+Content type 'binary/octet-stream' length 153204 bytes (149 KB)
+==================================================
+downloaded 149 KB
+
+trying URL 'https://bioconductor.org/packages/3.17/bioc/src/contrib/QDNAseq_1.36.0.tar.gz'
+Content type 'application/x-gzip' length 1066348 bytes (1.0 MB)
+==================================================
+downloaded 1.0 MB
+
+* installing *binary* package ‘listenv’ ...
+* ‘listenv’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘listenv’ as ‘listenv_0.9.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (listenv)
+* installing *binary* package ‘parallelly’ ...
+* ‘parallelly’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘parallelly’ as ‘parallelly_1.35.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (parallelly)
+* installing *binary* package ‘R.methodsS3’ ...
+* ‘R.methodsS3’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘R.methodsS3’ as ‘R.methodsS3_1.8.2_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (R.methodsS3)
+* installing *binary* package ‘globals’ ...
+* ‘globals’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘globals’ as ‘globals_0.16.2_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (globals)
+* installing *binary* package ‘R.oo’ ...
+* ‘R.oo’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘R.oo’ as ‘R.oo_1.25.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (R.oo)
+* installing *binary* package ‘future’ ...
+* ‘future’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘future’ as ‘future_1.32.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (future)
+* installing *binary* package ‘R.utils’ ...
+* ‘R.utils’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘R.utils’ as ‘R.utils_2.12.2_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (R.utils)
+* installing *binary* package ‘future.apply’ ...
+* ‘future.apply’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘future.apply’ as ‘future.apply_1.10.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (future.apply)
+* installing *source* package ‘QDNAseq’ ...
+** using staged installation
+** R
+** data
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘QDNAseq’ as ‘QDNAseq_1.36.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (QDNAseq)
+
+The downloaded source packages are in
+	‘/tmp/RtmpgPlpnr/downloaded_packages’
+Old packages: 'cachem', 'evaluate', 'httpuv', 'httr', 'httr2', 'later',
+  'profvis', 'sass', 'testthat', 'waldo', 'class', 'KernSmooth', 'MASS', 'nnet'
+
+real	0m24.812s
+user	0m20.087s
+sys	0m1.777s
