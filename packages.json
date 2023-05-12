@@ -33,8 +33,7 @@
     ],
     "cyanoFilter": [
         "flowDensity",
-        "flowWorkspace",
-        "ncdfFlow"
+        "flowWorkspace"
     ],
     "CyTOFpower": [
         "diffcyt"
@@ -45,21 +44,18 @@
     "CytoML": [
         "flowWorkspace",
         "ggcyto",
-        "ncdfFlow",
         "openCyto"
     ],
     "CytoPipeline": [
         "PeacoQC",
         "flowWorkspace",
-        "ggcyto",
-        "ncdfFlow"
+        "ggcyto"
     ],
     "cytoviewer": [],
     "DAPAR": [],
     "ddPCRclust": [
         "flowDensity",
-        "flowWorkspace",
-        "ncdfFlow"
+        "flowWorkspace"
     ],
     "DEP": [],
     "derfinderPlot": [],
@@ -74,49 +70,40 @@
     ],
     "flowCut": [
         "flowDensity",
-        "flowWorkspace",
-        "ncdfFlow"
+        "flowWorkspace"
     ],
     "flowDensity": [
-        "flowWorkspace",
-        "ncdfFlow"
+        "flowWorkspace"
     ],
     "flowFP": [],
     "flowGate": [
         "flowWorkspace",
-        "ggcyto",
-        "ncdfFlow"
+        "ggcyto"
     ],
     "flowMerge": [],
     "flowSpecs": [],
     "flowStats": [
-        "flowWorkspace",
-        "ncdfFlow"
+        "flowWorkspace"
     ],
     "flowTrans": [],
     "flowVS": [
         "flowStats",
-        "flowWorkspace",
-        "ncdfFlow"
+        "flowWorkspace"
     ],
-    "flowWorkspace": [
-        "ncdfFlow"
-    ],
+    "flowWorkspace": [],
     "fmcsR": [],
     "GateFinder": [
         "flowFP"
     ],
     "ggcyto": [
-        "flowWorkspace",
-        "ncdfFlow"
+        "flowWorkspace"
     ],
     "HiCDOC": [
         "multiHiCcompare"
     ],
     "imcRtools": [],
     "ImmuneSpaceR": [
-        "flowWorkspace",
-        "ncdfFlow"
+        "flowWorkspace"
     ],
     "IPO": [
         "CAMERA",
@@ -175,7 +162,6 @@
     ],
     "multiHiCcompare": [],
     "musicatk": [],
-    "ncdfFlow": [],
     "ncGTW": [
         "xcms"
     ],
@@ -185,14 +171,12 @@
     "omada": [],
     "OmicsLonDA": [],
     "openCyto": [
-        "flowWorkspace",
-        "ncdfFlow"
+        "flowWorkspace"
     ],
     "optimalFlow": [],
     "PDATK": [],
     "PeacoQC": [
-        "flowWorkspace",
-        "ncdfFlow"
+        "flowWorkspace"
     ],
     "peakPantheR": [],
     "PharmacoGx": [],
