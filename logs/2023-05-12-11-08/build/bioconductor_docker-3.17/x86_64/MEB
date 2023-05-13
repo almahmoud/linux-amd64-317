@@ -1,0 +1,60 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE); p <- .libPaths(); p <- c('\''/tmp/tmp/built'\'', p); .libPaths(p); if(BiocManager::install('\''MEB'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://packagemanager.posit.co/cran/__linux__/jammy/latest
+Bioconductor version 3.17 (BiocManager 1.30.20), R 4.3.0 (2023-04-21)
+Installing package(s) 'MEB'
+also installing the dependencies ‘logging’, ‘wrswoR’
+
+trying URL 'https://packagemanager.posit.co/cran/__linux__/jammy/latest/src/contrib/logging_0.10-108.tar.gz'
+Content type 'binary/octet-stream' length 167061 bytes (163 KB)
+==================================================
+downloaded 163 KB
+
+trying URL 'https://packagemanager.posit.co/cran/__linux__/jammy/latest/src/contrib/wrswoR_1.1.1.tar.gz'
+Content type 'binary/octet-stream' length 58665 bytes (57 KB)
+==================================================
+downloaded 57 KB
+
+trying URL 'https://bioconductor.org/packages/3.17/bioc/src/contrib/MEB_1.14.0.tar.gz'
+Content type 'application/x-gzip' length 1235921 bytes (1.2 MB)
+==================================================
+downloaded 1.2 MB
+
+* installing *binary* package ‘logging’ ...
+* ‘logging’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘logging’ as ‘logging_0.10-108_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (logging)
+* installing *binary* package ‘wrswoR’ ...
+* ‘wrswoR’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘wrswoR’ as ‘wrswoR_1.1.1_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (wrswoR)
+* installing *source* package ‘MEB’ ...
+** using staged installation
+** R
+** data
+*** moving datasets to lazyload DB
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘MEB’ as ‘MEB_1.14.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (MEB)
+
+The downloaded source packages are in
+	‘/tmp/RtmpV17wvq/downloaded_packages’
+Old packages: 'cachem', 'evaluate', 'httpuv', 'httr', 'httr2', 'later',
+  'profvis', 'sass', 'testthat', 'waldo', 'class', 'KernSmooth', 'MASS', 'nnet'
+
+real	0m28.716s
+user	0m25.143s
+sys	0m1.926s
