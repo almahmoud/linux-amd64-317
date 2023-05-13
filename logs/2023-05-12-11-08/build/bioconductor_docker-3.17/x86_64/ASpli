@@ -1,0 +1,101 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE); p <- .libPaths(); p <- c('\''/tmp/tmp/built'\'', p); .libPaths(p); if(BiocManager::install('\''ASpli'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://packagemanager.posit.co/cran/__linux__/jammy/latest
+Bioconductor version 3.17 (BiocManager 1.30.20), R 4.3.0 (2023-04-21)
+Installing package(s) 'ASpli'
+also installing the dependencies ‘plyr’, ‘crosstalk’, ‘igraph’, ‘UpSetR’, ‘DT’, ‘pbmcapply’
+
+trying URL 'https://packagemanager.posit.co/cran/__linux__/jammy/latest/src/contrib/plyr_1.8.8.tar.gz'
+Content type 'binary/octet-stream' length 822215 bytes (802 KB)
+==================================================
+downloaded 802 KB
+
+trying URL 'https://packagemanager.posit.co/cran/__linux__/jammy/latest/src/contrib/crosstalk_1.2.0.tar.gz'
+Content type 'binary/octet-stream' length 403467 bytes (394 KB)
+==================================================
+downloaded 394 KB
+
+trying URL 'https://packagemanager.posit.co/cran/__linux__/jammy/latest/src/contrib/igraph_1.4.2.tar.gz'
+Content type 'binary/octet-stream' length 4889333 bytes (4.7 MB)
+==================================================
+downloaded 4.7 MB
+
+trying URL 'https://packagemanager.posit.co/cran/__linux__/jammy/latest/src/contrib/UpSetR_1.4.0.tar.gz'
+Content type 'binary/octet-stream' length 4296547 bytes (4.1 MB)
+==================================================
+downloaded 4.1 MB
+
+trying URL 'https://packagemanager.posit.co/cran/__linux__/jammy/latest/src/contrib/DT_0.27.tar.gz'
+Content type 'binary/octet-stream' length 1607857 bytes (1.5 MB)
+==================================================
+downloaded 1.5 MB
+
+trying URL 'https://packagemanager.posit.co/cran/__linux__/jammy/latest/src/contrib/pbmcapply_1.5.1.tar.gz'
+Content type 'binary/octet-stream' length 39780 bytes (38 KB)
+==================================================
+downloaded 38 KB
+
+trying URL 'https://bioconductor.org/packages/3.17/bioc/src/contrib/ASpli_2.10.0.tar.gz'
+Content type 'application/x-gzip' length 5009382 bytes (4.8 MB)
+==================================================
+downloaded 4.8 MB
+
+* installing *binary* package ‘plyr’ ...
+* ‘plyr’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘plyr’ as ‘plyr_1.8.8_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (plyr)
+* installing *binary* package ‘crosstalk’ ...
+* ‘crosstalk’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘crosstalk’ as ‘crosstalk_1.2.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (crosstalk)
+* installing *binary* package ‘igraph’ ...
+* ‘igraph’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘igraph’ as ‘igraph_1.4.2_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (igraph)
+* installing *binary* package ‘pbmcapply’ ...
+* ‘pbmcapply’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘pbmcapply’ as ‘pbmcapply_1.5.1_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (pbmcapply)
+* installing *binary* package ‘UpSetR’ ...
+* ‘UpSetR’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘UpSetR’ as ‘UpSetR_1.4.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (UpSetR)
+* installing *binary* package ‘DT’ ...
+* ‘DT’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘DT’ as ‘DT_0.27_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (DT)
+* installing *source* package ‘ASpli’ ...
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+Warning: replacing previous import ‘utils::findMatches’ by ‘S4Vectors::findMatches’ when loading ‘ASpli’
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+Warning: replacing previous import ‘utils::findMatches’ by ‘S4Vectors::findMatches’ when loading ‘ASpli’
+** testing if installed package can be loaded from final location
+Warning: replacing previous import ‘utils::findMatches’ by ‘S4Vectors::findMatches’ when loading ‘ASpli’
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘ASpli’ as ‘ASpli_2.10.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (ASpli)
+
+The downloaded source packages are in
+	‘/tmp/RtmpqBzBlV/downloaded_packages’
+Old packages: 'cachem', 'evaluate', 'httpuv', 'httr', 'httr2', 'later',
+  'profvis', 'sass', 'testthat', 'waldo', 'class', 'KernSmooth', 'MASS', 'nnet'
+
+real	0m57.864s
+user	0m52.160s
+sys	0m2.747s
