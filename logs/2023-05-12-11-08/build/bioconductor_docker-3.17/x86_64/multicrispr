@@ -1,0 +1,198 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE); p <- .libPaths(); p <- c('\''/tmp/tmp/built'\'', p); .libPaths(p); if(BiocManager::install('\''multicrispr'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://packagemanager.posit.co/cran/__linux__/jammy/latest
+Bioconductor version 3.17 (BiocManager 1.30.20), R 4.3.0 (2023-04-21)
+Installing package(s) 'multicrispr'
+also installing the dependencies ‘assertive.base’, ‘assertive.properties’, ‘assertive.types’, ‘assertive.numbers’, ‘assertive.strings’, ‘assertive.datetimes’, ‘assertive.files’, ‘assertive.sets’, ‘assertive.matrices’, ‘assertive.models’, ‘assertive.data’, ‘assertive.data.uk’, ‘assertive.data.us’, ‘assertive.reflection’, ‘assertive.code’, ‘assertive’
+
+trying URL 'https://packagemanager.posit.co/cran/__linux__/jammy/latest/src/contrib/assertive.base_0.0-9.tar.gz'
+Content type 'binary/octet-stream' length 109959 bytes (107 KB)
+==================================================
+downloaded 107 KB
+
+trying URL 'https://packagemanager.posit.co/cran/__linux__/jammy/latest/src/contrib/assertive.properties_0.0-5.tar.gz'
+Content type 'binary/octet-stream' length 87774 bytes (85 KB)
+==================================================
+downloaded 85 KB
+
+trying URL 'https://packagemanager.posit.co/cran/__linux__/jammy/latest/src/contrib/assertive.types_0.0-3.tar.gz'
+Content type 'binary/octet-stream' length 836911 bytes (817 KB)
+==================================================
+downloaded 817 KB
+
+trying URL 'https://packagemanager.posit.co/cran/__linux__/jammy/latest/src/contrib/assertive.numbers_0.0-2.tar.gz'
+Content type 'binary/octet-stream' length 90964 bytes (88 KB)
+==================================================
+downloaded 88 KB
+
+trying URL 'https://packagemanager.posit.co/cran/__linux__/jammy/latest/src/contrib/assertive.strings_0.0-3.tar.gz'
+Content type 'binary/octet-stream' length 64468 bytes (62 KB)
+==================================================
+downloaded 62 KB
+
+trying URL 'https://packagemanager.posit.co/cran/__linux__/jammy/latest/src/contrib/assertive.datetimes_0.0-3.tar.gz'
+Content type 'binary/octet-stream' length 24907 bytes (24 KB)
+==================================================
+downloaded 24 KB
+
+trying URL 'https://packagemanager.posit.co/cran/__linux__/jammy/latest/src/contrib/assertive.files_0.0-2.tar.gz'
+Content type 'binary/octet-stream' length 66199 bytes (64 KB)
+==================================================
+downloaded 64 KB
+
+trying URL 'https://packagemanager.posit.co/cran/__linux__/jammy/latest/src/contrib/assertive.sets_0.0-3.tar.gz'
+Content type 'binary/octet-stream' length 18185 bytes (17 KB)
+==================================================
+downloaded 17 KB
+
+trying URL 'https://packagemanager.posit.co/cran/__linux__/jammy/latest/src/contrib/assertive.matrices_0.0-2.tar.gz'
+Content type 'binary/octet-stream' length 29236 bytes (28 KB)
+==================================================
+downloaded 28 KB
+
+trying URL 'https://packagemanager.posit.co/cran/__linux__/jammy/latest/src/contrib/assertive.models_0.0-2.tar.gz'
+Content type 'binary/octet-stream' length 15680 bytes (15 KB)
+==================================================
+downloaded 15 KB
+
+trying URL 'https://packagemanager.posit.co/cran/__linux__/jammy/latest/src/contrib/assertive.data_0.0-3.tar.gz'
+Content type 'binary/octet-stream' length 51191 bytes (49 KB)
+==================================================
+downloaded 49 KB
+
+trying URL 'https://packagemanager.posit.co/cran/__linux__/jammy/latest/src/contrib/assertive.data.uk_0.0-2.tar.gz'
+Content type 'binary/octet-stream' length 34361 bytes (33 KB)
+==================================================
+downloaded 33 KB
+
+trying URL 'https://packagemanager.posit.co/cran/__linux__/jammy/latest/src/contrib/assertive.data.us_0.0-2.tar.gz'
+Content type 'binary/octet-stream' length 24723 bytes (24 KB)
+==================================================
+downloaded 24 KB
+
+trying URL 'https://packagemanager.posit.co/cran/__linux__/jammy/latest/src/contrib/assertive.reflection_0.0-5.tar.gz'
+Content type 'binary/octet-stream' length 119397 bytes (116 KB)
+==================================================
+downloaded 116 KB
+
+trying URL 'https://packagemanager.posit.co/cran/__linux__/jammy/latest/src/contrib/assertive.code_0.0-3.tar.gz'
+Content type 'binary/octet-stream' length 44039 bytes (43 KB)
+==================================================
+downloaded 43 KB
+
+trying URL 'https://packagemanager.posit.co/cran/__linux__/jammy/latest/src/contrib/assertive_0.3-6.tar.gz'
+Content type 'binary/octet-stream' length 1072261 bytes (1.0 MB)
+==================================================
+downloaded 1.0 MB
+
+trying URL 'https://bioconductor.org/packages/3.17/bioc/src/contrib/multicrispr_1.10.0.tar.gz'
+Content type 'application/x-gzip' length 2521639 bytes (2.4 MB)
+==================================================
+downloaded 2.4 MB
+
+* installing *binary* package ‘assertive.base’ ...
+* ‘assertive.base’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘assertive.base’ as ‘assertive.base_0.0-9_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (assertive.base)
+* installing *binary* package ‘assertive.properties’ ...
+* ‘assertive.properties’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘assertive.properties’ as ‘assertive.properties_0.0-5_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (assertive.properties)
+* installing *binary* package ‘assertive.numbers’ ...
+* ‘assertive.numbers’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘assertive.numbers’ as ‘assertive.numbers_0.0-2_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (assertive.numbers)
+* installing *binary* package ‘assertive.sets’ ...
+* ‘assertive.sets’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘assertive.sets’ as ‘assertive.sets_0.0-3_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (assertive.sets)
+* installing *binary* package ‘assertive.matrices’ ...
+* ‘assertive.matrices’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘assertive.matrices’ as ‘assertive.matrices_0.0-2_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (assertive.matrices)
+* installing *binary* package ‘assertive.models’ ...
+* ‘assertive.models’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘assertive.models’ as ‘assertive.models_0.0-2_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (assertive.models)
+* installing *binary* package ‘assertive.reflection’ ...
+* ‘assertive.reflection’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘assertive.reflection’ as ‘assertive.reflection_0.0-5_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (assertive.reflection)
+* installing *binary* package ‘assertive.types’ ...
+* ‘assertive.types’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘assertive.types’ as ‘assertive.types_0.0-3_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (assertive.types)
+* installing *binary* package ‘assertive.files’ ...
+* ‘assertive.files’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘assertive.files’ as ‘assertive.files_0.0-2_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (assertive.files)
+* installing *binary* package ‘assertive.strings’ ...
+* ‘assertive.strings’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘assertive.strings’ as ‘assertive.strings_0.0-3_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (assertive.strings)
+* installing *binary* package ‘assertive.datetimes’ ...
+* ‘assertive.datetimes’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘assertive.datetimes’ as ‘assertive.datetimes_0.0-3_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (assertive.datetimes)
+* installing *binary* package ‘assertive.code’ ...
+* ‘assertive.code’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘assertive.code’ as ‘assertive.code_0.0-3_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (assertive.code)
+* installing *binary* package ‘assertive.data’ ...
+* ‘assertive.data’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘assertive.data’ as ‘assertive.data_0.0-3_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (assertive.data)
+* installing *binary* package ‘assertive.data.uk’ ...
+* ‘assertive.data.uk’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘assertive.data.uk’ as ‘assertive.data.uk_0.0-2_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (assertive.data.uk)
+* installing *binary* package ‘assertive.data.us’ ...
+* ‘assertive.data.us’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘assertive.data.us’ as ‘assertive.data.us_0.0-2_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (assertive.data.us)
+* installing *binary* package ‘assertive’ ...
+* ‘assertive’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘assertive’ as ‘assertive_0.3-6_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (assertive)
+* installing *source* package ‘multicrispr’ ...
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘multicrispr’ as ‘multicrispr_1.10.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (multicrispr)
+
+The downloaded source packages are in
+	‘/tmp/Rtmp6NRPSv/downloaded_packages’
+Old packages: 'cachem', 'evaluate', 'httpuv', 'httr', 'httr2', 'later',
+  'profvis', 'sass', 'testthat', 'waldo', 'class', 'KernSmooth', 'MASS', 'nnet'
+
+real	0m47.209s
+user	0m33.268s
+sys	0m3.351s
