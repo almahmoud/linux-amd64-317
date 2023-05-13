@@ -1,0 +1,293 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE); p <- .libPaths(); p <- c('\''/tmp/tmp/built'\'', p); .libPaths(p); if(BiocManager::install('\''psichomics'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://packagemanager.posit.co/cran/__linux__/jammy/latest
+Bioconductor version 3.17 (BiocManager 1.30.20), R 4.3.0 (2023-04-21)
+Installing package(s) 'psichomics'
+also installing the dependencies ‘TTR’, ‘timechange’, ‘RcppGSL’, ‘rlist’, ‘assertthat’, ‘zoo’, ‘broom’, ‘xts’, ‘quantmod’, ‘igraph’, ‘lubridate’, ‘RcppZiggurat’, ‘RcppArmadillo’, ‘shinyBS’, ‘colourpicker’, ‘fastICA’, ‘fastmatch’, ‘ggrepel’, ‘highcharter’, ‘pairsD3’, ‘Rfast’, ‘shinyjs’
+
+trying URL 'https://packagemanager.posit.co/cran/__linux__/jammy/latest/src/contrib/TTR_0.24.3.tar.gz'
+Content type 'binary/octet-stream' length 507364 bytes (495 KB)
+==================================================
+downloaded 495 KB
+
+trying URL 'https://packagemanager.posit.co/cran/__linux__/jammy/latest/src/contrib/timechange_0.2.0.tar.gz'
+Content type 'binary/octet-stream' length 182031 bytes (177 KB)
+==================================================
+downloaded 177 KB
+
+trying URL 'https://packagemanager.posit.co/cran/__linux__/jammy/latest/src/contrib/RcppGSL_0.3.13.tar.gz'
+Content type 'binary/octet-stream' length 210787 bytes (205 KB)
+==================================================
+downloaded 205 KB
+
+trying URL 'https://packagemanager.posit.co/cran/__linux__/jammy/latest/src/contrib/rlist_0.4.6.2.tar.gz'
+Content type 'binary/octet-stream' length 73000 bytes (71 KB)
+==================================================
+downloaded 71 KB
+
+trying URL 'https://packagemanager.posit.co/cran/__linux__/jammy/latest/src/contrib/assertthat_0.2.1.tar.gz'
+Content type 'binary/octet-stream' length 52457 bytes (51 KB)
+==================================================
+downloaded 51 KB
+
+trying URL 'https://packagemanager.posit.co/cran/__linux__/jammy/latest/src/contrib/zoo_1.8-12.tar.gz'
+Content type 'binary/octet-stream' length 1015488 bytes (991 KB)
+==================================================
+downloaded 991 KB
+
+trying URL 'https://packagemanager.posit.co/cran/__linux__/jammy/latest/src/contrib/broom_1.0.4.tar.gz'
+Content type 'binary/octet-stream' length 1852904 bytes (1.8 MB)
+==================================================
+downloaded 1.8 MB
+
+trying URL 'https://packagemanager.posit.co/cran/__linux__/jammy/latest/src/contrib/xts_0.13.1.tar.gz'
+Content type 'binary/octet-stream' length 843891 bytes (824 KB)
+==================================================
+downloaded 824 KB
+
+trying URL 'https://packagemanager.posit.co/cran/__linux__/jammy/latest/src/contrib/quantmod_0.4.22.tar.gz'
+Content type 'binary/octet-stream' length 1043864 bytes (1019 KB)
+==================================================
+downloaded 1019 KB
+
+trying URL 'https://packagemanager.posit.co/cran/__linux__/jammy/latest/src/contrib/igraph_1.4.2.tar.gz'
+Content type 'binary/octet-stream' length 4889333 bytes (4.7 MB)
+==================================================
+downloaded 4.7 MB
+
+trying URL 'https://packagemanager.posit.co/cran/__linux__/jammy/latest/src/contrib/lubridate_1.9.2.tar.gz'
+Content type 'binary/octet-stream' length 980166 bytes (957 KB)
+==================================================
+downloaded 957 KB
+
+trying URL 'https://packagemanager.posit.co/cran/__linux__/jammy/latest/src/contrib/RcppZiggurat_0.1.6.tar.gz'
+Content type 'binary/octet-stream' length 422203 bytes (412 KB)
+==================================================
+downloaded 412 KB
+
+trying URL 'https://packagemanager.posit.co/cran/__linux__/jammy/latest/src/contrib/RcppArmadillo_0.12.2.0.0.tar.gz'
+Content type 'binary/octet-stream' length 1036257 bytes (1011 KB)
+==================================================
+downloaded 1011 KB
+
+trying URL 'https://packagemanager.posit.co/cran/__linux__/jammy/latest/src/contrib/shinyBS_0.61.1.tar.gz'
+Content type 'binary/octet-stream' length 103235 bytes (100 KB)
+==================================================
+downloaded 100 KB
+
+trying URL 'https://packagemanager.posit.co/cran/__linux__/jammy/latest/src/contrib/colourpicker_1.2.0.tar.gz'
+Content type 'binary/octet-stream' length 1289559 bytes (1.2 MB)
+==================================================
+downloaded 1.2 MB
+
+trying URL 'https://packagemanager.posit.co/cran/__linux__/jammy/latest/src/contrib/fastICA_1.2-3.tar.gz'
+Content type 'binary/octet-stream' length 41189 bytes (40 KB)
+==================================================
+downloaded 40 KB
+
+trying URL 'https://packagemanager.posit.co/cran/__linux__/jammy/latest/src/contrib/fastmatch_1.1-3.tar.gz'
+Content type 'binary/octet-stream' length 34366 bytes (33 KB)
+==================================================
+downloaded 33 KB
+
+trying URL 'https://packagemanager.posit.co/cran/__linux__/jammy/latest/src/contrib/ggrepel_0.9.3.tar.gz'
+Content type 'binary/octet-stream' length 270444 bytes (264 KB)
+==================================================
+downloaded 264 KB
+
+trying URL 'https://packagemanager.posit.co/cran/__linux__/jammy/latest/src/contrib/highcharter_0.9.4.tar.gz'
+Content type 'binary/octet-stream' length 1078067 bytes (1.0 MB)
+==================================================
+downloaded 1.0 MB
+
+trying URL 'https://packagemanager.posit.co/cran/__linux__/jammy/latest/src/contrib/pairsD3_0.1.3.tar.gz'
+Content type 'binary/octet-stream' length 88515 bytes (86 KB)
+==================================================
+downloaded 86 KB
+
+trying URL 'https://packagemanager.posit.co/cran/__linux__/jammy/latest/src/contrib/Rfast_2.0.7.tar.gz'
+Content type 'binary/octet-stream' length 2456405 bytes (2.3 MB)
+==================================================
+downloaded 2.3 MB
+
+trying URL 'https://packagemanager.posit.co/cran/__linux__/jammy/latest/src/contrib/shinyjs_2.1.0.tar.gz'
+Content type 'binary/octet-stream' length 1084640 bytes (1.0 MB)
+==================================================
+downloaded 1.0 MB
+
+trying URL 'https://bioconductor.org/packages/3.17/bioc/src/contrib/psichomics_1.26.0.tar.gz'
+Content type 'application/x-gzip' length 6399514 bytes (6.1 MB)
+==================================================
+downloaded 6.1 MB
+
+* installing *binary* package ‘timechange’ ...
+* ‘timechange’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘timechange’ as ‘timechange_0.2.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (timechange)
+* installing *binary* package ‘RcppGSL’ ...
+* ‘RcppGSL’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘RcppGSL’ as ‘RcppGSL_0.3.13_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (RcppGSL)
+* installing *source* package ‘rlist’ ...
+** package ‘rlist’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** data
+*** moving datasets to lazyload DB
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘rlist’ as ‘rlist_0.4.6.2_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (rlist)
+* installing *binary* package ‘assertthat’ ...
+* ‘assertthat’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘assertthat’ as ‘assertthat_0.2.1_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (assertthat)
+* installing *binary* package ‘zoo’ ...
+* ‘zoo’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘zoo’ as ‘zoo_1.8-12_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (zoo)
+* installing *binary* package ‘broom’ ...
+* ‘broom’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘broom’ as ‘broom_1.0.4_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (broom)
+* installing *binary* package ‘igraph’ ...
+* ‘igraph’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘igraph’ as ‘igraph_1.4.2_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (igraph)
+* installing *binary* package ‘RcppArmadillo’ ...
+* ‘RcppArmadillo’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘RcppArmadillo’ as ‘RcppArmadillo_0.12.2.0.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (RcppArmadillo)
+* installing *binary* package ‘shinyBS’ ...
+* ‘shinyBS’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘shinyBS’ as ‘shinyBS_0.61.1_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (shinyBS)
+* installing *binary* package ‘fastICA’ ...
+* ‘fastICA’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘fastICA’ as ‘fastICA_1.2-3_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (fastICA)
+* installing *binary* package ‘fastmatch’ ...
+* ‘fastmatch’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘fastmatch’ as ‘fastmatch_1.1-3_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (fastmatch)
+* installing *binary* package ‘ggrepel’ ...
+* ‘ggrepel’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘ggrepel’ as ‘ggrepel_0.9.3_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (ggrepel)
+* installing *binary* package ‘pairsD3’ ...
+* ‘pairsD3’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘pairsD3’ as ‘pairsD3_0.1.3_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (pairsD3)
+* installing *binary* package ‘shinyjs’ ...
+* ‘shinyjs’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘shinyjs’ as ‘shinyjs_2.1.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (shinyjs)
+* installing *binary* package ‘xts’ ...
+* ‘xts’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘xts’ as ‘xts_0.13.1_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (xts)
+* installing *binary* package ‘lubridate’ ...
+* ‘lubridate’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘lubridate’ as ‘lubridate_1.9.2_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (lubridate)
+* installing *binary* package ‘RcppZiggurat’ ...
+* ‘RcppZiggurat’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘RcppZiggurat’ as ‘RcppZiggurat_0.1.6_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (RcppZiggurat)
+* installing *binary* package ‘colourpicker’ ...
+* ‘colourpicker’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘colourpicker’ as ‘colourpicker_1.2.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (colourpicker)
+* installing *binary* package ‘TTR’ ...
+* ‘TTR’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘TTR’ as ‘TTR_0.24.3_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (TTR)
+* installing *binary* package ‘Rfast’ ...
+* ‘Rfast’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘Rfast’ as ‘Rfast_2.0.7_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (Rfast)
+* installing *binary* package ‘quantmod’ ...
+* ‘quantmod’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘quantmod’ as ‘quantmod_0.4.22_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (quantmod)
+* installing *source* package ‘highcharter’ ...
+** package ‘highcharter’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** data
+*** moving datasets to lazyload DB
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+*** copying figures
+** building package indices
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘highcharter’ as ‘highcharter_0.9.4_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (highcharter)
+* installing *source* package ‘psichomics’ ...
+** using staged installation
+** libs
+using C++ compiler: ‘g++ (Ubuntu 11.3.0-1ubuntu1~22.04) 11.3.0’
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c RcppExports.cpp -o RcppExports.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c progressBar.cpp -o progressBar.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c psiFastCalc.cpp -o psiFastCalc.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c vastToolsParser.cpp -o vastToolsParser.o
+g++ -std=gnu++17 -shared -L/usr/local/lib/R/lib -L/usr/local/lib -o psichomics.so RcppExports.o progressBar.o psiFastCalc.o vastToolsParser.o -L/usr/local/lib/R/lib -lR
+installing to /tmp/tmp/built/00LOCK-psichomics/00new/psichomics/libs
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+Creating a generic function for ‘colSums’ from package ‘base’ in package ‘psichomics’
+** help
+*** installing help indices
+*** copying figures
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘psichomics’ as ‘psichomics_1.26.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (psichomics)
+
+The downloaded source packages are in
+	‘/tmp/RtmpDj2aMp/downloaded_packages’
+Old packages: 'cachem', 'evaluate', 'httpuv', 'httr', 'httr2', 'later',
+  'profvis', 'sass', 'testthat', 'waldo', 'class', 'KernSmooth', 'MASS', 'nnet'
+
+real	1m51.255s
+user	1m23.146s
+sys	0m6.398s
