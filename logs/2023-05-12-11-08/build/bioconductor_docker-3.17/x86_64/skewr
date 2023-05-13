@@ -1,0 +1,80 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE); p <- .libPaths(); p <- c('\''/tmp/tmp/built'\'', p); .libPaths(p); if(BiocManager::install('\''skewr'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://packagemanager.posit.co/cran/__linux__/jammy/latest
+Bioconductor version 3.17 (BiocManager 1.30.20), R 4.3.0 (2023-04-21)
+Installing package(s) 'skewr'
+also installing the dependencies ‘mvtnorm’, ‘mixsmsn’, ‘IlluminaHumanMethylation450kmanifest’
+
+trying URL 'https://packagemanager.posit.co/cran/__linux__/jammy/latest/src/contrib/mvtnorm_1.1-3.tar.gz'
+Content type 'binary/octet-stream' length 225527 bytes (220 KB)
+==================================================
+downloaded 220 KB
+
+trying URL 'https://packagemanager.posit.co/cran/__linux__/jammy/latest/src/contrib/mixsmsn_1.1-10.tar.gz'
+Content type 'binary/octet-stream' length 209746 bytes (204 KB)
+==================================================
+downloaded 204 KB
+
+trying URL 'https://bioconductor.org/packages/3.17/data/annotation/src/contrib/IlluminaHumanMethylation450kmanifest_0.4.0.tar.gz'
+Content type 'application/x-gzip' length 8726870 bytes (8.3 MB)
+==================================================
+downloaded 8.3 MB
+
+trying URL 'https://bioconductor.org/packages/3.17/bioc/src/contrib/skewr_1.32.0.tar.gz'
+Content type 'application/x-gzip' length 874969 bytes (854 KB)
+==================================================
+downloaded 854 KB
+
+* installing *binary* package ‘mvtnorm’ ...
+* ‘mvtnorm’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘mvtnorm’ as ‘mvtnorm_1.1-3_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (mvtnorm)
+* installing *source* package ‘IlluminaHumanMethylation450kmanifest’ ...
+** using staged installation
+** data
+*** moving datasets to lazyload DB
+** inst
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘IlluminaHumanMethylation450kmanifest’ as ‘IlluminaHumanMethylation450kmanifest_0.4.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (IlluminaHumanMethylation450kmanifest)
+* installing *binary* package ‘mixsmsn’ ...
+* ‘mixsmsn’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘mixsmsn’ as ‘mixsmsn_1.1-10_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (mixsmsn)
+* installing *source* package ‘skewr’ ...
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+No methods found in package ‘RSQLite’ for request: ‘dbListFields’ when loading ‘lumi’
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+No methods found in package ‘RSQLite’ for request: ‘dbListFields’ when loading ‘lumi’
+** testing if installed package can be loaded from final location
+No methods found in package ‘RSQLite’ for request: ‘dbListFields’ when loading ‘lumi’
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘skewr’ as ‘skewr_1.32.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (skewr)
+
+The downloaded source packages are in
+	‘/tmp/RtmpNBV464/downloaded_packages’
+Old packages: 'cachem', 'evaluate', 'httpuv', 'httr', 'httr2', 'later',
+  'profvis', 'sass', 'testthat', 'waldo', 'class', 'KernSmooth', 'MASS', 'nnet'
+
+real	1m23.406s
+user	1m17.425s
+sys	0m4.181s
