@@ -1,0 +1,419 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE); p <- .libPaths(); p <- c('\''/tmp/tmp/built'\'', p); .libPaths(p); if(BiocManager::install('\''ANCOMBC'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://packagemanager.posit.co/cran/__linux__/jammy/latest
+Bioconductor version 3.17 (BiocManager 1.30.20), R 4.3.0 (2023-04-21)
+Installing package(s) 'ANCOMBC'
+also installing the dependencies ‘rematch’, ‘backports’, ‘rootSolve’, ‘lmom’, ‘cellranger’, ‘checkmate’, ‘gmp’, ‘Rmpfr’, ‘ECOSolveR’, ‘scs’, ‘osqp’, ‘mvtnorm’, ‘expm’, ‘Exact’, ‘gld’, ‘data.table’, ‘readxl’, ‘htmlTable’, ‘Formula’, ‘rbibutils’, ‘iterators’, ‘estimability’, ‘numDeriv’, ‘gsl’, ‘minqa’, ‘CVXR’, ‘DescTools’, ‘Hmisc’, ‘Rdpack’, ‘doParallel’, ‘doRNG’, ‘emmeans’, ‘energy’, ‘foreach’, ‘lme4’, ‘lmerTest’, ‘nloptr’, ‘rngtools’
+
+trying URL 'https://packagemanager.posit.co/cran/__linux__/jammy/latest/src/contrib/rematch_1.0.1.tar.gz'
+Content type 'binary/octet-stream' length 12215 bytes (11 KB)
+==================================================
+downloaded 11 KB
+
+trying URL 'https://packagemanager.posit.co/cran/__linux__/jammy/latest/src/contrib/backports_1.4.1.tar.gz'
+Content type 'binary/octet-stream' length 95020 bytes (92 KB)
+==================================================
+downloaded 92 KB
+
+trying URL 'https://packagemanager.posit.co/cran/__linux__/jammy/latest/src/contrib/rootSolve_1.8.2.3.tar.gz'
+Content type 'binary/octet-stream' length 702373 bytes (685 KB)
+==================================================
+downloaded 685 KB
+
+trying URL 'https://packagemanager.posit.co/cran/__linux__/jammy/latest/src/contrib/lmom_2.9.tar.gz'
+Content type 'binary/octet-stream' length 563799 bytes (550 KB)
+==================================================
+downloaded 550 KB
+
+trying URL 'https://packagemanager.posit.co/cran/__linux__/jammy/latest/src/contrib/cellranger_1.1.0.tar.gz'
+Content type 'binary/octet-stream' length 100989 bytes (98 KB)
+==================================================
+downloaded 98 KB
+
+trying URL 'https://packagemanager.posit.co/cran/__linux__/jammy/latest/src/contrib/checkmate_2.2.0.tar.gz'
+Content type 'binary/octet-stream' length 717504 bytes (700 KB)
+==================================================
+downloaded 700 KB
+
+trying URL 'https://packagemanager.posit.co/cran/__linux__/jammy/latest/src/contrib/gmp_0.7-1.tar.gz'
+Content type 'binary/octet-stream' length 318352 bytes (310 KB)
+==================================================
+downloaded 310 KB
+
+trying URL 'https://packagemanager.posit.co/cran/__linux__/jammy/latest/src/contrib/Rmpfr_0.9-2.tar.gz'
+Content type 'binary/octet-stream' length 1208330 bytes (1.2 MB)
+==================================================
+downloaded 1.2 MB
+
+trying URL 'https://packagemanager.posit.co/cran/__linux__/jammy/latest/src/contrib/ECOSolveR_0.5.4.tar.gz'
+Content type 'binary/octet-stream' length 844240 bytes (824 KB)
+==================================================
+downloaded 824 KB
+
+trying URL 'https://packagemanager.posit.co/cran/__linux__/jammy/latest/src/contrib/scs_3.2.4.tar.gz'
+Content type 'binary/octet-stream' length 1296630 bytes (1.2 MB)
+==================================================
+downloaded 1.2 MB
+
+trying URL 'https://packagemanager.posit.co/cran/__linux__/jammy/latest/src/contrib/osqp_0.6.0.8.tar.gz'
+Content type 'binary/octet-stream' length 130498 bytes (127 KB)
+==================================================
+downloaded 127 KB
+
+trying URL 'https://packagemanager.posit.co/cran/__linux__/jammy/latest/src/contrib/mvtnorm_1.1-3.tar.gz'
+Content type 'binary/octet-stream' length 225527 bytes (220 KB)
+==================================================
+downloaded 220 KB
+
+trying URL 'https://packagemanager.posit.co/cran/__linux__/jammy/latest/src/contrib/expm_0.999-7.tar.gz'
+Content type 'binary/octet-stream' length 203737 bytes (198 KB)
+==================================================
+downloaded 198 KB
+
+trying URL 'https://packagemanager.posit.co/cran/__linux__/jammy/latest/src/contrib/Exact_3.2.tar.gz'
+Content type 'binary/octet-stream' length 201087 bytes (196 KB)
+==================================================
+downloaded 196 KB
+
+trying URL 'https://packagemanager.posit.co/cran/__linux__/jammy/latest/src/contrib/gld_2.6.6.tar.gz'
+Content type 'binary/octet-stream' length 231208 bytes (225 KB)
+==================================================
+downloaded 225 KB
+
+trying URL 'https://packagemanager.posit.co/cran/__linux__/jammy/latest/src/contrib/data.table_1.14.8.tar.gz'
+Content type 'binary/octet-stream' length 2126876 bytes (2.0 MB)
+==================================================
+downloaded 2.0 MB
+
+trying URL 'https://packagemanager.posit.co/cran/__linux__/jammy/latest/src/contrib/readxl_1.4.2.tar.gz'
+Content type 'binary/octet-stream' length 876203 bytes (855 KB)
+==================================================
+downloaded 855 KB
+
+trying URL 'https://packagemanager.posit.co/cran/__linux__/jammy/latest/src/contrib/htmlTable_2.4.1.tar.gz'
+Content type 'binary/octet-stream' length 415139 bytes (405 KB)
+==================================================
+downloaded 405 KB
+
+trying URL 'https://packagemanager.posit.co/cran/__linux__/jammy/latest/src/contrib/Formula_1.2-5.tar.gz'
+Content type 'binary/octet-stream' length 158389 bytes (154 KB)
+==================================================
+downloaded 154 KB
+
+trying URL 'https://packagemanager.posit.co/cran/__linux__/jammy/latest/src/contrib/rbibutils_2.2.13.tar.gz'
+Content type 'binary/octet-stream' length 877841 bytes (857 KB)
+==================================================
+downloaded 857 KB
+
+trying URL 'https://packagemanager.posit.co/cran/__linux__/jammy/latest/src/contrib/iterators_1.0.14.tar.gz'
+Content type 'binary/octet-stream' length 345411 bytes (337 KB)
+==================================================
+downloaded 337 KB
+
+trying URL 'https://packagemanager.posit.co/cran/__linux__/jammy/latest/src/contrib/estimability_1.4.1.tar.gz'
+Content type 'binary/octet-stream' length 40535 bytes (39 KB)
+==================================================
+downloaded 39 KB
+
+trying URL 'https://packagemanager.posit.co/cran/__linux__/jammy/latest/src/contrib/numDeriv_2016.8-1.1.tar.gz'
+Content type 'binary/octet-stream' length 113093 bytes (110 KB)
+==================================================
+downloaded 110 KB
+
+trying URL 'https://packagemanager.posit.co/cran/__linux__/jammy/latest/src/contrib/gsl_2.1-8.tar.gz'
+Content type 'binary/octet-stream' length 531699 bytes (519 KB)
+==================================================
+downloaded 519 KB
+
+trying URL 'https://packagemanager.posit.co/cran/__linux__/jammy/latest/src/contrib/minqa_1.2.5.tar.gz'
+Content type 'binary/octet-stream' length 118110 bytes (115 KB)
+==================================================
+downloaded 115 KB
+
+trying URL 'https://packagemanager.posit.co/cran/__linux__/jammy/latest/src/contrib/CVXR_1.0-11.tar.gz'
+Content type 'binary/octet-stream' length 3691513 bytes (3.5 MB)
+==================================================
+downloaded 3.5 MB
+
+trying URL 'https://packagemanager.posit.co/cran/__linux__/jammy/latest/src/contrib/DescTools_0.99.48.tar.gz'
+Content type 'binary/octet-stream' length 5292395 bytes (5.0 MB)
+==================================================
+downloaded 5.0 MB
+
+trying URL 'https://packagemanager.posit.co/cran/__linux__/jammy/latest/src/contrib/Hmisc_5.1-0.tar.gz'
+Content type 'binary/octet-stream' length 3477858 bytes (3.3 MB)
+==================================================
+downloaded 3.3 MB
+
+trying URL 'https://packagemanager.posit.co/cran/__linux__/jammy/latest/src/contrib/Rdpack_2.4.tar.gz'
+Content type 'binary/octet-stream' length 956454 bytes (934 KB)
+==================================================
+downloaded 934 KB
+
+trying URL 'https://packagemanager.posit.co/cran/__linux__/jammy/latest/src/contrib/doParallel_1.0.17.tar.gz'
+Content type 'binary/octet-stream' length 187640 bytes (183 KB)
+==================================================
+downloaded 183 KB
+
+trying URL 'https://packagemanager.posit.co/cran/__linux__/jammy/latest/src/contrib/doRNG_1.8.6.tar.gz'
+Content type 'binary/octet-stream' length 302018 bytes (294 KB)
+==================================================
+downloaded 294 KB
+
+trying URL 'https://packagemanager.posit.co/cran/__linux__/jammy/latest/src/contrib/emmeans_1.8.6.tar.gz'
+Content type 'binary/octet-stream' length 2132122 bytes (2.0 MB)
+==================================================
+downloaded 2.0 MB
+
+trying URL 'https://packagemanager.posit.co/cran/__linux__/jammy/latest/src/contrib/energy_1.7-11.tar.gz'
+Content type 'binary/octet-stream' length 298713 bytes (291 KB)
+==================================================
+downloaded 291 KB
+
+trying URL 'https://packagemanager.posit.co/cran/__linux__/jammy/latest/src/contrib/foreach_1.5.2.tar.gz'
+Content type 'binary/octet-stream' length 138028 bytes (134 KB)
+==================================================
+downloaded 134 KB
+
+trying URL 'https://packagemanager.posit.co/cran/__linux__/jammy/latest/src/contrib/lme4_1.1-33.tar.gz'
+Content type 'binary/octet-stream' length 4225230 bytes (4.0 MB)
+==================================================
+downloaded 4.0 MB
+
+trying URL 'https://packagemanager.posit.co/cran/__linux__/jammy/latest/src/contrib/lmerTest_3.1-3.tar.gz'
+Content type 'binary/octet-stream' length 527463 bytes (515 KB)
+==================================================
+downloaded 515 KB
+
+trying URL 'https://packagemanager.posit.co/cran/__linux__/jammy/latest/src/contrib/nloptr_2.0.3.tar.gz'
+Content type 'binary/octet-stream' length 710354 bytes (693 KB)
+==================================================
+downloaded 693 KB
+
+trying URL 'https://packagemanager.posit.co/cran/__linux__/jammy/latest/src/contrib/rngtools_1.5.2.tar.gz'
+Content type 'binary/octet-stream' length 76598 bytes (74 KB)
+==================================================
+downloaded 74 KB
+
+trying URL 'https://bioconductor.org/packages/3.17/bioc/src/contrib/ANCOMBC_2.2.0.tar.gz'
+Content type 'application/x-gzip' length 1370451 bytes (1.3 MB)
+==================================================
+downloaded 1.3 MB
+
+* installing *binary* package ‘rematch’ ...
+* ‘rematch’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘rematch’ as ‘rematch_1.0.1_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (rematch)
+* installing *binary* package ‘backports’ ...
+* ‘backports’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘backports’ as ‘backports_1.4.1_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (backports)
+* installing *binary* package ‘rootSolve’ ...
+* ‘rootSolve’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘rootSolve’ as ‘rootSolve_1.8.2.3_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (rootSolve)
+* installing *binary* package ‘lmom’ ...
+* ‘lmom’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘lmom’ as ‘lmom_2.9_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (lmom)
+* installing *binary* package ‘gmp’ ...
+* ‘gmp’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘gmp’ as ‘gmp_0.7-1_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (gmp)
+* installing *binary* package ‘ECOSolveR’ ...
+* ‘ECOSolveR’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘ECOSolveR’ as ‘ECOSolveR_0.5.4_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (ECOSolveR)
+* installing *binary* package ‘scs’ ...
+* ‘scs’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘scs’ as ‘scs_3.2.4_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (scs)
+* installing *binary* package ‘osqp’ ...
+* ‘osqp’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘osqp’ as ‘osqp_0.6.0.8_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (osqp)
+* installing *binary* package ‘mvtnorm’ ...
+* ‘mvtnorm’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘mvtnorm’ as ‘mvtnorm_1.1-3_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (mvtnorm)
+* installing *binary* package ‘expm’ ...
+* ‘expm’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘expm’ as ‘expm_0.999-7_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (expm)
+* installing *binary* package ‘data.table’ ...
+* ‘data.table’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘data.table’ as ‘data.table_1.14.8_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (data.table)
+* installing *binary* package ‘Formula’ ...
+* ‘Formula’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘Formula’ as ‘Formula_1.2-5_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (Formula)
+* installing *binary* package ‘rbibutils’ ...
+* ‘rbibutils’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘rbibutils’ as ‘rbibutils_2.2.13_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (rbibutils)
+* installing *binary* package ‘iterators’ ...
+* ‘iterators’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘iterators’ as ‘iterators_1.0.14_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (iterators)
+* installing *binary* package ‘estimability’ ...
+* ‘estimability’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘estimability’ as ‘estimability_1.4.1_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (estimability)
+* installing *binary* package ‘numDeriv’ ...
+* ‘numDeriv’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘numDeriv’ as ‘numDeriv_2016.8-1.1_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (numDeriv)
+* installing *binary* package ‘gsl’ ...
+* ‘gsl’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘gsl’ as ‘gsl_2.1-8_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (gsl)
+* installing *binary* package ‘minqa’ ...
+* ‘minqa’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘minqa’ as ‘minqa_1.2.5_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (minqa)
+* installing *binary* package ‘nloptr’ ...
+* ‘nloptr’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘nloptr’ as ‘nloptr_2.0.3_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (nloptr)
+* installing *binary* package ‘rngtools’ ...
+* ‘rngtools’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘rngtools’ as ‘rngtools_1.5.2_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (rngtools)
+* installing *binary* package ‘cellranger’ ...
+* ‘cellranger’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘cellranger’ as ‘cellranger_1.1.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (cellranger)
+* installing *binary* package ‘checkmate’ ...
+* ‘checkmate’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘checkmate’ as ‘checkmate_2.2.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (checkmate)
+* installing *binary* package ‘Rmpfr’ ...
+* ‘Rmpfr’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘Rmpfr’ as ‘Rmpfr_0.9-2_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (Rmpfr)
+* installing *binary* package ‘Exact’ ...
+* ‘Exact’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘Exact’ as ‘Exact_3.2_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (Exact)
+* installing *binary* package ‘gld’ ...
+* ‘gld’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘gld’ as ‘gld_2.6.6_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (gld)
+* installing *binary* package ‘Rdpack’ ...
+* ‘Rdpack’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘Rdpack’ as ‘Rdpack_2.4_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (Rdpack)
+* installing *binary* package ‘emmeans’ ...
+* ‘emmeans’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘emmeans’ as ‘emmeans_1.8.6_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (emmeans)
+* installing *binary* package ‘energy’ ...
+* ‘energy’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘energy’ as ‘energy_1.7-11_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (energy)
+* installing *binary* package ‘foreach’ ...
+* ‘foreach’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘foreach’ as ‘foreach_1.5.2_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (foreach)
+* installing *binary* package ‘lme4’ ...
+* ‘lme4’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘lme4’ as ‘lme4_1.1-33_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (lme4)
+* installing *binary* package ‘readxl’ ...
+* ‘readxl’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘readxl’ as ‘readxl_1.4.2_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (readxl)
+* installing *binary* package ‘htmlTable’ ...
+* ‘htmlTable’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘htmlTable’ as ‘htmlTable_2.4.1_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (htmlTable)
+* installing *binary* package ‘CVXR’ ...
+* ‘CVXR’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘CVXR’ as ‘CVXR_1.0-11_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (CVXR)
+* installing *binary* package ‘doParallel’ ...
+* ‘doParallel’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘doParallel’ as ‘doParallel_1.0.17_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (doParallel)
+* installing *binary* package ‘doRNG’ ...
+* ‘doRNG’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘doRNG’ as ‘doRNG_1.8.6_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (doRNG)
+* installing *binary* package ‘lmerTest’ ...
+* ‘lmerTest’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘lmerTest’ as ‘lmerTest_3.1-3_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (lmerTest)
+* installing *binary* package ‘DescTools’ ...
+* ‘DescTools’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘DescTools’ as ‘DescTools_0.99.48_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (DescTools)
+* installing *binary* package ‘Hmisc’ ...
+* ‘Hmisc’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘Hmisc’ as ‘Hmisc_5.1-0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (Hmisc)
+* installing *source* package ‘ANCOMBC’ ...
+** using staged installation
+** R
+** data
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘ANCOMBC’ as ‘ANCOMBC_2.2.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (ANCOMBC)
+
+The downloaded source packages are in
+	‘/tmp/RtmpR5nD2D/downloaded_packages’
+Old packages: 'cachem', 'evaluate', 'httpuv', 'httr', 'httr2', 'later',
+  'profvis', 'sass', 'testthat', 'waldo', 'class', 'KernSmooth', 'MASS', 'nnet'
+
+real	1m42.772s
+user	0m56.009s
+sys	0m5.704s
