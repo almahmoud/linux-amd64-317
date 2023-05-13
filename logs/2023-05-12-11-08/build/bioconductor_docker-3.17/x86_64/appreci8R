@@ -1,0 +1,432 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE); p <- .libPaths(); p <- c('\''/tmp/tmp/built'\'', p); .libPaths(p); if(BiocManager::install('\''appreci8R'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://packagemanager.posit.co/cran/__linux__/jammy/latest
+Bioconductor version 3.17 (BiocManager 1.30.20), R 4.3.0 (2023-04-21)
+Installing package(s) 'appreci8R'
+also installing the dependencies ‘pixmap’, ‘sp’, ‘RcppArmadillo’, ‘org.Hs.eg.db’, ‘plyr’, ‘data.table’, ‘ade4’, ‘segmented’, ‘shinyjs’, ‘BSgenome.Hsapiens.UCSC.hg19’, ‘TxDb.Hsapiens.UCSC.hg19.knownGene’, ‘Homo.sapiens’, ‘SNPlocs.Hsapiens.dbSNP144.GRCh37’, ‘XtraSNPlocs.Hsapiens.dbSNP144.GRCh37’, ‘rsnps’, ‘MafDb.1Kgenomes.phase3.hs37d5’, ‘MafDb.ExAC.r1.0.hs37d5’, ‘MafDb.gnomADex.r2.1.hs37d5’, ‘COSMIC.67’, ‘rentrez’, ‘PolyPhen.Hsapiens.dbSNP131’, ‘SIFT.Hsapiens.dbSNP137’, ‘seqinr’, ‘openxlsx’
+
+trying URL 'https://packagemanager.posit.co/cran/__linux__/jammy/latest/src/contrib/pixmap_0.4-12.tar.gz'
+Content type 'binary/octet-stream' length 207037 bytes (202 KB)
+==================================================
+downloaded 202 KB
+
+trying URL 'https://packagemanager.posit.co/cran/__linux__/jammy/latest/src/contrib/sp_1.6-0.tar.gz'
+Content type 'binary/octet-stream' length 1852786 bytes (1.8 MB)
+==================================================
+downloaded 1.8 MB
+
+trying URL 'https://packagemanager.posit.co/cran/__linux__/jammy/latest/src/contrib/RcppArmadillo_0.12.2.0.0.tar.gz'
+Content type 'binary/octet-stream' length 1036257 bytes (1011 KB)
+==================================================
+downloaded 1011 KB
+
+trying URL 'https://bioconductor.org/packages/3.17/data/annotation/src/contrib/org.Hs.eg.db_3.17.0.tar.gz'
+Content type 'application/x-gzip' length 91754641 bytes (87.5 MB)
+==================================================
+downloaded 87.5 MB
+
+trying URL 'https://packagemanager.posit.co/cran/__linux__/jammy/latest/src/contrib/plyr_1.8.8.tar.gz'
+Content type 'binary/octet-stream' length 822215 bytes (802 KB)
+==================================================
+downloaded 802 KB
+
+trying URL 'https://packagemanager.posit.co/cran/__linux__/jammy/latest/src/contrib/data.table_1.14.8.tar.gz'
+Content type 'binary/octet-stream' length 2126876 bytes (2.0 MB)
+==================================================
+downloaded 2.0 MB
+
+trying URL 'https://packagemanager.posit.co/cran/__linux__/jammy/latest/src/contrib/ade4_1.7-22.tar.gz'
+Content type 'binary/octet-stream' length 5397091 bytes (5.1 MB)
+==================================================
+downloaded 5.1 MB
+
+trying URL 'https://packagemanager.posit.co/cran/__linux__/jammy/latest/src/contrib/segmented_1.6-4.tar.gz'
+Content type 'binary/octet-stream' length 779678 bytes (761 KB)
+==================================================
+downloaded 761 KB
+
+trying URL 'https://packagemanager.posit.co/cran/__linux__/jammy/latest/src/contrib/shinyjs_2.1.0.tar.gz'
+Content type 'binary/octet-stream' length 1084640 bytes (1.0 MB)
+==================================================
+downloaded 1.0 MB
+
+trying URL 'https://bioconductor.org/packages/3.17/data/annotation/src/contrib/BSgenome.Hsapiens.UCSC.hg19_1.4.3.tar.gz'
+Content type 'application/x-gzip' length 710245413 bytes (677.3 MB)
+==================================================
+downloaded 677.3 MB
+
+trying URL 'https://bioconductor.org/packages/3.17/data/annotation/src/contrib/TxDb.Hsapiens.UCSC.hg19.knownGene_3.2.2.tar.gz'
+Content type 'application/x-gzip' length 18669702 bytes (17.8 MB)
+==================================================
+downloaded 17.8 MB
+
+trying URL 'https://bioconductor.org/packages/3.17/data/annotation/src/contrib/Homo.sapiens_1.3.1.tar.gz'
+Content type 'application/x-gzip' length 1617 bytes
+==================================================
+downloaded 1617 bytes
+
+trying URL 'https://bioconductor.org/packages/3.17/data/annotation/src/contrib/SNPlocs.Hsapiens.dbSNP144.GRCh37_0.99.20.tar.gz'
+Content type 'application/x-gzip' length 913353230 bytes (871.0 MB)
+==================================================
+downloaded 871.0 MB
+
+trying URL 'https://bioconductor.org/packages/3.17/data/annotation/src/contrib/XtraSNPlocs.Hsapiens.dbSNP144.GRCh37_0.99.12.tar.gz'
+Content type 'application/x-gzip' length 114217470 bytes (108.9 MB)
+==================================================
+downloaded 108.9 MB
+
+trying URL 'https://packagemanager.posit.co/cran/__linux__/jammy/latest/src/contrib/rsnps_0.5.0.0.tar.gz'
+Content type 'binary/octet-stream' length 114515 bytes (111 KB)
+==================================================
+downloaded 111 KB
+
+trying URL 'https://bioconductor.org/packages/3.17/data/annotation/src/contrib/MafDb.1Kgenomes.phase3.hs37d5_3.10.0.tar.gz'
+Content type 'application/x-gzip' length 1623464748 bytes (1548.3 MB)
+==================================================
+downloaded 1548.3 MB
+
+trying URL 'https://bioconductor.org/packages/3.17/data/annotation/src/contrib/MafDb.ExAC.r1.0.hs37d5_3.10.0.tar.gz'
+Content type 'application/x-gzip' length 173695470 bytes (165.6 MB)
+==================================================
+downloaded 165.6 MB
+
+trying URL 'https://bioconductor.org/packages/3.17/data/annotation/src/contrib/MafDb.gnomADex.r2.1.hs37d5_3.10.0.tar.gz'
+Content type 'application/x-gzip' length 429619458 bytes (409.7 MB)
+==================================================
+downloaded 409.7 MB
+
+trying URL 'https://bioconductor.org/packages/3.17/data/experiment/src/contrib/COSMIC.67_1.36.0.tar.gz'
+Content type 'application/x-gzip' length 41082229 bytes (39.2 MB)
+==================================================
+downloaded 39.2 MB
+
+trying URL 'https://packagemanager.posit.co/cran/__linux__/jammy/latest/src/contrib/rentrez_1.2.3.tar.gz'
+Content type 'binary/octet-stream' length 83692 bytes (81 KB)
+==================================================
+downloaded 81 KB
+
+trying URL 'https://bioconductor.org/packages/3.17/data/annotation/src/contrib/PolyPhen.Hsapiens.dbSNP131_1.0.2.tar.gz'
+Content type 'application/x-gzip' length 16726495 bytes (16.0 MB)
+==================================================
+downloaded 16.0 MB
+
+trying URL 'https://bioconductor.org/packages/3.17/data/annotation/src/contrib/SIFT.Hsapiens.dbSNP137_1.0.0.tar.gz'
+Content type 'application/x-gzip' length 112599682 bytes (107.4 MB)
+==================================================
+downloaded 107.4 MB
+
+trying URL 'https://packagemanager.posit.co/cran/__linux__/jammy/latest/src/contrib/seqinr_4.2-30.tar.gz'
+Content type 'binary/octet-stream' length 4129203 bytes (3.9 MB)
+==================================================
+downloaded 3.9 MB
+
+trying URL 'https://packagemanager.posit.co/cran/__linux__/jammy/latest/src/contrib/openxlsx_4.2.5.2.tar.gz'
+Content type 'binary/octet-stream' length 2016478 bytes (1.9 MB)
+==================================================
+downloaded 1.9 MB
+
+trying URL 'https://bioconductor.org/packages/3.17/bioc/src/contrib/appreci8R_1.18.0.tar.gz'
+Content type 'application/x-gzip' length 910177 bytes (888 KB)
+==================================================
+downloaded 888 KB
+
+* installing *binary* package ‘pixmap’ ...
+* ‘pixmap’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘pixmap’ as ‘pixmap_0.4-12_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (pixmap)
+* installing *binary* package ‘sp’ ...
+* ‘sp’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘sp’ as ‘sp_1.6-0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (sp)
+* installing *binary* package ‘RcppArmadillo’ ...
+* ‘RcppArmadillo’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘RcppArmadillo’ as ‘RcppArmadillo_0.12.2.0.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (RcppArmadillo)
+* installing *source* package ‘org.Hs.eg.db’ ...
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘org.Hs.eg.db’ as ‘org.Hs.eg.db_3.17.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (org.Hs.eg.db)
+* installing *binary* package ‘plyr’ ...
+* ‘plyr’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘plyr’ as ‘plyr_1.8.8_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (plyr)
+* installing *binary* package ‘data.table’ ...
+* ‘data.table’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘data.table’ as ‘data.table_1.14.8_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (data.table)
+* installing *binary* package ‘segmented’ ...
+* ‘segmented’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘segmented’ as ‘segmented_1.6-4_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (segmented)
+* installing *binary* package ‘shinyjs’ ...
+* ‘shinyjs’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘shinyjs’ as ‘shinyjs_2.1.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (shinyjs)
+* installing *source* package ‘BSgenome.Hsapiens.UCSC.hg19’ ...
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘BSgenome.Hsapiens.UCSC.hg19’ as ‘BSgenome.Hsapiens.UCSC.hg19_1.4.3_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (BSgenome.Hsapiens.UCSC.hg19)
+* installing *source* package ‘TxDb.Hsapiens.UCSC.hg19.knownGene’ ...
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘TxDb.Hsapiens.UCSC.hg19.knownGene’ as ‘TxDb.Hsapiens.UCSC.hg19.knownGene_3.2.2_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (TxDb.Hsapiens.UCSC.hg19.knownGene)
+* installing *source* package ‘SNPlocs.Hsapiens.dbSNP144.GRCh37’ ...
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+Warning: replacing previous import ‘utils::findMatches’ by ‘S4Vectors::findMatches’ when loading ‘SNPlocs.Hsapiens.dbSNP144.GRCh37’
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+Warning: replacing previous import ‘utils::findMatches’ by ‘S4Vectors::findMatches’ when loading ‘SNPlocs.Hsapiens.dbSNP144.GRCh37’
+** testing if installed package can be loaded from final location
+Warning: replacing previous import ‘utils::findMatches’ by ‘S4Vectors::findMatches’ when loading ‘SNPlocs.Hsapiens.dbSNP144.GRCh37’
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘SNPlocs.Hsapiens.dbSNP144.GRCh37’ as ‘SNPlocs.Hsapiens.dbSNP144.GRCh37_0.99.20_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (SNPlocs.Hsapiens.dbSNP144.GRCh37)
+* installing *source* package ‘XtraSNPlocs.Hsapiens.dbSNP144.GRCh37’ ...
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+Warning: replacing previous import ‘utils::findMatches’ by ‘S4Vectors::findMatches’ when loading ‘XtraSNPlocs.Hsapiens.dbSNP144.GRCh37’
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+Warning: replacing previous import ‘utils::findMatches’ by ‘S4Vectors::findMatches’ when loading ‘XtraSNPlocs.Hsapiens.dbSNP144.GRCh37’
+** testing if installed package can be loaded from final location
+Warning: replacing previous import ‘utils::findMatches’ by ‘S4Vectors::findMatches’ when loading ‘XtraSNPlocs.Hsapiens.dbSNP144.GRCh37’
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘XtraSNPlocs.Hsapiens.dbSNP144.GRCh37’ as ‘XtraSNPlocs.Hsapiens.dbSNP144.GRCh37_0.99.12_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (XtraSNPlocs.Hsapiens.dbSNP144.GRCh37)
+* installing *source* package ‘MafDb.1Kgenomes.phase3.hs37d5’ ...
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+Warning: replacing previous import ‘utils::findMatches’ by ‘S4Vectors::findMatches’ when loading ‘MafDb.1Kgenomes.phase3.hs37d5’
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+Warning: replacing previous import ‘utils::findMatches’ by ‘S4Vectors::findMatches’ when loading ‘MafDb.1Kgenomes.phase3.hs37d5’
+** testing if installed package can be loaded from final location
+Warning: replacing previous import ‘utils::findMatches’ by ‘S4Vectors::findMatches’ when loading ‘MafDb.1Kgenomes.phase3.hs37d5’
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘MafDb.1Kgenomes.phase3.hs37d5’ as ‘MafDb.1Kgenomes.phase3.hs37d5_3.10.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (MafDb.1Kgenomes.phase3.hs37d5)
+* installing *source* package ‘MafDb.ExAC.r1.0.hs37d5’ ...
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+Warning: replacing previous import ‘utils::findMatches’ by ‘S4Vectors::findMatches’ when loading ‘MafDb.ExAC.r1.0.hs37d5’
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+Warning: replacing previous import ‘utils::findMatches’ by ‘S4Vectors::findMatches’ when loading ‘MafDb.ExAC.r1.0.hs37d5’
+** testing if installed package can be loaded from final location
+Warning: replacing previous import ‘utils::findMatches’ by ‘S4Vectors::findMatches’ when loading ‘MafDb.ExAC.r1.0.hs37d5’
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘MafDb.ExAC.r1.0.hs37d5’ as ‘MafDb.ExAC.r1.0.hs37d5_3.10.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (MafDb.ExAC.r1.0.hs37d5)
+* installing *source* package ‘MafDb.gnomADex.r2.1.hs37d5’ ...
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+Warning: replacing previous import ‘utils::findMatches’ by ‘S4Vectors::findMatches’ when loading ‘MafDb.gnomADex.r2.1.hs37d5’
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+Warning: replacing previous import ‘utils::findMatches’ by ‘S4Vectors::findMatches’ when loading ‘MafDb.gnomADex.r2.1.hs37d5’
+** testing if installed package can be loaded from final location
+Warning: replacing previous import ‘utils::findMatches’ by ‘S4Vectors::findMatches’ when loading ‘MafDb.gnomADex.r2.1.hs37d5’
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘MafDb.gnomADex.r2.1.hs37d5’ as ‘MafDb.gnomADex.r2.1.hs37d5_3.10.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (MafDb.gnomADex.r2.1.hs37d5)
+* installing *source* package ‘COSMIC.67’ ...
+** using staged installation
+** R
+** data
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘COSMIC.67’ as ‘COSMIC.67_1.36.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (COSMIC.67)
+* installing *source* package ‘rentrez’ ...
+** package ‘rentrez’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘rentrez’ as ‘rentrez_1.2.3_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (rentrez)
+* installing *source* package ‘PolyPhen.Hsapiens.dbSNP131’ ...
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘PolyPhen.Hsapiens.dbSNP131’ as ‘PolyPhen.Hsapiens.dbSNP131_1.0.2_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (PolyPhen.Hsapiens.dbSNP131)
+* installing *source* package ‘SIFT.Hsapiens.dbSNP137’ ...
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘SIFT.Hsapiens.dbSNP137’ as ‘SIFT.Hsapiens.dbSNP137_1.0.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (SIFT.Hsapiens.dbSNP137)
+* installing *binary* package ‘openxlsx’ ...
+* ‘openxlsx’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘openxlsx’ as ‘openxlsx_4.2.5.2_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (openxlsx)
+* installing *binary* package ‘ade4’ ...
+* ‘ade4’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘ade4’ as ‘ade4_1.7-22_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (ade4)
+* installing *source* package ‘Homo.sapiens’ ...
+** using staged installation
+** R
+** data
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘Homo.sapiens’ as ‘Homo.sapiens_1.3.1_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (Homo.sapiens)
+* installing *binary* package ‘rsnps’ ...
+* ‘rsnps’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘rsnps’ as ‘rsnps_0.5.0.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (rsnps)
+* installing *binary* package ‘seqinr’ ...
+* ‘seqinr’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘seqinr’ as ‘seqinr_4.2-30_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (seqinr)
+* installing *source* package ‘appreci8R’ ...
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+Warning: replacing previous import ‘utils::findMatches’ by ‘S4Vectors::findMatches’ when loading ‘SNPlocs.Hsapiens.dbSNP144.GRCh37’
+Warning: replacing previous import ‘utils::findMatches’ by ‘S4Vectors::findMatches’ when loading ‘XtraSNPlocs.Hsapiens.dbSNP144.GRCh37’
+Warning: replacing previous import ‘utils::findMatches’ by ‘S4Vectors::findMatches’ when loading ‘MafDb.1Kgenomes.phase3.hs37d5’
+Warning: replacing previous import ‘utils::findMatches’ by ‘S4Vectors::findMatches’ when loading ‘MafDb.ExAC.r1.0.hs37d5’
+Warning: replacing previous import ‘utils::findMatches’ by ‘S4Vectors::findMatches’ when loading ‘MafDb.gnomADex.r2.1.hs37d5’
+Warning: replacing previous import ‘utils::findMatches’ by ‘S4Vectors::findMatches’ when loading ‘appreci8R’
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+Warning: replacing previous import ‘utils::findMatches’ by ‘S4Vectors::findMatches’ when loading ‘SNPlocs.Hsapiens.dbSNP144.GRCh37’
+Warning: replacing previous import ‘utils::findMatches’ by ‘S4Vectors::findMatches’ when loading ‘XtraSNPlocs.Hsapiens.dbSNP144.GRCh37’
+Warning: replacing previous import ‘utils::findMatches’ by ‘S4Vectors::findMatches’ when loading ‘MafDb.1Kgenomes.phase3.hs37d5’
+Warning: replacing previous import ‘utils::findMatches’ by ‘S4Vectors::findMatches’ when loading ‘MafDb.ExAC.r1.0.hs37d5’
+Warning: replacing previous import ‘utils::findMatches’ by ‘S4Vectors::findMatches’ when loading ‘MafDb.gnomADex.r2.1.hs37d5’
+Warning: replacing previous import ‘utils::findMatches’ by ‘S4Vectors::findMatches’ when loading ‘appreci8R’
+** testing if installed package can be loaded from final location
+Warning: replacing previous import ‘utils::findMatches’ by ‘S4Vectors::findMatches’ when loading ‘SNPlocs.Hsapiens.dbSNP144.GRCh37’
+Warning: replacing previous import ‘utils::findMatches’ by ‘S4Vectors::findMatches’ when loading ‘XtraSNPlocs.Hsapiens.dbSNP144.GRCh37’
+Warning: replacing previous import ‘utils::findMatches’ by ‘S4Vectors::findMatches’ when loading ‘MafDb.1Kgenomes.phase3.hs37d5’
+Warning: replacing previous import ‘utils::findMatches’ by ‘S4Vectors::findMatches’ when loading ‘MafDb.ExAC.r1.0.hs37d5’
+Warning: replacing previous import ‘utils::findMatches’ by ‘S4Vectors::findMatches’ when loading ‘MafDb.gnomADex.r2.1.hs37d5’
+Warning: replacing previous import ‘utils::findMatches’ by ‘S4Vectors::findMatches’ when loading ‘appreci8R’
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘appreci8R’ as ‘appreci8R_1.18.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (appreci8R)
+
+The downloaded source packages are in
+	‘/tmp/Rtmpz7iqha/downloaded_packages’
+Old packages: 'cachem', 'evaluate', 'httpuv', 'httr', 'httr2', 'later',
+  'profvis', 'sass', 'testthat', 'waldo', 'class', 'KernSmooth', 'MASS', 'nnet'
+
+real	25m46.710s
+user	21m56.198s
+sys	1m2.130s
