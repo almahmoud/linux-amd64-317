@@ -1,0 +1,27 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE); p <- .libPaths(); p <- c('\''/tmp/tmp/built'\'', p); .libPaths(p); if(BiocManager::install('\''ZygosityPredictor'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://packagemanager.posit.co/cran/__linux__/jammy/latest
+Bioconductor version 3.17 (BiocManager 1.30.20), R 4.3.0 (2023-04-21)
+Installing package(s) 'ZygosityPredictor'
+Warning: dependency ‘datastructures’ is not available
+trying URL 'https://bioconductor.org/packages/3.17/bioc/src/contrib/ZygosityPredictor_1.0.0.tar.gz'
+Content type 'application/x-gzip' length 649804 bytes (634 KB)
+==================================================
+downloaded 634 KB
+
+ERROR: dependency ‘datastructures’ is not available for package ‘ZygosityPredictor’
+* removing ‘/tmp/tmp/built/ZygosityPredictor’
+
+The downloaded source packages are in
+	‘/tmp/RtmpT1ttMb/downloaded_packages’
+Old packages: 'cachem', 'evaluate', 'httpuv', 'httr', 'httr2', 'later',
+  'profvis', 'sass', 'testthat', 'waldo', 'class', 'KernSmooth', 'MASS', 'nnet'
+Warning message:
+In install.packages(...) :
+  installation of package ‘ZygosityPredictor’ had non-zero exit status
+
+real	0m3.973s
+user	0m2.389s
+sys	0m0.288s
