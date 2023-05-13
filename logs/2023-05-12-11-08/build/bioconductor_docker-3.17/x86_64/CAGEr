@@ -1,0 +1,154 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE); p <- .libPaths(); p <- c('\''/tmp/tmp/built'\'', p); .libPaths(p); if(BiocManager::install('\''CAGEr'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://packagemanager.posit.co/cran/__linux__/jammy/latest
+Bioconductor version 3.17 (BiocManager 1.30.20), R 4.3.0 (2023-04-21)
+Installing package(s) 'CAGEr'
+also installing the dependencies ‘operator.tools’, ‘permute’, ‘formula.tools’, ‘gtools’, ‘plyr’, ‘reshape2’, ‘som’, ‘stringdist’, ‘vegan’, ‘VGAM’
+
+trying URL 'https://packagemanager.posit.co/cran/__linux__/jammy/latest/src/contrib/operator.tools_1.6.3.tar.gz'
+Content type 'binary/octet-stream' length 51459 bytes (50 KB)
+==================================================
+downloaded 50 KB
+
+trying URL 'https://packagemanager.posit.co/cran/__linux__/jammy/latest/src/contrib/permute_0.9-7.tar.gz'
+Content type 'binary/octet-stream' length 219603 bytes (214 KB)
+==================================================
+downloaded 214 KB
+
+trying URL 'https://packagemanager.posit.co/cran/__linux__/jammy/latest/src/contrib/formula.tools_1.7.1.tar.gz'
+Content type 'binary/octet-stream' length 86179 bytes (84 KB)
+==================================================
+downloaded 84 KB
+
+trying URL 'https://packagemanager.posit.co/cran/__linux__/jammy/latest/src/contrib/gtools_3.9.4.tar.gz'
+Content type 'binary/octet-stream' length 353531 bytes (345 KB)
+==================================================
+downloaded 345 KB
+
+trying URL 'https://packagemanager.posit.co/cran/__linux__/jammy/latest/src/contrib/plyr_1.8.8.tar.gz'
+Content type 'binary/octet-stream' length 822215 bytes (802 KB)
+==================================================
+downloaded 802 KB
+
+trying URL 'https://packagemanager.posit.co/cran/__linux__/jammy/latest/src/contrib/reshape2_1.4.4.tar.gz'
+Content type 'binary/octet-stream' length 115092 bytes (112 KB)
+==================================================
+downloaded 112 KB
+
+trying URL 'https://packagemanager.posit.co/cran/__linux__/jammy/latest/src/contrib/som_0.3-5.1.tar.gz'
+Content type 'binary/octet-stream' length 236450 bytes (230 KB)
+==================================================
+downloaded 230 KB
+
+trying URL 'https://packagemanager.posit.co/cran/__linux__/jammy/latest/src/contrib/stringdist_0.9.10.tar.gz'
+Content type 'binary/octet-stream' length 584382 bytes (570 KB)
+==================================================
+downloaded 570 KB
+
+trying URL 'https://packagemanager.posit.co/cran/__linux__/jammy/latest/src/contrib/vegan_2.6-4.tar.gz'
+Content type 'binary/octet-stream' length 3097102 bytes (3.0 MB)
+==================================================
+downloaded 3.0 MB
+
+trying URL 'https://packagemanager.posit.co/cran/__linux__/jammy/latest/src/contrib/VGAM_1.1-8.tar.gz'
+Content type 'binary/octet-stream' length 7389131 bytes (7.0 MB)
+==================================================
+downloaded 7.0 MB
+
+trying URL 'https://bioconductor.org/packages/3.17/bioc/src/contrib/CAGEr_2.6.0.tar.gz'
+Content type 'application/x-gzip' length 1802967 bytes (1.7 MB)
+==================================================
+downloaded 1.7 MB
+
+* installing *binary* package ‘operator.tools’ ...
+* ‘operator.tools’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘operator.tools’ as ‘operator.tools_1.6.3_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (operator.tools)
+* installing *binary* package ‘permute’ ...
+* ‘permute’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘permute’ as ‘permute_0.9-7_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (permute)
+* installing *binary* package ‘gtools’ ...
+* ‘gtools’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘gtools’ as ‘gtools_3.9.4_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (gtools)
+* installing *binary* package ‘plyr’ ...
+* ‘plyr’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘plyr’ as ‘plyr_1.8.8_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (plyr)
+* installing *binary* package ‘som’ ...
+* ‘som’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘som’ as ‘som_0.3-5.1_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (som)
+* installing *binary* package ‘stringdist’ ...
+* ‘stringdist’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘stringdist’ as ‘stringdist_0.9.10_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (stringdist)
+* installing *binary* package ‘VGAM’ ...
+* ‘VGAM’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘VGAM’ as ‘VGAM_1.1-8_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (VGAM)
+* installing *binary* package ‘formula.tools’ ...
+* ‘formula.tools’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘formula.tools’ as ‘formula.tools_1.7.1_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (formula.tools)
+* installing *binary* package ‘reshape2’ ...
+* ‘reshape2’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘reshape2’ as ‘reshape2_1.4.4_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (reshape2)
+* installing *binary* package ‘vegan’ ...
+* ‘vegan’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘vegan’ as ‘vegan_2.6-4_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (vegan)
+* installing *source* package ‘CAGEr’ ...
+** using staged installation
+** R
+** data
+*** moving datasets to lazyload DB
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘CAGEr’ as ‘CAGEr_2.6.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (CAGEr)
+
+The downloaded source packages are in
+	‘/tmp/RtmpQTv2KQ/downloaded_packages’
+Old packages: 'cachem', 'evaluate', 'httpuv', 'httr', 'httr2', 'later',
+  'profvis', 'sass', 'testthat', 'waldo', 'class', 'KernSmooth', 'MASS', 'nnet'
+
+real	1m30.652s
+user	1m13.224s
+sys	0m4.303s
+* installing *source* package ‘FANTOM3and4CAGE’ ...
+** using staged installation
+** data
+** inst
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘FANTOM3and4CAGE’ as ‘FANTOM3and4CAGE_1.36.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (FANTOM3and4CAGE)
