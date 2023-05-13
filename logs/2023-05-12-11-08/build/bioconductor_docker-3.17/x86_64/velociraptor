@@ -1,0 +1,35 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE); p <- .libPaths(); p <- c('\''/tmp/tmp/built'\'', p); .libPaths(p); if(BiocManager::install('\''velociraptor'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://packagemanager.posit.co/cran/__linux__/jammy/latest
+Bioconductor version 3.17 (BiocManager 1.30.20), R 4.3.0 (2023-04-21)
+Installing package(s) 'velociraptor'
+trying URL 'https://bioconductor.org/packages/3.17/bioc/src/contrib/velociraptor_1.10.0.tar.gz'
+Content type 'application/x-gzip' length 829276 bytes (809 KB)
+==================================================
+downloaded 809 KB
+
+* installing *source* package ‘velociraptor’ ...
+** using non-staged installation via StagedInstall field
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+*** copying figures
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded
+* creating tarball
+packaged installation of ‘velociraptor’ as ‘velociraptor_1.10.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (velociraptor)
+
+The downloaded source packages are in
+	‘/tmp/RtmpTQYsyY/downloaded_packages’
+Old packages: 'cachem', 'evaluate', 'httpuv', 'httr', 'httr2', 'later',
+  'profvis', 'sass', 'testthat', 'waldo', 'class', 'KernSmooth', 'MASS', 'nnet'
+
+real	0m19.049s
+user	0m16.922s
+sys	0m1.453s
