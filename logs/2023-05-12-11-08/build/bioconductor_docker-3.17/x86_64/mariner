@@ -1,0 +1,94 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE); p <- .libPaths(); p <- c('\''/tmp/tmp/built'\'', p); .libPaths(p); if(BiocManager::install('\''mariner'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://packagemanager.posit.co/cran/__linux__/jammy/latest
+Bioconductor version 3.17 (BiocManager 1.30.20), R 4.3.0 (2023-04-21)
+Installing package(s) 'mariner'
+also installing the dependencies ‘assertthat’, ‘dbscan’, ‘abind’, ‘colourvalues’
+
+trying URL 'https://packagemanager.posit.co/cran/__linux__/jammy/latest/src/contrib/assertthat_0.2.1.tar.gz'
+Content type 'binary/octet-stream' length 52457 bytes (51 KB)
+==================================================
+downloaded 51 KB
+
+trying URL 'https://packagemanager.posit.co/cran/__linux__/jammy/latest/src/contrib/dbscan_1.1-11.tar.gz'
+Content type 'binary/octet-stream' length 2515559 bytes (2.4 MB)
+==================================================
+downloaded 2.4 MB
+
+trying URL 'https://packagemanager.posit.co/cran/__linux__/jammy/latest/src/contrib/abind_1.4-5.tar.gz'
+Content type 'binary/octet-stream' length 61357 bytes (59 KB)
+==================================================
+downloaded 59 KB
+
+trying URL 'https://packagemanager.posit.co/cran/__linux__/jammy/latest/src/contrib/colourvalues_0.3.9.tar.gz'
+Content type 'binary/octet-stream' length 685256 bytes (669 KB)
+==================================================
+downloaded 669 KB
+
+trying URL 'https://bioconductor.org/packages/3.17/bioc/src/contrib/mariner_1.0.0.tar.gz'
+Content type 'application/x-gzip' length 722024 bytes (705 KB)
+==================================================
+downloaded 705 KB
+
+* installing *binary* package ‘assertthat’ ...
+* ‘assertthat’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘assertthat’ as ‘assertthat_0.2.1_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (assertthat)
+* installing *binary* package ‘dbscan’ ...
+* ‘dbscan’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘dbscan’ as ‘dbscan_1.1-11_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (dbscan)
+* installing *binary* package ‘abind’ ...
+* ‘abind’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘abind’ as ‘abind_1.4-5_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (abind)
+* installing *binary* package ‘colourvalues’ ...
+* ‘colourvalues’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘colourvalues’ as ‘colourvalues_0.3.9_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (colourvalues)
+* installing *source* package ‘mariner’ ...
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+*** copying figures
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘mariner’ as ‘mariner_1.0.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (mariner)
+
+The downloaded source packages are in
+	‘/tmp/RtmpdNhLnz/downloaded_packages’
+Old packages: 'cachem', 'evaluate', 'httpuv', 'httr', 'httr2', 'later',
+  'profvis', 'sass', 'testthat', 'waldo', 'class', 'KernSmooth', 'MASS', 'nnet'
+
+real	0m56.590s
+user	0m47.153s
+sys	0m3.170s
+* installing *source* package ‘marinerData’ ...
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘marinerData’ as ‘marinerData_1.0.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (marinerData)
