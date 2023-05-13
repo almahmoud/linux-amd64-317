@@ -51,9 +51,7 @@
     "AnnotationHubData": [
         "OrganismDbi"
     ],
-    "annotatr": [
-        "regioneR"
-    ],
+    "annotatr": [],
     "APAlyzer": [
         "VariantAnnotation"
     ],
@@ -87,8 +85,7 @@
     "ATACseqQC": [
         "ChIPpeakAnno",
         "TFBSTools",
-        "motifStack",
-        "regioneR"
+        "motifStack"
     ],
     "ATACseqTFEA": [
         "TFBSTools",
@@ -159,8 +156,7 @@
         "annotatr",
         "bsseq",
         "bumphunter",
-        "dmrseq",
-        "regioneR"
+        "dmrseq"
     ],
     "blacksheepr": [
         "DEXSeq"
@@ -291,9 +287,7 @@
         "VariantAnnotation",
         "biovizBase"
     ],
-    "ChIPpeakAnno": [
-        "regioneR"
-    ],
+    "ChIPpeakAnno": [],
     "ChIPQC": [
         "DiffBind",
         "GreyListChIP"
@@ -328,15 +322,13 @@
         "CopyNumberPlots",
         "VariantAnnotation",
         "biovizBase",
-        "karyoploteR",
-        "regioneR"
+        "karyoploteR"
     ],
     "CNViz": [
         "CopyNumberPlots",
         "VariantAnnotation",
         "biovizBase",
-        "karyoploteR",
-        "regioneR"
+        "karyoploteR"
     ],
     "CNVrd2": [
         "VariantAnnotation"
@@ -382,8 +374,7 @@
     "CopyNumberPlots": [
         "VariantAnnotation",
         "biovizBase",
-        "karyoploteR",
-        "regioneR"
+        "karyoploteR"
     ],
     "crisprBowtie": [],
     "crisprBwa": [],
@@ -393,8 +384,7 @@
     ],
     "crisprseekplus": [
         "ChIPpeakAnno",
-        "GUIDEseq",
-        "regioneR"
+        "GUIDEseq"
     ],
     "crisprVerse": [
         "Gviz",
@@ -480,8 +470,7 @@
         "ggbio"
     ],
     "DEScan2": [
-        "ChIPpeakAnno",
-        "regioneR"
+        "ChIPpeakAnno"
     ],
     "DESpace": [
         "SpatialExperiment"
@@ -518,8 +507,7 @@
     "dmrseq": [
         "annotatr",
         "bsseq",
-        "bumphunter",
-        "regioneR"
+        "bumphunter"
     ],
     "DNAfusion": [],
     "DominoEffect": [
@@ -735,8 +723,7 @@
         "OrganismDbi"
     ],
     "GUIDEseq": [
-        "ChIPpeakAnno",
-        "regioneR"
+        "ChIPpeakAnno"
     ],
     "Gviz": [
         "VariantAnnotation",
@@ -822,8 +809,7 @@
     ],
     "karyoploteR": [
         "VariantAnnotation",
-        "biovizBase",
-        "regioneR"
+        "biovizBase"
     ],
     "katdetectr": [
         "VariantAnnotation"
@@ -1046,8 +1032,7 @@
     "multicrispr": [
         "VariantAnnotation",
         "biovizBase",
-        "karyoploteR",
-        "regioneR"
+        "karyoploteR"
     ],
     "multiHiCcompare": [
         "HiCcompare"
@@ -1082,7 +1067,6 @@
         "VariantAnnotation",
         "biovizBase",
         "motifStack",
-        "regioneR",
         "trackViewer"
     ],
     "NanoMethViz": [
@@ -1269,13 +1253,9 @@
         "minfi"
     ],
     "REDseq": [
-        "ChIPpeakAnno",
-        "regioneR"
+        "ChIPpeakAnno"
     ],
-    "regioneR": [],
-    "regioneReloaded": [
-        "regioneR"
-    ],
+    "regioneReloaded": [],
     "regionReport": [
         "GenomicFiles",
         "VariantAnnotation",
@@ -1306,9 +1286,7 @@
         "VariantAnnotation"
     ],
     "rGADEM": [],
-    "RgnTX": [
-        "regioneR"
-    ],
+    "RgnTX": [],
     "rGREAT": [],
     "rgsepd": [],
     "Rhisat2": [
@@ -1333,13 +1311,10 @@
     "RIPAT": [
         "VariantAnnotation",
         "biovizBase",
-        "karyoploteR",
-        "regioneR"
+        "karyoploteR"
     ],
     "RITAN": [],
-    "RLSeq": [
-        "regioneR"
-    ],
+    "RLSeq": [],
     "Rmmquant": [],
     "RNAAgeCalc": [
         "GenomicFiles",
@@ -1418,8 +1393,7 @@
     "scMerge": [],
     "scmeth": [
         "annotatr",
-        "bsseq",
-        "regioneR"
+        "bsseq"
     ],
     "scone": [
         "RUVSeq"
@@ -1656,9 +1630,7 @@
     "Ularcirc": [
         "Organism.dplyr"
     ],
-    "UMI4Cats": [
-        "regioneR"
-    ],
+    "UMI4Cats": [],
     "uncoverappLib": [
         "Gviz",
         "OrganismDbi",
@@ -1700,8 +1672,7 @@
     "vulcan": [
         "ChIPpeakAnno",
         "DiffBind",
-        "GreyListChIP",
-        "regioneR"
+        "GreyListChIP"
     ],
     "wateRmelon": [
         "bumphunter",
