@@ -1,0 +1,129 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE); p <- .libPaths(); p <- c('\''/tmp/tmp/built'\'', p); .libPaths(p); if(BiocManager::install('\''muscat'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://packagemanager.posit.co/cran/__linux__/jammy/latest
+Bioconductor version 3.17 (BiocManager 1.30.20), R 4.3.0 (2023-04-21)
+Installing package(s) 'muscat'
+also installing the dependencies ‘globals’, ‘listenv’, ‘parallelly’, ‘TMB’, ‘future.apply’, ‘future’, ‘blme’, ‘glmmTMB’, ‘sctransform’
+
+trying URL 'https://packagemanager.posit.co/cran/__linux__/jammy/latest/src/contrib/globals_0.16.2.tar.gz'
+Content type 'binary/octet-stream' length 104912 bytes (102 KB)
+==================================================
+downloaded 102 KB
+
+trying URL 'https://packagemanager.posit.co/cran/__linux__/jammy/latest/src/contrib/listenv_0.9.0.tar.gz'
+Content type 'binary/octet-stream' length 105140 bytes (102 KB)
+==================================================
+downloaded 102 KB
+
+trying URL 'https://packagemanager.posit.co/cran/__linux__/jammy/latest/src/contrib/parallelly_1.35.0.tar.gz'
+Content type 'binary/octet-stream' length 327972 bytes (320 KB)
+==================================================
+downloaded 320 KB
+
+trying URL 'https://packagemanager.posit.co/cran/__linux__/jammy/latest/src/contrib/TMB_1.9.4.tar.gz'
+Content type 'binary/octet-stream' length 5348147 bytes (5.1 MB)
+==================================================
+downloaded 5.1 MB
+
+trying URL 'https://packagemanager.posit.co/cran/__linux__/jammy/latest/src/contrib/future.apply_1.10.0.tar.gz'
+Content type 'binary/octet-stream' length 153204 bytes (149 KB)
+==================================================
+downloaded 149 KB
+
+trying URL 'https://packagemanager.posit.co/cran/__linux__/jammy/latest/src/contrib/future_1.32.0.tar.gz'
+Content type 'binary/octet-stream' length 637502 bytes (622 KB)
+==================================================
+downloaded 622 KB
+
+trying URL 'https://packagemanager.posit.co/cran/__linux__/jammy/latest/src/contrib/blme_1.0-5.tar.gz'
+Content type 'binary/octet-stream' length 448256 bytes (437 KB)
+==================================================
+downloaded 437 KB
+
+trying URL 'https://packagemanager.posit.co/cran/__linux__/jammy/latest/src/contrib/glmmTMB_1.1.7.tar.gz'
+Content type 'binary/octet-stream' length 5491102 bytes (5.2 MB)
+==================================================
+downloaded 5.2 MB
+
+trying URL 'https://packagemanager.posit.co/cran/__linux__/jammy/latest/src/contrib/sctransform_0.3.5.tar.gz'
+Content type 'binary/octet-stream' length 561567 bytes (548 KB)
+==================================================
+downloaded 548 KB
+
+trying URL 'https://bioconductor.org/packages/3.17/bioc/src/contrib/muscat_1.14.0.tar.gz'
+Content type 'application/x-gzip' length 5570049 bytes (5.3 MB)
+==================================================
+downloaded 5.3 MB
+
+* installing *binary* package ‘globals’ ...
+* ‘globals’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘globals’ as ‘globals_0.16.2_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (globals)
+* installing *binary* package ‘listenv’ ...
+* ‘listenv’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘listenv’ as ‘listenv_0.9.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (listenv)
+* installing *binary* package ‘parallelly’ ...
+* ‘parallelly’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘parallelly’ as ‘parallelly_1.35.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (parallelly)
+* installing *binary* package ‘TMB’ ...
+* ‘TMB’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘TMB’ as ‘TMB_1.9.4_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (TMB)
+* installing *binary* package ‘blme’ ...
+* ‘blme’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘blme’ as ‘blme_1.0-5_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (blme)
+* installing *binary* package ‘future’ ...
+* ‘future’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘future’ as ‘future_1.32.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (future)
+* installing *binary* package ‘glmmTMB’ ...
+* ‘glmmTMB’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘glmmTMB’ as ‘glmmTMB_1.1.7_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (glmmTMB)
+* installing *binary* package ‘future.apply’ ...
+* ‘future.apply’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘future.apply’ as ‘future.apply_1.10.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (future.apply)
+* installing *binary* package ‘sctransform’ ...
+* ‘sctransform’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘sctransform’ as ‘sctransform_0.3.5_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (sctransform)
+* installing *source* package ‘muscat’ ...
+** using staged installation
+** R
+** data
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘muscat’ as ‘muscat_1.14.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (muscat)
+
+The downloaded source packages are in
+	‘/tmp/Rtmp9F268x/downloaded_packages’
+Old packages: 'cachem', 'evaluate', 'httpuv', 'httr', 'httr2', 'later',
+  'profvis', 'sass', 'testthat', 'waldo', 'class', 'KernSmooth', 'MASS', 'nnet'
+
+real	0m49.946s
+user	0m42.850s
+sys	0m3.130s
