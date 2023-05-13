@@ -18,13 +18,10 @@
         "AnnotationHubData"
     ],
     "alabaster": [
-        "SpatialExperiment",
         "alabaster.spatial",
         "alabaster.vcf"
     ],
-    "alabaster.spatial": [
-        "SpatialExperiment"
-    ],
+    "alabaster.spatial": [],
     "alabaster.vcf": [],
     "AllelicImbalance": [
         "Gviz",
@@ -260,20 +257,15 @@
         "crisprDesign"
     ],
     "crossmeta": [],
-    "CTSV": [
-        "SpatialExperiment"
-    ],
+    "CTSV": [],
     "cummeRbund": [
         "Gviz",
         "biovizBase"
     ],
     "customProDB": [],
     "cytofQC": [],
-    "cytomapper": [
-        "SpatialExperiment"
-    ],
+    "cytomapper": [],
     "cytoviewer": [
-        "SpatialExperiment",
         "cytomapper"
     ],
     "dagLogo": [
@@ -305,9 +297,7 @@
     "DEScan2": [
         "ChIPpeakAnno"
     ],
-    "DESpace": [
-        "SpatialExperiment"
-    ],
+    "DESpace": [],
     "DExMA": [],
     "DiffBind": [],
     "diffUTR": [],
@@ -379,16 +369,12 @@
         "clusterProfiler",
         "motifmatchr"
     ],
-    "escheR": [
-        "SpatialExperiment"
-    ],
+    "escheR": [],
     "EventPointer": [],
     "ExperimentHubData": [
         "AnnotationHubData"
     ],
-    "ExperimentSubset": [
-        "SpatialExperiment"
-    ],
+    "ExperimentSubset": [],
     "extraChIPs": [
         "GenomicInteractions",
         "Gviz",
@@ -446,9 +432,7 @@
     "ggbio": [
         "biovizBase"
     ],
-    "ggspavis": [
-        "SpatialExperiment"
-    ],
+    "ggspavis": [],
     "gmapR": [],
     "GmicR": [],
     "goSorensen": [
@@ -495,7 +479,6 @@
     "IFAA": [],
     "igvR": [],
     "imcRtools": [
-        "SpatialExperiment",
         "cytomapper"
     ],
     "InPAS": [],
@@ -524,7 +507,6 @@
     "KnowSeq": [],
     "lineagespot": [],
     "lisaClust": [
-        "SpatialExperiment",
         "spicyR"
     ],
     "loci2path": [],
@@ -636,9 +618,7 @@
         "gmapR"
     ],
     "MMUPHin": [],
-    "MoleculeExperiment": [
-        "SpatialExperiment"
-    ],
+    "MoleculeExperiment": [],
     "monaLisa": [
         "TFBSTools"
     ],
@@ -703,9 +683,7 @@
         "quantro",
         "yarn"
     ],
-    "nnSVG": [
-        "SpatialExperiment"
-    ],
+    "nnSVG": [],
     "NoRCE": [],
     "octad": [
         "RUVSeq"
@@ -890,8 +868,7 @@
     "scBFA": [],
     "scDblFinder": [],
     "scFeatures": [
-        "SingleCellSignalR",
-        "SpatialExperiment"
+        "SingleCellSignalR"
     ],
     "scMerge": [],
     "scmeth": [
@@ -937,7 +914,6 @@
     "SigsPack": [],
     "SimBindProfiles": [],
     "simpleSeg": [
-        "SpatialExperiment",
         "cytomapper"
     ],
     "SingleCellSignalR": [],
@@ -965,16 +941,9 @@
         "ggbio"
     ],
     "Spaniel": [],
-    "spaSim": [
-        "SpatialExperiment"
-    ],
-    "spatialDE": [
-        "SpatialExperiment"
-    ],
-    "SpatialExperiment": [],
-    "SpatialFeatureExperiment": [
-        "SpatialExperiment"
-    ],
+    "spaSim": [],
+    "spatialDE": [],
+    "SpatialFeatureExperiment": [],
     "spatialHeatmap": [],
     "spatzie": [
         "GenomicInteractions",
@@ -986,29 +955,20 @@
     "SpectralTAD": [
         "HiCcompare"
     ],
-    "SPIAT": [
-        "SpatialExperiment"
-    ],
-    "spicyR": [
-        "SpatialExperiment"
-    ],
+    "SPIAT": [],
+    "spicyR": [],
     "SPLINTER": [
         "Gviz",
         "biovizBase"
     ],
-    "SpotClean": [
-        "SpatialExperiment"
-    ],
+    "SpotClean": [],
     "standR": [
-        "RUVSeq",
-        "SpatialExperiment"
+        "RUVSeq"
     ],
     "staRank": [
         "cellHTS2"
     ],
-    "stJoincount": [
-        "SpatialExperiment"
-    ],
+    "stJoincount": [],
     "StructuralVariantAnnotation": [],
     "svaNUMT": [
         "StructuralVariantAnnotation"
@@ -1072,7 +1032,6 @@
         "GenomicFiles"
     ],
     "Voyager": [
-        "SpatialExperiment",
         "SpatialFeatureExperiment"
     ],
     "vtpnet": [
