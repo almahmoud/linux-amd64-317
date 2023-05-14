@@ -1,0 +1,78 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE); p <- .libPaths(); p <- c('\''/tmp/tmp/built'\'', p); .libPaths(p); if(BiocManager::install('\''sevenbridges'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://packagemanager.posit.co/cran/__linux__/jammy/latest
+Bioconductor version 3.17 (BiocManager 1.30.20), R 4.3.0 (2023-04-21)
+Installing package(s) 'sevenbridges'
+also installing the dependencies ‘objectSignals’, ‘objectProperties’, ‘uuid’, ‘data.table’
+
+trying URL 'https://packagemanager.posit.co/cran/__linux__/jammy/latest/src/contrib/objectSignals_0.10.3.tar.gz'
+Content type 'binary/octet-stream' length 144821 bytes (141 KB)
+==================================================
+downloaded 141 KB
+
+trying URL 'https://packagemanager.posit.co/cran/__linux__/jammy/latest/src/contrib/objectProperties_0.6.8.tar.gz'
+Content type 'binary/octet-stream' length 292881 bytes (286 KB)
+==================================================
+downloaded 286 KB
+
+trying URL 'https://packagemanager.posit.co/cran/__linux__/jammy/latest/src/contrib/uuid_1.1-0.tar.gz'
+Content type 'binary/octet-stream' length 44963 bytes (43 KB)
+==================================================
+downloaded 43 KB
+
+trying URL 'https://packagemanager.posit.co/cran/__linux__/jammy/latest/src/contrib/data.table_1.14.8.tar.gz'
+Content type 'binary/octet-stream' length 2126876 bytes (2.0 MB)
+==================================================
+downloaded 2.0 MB
+
+trying URL 'https://bioconductor.org/packages/3.17/bioc/src/contrib/sevenbridges_1.30.0.tar.gz'
+Content type 'application/x-gzip' length 4790729 bytes (4.6 MB)
+==================================================
+downloaded 4.6 MB
+
+* installing *binary* package ‘objectSignals’ ...
+* ‘objectSignals’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘objectSignals’ as ‘objectSignals_0.10.3_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (objectSignals)
+* installing *binary* package ‘uuid’ ...
+* ‘uuid’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘uuid’ as ‘uuid_1.1-0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (uuid)
+* installing *binary* package ‘data.table’ ...
+* ‘data.table’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘data.table’ as ‘data.table_1.14.8_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (data.table)
+* installing *binary* package ‘objectProperties’ ...
+* ‘objectProperties’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘objectProperties’ as ‘objectProperties_0.6.8_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (objectProperties)
+* installing *source* package ‘sevenbridges’ ...
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘sevenbridges’ as ‘sevenbridges_1.30.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (sevenbridges)
+
+The downloaded source packages are in
+	‘/tmp/RtmpOyX5AL/downloaded_packages’
+Old packages: 'cachem', 'evaluate', 'httpuv', 'httr', 'httr2', 'later',
+  'profvis', 'sass', 'testthat', 'waldo', 'class', 'KernSmooth', 'MASS', 'nnet'
+
+real	0m36.321s
+user	0m28.113s
+sys	0m1.789s
