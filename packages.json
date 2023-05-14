@@ -132,7 +132,6 @@
         "VariantAnnotation",
         "alabaster.mae",
         "alabaster.sce",
-        "alabaster.se",
         "alabaster.spatial",
         "alabaster.string",
         "alabaster.vcf",
@@ -141,20 +140,16 @@
         "scuttle"
     ],
     "alabaster.mae": [
-        "MultiAssayExperiment",
-        "alabaster.se"
+        "MultiAssayExperiment"
     ],
     "alabaster.sce": [
-        "SingleCellExperiment",
-        "alabaster.se"
+        "SingleCellExperiment"
     ],
-    "alabaster.se": [],
     "alabaster.spatial": [
         "DropletUtils",
         "SingleCellExperiment",
         "SpatialExperiment",
         "alabaster.sce",
-        "alabaster.se",
         "scuttle"
     ],
     "alabaster.string": [],
@@ -164,7 +159,6 @@
         "GenomicAlignments",
         "GenomicFeatures",
         "VariantAnnotation",
-        "alabaster.se",
         "alabaster.string",
         "biomaRt",
         "rtracklayer"
