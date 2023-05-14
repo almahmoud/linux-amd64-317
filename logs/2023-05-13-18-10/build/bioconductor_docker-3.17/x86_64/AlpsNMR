@@ -1,0 +1,423 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE); p <- .libPaths(); p <- c('\''/tmp/tmp/built'\'', p); .libPaths(p); if(BiocManager::install('\''AlpsNMR'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://packagemanager.posit.co/cran/__linux__/jammy/latest
+Bioconductor version 3.17 (BiocManager 1.30.20), R 4.3.0 (2023-04-21)
+Installing package(s) 'AlpsNMR'
+also installing the dependencies ‘RcppGSL’, ‘rngtools’, ‘rematch’, ‘hms’, ‘iterators’, ‘RcppZiggurat’, ‘RcppArmadillo’, ‘selectr’, ‘randomForest’, ‘itertools’, ‘doRNG’, ‘quadprog’, ‘lpSolve’, ‘globals’, ‘listenv’, ‘parallelly’, ‘cellranger’, ‘progress’, ‘doSNOW’, ‘data.table’, ‘foreach’, ‘Rfast’, ‘rvest’, ‘missForest’, ‘mvtnorm’, ‘SparseM’, ‘limSolve’, ‘future’, ‘signal’, ‘readxl’, ‘speaq’, ‘pcaPP’, ‘baseline’
+
+trying URL 'https://packagemanager.posit.co/cran/__linux__/jammy/latest/src/contrib/RcppGSL_0.3.13.tar.gz'
+Content type 'binary/octet-stream' length 210787 bytes (205 KB)
+==================================================
+downloaded 205 KB
+
+trying URL 'https://packagemanager.posit.co/cran/__linux__/jammy/latest/src/contrib/rngtools_1.5.2.tar.gz'
+Content type 'binary/octet-stream' length 76598 bytes (74 KB)
+==================================================
+downloaded 74 KB
+
+trying URL 'https://packagemanager.posit.co/cran/__linux__/jammy/latest/src/contrib/rematch_1.0.1.tar.gz'
+Content type 'binary/octet-stream' length 12215 bytes (11 KB)
+==================================================
+downloaded 11 KB
+
+trying URL 'https://packagemanager.posit.co/cran/__linux__/jammy/latest/src/contrib/hms_1.1.3.tar.gz'
+Content type 'binary/octet-stream' length 98350 bytes (96 KB)
+==================================================
+downloaded 96 KB
+
+trying URL 'https://packagemanager.posit.co/cran/__linux__/jammy/latest/src/contrib/iterators_1.0.14.tar.gz'
+Content type 'binary/octet-stream' length 345411 bytes (337 KB)
+==================================================
+downloaded 337 KB
+
+trying URL 'https://packagemanager.posit.co/cran/__linux__/jammy/latest/src/contrib/RcppZiggurat_0.1.6.tar.gz'
+Content type 'binary/octet-stream' length 422203 bytes (412 KB)
+==================================================
+downloaded 412 KB
+
+trying URL 'https://packagemanager.posit.co/cran/__linux__/jammy/latest/src/contrib/RcppArmadillo_0.12.2.0.0.tar.gz'
+Content type 'binary/octet-stream' length 1036257 bytes (1011 KB)
+==================================================
+downloaded 1011 KB
+
+trying URL 'https://packagemanager.posit.co/cran/__linux__/jammy/latest/src/contrib/selectr_0.4-2.tar.gz'
+Content type 'binary/octet-stream' length 488354 bytes (476 KB)
+==================================================
+downloaded 476 KB
+
+trying URL 'https://packagemanager.posit.co/cran/__linux__/jammy/latest/src/contrib/randomForest_4.7-1.1.tar.gz'
+Content type 'binary/octet-stream' length 216340 bytes (211 KB)
+==================================================
+downloaded 211 KB
+
+trying URL 'https://packagemanager.posit.co/cran/__linux__/jammy/latest/src/contrib/itertools_0.1-3.tar.gz'
+Content type 'binary/octet-stream' length 109891 bytes (107 KB)
+==================================================
+downloaded 107 KB
+
+trying URL 'https://packagemanager.posit.co/cran/__linux__/jammy/latest/src/contrib/doRNG_1.8.6.tar.gz'
+Content type 'binary/octet-stream' length 302018 bytes (294 KB)
+==================================================
+downloaded 294 KB
+
+trying URL 'https://packagemanager.posit.co/cran/__linux__/jammy/latest/src/contrib/quadprog_1.5-8.tar.gz'
+Content type 'binary/octet-stream' length 30243 bytes (29 KB)
+==================================================
+downloaded 29 KB
+
+trying URL 'https://packagemanager.posit.co/cran/__linux__/jammy/latest/src/contrib/lpSolve_5.6.18.tar.gz'
+Content type 'binary/octet-stream' length 372701 bytes (363 KB)
+==================================================
+downloaded 363 KB
+
+trying URL 'https://packagemanager.posit.co/cran/__linux__/jammy/latest/src/contrib/globals_0.16.2.tar.gz'
+Content type 'binary/octet-stream' length 104912 bytes (102 KB)
+==================================================
+downloaded 102 KB
+
+trying URL 'https://packagemanager.posit.co/cran/__linux__/jammy/latest/src/contrib/listenv_0.9.0.tar.gz'
+Content type 'binary/octet-stream' length 105140 bytes (102 KB)
+==================================================
+downloaded 102 KB
+
+trying URL 'https://packagemanager.posit.co/cran/__linux__/jammy/latest/src/contrib/parallelly_1.35.0.tar.gz'
+Content type 'binary/octet-stream' length 327972 bytes (320 KB)
+==================================================
+downloaded 320 KB
+
+trying URL 'https://packagemanager.posit.co/cran/__linux__/jammy/latest/src/contrib/cellranger_1.1.0.tar.gz'
+Content type 'binary/octet-stream' length 100989 bytes (98 KB)
+==================================================
+downloaded 98 KB
+
+trying URL 'https://packagemanager.posit.co/cran/__linux__/jammy/latest/src/contrib/progress_1.2.2.tar.gz'
+Content type 'binary/octet-stream' length 83560 bytes (81 KB)
+==================================================
+downloaded 81 KB
+
+trying URL 'https://packagemanager.posit.co/cran/__linux__/jammy/latest/src/contrib/doSNOW_1.0.20.tar.gz'
+Content type 'binary/octet-stream' length 26559 bytes (25 KB)
+==================================================
+downloaded 25 KB
+
+trying URL 'https://packagemanager.posit.co/cran/__linux__/jammy/latest/src/contrib/data.table_1.14.8.tar.gz'
+Content type 'binary/octet-stream' length 2126876 bytes (2.0 MB)
+==================================================
+downloaded 2.0 MB
+
+trying URL 'https://packagemanager.posit.co/cran/__linux__/jammy/latest/src/contrib/foreach_1.5.2.tar.gz'
+Content type 'binary/octet-stream' length 138028 bytes (134 KB)
+==================================================
+downloaded 134 KB
+
+trying URL 'https://packagemanager.posit.co/cran/__linux__/jammy/latest/src/contrib/Rfast_2.0.7.tar.gz'
+Content type 'binary/octet-stream' length 2456405 bytes (2.3 MB)
+==================================================
+downloaded 2.3 MB
+
+trying URL 'https://packagemanager.posit.co/cran/__linux__/jammy/latest/src/contrib/rvest_1.0.3.tar.gz'
+Content type 'binary/octet-stream' length 209936 bytes (205 KB)
+==================================================
+downloaded 205 KB
+
+trying URL 'https://packagemanager.posit.co/cran/__linux__/jammy/latest/src/contrib/missForest_1.5.tar.gz'
+Content type 'binary/octet-stream' length 343025 bytes (334 KB)
+==================================================
+downloaded 334 KB
+
+trying URL 'https://packagemanager.posit.co/cran/__linux__/jammy/latest/src/contrib/mvtnorm_1.1-3.tar.gz'
+Content type 'binary/octet-stream' length 225527 bytes (220 KB)
+==================================================
+downloaded 220 KB
+
+trying URL 'https://packagemanager.posit.co/cran/__linux__/jammy/latest/src/contrib/SparseM_1.81.tar.gz'
+Content type 'binary/octet-stream' length 1041673 bytes (1017 KB)
+==================================================
+downloaded 1017 KB
+
+trying URL 'https://packagemanager.posit.co/cran/__linux__/jammy/latest/src/contrib/limSolve_1.5.6.tar.gz'
+Content type 'binary/octet-stream' length 995951 bytes (972 KB)
+==================================================
+downloaded 972 KB
+
+trying URL 'https://packagemanager.posit.co/cran/__linux__/jammy/latest/src/contrib/future_1.32.0.tar.gz'
+Content type 'binary/octet-stream' length 637502 bytes (622 KB)
+==================================================
+downloaded 622 KB
+
+trying URL 'https://packagemanager.posit.co/cran/__linux__/jammy/latest/src/contrib/signal_0.7-7.tar.gz'
+Content type 'binary/octet-stream' length 329331 bytes (321 KB)
+==================================================
+downloaded 321 KB
+
+trying URL 'https://packagemanager.posit.co/cran/__linux__/jammy/latest/src/contrib/readxl_1.4.2.tar.gz'
+Content type 'binary/octet-stream' length 876203 bytes (855 KB)
+==================================================
+downloaded 855 KB
+
+trying URL 'https://packagemanager.posit.co/cran/__linux__/jammy/latest/src/contrib/speaq_2.7.0.tar.gz'
+Content type 'binary/octet-stream' length 3137113 bytes (3.0 MB)
+==================================================
+downloaded 3.0 MB
+
+trying URL 'https://packagemanager.posit.co/cran/__linux__/jammy/latest/src/contrib/pcaPP_2.0-3.tar.gz'
+Content type 'binary/octet-stream' length 367445 bytes (358 KB)
+==================================================
+downloaded 358 KB
+
+trying URL 'https://packagemanager.posit.co/cran/__linux__/jammy/latest/src/contrib/baseline_1.3-4.tar.gz'
+Content type 'binary/octet-stream' length 2179894 bytes (2.1 MB)
+==================================================
+downloaded 2.1 MB
+
+trying URL 'https://bioconductor.org/packages/3.17/bioc/src/contrib/AlpsNMR_4.2.0.tar.gz'
+Content type 'application/x-gzip' length 3876772 bytes (3.7 MB)
+==================================================
+downloaded 3.7 MB
+
+* installing *binary* package ‘RcppGSL’ ...
+* ‘RcppGSL’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘RcppGSL’ as ‘RcppGSL_0.3.13_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (RcppGSL)
+* installing *binary* package ‘rngtools’ ...
+* ‘rngtools’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘rngtools’ as ‘rngtools_1.5.2_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (rngtools)
+* installing *binary* package ‘rematch’ ...
+* ‘rematch’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘rematch’ as ‘rematch_1.0.1_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (rematch)
+* installing *binary* package ‘hms’ ...
+* ‘hms’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘hms’ as ‘hms_1.1.3_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (hms)
+* installing *binary* package ‘iterators’ ...
+* ‘iterators’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘iterators’ as ‘iterators_1.0.14_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (iterators)
+* installing *binary* package ‘RcppArmadillo’ ...
+* ‘RcppArmadillo’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘RcppArmadillo’ as ‘RcppArmadillo_0.12.2.0.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (RcppArmadillo)
+* installing *binary* package ‘selectr’ ...
+* ‘selectr’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘selectr’ as ‘selectr_0.4-2_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (selectr)
+* installing *binary* package ‘randomForest’ ...
+* ‘randomForest’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘randomForest’ as ‘randomForest_4.7-1.1_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (randomForest)
+* installing *binary* package ‘quadprog’ ...
+* ‘quadprog’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘quadprog’ as ‘quadprog_1.5-8_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (quadprog)
+* installing *binary* package ‘lpSolve’ ...
+* ‘lpSolve’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘lpSolve’ as ‘lpSolve_5.6.18_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (lpSolve)
+* installing *binary* package ‘globals’ ...
+* ‘globals’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘globals’ as ‘globals_0.16.2_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (globals)
+* installing *binary* package ‘listenv’ ...
+* ‘listenv’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘listenv’ as ‘listenv_0.9.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (listenv)
+* installing *binary* package ‘parallelly’ ...
+* ‘parallelly’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘parallelly’ as ‘parallelly_1.35.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (parallelly)
+* installing *binary* package ‘data.table’ ...
+* ‘data.table’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘data.table’ as ‘data.table_1.14.8_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (data.table)
+* installing *binary* package ‘mvtnorm’ ...
+* ‘mvtnorm’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘mvtnorm’ as ‘mvtnorm_1.1-3_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (mvtnorm)
+* installing *binary* package ‘SparseM’ ...
+* ‘SparseM’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘SparseM’ as ‘SparseM_1.81_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (SparseM)
+* installing *binary* package ‘signal’ ...
+* ‘signal’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘signal’ as ‘signal_0.7-7_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (signal)
+* installing *binary* package ‘RcppZiggurat’ ...
+* ‘RcppZiggurat’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘RcppZiggurat’ as ‘RcppZiggurat_0.1.6_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (RcppZiggurat)
+* installing *binary* package ‘itertools’ ...
+* ‘itertools’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘itertools’ as ‘itertools_0.1-3_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (itertools)
+* installing *binary* package ‘cellranger’ ...
+* ‘cellranger’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘cellranger’ as ‘cellranger_1.1.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (cellranger)
+* installing *binary* package ‘progress’ ...
+* ‘progress’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘progress’ as ‘progress_1.2.2_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (progress)
+* installing *binary* package ‘foreach’ ...
+* ‘foreach’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘foreach’ as ‘foreach_1.5.2_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (foreach)
+* installing *binary* package ‘rvest’ ...
+* ‘rvest’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘rvest’ as ‘rvest_1.0.3_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (rvest)
+* installing *binary* package ‘limSolve’ ...
+* ‘limSolve’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘limSolve’ as ‘limSolve_1.5.6_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (limSolve)
+* installing *binary* package ‘future’ ...
+* ‘future’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘future’ as ‘future_1.32.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (future)
+* installing *binary* package ‘pcaPP’ ...
+* ‘pcaPP’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘pcaPP’ as ‘pcaPP_2.0-3_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (pcaPP)
+* installing *binary* package ‘doRNG’ ...
+* ‘doRNG’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘doRNG’ as ‘doRNG_1.8.6_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (doRNG)
+* installing *binary* package ‘doSNOW’ ...
+* ‘doSNOW’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘doSNOW’ as ‘doSNOW_1.0.20_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (doSNOW)
+* installing *binary* package ‘Rfast’ ...
+* ‘Rfast’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘Rfast’ as ‘Rfast_2.0.7_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (Rfast)
+* installing *binary* package ‘readxl’ ...
+* ‘readxl’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘readxl’ as ‘readxl_1.4.2_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (readxl)
+* installing *binary* package ‘baseline’ ...
+* ‘baseline’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘baseline’ as ‘baseline_1.3-4_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (baseline)
+* installing *binary* package ‘missForest’ ...
+* ‘missForest’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘missForest’ as ‘missForest_1.5_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (missForest)
+* installing *source* package ‘speaq’ ...
+** package ‘speaq’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** data
+*** moving datasets to lazyload DB
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘speaq’ as ‘speaq_2.7.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (speaq)
+* installing *source* package ‘AlpsNMR’ ...
+** using staged installation
+** R
+** data
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+*** copying figures
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘AlpsNMR’ as ‘AlpsNMR_4.2.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (AlpsNMR)
+
+The downloaded source packages are in
+	‘/tmp/RtmpMeDdo1/downloaded_packages’
+Old packages: 'cachem', 'evaluate', 'httpuv', 'httr', 'httr2', 'later',
+  'profvis', 'sass', 'testthat', 'waldo', 'class', 'KernSmooth', 'MASS', 'nnet'
+
+real	0m55.475s
+user	0m37.448s
+sys	0m5.725s
+* installing *binary* package ‘lazyeval’ ...
+* ‘lazyeval’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘lazyeval’ as ‘lazyeval_0.2.2_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (lazyeval)
+* installing *binary* package ‘readJDX’ ...
+* ‘readJDX’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘readJDX’ as ‘readJDX_0.6.1_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (readJDX)
+* installing *binary* package ‘patchwork’ ...
+* ‘patchwork’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘patchwork’ as ‘patchwork_1.1.2_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (patchwork)
+* installing *binary* package ‘crosstalk’ ...
+* ‘crosstalk’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘crosstalk’ as ‘crosstalk_1.2.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (crosstalk)
+* installing *binary* package ‘plotly’ ...
+* ‘plotly’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘plotly’ as ‘plotly_4.10.1_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (plotly)
+* installing *binary* package ‘ChemoSpecUtils’ ...
+* ‘ChemoSpecUtils’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘ChemoSpecUtils’ as ‘ChemoSpecUtils_1.0.2_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (ChemoSpecUtils)
+* installing *binary* package ‘ChemoSpec’ ...
+* ‘ChemoSpec’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘ChemoSpec’ as ‘ChemoSpec_6.1.4_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (ChemoSpec)
+* installing *binary* package ‘ChemoSpecUtils’ ...
+* ‘ChemoSpecUtils’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘ChemoSpecUtils’ as ‘ChemoSpecUtils_1.0.2_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (ChemoSpecUtils)
