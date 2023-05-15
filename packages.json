@@ -3245,7 +3245,6 @@
         "GenomeInfoDb",
         "GenomicRanges",
         "IRanges",
-        "RProtoBufLib",
         "S4Arrays",
         "S4Vectors",
         "ScaledMatrix",
@@ -3647,7 +3646,6 @@
         "GenomeInfoDb",
         "GenomicRanges",
         "IRanges",
-        "RProtoBufLib",
         "S4Arrays",
         "S4Vectors",
         "SummarizedExperiment",
@@ -4609,7 +4607,6 @@
         "GenomeInfoDb",
         "GenomicRanges",
         "IRanges",
-        "RProtoBufLib",
         "S4Arrays",
         "S4Vectors",
         "SummarizedExperiment",
@@ -5179,7 +5176,6 @@
     ],
     "CONFESS": [
         "EBImage",
-        "RProtoBufLib",
         "Rgraphviz",
         "S4Vectors",
         "cytolib",
@@ -6036,7 +6032,6 @@
         "DelayedArray",
         "IRanges",
         "RBGL",
-        "RProtoBufLib",
         "Rgraphviz",
         "S4Arrays",
         "S4Vectors",
@@ -6060,7 +6055,6 @@
         "GenomeInfoDb",
         "GenomicRanges",
         "IRanges",
-        "RProtoBufLib",
         "S4Arrays",
         "S4Vectors",
         "SingleCellExperiment",
@@ -6071,7 +6065,6 @@
         "zlibbioc"
     ],
     "CytoDx": [
-        "RProtoBufLib",
         "S4Vectors",
         "cytolib",
         "flowCore"
@@ -6085,7 +6078,6 @@
         "GenomeInfoDb",
         "GenomicRanges",
         "IRanges",
-        "RProtoBufLib",
         "S4Arrays",
         "S4Vectors",
         "SummarizedExperiment",
@@ -6108,7 +6100,6 @@
         "GenomeInfoDb",
         "GenomicRanges",
         "IRanges",
-        "RProtoBufLib",
         "S4Arrays",
         "S4Vectors",
         "ScaledMatrix",
@@ -6139,9 +6130,7 @@
         "XVector",
         "zlibbioc"
     ],
-    "cytolib": [
-        "RProtoBufLib"
-    ],
+    "cytolib": [],
     "cytomapper": [
         "BiocFileCache",
         "DelayedArray",
@@ -6167,7 +6156,6 @@
         "zlibbioc"
     ],
     "cytoMEM": [
-        "RProtoBufLib",
         "S4Vectors",
         "cytolib",
         "flowCore"
@@ -6176,7 +6164,6 @@
         "DelayedArray",
         "IRanges",
         "RBGL",
-        "RProtoBufLib",
         "Rgraphviz",
         "S4Arrays",
         "S4Vectors",
@@ -6198,7 +6185,6 @@
         "IRanges",
         "PeacoQC",
         "RBGL",
-        "RProtoBufLib",
         "Rgraphviz",
         "S4Arrays",
         "S4Vectors",
@@ -6398,7 +6384,6 @@
         "DelayedArray",
         "IRanges",
         "RBGL",
-        "RProtoBufLib",
         "Rgraphviz",
         "S4Arrays",
         "S4Vectors",
@@ -7007,7 +6992,6 @@
         "GenomeInfoDb",
         "GenomicRanges",
         "IRanges",
-        "RProtoBufLib",
         "S4Arrays",
         "S4Vectors",
         "SummarizedExperiment",
@@ -9161,19 +9145,16 @@
         "zlibbioc"
     ],
     "flowAI": [
-        "RProtoBufLib",
         "S4Vectors",
         "cytolib",
         "flowCore"
     ],
     "flowBeads": [
-        "RProtoBufLib",
         "S4Vectors",
         "cytolib",
         "flowCore"
     ],
     "flowBin": [
-        "RProtoBufLib",
         "S4Vectors",
         "cytolib",
         "flowCore",
@@ -9185,26 +9166,22 @@
     ],
     "flowCHIC": [
         "EBImage",
-        "RProtoBufLib",
         "S4Vectors",
         "cytolib",
         "flowCore"
     ],
     "flowClean": [
-        "RProtoBufLib",
         "S4Vectors",
         "cytolib",
         "flowCore"
     ],
     "flowClust": [
-        "RProtoBufLib",
         "S4Vectors",
         "cytolib",
         "flowCore",
         "graph"
     ],
     "flowCore": [
-        "RProtoBufLib",
         "S4Vectors",
         "cytolib"
     ],
@@ -9212,7 +9189,6 @@
         "DelayedArray",
         "IRanges",
         "RBGL",
-        "RProtoBufLib",
         "Rgraphviz",
         "S4Arrays",
         "S4Vectors",
@@ -9229,7 +9205,6 @@
         "DelayedArray",
         "IRanges",
         "RBGL",
-        "RProtoBufLib",
         "Rgraphviz",
         "S4Arrays",
         "S4Vectors",
@@ -9242,7 +9217,6 @@
         "zlibbioc"
     ],
     "flowFP": [
-        "RProtoBufLib",
         "S4Vectors",
         "cytolib",
         "flowCore",
@@ -9252,7 +9226,6 @@
         "DelayedArray",
         "IRanges",
         "RBGL",
-        "RProtoBufLib",
         "Rgraphviz",
         "S4Arrays",
         "S4Vectors",
@@ -9265,19 +9238,16 @@
         "zlibbioc"
     ],
     "flowMatch": [
-        "RProtoBufLib",
         "S4Vectors",
         "cytolib",
         "flowCore"
     ],
     "flowMeans": [
-        "RProtoBufLib",
         "S4Vectors",
         "cytolib",
         "flowCore"
     ],
     "flowMerge": [
-        "RProtoBufLib",
         "Rgraphviz",
         "S4Vectors",
         "cytolib",
@@ -9286,20 +9256,17 @@
         "graph"
     ],
     "flowPloidy": [
-        "RProtoBufLib",
         "S4Vectors",
         "cytolib",
         "flowCore"
     ],
     "FlowSOM": [
         "ConsensusClusterPlus",
-        "RProtoBufLib",
         "S4Vectors",
         "cytolib",
         "flowCore"
     ],
     "flowSpecs": [
-        "RProtoBufLib",
         "S4Vectors",
         "cytolib",
         "flowCore"
@@ -9308,7 +9275,6 @@
         "DelayedArray",
         "IRanges",
         "RBGL",
-        "RProtoBufLib",
         "Rgraphviz",
         "S4Arrays",
         "S4Vectors",
@@ -9321,13 +9287,11 @@
         "zlibbioc"
     ],
     "flowTime": [
-        "RProtoBufLib",
         "S4Vectors",
         "cytolib",
         "flowCore"
     ],
     "flowTrans": [
-        "RProtoBufLib",
         "S4Vectors",
         "cytolib",
         "flowClust",
@@ -9336,7 +9300,6 @@
         "graph"
     ],
     "flowViz": [
-        "RProtoBufLib",
         "S4Vectors",
         "cytolib",
         "flowCore"
@@ -9345,7 +9308,6 @@
         "DelayedArray",
         "IRanges",
         "RBGL",
-        "RProtoBufLib",
         "Rgraphviz",
         "S4Arrays",
         "S4Vectors",
@@ -9362,7 +9324,6 @@
         "DelayedArray",
         "IRanges",
         "RBGL",
-        "RProtoBufLib",
         "Rgraphviz",
         "S4Arrays",
         "S4Vectors",
@@ -9600,7 +9561,6 @@
         "zlibbioc"
     ],
     "GateFinder": [
-        "RProtoBufLib",
         "S4Vectors",
         "cytolib",
         "flowCore",
@@ -10344,7 +10304,6 @@
         "DelayedArray",
         "IRanges",
         "RBGL",
-        "RProtoBufLib",
         "Rgraphviz",
         "S4Arrays",
         "S4Vectors",
@@ -11898,7 +11857,6 @@
         "DelayedArray",
         "IRanges",
         "RBGL",
-        "RProtoBufLib",
         "Rgraphviz",
         "S4Arrays",
         "S4Vectors",
@@ -11910,7 +11868,6 @@
         "zlibbioc"
     ],
     "immunoClust": [
-        "RProtoBufLib",
         "S4Vectors",
         "cytolib",
         "flowCore"
@@ -11929,7 +11886,6 @@
         "zlibbioc"
     ],
     "infinityFlow": [
-        "RProtoBufLib",
         "S4Vectors",
         "cytolib",
         "flowCore"
@@ -13771,7 +13727,6 @@
     "MetaCyto": [
         "ConsensusClusterPlus",
         "FlowSOM",
-        "RProtoBufLib",
         "S4Vectors",
         "cytolib",
         "flowCore"
@@ -16281,7 +16236,6 @@
         "zlibbioc"
     ],
     "ncdfFlow": [
-        "RProtoBufLib",
         "S4Vectors",
         "cytolib",
         "flowCore",
@@ -17065,7 +17019,6 @@
         "DelayedArray",
         "IRanges",
         "RBGL",
-        "RProtoBufLib",
         "Rgraphviz",
         "S4Arrays",
         "S4Vectors",
@@ -17141,7 +17094,6 @@
     ],
     "oppti": [],
     "optimalFlow": [
-        "RProtoBufLib",
         "S4Vectors",
         "cytolib",
         "flowCore",
@@ -17643,7 +17595,6 @@
         "DelayedArray",
         "IRanges",
         "RBGL",
-        "RProtoBufLib",
         "Rgraphviz",
         "S4Arrays",
         "S4Vectors",
@@ -20871,7 +20822,6 @@
         "XVector",
         "zlibbioc"
     ],
-    "RProtoBufLib": [],
     "rpx": [
         "BiocFileCache"
     ],
@@ -21526,7 +21476,6 @@
         "GenomeInfoDb",
         "GenomicRanges",
         "IRanges",
-        "RProtoBufLib",
         "S4Arrays",
         "S4Vectors",
         "SingleCellExperiment",
@@ -21709,7 +21658,6 @@
         "DECIPHER",
         "GenomeInfoDb",
         "IRanges",
-        "RProtoBufLib",
         "S4Vectors",
         "XVector",
         "cytolib",
@@ -21845,7 +21793,6 @@
         "zlibbioc"
     ],
     "Sconify": [
-        "RProtoBufLib",
         "S4Vectors",
         "cytolib",
         "flowCore"
@@ -25471,7 +25418,6 @@
         "GenomeInfoDb",
         "GenomicRanges",
         "IRanges",
-        "RProtoBufLib",
         "S4Arrays",
         "S4Vectors",
         "SingleCellExperiment",
