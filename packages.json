@@ -137,7 +137,6 @@
         "ShortRead"
     ],
     "ANCOMBC": [
-        "TreeSummarizedExperiment",
         "mia",
         "scater"
     ],
@@ -314,7 +313,6 @@
     ],
     "benchdamic": [
         "ANCOMBC",
-        "TreeSummarizedExperiment",
         "genefilter",
         "mia",
         "phyloseq",
@@ -583,9 +581,7 @@
         "genefilter",
         "rtracklayer"
     ],
-    "CBEA": [
-        "TreeSummarizedExperiment"
-    ],
+    "CBEA": [],
     "cBioPortalData": [
         "GenomicFeatures",
         "RTCGAToolbox",
@@ -1547,8 +1543,7 @@
     ],
     "ExperimentSubset": [
         "DropletUtils",
-        "SpatialExperiment",
-        "TreeSummarizedExperiment"
+        "SpatialExperiment"
     ],
     "extraChIPs": [
         "BSgenome",
@@ -2389,14 +2384,10 @@
     "MGFM": [],
     "MGFR": [],
     "mia": [
-        "TreeSummarizedExperiment",
         "scater"
     ],
-    "miaSim": [
-        "TreeSummarizedExperiment"
-    ],
+    "miaSim": [],
     "miaViz": [
-        "TreeSummarizedExperiment",
         "mia",
         "scater"
     ],
@@ -2409,7 +2400,6 @@
     "microbiomeExplorer": [],
     "microbiomeMarker": [
         "ANCOMBC",
-        "TreeSummarizedExperiment",
         "mia",
         "phyloseq",
         "scater"
@@ -2419,9 +2409,7 @@
         "clusterProfiler",
         "enrichplot"
     ],
-    "microSTASIS": [
-        "TreeSummarizedExperiment"
-    ],
+    "microSTASIS": [],
     "mimager": [
         "oligo"
     ],
@@ -4123,7 +4111,6 @@
         "slingshot"
     ],
     "treekoR": [],
-    "TreeSummarizedExperiment": [],
     "trena": [
         "BSgenome",
         "MotifDb",
