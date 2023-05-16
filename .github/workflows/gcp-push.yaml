@@ -63,7 +63,7 @@ jobs:
       - name: Copy js2 to gcp
         run: |
           mkdir -p /tmp/
-          rclone copyto js2-s3:/${{ github.event.inputs.version }}/container-binaries/${{ github.event.inputs.container }}-${{ github.event.inputs.version }}/x86_64/binaries/src/contrib gcp:bioconductor-packages/${{ github.event.inputs.version }}/container-binaries/${{ github.event.inputs.container }}/src/contrib -vvvvv
+          rclone copyto js2-s3:/${{ github.event.inputs.version }}/container-binaries/${{ github.event.inputs.container }}-${{ github.event.inputs.version }}/x86_64/binaries/src/contrib gcp:bioconductor-packages/${{ github.event.inputs.version }}/container-binaries/${{ github.event.inputs.container }}/src/contrib --exclude PACKAGES --exclude PACKAGES.* -vvvvv
           rclone copyto js2:/${{ github.event.inputs.version }}/container-binaries/${{ github.event.inputs.container }}-${{ github.event.inputs.version }}/x86_64/binaries/src/contrib/PACKAGES /tmp/JS2PACKAGES -vvvv
           cat /tmp/JS2PACKAGES | grep -oe '[^ ]*.tar.gz' | sort | uniq > /tmp/js2tars
           cat /tmp/js2tars | xargs -i rclone copy js2:/${{ github.event.inputs.version }}/container-binaries/${{ github.event.inputs.container }}-${{ github.event.inputs.version }}/x86_64/binaries/src/contrib/{} gcp:bioconductor-packages/${{ github.event.inputs.version }}/container-binaries/${{ github.event.inputs.container }}/src/contrib/ -vvvvv
