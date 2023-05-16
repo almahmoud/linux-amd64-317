@@ -113,7 +113,6 @@
         "KEGGREST",
         "S4Vectors",
         "XVector",
-        "interactiveDisplayBase",
         "mzR"
     ],
     "ADImpute": [
@@ -330,7 +329,6 @@
         "biocViews",
         "biomaRt",
         "graph",
-        "interactiveDisplayBase",
         "rtracklayer"
     ],
     "AIMS": [],
@@ -644,7 +642,6 @@
         "S4Vectors",
         "SummarizedExperiment",
         "XVector",
-        "interactiveDisplayBase",
         "rhdf5",
         "rhdf5filters"
     ],
@@ -796,8 +793,7 @@
         "IRanges",
         "KEGGREST",
         "S4Vectors",
-        "XVector",
-        "interactiveDisplayBase"
+        "XVector"
     ],
     "AnnotationHubData": [
         "AnnotationDbi",
@@ -824,7 +820,6 @@
         "biocViews",
         "biomaRt",
         "graph",
-        "interactiveDisplayBase",
         "rtracklayer"
     ],
     "annotationTools": [],
@@ -848,7 +843,6 @@
         "SummarizedExperiment",
         "XVector",
         "biomaRt",
-        "interactiveDisplayBase",
         "regioneR",
         "rtracklayer"
     ],
@@ -957,7 +951,6 @@
         "XVector",
         "biomaRt",
         "graph",
-        "interactiveDisplayBase",
         "rhdf5",
         "rhdf5filters",
         "rtracklayer"
@@ -1187,7 +1180,6 @@
         "biomaRt",
         "ensembldb",
         "graph",
-        "interactiveDisplayBase",
         "motifStack",
         "multtest",
         "regioneR",
@@ -1235,7 +1227,6 @@
         "S4Vectors",
         "SummarizedExperiment",
         "XVector",
-        "interactiveDisplayBase",
         "sparseMatrixStats"
     ],
     "atSNP": [
@@ -1964,8 +1955,7 @@
         "IRanges",
         "KEGGREST",
         "S4Vectors",
-        "XVector",
-        "interactiveDisplayBase"
+        "XVector"
     ],
     "BiocIO": [
         "S4Vectors"
@@ -1998,7 +1988,6 @@
         "XVector",
         "biomaRt",
         "graph",
-        "interactiveDisplayBase",
         "rhdf5",
         "rhdf5filters",
         "rtracklayer"
@@ -2103,8 +2092,7 @@
         "S4Vectors",
         "XVector",
         "fgsea",
-        "graph",
-        "interactiveDisplayBase"
+        "graph"
     ],
     "BioNERO": [
         "AnnotationDbi",
@@ -2256,7 +2244,6 @@
         "bumphunter",
         "dmrseq",
         "graph",
-        "interactiveDisplayBase",
         "marray",
         "regioneR",
         "rhdf5",
@@ -2345,8 +2332,7 @@
         "S4Arrays",
         "S4Vectors",
         "SummarizedExperiment",
-        "XVector",
-        "interactiveDisplayBase"
+        "XVector"
     ],
     "bluster": [
         "BiocNeighbors",
@@ -2494,7 +2480,6 @@
         "ensembldb",
         "ggbio",
         "graph",
-        "interactiveDisplayBase",
         "rtracklayer"
     ],
     "branchpointer": [
@@ -3092,8 +3077,7 @@
         "fgsea",
         "ggtree",
         "graph",
-        "graphite",
-        "interactiveDisplayBase"
+        "graphite"
     ],
     "cbpManager": [
         "basilisk",
@@ -3498,7 +3482,6 @@
         "genefilter",
         "globaltest",
         "goseq",
-        "interactiveDisplayBase",
         "lumi",
         "marray",
         "methylumi",
@@ -3994,7 +3977,6 @@
         "XVector",
         "biomaRt",
         "gwascat",
-        "interactiveDisplayBase",
         "rtracklayer",
         "snpStats",
         "universalmotif"
@@ -4640,7 +4622,6 @@
         "XVector",
         "biomaRt",
         "bumphunter",
-        "interactiveDisplayBase",
         "rtracklayer"
     ],
     "compartmap": [
@@ -4996,8 +4977,7 @@
         "S4Vectors",
         "XVector",
         "annotationTools",
-        "biomaRt",
-        "interactiveDisplayBase"
+        "biomaRt"
     ],
     "cosmiq": [
         "DelayedArray",
@@ -5179,7 +5159,6 @@
         "crisprBase",
         "crisprBowtie",
         "crisprScore",
-        "interactiveDisplayBase",
         "rtracklayer"
     ],
     "crisprScore": [
@@ -5193,8 +5172,7 @@
         "S4Vectors",
         "XVector",
         "basilisk",
-        "basilisk.utils",
-        "interactiveDisplayBase"
+        "basilisk.utils"
     ],
     "CRISPRseek": [
         "BSgenome",
@@ -5297,7 +5275,6 @@
         "crisprScore",
         "crisprViz",
         "ensembldb",
-        "interactiveDisplayBase",
         "rtracklayer"
     ],
     "crisprViz": [
@@ -5332,7 +5309,6 @@
         "crisprDesign",
         "crisprScore",
         "ensembldb",
-        "interactiveDisplayBase",
         "rtracklayer"
     ],
     "crlmm": [
@@ -5427,8 +5403,7 @@
         "IRanges",
         "KEGGREST",
         "S4Vectors",
-        "XVector",
-        "interactiveDisplayBase"
+        "XVector"
     ],
     "CTDquerier": [
         "S4Vectors"
@@ -5443,7 +5418,6 @@
         "S4Vectors",
         "XVector",
         "fgsea",
-        "interactiveDisplayBase",
         "rhdf5",
         "rhdf5filters"
     ],
@@ -5501,8 +5475,7 @@
         "IRanges",
         "KEGGREST",
         "S4Vectors",
-        "XVector",
-        "interactiveDisplayBase"
+        "XVector"
     ],
     "customProDB": [
         "AnnotationDbi",
@@ -6635,7 +6608,6 @@
         "bumphunter",
         "ensembldb",
         "genefilter",
-        "interactiveDisplayBase",
         "methylumi",
         "minfi",
         "missMethyl",
@@ -6705,7 +6677,6 @@
         "biomaRt",
         "bsseq",
         "bumphunter",
-        "interactiveDisplayBase",
         "regioneR",
         "rhdf5",
         "rhdf5filters",
@@ -6966,7 +6937,6 @@
         "S4Vectors",
         "SummarizedExperiment",
         "XVector",
-        "interactiveDisplayBase",
         "progeny",
         "quantiseqr"
     ],
@@ -7216,7 +7186,6 @@
         "bumphunter",
         "genefilter",
         "geneplotter",
-        "interactiveDisplayBase",
         "minfi",
         "multtest",
         "rhdf5",
@@ -7393,7 +7362,6 @@
         "fgsea",
         "genomation",
         "ggtree",
-        "interactiveDisplayBase",
         "rtracklayer",
         "seqPattern"
     ],
@@ -7472,7 +7440,6 @@
         "SummarizedExperiment",
         "XVector",
         "biomaRt",
-        "interactiveDisplayBase",
         "rtracklayer"
     ],
     "epimutacions": [
@@ -7510,7 +7477,6 @@
         "ensembldb",
         "genefilter",
         "graph",
-        "interactiveDisplayBase",
         "minfi",
         "multtest",
         "rhdf5",
@@ -7799,7 +7765,6 @@
         "basilisk.utils",
         "beachmat",
         "densvis",
-        "interactiveDisplayBase",
         "rhdf5",
         "rhdf5filters",
         "rtracklayer",
@@ -7881,7 +7846,6 @@
         "SummarizedExperiment",
         "XVector",
         "ggtree",
-        "interactiveDisplayBase",
         "orthogene"
     ],
     "ExCluster": [
@@ -7944,8 +7908,7 @@
         "IRanges",
         "KEGGREST",
         "S4Vectors",
-        "XVector",
-        "interactiveDisplayBase"
+        "XVector"
     ],
     "ExperimentHubData": [
         "AnnotationDbi",
@@ -7974,7 +7937,6 @@
         "biocViews",
         "biomaRt",
         "graph",
-        "interactiveDisplayBase",
         "rtracklayer"
     ],
     "ExperimentSubset": [
@@ -9295,7 +9257,6 @@
         "S4Arrays",
         "S4Vectors",
         "XVector",
-        "interactiveDisplayBase",
         "rhdf5",
         "rhdf5filters"
     ],
@@ -9968,7 +9929,6 @@
         "annotate",
         "graph",
         "graphite",
-        "interactiveDisplayBase",
         "pathview",
         "safe"
     ],
@@ -10153,7 +10113,6 @@
         "VariantAnnotation",
         "XVector",
         "biomaRt",
-        "interactiveDisplayBase",
         "rtracklayer",
         "snpStats"
     ],
@@ -10465,8 +10424,7 @@
         "S4Arrays",
         "S4Vectors",
         "SummarizedExperiment",
-        "XVector",
-        "interactiveDisplayBase"
+        "XVector"
     ],
     "HIPPO": [
         "DelayedArray",
@@ -10526,8 +10484,7 @@
         "IRanges",
         "KEGGREST",
         "S4Vectors",
-        "XVector",
-        "interactiveDisplayBase"
+        "XVector"
     ],
     "HTqPCR": [
         "affy",
@@ -11021,10 +10978,8 @@
         "XVector",
         "annotate",
         "genefilter",
-        "graph",
-        "interactiveDisplayBase"
+        "graph"
     ],
-    "interactiveDisplayBase": [],
     "InterCellar": [
         "AnnotationDbi",
         "Biostrings",
@@ -11121,8 +11076,7 @@
         "IRanges",
         "KEGGREST",
         "S4Vectors",
-        "XVector",
-        "interactiveDisplayBase"
+        "XVector"
     ],
     "IPO": [
         "CAMERA",
@@ -11226,8 +11180,7 @@
         "SingleCellExperiment",
         "SummarizedExperiment",
         "XVector",
-        "iSEE",
-        "interactiveDisplayBase"
+        "iSEE"
     ],
     "iSEEu": [
         "ComplexHeatmap",
@@ -11292,7 +11245,6 @@
         "ensembldb",
         "genefilter",
         "geneplotter",
-        "interactiveDisplayBase",
         "rtracklayer",
         "tximeta"
     ],
@@ -11713,8 +11665,7 @@
         "IRanges",
         "KEGGREST",
         "S4Vectors",
-        "XVector",
-        "interactiveDisplayBase"
+        "XVector"
     ],
     "lumi": [
         "AnnotationDbi",
@@ -11780,7 +11731,6 @@
         "S4Vectors",
         "SummarizedExperiment",
         "XVector",
-        "interactiveDisplayBase",
         "rtracklayer"
     ],
     "Maaslin2": [
@@ -11824,8 +11774,7 @@
         "S4Vectors",
         "XVector",
         "basilisk",
-        "basilisk.utils",
-        "interactiveDisplayBase"
+        "basilisk.utils"
     ],
     "made4": [
         "DelayedArray",
@@ -11919,7 +11868,6 @@
         "fgsea",
         "ggtree",
         "graph",
-        "interactiveDisplayBase",
         "pathview"
     ],
     "magpie": [
@@ -12104,8 +12052,7 @@
         "SummarizedExperiment",
         "XVector",
         "annotate",
-        "graph",
-        "interactiveDisplayBase"
+        "graph"
     ],
     "MatrixQCvis": [
         "AnnotationDbi",
@@ -12124,7 +12071,6 @@
         "XVector",
         "affy",
         "affyio",
-        "interactiveDisplayBase",
         "pcaMethods",
         "proDA",
         "vsn"
@@ -12465,8 +12411,7 @@
         "XVector",
         "enrichplot",
         "fgsea",
-        "ggtree",
-        "interactiveDisplayBase"
+        "ggtree"
     ],
     "meshr": [
         "AnnotationDbi",
@@ -12583,7 +12528,6 @@
         "ensembldb",
         "graph",
         "hpar",
-        "interactiveDisplayBase",
         "mygene",
         "rtracklayer"
     ],
@@ -12743,7 +12687,6 @@
         "S4Vectors",
         "SummarizedExperiment",
         "XVector",
-        "interactiveDisplayBase",
         "sesame"
     ],
     "methrix": [
@@ -12877,7 +12820,6 @@
         "bumphunter",
         "genefilter",
         "graph",
-        "interactiveDisplayBase",
         "minfi",
         "multtest",
         "rhdf5",
@@ -14172,8 +14114,7 @@
         "IRanges",
         "KEGGREST",
         "S4Vectors",
-        "XVector",
-        "interactiveDisplayBase"
+        "XVector"
     ],
     "MsExperiment": [
         "AnnotationFilter",
@@ -14311,7 +14252,6 @@
         "XVector",
         "affy",
         "affyio",
-        "interactiveDisplayBase",
         "msmsEDA",
         "msmsTests",
         "mzID",
@@ -14533,7 +14473,6 @@
         "fgsea",
         "graph",
         "graphite",
-        "interactiveDisplayBase",
         "multtest"
     ],
     "multiHiCcompare": [
@@ -14840,7 +14779,6 @@
         "csaw",
         "ensembldb",
         "graph",
-        "interactiveDisplayBase",
         "motifStack",
         "multtest",
         "regioneR",
@@ -15320,7 +15258,6 @@
         "XVector",
         "annotate",
         "genefilter",
-        "interactiveDisplayBase",
         "rhdf5",
         "rhdf5filters",
         "rtracklayer",
@@ -15363,7 +15300,6 @@
         "beachmat",
         "biomaRt",
         "graph",
-        "interactiveDisplayBase",
         "rhdf5",
         "rhdf5filters",
         "rtracklayer",
@@ -15434,7 +15370,6 @@
         "biomaRt",
         "biovizBase",
         "ensembldb",
-        "interactiveDisplayBase",
         "rtracklayer"
     ],
     "oligo": [
@@ -15637,8 +15572,7 @@
         "S4Vectors",
         "SummarizedExperiment",
         "XVector",
-        "graph",
-        "interactiveDisplayBase"
+        "graph"
     ],
     "openCyto": [
         "DelayedArray",
@@ -16420,7 +16354,6 @@
         "XVector",
         "bioDist",
         "graph",
-        "interactiveDisplayBase",
         "topGO"
     ],
     "phyloseq": [
@@ -16660,7 +16593,6 @@
         "SummarizedExperiment",
         "XVector",
         "graph",
-        "interactiveDisplayBase",
         "ontoProc"
     ],
     "polyester": [
@@ -16821,7 +16753,6 @@
         "biomaRt",
         "biovizBase",
         "ensembldb",
-        "interactiveDisplayBase",
         "rhdf5",
         "rhdf5filters",
         "rtracklayer"
@@ -17138,7 +17069,6 @@
         "bumphunter",
         "derfinder",
         "derfinderHelper",
-        "interactiveDisplayBase",
         "recount",
         "rtracklayer"
     ],
@@ -17275,8 +17205,7 @@
         "S4Vectors",
         "XVector",
         "biomaRt",
-        "graph",
-        "interactiveDisplayBase"
+        "graph"
     ],
     "pwrEWAS": [
         "AnnotationDbi",
@@ -17289,8 +17218,7 @@
         "S4Vectors",
         "XVector",
         "annotate",
-        "genefilter",
-        "interactiveDisplayBase"
+        "genefilter"
     ],
     "qckitfastq": [
         "seqTools"
@@ -17674,7 +17602,6 @@
         "VariantAnnotation",
         "XVector",
         "biomaRt",
-        "interactiveDisplayBase",
         "rhdf5",
         "rhdf5filters",
         "rtracklayer"
@@ -18129,7 +18056,6 @@
         "biovizBase",
         "ensembldb",
         "graph",
-        "interactiveDisplayBase",
         "rtracklayer"
     ],
     "REMP": [
@@ -18158,7 +18084,6 @@
         "biomaRt",
         "bumphunter",
         "genefilter",
-        "interactiveDisplayBase",
         "minfi",
         "multtest",
         "rhdf5",
@@ -18296,7 +18221,6 @@
         "S4Vectors",
         "SummarizedExperiment",
         "XVector",
-        "interactiveDisplayBase",
         "rhdf5client"
     ],
     "ReUseData": [
@@ -18355,8 +18279,7 @@
         "IRanges",
         "KEGGREST",
         "S4Vectors",
-        "XVector",
-        "interactiveDisplayBase"
+        "XVector"
     ],
     "RGMQL": [
         "BiocIO",
@@ -18747,7 +18670,6 @@
         "SummarizedExperiment",
         "XVector",
         "biomaRt",
-        "interactiveDisplayBase",
         "regioneR",
         "rtracklayer"
     ],
@@ -19555,7 +19477,6 @@
         "XVector",
         "biomaRt",
         "ensembldb",
-        "interactiveDisplayBase",
         "rtracklayer",
         "scanMiR"
     ],
@@ -19572,8 +19493,7 @@
         "S4Vectors",
         "SingleCellExperiment",
         "SummarizedExperiment",
-        "XVector",
-        "interactiveDisplayBase"
+        "XVector"
     ],
     "SCANVIS": [
         "BiocIO",
@@ -19640,8 +19560,7 @@
         "S4Arrays",
         "S4Vectors",
         "SummarizedExperiment",
-        "XVector",
-        "interactiveDisplayBase"
+        "XVector"
     ],
     "scater": [
         "BiocNeighbors",
@@ -19991,7 +19910,6 @@
         "beachmat",
         "biomaRt",
         "bsseq",
-        "interactiveDisplayBase",
         "regioneR",
         "rhdf5",
         "rhdf5filters",
@@ -20283,7 +20201,6 @@
         "ggtree",
         "graph",
         "graphite",
-        "interactiveDisplayBase",
         "meshr",
         "schex"
     ],
@@ -20622,8 +20539,7 @@
         "KEGGREST",
         "S4Vectors",
         "SNPRelate",
-        "XVector",
-        "interactiveDisplayBase"
+        "XVector"
     ],
     "seqTools": [],
     "SeqVarTools": [
@@ -20648,8 +20564,7 @@
         "S4Arrays",
         "S4Vectors",
         "SummarizedExperiment",
-        "XVector",
-        "interactiveDisplayBase"
+        "XVector"
     ],
     "SEtools": [
         "AnnotationDbi",
@@ -20896,7 +20811,6 @@
         "fgsea",
         "ggtree",
         "graph",
-        "interactiveDisplayBase",
         "rhdf5",
         "rhdf5filters"
     ],
@@ -21171,7 +21085,6 @@
         "genefilter",
         "ggtree",
         "graph",
-        "interactiveDisplayBase",
         "multtest",
         "rhdf5",
         "rhdf5filters",
@@ -21903,7 +21816,6 @@
         "XVector",
         "annotate",
         "genefilter",
-        "interactiveDisplayBase",
         "ompBAM",
         "rhdf5",
         "rhdf5filters",
@@ -22748,7 +22660,6 @@
         "SummarizedExperiment",
         "XVector",
         "graph",
-        "interactiveDisplayBase",
         "ontoProc",
         "restfulSE",
         "rhdf5client"
@@ -23646,7 +23557,6 @@
         "XVector",
         "biomaRt",
         "ensembldb",
-        "interactiveDisplayBase",
         "rtracklayer"
     ],
     "UCell": [
@@ -23683,7 +23593,6 @@
         "SummarizedExperiment",
         "XVector",
         "biomaRt",
-        "interactiveDisplayBase",
         "plotgardener",
         "plyranges",
         "rtracklayer"
@@ -23921,7 +23830,6 @@
         "biovizBase",
         "ensembldb",
         "graph",
-        "interactiveDisplayBase",
         "rhdf5",
         "rhdf5filters",
         "rtracklayer"
@@ -24075,8 +23983,7 @@
         "S4Vectors",
         "XVector",
         "annotate",
-        "graph",
-        "interactiveDisplayBase"
+        "graph"
     ],
     "Voyager": [
         "BiocNeighbors",
@@ -24153,7 +24060,6 @@
         "biomaRt",
         "graph",
         "gwascat",
-        "interactiveDisplayBase",
         "rtracklayer",
         "snpStats"
     ],
