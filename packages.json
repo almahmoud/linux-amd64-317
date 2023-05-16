@@ -2605,7 +2605,6 @@
         "XVector",
         "basilisk",
         "beachmat",
-        "cytolib",
         "densvis",
         "flowCore",
         "scater",
@@ -2922,7 +2921,6 @@
         "S4Arrays",
         "SummarizedExperiment",
         "XVector",
-        "cytolib",
         "diffcyt",
         "flowCore"
     ],
@@ -3718,7 +3716,6 @@
         "S4Arrays",
         "SummarizedExperiment",
         "XVector",
-        "cytolib",
         "flowCore",
         "rhdf5",
         "rhdf5filters"
@@ -4191,7 +4188,6 @@
     ],
     "CONFESS": [
         "Rgraphviz",
-        "cytolib",
         "flowClust",
         "flowCore",
         "flowMeans",
@@ -4894,7 +4890,6 @@
         "IRanges",
         "Rgraphviz",
         "S4Arrays",
-        "cytolib",
         "flowClust",
         "flowCore",
         "flowDensity",
@@ -4915,11 +4910,9 @@
         "SingleCellExperiment",
         "SummarizedExperiment",
         "XVector",
-        "cytolib",
         "flowCore"
     ],
     "CytoDx": [
-        "cytolib",
         "flowCore"
     ],
     "CyTOFpower": [
@@ -4933,7 +4926,6 @@
         "S4Arrays",
         "SummarizedExperiment",
         "XVector",
-        "cytolib",
         "diffcyt",
         "flowCore"
     ],
@@ -4956,7 +4948,6 @@
         "XVector",
         "basilisk",
         "beachmat",
-        "cytolib",
         "densvis",
         "flowCore",
         "scater",
@@ -4972,7 +4963,6 @@
         "SummarizedExperiment",
         "XVector"
     ],
-    "cytolib": [],
     "cytomapper": [
         "DelayedArray",
         "DelayedMatrixStats",
@@ -4992,7 +4982,6 @@
         "scuttle"
     ],
     "cytoMEM": [
-        "cytolib",
         "flowCore"
     ],
     "CytoML": [
@@ -5000,7 +4989,6 @@
         "IRanges",
         "Rgraphviz",
         "S4Arrays",
-        "cytolib",
         "flowClust",
         "flowCore",
         "flowViz",
@@ -5016,7 +5004,6 @@
         "PeacoQC",
         "Rgraphviz",
         "S4Arrays",
-        "cytolib",
         "flowAI",
         "flowCore",
         "flowWorkspace",
@@ -5176,7 +5163,6 @@
         "IRanges",
         "Rgraphviz",
         "S4Arrays",
-        "cytolib",
         "flowCore",
         "flowDensity",
         "flowViz",
@@ -5676,7 +5662,6 @@
         "S4Arrays",
         "SummarizedExperiment",
         "XVector",
-        "cytolib",
         "flowCore"
     ],
     "DifferentialRegulation": [
@@ -7442,41 +7427,32 @@
         "scuttle"
     ],
     "flowAI": [
-        "cytolib",
         "flowCore"
     ],
     "flowBeads": [
-        "cytolib",
         "flowCore"
     ],
     "flowBin": [
-        "cytolib",
         "flowCore",
         "flowFP",
         "flowViz"
     ],
     "flowcatchR": [],
     "flowCHIC": [
-        "cytolib",
         "flowCore"
     ],
     "flowClean": [
-        "cytolib",
         "flowCore"
     ],
     "flowClust": [
-        "cytolib",
         "flowCore"
     ],
-    "flowCore": [
-        "cytolib"
-    ],
+    "flowCore": [],
     "flowCut": [
         "DelayedArray",
         "IRanges",
         "Rgraphviz",
         "S4Arrays",
-        "cytolib",
         "flowCore",
         "flowDensity",
         "flowViz",
@@ -7488,14 +7464,12 @@
         "IRanges",
         "Rgraphviz",
         "S4Arrays",
-        "cytolib",
         "flowCore",
         "flowViz",
         "flowWorkspace",
         "ncdfFlow"
     ],
     "flowFP": [
-        "cytolib",
         "flowCore",
         "flowViz"
     ],
@@ -7504,37 +7478,30 @@
         "IRanges",
         "Rgraphviz",
         "S4Arrays",
-        "cytolib",
         "flowCore",
         "flowWorkspace",
         "ggcyto",
         "ncdfFlow"
     ],
     "flowMatch": [
-        "cytolib",
         "flowCore"
     ],
     "flowMeans": [
-        "cytolib",
         "flowCore"
     ],
     "flowMerge": [
         "Rgraphviz",
-        "cytolib",
         "flowClust",
         "flowCore"
     ],
     "flowPloidy": [
-        "cytolib",
         "flowCore"
     ],
     "FlowSOM": [
         "ConsensusClusterPlus",
-        "cytolib",
         "flowCore"
     ],
     "flowSpecs": [
-        "cytolib",
         "flowCore"
     ],
     "flowStats": [
@@ -7542,24 +7509,20 @@
         "IRanges",
         "Rgraphviz",
         "S4Arrays",
-        "cytolib",
         "flowCore",
         "flowViz",
         "flowWorkspace",
         "ncdfFlow"
     ],
     "flowTime": [
-        "cytolib",
         "flowCore"
     ],
     "flowTrans": [
-        "cytolib",
         "flowClust",
         "flowCore",
         "flowViz"
     ],
     "flowViz": [
-        "cytolib",
         "flowCore"
     ],
     "flowVS": [
@@ -7567,7 +7530,6 @@
         "IRanges",
         "Rgraphviz",
         "S4Arrays",
-        "cytolib",
         "flowCore",
         "flowStats",
         "flowViz",
@@ -7579,7 +7541,6 @@
         "IRanges",
         "Rgraphviz",
         "S4Arrays",
-        "cytolib",
         "flowCore",
         "ncdfFlow"
     ],
@@ -7767,7 +7728,6 @@
         "sva"
     ],
     "GateFinder": [
-        "cytolib",
         "flowCore",
         "flowFP",
         "flowViz"
@@ -8373,7 +8333,6 @@
         "IRanges",
         "Rgraphviz",
         "S4Arrays",
-        "cytolib",
         "flowCore",
         "flowWorkspace",
         "ncdfFlow"
@@ -9632,13 +9591,11 @@
         "IRanges",
         "Rgraphviz",
         "S4Arrays",
-        "cytolib",
         "flowCore",
         "flowWorkspace",
         "ncdfFlow"
     ],
     "immunoClust": [
-        "cytolib",
         "flowCore"
     ],
     "infercnv": [
@@ -9652,7 +9609,6 @@
         "XVector"
     ],
     "infinityFlow": [
-        "cytolib",
         "flowCore"
     ],
     "InPAS": [
@@ -11132,7 +11088,6 @@
     "MetaCyto": [
         "ConsensusClusterPlus",
         "FlowSOM",
-        "cytolib",
         "flowCore"
     ],
     "metagene": [
@@ -13185,7 +13140,6 @@
         "genefilter"
     ],
     "ncdfFlow": [
-        "cytolib",
         "flowCore"
     ],
     "ncGTW": [
@@ -13810,7 +13764,6 @@
         "IRanges",
         "Rgraphviz",
         "S4Arrays",
-        "cytolib",
         "flowClust",
         "flowCore",
         "flowViz",
@@ -13867,7 +13820,6 @@
         "rhdf5filters"
     ],
     "optimalFlow": [
-        "cytolib",
         "flowCore",
         "flowMeans"
     ],
@@ -14273,7 +14225,6 @@
         "IRanges",
         "Rgraphviz",
         "S4Arrays",
-        "cytolib",
         "flowCore",
         "flowWorkspace",
         "ncdfFlow"
@@ -17425,7 +17376,6 @@
         "SingleCellExperiment",
         "SummarizedExperiment",
         "XVector",
-        "cytolib",
         "flowCore"
     ],
     "scDblFinder": [
@@ -17572,7 +17522,6 @@
         "GenomeInfoDb",
         "IRanges",
         "XVector",
-        "cytolib",
         "flowCore",
         "sangerseqR"
     ],
@@ -17684,7 +17633,6 @@
         "rtracklayer"
     ],
     "Sconify": [
-        "cytolib",
         "flowCore"
     ],
     "SCOPE": [
@@ -20631,7 +20579,6 @@
         "SingleCellExperiment",
         "SummarizedExperiment",
         "XVector",
-        "cytolib",
         "diffcyt",
         "flowCore"
     ],
