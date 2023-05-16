@@ -94,7 +94,6 @@
         "HDF5Array",
         "SpatialExperiment",
         "VariantAnnotation",
-        "alabaster.base",
         "alabaster.bumpy",
         "alabaster.mae",
         "alabaster.matrix",
@@ -108,34 +107,25 @@
         "rtracklayer",
         "scuttle"
     ],
-    "alabaster.base": [],
-    "alabaster.bumpy": [
-        "alabaster.base"
-    ],
+    "alabaster.bumpy": [],
     "alabaster.mae": [
         "HDF5Array",
-        "alabaster.base",
         "alabaster.matrix",
         "alabaster.ranges",
         "alabaster.se"
     ],
     "alabaster.matrix": [
-        "HDF5Array",
-        "alabaster.base"
+        "HDF5Array"
     ],
-    "alabaster.ranges": [
-        "alabaster.base"
-    ],
+    "alabaster.ranges": [],
     "alabaster.sce": [
         "HDF5Array",
-        "alabaster.base",
         "alabaster.matrix",
         "alabaster.ranges",
         "alabaster.se"
     ],
     "alabaster.se": [
         "HDF5Array",
-        "alabaster.base",
         "alabaster.matrix",
         "alabaster.ranges"
     ],
@@ -143,23 +133,19 @@
         "DropletUtils",
         "HDF5Array",
         "SpatialExperiment",
-        "alabaster.base",
         "alabaster.matrix",
         "alabaster.ranges",
         "alabaster.sce",
         "alabaster.se",
         "scuttle"
     ],
-    "alabaster.string": [
-        "alabaster.base"
-    ],
+    "alabaster.string": [],
     "alabaster.vcf": [
         "BSgenome",
         "GenomicAlignments",
         "GenomicFeatures",
         "HDF5Array",
         "VariantAnnotation",
-        "alabaster.base",
         "alabaster.matrix",
         "alabaster.ranges",
         "alabaster.se",
