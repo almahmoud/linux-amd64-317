@@ -84,7 +84,7 @@ jobs:
   
           helm repo add wunderio https://storage.googleapis.com/charts.wdr.io
           echo "$GCP_RCLONE_VALS" > rclone-vals.yaml
-          sed -i "s#GCPHOLDERPATH#gcp:bioconductor-packages/${{ github.event.inputs.version }}/container-binaries/${{ github.event.inputs.container }}/src/contrib#g" rclone-vals.yaml
+          sed -i "s#GCPHOLDERPATH#bioconductor-packages/${{ github.event.inputs.version }}/container-binaries/${{ github.event.inputs.container }}/src/contrib#g" rclone-vals.yaml
           helm upgrade --install --create-namespace -n rclone rclone wunderio/csi-rclone -f rclone-vals.yaml --wait
           kubectl -n rclone apply -f .github/scripts/k8s/k8s-resources.yaml
           while [[ $(kubectl get pods -n rclone package-file --no-headers -o custom-columns=":status.phase") != "Running" ]]; do
