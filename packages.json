@@ -6,9 +6,7 @@
     "a4Base": [
         "genefilter"
     ],
-    "ACE": [
-        "QDNAseq"
-    ],
+    "ACE": [],
     "ADaCGH2": [
         "genefilter",
         "snapCGH",
@@ -411,7 +409,6 @@
         "ExperimentHub",
         "GenomicFeatures",
         "OrganismDbi",
-        "QDNAseq",
         "VariantAnnotation",
         "annotatr",
         "bsseq",
@@ -1734,9 +1731,7 @@
         "GenomicFeatures",
         "rtracklayer"
     ],
-    "GeneBreak": [
-        "QDNAseq"
-    ],
+    "GeneBreak": [],
     "genefilter": [],
     "genefu": [],
     "GeneMeta": [
@@ -1957,9 +1952,7 @@
         "BSgenome",
         "rtracklayer"
     ],
-    "HiCcompare": [
-        "QDNAseq"
-    ],
+    "HiCcompare": [],
     "HiCDCPlus": [
         "BSgenome",
         "GenomicFeatures",
@@ -1972,7 +1965,6 @@
     ],
     "HiCDOC": [
         "HiCcompare",
-        "QDNAseq",
         "multiHiCcompare"
     ],
     "HiCExperiment": [],
@@ -2707,8 +2699,7 @@
         "graphite"
     ],
     "multiHiCcompare": [
-        "HiCcompare",
-        "QDNAseq"
+        "HiCcompare"
     ],
     "multiSight": [
         "DOSE",
@@ -3183,7 +3174,6 @@
         "ExperimentHub",
         "genefilter"
     ],
-    "QDNAseq": [],
     "QFeatures": [],
     "qpcrNorm": [],
     "qpgraph": [
@@ -4049,8 +4039,7 @@
         "rtracklayer"
     ],
     "SpectralTAD": [
-        "HiCcompare",
-        "QDNAseq"
+        "HiCcompare"
     ],
     "SPIAT": [
         "DropletUtils",
@@ -4173,8 +4162,7 @@
         "ShortRead"
     ],
     "TADCompare": [
-        "HiCcompare",
-        "QDNAseq"
+        "HiCcompare"
     ],
     "TAPseq": [
         "BSgenome",
