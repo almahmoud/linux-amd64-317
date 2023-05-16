@@ -333,7 +333,6 @@
         "GenomicFeatures",
         "GenomicScores",
         "HDF5Array",
-        "InteractionSet",
         "TFBSTools",
         "annotate",
         "biomaRt",
@@ -744,7 +743,6 @@
         "GenomicFiles",
         "GenomicInteractions",
         "Gviz",
-        "InteractionSet",
         "VariantAnnotation",
         "biomaRt",
         "biovizBase",
@@ -775,7 +773,6 @@
         "GenomicFiles",
         "GenomicInteractions",
         "Gviz",
-        "InteractionSet",
         "VariantAnnotation",
         "biomaRt",
         "biovizBase",
@@ -1004,7 +1001,6 @@
         "BSgenome",
         "GenomicAlignments",
         "GenomicFeatures",
-        "InteractionSet",
         "biomaRt",
         "ensembldb",
         "regioneR",
@@ -1439,7 +1435,6 @@
         "GUIDEseq",
         "GenomicAlignments",
         "GenomicFeatures",
-        "InteractionSet",
         "biomaRt",
         "ensembldb",
         "regioneR",
@@ -1698,7 +1693,6 @@
         "ChIPpeakAnno",
         "GenomicAlignments",
         "GenomicFeatures",
-        "InteractionSet",
         "biomaRt",
         "ensembldb",
         "regioneR",
@@ -1737,7 +1731,6 @@
     "diffHic": [
         "BSgenome",
         "GenomicAlignments",
-        "InteractionSet",
         "csaw",
         "rtracklayer"
     ],
@@ -1903,9 +1896,7 @@
         "genefilter",
         "sva"
     ],
-    "EDIRquery": [
-        "InteractionSet"
-    ],
+    "EDIRquery": [],
     "eegc": [
         "DOSE",
         "GOSemSim",
@@ -2211,7 +2202,6 @@
         "GenomicFeatures",
         "GenomicInteractions",
         "Gviz",
-        "InteractionSet",
         "VariantAnnotation",
         "biomaRt",
         "biovizBase",
@@ -2464,7 +2454,6 @@
         "GenomicAlignments",
         "GenomicFeatures",
         "Gviz",
-        "InteractionSet",
         "VariantAnnotation",
         "biomaRt",
         "biovizBase",
@@ -2672,7 +2661,6 @@
         "ChIPpeakAnno",
         "GenomicAlignments",
         "GenomicFeatures",
-        "InteractionSet",
         "biomaRt",
         "ensembldb",
         "regioneR",
@@ -2732,7 +2720,6 @@
     ],
     "HiCBricks": [],
     "HiCcompare": [
-        "InteractionSet",
         "QDNAseq"
     ],
     "HiCDCPlus": [
@@ -2741,7 +2728,6 @@
         "GenomicFeatures",
         "GenomicInteractions",
         "Gviz",
-        "InteractionSet",
         "VariantAnnotation",
         "biomaRt",
         "biovizBase",
@@ -2750,20 +2736,15 @@
     ],
     "HiCDOC": [
         "HiCcompare",
-        "InteractionSet",
         "QDNAseq",
         "multiHiCcompare"
     ],
-    "HiCExperiment": [
-        "InteractionSet"
-    ],
+    "HiCExperiment": [],
     "HiContacts": [
-        "HiCExperiment",
-        "InteractionSet"
+        "HiCExperiment"
     ],
     "HiCool": [
-        "HiCExperiment",
-        "InteractionSet"
+        "HiCExperiment"
     ],
     "HiLDA": [
         "BSgenome",
@@ -2909,7 +2890,6 @@
         "ggbio",
         "rtracklayer"
     ],
-    "InteractionSet": [],
     "interactiveDisplay": [
         "Category",
         "GSEABase",
@@ -3146,7 +3126,6 @@
     "mariner": [
         "GenomicAlignments",
         "HDF5Array",
-        "InteractionSet",
         "plotgardener",
         "plyranges",
         "rtracklayer"
@@ -3771,7 +3750,6 @@
     ],
     "multiHiCcompare": [
         "HiCcompare",
-        "InteractionSet",
         "QDNAseq"
     ],
     "multiMiR": [],
@@ -3846,7 +3824,6 @@
         "GenomicScores",
         "Gviz",
         "HDF5Array",
-        "InteractionSet",
         "TFBSTools",
         "VariantAnnotation",
         "annotate",
@@ -3944,7 +3921,6 @@
     ],
     "nullranges": [
         "GenomicAlignments",
-        "InteractionSet",
         "plyranges",
         "rtracklayer"
     ],
@@ -4617,7 +4593,6 @@
         "ChIPpeakAnno",
         "GenomicAlignments",
         "GenomicFeatures",
-        "InteractionSet",
         "biomaRt",
         "ensembldb",
         "regioneR",
@@ -5315,7 +5290,6 @@
     ],
     "sevenC": [
         "GenomicAlignments",
-        "InteractionSet",
         "rtracklayer"
     ],
     "SGCP": [
@@ -5618,7 +5592,6 @@
         "GenomicFeatures",
         "GenomicInteractions",
         "Gviz",
-        "InteractionSet",
         "TFBSTools",
         "VariantAnnotation",
         "annotate",
@@ -5631,7 +5604,6 @@
     "speckle": [],
     "SpectralTAD": [
         "HiCcompare",
-        "InteractionSet",
         "QDNAseq"
     ],
     "SPIAT": [
@@ -5804,7 +5776,6 @@
     "systemPipeTools": [],
     "TADCompare": [
         "HiCcompare",
-        "InteractionSet",
         "QDNAseq"
     ],
     "TAPseq": [
@@ -5946,7 +5917,6 @@
         "GenomicAlignments",
         "GenomicFeatures",
         "Gviz",
-        "InteractionSet",
         "VariantAnnotation",
         "biomaRt",
         "biovizBase",
@@ -6211,7 +6181,6 @@
         "GenomicAlignments",
         "GenomicFeatures",
         "GreyListChIP",
-        "InteractionSet",
         "ShortRead",
         "biomaRt",
         "csaw",
