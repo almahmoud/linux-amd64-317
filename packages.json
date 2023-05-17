@@ -657,7 +657,6 @@
         "annotate",
         "genefilter",
         "mia",
-        "phyloseq",
         "scater",
         "scuttle",
         "zinbwave"
@@ -1771,8 +1770,7 @@
         "rtracklayer"
     ],
     "combi": [
-        "SummarizedExperiment",
-        "phyloseq"
+        "SummarizedExperiment"
     ],
     "coMET": [
         "AnnotationDbi",
@@ -4660,7 +4658,6 @@
         "AnnotationDbi",
         "annotate",
         "genefilter",
-        "phyloseq",
         "sva"
     ],
     "mbkmeans": [
@@ -5040,12 +5037,8 @@
         "scater",
         "scuttle"
     ],
-    "microbiome": [
-        "phyloseq"
-    ],
-    "microbiomeDASim": [
-        "phyloseq"
-    ],
+    "microbiome": [],
+    "microbiomeDASim": [],
     "microbiomeExplorer": [
         "DESeq2",
         "SummarizedExperiment"
@@ -5059,7 +5052,6 @@
         "SummarizedExperiment",
         "TreeSummarizedExperiment",
         "mia",
-        "phyloseq",
         "scater",
         "scuttle"
     ],
@@ -6063,8 +6055,7 @@
     ],
     "PathoStat": [
         "DESeq2",
-        "SummarizedExperiment",
-        "phyloseq"
+        "SummarizedExperiment"
     ],
     "pathRender": [
         "AnnotationDbi"
@@ -6111,9 +6102,7 @@
         "scuttle"
     ],
     "pepStat": [],
-    "PERFect": [
-        "phyloseq"
-    ],
+    "PERFect": [],
     "periodicDNA": [
         "BSgenome",
         "GenomicAlignments",
@@ -6173,7 +6162,6 @@
         "OmaDB",
         "topGO"
     ],
-    "phyloseq": [],
     "Pi": [],
     "PICS": [
         "GenomicAlignments",
@@ -6285,8 +6273,7 @@
         "GenomicAlignments",
         "RPA",
         "Rsamtools",
-        "SummarizedExperiment",
-        "phyloseq"
+        "SummarizedExperiment"
     ],
     "preciseTAD": [
         "AnnotationDbi",
@@ -6681,9 +6668,7 @@
         "SummarizedExperiment",
         "annotate"
     ],
-    "RCM": [
-        "phyloseq"
-    ],
+    "RCM": [],
     "Rcpi": [
         "AnnotationDbi",
         "GOSemSim"
@@ -6698,9 +6683,7 @@
     "receptLoss": [
         "SummarizedExperiment"
     ],
-    "reconsi": [
-        "phyloseq"
-    ],
+    "reconsi": [],
     "recount": [
         "AnnotationDbi",
         "BSgenome",
@@ -7252,9 +7235,7 @@
         "MultiDataSet",
         "SummarizedExperiment"
     ],
-    "RPA": [
-        "phyloseq"
-    ],
+    "RPA": [],
     "rprimer": [],
     "Rqc": [
         "AnnotationDbi",
@@ -7886,9 +7867,7 @@
         "Rsamtools",
         "SummarizedExperiment"
     ],
-    "SIAMCAT": [
-        "phyloseq"
-    ],
+    "SIAMCAT": [],
     "SICtools": [
         "Rsamtools"
     ],
@@ -7966,8 +7945,7 @@
         "genefilter"
     ],
     "SimBu": [
-        "SummarizedExperiment",
-        "phyloseq"
+        "SummarizedExperiment"
     ],
     "SimFFPE": [
         "Rsamtools"
@@ -8360,8 +8338,7 @@
     "SPsimSeq": [
         "AnnotationDbi",
         "SingleCellExperiment",
-        "SummarizedExperiment",
-        "phyloseq"
+        "SummarizedExperiment"
     ],
     "sRACIPE": [
         "SummarizedExperiment"
