@@ -3457,7 +3457,6 @@
     ],
     "CONFESS": [
         "SamSPECTRAL",
-        "flowClust",
         "flowMerge"
     ],
     "consensusDE": [
@@ -4043,7 +4042,6 @@
     "cyanoFilter": [
         "DelayedArray",
         "S4Arrays",
-        "flowClust",
         "flowDensity",
         "flowWorkspace",
         "ncdfFlow"
@@ -4111,7 +4109,6 @@
     "CytoML": [
         "DelayedArray",
         "S4Arrays",
-        "flowClust",
         "flowWorkspace",
         "ggcyto",
         "ncdfFlow",
@@ -6149,7 +6146,6 @@
         "flowFP"
     ],
     "flowCHIC": [],
-    "flowClust": [],
     "flowCut": [
         "DelayedArray",
         "S4Arrays",
@@ -6171,18 +6167,14 @@
         "ggcyto",
         "ncdfFlow"
     ],
-    "flowMerge": [
-        "flowClust"
-    ],
+    "flowMerge": [],
     "flowStats": [
         "DelayedArray",
         "S4Arrays",
         "flowWorkspace",
         "ncdfFlow"
     ],
-    "flowTrans": [
-        "flowClust"
-    ],
+    "flowTrans": [],
     "flowVS": [
         "DelayedArray",
         "S4Arrays",
@@ -11303,7 +11295,6 @@
     "openCyto": [
         "DelayedArray",
         "S4Arrays",
-        "flowClust",
         "flowWorkspace",
         "ncdfFlow"
     ],
