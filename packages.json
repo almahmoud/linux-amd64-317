@@ -37,8 +37,7 @@
         "annotate",
         "genefilter",
         "snapCGH",
-        "tilingArray",
-        "vsn"
+        "tilingArray"
     ],
     "ADAM": [
         "AnnotationDbi",
@@ -734,8 +733,7 @@
         "annotate",
         "beadarray",
         "gcrma",
-        "genefilter",
-        "vsn"
+        "genefilter"
     ],
     "artMS": [
         "AnnotationDbi",
@@ -1050,8 +1048,7 @@
         "annotate",
         "biomaRt",
         "genefilter",
-        "pRoloc",
-        "vsn"
+        "pRoloc"
     ],
     "barcodetrackR": [
         "DelayedArray",
@@ -1714,8 +1711,7 @@
         "annotate",
         "epiNEM",
         "genefilter",
-        "sva",
-        "vsn"
+        "sva"
     ],
     "BOBaFIT": [
         "AnnotationDbi",
@@ -2085,7 +2081,6 @@
         "S4Arrays",
         "SummarizedExperiment",
         "XVector",
-        "vsn",
         "xcms"
     ],
     "canceR": [
@@ -2347,8 +2342,7 @@
         "KEGGREST",
         "XVector",
         "annotate",
-        "genefilter",
-        "vsn"
+        "genefilter"
     ],
     "CelliD": [
         "BiocSingular",
@@ -3017,12 +3011,10 @@
         "S4Arrays",
         "SummarizedExperiment",
         "XVector",
-        "vsn",
         "xcms"
     ],
     "CluMSID": [
-        "MSnbase",
-        "vsn"
+        "MSnbase"
     ],
     "clusterExperiment": [
         "AnnotationDbi",
@@ -3646,7 +3638,6 @@
         "S4Arrays",
         "SummarizedExperiment",
         "XVector",
-        "vsn",
         "xcms"
     ],
     "cosmosR": [
@@ -4210,8 +4201,7 @@
         "sva"
     ],
     "DAPAR": [
-        "MSnbase",
-        "vsn"
+        "MSnbase"
     ],
     "dasper": [
         "AnnotationDbi",
@@ -4465,8 +4455,7 @@
         "MSnbase",
         "S4Arrays",
         "SummarizedExperiment",
-        "XVector",
-        "vsn"
+        "XVector"
     ],
     "derfinder": [
         "AnnotationDbi",
@@ -4932,9 +4921,7 @@
         "genefilter",
         "sva"
     ],
-    "Doscheda": [
-        "vsn"
-    ],
+    "Doscheda": [],
     "DOSE": [
         "AnnotationDbi",
         "Biostrings",
@@ -6090,7 +6077,6 @@
         "S4Arrays",
         "SummarizedExperiment",
         "XVector",
-        "vsn",
         "xcms"
     ],
     "FLAMES": [
@@ -6786,8 +6772,7 @@
         "annotate",
         "biomaRt",
         "cellHTS2",
-        "genefilter",
-        "vsn"
+        "genefilter"
     ],
     "getDEE2": [
         "DelayedArray",
@@ -8059,7 +8044,6 @@
         "S4Arrays",
         "SummarizedExperiment",
         "XVector",
-        "vsn",
         "xcms"
     ],
     "IRISFGM": [
@@ -8442,7 +8426,6 @@
         "S4Arrays",
         "SummarizedExperiment",
         "XVector",
-        "vsn",
         "xcms"
     ],
     "loci2path": [
@@ -8660,7 +8643,6 @@
         "S4Arrays",
         "SummarizedExperiment",
         "XVector",
-        "vsn",
         "xcms"
     ],
     "maPredictDSC": [
@@ -8761,8 +8743,7 @@
         "S4Arrays",
         "SummarizedExperiment",
         "XVector",
-        "proDA",
-        "vsn"
+        "proDA"
     ],
     "MatrixRider": [
         "AnnotationDbi",
@@ -9043,7 +9024,6 @@
         "S4Arrays",
         "SummarizedExperiment",
         "XVector",
-        "vsn",
         "xcms"
     ],
     "MetaboAnnotation": [
@@ -9136,7 +9116,6 @@
         "S4Arrays",
         "SummarizedExperiment",
         "XVector",
-        "vsn",
         "xcms"
     ],
     "MetaNeighbor": [
@@ -9964,7 +9943,6 @@
         "Spectra",
         "SummarizedExperiment",
         "XVector",
-        "vsn",
         "xcms"
     ],
     "MODA": [
@@ -10301,17 +10279,13 @@
         "XVector"
     ],
     "msmsEDA": [
-        "MSnbase",
-        "vsn"
+        "MSnbase"
     ],
     "msmsTests": [
         "MSnbase",
-        "msmsEDA",
-        "vsn"
+        "msmsEDA"
     ],
-    "MSnbase": [
-        "vsn"
-    ],
+    "MSnbase": [],
     "MSnID": [
         "AnnotationDbi",
         "AnnotationHub",
@@ -10321,8 +10295,7 @@
         "MSnbase",
         "XVector",
         "msmsEDA",
-        "msmsTests",
-        "vsn"
+        "msmsTests"
     ],
     "MSPrep": [
         "AnnotationDbi",
@@ -10375,13 +10348,11 @@
         "XVector"
     ],
     "MSstatsQC": [
-        "MSnbase",
-        "vsn"
+        "MSnbase"
     ],
     "MSstatsQCgui": [
         "MSnbase",
-        "MSstatsQC",
-        "vsn"
+        "MSstatsQC"
     ],
     "MSstatsShiny": [
         "Biostrings",
@@ -10762,7 +10733,6 @@
         "S4Arrays",
         "SummarizedExperiment",
         "XVector",
-        "vsn",
         "xcms"
     ],
     "NCIgraph": [],
@@ -10945,8 +10915,7 @@
         "GenomicRanges",
         "S4Arrays",
         "SummarizedExperiment",
-        "XVector",
-        "vsn"
+        "XVector"
     ],
     "normr": [
         "Biostrings",
@@ -11418,8 +11387,7 @@
         "annotate",
         "biomaRt",
         "genefilter",
-        "rtracklayer",
-        "vsn"
+        "rtracklayer"
     ],
     "OVESEG": [
         "DelayedArray",
@@ -11642,8 +11610,7 @@
         "ncdfFlow"
     ],
     "peakPantheR": [
-        "MSnbase",
-        "vsn"
+        "MSnbase"
     ],
     "PECA": [
         "AnnotationDbi",
@@ -12089,8 +12056,7 @@
         "rtracklayer"
     ],
     "PrInCE": [
-        "MSnbase",
-        "vsn"
+        "MSnbase"
     ],
     "proActiv": [
         "AnnotationDbi",
@@ -12193,8 +12159,7 @@
         "XVector",
         "annotate",
         "biomaRt",
-        "genefilter",
-        "vsn"
+        "genefilter"
     ],
     "pRolocGUI": [
         "AnnotationDbi",
@@ -12211,8 +12176,7 @@
         "annotate",
         "biomaRt",
         "genefilter",
-        "pRoloc",
-        "vsn"
+        "pRoloc"
     ],
     "PROMISE": [
         "AnnotationDbi",
@@ -12235,8 +12199,7 @@
     ],
     "Prostar": [
         "DAPAR",
-        "MSnbase",
-        "vsn"
+        "MSnbase"
     ],
     "proteasy": [
         "AnnotationDbi",
@@ -12292,8 +12255,7 @@
         "KEGGREST",
         "XVector",
         "annotate",
-        "genefilter",
-        "vsn"
+        "genefilter"
     ],
     "psichomics": [
         "AnnotationDbi",
@@ -12341,8 +12303,7 @@
         "topGO"
     ],
     "ptairMS": [
-        "MSnbase",
-        "vsn"
+        "MSnbase"
     ],
     "puma": [
         "Biostrings",
@@ -12373,9 +12334,7 @@
         "biomaRt",
         "rtracklayer"
     ],
-    "pvca": [
-        "vsn"
-    ],
+    "pvca": [],
     "Pviz": [
         "AnnotationDbi",
         "AnnotationFilter",
@@ -12470,8 +12429,7 @@
         "Biostrings",
         "GenomeInfoDb",
         "MSnbase",
-        "XVector",
-        "vsn"
+        "XVector"
     ],
     "qsea": [
         "BSgenome",
@@ -13051,8 +13009,7 @@
         "XVector",
         "annotate",
         "genefilter",
-        "rtracklayer",
-        "vsn"
+        "rtracklayer"
     ],
     "ReportingTools": [
         "AnnotationDbi",
@@ -13376,8 +13333,7 @@
         "KEGGREST",
         "XVector",
         "annotate",
-        "genefilter",
-        "vsn"
+        "genefilter"
     ],
     "RIPAT": [
         "AnnotationDbi",
@@ -13413,7 +13369,6 @@
         "SummarizedExperiment",
         "XVector",
         "biocViews",
-        "vsn",
         "xcms"
     ],
     "RITAN": [
@@ -13471,8 +13426,7 @@
         "rtracklayer"
     ],
     "RMassBank": [
-        "MSnbase",
-        "vsn"
+        "MSnbase"
     ],
     "Rmmquant": [
         "AnnotationDbi",
@@ -13555,8 +13509,7 @@
         "annotate",
         "cellHTS2",
         "genefilter",
-        "geneplotter",
-        "vsn"
+        "geneplotter"
     ],
     "RNAmodR": [
         "AnnotationDbi",
@@ -15161,8 +15114,7 @@
         "Ringo",
         "XVector",
         "annotate",
-        "genefilter",
-        "vsn"
+        "genefilter"
     ],
     "SimBu": [
         "Biostrings",
@@ -15457,8 +15409,7 @@
         "XVector",
         "annotate",
         "genefilter",
-        "tilingArray",
-        "vsn"
+        "tilingArray"
     ],
     "snapcount": [
         "DelayedArray",
@@ -16014,8 +15965,7 @@
         "XVector",
         "annotate",
         "cellHTS2",
-        "genefilter",
-        "vsn"
+        "genefilter"
     ],
     "StarBioTrek": [
         "AnnotationDbi",
@@ -16237,8 +16187,7 @@
         "GenomeInfoDb",
         "MSnbase",
         "XVector",
-        "cleaver",
-        "vsn"
+        "cleaver"
     ],
     "SynExtend": [
         "Biostrings",
@@ -16584,8 +16533,7 @@
         "KEGGREST",
         "XVector",
         "annotate",
-        "genefilter",
-        "vsn"
+        "genefilter"
     ],
     "TimiRGeN": [
         "AnnotationDbi",
@@ -16721,8 +16669,7 @@
         "Biostrings",
         "GenomeInfoDb",
         "MSnbase",
-        "XVector",
-        "vsn"
+        "XVector"
     ],
     "topGO": [
         "AnnotationDbi",
@@ -17474,7 +17421,6 @@
         "SummarizedExperiment",
         "XVector"
     ],
-    "vsn": [],
     "vtpnet": [
         "AnnotationDbi",
         "AnnotationHub",
@@ -17580,8 +17526,7 @@
         "KEGGREST",
         "XVector",
         "annaffy",
-        "gcrma",
-        "vsn"
+        "gcrma"
     ],
     "weitrix": [
         "DelayedArray",
@@ -17620,8 +17565,7 @@
         "MsFeatures",
         "S4Arrays",
         "SummarizedExperiment",
-        "XVector",
-        "vsn"
+        "XVector"
     ],
     "xcore": [
         "DelayedArray",
