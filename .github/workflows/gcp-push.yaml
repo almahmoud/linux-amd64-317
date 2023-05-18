@@ -46,6 +46,7 @@ jobs:
         uses: nick-fields/retry@v2
         env:
             RCLONE_CONF: ${{secrets.RCLONE_CONF}}
+            GCP_SA: ${{secrets.GCP_SA}}
         with:
           timeout_minutes: 20
           max_attempts: 10
@@ -54,6 +55,7 @@ jobs:
             set -xe
             sudo -v ; curl https://rclone.org/install.sh | sudo bash || true
             echo "$RCLONE_CONF" > ~/.rclone.conf
+            echo "$GCP_SA" > /tmp/gcs
             if ! command -v rclone &> /dev/null
             then
                 echo "rclone could not be found"
