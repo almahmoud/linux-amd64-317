@@ -478,7 +478,6 @@
         "methylPipe"
     ],
     "condiments": [
-        "TrajectoryUtils",
         "distinct",
         "scater",
         "slingshot"
@@ -845,8 +844,7 @@
     ],
     "FEAST": [
         "SC3",
-        "TSCAN",
-        "TrajectoryUtils"
+        "TSCAN"
     ],
     "FeatSeekR": [],
     "ffpe": [
@@ -1915,7 +1913,6 @@
     "scran": [],
     "scRepertoire": [],
     "scRNAseqApp": [
-        "TrajectoryUtils",
         "slingshot"
     ],
     "scruff": [
@@ -1998,7 +1995,6 @@
     "singleCellTK": [
         "DropletUtils",
         "TSCAN",
-        "TrajectoryUtils",
         "batchelor",
         "celda",
         "ensembldb",
@@ -2026,9 +2022,7 @@
         "wateRmelon"
     ],
     "slalom": [],
-    "slingshot": [
-        "TrajectoryUtils"
-    ],
+    "slingshot": [],
     "SMITE": [],
     "snapCGH": [],
     "SNPhood": [
@@ -2204,10 +2198,8 @@
         "ensembldb"
     ],
     "tradeSeq": [
-        "TrajectoryUtils",
         "slingshot"
     ],
-    "TrajectoryUtils": [],
     "transcriptogramer": [],
     "transcriptR": [
         "chipseq"
@@ -2216,7 +2208,6 @@
     "tRanslatome": [],
     "traseR": [],
     "traviz": [
-        "TrajectoryUtils",
         "slingshot"
     ],
     "treekoR": [],
@@ -2236,9 +2227,7 @@
     "tRNAscanImport": [
         "tRNA"
     ],
-    "TSCAN": [
-        "TrajectoryUtils"
-    ],
+    "TSCAN": [],
     "tscR": [],
     "TVTB": [
         "Gviz",
