@@ -1,0 +1,91 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE); p <- .libPaths(); p <- c('\''/tmp/tmp/built'\'', p); .libPaths(p); if(BiocManager::install('\''sampleClassifier'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://packagemanager.posit.co/cran/__linux__/jammy/latest
+Bioconductor version 3.17 (BiocManager 1.30.20), R 4.3.0 (2023-04-21)
+Installing package(s) 'sampleClassifier'
+also installing the dependencies ‘sampleClassifierData’, ‘hgu133plus2.db’
+
+trying URL 'https://bioconductor.org/packages/3.17/data/experiment/src/contrib/sampleClassifierData_1.24.0.tar.gz'
+Content type 'application/x-gzip' length 16265978 bytes (15.5 MB)
+==================================================
+downloaded 15.5 MB
+
+trying URL 'https://bioconductor.org/packages/3.17/data/annotation/src/contrib/hgu133plus2.db_3.13.0.tar.gz'
+Content type 'application/x-gzip' length 2240377 bytes (2.1 MB)
+==================================================
+downloaded 2.1 MB
+
+trying URL 'https://bioconductor.org/packages/3.17/bioc/src/contrib/sampleClassifier_1.24.0.tar.gz'
+Content type 'application/x-gzip' length 242513 bytes (236 KB)
+==================================================
+downloaded 236 KB
+
+* installing *source* package ‘sampleClassifierData’ ...
+** using staged installation
+** data
+** inst
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘sampleClassifierData’ as ‘sampleClassifierData_1.24.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (sampleClassifierData)
+* installing *source* package ‘hgu133plus2.db’ ...
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘hgu133plus2.db’ as ‘hgu133plus2.db_3.13.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (hgu133plus2.db)
+* installing *source* package ‘sampleClassifier’ ...
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘sampleClassifier’ as ‘sampleClassifier_1.24.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (sampleClassifier)
+
+The downloaded source packages are in
+	‘/tmp/RtmpmQtqKs/downloaded_packages’
+Old packages: 'BiocParallel', 'Biostrings', 'crul', 'DelayedArray', 'cachem',
+  'evaluate', 'httpuv', 'httr', 'httr2', 'knitr', 'later', 'profvis', 'sass',
+  'sys', 'testthat', 'waldo', 'class', 'KernSmooth', 'MASS', 'Matrix', 'nnet'
+
+real	0m45.900s
+user	0m41.425s
+sys	0m3.100s
+* installing *source* package ‘sampleClassifierData’ ...
+** using staged installation
+** data
+** inst
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘sampleClassifierData’ as ‘sampleClassifierData_1.24.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (sampleClassifierData)
