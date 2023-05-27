@@ -1,0 +1,868 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE); p <- .libPaths(); p <- c('\''/tmp/tmp/built'\'', p); .libPaths(p); if(BiocManager::install('\''ChIPpeakAnno'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://packagemanager.posit.co/cran/__linux__/jammy/latest
+Bioconductor version 3.17 (BiocManager 1.30.20), R 4.3.0 (2023-04-21)
+Installing package(s) 'ChIPpeakAnno'
+also installing the dependencies ‘vroom’, ‘tzdb’, ‘pracma’, ‘R.oo’, ‘R.methodsS3’, ‘readr’, ‘poweRlaw’, ‘R.utils’, ‘pixmap’, ‘sp’, ‘rhdf5filters’, ‘CNEr’, ‘DirichletMultinomial’, ‘seqLogo’, ‘TFMPvalue’, ‘ade4’, ‘segmented’, ‘gtools’, ‘caTools’, ‘grImport’, ‘plotrix’, ‘rhdf5’, ‘strawr’, ‘TFBSTools’, ‘VennDiagram’, ‘reactome.db’, ‘BSgenome.Ecoli.NCBI.20080805’, ‘org.Ce.eg.db’, ‘BSgenome.Celegans.UCSC.ce10’, ‘BSgenome.Drerio.UCSC.danRer7’, ‘BSgenome.Hsapiens.UCSC.hg38’, ‘idr’, ‘seqinr’, ‘EnsDb.Hsapiens.v75’, ‘EnsDb.Hsapiens.v79’, ‘GO.db’, ‘gplots’, ‘UpSetR’, ‘trackViewer’, ‘motifStack’
+
+trying URL 'https://packagemanager.posit.co/cran/__linux__/jammy/latest/src/contrib/vroom_1.6.3.tar.gz'
+Content type 'binary/octet-stream' length 963782 bytes (941 KB)
+==================================================
+downloaded 941 KB
+
+trying URL 'https://packagemanager.posit.co/cran/__linux__/jammy/latest/src/contrib/tzdb_0.4.0.tar.gz'
+Content type 'binary/octet-stream' length 646709 bytes (631 KB)
+==================================================
+downloaded 631 KB
+
+trying URL 'https://packagemanager.posit.co/cran/__linux__/jammy/latest/src/contrib/pracma_2.4.2.tar.gz'
+Content type 'binary/octet-stream' length 1722874 bytes (1.6 MB)
+==================================================
+downloaded 1.6 MB
+
+trying URL 'https://packagemanager.posit.co/cran/__linux__/jammy/latest/src/contrib/R.oo_1.25.0.tar.gz'
+Content type 'binary/octet-stream' length 963511 bytes (940 KB)
+==================================================
+downloaded 940 KB
+
+trying URL 'https://packagemanager.posit.co/cran/__linux__/jammy/latest/src/contrib/R.methodsS3_1.8.2.tar.gz'
+Content type 'binary/octet-stream' length 80219 bytes (78 KB)
+==================================================
+downloaded 78 KB
+
+trying URL 'https://packagemanager.posit.co/cran/__linux__/jammy/latest/src/contrib/readr_2.1.4.tar.gz'
+Content type 'binary/octet-stream' length 864211 bytes (843 KB)
+==================================================
+downloaded 843 KB
+
+trying URL 'https://packagemanager.posit.co/cran/__linux__/jammy/latest/src/contrib/poweRlaw_0.70.6.tar.gz'
+Content type 'binary/octet-stream' length 3228450 bytes (3.1 MB)
+==================================================
+downloaded 3.1 MB
+
+trying URL 'https://packagemanager.posit.co/cran/__linux__/jammy/latest/src/contrib/R.utils_2.12.2.tar.gz'
+Content type 'binary/octet-stream' length 1401342 bytes (1.3 MB)
+==================================================
+downloaded 1.3 MB
+
+trying URL 'https://packagemanager.posit.co/cran/__linux__/jammy/latest/src/contrib/pixmap_0.4-12.tar.gz'
+Content type 'binary/octet-stream' length 207037 bytes (202 KB)
+==================================================
+downloaded 202 KB
+
+trying URL 'https://packagemanager.posit.co/cran/__linux__/jammy/latest/src/contrib/sp_1.6-0.tar.gz'
+Content type 'binary/octet-stream' length 1852786 bytes (1.8 MB)
+==================================================
+downloaded 1.8 MB
+
+trying URL 'https://bioconductor.org/packages/3.17/bioc/src/contrib/rhdf5filters_1.12.1.tar.gz'
+Content type 'application/x-gzip' length 1174259 bytes (1.1 MB)
+==================================================
+downloaded 1.1 MB
+
+trying URL 'https://bioconductor.org/packages/3.17/bioc/src/contrib/CNEr_1.36.0.tar.gz'
+Content type 'application/x-gzip' length 9935368 bytes (9.5 MB)
+==================================================
+downloaded 9.5 MB
+
+trying URL 'https://bioconductor.org/packages/3.17/bioc/src/contrib/DirichletMultinomial_1.42.0.tar.gz'
+Content type 'application/x-gzip' length 438338 bytes (428 KB)
+==================================================
+downloaded 428 KB
+
+trying URL 'https://bioconductor.org/packages/3.17/bioc/src/contrib/seqLogo_1.66.0.tar.gz'
+Content type 'application/x-gzip' length 906177 bytes (884 KB)
+==================================================
+downloaded 884 KB
+
+trying URL 'https://packagemanager.posit.co/cran/__linux__/jammy/latest/src/contrib/TFMPvalue_0.0.9.tar.gz'
+Content type 'binary/octet-stream' length 56809 bytes (55 KB)
+==================================================
+downloaded 55 KB
+
+trying URL 'https://packagemanager.posit.co/cran/__linux__/jammy/latest/src/contrib/ade4_1.7-22.tar.gz'
+Content type 'binary/octet-stream' length 5397091 bytes (5.1 MB)
+==================================================
+downloaded 5.1 MB
+
+trying URL 'https://packagemanager.posit.co/cran/__linux__/jammy/latest/src/contrib/segmented_1.6-4.tar.gz'
+Content type 'binary/octet-stream' length 779678 bytes (761 KB)
+==================================================
+downloaded 761 KB
+
+trying URL 'https://packagemanager.posit.co/cran/__linux__/jammy/latest/src/contrib/gtools_3.9.4.tar.gz'
+Content type 'binary/octet-stream' length 353531 bytes (345 KB)
+==================================================
+downloaded 345 KB
+
+trying URL 'https://packagemanager.posit.co/cran/__linux__/jammy/latest/src/contrib/caTools_1.18.2.tar.gz'
+Content type 'binary/octet-stream' length 199662 bytes (194 KB)
+==================================================
+downloaded 194 KB
+
+trying URL 'https://packagemanager.posit.co/cran/__linux__/jammy/latest/src/contrib/grImport_0.9-7.tar.gz'
+Content type 'binary/octet-stream' length 902924 bytes (881 KB)
+==================================================
+downloaded 881 KB
+
+trying URL 'https://packagemanager.posit.co/cran/__linux__/jammy/latest/src/contrib/plotrix_3.8-2.tar.gz'
+Content type 'binary/octet-stream' length 1137799 bytes (1.1 MB)
+==================================================
+downloaded 1.1 MB
+
+trying URL 'https://bioconductor.org/packages/3.17/bioc/src/contrib/rhdf5_2.44.0.tar.gz'
+Content type 'application/x-gzip' length 1249545 bytes (1.2 MB)
+==================================================
+downloaded 1.2 MB
+
+trying URL 'https://packagemanager.posit.co/cran/__linux__/jammy/latest/src/contrib/strawr_0.0.91.tar.gz'
+Content type 'binary/octet-stream' length 827420 bytes (808 KB)
+==================================================
+downloaded 808 KB
+
+trying URL 'https://bioconductor.org/packages/3.17/bioc/src/contrib/TFBSTools_1.38.0.tar.gz'
+Content type 'application/x-gzip' length 587068 bytes (573 KB)
+==================================================
+downloaded 573 KB
+
+trying URL 'https://packagemanager.posit.co/cran/__linux__/jammy/latest/src/contrib/VennDiagram_1.7.3.tar.gz'
+Content type 'binary/octet-stream' length 248106 bytes (242 KB)
+==================================================
+downloaded 242 KB
+
+trying URL 'https://bioconductor.org/packages/3.17/data/annotation/src/contrib/reactome.db_1.84.0.tar.gz'
+Content type 'application/x-gzip' length 451952243 bytes (431.0 MB)
+==================================================
+downloaded 431.0 MB
+
+trying URL 'https://bioconductor.org/packages/3.17/data/annotation/src/contrib/BSgenome.Ecoli.NCBI.20080805_1.3.1000.tar.gz'
+Content type 'application/x-gzip' length 18841098 bytes (18.0 MB)
+==================================================
+downloaded 18.0 MB
+
+trying URL 'https://bioconductor.org/packages/3.17/data/annotation/src/contrib/org.Ce.eg.db_3.17.0.tar.gz'
+Content type 'application/x-gzip' length 20347924 bytes (19.4 MB)
+==================================================
+downloaded 19.4 MB
+
+trying URL 'https://bioconductor.org/packages/3.17/data/annotation/src/contrib/BSgenome.Celegans.UCSC.ce10_1.4.0.tar.gz'
+Content type 'application/x-gzip' length 23653186 bytes (22.6 MB)
+==================================================
+downloaded 22.6 MB
+
+trying URL 'https://bioconductor.org/packages/3.17/data/annotation/src/contrib/BSgenome.Drerio.UCSC.danRer7_1.4.0.tar.gz'
+Content type 'application/x-gzip' length 330303588 bytes (315.0 MB)
+==================================================
+downloaded 315.0 MB
+
+trying URL 'https://bioconductor.org/packages/3.17/data/annotation/src/contrib/BSgenome.Hsapiens.UCSC.hg38_1.4.5.tar.gz'
+Content type 'application/x-gzip' length 731245539 bytes (697.4 MB)
+==================================================
+downloaded 697.4 MB
+
+trying URL 'https://packagemanager.posit.co/cran/__linux__/jammy/latest/src/contrib/idr_1.3.tar.gz'
+Content type 'binary/octet-stream' length 69245 bytes (67 KB)
+==================================================
+downloaded 67 KB
+
+trying URL 'https://packagemanager.posit.co/cran/__linux__/jammy/latest/src/contrib/seqinr_4.2-30.tar.gz'
+Content type 'binary/octet-stream' length 4129203 bytes (3.9 MB)
+==================================================
+downloaded 3.9 MB
+
+trying URL 'https://bioconductor.org/packages/3.17/data/annotation/src/contrib/EnsDb.Hsapiens.v75_2.99.0.tar.gz'
+Content type 'application/x-gzip' length 79029669 bytes (75.4 MB)
+==================================================
+downloaded 75.4 MB
+
+trying URL 'https://bioconductor.org/packages/3.17/data/annotation/src/contrib/EnsDb.Hsapiens.v79_2.99.0.tar.gz'
+Content type 'application/x-gzip' length 76035973 bytes (72.5 MB)
+==================================================
+downloaded 72.5 MB
+
+trying URL 'https://bioconductor.org/packages/3.17/data/annotation/src/contrib/GO.db_3.17.0.tar.gz'
+Content type 'application/x-gzip' length 29245567 bytes (27.9 MB)
+==================================================
+downloaded 27.9 MB
+
+trying URL 'https://packagemanager.posit.co/cran/__linux__/jammy/latest/src/contrib/gplots_3.1.3.tar.gz'
+Content type 'binary/octet-stream' length 594720 bytes (580 KB)
+==================================================
+downloaded 580 KB
+
+trying URL 'https://packagemanager.posit.co/cran/__linux__/jammy/latest/src/contrib/UpSetR_1.4.0.tar.gz'
+Content type 'binary/octet-stream' length 4296547 bytes (4.1 MB)
+==================================================
+downloaded 4.1 MB
+
+trying URL 'https://bioconductor.org/packages/3.17/bioc/src/contrib/trackViewer_1.36.2.tar.gz'
+Content type 'application/x-gzip' length 9058371 bytes (8.6 MB)
+==================================================
+downloaded 8.6 MB
+
+trying URL 'https://bioconductor.org/packages/3.17/bioc/src/contrib/motifStack_1.44.1.tar.gz'
+Content type 'application/x-gzip' length 1912731 bytes (1.8 MB)
+==================================================
+downloaded 1.8 MB
+
+trying URL 'https://bioconductor.org/packages/3.17/bioc/src/contrib/ChIPpeakAnno_3.34.1.tar.gz'
+Content type 'application/x-gzip' length 19312328 bytes (18.4 MB)
+==================================================
+downloaded 18.4 MB
+
+* installing *binary* package ‘tzdb’ ...
+* ‘tzdb’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘tzdb’ as ‘tzdb_0.4.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (tzdb)
+* installing *binary* package ‘pracma’ ...
+* ‘pracma’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘pracma’ as ‘pracma_2.4.2_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (pracma)
+* installing *binary* package ‘R.methodsS3’ ...
+* ‘R.methodsS3’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘R.methodsS3’ as ‘R.methodsS3_1.8.2_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (R.methodsS3)
+* installing *binary* package ‘pixmap’ ...
+* ‘pixmap’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘pixmap’ as ‘pixmap_0.4-12_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (pixmap)
+* installing *binary* package ‘sp’ ...
+* ‘sp’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘sp’ as ‘sp_1.6-0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (sp)
+* installing *source* package ‘rhdf5filters’ ...
+** using staged installation
+configuring the BLOSC filter...
+x86_CPU=true
+checking for gcc... gcc
+checking whether the C compiler works... yes
+checking for C compiler default output file name... a.out
+checking for suffix of executables... 
+checking whether we are cross compiling... no
+checking for suffix of object files... o
+checking whether the compiler supports GNU C... yes
+checking whether gcc accepts -g... yes
+checking for gcc option to enable C11 features... none needed
+checking whether C compiler accepts -msse2... yes
+checking whether C compiler accepts -mavx2... yes
+checking for gcc __builtin_cpu_init function... (cached) true
+checking for x86 sse2 instruction support... yes
+checking for x86 avx2 instruction support... yes
+configure: creating ./config.status
+config.status: creating src/blosc/lib/blosc-1.20.1/Makefile
+config.status: creating src/blosc/Makefile
+configure:    BZIP2_LIB=bzip2/libH5Zbz2.so
+configure:    BLOSC_LIB=blosc/libH5Zblosc.so
+configure:    LZF_LIB=lzf/libH5Zlzf.so
+configure:    ZSTD_LIB=zstd/libH5Zzstd.so
+configure: creating ./config.status
+config.status: creating src/blosc/lib/blosc-1.20.1/Makefile
+config.status: creating src/blosc/Makefile
+config.status: creating src/Makevars
+** libs
+using C compiler: ‘gcc (Ubuntu 11.3.0-1ubuntu1~22.04) 11.3.0’
+make -C zstd
+make[1]: Entering directory '/tmp/Rtmp4grrrn/R.INSTALL67d35293e3f/rhdf5filters/src/zstd'
+gcc -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g -fpic -I. -I./common -DXXH_NAMESPACE=ZSTD_ -DZSTD_DISABLE_ASM -c common/debug.c -o common/debug.o
+gcc -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g -fpic -I. -I./common -DXXH_NAMESPACE=ZSTD_ -DZSTD_DISABLE_ASM -c common/entropy_common.c -o common/entropy_common.o
+gcc -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g -fpic -I. -I./common -DXXH_NAMESPACE=ZSTD_ -DZSTD_DISABLE_ASM -c common/error_private.c -o common/error_private.o
+gcc -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g -fpic -I. -I./common -DXXH_NAMESPACE=ZSTD_ -DZSTD_DISABLE_ASM -c common/fse_decompress.c -o common/fse_decompress.o
+gcc -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g -fpic -I. -I./common -DXXH_NAMESPACE=ZSTD_ -DZSTD_DISABLE_ASM -c common/pool.c -o common/pool.o -o common/pool.o
+gcc -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g -fpic -I. -I./common -DXXH_NAMESPACE=ZSTD_ -DZSTD_DISABLE_ASM -c common/threading.c -o common/threading.o
+gcc -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g -fpic -I. -I./common -DXXH_NAMESPACE=ZSTD_ -DZSTD_DISABLE_ASM -c common/xxhash.c -o common/xxhash.o
+gcc -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g -fpic -I. -I./common -DXXH_NAMESPACE=ZSTD_ -DZSTD_DISABLE_ASM -c common/zstd_common.c -o common/zstd_common.o
+gcc -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g -fpic -I. -I./common -DXXH_NAMESPACE=ZSTD_ -DZSTD_DISABLE_ASM -c compress/fse_compress.c -o compress/fse_compress.o
+gcc -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g -fpic -I. -I./common -DXXH_NAMESPACE=ZSTD_ -DZSTD_DISABLE_ASM -c compress/hist.c -o compress/hist.o
+gcc -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g -fpic -I. -I./common -DXXH_NAMESPACE=ZSTD_ -DZSTD_DISABLE_ASM -c compress/huf_compress.c -o compress/huf_compress.o
+gcc -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g -fpic -I. -I./common -DXXH_NAMESPACE=ZSTD_ -DZSTD_DISABLE_ASM -c compress/zstd_compress.c -o compress/zstd_compress.o
+gcc -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g -fpic -I. -I./common -DXXH_NAMESPACE=ZSTD_ -DZSTD_DISABLE_ASM -c compress/zstd_compress_literals.c -o compress/zstd_compress_literals.o
+gcc -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g -fpic -I. -I./common -DXXH_NAMESPACE=ZSTD_ -DZSTD_DISABLE_ASM -c compress/zstd_compress_sequences.c -o compress/zstd_compress_sequences.o
+gcc -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g -fpic -I. -I./common -DXXH_NAMESPACE=ZSTD_ -DZSTD_DISABLE_ASM -c compress/zstd_compress_superblock.c -o compress/zstd_compress_superblock.o
+gcc -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g -fpic -I. -I./common -DXXH_NAMESPACE=ZSTD_ -DZSTD_DISABLE_ASM -c compress/zstd_double_fast.c -o compress/zstd_double_fast.o
+gcc -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g -fpic -I. -I./common -DXXH_NAMESPACE=ZSTD_ -DZSTD_DISABLE_ASM -c compress/zstd_fast.c -o compress/zstd_fast.o
+gcc -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g -fpic -I. -I./common -DXXH_NAMESPACE=ZSTD_ -DZSTD_DISABLE_ASM -c compress/zstd_lazy.c -o compress/zstd_lazy.o
+gcc -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g -fpic -I. -I./common -DXXH_NAMESPACE=ZSTD_ -DZSTD_DISABLE_ASM -c compress/zstd_ldm.c -o compress/zstd_ldm.o
+gcc -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g -fpic -I. -I./common -DXXH_NAMESPACE=ZSTD_ -DZSTD_DISABLE_ASM -c compress/zstd_opt.c -o compress/zstd_opt.o
+gcc -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g -fpic -I. -I./common -DXXH_NAMESPACE=ZSTD_ -DZSTD_DISABLE_ASM -c compress/zstdmt_compress.c -o compress/zstdmt_compress.o
+gcc -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g -fpic -I. -I./common -DXXH_NAMESPACE=ZSTD_ -DZSTD_DISABLE_ASM -c decompress/huf_decompress.c -o decompress/huf_decompress.o
+gcc -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g -fpic -I. -I./common -DXXH_NAMESPACE=ZSTD_ -DZSTD_DISABLE_ASM -c decompress/zstd_ddict.c -o decompress/zstd_ddict.o
+gcc -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g -fpic -I. -I./common -DXXH_NAMESPACE=ZSTD_ -DZSTD_DISABLE_ASM -c decompress/zstd_decompress.c -o decompress/zstd_decompress.o
+gcc -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g -fpic -I. -I./common -DXXH_NAMESPACE=ZSTD_ -DZSTD_DISABLE_ASM -c decompress/zstd_decompress_block.c -o decompress/zstd_decompress_block.o
+rm -f libzstd.a
+ar cq libzstd.a common/debug.o common/entropy_common.o common/error_private.o common/fse_decompress.o common/pool.o common/threading.o common/xxhash.o common/zstd_common.o compress/fse_compress.o compress/hist.o compress/huf_compress.o compress/zstd_compress.o compress/zstd_compress_literals.o compress/zstd_compress_sequences.o compress/zstd_compress_superblock.o compress/zstd_double_fast.o compress/zstd_fast.o compress/zstd_lazy.o compress/zstd_ldm.o compress/zstd_opt.o compress/zstdmt_compress.o decompress/huf_decompress.o decompress/zstd_ddict.o decompress/zstd_decompress.o decompress/zstd_decompress_block.o
+ranlib libzstd.a
+gcc -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g -fpic -shared H5Zzstd.c -I/usr/local/include -I"/tmp/tmp/built/Rhdf5lib/include" \
+libzstd.a -L/usr/local/lib -o libH5Zzstd.so
+make[1]: Leaving directory '/tmp/Rtmp4grrrn/R.INSTALL67d35293e3f/rhdf5filters/src/zstd'
+make -C blosc
+make[1]: Entering directory '/tmp/Rtmp4grrrn/R.INSTALL67d35293e3f/rhdf5filters/src/blosc'
+make -C lib/snappy-1.1.1
+make[2]: Entering directory '/tmp/Rtmp4grrrn/R.INSTALL67d35293e3f/rhdf5filters/src/blosc/lib/snappy-1.1.1'
+g++ -std=gnu++17 -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g -fpic -I/usr/local/include -I"/tmp/tmp/built/Rhdf5lib/include" -c snappy.cc
+g++ -std=gnu++17 -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g -fpic -I/usr/local/include -I"/tmp/tmp/built/Rhdf5lib/include" -c snappy-c.cc
+g++ -std=gnu++17 -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g -fpic -I/usr/local/include -I"/tmp/tmp/built/Rhdf5lib/include" -c snappy-sinksource.cc
+g++ -std=gnu++17 -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g -fpic -I/usr/local/include -I"/tmp/tmp/built/Rhdf5lib/include" -c snappy-stubs-internal.cc
+make[2]: Leaving directory '/tmp/Rtmp4grrrn/R.INSTALL67d35293e3f/rhdf5filters/src/blosc/lib/snappy-1.1.1'
+make -C lib/lz4-1.9.4
+make[2]: Entering directory '/tmp/Rtmp4grrrn/R.INSTALL67d35293e3f/rhdf5filters/src/blosc/lib/lz4-1.9.4'
+gcc -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g -fpic -c lz4.c
+gcc -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g -fpic -c lz4hc.c
+make[2]: Leaving directory '/tmp/Rtmp4grrrn/R.INSTALL67d35293e3f/rhdf5filters/src/blosc/lib/lz4-1.9.4'
+make -C lib/blosc-1.20.1 all
+make[2]: Entering directory '/tmp/Rtmp4grrrn/R.INSTALL67d35293e3f/rhdf5filters/src/blosc/lib/blosc-1.20.1'
+gcc -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g -fpic -I/usr/local/include -I"/tmp/tmp/built/Rhdf5lib/include" -I../lz4-1.9.4 -I../snappy-1.1.1 -I../../../zstd -msse2 -mavx2 -c bitshuffle-avx2.c
+gcc -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g -fpic -I/usr/local/include -I"/tmp/tmp/built/Rhdf5lib/include" -I../lz4-1.9.4 -I../snappy-1.1.1 -I../../../zstd -msse2 -mavx2 -c shuffle-avx2.c
+gcc -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g -fpic -I/usr/local/include -I"/tmp/tmp/built/Rhdf5lib/include" -I../lz4-1.9.4 -I../snappy-1.1.1 -I../../../zstd -msse2 -mavx2 -c bitshuffle-sse2.c
+gcc -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g -fpic -I/usr/local/include -I"/tmp/tmp/built/Rhdf5lib/include" -I../lz4-1.9.4 -I../snappy-1.1.1 -I../../../zstd -msse2 -mavx2 -c shuffle-sse2.c
+gcc -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g -fpic -I/usr/local/include -I"/tmp/tmp/built/Rhdf5lib/include" -I../lz4-1.9.4 -I../snappy-1.1.1 -I../../../zstd -msse2 -mavx2 -c bitshuffle-generic.c
+gcc -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g -fpic -I/usr/local/include -I"/tmp/tmp/built/Rhdf5lib/include" -I../lz4-1.9.4 -I../snappy-1.1.1 -I../../../zstd -msse2 -mavx2 -c shuffle-generic.c
+gcc -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g -fpic -I/usr/local/include -I"/tmp/tmp/built/Rhdf5lib/include" -I../lz4-1.9.4 -I../snappy-1.1.1 -I../../../zstd -msse2 -mavx2 -DSHUFFLE_SSE2_ENABLED -DSHUFFLE_AVX2_ENABLED -c shuffle.c
+gcc -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g -fpic -I/usr/local/include -I"/tmp/tmp/built/Rhdf5lib/include" -I../lz4-1.9.4 -I../snappy-1.1.1 -I../../../zstd -msse2 -mavx2 -c blosclz.c
+gcc -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g -fpic -I/usr/local/include -I"/tmp/tmp/built/Rhdf5lib/include" -I../lz4-1.9.4 -I../snappy-1.1.1 -I../../../zstd -msse2 -mavx2 -c blosc.c
+gcc -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g -fpic -I/usr/local/include -I"/tmp/tmp/built/Rhdf5lib/include" -I../lz4-1.9.4 -I../snappy-1.1.1 -I../../../zstd -msse2 -mavx2 -c fastcopy.c
+make[2]: Leaving directory '/tmp/Rtmp4grrrn/R.INSTALL67d35293e3f/rhdf5filters/src/blosc/lib/blosc-1.20.1'
+rm -f libblosc.a
+ar cq libblosc.a lib/blosc-1.20.1/bitshuffle-avx2.o lib/blosc-1.20.1/blosc.o lib/blosc-1.20.1/shuffle-avx2.o lib/blosc-1.20.1/shuffle-sse2.o lib/blosc-1.20.1/bitshuffle-generic.o lib/blosc-1.20.1/blosclz.o lib/blosc-1.20.1/shuffle.o lib/blosc-1.20.1/bitshuffle-sse2.o lib/blosc-1.20.1/fastcopy.o lib/blosc-1.20.1/shuffle-generic.o lib/snappy-1.1.1/snappy.o lib/snappy-1.1.1/snappy-c.o lib/snappy-1.1.1/snappy-sinksource.o lib/snappy-1.1.1/snappy-stubs-internal.o lib/lz4-1.9.4/lz4.o lib/lz4-1.9.4/lz4hc.o 
+ranlib libblosc.a
+gcc -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g -fpic -c -o H5Zblosc.o H5Zblosc.c \
+-I/usr/local/include -I"/tmp/tmp/built/Rhdf5lib/include" -I./lib/blosc-1.20.1
+g++ -std=gnu++17 -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g -fpic -L/usr/local/lib -shared -o libH5Zblosc.so H5Zblosc.o \
+libblosc.a ../zstd/libzstd.a -lz
+make[1]: Leaving directory '/tmp/Rtmp4grrrn/R.INSTALL67d35293e3f/rhdf5filters/src/blosc'
+make -C bzip2
+make[1]: Entering directory '/tmp/Rtmp4grrrn/R.INSTALL67d35293e3f/rhdf5filters/src/bzip2'
+make -C bzip2-1.0.8
+make[2]: Entering directory '/tmp/Rtmp4grrrn/R.INSTALL67d35293e3f/rhdf5filters/src/bzip2/bzip2-1.0.8'
+gcc -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g -fpic -D_FILE_OFFSET_BITS=64 -c blocksort.c
+gcc -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g -fpic -D_FILE_OFFSET_BITS=64 -c huffman.c
+gcc -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g -fpic -D_FILE_OFFSET_BITS=64 -c crctable.c
+gcc -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g -fpic -D_FILE_OFFSET_BITS=64 -c randtable.c
+gcc -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g -fpic -D_FILE_OFFSET_BITS=64 -c compress.c
+gcc -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g -fpic -D_FILE_OFFSET_BITS=64 -c decompress.c
+gcc -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g -fpic -D_FILE_OFFSET_BITS=64 -c bzlib.c
+rm -f libbz2.a
+ar cq libbz2.a blocksort.o huffman.o crctable.o randtable.o compress.o decompress.o bzlib.o
+ranlib libbz2.a
+make[2]: Leaving directory '/tmp/Rtmp4grrrn/R.INSTALL67d35293e3f/rhdf5filters/src/bzip2/bzip2-1.0.8'
+gcc -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g -fpic -shared H5Zbzip2.c -I/usr/local/include -I"/tmp/tmp/built/Rhdf5lib/include" \
+-I./bzip2-1.0.8/ ./bzip2-1.0.8/libbz2.a -L/usr/local/lib -o libH5Zbz2.so
+make[1]: Leaving directory '/tmp/Rtmp4grrrn/R.INSTALL67d35293e3f/rhdf5filters/src/bzip2'
+make -C lzf
+make[1]: Entering directory '/tmp/Rtmp4grrrn/R.INSTALL67d35293e3f/rhdf5filters/src/lzf'
+make -C lzf
+make[2]: Entering directory '/tmp/Rtmp4grrrn/R.INSTALL67d35293e3f/rhdf5filters/src/lzf/lzf'
+gcc -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g -fpic -c lzf_c.c
+gcc -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g -fpic -c lzf_d.c
+rm -f liblzf.a
+ar cq liblzf.a lzf_c.o lzf_d.o
+ranlib liblzf.a
+make[2]: Leaving directory '/tmp/Rtmp4grrrn/R.INSTALL67d35293e3f/rhdf5filters/src/lzf/lzf'
+gcc -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g -fpic -shared H5Zlzf.c -I/usr/local/include -I"/tmp/tmp/built/Rhdf5lib/include" \
+-I./lzf/ ./lzf/liblzf.a -L/usr/local/lib -o libH5Zlzf.so
+make[1]: Leaving directory '/tmp/Rtmp4grrrn/R.INSTALL67d35293e3f/rhdf5filters/src/lzf'
+mkdir -p "/tmp/tmp/built/00LOCK-rhdf5filters/00new/rhdf5filters/lib/"
+cp bzip2/libH5Zbz2.so "/tmp/tmp/built/00LOCK-rhdf5filters/00new/rhdf5filters/lib/"
+cp blosc/libH5Zblosc.so "/tmp/tmp/built/00LOCK-rhdf5filters/00new/rhdf5filters/lib/"
+cp lzf/libH5Zlzf.so "/tmp/tmp/built/00LOCK-rhdf5filters/00new/rhdf5filters/lib/"
+cp zstd/libH5Zzstd.so "/tmp/tmp/built/00LOCK-rhdf5filters/00new/rhdf5filters/lib/"
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -I/usr/local/include -I"/tmp/tmp/built/Rhdf5lib/include" -I'/tmp/tmp/built/Rhdf5lib/include' -I/usr/local/include   -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c rhdf5filters.c -o rhdf5filters.o
+gcc -shared -L/usr/local/lib/R/lib -L/usr/local/lib -o rhdf5filters.so rhdf5filters.o -L/usr/local/lib/R/lib -lR
+installing to /tmp/tmp/built/00LOCK-rhdf5filters/00new/rhdf5filters/libs
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+*** copying figures
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘rhdf5filters’ as ‘rhdf5filters_1.12.1_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (rhdf5filters)
+* installing *source* package ‘DirichletMultinomial’ ...
+** using staged installation
+** libs
+using C compiler: ‘gcc (Ubuntu 11.3.0-1ubuntu1~22.04) 11.3.0’
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include   `gsl-config --cflags` -DR_DIRICHLETMULTINOMIAL -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c R_init_DirichletMultinomial.c -o R_init_DirichletMultinomial.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include   `gsl-config --cflags` -DR_DIRICHLETMULTINOMIAL -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c dirichlet_fit.c -o dirichlet_fit.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include   `gsl-config --cflags` -DR_DIRICHLETMULTINOMIAL -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c dirichlet_fit_main.c -o dirichlet_fit_main.o
+gcc -shared -L/usr/local/lib/R/lib -L/usr/local/lib -o DirichletMultinomial.so R_init_DirichletMultinomial.o dirichlet_fit.o dirichlet_fit_main.o -L/usr/lib/x86_64-linux-gnu -lgsl -lgslcblas -lm -L/usr/local/lib/R/lib -lR
+installing to /tmp/tmp/built/00LOCK-DirichletMultinomial/00new/DirichletMultinomial/libs
+** R
+** data
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘DirichletMultinomial’ as ‘DirichletMultinomial_1.42.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (DirichletMultinomial)
+* installing *source* package ‘seqLogo’ ...
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘seqLogo’ as ‘seqLogo_1.66.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (seqLogo)
+* installing *binary* package ‘TFMPvalue’ ...
+* ‘TFMPvalue’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘TFMPvalue’ as ‘TFMPvalue_0.0.9_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (TFMPvalue)
+* installing *binary* package ‘segmented’ ...
+* ‘segmented’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘segmented’ as ‘segmented_1.6-4_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (segmented)
+* installing *binary* package ‘gtools’ ...
+* ‘gtools’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘gtools’ as ‘gtools_3.9.4_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (gtools)
+* installing *binary* package ‘caTools’ ...
+* ‘caTools’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘caTools’ as ‘caTools_1.18.2_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (caTools)
+* installing *source* package ‘grImport’ ...
+** package ‘grImport’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+Creating a new generic function for ‘explode’ in package ‘grImport’
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘grImport’ as ‘grImport_0.9-7_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (grImport)
+* installing *binary* package ‘plotrix’ ...
+* ‘plotrix’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘plotrix’ as ‘plotrix_3.8-2_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (plotrix)
+* installing *binary* package ‘strawr’ ...
+* ‘strawr’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘strawr’ as ‘strawr_0.0.91_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (strawr)
+* installing *binary* package ‘VennDiagram’ ...
+* ‘VennDiagram’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘VennDiagram’ as ‘VennDiagram_1.7.3_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (VennDiagram)
+* installing *source* package ‘reactome.db’ ...
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘reactome.db’ as ‘reactome.db_1.84.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (reactome.db)
+* installing *source* package ‘BSgenome.Ecoli.NCBI.20080805’ ...
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘BSgenome.Ecoli.NCBI.20080805’ as ‘BSgenome.Ecoli.NCBI.20080805_1.3.1000_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (BSgenome.Ecoli.NCBI.20080805)
+* installing *source* package ‘org.Ce.eg.db’ ...
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘org.Ce.eg.db’ as ‘org.Ce.eg.db_3.17.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (org.Ce.eg.db)
+* installing *source* package ‘BSgenome.Celegans.UCSC.ce10’ ...
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘BSgenome.Celegans.UCSC.ce10’ as ‘BSgenome.Celegans.UCSC.ce10_1.4.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (BSgenome.Celegans.UCSC.ce10)
+* installing *source* package ‘BSgenome.Drerio.UCSC.danRer7’ ...
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘BSgenome.Drerio.UCSC.danRer7’ as ‘BSgenome.Drerio.UCSC.danRer7_1.4.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (BSgenome.Drerio.UCSC.danRer7)
+* installing *source* package ‘BSgenome.Hsapiens.UCSC.hg38’ ...
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘BSgenome.Hsapiens.UCSC.hg38’ as ‘BSgenome.Hsapiens.UCSC.hg38_1.4.5_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (BSgenome.Hsapiens.UCSC.hg38)
+* installing *binary* package ‘idr’ ...
+* ‘idr’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘idr’ as ‘idr_1.3_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (idr)
+* installing *source* package ‘EnsDb.Hsapiens.v75’ ...
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘EnsDb.Hsapiens.v75’ as ‘EnsDb.Hsapiens.v75_2.99.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (EnsDb.Hsapiens.v75)
+* installing *source* package ‘EnsDb.Hsapiens.v79’ ...
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘EnsDb.Hsapiens.v79’ as ‘EnsDb.Hsapiens.v79_2.99.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (EnsDb.Hsapiens.v79)
+* installing *source* package ‘GO.db’ ...
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘GO.db’ as ‘GO.db_3.17.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (GO.db)
+* installing *binary* package ‘UpSetR’ ...
+* ‘UpSetR’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘UpSetR’ as ‘UpSetR_1.4.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (UpSetR)
+* installing *binary* package ‘vroom’ ...
+* ‘vroom’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘vroom’ as ‘vroom_1.6.3_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (vroom)
+* installing *binary* package ‘R.oo’ ...
+* ‘R.oo’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘R.oo’ as ‘R.oo_1.25.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (R.oo)
+* installing *binary* package ‘poweRlaw’ ...
+* ‘poweRlaw’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘poweRlaw’ as ‘poweRlaw_0.70.6_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (poweRlaw)
+* installing *binary* package ‘ade4’ ...
+* ‘ade4’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘ade4’ as ‘ade4_1.7-22_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (ade4)
+* installing *source* package ‘rhdf5’ ...
+** using staged installation
+configure: creating ./config.status
+config.status: creating src/external_filters.h
+** libs
+using C compiler: ‘gcc (Ubuntu 11.3.0-1ubuntu1~22.04) 11.3.0’
+using C++ compiler: ‘g++ (Ubuntu 11.3.0-1ubuntu1~22.04) 11.3.0’
+gcc -I"/usr/local/lib/R/include" -DNDEBUG  -I'/tmp/tmp/built/Rhdf5lib/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c H5.c -o H5.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG  -I'/tmp/tmp/built/Rhdf5lib/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c H5A.c -o H5A.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG  -I'/tmp/tmp/built/Rhdf5lib/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c H5D.c -o H5D.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG  -I'/tmp/tmp/built/Rhdf5lib/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c H5E.c -o H5E.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG  -I'/tmp/tmp/built/Rhdf5lib/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c H5F.c -o H5F.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG  -I'/tmp/tmp/built/Rhdf5lib/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c H5G.c -o H5G.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG  -I'/tmp/tmp/built/Rhdf5lib/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c H5I.c -o H5I.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG  -I'/tmp/tmp/built/Rhdf5lib/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c H5L.c -o H5L.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG  -I'/tmp/tmp/built/Rhdf5lib/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c H5O.c -o H5O.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG  -I'/tmp/tmp/built/Rhdf5lib/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c H5P.c -o H5P.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG  -I'/tmp/tmp/built/Rhdf5lib/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c H5R.c -o H5R.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG  -I'/tmp/tmp/built/Rhdf5lib/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c H5S.c -o H5S.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG  -I'/tmp/tmp/built/Rhdf5lib/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c H5S_extras.c -o H5S_extras.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG  -I'/tmp/tmp/built/Rhdf5lib/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c H5T.c -o H5T.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG  -I'/tmp/tmp/built/Rhdf5lib/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c H5Z.c -o H5Z.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG  -I'/tmp/tmp/built/Rhdf5lib/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c H5constants.c -o H5constants.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/tmp/tmp/built/Rhdf5lib/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c HandleList.cpp -o HandleList.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG  -I'/tmp/tmp/built/Rhdf5lib/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c HandleListWrap.c -o HandleListWrap.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG  -I'/tmp/tmp/built/Rhdf5lib/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c bit64conversion.c -o bit64conversion.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG  -I'/tmp/tmp/built/Rhdf5lib/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c external_filters.c -o external_filters.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG  -I'/tmp/tmp/built/Rhdf5lib/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c h5dump.c -o h5dump.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG  -I'/tmp/tmp/built/Rhdf5lib/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c h5ls.c -o h5ls.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG  -I'/tmp/tmp/built/Rhdf5lib/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c h5testLock.c -o h5testLock.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG  -I'/tmp/tmp/built/Rhdf5lib/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c h5writeDataFrame.c -o h5writeDataFrame.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG  -I'/tmp/tmp/built/Rhdf5lib/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c printdatatype.c -o printdatatype.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG  -I'/tmp/tmp/built/Rhdf5lib/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c utils.c -o utils.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG  -I'/tmp/tmp/built/Rhdf5lib/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c wrap.c -o wrap.o
+g++ -std=gnu++17 -shared -L/usr/local/lib/R/lib -L/usr/local/lib -o rhdf5.so H5.o H5A.o H5D.o H5E.o H5F.o H5G.o H5I.o H5L.o H5O.o H5P.o H5R.o H5S.o H5S_extras.o H5T.o H5Z.o H5constants.o HandleList.o HandleListWrap.o bit64conversion.o external_filters.o h5dump.o h5ls.o h5testLock.o h5writeDataFrame.o printdatatype.o utils.o wrap.o /tmp/tmp/built/Rhdf5lib/lib/libhdf5.a -lcrypto -lcurl -lsz -laec -lz -ldl -lm -L/usr/local/lib/R/lib -lR
+installing to /tmp/tmp/built/00LOCK-rhdf5/00new/rhdf5/libs
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+*** copying figures
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘rhdf5’ as ‘rhdf5_2.44.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (rhdf5)
+* installing *binary* package ‘gplots’ ...
+* ‘gplots’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘gplots’ as ‘gplots_3.1.3_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (gplots)
+* installing *source* package ‘ChIPpeakAnno’ ...
+** using staged installation
+** R
+** data
+*** moving datasets to lazyload DB
+** inst
+** byte-compile and prepare package for lazy loading
+in method for ‘annoGR’ with signature ‘"EnsDb"’: no definition for class “EnsDb”
+in method for ‘toGRanges’ with signature ‘"EnsDb"’: no definition for class “EnsDb”
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘ChIPpeakAnno’ as ‘ChIPpeakAnno_3.34.1_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (ChIPpeakAnno)
+* installing *binary* package ‘readr’ ...
+* ‘readr’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘readr’ as ‘readr_2.1.4_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (readr)
+* installing *binary* package ‘R.utils’ ...
+* ‘R.utils’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘R.utils’ as ‘R.utils_2.12.2_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (R.utils)
+* installing *binary* package ‘seqinr’ ...
+* ‘seqinr’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘seqinr’ as ‘seqinr_4.2-30_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (seqinr)
+* installing *source* package ‘trackViewer’ ...
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘trackViewer’ as ‘trackViewer_1.36.2_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (trackViewer)
+* installing *source* package ‘CNEr’ ...
+** using staged installation
+** libs
+using C compiler: ‘gcc (Ubuntu 11.3.0-1ubuntu1~22.04) 11.3.0’
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -D_FILE_OFFSET_BITS=64 -I'/tmp/tmp/built/S4Vectors/include' -I'/tmp/tmp/built/IRanges/include' -I'/tmp/tmp/built/XVector/include' -I/usr/local/include   -g -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c S4Vectors_stubs.c -o S4Vectors_stubs.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -D_FILE_OFFSET_BITS=64 -I'/tmp/tmp/built/S4Vectors/include' -I'/tmp/tmp/built/IRanges/include' -I'/tmp/tmp/built/XVector/include' -I/usr/local/include   -g -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c IRanges_stubs.c -o IRanges_stubs.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -D_FILE_OFFSET_BITS=64 -I'/tmp/tmp/built/S4Vectors/include' -I'/tmp/tmp/built/IRanges/include' -I'/tmp/tmp/built/XVector/include' -I/usr/local/include   -g -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c XVector_stubs.c -o XVector_stubs.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -D_FILE_OFFSET_BITS=64 -I'/tmp/tmp/built/S4Vectors/include' -I'/tmp/tmp/built/IRanges/include' -I'/tmp/tmp/built/XVector/include' -I/usr/local/include   -g -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c R_init_CNEr.c -o R_init_CNEr.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -D_FILE_OFFSET_BITS=64 -I'/tmp/tmp/built/S4Vectors/include' -I'/tmp/tmp/built/IRanges/include' -I'/tmp/tmp/built/XVector/include' -I/usr/local/include   -g -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c utils.c -o utils.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -D_FILE_OFFSET_BITS=64 -I'/tmp/tmp/built/S4Vectors/include' -I'/tmp/tmp/built/IRanges/include' -I'/tmp/tmp/built/XVector/include' -I/usr/local/include   -g -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c io.c -o io.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -D_FILE_OFFSET_BITS=64 -I'/tmp/tmp/built/S4Vectors/include' -I'/tmp/tmp/built/IRanges/include' -I'/tmp/tmp/built/XVector/include' -I/usr/local/include   -g -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c ceScan.c -o ceScan.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -D_FILE_OFFSET_BITS=64 -I'/tmp/tmp/built/S4Vectors/include' -I'/tmp/tmp/built/IRanges/include' -I'/tmp/tmp/built/XVector/include' -I/usr/local/include   -g -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c ucsc/axt.c -o ucsc/axt.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -D_FILE_OFFSET_BITS=64 -I'/tmp/tmp/built/S4Vectors/include' -I'/tmp/tmp/built/IRanges/include' -I'/tmp/tmp/built/XVector/include' -I/usr/local/include   -g -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c ucsc/base64.c -o ucsc/base64.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -D_FILE_OFFSET_BITS=64 -I'/tmp/tmp/built/S4Vectors/include' -I'/tmp/tmp/built/IRanges/include' -I'/tmp/tmp/built/XVector/include' -I/usr/local/include   -g -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c ucsc/binRange.c -o ucsc/binRange.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -D_FILE_OFFSET_BITS=64 -I'/tmp/tmp/built/S4Vectors/include' -I'/tmp/tmp/built/IRanges/include' -I'/tmp/tmp/built/XVector/include' -I/usr/local/include   -g -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c ucsc/bits.c -o ucsc/bits.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -D_FILE_OFFSET_BITS=64 -I'/tmp/tmp/built/S4Vectors/include' -I'/tmp/tmp/built/IRanges/include' -I'/tmp/tmp/built/XVector/include' -I/usr/local/include   -g -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c ucsc/chain.c -o ucsc/chain.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -D_FILE_OFFSET_BITS=64 -I'/tmp/tmp/built/S4Vectors/include' -I'/tmp/tmp/built/IRanges/include' -I'/tmp/tmp/built/XVector/include' -I/usr/local/include   -g -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c ucsc/_cheapcgi.c -o ucsc/_cheapcgi.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -D_FILE_OFFSET_BITS=64 -I'/tmp/tmp/built/S4Vectors/include' -I'/tmp/tmp/built/IRanges/include' -I'/tmp/tmp/built/XVector/include' -I/usr/local/include   -g -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c ucsc/cirTree.c -o ucsc/cirTree.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -D_FILE_OFFSET_BITS=64 -I'/tmp/tmp/built/S4Vectors/include' -I'/tmp/tmp/built/IRanges/include' -I'/tmp/tmp/built/XVector/include' -I/usr/local/include   -g -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c ucsc/common.c -o ucsc/common.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -D_FILE_OFFSET_BITS=64 -I'/tmp/tmp/built/S4Vectors/include' -I'/tmp/tmp/built/IRanges/include' -I'/tmp/tmp/built/XVector/include' -I/usr/local/include   -g -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c ucsc/dlist.c -o ucsc/dlist.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -D_FILE_OFFSET_BITS=64 -I'/tmp/tmp/built/S4Vectors/include' -I'/tmp/tmp/built/IRanges/include' -I'/tmp/tmp/built/XVector/include' -I/usr/local/include   -g -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c ucsc/dnaseq.c -o ucsc/dnaseq.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -D_FILE_OFFSET_BITS=64 -I'/tmp/tmp/built/S4Vectors/include' -I'/tmp/tmp/built/IRanges/include' -I'/tmp/tmp/built/XVector/include' -I/usr/local/include   -g -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c ucsc/dnautil.c -o ucsc/dnautil.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -D_FILE_OFFSET_BITS=64 -I'/tmp/tmp/built/S4Vectors/include' -I'/tmp/tmp/built/IRanges/include' -I'/tmp/tmp/built/XVector/include' -I/usr/local/include   -g -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c ucsc/dystring.c -o ucsc/dystring.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -D_FILE_OFFSET_BITS=64 -I'/tmp/tmp/built/S4Vectors/include' -I'/tmp/tmp/built/IRanges/include' -I'/tmp/tmp/built/XVector/include' -I/usr/local/include   -g -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c ucsc/errabort.c -o ucsc/errabort.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -D_FILE_OFFSET_BITS=64 -I'/tmp/tmp/built/S4Vectors/include' -I'/tmp/tmp/built/IRanges/include' -I'/tmp/tmp/built/XVector/include' -I/usr/local/include   -g -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c ucsc/hash.c -o ucsc/hash.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -D_FILE_OFFSET_BITS=64 -I'/tmp/tmp/built/S4Vectors/include' -I'/tmp/tmp/built/IRanges/include' -I'/tmp/tmp/built/XVector/include' -I/usr/local/include   -g -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c ucsc/https.c -o ucsc/https.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -D_FILE_OFFSET_BITS=64 -I'/tmp/tmp/built/S4Vectors/include' -I'/tmp/tmp/built/IRanges/include' -I'/tmp/tmp/built/XVector/include' -I/usr/local/include   -g -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c ucsc/intExp.c -o ucsc/intExp.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -D_FILE_OFFSET_BITS=64 -I'/tmp/tmp/built/S4Vectors/include' -I'/tmp/tmp/built/IRanges/include' -I'/tmp/tmp/built/XVector/include' -I/usr/local/include   -g -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c ucsc/kxTok.c -o ucsc/kxTok.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -D_FILE_OFFSET_BITS=64 -I'/tmp/tmp/built/S4Vectors/include' -I'/tmp/tmp/built/IRanges/include' -I'/tmp/tmp/built/XVector/include' -I/usr/local/include   -g -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c ucsc/linefile.c -o ucsc/linefile.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -D_FILE_OFFSET_BITS=64 -I'/tmp/tmp/built/S4Vectors/include' -I'/tmp/tmp/built/IRanges/include' -I'/tmp/tmp/built/XVector/include' -I/usr/local/include   -g -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c ucsc/localmem.c -o ucsc/localmem.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -D_FILE_OFFSET_BITS=64 -I'/tmp/tmp/built/S4Vectors/include' -I'/tmp/tmp/built/IRanges/include' -I'/tmp/tmp/built/XVector/include' -I/usr/local/include   -g -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c ucsc/memalloc.c -o ucsc/memalloc.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -D_FILE_OFFSET_BITS=64 -I'/tmp/tmp/built/S4Vectors/include' -I'/tmp/tmp/built/IRanges/include' -I'/tmp/tmp/built/XVector/include' -I/usr/local/include   -g -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c ucsc/obscure.c -o ucsc/obscure.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -D_FILE_OFFSET_BITS=64 -I'/tmp/tmp/built/S4Vectors/include' -I'/tmp/tmp/built/IRanges/include' -I'/tmp/tmp/built/XVector/include' -I/usr/local/include   -g -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c ucsc/options.c -o ucsc/options.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -D_FILE_OFFSET_BITS=64 -I'/tmp/tmp/built/S4Vectors/include' -I'/tmp/tmp/built/IRanges/include' -I'/tmp/tmp/built/XVector/include' -I/usr/local/include   -g -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c ucsc/pipeline.c -o ucsc/pipeline.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -D_FILE_OFFSET_BITS=64 -I'/tmp/tmp/built/S4Vectors/include' -I'/tmp/tmp/built/IRanges/include' -I'/tmp/tmp/built/XVector/include' -I/usr/local/include   -g -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c ucsc/_portimpl.c -o ucsc/_portimpl.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -D_FILE_OFFSET_BITS=64 -I'/tmp/tmp/built/S4Vectors/include' -I'/tmp/tmp/built/IRanges/include' -I'/tmp/tmp/built/XVector/include' -I/usr/local/include   -g -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c ucsc/sqlList.c -o ucsc/sqlList.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -D_FILE_OFFSET_BITS=64 -I'/tmp/tmp/built/S4Vectors/include' -I'/tmp/tmp/built/IRanges/include' -I'/tmp/tmp/built/XVector/include' -I/usr/local/include   -g -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c ucsc/sqlNum.c -o ucsc/sqlNum.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -D_FILE_OFFSET_BITS=64 -I'/tmp/tmp/built/S4Vectors/include' -I'/tmp/tmp/built/IRanges/include' -I'/tmp/tmp/built/XVector/include' -I/usr/local/include   -g -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c ucsc/verbose.c -o ucsc/verbose.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -D_FILE_OFFSET_BITS=64 -I'/tmp/tmp/built/S4Vectors/include' -I'/tmp/tmp/built/IRanges/include' -I'/tmp/tmp/built/XVector/include' -I/usr/local/include   -g -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c ucsc/os.c -o ucsc/os.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -D_FILE_OFFSET_BITS=64 -I'/tmp/tmp/built/S4Vectors/include' -I'/tmp/tmp/built/IRanges/include' -I'/tmp/tmp/built/XVector/include' -I/usr/local/include   -g -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c ucsc/wildcmp.c -o ucsc/wildcmp.o
+gcc -shared -L/usr/local/lib/R/lib -L/usr/local/lib -o CNEr.so S4Vectors_stubs.o IRanges_stubs.o XVector_stubs.o R_init_CNEr.o utils.o io.o ceScan.o ucsc/axt.o ucsc/base64.o ucsc/binRange.o ucsc/bits.o ucsc/chain.o ucsc/_cheapcgi.o ucsc/cirTree.o ucsc/common.o ucsc/dlist.o ucsc/dnaseq.o ucsc/dnautil.o ucsc/dystring.o ucsc/errabort.o ucsc/hash.o ucsc/https.o ucsc/intExp.o ucsc/kxTok.o ucsc/linefile.o ucsc/localmem.o ucsc/memalloc.o ucsc/obscure.o ucsc/options.o ucsc/pipeline.o ucsc/_portimpl.o ucsc/sqlList.o ucsc/sqlNum.o ucsc/verbose.o ucsc/os.o ucsc/wildcmp.o -lz -L/usr/local/lib/R/lib -lR
+installing to /tmp/tmp/built/00LOCK-CNEr/00new/CNEr/libs
+** R
+** data
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘CNEr’ as ‘CNEr_1.36.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (CNEr)
+* installing *source* package ‘TFBSTools’ ...
+** using staged installation
+** libs
+using C compiler: ‘gcc (Ubuntu 11.3.0-1ubuntu1~22.04) 11.3.0’
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c matrixAlignerDynamic.c -o matrixAlignerDynamic.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c R_init_TFBSTools.c -o R_init_TFBSTools.o
+gcc -shared -L/usr/local/lib/R/lib -L/usr/local/lib -o TFBSTools.so matrixAlignerDynamic.o R_init_TFBSTools.o -L/usr/local/lib/R/lib -lR
+installing to /tmp/tmp/built/00LOCK-TFBSTools/00new/TFBSTools/libs
+** R
+** data
+*** moving datasets to lazyload DB
+** inst
+** byte-compile and prepare package for lazy loading
+Creating a new generic function for ‘seqLogo’ in package ‘TFBSTools’
+Creating a generic function for ‘colSums’ from package ‘base’ in package ‘TFBSTools’
+Creating a generic function for ‘rowSums’ from package ‘base’ in package ‘TFBSTools’
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘TFBSTools’ as ‘TFBSTools_1.38.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (TFBSTools)
+* installing *source* package ‘motifStack’ ...
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘motifStack’ as ‘motifStack_1.44.1_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (motifStack)
+
+The downloaded source packages are in
+	‘/tmp/RtmpWLecd4/downloaded_packages’
+Old packages: 'BiocParallel', 'Biostrings', 'DelayedArray', 'deldir', 'DT',
+  'cachem', 'evaluate', 'httpuv', 'httr', 'httr2', 'knitr', 'later', 'profvis',
+  'sass', 'sys', 'testthat', 'waldo', 'class', 'KernSmooth', 'MASS', 'Matrix',
+  'nnet'
+
+real	28m21.604s
+user	27m10.875s
+sys	0m50.464s
+* installing *source* package ‘BSgenome.Celegans.UCSC.ce10’ ...
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘BSgenome.Celegans.UCSC.ce10’ as ‘BSgenome.Celegans.UCSC.ce10_1.4.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (BSgenome.Celegans.UCSC.ce10)
