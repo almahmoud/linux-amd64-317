@@ -119,7 +119,7 @@ jobs:
           kubectl cp -c sleep -n rclone package-file:/mnt/results/PACKAGES.rds /tmp/GCPPACKAGES.rds
           kubectl cp -c sleep -n rclone package-file:/mnt/results/PACKAGES /tmp/GCPPACKAGES
         env:
-          RCLONE_VALS: ${{secrets.RCLONE_VALS}}
+          GCP_RCLONE_VALS: ${{secrets.GCP_RCLONE_VALS}}
 
       - run: |
           rclone copyto /tmp/GCPPACKAGES gcp:bioconductor-packages/${{ github.event.inputs.version }}/container-binaries/${{ github.event.inputs.container }}/src/contrib/PACKAGES -vvvvv
