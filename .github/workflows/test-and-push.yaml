@@ -12,6 +12,7 @@ jobs:
         uses: almahmoud/free-root-space@main
         with:
           verbose: true
+          remove-aws-cli: false
 
       - uses: actions/checkout@v3
         with:
@@ -94,10 +95,18 @@ jobs:
                 exit 1;
             fi
 
-      - run: |
-          grep -ihr "tar.gz$" lists/ | sort | uniq > /tmp/listalltars
-          cat /tmp/listalltars | xargs -i rclone copyto js2:/gha-build/$(cat containername)/$(cat arch)/$(cat runstarttime)/binaries/src/contrib/{} js2:/${{steps.variables.outputs.biocver}}/container-binaries/$(cat containername)/$(cat arch)/binaries/src/contrib/{} -vvvvvv
+
+      - name: Use AWS CLI to copy
+        run: |
+          aws --endpoint-url https://js2.jetstream-cloud.org:8001 s3 sync s3://gha-build/$(cat containername)/$(cat arch)/$(cat runstarttime)/binaries/src/contrib s3://${{steps.variables.outputs.biocver}}/container-binaries/$(cat containername)/$(cat arch)/binaries/src/contrib --exclude "PACKAGES*"
+          
+          #grep -ihr "tar.gz$" lists/ | sort | uniq > /tmp/listalltars
+          #cat /tmp/listalltars | xargs -i rclone copyto js2:/gha-build/$(cat containername)/$(cat arch)/$(cat runstarttime)/binaries/src/contrib/{} js2:/${{steps.variables.outputs.biocver}}/container-binaries/$(cat containername)/$(cat arch)/binaries/src/contrib/{} -vvvvvv
+          
           rclone purge js2:/gha-build/$(cat containername)/$(cat arch)/$(cat runstarttime)/libraries -vvvvv
+        env:
+          AWS_ACCESS_KEY_ID: ${{ secrets.S3_ACCESS_KEY }}
+          AWS_SECRET_ACCESS_KEY: ${{ secrets.S3_SECRET_KEY }}
         if: steps.variables.outcome=='success'
 
       - name: Copy old run
