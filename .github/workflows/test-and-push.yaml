@@ -98,6 +98,8 @@ jobs:
 
       - name: Use AWS CLI to copy
         run: |
+          mkdir -p ~/.aws
+          echo "$S3_CREDS" > ~/.aws/credentials
           aws --endpoint-url https://js2.jetstream-cloud.org:8001 s3 sync s3://gha-build/$(cat containername)/$(cat arch)/$(cat runstarttime)/binaries/src/contrib s3://${{steps.variables.outputs.biocver}}/container-binaries/$(cat containername)/$(cat arch)/binaries/src/contrib --exclude "PACKAGES*"
           
           #grep -ihr "tar.gz$" lists/ | sort | uniq > /tmp/listalltars
@@ -105,8 +107,7 @@ jobs:
           
           rclone purge js2:/gha-build/$(cat containername)/$(cat arch)/$(cat runstarttime)/libraries -vvvvv
         env:
-          AWS_ACCESS_KEY_ID: ${{ secrets.S3_ACCESS_KEY }}
-          AWS_SECRET_ACCESS_KEY: ${{ secrets.S3_SECRET_KEY }}
+          S3_CREDS: ${{ secrets.S3_CREDS }}
         if: steps.variables.outcome=='success'
 
       - name: Copy old run
