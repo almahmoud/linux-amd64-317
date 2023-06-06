@@ -110,6 +110,7 @@ jobs:
           rclone purge js2:/gha-build/$(cat containername)/$(cat arch)/$(cat runstarttime)/libraries -vvvvv
         env:
           S3_CREDS: ${{ secrets.S3_CREDS }}
+          AWS_EC2_METADATA_DISABLED: "true"
         if: steps.variables.outcome=='success'
 
       - name: Copy old run
