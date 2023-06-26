@@ -1,0 +1,36 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE); p <- .libPaths(); p <- c('\''/tmp/tmp/built'\'', p); .libPaths(p); if(BiocManager::install('\''RepViz'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://packagemanager.posit.co/cran/__linux__/jammy/latest
+Bioconductor version 3.17 (BiocManager 1.30.20), R 4.3.0 (2023-04-21)
+Installing package(s) 'RepViz'
+trying URL 'https://bioconductor.org/packages/3.17/bioc/src/contrib/RepViz_1.16.0.tar.gz'
+Content type 'application/x-gzip' length 259033 bytes (252 KB)
+==================================================
+downloaded 252 KB
+
+* installing *source* package ‘RepViz’ ...
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+Error: package or namespace load failed for ‘biomaRt’ in loadNamespace(i, c(lib.loc, .libPaths()), versionCheck = vI[[i]]):
+ there is no package called ‘DBI’
+Execution halted
+ERROR: lazy loading failed for package ‘RepViz’
+* removing ‘/tmp/tmp/built/RepViz’
+
+The downloaded source packages are in
+	‘/tmp/Rtmp9JrapQ/downloaded_packages’
+Old packages: 'DESeq2', 'BiocManager', 'bslib', 'cachem', 'curl', 'evaluate',
+  'httpuv', 'httr', 'httr2', 'jsonlite', 'knitr', 'later', 'pkgbuild',
+  'profvis', 'rmarkdown', 'sass', 'sys', 'testthat', 'usethis', 'vctrs',
+  'waldo', 'class', 'KernSmooth', 'MASS', 'Matrix', 'nnet'
+Warning message:
+In install.packages(...) :
+  installation of package ‘RepViz’ had non-zero exit status
+
+real	0m7.894s
+user	0m5.779s
+sys	0m0.565s
