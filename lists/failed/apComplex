@@ -1,0 +1,47 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE); p <- .libPaths(); p <- c('\''/tmp/tmp/built'\'', p); .libPaths(p); if(BiocManager::install('\''apComplex'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://packagemanager.posit.co/cran/__linux__/jammy/latest
+Bioconductor version 3.17 (BiocManager 1.30.20), R 4.3.0 (2023-04-21)
+Installing package(s) 'apComplex'
+also installing the dependency ‘org.Sc.sgd.db’
+
+trying URL 'https://bioconductor.org/packages/3.17/data/annotation/src/contrib/org.Sc.sgd.db_3.17.0.tar.gz'
+Content type 'application/x-gzip' length 20717356 bytes (19.8 MB)
+==================================================
+downloaded 19.8 MB
+
+trying URL 'https://bioconductor.org/packages/3.17/bioc/src/contrib/apComplex_2.66.0.tar.gz'
+Content type 'application/x-gzip' length 642316 bytes (627 KB)
+==================================================
+downloaded 627 KB
+
+* installing *source* package ‘org.Sc.sgd.db’ ...
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+Error: package or namespace load failed for ‘AnnotationDbi’ in loadNamespace(i, c(lib.loc, .libPaths()), versionCheck = vI[[i]]):
+ there is no package called ‘DBI’
+Execution halted
+ERROR: lazy loading failed for package ‘org.Sc.sgd.db’
+* removing ‘/tmp/tmp/built/org.Sc.sgd.db’
+ERROR: dependency ‘org.Sc.sgd.db’ is not available for package ‘apComplex’
+* removing ‘/tmp/tmp/built/apComplex’
+
+The downloaded source packages are in
+	‘/tmp/Rtmp09X2YC/downloaded_packages’
+Old packages: 'DESeq2', 'BiocManager', 'bslib', 'cachem', 'curl', 'evaluate',
+  'httpuv', 'httr', 'httr2', 'jsonlite', 'knitr', 'later', 'pkgbuild',
+  'profvis', 'rmarkdown', 'sass', 'sys', 'testthat', 'usethis', 'vctrs',
+  'waldo', 'class', 'KernSmooth', 'MASS', 'Matrix', 'nnet'
+Warning messages:
+1: In install.packages(...) :
+  installation of package ‘org.Sc.sgd.db’ had non-zero exit status
+2: In install.packages(...) :
+  installation of package ‘apComplex’ had non-zero exit status
+
+real	0m13.692s
+user	0m9.991s
+sys	0m1.058s
