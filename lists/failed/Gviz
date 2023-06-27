@@ -1,0 +1,39 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE); p <- .libPaths(); p <- c('\''/tmp/tmp/built'\'', p); .libPaths(p); if(BiocManager::install('\''Gviz'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://packagemanager.posit.co/cran/__linux__/jammy/latest
+Bioconductor version 3.17 (BiocManager 1.30.20), R 4.3.0 (2023-04-21)
+Installing package(s) 'Gviz'
+trying URL 'https://bioconductor.org/packages/3.17/bioc/src/contrib/Gviz_1.44.0.tar.gz'
+Content type 'application/x-gzip' length 7202134 bytes (6.9 MB)
+==================================================
+downloaded 6.9 MB
+
+* installing *source* package ‘Gviz’ ...
+** using staged installation
+** R
+** data
+** inst
+** byte-compile and prepare package for lazy loading
+Error in loadNamespace(i, c(lib.loc, .libPaths()), versionCheck = vI[[i]]) : 
+  there is no package called ‘DBI’
+Calls: <Anonymous> ... loadNamespace -> withRestarts -> withOneRestart -> doWithOneRestart
+Execution halted
+ERROR: lazy loading failed for package ‘Gviz’
+* removing ‘/tmp/tmp/built/Gviz’
+* restoring previous ‘/tmp/tmp/built/Gviz’
+
+The downloaded source packages are in
+	‘/tmp/RtmpIRa47G/downloaded_packages’
+Old packages: 'DESeq2', 'BiocManager', 'bslib', 'cachem', 'curl', 'evaluate',
+  'httpuv', 'httr', 'httr2', 'jsonlite', 'knitr', 'later', 'pkgbuild',
+  'profvis', 'rmarkdown', 'sass', 'sys', 'testthat', 'usethis', 'vctrs',
+  'waldo', 'class', 'KernSmooth', 'MASS', 'Matrix', 'nnet'
+Warning message:
+In install.packages(...) :
+  installation of package ‘Gviz’ had non-zero exit status
+
+real	0m12.114s
+user	0m9.999s
+sys	0m0.672s
