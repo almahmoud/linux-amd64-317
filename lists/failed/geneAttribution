@@ -1,0 +1,56 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE); p <- .libPaths(); p <- c('\''/tmp/tmp/built'\'', p); .libPaths(p); if(BiocManager::install('\''geneAttribution'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://packagemanager.posit.co/cran/__linux__/jammy/latest
+Bioconductor version 3.17 (BiocManager 1.30.20), R 4.3.0 (2023-04-21)
+Installing package(s) 'geneAttribution'
+also installing the dependency ‘TxDb.Hsapiens.UCSC.hg38.knownGene’
+
+trying URL 'https://bioconductor.org/packages/3.17/data/annotation/src/contrib/TxDb.Hsapiens.UCSC.hg38.knownGene_3.17.0.tar.gz'
+Content type 'application/x-gzip' length 46645731 bytes (44.5 MB)
+==================================================
+downloaded 44.5 MB
+
+trying URL 'https://bioconductor.org/packages/3.17/bioc/src/contrib/geneAttribution_1.26.0.tar.gz'
+Content type 'application/x-gzip' length 40116 bytes (39 KB)
+==================================================
+downloaded 39 KB
+
+* installing *source* package ‘TxDb.Hsapiens.UCSC.hg38.knownGene’ ...
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+Error: package or namespace load failed for ‘AnnotationDbi’ in loadNamespace(i, c(lib.loc, .libPaths()), versionCheck = vI[[i]]):
+ there is no package called ‘DBI’
+Execution halted
+ERROR: lazy loading failed for package ‘TxDb.Hsapiens.UCSC.hg38.knownGene’
+* removing ‘/tmp/tmp/built/TxDb.Hsapiens.UCSC.hg38.knownGene’
+* installing *source* package ‘geneAttribution’ ...
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+Error in loadNamespace(i, c(lib.loc, .libPaths()), versionCheck = vI[[i]]) : 
+  there is no package called ‘DBI’
+Calls: <Anonymous> ... loadNamespace -> withRestarts -> withOneRestart -> doWithOneRestart
+Execution halted
+ERROR: lazy loading failed for package ‘geneAttribution’
+* removing ‘/tmp/tmp/built/geneAttribution’
+
+The downloaded source packages are in
+	‘/tmp/RtmpZb6PCt/downloaded_packages’
+Old packages: 'DESeq2', 'BiocManager', 'bslib', 'cachem', 'curl', 'evaluate',
+  'httpuv', 'httr', 'httr2', 'jsonlite', 'knitr', 'later', 'pkgbuild',
+  'profvis', 'rmarkdown', 'sass', 'sys', 'testthat', 'usethis', 'vctrs',
+  'waldo', 'class', 'KernSmooth', 'MASS', 'Matrix', 'nnet'
+Warning messages:
+1: In install.packages(...) :
+  installation of package ‘TxDb.Hsapiens.UCSC.hg38.knownGene’ had non-zero exit status
+2: In install.packages(...) :
+  installation of package ‘geneAttribution’ had non-zero exit status
+
+real	0m13.490s
+user	0m11.373s
+sys	0m0.907s
