@@ -1,0 +1,67 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE); p <- .libPaths(); p <- c('\''/tmp/tmp/built'\'', p); .libPaths(p); if(BiocManager::install('\''Cogito'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://packagemanager.posit.co/cran/__linux__/jammy/latest
+Bioconductor version 3.17 (BiocManager 1.30.20), R 4.3.0 (2023-04-21)
+Installing package(s) 'Cogito'
+also installing the dependencies ‘entropy’, ‘TxDb.Mmusculus.UCSC.mm9.knownGene’, ‘markdown’
+
+trying URL 'https://packagemanager.posit.co/cran/__linux__/jammy/latest/src/contrib/entropy_1.3.1.tar.gz'
+Content type 'binary/octet-stream' length 87961 bytes (85 KB)
+==================================================
+downloaded 85 KB
+
+trying URL 'https://bioconductor.org/packages/3.17/data/annotation/src/contrib/TxDb.Mmusculus.UCSC.mm9.knownGene_3.2.2.tar.gz'
+Content type 'application/x-gzip' length 13520331 bytes (12.9 MB)
+==================================================
+downloaded 12.9 MB
+
+trying URL 'https://packagemanager.posit.co/cran/__linux__/jammy/latest/src/contrib/markdown_1.7.tar.gz'
+Content type 'binary/octet-stream' length 191090 bytes (186 KB)
+==================================================
+downloaded 186 KB
+
+trying URL 'https://bioconductor.org/packages/3.17/bioc/src/contrib/Cogito_1.6.0.tar.gz'
+Content type 'application/x-gzip' length 890029 bytes (869 KB)
+==================================================
+downloaded 869 KB
+
+* installing *binary* package ‘entropy’ ...
+* ‘entropy’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘entropy’ as ‘entropy_1.3.1_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (entropy)
+* installing *source* package ‘TxDb.Mmusculus.UCSC.mm9.knownGene’ ...
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+Error: package or namespace load failed for ‘AnnotationDbi’ in loadNamespace(i, c(lib.loc, .libPaths()), versionCheck = vI[[i]]):
+ there is no package called ‘DBI’
+Execution halted
+ERROR: lazy loading failed for package ‘TxDb.Mmusculus.UCSC.mm9.knownGene’
+* removing ‘/tmp/tmp/built/TxDb.Mmusculus.UCSC.mm9.knownGene’
+* installing *binary* package ‘markdown’ ...
+* ‘markdown’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘markdown’ as ‘markdown_1.7_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (markdown)
+ERROR: dependency ‘TxDb.Mmusculus.UCSC.mm9.knownGene’ is not available for package ‘Cogito’
+* removing ‘/tmp/tmp/built/Cogito’
+
+The downloaded source packages are in
+	‘/tmp/Rtmp3qhkQe/downloaded_packages’
+Old packages: 'DESeq2', 'BiocManager', 'bslib', 'cachem', 'curl', 'evaluate',
+  'httpuv', 'httr', 'httr2', 'jsonlite', 'knitr', 'later', 'pkgbuild',
+  'profvis', 'rmarkdown', 'sass', 'sys', 'testthat', 'usethis', 'vctrs',
+  'waldo', 'class', 'KernSmooth', 'MASS', 'Matrix', 'nnet'
+Warning messages:
+1: In install.packages(...) :
+  installation of package ‘TxDb.Mmusculus.UCSC.mm9.knownGene’ had non-zero exit status
+2: In install.packages(...) :
+  installation of package ‘Cogito’ had non-zero exit status
+
+real	0m14.091s
+user	0m8.945s
+sys	0m1.141s
