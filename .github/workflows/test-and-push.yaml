@@ -24,6 +24,7 @@ jobs:
         run: |
           if [ ! -f "runstarttime" ]; then exit 1; fi
           if [ ! -f "logs/$(cat runstarttime)/PACKAGES" ]; then exit 1; fi
+          echo containername=$(cat containername) >> $GITHUB_OUTPUT
           echo platform=$(cat PLATFORM.bioc) >> $GITHUB_OUTPUT
           echo testcontainer=$(cat ROOT_CONTAINER.bioc | sed "s#:#:test-#g") >> $GITHUB_OUTPUT
           echo biocver=$(cat bioc_build/bioc | sed 's/ /./g') >> $GITHUB_OUTPUT
@@ -107,7 +108,7 @@ jobs:
           purge_all () {
               PURGEDIR="$1"
               ( rclone purge $PURGEDIR -vvvvv 2>&1 | tee /tmp/purge ) || true
-              while grep -q "Deleted" /tmp/purge; do rclone purge $PURGEDIR -vvvvv 2>&1 | tee /tmp/purge; done
+              while grep -q "Deleted" /tmp/purge; do ( rclone purge $PURGEDIR -vvvvv 2>&1 | tee /tmp/purge ) || true; done
           }
           
           export -f purge_all
@@ -121,8 +122,13 @@ jobs:
           cat /tmp/purgelist
           cat /tmp/purgelist | xargs -i -r bash -c 'purge_all {}'
           
-          aws --endpoint-url https://js2.jetstream-cloud.org:8001 s3 sync --delete $SRCBUCK $DSTBUCK --exclude "PACKAGES*" 2>&1 | tee /tmp/synclog
-
+          aws --endpoint-url https://js2.jetstream-cloud.org:8001 s3 sync --delete $SRCBUCK $DSTBUCK --exclude "PACKAGES*" 2>&1 | tee /tmp/synclog || true
+          
+          countsrc=$(aws --endpoint-url https://js2.jetstream-cloud.org:8001 s3 ls "$SRCBUCK/" | grep tar.gz | sort | uniq)
+          countdst=$(aws --endpoint-url https://js2.jetstream-cloud.org:8001 s3 ls "$DSTBUCK/" | grep tar.gz | sort | uniq)
+          
+          if [ $countsrc -eq $countdst ]; then echo "All $countdst binaries copied"; else exit 1; fi 
+          
           aws --endpoint-url https://js2.jetstream-cloud.org:8001 s3 ls gha-build | grep "$(echo $SRCBUCK | sed 's#s3://gha-build/##')" | grep -o "[\.A-Za-z0-9_-]\+.tar.gz" | sort | uniq > /tmp/cycletars
           grep -o "[\.A-Za-z0-9_-]\+.tar.gz" /tmp/synclog  | sort | uniq > /tmp/newtars
 
@@ -138,7 +144,7 @@ jobs:
         with:
           channel-id: '${{secrets.SLACK_CHANNEL_ID}}'
           slack-message: |
-            Cycle has ended for ${{steps.variables.outputs.biocver}}.
+            Cycle has ended for ${{steps.variables.outputs.containername}}.
             New binaries copied: ${{ steps.s3copy.outputs.newcount }}
             Total cycle binaries: ${{ steps.s3copy.outputs.cyclecount }}
         env:
