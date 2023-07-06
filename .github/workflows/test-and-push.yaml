@@ -105,8 +105,8 @@ jobs:
           DSTBUCK="s3://${{steps.variables.outputs.biocver}}/container-binaries/$(cat containername)/$(cat arch)/binaries/src/contrib"
 
           purge_all () {
-              PURGEDIR="$1"  
-              rclone purge $PURGEDIR -vvvvv 2>&1 | tee /tmp/purge
+              PURGEDIR="$1"
+              ( rclone purge $PURGEDIR -vvvvv 2>&1 | tee /tmp/purge ) || true
               while grep -q "Deleted" /tmp/purge; do rclone purge $PURGEDIR -vvvvv 2>&1 | tee /tmp/purge; done
           }
           
