@@ -100,6 +100,7 @@ jobs:
         id: s3copy
         shell: bash
         run: |
+          set -x
           mkdir -p ~/.aws
           echo "$S3_CREDS" > ~/.aws/credentials
           SRCBUCK="s3://gha-build/$(cat containername)/$(cat arch)/$(cat runstarttime)/binaries/src/contrib"
@@ -122,15 +123,17 @@ jobs:
           cat /tmp/purgelist
           cat /tmp/purgelist | xargs -i -r bash -c 'purge_all {}'
           
-          aws --endpoint-url https://js2.jetstream-cloud.org:8001 s3 sync --delete $SRCBUCK $DSTBUCK --exclude "PACKAGES*" 2>&1 | tee /tmp/synclog || true
+          (aws --endpoint-url https://js2.jetstream-cloud.org:8001 s3 sync --delete $SRCBUCK $DSTBUCK --exclude "PACKAGES*" 2>&1 | tee /tmp/synclog ) || true
           
-          countsrc=$(aws --endpoint-url https://js2.jetstream-cloud.org:8001 s3 ls "$SRCBUCK/" | grep tar.gz | sort | uniq)
-          countdst=$(aws --endpoint-url https://js2.jetstream-cloud.org:8001 s3 ls "$DSTBUCK/" | grep tar.gz | sort | uniq)
+          countsrc=$(aws --endpoint-url https://js2.jetstream-cloud.org:8001 s3 ls "$SRCBUCK/" | grep tar.gz | sort | uniq | wc -l)
+          countdst=$(aws --endpoint-url https://js2.jetstream-cloud.org:8001 s3 ls "$DSTBUCK/" | grep tar.gz | sort | uniq | wc -l)
           
           if [ $countsrc -eq $countdst ]; then echo "All $countdst binaries copied"; else exit 1; fi 
           
-          aws --endpoint-url https://js2.jetstream-cloud.org:8001 s3 ls gha-build | grep "$(echo $SRCBUCK | sed 's#s3://gha-build/##')" | grep -o "[\.A-Za-z0-9_-]\+.tar.gz" | sort | uniq > /tmp/cycletars
-          grep -o "[\.A-Za-z0-9_-]\+.tar.gz" /tmp/synclog  | sort | uniq > /tmp/newtars
+          BUCKPREF="$(echo $SRCBUCK | sed 's#s3://##')"
+          aws --endpoint-url https://js2.jetstream-cloud.org:8001 s3 ls "$BUCKPREF/" > /tmp/buildls
+          cat /tmp/buildls | grep -o "[\.A-Za-z0-9_-]\+.tar.gz" | sort | uniq > /tmp/cycletars
+          cat /tmp/synclog | grep -o "[\.A-Za-z0-9_-]\+.tar.gz" | sort | uniq > /tmp/newtars
 
           echo newcount=$(cat /tmp/newtars | wc -l) >> $GITHUB_OUTPUT
           echo cyclecount=$(cat /tmp/cycletars | wc -l) >> $GITHUB_OUTPUT
