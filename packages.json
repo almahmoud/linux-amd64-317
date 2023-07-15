@@ -67,10 +67,8 @@
         "rtracklayer"
     ],
     "affylmGUI": [
-        "AnnotationDbi",
-        "affyPLM"
+        "AnnotationDbi"
     ],
-    "affyPLM": [],
     "AGDEX": [
         "AnnotationDbi",
         "GSEABase",
@@ -315,7 +313,6 @@
     ],
     "arrayQualityMetrics": [
         "AnnotationDbi",
-        "affyPLM",
         "annotate",
         "beadarray",
         "genefilter"
@@ -4130,7 +4127,6 @@
         "SingleCellExperiment"
     ],
     "mimager": [
-        "affyPLM",
         "oligo",
         "oligoClasses"
     ],
@@ -5484,9 +5480,7 @@
         "regioneR",
         "rtracklayer"
     ],
-    "RefPlus": [
-        "affyPLM"
-    ],
+    "RefPlus": [],
     "RegEnrich": [
         "AnnotationDbi",
         "BiocSet",
