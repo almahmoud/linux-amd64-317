@@ -119,8 +119,7 @@
         "ensembldb"
     ],
     "bioCancer": [
-        "ReactomePA",
-        "clusterProfiler"
+        "ReactomePA"
     ],
     "BiocOncoTK": [],
     "biovizBase": [
@@ -218,15 +217,9 @@
         "RTCGAToolbox",
         "TCGAutils"
     ],
-    "CBNplot": [
-        "clusterProfiler"
-    ],
-    "CEMiTool": [
-        "clusterProfiler"
-    ],
-    "CeTF": [
-        "clusterProfiler"
-    ],
+    "CBNplot": [],
+    "CEMiTool": [],
+    "CeTF": [],
     "CexoR": [
         "genomation"
     ],
@@ -295,7 +288,6 @@
     ],
     "cliProfiler": [],
     "clusterExperiment": [],
-    "clusterProfiler": [],
     "CNVfilteR": [
         "CopyNumberPlots",
         "VariantAnnotation",
@@ -424,9 +416,7 @@
         "EDASeq"
     ],
     "dasper": [],
-    "debrowser": [
-        "clusterProfiler"
-    ],
+    "debrowser": [],
     "decompTumor2Sig": [
         "VariantAnnotation"
     ],
@@ -509,14 +499,10 @@
     "DSS": [
         "bsseq"
     ],
-    "EasyCellType": [
-        "clusterProfiler"
-    ],
+    "EasyCellType": [],
     "EDASeq": [],
     "edge": [],
-    "eegc": [
-        "clusterProfiler"
-    ],
+    "eegc": [],
     "ELMER": [
         "Gviz",
         "VariantAnnotation",
@@ -533,7 +519,6 @@
     ],
     "enrichTF": [
         "TFBSTools",
-        "clusterProfiler",
         "motifmatchr",
         "pipeFrame"
     ],
@@ -592,7 +577,6 @@
     "esATAC": [
         "ChIPseeker",
         "TFBSTools",
-        "clusterProfiler",
         "motifmatchr",
         "pipeFrame"
     ],
@@ -614,15 +598,11 @@
         "ensembldb"
     ],
     "factR": [],
-    "famat": [
-        "clusterProfiler"
-    ],
+    "famat": [],
     "fCCAC": [
         "genomation"
     ],
-    "fcoex": [
-        "clusterProfiler"
-    ],
+    "fcoex": [],
     "fcScan": [
         "VariantAnnotation"
     ],
@@ -662,9 +642,7 @@
         "EDASeq"
     ],
     "gcapc": [],
-    "GDCRNATools": [
-        "clusterProfiler"
-    ],
+    "GDCRNATools": [],
     "genbankr": [
         "VariantAnnotation"
     ],
@@ -710,9 +688,7 @@
     "GmicR": [],
     "gmoviz": [],
     "goseq": [],
-    "goSorensen": [
-        "clusterProfiler"
-    ],
+    "goSorensen": [],
     "GOTHiC": [],
     "GRaNIE": [
         "ensembldb"
@@ -802,9 +778,7 @@
         "VariantAnnotation"
     ],
     "IPO": [],
-    "IRISFGM": [
-        "clusterProfiler"
-    ],
+    "IRISFGM": [],
     "iSEEu": [],
     "IsoformSwitchAnalyzeR": [
         "ensembldb",
@@ -847,9 +821,7 @@
         "methylumi",
         "minfi"
     ],
-    "MAGeCKFlute": [
-        "clusterProfiler"
-    ],
+    "MAGeCKFlute": [],
     "magpie": [
         "TRESS"
     ],
@@ -902,9 +874,7 @@
         "ensembldb"
     ],
     "metaMS": [],
-    "MetaPhOR": [
-        "clusterProfiler"
-    ],
+    "MetaPhOR": [],
     "methInheritSim": [],
     "MethReg": [],
     "methrix": [],
@@ -926,7 +896,6 @@
     ],
     "methylGSA": [
         "bumphunter",
-        "clusterProfiler",
         "methylumi",
         "minfi",
         "missMethyl"
@@ -951,9 +920,7 @@
     "microbiomeMarker": [
         "ANCOMBC"
     ],
-    "MicrobiomeProfiler": [
-        "clusterProfiler"
-    ],
+    "MicrobiomeProfiler": [],
     "MineICA": [
         "bumphunter",
         "lumi",
@@ -972,12 +939,10 @@
     "miRLAB": [],
     "miRSM": [
         "ReactomePA",
-        "clusterProfiler",
         "miRspongeR"
     ],
     "miRspongeR": [
-        "ReactomePA",
-        "clusterProfiler"
+        "ReactomePA"
     ],
     "missMethyl": [
         "bumphunter",
@@ -999,9 +964,7 @@
     "monaLisa": [
         "TFBSTools"
     ],
-    "MoonlightR": [
-        "clusterProfiler"
-    ],
+    "MoonlightR": [],
     "Motif2Site": [],
     "motifbreakR": [
         "Gviz",
@@ -1036,8 +999,7 @@
         "regioneR"
     ],
     "multiSight": [
-        "ReactomePA",
-        "clusterProfiler"
+        "ReactomePA"
     ],
     "mumosa": [],
     "MungeSumstats": [
@@ -1121,19 +1083,14 @@
         "motifmatchr"
     ],
     "pairedGSEA": [],
-    "PanomiR": [
-        "clusterProfiler"
-    ],
+    "PanomiR": [],
     "pcaExplorer": [],
     "PDATK": [],
     "periodicDNA": [],
-    "PFP": [
-        "clusterProfiler"
-    ],
+    "PFP": [],
     "phenoTest": [],
     "Pigengene": [
-        "ReactomePA",
-        "clusterProfiler"
+        "ReactomePA"
     ],
     "PING": [
         "Gviz",
@@ -1424,8 +1381,7 @@
         "HiLDA"
     ],
     "seqArchRplus": [
-        "ChIPseeker",
-        "clusterProfiler"
+        "ChIPseeker"
     ],
     "seqCAT": [
         "VariantAnnotation"
@@ -1441,9 +1397,7 @@
         "bumphunter",
         "minfi"
     ],
-    "signatureSearch": [
-        "clusterProfiler"
-    ],
+    "signatureSearch": [],
     "signeR": [
         "VariantAnnotation"
     ],
@@ -1549,9 +1503,7 @@
     "TFHAZ": [
         "ORFik"
     ],
-    "TimiRGeN": [
-        "clusterProfiler"
-    ],
+    "TimiRGeN": [],
     "TitanCNA": [
         "VariantAnnotation"
     ],
