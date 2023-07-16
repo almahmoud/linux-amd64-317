@@ -29,14 +29,11 @@
     ],
     "alabaster": [
         "BSgenome",
-        "SpatialExperiment",
         "VariantAnnotation",
         "alabaster.spatial",
         "alabaster.vcf"
     ],
-    "alabaster.spatial": [
-        "SpatialExperiment"
-    ],
+    "alabaster.spatial": [],
     "alabaster.vcf": [
         "BSgenome",
         "VariantAnnotation"
@@ -508,9 +505,7 @@
     ],
     "crossmeta": [],
     "CSSQ": [],
-    "CTSV": [
-        "SpatialExperiment"
-    ],
+    "CTSV": [],
     "cummeRbund": [
         "BSgenome",
         "Gviz",
@@ -523,11 +518,8 @@
         "VariantAnnotation"
     ],
     "cytofQC": [],
-    "cytomapper": [
-        "SpatialExperiment"
-    ],
+    "cytomapper": [],
     "cytoviewer": [
-        "SpatialExperiment",
         "cytomapper"
     ],
     "dagLogo": [
@@ -589,9 +581,7 @@
         "ensembldb",
         "regioneR"
     ],
-    "DESpace": [
-        "SpatialExperiment"
-    ],
+    "DESpace": [],
     "DExMA": [],
     "DiffBind": [
         "BSgenome",
@@ -746,9 +736,7 @@
         "motifmatchr",
         "pipeFrame"
     ],
-    "escheR": [
-        "SpatialExperiment"
-    ],
+    "escheR": [],
     "EventPointer": [
         "BSgenome",
         "SGSeq"
@@ -761,9 +749,7 @@
         "AnnotationHubData",
         "OrganismDbi"
     ],
-    "ExperimentSubset": [
-        "SpatialExperiment"
-    ],
+    "ExperimentSubset": [],
     "extraChIPs": [
         "BSgenome",
         "GenomicInteractions",
@@ -884,9 +870,7 @@
         "biovizBase",
         "ensembldb"
     ],
-    "ggspavis": [
-        "SpatialExperiment"
-    ],
+    "ggspavis": [],
     "gmapR": [
         "BSgenome",
         "VariantAnnotation"
@@ -991,7 +975,6 @@
         "IVAS"
     ],
     "imcRtools": [
-        "SpatialExperiment",
         "cytomapper"
     ],
     "InPAS": [
@@ -1046,7 +1029,6 @@
         "VariantAnnotation"
     ],
     "lisaClust": [
-        "SpatialExperiment",
         "spicyR"
     ],
     "LOBSTAHS": [],
@@ -1242,9 +1224,7 @@
     "MMDiff2": [
         "BSgenome"
     ],
-    "MoleculeExperiment": [
-        "SpatialExperiment"
-    ],
+    "MoleculeExperiment": [],
     "monaLisa": [
         "BSgenome",
         "TFBSTools"
@@ -1344,9 +1324,7 @@
         "quantro",
         "yarn"
     ],
-    "nnSVG": [
-        "SpatialExperiment"
-    ],
+    "nnSVG": [],
     "NoRCE": [],
     "nullranges": [],
     "NxtIRFcore": [
@@ -1720,7 +1698,6 @@
     "scDD": [],
     "scFeatures": [
         "SingleCellSignalR",
-        "SpatialExperiment",
         "ensembldb"
     ],
     "scMerge": [],
@@ -1808,7 +1785,6 @@
     ],
     "SimBindProfiles": [],
     "simpleSeg": [
-        "SpatialExperiment",
         "cytomapper"
     ],
     "SingleCellSignalR": [],
@@ -1853,16 +1829,9 @@
     "SparseSignatures": [
         "BSgenome"
     ],
-    "spaSim": [
-        "SpatialExperiment"
-    ],
-    "spatialDE": [
-        "SpatialExperiment"
-    ],
-    "SpatialExperiment": [],
-    "SpatialFeatureExperiment": [
-        "SpatialExperiment"
-    ],
+    "spaSim": [],
+    "spatialDE": [],
+    "SpatialFeatureExperiment": [],
     "spatialHeatmap": [],
     "spatzie": [
         "BSgenome",
@@ -1874,12 +1843,8 @@
         "ensembldb",
         "motifmatchr"
     ],
-    "SPIAT": [
-        "SpatialExperiment"
-    ],
-    "spicyR": [
-        "SpatialExperiment"
-    ],
+    "SPIAT": [],
+    "spicyR": [],
     "spiky": [
         "BSgenome"
     ],
@@ -1894,21 +1859,16 @@
         "biovizBase",
         "ensembldb"
     ],
-    "SpotClean": [
-        "SpatialExperiment"
-    ],
+    "SpotClean": [],
     "standR": [
         "EDASeq",
-        "RUVSeq",
-        "SpatialExperiment"
+        "RUVSeq"
     ],
     "staRank": [
         "cellHTS2"
     ],
     "StarBioTrek": [],
-    "stJoincount": [
-        "SpatialExperiment"
-    ],
+    "stJoincount": [],
     "strandCheckR": [],
     "StructuralVariantAnnotation": [
         "BSgenome",
@@ -2042,7 +2002,6 @@
     ],
     "velociraptor": [],
     "Voyager": [
-        "SpatialExperiment",
         "SpatialFeatureExperiment"
     ],
     "vtpnet": [
