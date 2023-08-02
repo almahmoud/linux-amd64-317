@@ -1,0 +1,44 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE); p <- .libPaths(); p <- c('\''/tmp/tmp/built'\'', p); .libPaths(p); if(BiocManager::install('\''SIMAT'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://packagemanager.posit.co/cran/__linux__/jammy/latest
+Warning: unable to access index for repository https://packagemanager.posit.co/cran/__linux__/jammy/latest/src/contrib:
+  cannot open URL 'https://packagemanager.posit.co/cran/__linux__/jammy/latest/src/contrib/PACKAGES'
+Bioconductor version 3.17 (BiocManager 1.30.20), R 4.3.0 (2023-04-21)
+Installing package(s) 'SIMAT'
+also installing the dependency ‘reshape2’
+
+trying URL 'https://packagemanager.posit.co/cran/__linux__/jammy/latest/src/contrib/reshape2_1.4.4.tar.gz'
+Error in download.file(url, destfile, method, mode = "wb", ...) : 
+  cannot open URL 'https://packagemanager.posit.co/cran/__linux__/jammy/latest/src/contrib/reshape2_1.4.4.tar.gz'
+In addition: Warning messages:
+1: In download.file(url, destfile, method, mode = "wb", ...) :
+  downloaded length 0 != reported length 0
+2: In download.file(url, destfile, method, mode = "wb", ...) :
+  cannot open URL 'https://packagemanager.posit.co/cran/__linux__/jammy/latest/src/contrib/reshape2_1.4.4.tar.gz': HTTP status was '503 Service Unavailable'
+Warning in download.packages(pkgs, destdir = tmpd, available = available,  :
+  download of package ‘reshape2’ failed
+trying URL 'https://bioconductor.org/packages/3.17/bioc/src/contrib/SIMAT_1.32.0.tar.gz'
+Content type 'application/x-gzip' length 1024883 bytes (1000 KB)
+==================================================
+downloaded 1000 KB
+
+ERROR: dependency ‘reshape2’ is not available for package ‘SIMAT’
+* removing ‘/tmp/tmp/built/SIMAT’
+
+The downloaded source packages are in
+	‘/tmp/RtmpIMFcRm/downloaded_packages’
+Old packages: 'BiocManager', 'bslib', 'cachem', 'cpp11', 'curl', 'digest',
+  'downlit', 'evaluate', 'fs', 'httpuv', 'httr', 'httr2', 'jsonlite', 'knitr',
+  'later', 'openssl', 'pkgbuild', 'pkgload', 'processx', 'profvis', 'Rcpp',
+  'remotes', 'rmarkdown', 'rstudioapi', 'sass', 'shiny', 'sys', 'testthat',
+  'usethis', 'vctrs', 'waldo', 'xml2', 'class', 'KernSmooth', 'MASS', 'Matrix',
+  'mgcv', 'nnet', 'spatial'
+Warning message:
+In install.packages(...) :
+  installation of package ‘SIMAT’ had non-zero exit status
+
+real	0m27.465s
+user	0m3.994s
+sys	0m0.434s
