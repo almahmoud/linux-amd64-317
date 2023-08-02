@@ -2736,7 +2736,6 @@
         "slingshot"
     ],
     "CONFESS": [
-        "flowClust",
         "flowMerge"
     ],
     "consensusDE": [
@@ -3205,7 +3204,6 @@
     ],
     "cyanoFilter": [
         "DelayedArray",
-        "flowClust",
         "flowDensity",
         "flowWorkspace",
         "ncdfFlow"
@@ -3254,7 +3252,6 @@
     ],
     "CytoML": [
         "DelayedArray",
-        "flowClust",
         "flowWorkspace",
         "ggcyto",
         "ncdfFlow",
@@ -4882,7 +4879,6 @@
     "flowBin": [
         "flowFP"
     ],
-    "flowClust": [],
     "flowCut": [
         "DelayedArray",
         "flowDensity",
@@ -4901,17 +4897,13 @@
         "ggcyto",
         "ncdfFlow"
     ],
-    "flowMerge": [
-        "flowClust"
-    ],
+    "flowMerge": [],
     "flowStats": [
         "DelayedArray",
         "flowWorkspace",
         "ncdfFlow"
     ],
-    "flowTrans": [
-        "flowClust"
-    ],
+    "flowTrans": [],
     "flowVS": [
         "DelayedArray",
         "flowStats",
@@ -8847,7 +8839,6 @@
     ],
     "openCyto": [
         "DelayedArray",
-        "flowClust",
         "flowWorkspace",
         "ncdfFlow"
     ],
