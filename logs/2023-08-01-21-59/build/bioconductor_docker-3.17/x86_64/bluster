@@ -5,12 +5,47 @@ Replacement repositories:
     CRAN: https://packagemanager.posit.co/cran/__linux__/jammy/latest
 Bioconductor version 3.17 (BiocManager 1.30.20), R 4.3.0 (2023-04-21)
 Installing package(s) 'bluster'
-also installing the dependencies ‘crosstalk’, ‘DT’, ‘lazyeval’, ‘dir.expiry’, ‘basilisk.utils’, ‘RcppTOML’, ‘here’, ‘interactiveDisplayBase’, ‘AnnotationFilter’, ‘sparseMatrixStats’, ‘ScaledMatrix’, ‘irlba’, ‘rsvd’, ‘beeswarm’, ‘vipor’, ‘RcppProgress’, ‘basilisk’, ‘assertthat’, ‘reticulate’, ‘Cairo’, ‘sitmo’, ‘gmp’, ‘benchmarkmeData’, ‘SingleCellExperiment’, ‘ExperimentHub’, ‘AnnotationHub’, ‘ensembldb’, ‘DelayedMatrixStats’, ‘beachmat’, ‘BiocSingular’, ‘ggbeeswarm’, ‘Rtsne’, ‘RcppML’, ‘uwot’, ‘ggrepel’, ‘densvis’, ‘ggrastr’, ‘edgeR’, ‘statmod’, ‘metapod’, ‘dqrng’, ‘gridExtra’, ‘ClusterR’, ‘benchmarkme’, ‘igraph’, ‘dynamicTreeCut’, ‘scRNAseq’, ‘scuttle’, ‘scater’, ‘scran’, ‘pheatmap’, ‘viridis’, ‘mbkmeans’, ‘kohonen’, ‘apcluster’
+also installing the dependencies ‘tidyr’, ‘crosstalk’, ‘rjson’, ‘hms’, ‘dbplyr’, ‘filelock’, ‘generics’, ‘tidyselect’, ‘DT’, ‘lazyeval’, ‘restfulr’, ‘progress’, ‘dir.expiry’, ‘basilisk.utils’, ‘RcppTOML’, ‘here’, ‘BiocFileCache’, ‘dplyr’, ‘interactiveDisplayBase’, ‘AnnotationFilter’, ‘rtracklayer’, ‘BiocIO’, ‘biomaRt’, ‘sparseMatrixStats’, ‘ScaledMatrix’, ‘irlba’, ‘rsvd’, ‘beeswarm’, ‘vipor’, ‘RcppProgress’, ‘basilisk’, ‘assertthat’, ‘reticulate’, ‘Cairo’, ‘sitmo’, ‘gmp’, ‘benchmarkmeData’, ‘SingleCellExperiment’, ‘ExperimentHub’, ‘AnnotationHub’, ‘ensembldb’, ‘GenomicFeatures’, ‘DelayedMatrixStats’, ‘beachmat’, ‘BiocSingular’, ‘ggbeeswarm’, ‘Rtsne’, ‘RcppML’, ‘uwot’, ‘ggrepel’, ‘densvis’, ‘ggrastr’, ‘edgeR’, ‘statmod’, ‘metapod’, ‘dqrng’, ‘gridExtra’, ‘ClusterR’, ‘benchmarkme’, ‘igraph’, ‘dynamicTreeCut’, ‘scRNAseq’, ‘scuttle’, ‘scater’, ‘scran’, ‘pheatmap’, ‘viridis’, ‘mbkmeans’, ‘kohonen’, ‘apcluster’
+
+trying URL 'https://packagemanager.posit.co/cran/__linux__/jammy/latest/src/contrib/tidyr_1.3.0.tar.gz'
+Content type 'binary/octet-stream' length 1199787 bytes (1.1 MB)
+==================================================
+downloaded 1.1 MB
 
 trying URL 'https://packagemanager.posit.co/cran/__linux__/jammy/latest/src/contrib/crosstalk_1.2.0.tar.gz'
 Content type 'binary/octet-stream' length 403467 bytes (394 KB)
 ==================================================
 downloaded 394 KB
+
+trying URL 'https://packagemanager.posit.co/cran/__linux__/jammy/latest/src/contrib/rjson_0.2.21.tar.gz'
+Content type 'binary/octet-stream' length 150492 bytes (146 KB)
+==================================================
+downloaded 146 KB
+
+trying URL 'https://packagemanager.posit.co/cran/__linux__/jammy/latest/src/contrib/hms_1.1.3.tar.gz'
+Content type 'binary/octet-stream' length 98350 bytes (96 KB)
+==================================================
+downloaded 96 KB
+
+trying URL 'https://packagemanager.posit.co/cran/__linux__/jammy/latest/src/contrib/dbplyr_2.3.3.tar.gz'
+Content type 'binary/octet-stream' length 1118216 bytes (1.1 MB)
+==================================================
+downloaded 1.1 MB
+
+trying URL 'https://packagemanager.posit.co/cran/__linux__/jammy/latest/src/contrib/filelock_1.0.2.tar.gz'
+Content type 'binary/octet-stream' length 21806 bytes (21 KB)
+==================================================
+downloaded 21 KB
+
+trying URL 'https://packagemanager.posit.co/cran/__linux__/jammy/latest/src/contrib/generics_0.1.3.tar.gz'
+Content type 'binary/octet-stream' length 76238 bytes (74 KB)
+==================================================
+downloaded 74 KB
+
+trying URL 'https://packagemanager.posit.co/cran/__linux__/jammy/latest/src/contrib/tidyselect_1.2.0.tar.gz'
+Content type 'binary/octet-stream' length 219931 bytes (214 KB)
+==================================================
+downloaded 214 KB
 
 trying URL 'https://packagemanager.posit.co/cran/__linux__/jammy/latest/src/contrib/DT_0.28.tar.gz'
 Content type 'binary/octet-stream' length 1587021 bytes (1.5 MB)
@@ -21,6 +56,16 @@ trying URL 'https://packagemanager.posit.co/cran/__linux__/jammy/latest/src/cont
 Content type 'binary/octet-stream' length 155230 bytes (151 KB)
 ==================================================
 downloaded 151 KB
+
+trying URL 'https://packagemanager.posit.co/cran/__linux__/jammy/latest/src/contrib/restfulr_0.0.15.tar.gz'
+Content type 'binary/octet-stream' length 15118 bytes (14 KB)
+==================================================
+downloaded 14 KB
+
+trying URL 'https://packagemanager.posit.co/cran/__linux__/jammy/latest/src/contrib/progress_1.2.2.tar.gz'
+Content type 'binary/octet-stream' length 83560 bytes (81 KB)
+==================================================
+downloaded 81 KB
 
 trying URL 'https://bioconductor.org/packages/3.17/bioc/src/contrib/dir.expiry_1.8.0.tar.gz'
 Content type 'application/x-gzip' length 292895 bytes (286 KB)
@@ -42,6 +87,16 @@ Content type 'binary/octet-stream' length 52848 bytes (51 KB)
 ==================================================
 downloaded 51 KB
 
+trying URL 'https://bioconductor.org/packages/3.17/bioc/src/contrib/BiocFileCache_2.8.0.tar.gz'
+Content type 'application/x-gzip' length 298802 bytes (291 KB)
+==================================================
+downloaded 291 KB
+
+trying URL 'https://packagemanager.posit.co/cran/__linux__/jammy/latest/src/contrib/dplyr_1.1.2.tar.gz'
+Content type 'binary/octet-stream' length 1463316 bytes (1.4 MB)
+==================================================
+downloaded 1.4 MB
+
 trying URL 'https://bioconductor.org/packages/3.17/bioc/src/contrib/interactiveDisplayBase_1.38.0.tar.gz'
 Content type 'application/x-gzip' length 7750 bytes
 ==================================================
@@ -51,6 +106,21 @@ trying URL 'https://bioconductor.org/packages/3.17/bioc/src/contrib/AnnotationFi
 Content type 'application/x-gzip' length 310230 bytes (302 KB)
 ==================================================
 downloaded 302 KB
+
+trying URL 'https://bioconductor.org/packages/3.17/bioc/src/contrib/rtracklayer_1.60.0.tar.gz'
+Content type 'application/x-gzip' length 4018828 bytes (3.8 MB)
+==================================================
+downloaded 3.8 MB
+
+trying URL 'https://bioconductor.org/packages/3.17/bioc/src/contrib/BiocIO_1.10.0.tar.gz'
+Content type 'application/x-gzip' length 231333 bytes (225 KB)
+==================================================
+downloaded 225 KB
+
+trying URL 'https://bioconductor.org/packages/3.17/bioc/src/contrib/biomaRt_2.56.1.tar.gz'
+Content type 'application/x-gzip' length 669187 bytes (653 KB)
+==================================================
+downloaded 653 KB
 
 trying URL 'https://bioconductor.org/packages/3.17/bioc/src/contrib/sparseMatrixStats_1.12.2.tar.gz'
 Content type 'application/x-gzip' length 702895 bytes (686 KB)
@@ -141,6 +211,11 @@ trying URL 'https://bioconductor.org/packages/3.17/bioc/src/contrib/ensembldb_2.
 Content type 'application/x-gzip' length 3283223 bytes (3.1 MB)
 ==================================================
 downloaded 3.1 MB
+
+trying URL 'https://bioconductor.org/packages/3.17/bioc/src/contrib/GenomicFeatures_1.52.1.tar.gz'
+Content type 'application/x-gzip' length 1179202 bytes (1.1 MB)
+==================================================
+downloaded 1.1 MB
 
 trying URL 'https://bioconductor.org/packages/3.17/bioc/src/contrib/DelayedMatrixStats_1.22.1.tar.gz'
 Content type 'application/x-gzip' length 277048 bytes (270 KB)
@@ -287,12 +362,47 @@ Content type 'application/x-gzip' length 2983039 bytes (2.8 MB)
 ==================================================
 downloaded 2.8 MB
 
+* installing *binary* package ‘rjson’ ...
+* ‘rjson’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘rjson’ as ‘rjson_0.2.21_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (rjson)
+* installing *binary* package ‘hms’ ...
+* ‘hms’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘hms’ as ‘hms_1.1.3_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (hms)
+* installing *binary* package ‘filelock’ ...
+* ‘filelock’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘filelock’ as ‘filelock_1.0.2_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (filelock)
+* installing *binary* package ‘generics’ ...
+* ‘generics’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘generics’ as ‘generics_0.1.3_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (generics)
+* installing *binary* package ‘tidyselect’ ...
+* ‘tidyselect’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘tidyselect’ as ‘tidyselect_1.2.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (tidyselect)
 * installing *binary* package ‘lazyeval’ ...
 * ‘lazyeval’ was already a binary package and will not be rebuilt
 * creating tarball
 packaged installation of ‘lazyeval’ as ‘lazyeval_0.2.2_R_x86_64-pc-linux-gnu.tar.gz’
 * DONE (lazyeval)
-* installing *source* package ‘dir.expiry’ ...
+* installing *binary* package ‘RcppTOML’ ...
+* ‘RcppTOML’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘RcppTOML’ as ‘RcppTOML_0.2.2_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (RcppTOML)
+* installing *binary* package ‘here’ ...
+* ‘here’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘here’ as ‘here_1.0.1_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (here)
+* installing *source* package ‘BiocIO’ ...
 ** using staged installation
 ** R
 ** inst
@@ -305,18 +415,8 @@ packaged installation of ‘lazyeval’ as ‘lazyeval_0.2.2_R_x86_64-pc-linux-g
 ** testing if installed package can be loaded from final location
 ** testing if installed package keeps a record of temporary installation path
 * creating tarball
-packaged installation of ‘dir.expiry’ as ‘dir.expiry_1.8.0_R_x86_64-pc-linux-gnu.tar.gz’
-* DONE (dir.expiry)
-* installing *binary* package ‘RcppTOML’ ...
-* ‘RcppTOML’ was already a binary package and will not be rebuilt
-* creating tarball
-packaged installation of ‘RcppTOML’ as ‘RcppTOML_0.2.2_R_x86_64-pc-linux-gnu.tar.gz’
-* DONE (RcppTOML)
-* installing *binary* package ‘here’ ...
-* ‘here’ was already a binary package and will not be rebuilt
-* creating tarball
-packaged installation of ‘here’ as ‘here_1.0.1_R_x86_64-pc-linux-gnu.tar.gz’
-* DONE (here)
+packaged installation of ‘BiocIO’ as ‘BiocIO_1.10.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (BiocIO)
 * installing *source* package ‘sparseMatrixStats’ ...
 ** using staged installation
 ** libs
@@ -475,11 +575,6 @@ packaged installation of ‘sitmo’ as ‘sitmo_2.0.2_R_x86_64-pc-linux-gnu.tar
 * creating tarball
 packaged installation of ‘gmp’ as ‘gmp_0.7-2_R_x86_64-pc-linux-gnu.tar.gz’
 * DONE (gmp)
-* installing *binary* package ‘benchmarkmeData’ ...
-* ‘benchmarkmeData’ was already a binary package and will not be rebuilt
-* creating tarball
-packaged installation of ‘benchmarkmeData’ as ‘benchmarkmeData_1.0.4_R_x86_64-pc-linux-gnu.tar.gz’
-* DONE (benchmarkmeData)
 * installing *source* package ‘SingleCellExperiment’ ...
 ** using staged installation
 ** R
@@ -644,7 +739,35 @@ packaged installation of ‘apcluster’ as ‘apcluster_1.4.10_R_x86_64-pc-linu
 * creating tarball
 packaged installation of ‘crosstalk’ as ‘crosstalk_1.2.0_R_x86_64-pc-linux-gnu.tar.gz’
 * DONE (crosstalk)
-* installing *source* package ‘basilisk.utils’ ...
+* installing *source* package ‘restfulr’ ...
+** package ‘restfulr’ successfully unpacked and MD5 sums checked
+** using staged installation
+** libs
+using C compiler: ‘gcc (Ubuntu 11.3.0-1ubuntu1~22.04) 11.3.0’
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c init.c -o init.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c raggedListToDF.c -o raggedListToDF.o
+gcc -shared -L/usr/local/lib/R/lib -L/usr/local/lib -o restfulr.so init.o raggedListToDF.o -L/usr/local/lib/R/lib -lR
+installing to /tmp/tmp/built/00LOCK-restfulr/00new/restfulr/libs
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+Creating a new generic function for ‘assign’ in package ‘restfulr’
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘restfulr’ as ‘restfulr_0.0.15_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (restfulr)
+* installing *binary* package ‘progress’ ...
+* ‘progress’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘progress’ as ‘progress_1.2.2_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (progress)
+* installing *source* package ‘dir.expiry’ ...
 ** using staged installation
 ** R
 ** inst
@@ -657,8 +780,13 @@ packaged installation of ‘crosstalk’ as ‘crosstalk_1.2.0_R_x86_64-pc-linux
 ** testing if installed package can be loaded from final location
 ** testing if installed package keeps a record of temporary installation path
 * creating tarball
-packaged installation of ‘basilisk.utils’ as ‘basilisk.utils_1.12.1_R_x86_64-pc-linux-gnu.tar.gz’
-* DONE (basilisk.utils)
+packaged installation of ‘dir.expiry’ as ‘dir.expiry_1.8.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (dir.expiry)
+* installing *binary* package ‘dplyr’ ...
+* ‘dplyr’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘dplyr’ as ‘dplyr_1.1.2_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (dplyr)
 * installing *source* package ‘AnnotationFilter’ ...
 ** using staged installation
 ** R
@@ -732,11 +860,6 @@ packaged installation of ‘dqrng’ as ‘dqrng_0.3.0_R_x86_64-pc-linux-gnu.tar
 * creating tarball
 packaged installation of ‘ClusterR’ as ‘ClusterR_1.3.1_R_x86_64-pc-linux-gnu.tar.gz’
 * DONE (ClusterR)
-* installing *binary* package ‘benchmarkme’ ...
-* ‘benchmarkme’ was already a binary package and will not be rebuilt
-* creating tarball
-packaged installation of ‘benchmarkme’ as ‘benchmarkme_1.0.8_R_x86_64-pc-linux-gnu.tar.gz’
-* DONE (benchmarkme)
 * installing *binary* package ‘viridis’ ...
 * ‘viridis’ was already a binary package and will not be rebuilt
 * creating tarball
@@ -766,25 +889,17 @@ installing to /tmp/tmp/built/00LOCK-bluster/00new/bluster/libs
 * creating tarball
 packaged installation of ‘bluster’ as ‘bluster_1.10.0_R_x86_64-pc-linux-gnu.tar.gz’
 * DONE (bluster)
+* installing *binary* package ‘tidyr’ ...
+* ‘tidyr’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘tidyr’ as ‘tidyr_1.3.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (tidyr)
 * installing *binary* package ‘DT’ ...
 * ‘DT’ was already a binary package and will not be rebuilt
 * creating tarball
 packaged installation of ‘DT’ as ‘DT_0.28_R_x86_64-pc-linux-gnu.tar.gz’
 * DONE (DT)
-* installing *source* package ‘basilisk’ ...
-** using non-staged installation via StagedInstall field
-** R
-** inst
-** byte-compile and prepare package for lazy loading
-** help
-*** installing help indices
-** building package indices
-** installing vignettes
-** testing if installed package can be loaded
-* creating tarball
-packaged installation of ‘basilisk’ as ‘basilisk_1.12.1_R_x86_64-pc-linux-gnu.tar.gz’
-* DONE (basilisk)
-* installing *source* package ‘ensembldb’ ...
+* installing *source* package ‘basilisk.utils’ ...
 ** using staged installation
 ** R
 ** inst
@@ -797,8 +912,119 @@ packaged installation of ‘basilisk’ as ‘basilisk_1.12.1_R_x86_64-pc-linux-
 ** testing if installed package can be loaded from final location
 ** testing if installed package keeps a record of temporary installation path
 * creating tarball
-packaged installation of ‘ensembldb’ as ‘ensembldb_2.24.0_R_x86_64-pc-linux-gnu.tar.gz’
-* DONE (ensembldb)
+packaged installation of ‘basilisk.utils’ as ‘basilisk.utils_1.12.1_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (basilisk.utils)
+* installing *source* package ‘rtracklayer’ ...
+** using staged installation
+checking for pkg-config... /usr/bin/pkg-config
+checking pkg-config is at least version 0.9.0... yes
+checking for OPENSSL... yes
+configure: creating ./config.status
+config.status: creating src/Makevars
+** libs
+using C compiler: ‘gcc (Ubuntu 11.3.0-1ubuntu1~22.04) 11.3.0’
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -DUSE_SSL -D_FILE_OFFSET_BITS=64 -I'/tmp/tmp/built/S4Vectors/include' -I'/tmp/tmp/built/IRanges/include' -I'/tmp/tmp/built/XVector/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c S4Vectors_stubs.c -o S4Vectors_stubs.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -DUSE_SSL -D_FILE_OFFSET_BITS=64 -I'/tmp/tmp/built/S4Vectors/include' -I'/tmp/tmp/built/IRanges/include' -I'/tmp/tmp/built/XVector/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c IRanges_stubs.c -o IRanges_stubs.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -DUSE_SSL -D_FILE_OFFSET_BITS=64 -I'/tmp/tmp/built/S4Vectors/include' -I'/tmp/tmp/built/IRanges/include' -I'/tmp/tmp/built/XVector/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c XVector_stubs.c -o XVector_stubs.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -DUSE_SSL -D_FILE_OFFSET_BITS=64 -I'/tmp/tmp/built/S4Vectors/include' -I'/tmp/tmp/built/IRanges/include' -I'/tmp/tmp/built/XVector/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c R_init_rtracklayer.c -o R_init_rtracklayer.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -DUSE_SSL -D_FILE_OFFSET_BITS=64 -I'/tmp/tmp/built/S4Vectors/include' -I'/tmp/tmp/built/IRanges/include' -I'/tmp/tmp/built/XVector/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c readGFF.c -o readGFF.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -DUSE_SSL -D_FILE_OFFSET_BITS=64 -I'/tmp/tmp/built/S4Vectors/include' -I'/tmp/tmp/built/IRanges/include' -I'/tmp/tmp/built/XVector/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c bbiHelper.c -o bbiHelper.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -DUSE_SSL -D_FILE_OFFSET_BITS=64 -I'/tmp/tmp/built/S4Vectors/include' -I'/tmp/tmp/built/IRanges/include' -I'/tmp/tmp/built/XVector/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c bigWig.c -o bigWig.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -DUSE_SSL -D_FILE_OFFSET_BITS=64 -I'/tmp/tmp/built/S4Vectors/include' -I'/tmp/tmp/built/IRanges/include' -I'/tmp/tmp/built/XVector/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c bigBedHelper.c -o bigBedHelper.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -DUSE_SSL -D_FILE_OFFSET_BITS=64 -I'/tmp/tmp/built/S4Vectors/include' -I'/tmp/tmp/built/IRanges/include' -I'/tmp/tmp/built/XVector/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c bigBed.c -o bigBed.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -DUSE_SSL -D_FILE_OFFSET_BITS=64 -I'/tmp/tmp/built/S4Vectors/include' -I'/tmp/tmp/built/IRanges/include' -I'/tmp/tmp/built/XVector/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c chain_io.c -o chain_io.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -DUSE_SSL -D_FILE_OFFSET_BITS=64 -I'/tmp/tmp/built/S4Vectors/include' -I'/tmp/tmp/built/IRanges/include' -I'/tmp/tmp/built/XVector/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c twoBit.c -o twoBit.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -DUSE_SSL -D_FILE_OFFSET_BITS=64 -I'/tmp/tmp/built/S4Vectors/include' -I'/tmp/tmp/built/IRanges/include' -I'/tmp/tmp/built/XVector/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c handlers.c -o handlers.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -DUSE_SSL -D_FILE_OFFSET_BITS=64 -I'/tmp/tmp/built/S4Vectors/include' -I'/tmp/tmp/built/IRanges/include' -I'/tmp/tmp/built/XVector/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c utils.c -o utils.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -DUSE_SSL -D_FILE_OFFSET_BITS=64 -I'/tmp/tmp/built/S4Vectors/include' -I'/tmp/tmp/built/IRanges/include' -I'/tmp/tmp/built/XVector/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c ucsc/memgfx.c -o ucsc/memgfx.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -DUSE_SSL -D_FILE_OFFSET_BITS=64 -I'/tmp/tmp/built/S4Vectors/include' -I'/tmp/tmp/built/IRanges/include' -I'/tmp/tmp/built/XVector/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c ucsc/aliType.c -o ucsc/aliType.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -DUSE_SSL -D_FILE_OFFSET_BITS=64 -I'/tmp/tmp/built/S4Vectors/include' -I'/tmp/tmp/built/IRanges/include' -I'/tmp/tmp/built/XVector/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c ucsc/binRange.c -o ucsc/binRange.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -DUSE_SSL -D_FILE_OFFSET_BITS=64 -I'/tmp/tmp/built/S4Vectors/include' -I'/tmp/tmp/built/IRanges/include' -I'/tmp/tmp/built/XVector/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c ucsc/htmlColor.c -o ucsc/htmlColor.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -DUSE_SSL -D_FILE_OFFSET_BITS=64 -I'/tmp/tmp/built/S4Vectors/include' -I'/tmp/tmp/built/IRanges/include' -I'/tmp/tmp/built/XVector/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c ucsc/sqlList.c -o ucsc/sqlList.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -DUSE_SSL -D_FILE_OFFSET_BITS=64 -I'/tmp/tmp/built/S4Vectors/include' -I'/tmp/tmp/built/IRanges/include' -I'/tmp/tmp/built/XVector/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c ucsc/tokenizer.c -o ucsc/tokenizer.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -DUSE_SSL -D_FILE_OFFSET_BITS=64 -I'/tmp/tmp/built/S4Vectors/include' -I'/tmp/tmp/built/IRanges/include' -I'/tmp/tmp/built/XVector/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c ucsc/asParse.c -o ucsc/asParse.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -DUSE_SSL -D_FILE_OFFSET_BITS=64 -I'/tmp/tmp/built/S4Vectors/include' -I'/tmp/tmp/built/IRanges/include' -I'/tmp/tmp/built/XVector/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c ucsc/basicBed.c -o ucsc/basicBed.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -DUSE_SSL -D_FILE_OFFSET_BITS=64 -I'/tmp/tmp/built/S4Vectors/include' -I'/tmp/tmp/built/IRanges/include' -I'/tmp/tmp/built/XVector/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c ucsc/bigBed.c -o ucsc/bigBed.o
+ucsc/bigBed.c: In function ‘extractField’:
+ucsc/bigBed.c:314:9: warning: ‘%s’ directive argument is null [-Wformat-overflow=]
+  314 |         warn("Not enough fields in extractField of %s", line);
+      |         ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -DUSE_SSL -D_FILE_OFFSET_BITS=64 -I'/tmp/tmp/built/S4Vectors/include' -I'/tmp/tmp/built/IRanges/include' -I'/tmp/tmp/built/XVector/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c ucsc/bPlusTree.c -o ucsc/bPlusTree.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -DUSE_SSL -D_FILE_OFFSET_BITS=64 -I'/tmp/tmp/built/S4Vectors/include' -I'/tmp/tmp/built/IRanges/include' -I'/tmp/tmp/built/XVector/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c ucsc/bbiRead.c -o ucsc/bbiRead.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -DUSE_SSL -D_FILE_OFFSET_BITS=64 -I'/tmp/tmp/built/S4Vectors/include' -I'/tmp/tmp/built/IRanges/include' -I'/tmp/tmp/built/XVector/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c ucsc/bbiWrite.c -o ucsc/bbiWrite.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -DUSE_SSL -D_FILE_OFFSET_BITS=64 -I'/tmp/tmp/built/S4Vectors/include' -I'/tmp/tmp/built/IRanges/include' -I'/tmp/tmp/built/XVector/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c ucsc/bwgCreate.c -o ucsc/bwgCreate.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -DUSE_SSL -D_FILE_OFFSET_BITS=64 -I'/tmp/tmp/built/S4Vectors/include' -I'/tmp/tmp/built/IRanges/include' -I'/tmp/tmp/built/XVector/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c ucsc/bwgQuery.c -o ucsc/bwgQuery.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -DUSE_SSL -D_FILE_OFFSET_BITS=64 -I'/tmp/tmp/built/S4Vectors/include' -I'/tmp/tmp/built/IRanges/include' -I'/tmp/tmp/built/XVector/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c ucsc/cirTree.c -o ucsc/cirTree.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -DUSE_SSL -D_FILE_OFFSET_BITS=64 -I'/tmp/tmp/built/S4Vectors/include' -I'/tmp/tmp/built/IRanges/include' -I'/tmp/tmp/built/XVector/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c ucsc/common.c -o ucsc/common.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -DUSE_SSL -D_FILE_OFFSET_BITS=64 -I'/tmp/tmp/built/S4Vectors/include' -I'/tmp/tmp/built/IRanges/include' -I'/tmp/tmp/built/XVector/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c ucsc/dnaseq.c -o ucsc/dnaseq.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -DUSE_SSL -D_FILE_OFFSET_BITS=64 -I'/tmp/tmp/built/S4Vectors/include' -I'/tmp/tmp/built/IRanges/include' -I'/tmp/tmp/built/XVector/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c ucsc/dnautil.c -o ucsc/dnautil.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -DUSE_SSL -D_FILE_OFFSET_BITS=64 -I'/tmp/tmp/built/S4Vectors/include' -I'/tmp/tmp/built/IRanges/include' -I'/tmp/tmp/built/XVector/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c ucsc/errAbort.c -o ucsc/errAbort.o
+ucsc/errAbort.c: In function ‘getThreadVars’:
+ucsc/errAbort.c:331:5: warning: ignoring return value of ‘write’ declared with attribute ‘warn_unused_result’ [-Wunused-result]
+  331 |     write(STDERR_FILENO, errMsg, strlen(errMsg));
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -DUSE_SSL -D_FILE_OFFSET_BITS=64 -I'/tmp/tmp/built/S4Vectors/include' -I'/tmp/tmp/built/IRanges/include' -I'/tmp/tmp/built/XVector/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c ucsc/hash.c -o ucsc/hash.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -DUSE_SSL -D_FILE_OFFSET_BITS=64 -I'/tmp/tmp/built/S4Vectors/include' -I'/tmp/tmp/built/IRanges/include' -I'/tmp/tmp/built/XVector/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c ucsc/linefile.c -o ucsc/linefile.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -DUSE_SSL -D_FILE_OFFSET_BITS=64 -I'/tmp/tmp/built/S4Vectors/include' -I'/tmp/tmp/built/IRanges/include' -I'/tmp/tmp/built/XVector/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c ucsc/localmem.c -o ucsc/localmem.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -DUSE_SSL -D_FILE_OFFSET_BITS=64 -I'/tmp/tmp/built/S4Vectors/include' -I'/tmp/tmp/built/IRanges/include' -I'/tmp/tmp/built/XVector/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c ucsc/sqlNum.c -o ucsc/sqlNum.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -DUSE_SSL -D_FILE_OFFSET_BITS=64 -I'/tmp/tmp/built/S4Vectors/include' -I'/tmp/tmp/built/IRanges/include' -I'/tmp/tmp/built/XVector/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c ucsc/zlibFace.c -o ucsc/zlibFace.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -DUSE_SSL -D_FILE_OFFSET_BITS=64 -I'/tmp/tmp/built/S4Vectors/include' -I'/tmp/tmp/built/IRanges/include' -I'/tmp/tmp/built/XVector/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c ucsc/dystring.c -o ucsc/dystring.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -DUSE_SSL -D_FILE_OFFSET_BITS=64 -I'/tmp/tmp/built/S4Vectors/include' -I'/tmp/tmp/built/IRanges/include' -I'/tmp/tmp/built/XVector/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c ucsc/hmmstats.c -o ucsc/hmmstats.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -DUSE_SSL -D_FILE_OFFSET_BITS=64 -I'/tmp/tmp/built/S4Vectors/include' -I'/tmp/tmp/built/IRanges/include' -I'/tmp/tmp/built/XVector/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c ucsc/obscure.c -o ucsc/obscure.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -DUSE_SSL -D_FILE_OFFSET_BITS=64 -I'/tmp/tmp/built/S4Vectors/include' -I'/tmp/tmp/built/IRanges/include' -I'/tmp/tmp/built/XVector/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c ucsc/pipeline.c -o ucsc/pipeline.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -DUSE_SSL -D_FILE_OFFSET_BITS=64 -I'/tmp/tmp/built/S4Vectors/include' -I'/tmp/tmp/built/IRanges/include' -I'/tmp/tmp/built/XVector/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c ucsc/rangeTree.c -o ucsc/rangeTree.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -DUSE_SSL -D_FILE_OFFSET_BITS=64 -I'/tmp/tmp/built/S4Vectors/include' -I'/tmp/tmp/built/IRanges/include' -I'/tmp/tmp/built/XVector/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c ucsc/rbTree.c -o ucsc/rbTree.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -DUSE_SSL -D_FILE_OFFSET_BITS=64 -I'/tmp/tmp/built/S4Vectors/include' -I'/tmp/tmp/built/IRanges/include' -I'/tmp/tmp/built/XVector/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c ucsc/memalloc.c -o ucsc/memalloc.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -DUSE_SSL -D_FILE_OFFSET_BITS=64 -I'/tmp/tmp/built/S4Vectors/include' -I'/tmp/tmp/built/IRanges/include' -I'/tmp/tmp/built/XVector/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c ucsc/dlist.c -o ucsc/dlist.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -DUSE_SSL -D_FILE_OFFSET_BITS=64 -I'/tmp/tmp/built/S4Vectors/include' -I'/tmp/tmp/built/IRanges/include' -I'/tmp/tmp/built/XVector/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c ucsc/hex.c -o ucsc/hex.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -DUSE_SSL -D_FILE_OFFSET_BITS=64 -I'/tmp/tmp/built/S4Vectors/include' -I'/tmp/tmp/built/IRanges/include' -I'/tmp/tmp/built/XVector/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c ucsc/filePath.c -o ucsc/filePath.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -DUSE_SSL -D_FILE_OFFSET_BITS=64 -I'/tmp/tmp/built/S4Vectors/include' -I'/tmp/tmp/built/IRanges/include' -I'/tmp/tmp/built/XVector/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c ucsc/htmlPage.c -o ucsc/htmlPage.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -DUSE_SSL -D_FILE_OFFSET_BITS=64 -I'/tmp/tmp/built/S4Vectors/include' -I'/tmp/tmp/built/IRanges/include' -I'/tmp/tmp/built/XVector/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c ucsc/udc.c -o ucsc/udc.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -DUSE_SSL -D_FILE_OFFSET_BITS=64 -I'/tmp/tmp/built/S4Vectors/include' -I'/tmp/tmp/built/IRanges/include' -I'/tmp/tmp/built/XVector/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c ucsc/net.c -o ucsc/net.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -DUSE_SSL -D_FILE_OFFSET_BITS=64 -I'/tmp/tmp/built/S4Vectors/include' -I'/tmp/tmp/built/IRanges/include' -I'/tmp/tmp/built/XVector/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c ucsc/bits.c -o ucsc/bits.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -DUSE_SSL -D_FILE_OFFSET_BITS=64 -I'/tmp/tmp/built/S4Vectors/include' -I'/tmp/tmp/built/IRanges/include' -I'/tmp/tmp/built/XVector/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c ucsc/twoBit.c -o ucsc/twoBit.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -DUSE_SSL -D_FILE_OFFSET_BITS=64 -I'/tmp/tmp/built/S4Vectors/include' -I'/tmp/tmp/built/IRanges/include' -I'/tmp/tmp/built/XVector/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c ucsc/_cheapcgi.c -o ucsc/_cheapcgi.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -DUSE_SSL -D_FILE_OFFSET_BITS=64 -I'/tmp/tmp/built/S4Vectors/include' -I'/tmp/tmp/built/IRanges/include' -I'/tmp/tmp/built/XVector/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c ucsc/internet.c -o ucsc/internet.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -DUSE_SSL -D_FILE_OFFSET_BITS=64 -I'/tmp/tmp/built/S4Vectors/include' -I'/tmp/tmp/built/IRanges/include' -I'/tmp/tmp/built/XVector/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c ucsc/https.c -o ucsc/https.o
+ucsc/https.c: In function ‘openSslInit’:
+ucsc/https.c:76:5: warning: ‘ERR_load_SSL_strings’ is deprecated: Since OpenSSL 3.0 [-Wdeprecated-declarations]
+   76 |     ERR_load_SSL_strings();
+      |     ^~~~~~~~~~~~~~~~~~~~
+In file included from /usr/include/openssl/sslerr.h:17,
+                 from /usr/include/openssl/ssl.h:43,
+                 from ucsc/https.c:8:
+/usr/include/openssl/sslerr_legacy.h:29:27: note: declared here
+   29 | OSSL_DEPRECATEDIN_3_0 int ERR_load_SSL_strings(void);
+      |                           ^~~~~~~~~~~~~~~~~~~~
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -DUSE_SSL -D_FILE_OFFSET_BITS=64 -I'/tmp/tmp/built/S4Vectors/include' -I'/tmp/tmp/built/IRanges/include' -I'/tmp/tmp/built/XVector/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c ucsc/base64.c -o ucsc/base64.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -DUSE_SSL -D_FILE_OFFSET_BITS=64 -I'/tmp/tmp/built/S4Vectors/include' -I'/tmp/tmp/built/IRanges/include' -I'/tmp/tmp/built/XVector/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c ucsc/verbose.c -o ucsc/verbose.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -DUSE_SSL -D_FILE_OFFSET_BITS=64 -I'/tmp/tmp/built/S4Vectors/include' -I'/tmp/tmp/built/IRanges/include' -I'/tmp/tmp/built/XVector/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c ucsc/os.c -o ucsc/os.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -DUSE_SSL -D_FILE_OFFSET_BITS=64 -I'/tmp/tmp/built/S4Vectors/include' -I'/tmp/tmp/built/IRanges/include' -I'/tmp/tmp/built/XVector/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c ucsc/wildcmp.c -o ucsc/wildcmp.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -DUSE_SSL -D_FILE_OFFSET_BITS=64 -I'/tmp/tmp/built/S4Vectors/include' -I'/tmp/tmp/built/IRanges/include' -I'/tmp/tmp/built/XVector/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c ucsc/_portimpl.c -o ucsc/_portimpl.o
+gcc -shared -L/usr/local/lib/R/lib -L/usr/local/lib -o rtracklayer.so S4Vectors_stubs.o IRanges_stubs.o XVector_stubs.o R_init_rtracklayer.o readGFF.o bbiHelper.o bigWig.o bigBedHelper.o bigBed.o chain_io.o twoBit.o handlers.o utils.o ucsc/memgfx.o ucsc/aliType.o ucsc/binRange.o ucsc/htmlColor.o ucsc/sqlList.o ucsc/tokenizer.o ucsc/asParse.o ucsc/basicBed.o ucsc/bigBed.o ucsc/bPlusTree.o ucsc/bbiRead.o ucsc/bbiWrite.o ucsc/bwgCreate.o ucsc/bwgQuery.o ucsc/cirTree.o ucsc/common.o ucsc/dnaseq.o ucsc/dnautil.o ucsc/errAbort.o ucsc/hash.o ucsc/linefile.o ucsc/localmem.o ucsc/sqlNum.o ucsc/zlibFace.o ucsc/dystring.o ucsc/hmmstats.o ucsc/obscure.o ucsc/pipeline.o ucsc/rangeTree.o ucsc/rbTree.o ucsc/memalloc.o ucsc/dlist.o ucsc/hex.o ucsc/filePath.o ucsc/htmlPage.o ucsc/udc.o ucsc/net.o ucsc/bits.o ucsc/twoBit.o ucsc/_cheapcgi.o ucsc/internet.o ucsc/https.o ucsc/base64.o ucsc/verbose.o ucsc/os.o ucsc/wildcmp.o ucsc/_portimpl.o -lz -pthread -lssl -lcrypto -L/usr/local/lib/R/lib -lR
+installing to /tmp/tmp/built/00LOCK-rtracklayer/00new/rtracklayer/libs
+** R
+** data
+** demo
+** inst
+** byte-compile and prepare package for lazy loading
+Creating a generic function for ‘offset’ from package ‘stats’ in package ‘rtracklayer’
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘rtracklayer’ as ‘rtracklayer_1.60.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (rtracklayer)
+* installing *binary* package ‘benchmarkmeData’ ...
+* ‘benchmarkmeData’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘benchmarkmeData’ as ‘benchmarkmeData_1.0.4_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (benchmarkmeData)
 * installing *binary* package ‘uwot’ ...
 * ‘uwot’ was already a binary package and will not be rebuilt
 * creating tarball
@@ -849,42 +1075,11 @@ installing to /tmp/tmp/built/00LOCK-scuttle/00new/scuttle/libs
 * creating tarball
 packaged installation of ‘scuttle’ as ‘scuttle_1.10.1_R_x86_64-pc-linux-gnu.tar.gz’
 * DONE (scuttle)
-* installing *source* package ‘mbkmeans’ ...
-** using staged installation
-** libs
-using C++ compiler: ‘g++ (Ubuntu 11.3.0-1ubuntu1~22.04) 11.3.0’
-using C++11
-g++ -std=gnu++11 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/tmp/tmp/built/RcppArmadillo/include' -I'/tmp/tmp/built/Rhdf5lib/include' -I'/tmp/tmp/built/beachmat/include' -I'/tmp/tmp/built/ClusterR/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c RcppExports.cpp -o RcppExports.o
-g++ -std=gnu++11 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/tmp/tmp/built/RcppArmadillo/include' -I'/tmp/tmp/built/Rhdf5lib/include' -I'/tmp/tmp/built/beachmat/include' -I'/tmp/tmp/built/ClusterR/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c mini_batch.cpp -o mini_batch.o
-In file included from /tmp/tmp/built/RcppArmadillo/include/armadillo:26,
-                 from /tmp/tmp/built/RcppArmadillo/include/RcppArmadillo/interface/RcppArmadilloForward.h:57,
-                 from /tmp/tmp/built/RcppArmadillo/include/RcppArmadillo.h:29,
-                 from mini_batch.cpp:2:
-/tmp/tmp/built/RcppArmadillo/include/armadillo_bits/config.hpp:338:86: note: ‘#pragma message: INFO: support for ARMA_DONT_PRINT_ERRORS option has been removed’
-  338 |   #pragma message ("INFO: support for ARMA_DONT_PRINT_ERRORS option has been removed")
-      |                                                                                      ^
-/tmp/tmp/built/RcppArmadillo/include/armadillo_bits/config.hpp:343:75: note: ‘#pragma message: INFO: suggest to use ARMA_WARN_LEVEL option instead’
-  343 |     #pragma message ("INFO: suggest to use ARMA_WARN_LEVEL option instead")
-      |                                                                           ^
-/tmp/tmp/built/RcppArmadillo/include/armadillo_bits/config.hpp:346:61: note: ‘#pragma message: INFO: see the documentation for details’
-  346 |   #pragma message ("INFO: see the documentation for details")
-      |                                                             ^
-g++ -std=gnu++11 -shared -L/usr/local/lib/R/lib -L/usr/local/lib -o mbkmeans.so RcppExports.o mini_batch.o -L/usr/local/lib/R/lib -lR
-installing to /tmp/tmp/built/00LOCK-mbkmeans/00new/mbkmeans/libs
-** R
-** inst
-** byte-compile and prepare package for lazy loading
-** help
-*** installing help indices
-** building package indices
-** installing vignettes
-** testing if installed package can be loaded from temporary location
-** checking absolute paths in shared objects and dynamic libraries
-** testing if installed package can be loaded from final location
-** testing if installed package keeps a record of temporary installation path
+* installing *binary* package ‘dbplyr’ ...
+* ‘dbplyr’ was already a binary package and will not be rebuilt
 * creating tarball
-packaged installation of ‘mbkmeans’ as ‘mbkmeans_1.16.0_R_x86_64-pc-linux-gnu.tar.gz’
-* DONE (mbkmeans)
+packaged installation of ‘dbplyr’ as ‘dbplyr_2.3.3_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (dbplyr)
 * installing *source* package ‘interactiveDisplayBase’ ...
 ** using staged installation
 ** R
@@ -900,17 +1095,8 @@ packaged installation of ‘mbkmeans’ as ‘mbkmeans_1.16.0_R_x86_64-pc-linux-
 * creating tarball
 packaged installation of ‘interactiveDisplayBase’ as ‘interactiveDisplayBase_1.38.0_R_x86_64-pc-linux-gnu.tar.gz’
 * DONE (interactiveDisplayBase)
-* installing *source* package ‘densvis’ ...
+* installing *source* package ‘basilisk’ ...
 ** using non-staged installation via StagedInstall field
-** libs
-using C++ compiler: ‘g++ (Ubuntu 11.3.0-1ubuntu1~22.04) 11.3.0’
-using C++14
-g++ -std=gnu++14 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include   -fopenmp -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c RcppExports.cpp -o RcppExports.o
-g++ -std=gnu++14 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include   -fopenmp -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c densne.cpp -o densne.o
-g++ -std=gnu++14 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include   -fopenmp -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c densvis.cpp -o densvis.o
-g++ -std=gnu++14 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include   -fopenmp -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c sptree.cpp -o sptree.o
-g++ -std=gnu++14 -shared -L/usr/local/lib/R/lib -L/usr/local/lib -o densvis.so RcppExports.o densne.o densvis.o sptree.o -llapack -lblas -lgfortran -lm -lquadmath -fopenmp -L/usr/local/lib/R/lib -lR
-installing to /tmp/tmp/built/densvis/libs
 ** R
 ** inst
 ** byte-compile and prepare package for lazy loading
@@ -920,8 +1106,13 @@ installing to /tmp/tmp/built/densvis/libs
 ** installing vignettes
 ** testing if installed package can be loaded
 * creating tarball
-packaged installation of ‘densvis’ as ‘densvis_1.10.3_R_x86_64-pc-linux-gnu.tar.gz’
-* DONE (densvis)
+packaged installation of ‘basilisk’ as ‘basilisk_1.12.1_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (basilisk)
+* installing *binary* package ‘benchmarkme’ ...
+* ‘benchmarkme’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘benchmarkme’ as ‘benchmarkme_1.0.8_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (benchmarkme)
 * installing *source* package ‘scran’ ...
 ** using staged installation
 ** libs
@@ -4222,6 +4413,94 @@ installing to /tmp/tmp/built/00LOCK-scran/00new/scran/libs
 * creating tarball
 packaged installation of ‘scran’ as ‘scran_1.28.2_R_x86_64-pc-linux-gnu.tar.gz’
 * DONE (scran)
+* installing *source* package ‘BiocFileCache’ ...
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘BiocFileCache’ as ‘BiocFileCache_2.8.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (BiocFileCache)
+* installing *source* package ‘densvis’ ...
+** using non-staged installation via StagedInstall field
+** libs
+using C++ compiler: ‘g++ (Ubuntu 11.3.0-1ubuntu1~22.04) 11.3.0’
+using C++14
+g++ -std=gnu++14 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include   -fopenmp -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c RcppExports.cpp -o RcppExports.o
+g++ -std=gnu++14 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include   -fopenmp -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c densne.cpp -o densne.o
+g++ -std=gnu++14 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include   -fopenmp -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c densvis.cpp -o densvis.o
+g++ -std=gnu++14 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include   -fopenmp -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c sptree.cpp -o sptree.o
+g++ -std=gnu++14 -shared -L/usr/local/lib/R/lib -L/usr/local/lib -o densvis.so RcppExports.o densne.o densvis.o sptree.o -llapack -lblas -lgfortran -lm -lquadmath -fopenmp -L/usr/local/lib/R/lib -lR
+installing to /tmp/tmp/built/densvis/libs
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded
+* creating tarball
+packaged installation of ‘densvis’ as ‘densvis_1.10.3_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (densvis)
+* installing *source* package ‘mbkmeans’ ...
+** using staged installation
+** libs
+using C++ compiler: ‘g++ (Ubuntu 11.3.0-1ubuntu1~22.04) 11.3.0’
+using C++11
+g++ -std=gnu++11 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/tmp/tmp/built/RcppArmadillo/include' -I'/tmp/tmp/built/Rhdf5lib/include' -I'/tmp/tmp/built/beachmat/include' -I'/tmp/tmp/built/ClusterR/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c RcppExports.cpp -o RcppExports.o
+g++ -std=gnu++11 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/tmp/tmp/built/RcppArmadillo/include' -I'/tmp/tmp/built/Rhdf5lib/include' -I'/tmp/tmp/built/beachmat/include' -I'/tmp/tmp/built/ClusterR/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c mini_batch.cpp -o mini_batch.o
+In file included from /tmp/tmp/built/RcppArmadillo/include/armadillo:26,
+                 from /tmp/tmp/built/RcppArmadillo/include/RcppArmadillo/interface/RcppArmadilloForward.h:57,
+                 from /tmp/tmp/built/RcppArmadillo/include/RcppArmadillo.h:29,
+                 from mini_batch.cpp:2:
+/tmp/tmp/built/RcppArmadillo/include/armadillo_bits/config.hpp:338:86: note: ‘#pragma message: INFO: support for ARMA_DONT_PRINT_ERRORS option has been removed’
+  338 |   #pragma message ("INFO: support for ARMA_DONT_PRINT_ERRORS option has been removed")
+      |                                                                                      ^
+/tmp/tmp/built/RcppArmadillo/include/armadillo_bits/config.hpp:343:75: note: ‘#pragma message: INFO: suggest to use ARMA_WARN_LEVEL option instead’
+  343 |     #pragma message ("INFO: suggest to use ARMA_WARN_LEVEL option instead")
+      |                                                                           ^
+/tmp/tmp/built/RcppArmadillo/include/armadillo_bits/config.hpp:346:61: note: ‘#pragma message: INFO: see the documentation for details’
+  346 |   #pragma message ("INFO: see the documentation for details")
+      |                                                             ^
+g++ -std=gnu++11 -shared -L/usr/local/lib/R/lib -L/usr/local/lib -o mbkmeans.so RcppExports.o mini_batch.o -L/usr/local/lib/R/lib -lR
+installing to /tmp/tmp/built/00LOCK-mbkmeans/00new/mbkmeans/libs
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘mbkmeans’ as ‘mbkmeans_1.16.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (mbkmeans)
+* installing *source* package ‘biomaRt’ ...
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘biomaRt’ as ‘biomaRt_2.56.1_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (biomaRt)
 * installing *source* package ‘AnnotationHub’ ...
 ** using staged installation
 ** R
@@ -4267,6 +4546,36 @@ packaged installation of ‘scater’ as ‘scater_1.28.0_R_x86_64-pc-linux-gnu.
 * creating tarball
 packaged installation of ‘ExperimentHub’ as ‘ExperimentHub_2.8.1_R_x86_64-pc-linux-gnu.tar.gz’
 * DONE (ExperimentHub)
+* installing *source* package ‘GenomicFeatures’ ...
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘GenomicFeatures’ as ‘GenomicFeatures_1.52.1_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (GenomicFeatures)
+* installing *source* package ‘ensembldb’ ...
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘ensembldb’ as ‘ensembldb_2.24.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (ensembldb)
 * installing *source* package ‘scRNAseq’ ...
 ** using staged installation
 ** R
@@ -4284,7 +4593,7 @@ packaged installation of ‘scRNAseq’ as ‘scRNAseq_2.14.0_R_x86_64-pc-linux-
 * DONE (scRNAseq)
 
 The downloaded source packages are in
-	‘/tmp/RtmplCnTbJ/downloaded_packages’
+	‘/tmp/Rtmpcr6TEb/downloaded_packages’
 Old packages: 'BiocManager', 'bslib', 'cachem', 'cpp11', 'curl', 'digest',
   'downlit', 'evaluate', 'fs', 'httpuv', 'httr', 'httr2', 'jsonlite', 'knitr',
   'later', 'openssl', 'pkgbuild', 'pkgload', 'processx', 'profvis', 'Rcpp',
@@ -4292,6 +4601,6 @@ Old packages: 'BiocManager', 'bslib', 'cachem', 'cpp11', 'curl', 'digest',
   'usethis', 'vctrs', 'waldo', 'xml2', 'class', 'KernSmooth', 'MASS', 'Matrix',
   'mgcv', 'nnet', 'spatial'
 
-real	12m42.777s
-user	11m34.247s
-sys	0m54.324s
+real	13m27.254s
+user	12m16.725s
+sys	0m54.836s
