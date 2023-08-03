@@ -2434,8 +2434,7 @@
         "rtracklayer"
     ],
     "cyanoFilter": [
-        "flowDensity",
-        "flowWorkspace"
+        "flowDensity"
     ],
     "cydar": [
         "SingleCellExperiment",
@@ -2468,13 +2467,11 @@
         "scuttle"
     ],
     "CytoML": [
-        "flowWorkspace",
         "ggcyto",
         "openCyto"
     ],
     "CytoPipeline": [
         "PeacoQC",
-        "flowWorkspace",
         "ggcyto"
     ],
     "cytoviewer": [
@@ -2556,8 +2553,7 @@
         "graphite"
     ],
     "ddPCRclust": [
-        "flowDensity",
-        "flowWorkspace"
+        "flowDensity"
     ],
     "debCAM": [
         "SummarizedExperiment"
@@ -3714,24 +3710,16 @@
     ],
     "flowBin": [],
     "flowCut": [
-        "flowDensity",
-        "flowWorkspace"
+        "flowDensity"
     ],
-    "flowDensity": [
-        "flowWorkspace"
-    ],
+    "flowDensity": [],
     "flowGate": [
-        "flowWorkspace",
         "ggcyto"
     ],
-    "flowStats": [
-        "flowWorkspace"
-    ],
+    "flowStats": [],
     "flowVS": [
-        "flowStats",
-        "flowWorkspace"
+        "flowStats"
     ],
-    "flowWorkspace": [],
     "FoldGO": [
         "AnnotationDbi",
         "KEGGREST",
@@ -4099,9 +4087,7 @@
         "ensembldb",
         "rtracklayer"
     ],
-    "ggcyto": [
-        "flowWorkspace"
-    ],
+    "ggcyto": [],
     "ggmanh": [
         "SeqArray"
     ],
@@ -4702,9 +4688,7 @@
         "scuttle"
     ],
     "IMMAN": [],
-    "ImmuneSpaceR": [
-        "flowWorkspace"
-    ],
+    "ImmuneSpaceR": [],
     "infercnv": [
         "SingleCellExperiment",
         "SummarizedExperiment"
@@ -6648,9 +6632,7 @@
         "KEGGREST",
         "SummarizedExperiment"
     ],
-    "openCyto": [
-        "flowWorkspace"
-    ],
+    "openCyto": [],
     "openPrimeR": [],
     "openPrimeRui": [
         "openPrimeR"
@@ -6872,9 +6854,7 @@
         "oligo",
         "oligoClasses"
     ],
-    "PeacoQC": [
-        "flowWorkspace"
-    ],
+    "PeacoQC": [],
     "peakPantheR": [],
     "PECA": [
         "AnnotationDbi",
