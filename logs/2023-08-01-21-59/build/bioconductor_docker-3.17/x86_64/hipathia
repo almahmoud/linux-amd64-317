@@ -1,0 +1,154 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE); p <- .libPaths(); p <- c('\''/tmp/tmp/built'\'', p); .libPaths(p); if(BiocManager::install('\''hipathia'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://packagemanager.posit.co/cran/__linux__/jammy/latest
+Bioconductor version 3.17 (BiocManager 1.30.20), R 4.3.0 (2023-04-21)
+Installing package(s) 'hipathia'
+also installing the dependencies ‘TH.data’, ‘sandwich’, ‘libcoin’, ‘modeltools’, ‘multcomp’, ‘igraph’, ‘coin’, ‘servr’, ‘visNetwork’, ‘reshape2’, ‘MetBrewer’
+
+trying URL 'https://packagemanager.posit.co/cran/__linux__/jammy/latest/src/contrib/TH.data_1.1-2.tar.gz'
+Content type 'binary/octet-stream' length 8807251 bytes (8.4 MB)
+==================================================
+downloaded 8.4 MB
+
+trying URL 'https://packagemanager.posit.co/cran/__linux__/jammy/latest/src/contrib/sandwich_3.0-2.tar.gz'
+Content type 'binary/octet-stream' length 1456618 bytes (1.4 MB)
+==================================================
+downloaded 1.4 MB
+
+trying URL 'https://packagemanager.posit.co/cran/__linux__/jammy/latest/src/contrib/libcoin_1.0-9.tar.gz'
+Content type 'binary/octet-stream' length 951425 bytes (929 KB)
+==================================================
+downloaded 929 KB
+
+trying URL 'https://packagemanager.posit.co/cran/__linux__/jammy/latest/src/contrib/modeltools_0.2-23.tar.gz'
+Content type 'binary/octet-stream' length 223742 bytes (218 KB)
+==================================================
+downloaded 218 KB
+
+trying URL 'https://packagemanager.posit.co/cran/__linux__/jammy/latest/src/contrib/multcomp_1.4-25.tar.gz'
+Content type 'binary/octet-stream' length 738683 bytes (721 KB)
+==================================================
+downloaded 721 KB
+
+trying URL 'https://packagemanager.posit.co/cran/__linux__/jammy/latest/src/contrib/igraph_1.5.0.1.tar.gz'
+Content type 'binary/octet-stream' length 4869808 bytes (4.6 MB)
+==================================================
+downloaded 4.6 MB
+
+trying URL 'https://packagemanager.posit.co/cran/__linux__/jammy/latest/src/contrib/coin_1.4-2.tar.gz'
+Content type 'binary/octet-stream' length 1451394 bytes (1.4 MB)
+==================================================
+downloaded 1.4 MB
+
+trying URL 'https://packagemanager.posit.co/cran/__linux__/jammy/latest/src/contrib/servr_0.27.tar.gz'
+Content type 'binary/octet-stream' length 86580 bytes (84 KB)
+==================================================
+downloaded 84 KB
+
+trying URL 'https://packagemanager.posit.co/cran/__linux__/jammy/latest/src/contrib/visNetwork_2.1.2.tar.gz'
+Content type 'binary/octet-stream' length 4643028 bytes (4.4 MB)
+==================================================
+downloaded 4.4 MB
+
+trying URL 'https://packagemanager.posit.co/cran/__linux__/jammy/latest/src/contrib/reshape2_1.4.4.tar.gz'
+Content type 'binary/octet-stream' length 115350 bytes (112 KB)
+==================================================
+downloaded 112 KB
+
+trying URL 'https://packagemanager.posit.co/cran/__linux__/jammy/latest/src/contrib/MetBrewer_0.2.0.tar.gz'
+Content type 'binary/octet-stream' length 62276 bytes (60 KB)
+==================================================
+downloaded 60 KB
+
+trying URL 'https://bioconductor.org/packages/3.17/bioc/src/contrib/hipathia_3.0.2.tar.gz'
+Content type 'application/x-gzip' length 9196264 bytes (8.8 MB)
+==================================================
+downloaded 8.8 MB
+
+* installing *binary* package ‘TH.data’ ...
+* ‘TH.data’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘TH.data’ as ‘TH.data_1.1-2_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (TH.data)
+* installing *binary* package ‘sandwich’ ...
+* ‘sandwich’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘sandwich’ as ‘sandwich_3.0-2_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (sandwich)
+* installing *binary* package ‘libcoin’ ...
+* ‘libcoin’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘libcoin’ as ‘libcoin_1.0-9_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (libcoin)
+* installing *binary* package ‘modeltools’ ...
+* ‘modeltools’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘modeltools’ as ‘modeltools_0.2-23_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (modeltools)
+* installing *binary* package ‘igraph’ ...
+* ‘igraph’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘igraph’ as ‘igraph_1.5.0.1_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (igraph)
+* installing *binary* package ‘servr’ ...
+* ‘servr’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘servr’ as ‘servr_0.27_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (servr)
+* installing *binary* package ‘visNetwork’ ...
+* ‘visNetwork’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘visNetwork’ as ‘visNetwork_2.1.2_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (visNetwork)
+* installing *binary* package ‘reshape2’ ...
+* ‘reshape2’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘reshape2’ as ‘reshape2_1.4.4_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (reshape2)
+* installing *binary* package ‘MetBrewer’ ...
+* ‘MetBrewer’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘MetBrewer’ as ‘MetBrewer_0.2.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (MetBrewer)
+* installing *binary* package ‘multcomp’ ...
+* ‘multcomp’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘multcomp’ as ‘multcomp_1.4-25_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (multcomp)
+* installing *binary* package ‘coin’ ...
+* ‘coin’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘coin’ as ‘coin_1.4-2_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (coin)
+* installing *source* package ‘hipathia’ ...
+** using staged installation
+** R
+** data
+*** moving datasets to lazyload DB
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘hipathia’ as ‘hipathia_3.0.2_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (hipathia)
+
+The downloaded source packages are in
+	‘/tmp/RtmpjCUjaU/downloaded_packages’
+Old packages: 'BiocManager', 'bslib', 'cachem', 'cpp11', 'curl', 'digest',
+  'downlit', 'evaluate', 'fs', 'httpuv', 'httr', 'httr2', 'jsonlite', 'knitr',
+  'later', 'openssl', 'pkgbuild', 'pkgload', 'processx', 'profvis', 'Rcpp',
+  'remotes', 'rmarkdown', 'rstudioapi', 'sass', 'shiny', 'sys', 'testthat',
+  'usethis', 'vctrs', 'waldo', 'xml2', 'class', 'KernSmooth', 'MASS', 'Matrix',
+  'mgcv', 'nnet', 'spatial'
+
+real	1m4.964s
+user	0m48.582s
+sys	0m4.020s
