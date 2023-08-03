@@ -132,7 +132,6 @@
     "AIMS": [],
     "airpart": [
         "BiocSingular",
-        "ScaledMatrix",
         "SingleCellExperiment",
         "SummarizedExperiment",
         "apeglm",
@@ -250,7 +249,6 @@
     "ANCOMBC": [
         "BiocSingular",
         "MultiAssayExperiment",
-        "ScaledMatrix",
         "SingleCellExperiment",
         "SummarizedExperiment",
         "TreeSummarizedExperiment",
@@ -576,7 +574,6 @@
     ],
     "BASiCS": [
         "BiocSingular",
-        "ScaledMatrix",
         "SingleCellExperiment",
         "SummarizedExperiment",
         "beachmat",
@@ -586,7 +583,6 @@
     "BASiCStan": [
         "BASiCS",
         "BiocSingular",
-        "ScaledMatrix",
         "SingleCellExperiment",
         "SummarizedExperiment",
         "beachmat",
@@ -601,7 +597,6 @@
     ],
     "batchelor": [
         "BiocSingular",
-        "ScaledMatrix",
         "SingleCellExperiment",
         "SummarizedExperiment",
         "beachmat",
@@ -615,7 +610,6 @@
     ],
     "BayesSpace": [
         "BiocSingular",
-        "ScaledMatrix",
         "SingleCellExperiment",
         "SummarizedExperiment",
         "beachmat",
@@ -670,7 +664,6 @@
         "DESeq2",
         "MAST",
         "MultiAssayExperiment",
-        "ScaledMatrix",
         "SingleCellExperiment",
         "SummarizedExperiment",
         "TreeSummarizedExperiment",
@@ -776,7 +769,6 @@
         "AnnotationDbi"
     ],
     "BiocSingular": [
-        "ScaledMatrix",
         "beachmat"
     ],
     "BiocSklearn": [
@@ -815,7 +807,6 @@
     ],
     "BioTIP": [
         "BiocSingular",
-        "ScaledMatrix",
         "SingleCellExperiment",
         "SummarizedExperiment",
         "beachmat",
@@ -1151,7 +1142,6 @@
     ],
     "CATALYST": [
         "BiocSingular",
-        "ScaledMatrix",
         "SingleCellExperiment",
         "SummarizedExperiment",
         "beachmat",
@@ -1239,7 +1229,6 @@
     ],
     "celda": [
         "BiocSingular",
-        "ScaledMatrix",
         "SingleCellExperiment",
         "SummarizedExperiment",
         "beachmat",
@@ -1269,7 +1258,6 @@
     ],
     "CelliD": [
         "BiocSingular",
-        "ScaledMatrix",
         "SingleCellExperiment",
         "SummarizedExperiment",
         "beachmat",
@@ -1282,7 +1270,6 @@
     ],
     "CellMixS": [
         "BiocSingular",
-        "ScaledMatrix",
         "SingleCellExperiment",
         "SummarizedExperiment",
         "beachmat",
@@ -1523,7 +1510,6 @@
         "BiocSingular",
         "GenomicAlignments",
         "Rsamtools",
-        "ScaledMatrix",
         "SingleCellExperiment",
         "SummarizedExperiment",
         "batchelor",
@@ -1605,7 +1591,6 @@
     ],
     "CiteFuse": [
         "BiocSingular",
-        "ScaledMatrix",
         "SingleCellExperiment",
         "SummarizedExperiment",
         "beachmat",
@@ -1655,7 +1640,6 @@
     "clusterExperiment": [
         "AnnotationDbi",
         "BiocSingular",
-        "ScaledMatrix",
         "SingleCellExperiment",
         "SummarizedExperiment",
         "annotate",
@@ -1846,7 +1830,6 @@
         "GenomicAlignments",
         "RaggedExperiment",
         "Rsamtools",
-        "ScaledMatrix",
         "SummarizedExperiment",
         "beachmat",
         "rtracklayer"
@@ -1870,7 +1853,6 @@
     "CompoundDb": [],
     "condiments": [
         "BiocSingular",
-        "ScaledMatrix",
         "SingleCellExperiment",
         "SummarizedExperiment",
         "TrajectoryUtils",
@@ -1901,7 +1883,6 @@
         "BiocSingular",
         "GSEABase",
         "GSVA",
-        "ScaledMatrix",
         "SingleCellExperiment",
         "SummarizedExperiment",
         "annotate",
@@ -2215,7 +2196,6 @@
     "cytofQC": [
         "BiocSingular",
         "CATALYST",
-        "ScaledMatrix",
         "SingleCellExperiment",
         "SummarizedExperiment",
         "beachmat",
@@ -2397,7 +2377,6 @@
     "DelayedTensor": [
         "BiocSingular",
         "DelayedRandomArray",
-        "ScaledMatrix",
         "beachmat"
     ],
     "DELocal": [
@@ -2559,7 +2538,6 @@
     ],
     "Dino": [
         "BiocSingular",
-        "ScaledMatrix",
         "SingleCellExperiment",
         "SummarizedExperiment",
         "beachmat",
@@ -2571,7 +2549,6 @@
     ],
     "distinct": [
         "BiocSingular",
-        "ScaledMatrix",
         "SingleCellExperiment",
         "SummarizedExperiment",
         "beachmat",
@@ -2802,7 +2779,6 @@
         "GSEABase",
         "GSVA",
         "PADOG",
-        "ScaledMatrix",
         "SingleCellExperiment",
         "SummarizedExperiment",
         "annotate",
@@ -3106,7 +3082,6 @@
         "BiocSingular",
         "GSEABase",
         "GSVA",
-        "ScaledMatrix",
         "SingleCellExperiment",
         "SummarizedExperiment",
         "UCell",
@@ -3121,7 +3096,6 @@
         "ExperimentHub",
         "GenomicAlignments",
         "Rsamtools",
-        "ScaledMatrix",
         "SingleCellExperiment",
         "SpatialExperiment",
         "SummarizedExperiment",
@@ -3347,7 +3321,6 @@
         "MultiAssayExperiment",
         "OrganismDbi",
         "Rsamtools",
-        "ScaledMatrix",
         "SingleCellExperiment",
         "SummarizedExperiment",
         "VariantAnnotation",
@@ -3923,7 +3896,6 @@
         "AnnotationDbi",
         "BiocSingular",
         "GSEABase",
-        "ScaledMatrix",
         "SingleCellExperiment",
         "SummarizedExperiment",
         "annotate",
@@ -4345,7 +4317,6 @@
         "BiocSingular",
         "DOSE",
         "GOSemSim",
-        "ScaledMatrix",
         "SingleCellExperiment",
         "SummarizedExperiment",
         "beachmat",
@@ -4796,7 +4767,6 @@
     ],
     "MEB": [
         "BiocSingular",
-        "ScaledMatrix",
         "SingleCellExperiment",
         "SummarizedExperiment",
         "beachmat",
@@ -5076,7 +5046,6 @@
     "mia": [
         "BiocSingular",
         "MultiAssayExperiment",
-        "ScaledMatrix",
         "SingleCellExperiment",
         "SummarizedExperiment",
         "TreeSummarizedExperiment",
@@ -5092,7 +5061,6 @@
     "miaViz": [
         "BiocSingular",
         "MultiAssayExperiment",
-        "ScaledMatrix",
         "SingleCellExperiment",
         "SummarizedExperiment",
         "TreeSummarizedExperiment",
@@ -5113,7 +5081,6 @@
         "BiocSingular",
         "DESeq2",
         "MultiAssayExperiment",
-        "ScaledMatrix",
         "SingleCellExperiment",
         "SummarizedExperiment",
         "TreeSummarizedExperiment",
@@ -5143,7 +5110,6 @@
     ],
     "miloR": [
         "BiocSingular",
-        "ScaledMatrix",
         "SingleCellExperiment",
         "SummarizedExperiment",
         "beachmat"
@@ -5484,7 +5450,6 @@
     ],
     "msImpute": [
         "BiocSingular",
-        "ScaledMatrix",
         "SingleCellExperiment",
         "SummarizedExperiment",
         "beachmat",
@@ -5596,7 +5561,6 @@
     ],
     "mumosa": [
         "BiocSingular",
-        "ScaledMatrix",
         "SingleCellExperiment",
         "SummarizedExperiment",
         "batchelor",
@@ -5618,7 +5582,6 @@
     "muscat": [
         "BiocSingular",
         "DESeq2",
-        "ScaledMatrix",
         "SingleCellExperiment",
         "SummarizedExperiment",
         "beachmat",
@@ -5704,7 +5667,6 @@
         "BiocSingular",
         "GenomicAlignments",
         "Rsamtools",
-        "ScaledMatrix",
         "SummarizedExperiment",
         "beachmat",
         "bsseq",
@@ -5765,7 +5727,6 @@
     "netSmooth": [
         "AnnotationDbi",
         "BiocSingular",
-        "ScaledMatrix",
         "SingleCellExperiment",
         "SummarizedExperiment",
         "annotate",
@@ -5872,7 +5833,6 @@
         "GenomicFeatures",
         "RUVSeq",
         "Rsamtools",
-        "ScaledMatrix",
         "ShortRead",
         "SingleCellExperiment",
         "SummarizedExperiment",
@@ -5996,7 +5956,6 @@
         "BiocSingular",
         "GSEABase",
         "GSVA",
-        "ScaledMatrix",
         "SingleCellExperiment",
         "SummarizedExperiment",
         "annotate",
@@ -6164,7 +6123,6 @@
     ],
     "PCAtools": [
         "BiocSingular",
-        "ScaledMatrix",
         "beachmat"
     ],
     "PDATK": [
@@ -6190,7 +6148,6 @@
     ],
     "peco": [
         "BiocSingular",
-        "ScaledMatrix",
         "SingleCellExperiment",
         "SummarizedExperiment",
         "beachmat",
@@ -6290,7 +6247,6 @@
     ],
     "pipeComp": [
         "BiocSingular",
-        "ScaledMatrix",
         "SingleCellExperiment",
         "SummarizedExperiment",
         "beachmat",
@@ -7450,7 +7406,6 @@
     "Scale4C": [
         "SummarizedExperiment"
     ],
-    "ScaledMatrix": [],
     "SCAN.UPC": [
         "AnnotationDbi",
         "SummarizedExperiment",
@@ -7487,7 +7442,6 @@
     ],
     "SCArray": [
         "BiocSingular",
-        "ScaledMatrix",
         "SingleCellExperiment",
         "SummarizedExperiment",
         "beachmat"
@@ -7495,7 +7449,6 @@
     "SCArray.sat": [
         "BiocSingular",
         "SCArray",
-        "ScaledMatrix",
         "SingleCellExperiment",
         "SummarizedExperiment",
         "beachmat"
@@ -7510,7 +7463,6 @@
     ],
     "scater": [
         "BiocSingular",
-        "ScaledMatrix",
         "SingleCellExperiment",
         "SummarizedExperiment",
         "beachmat",
@@ -7552,7 +7504,6 @@
         "BiocSingular",
         "GenomicAlignments",
         "Rsamtools",
-        "ScaledMatrix",
         "SingleCellExperiment",
         "SummarizedExperiment",
         "beachmat",
@@ -7563,7 +7514,6 @@
     ],
     "scDD": [
         "BiocSingular",
-        "ScaledMatrix",
         "SingleCellExperiment",
         "SummarizedExperiment",
         "beachmat",
@@ -7588,7 +7538,6 @@
         "GenomicAlignments",
         "GenomicFeatures",
         "Rsamtools",
-        "ScaledMatrix",
         "SingleCellExperiment",
         "SingleCellSignalR",
         "SpatialExperiment",
@@ -7623,7 +7572,6 @@
     ],
     "scMerge": [
         "BiocSingular",
-        "ScaledMatrix",
         "SingleCellExperiment",
         "SummarizedExperiment",
         "batchelor",
@@ -7692,9 +7640,7 @@
         "SingleCellExperiment",
         "SummarizedExperiment"
     ],
-    "scPCA": [
-        "ScaledMatrix"
-    ],
+    "scPCA": [],
     "scPipe": [
         "AnnotationDbi",
         "DropletUtils",
@@ -7710,7 +7656,6 @@
     ],
     "scran": [
         "BiocSingular",
-        "ScaledMatrix",
         "SingleCellExperiment",
         "SummarizedExperiment",
         "beachmat",
@@ -7755,7 +7700,6 @@
     ],
     "scry": [
         "BiocSingular",
-        "ScaledMatrix",
         "SingleCellExperiment",
         "SummarizedExperiment",
         "beachmat"
@@ -7795,7 +7739,6 @@
         "GenomicFeatures",
         "OrganismDbi",
         "Rsamtools",
-        "ScaledMatrix",
         "SingleCellExperiment",
         "SummarizedExperiment",
         "beachmat",
@@ -7816,7 +7759,6 @@
     ],
     "scviR": [
         "BiocSingular",
-        "ScaledMatrix",
         "SingleCellExperiment",
         "SummarizedExperiment",
         "beachmat",
@@ -8038,7 +7980,6 @@
         "GenomicAlignments",
         "GenomicFeatures",
         "Rsamtools",
-        "ScaledMatrix",
         "SingleCellExperiment",
         "SummarizedExperiment",
         "annotate",
@@ -8101,7 +8042,6 @@
     ],
     "SingleCellSignalR": [
         "BiocSingular",
-        "ScaledMatrix",
         "SingleCellExperiment",
         "SummarizedExperiment",
         "beachmat",
@@ -8121,7 +8061,6 @@
         "GenomicFeatures",
         "MAST",
         "Rsamtools",
-        "ScaledMatrix",
         "SingleCellExperiment",
         "SingleR",
         "SummarizedExperiment",
@@ -8161,7 +8100,6 @@
     ],
     "SingleR": [
         "BiocSingular",
-        "ScaledMatrix",
         "SummarizedExperiment",
         "beachmat"
     ],
@@ -8180,7 +8118,6 @@
         "BiocSingular",
         "GSEABase",
         "GSVA",
-        "ScaledMatrix",
         "SingleCellExperiment",
         "SummarizedExperiment",
         "annotate",
@@ -8283,7 +8220,6 @@
     "Spaniel": [
         "BiocSingular",
         "DropletUtils",
-        "ScaledMatrix",
         "SingleCellExperiment",
         "SummarizedExperiment",
         "beachmat",
@@ -8344,7 +8280,6 @@
     "spatialHeatmap": [
         "AnnotationDbi",
         "BiocSingular",
-        "ScaledMatrix",
         "SingleCellExperiment",
         "SummarizedExperiment",
         "annotate",
@@ -8683,7 +8618,6 @@
         "DESeq2",
         "GSEABase",
         "GSVA",
-        "ScaledMatrix",
         "SingleCellExperiment",
         "SummarizedExperiment",
         "annotate",
@@ -8859,7 +8793,6 @@
         "BiocSingular",
         "GSEABase",
         "GSVA",
-        "ScaledMatrix",
         "SingleCellExperiment",
         "SummarizedExperiment",
         "annotate",
@@ -8999,7 +8932,6 @@
     "tricycle": [
         "AnnotationDbi",
         "BiocSingular",
-        "ScaledMatrix",
         "SingleCellExperiment",
         "SummarizedExperiment",
         "beachmat",
@@ -9144,7 +9076,6 @@
     "uSORT": [],
     "VAExprs": [
         "BiocSingular",
-        "ScaledMatrix",
         "SingleCellExperiment",
         "SummarizedExperiment",
         "beachmat",
@@ -9243,7 +9174,6 @@
     ],
     "velociraptor": [
         "BiocSingular",
-        "ScaledMatrix",
         "SingleCellExperiment",
         "SummarizedExperiment",
         "beachmat",
