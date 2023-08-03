@@ -53,7 +53,6 @@
     "alabaster": [
         "BSgenome",
         "GenomicFeatures",
-        "SpatialExperiment",
         "VariantAnnotation",
         "alabaster.mae",
         "alabaster.sce",
@@ -69,7 +68,6 @@
     ],
     "alabaster.se": [],
     "alabaster.spatial": [
-        "SpatialExperiment",
         "alabaster.sce",
         "alabaster.se"
     ],
@@ -745,9 +743,7 @@
         "GenomicFeatures"
     ],
     "CTdata": [],
-    "CTSV": [
-        "SpatialExperiment"
-    ],
+    "CTSV": [],
     "cummeRbund": [
         "BSgenome",
         "GenomicFeatures",
@@ -765,12 +761,9 @@
     "cytofQC": [
         "CATALYST"
     ],
-    "cytomapper": [
-        "SpatialExperiment"
-    ],
+    "cytomapper": [],
     "CytoML": [],
     "cytoviewer": [
-        "SpatialExperiment",
         "cytomapper"
     ],
     "dada2": [],
@@ -856,9 +849,7 @@
         "ensembldb",
         "regioneR"
     ],
-    "DESpace": [
-        "SpatialExperiment"
-    ],
+    "DESpace": [],
     "DEWSeq": [],
     "DExMA": [
         "sva"
@@ -1078,9 +1069,7 @@
     "escape": [
         "UCell"
     ],
-    "escheR": [
-        "SpatialExperiment"
-    ],
+    "escheR": [],
     "evaluomeR": [],
     "EventPointer": [
         "BSgenome",
@@ -1099,7 +1088,6 @@
         "OrganismDbi"
     ],
     "ExperimentSubset": [
-        "SpatialExperiment",
         "TreeSummarizedExperiment"
     ],
     "extraChIPs": [
@@ -1276,9 +1264,7 @@
         "biovizBase",
         "ensembldb"
     ],
-    "ggspavis": [
-        "SpatialExperiment"
-    ],
+    "ggspavis": [],
     "girafe": [],
     "gmapR": [
         "BSgenome",
@@ -1427,7 +1413,6 @@
         "IVAS"
     ],
     "imcRtools": [
-        "SpatialExperiment",
         "cytomapper"
     ],
     "infercnv": [],
@@ -1511,7 +1496,6 @@
     ],
     "LiquidAssociation": [],
     "lisaClust": [
-        "SpatialExperiment",
         "spicyR"
     ],
     "LOBSTAHS": [
@@ -1793,9 +1777,7 @@
     ],
     "MobilityTransformR": [],
     "MODA": [],
-    "MoleculeExperiment": [
-        "SpatialExperiment"
-    ],
+    "MoleculeExperiment": [],
     "MOMA": [],
     "monaLisa": [
         "BSgenome",
@@ -1934,9 +1916,7 @@
         "quantro",
         "yarn"
     ],
-    "nnSVG": [
-        "SpatialExperiment"
-    ],
+    "nnSVG": [],
     "NoRCE": [
         "GenomicFeatures"
     ],
@@ -2490,7 +2470,6 @@
     "scFeatures": [
         "GenomicFeatures",
         "SingleCellSignalR",
-        "SpatialExperiment",
         "ensembldb"
     ],
     "scHOT": [],
@@ -2622,7 +2601,6 @@
     "SIMAT": [],
     "SimBindProfiles": [],
     "simpleSeg": [
-        "SpatialExperiment",
         "cytomapper"
     ],
     "simplifyEnrichment": [],
@@ -2696,17 +2674,10 @@
     "SparseSignatures": [
         "BSgenome"
     ],
-    "spaSim": [
-        "SpatialExperiment"
-    ],
-    "spatialDE": [
-        "SpatialExperiment"
-    ],
+    "spaSim": [],
+    "spatialDE": [],
     "SpatialDecon": [],
-    "SpatialExperiment": [],
-    "SpatialFeatureExperiment": [
-        "SpatialExperiment"
-    ],
+    "SpatialFeatureExperiment": [],
     "spatialHeatmap": [],
     "SpatialOmicsOverlay": [],
     "spatzie": [
@@ -2724,12 +2695,8 @@
     "SpectralTAD": [
         "HiCcompare"
     ],
-    "SPIAT": [
-        "SpatialExperiment"
-    ],
-    "spicyR": [
-        "SpatialExperiment"
-    ],
+    "SPIAT": [],
+    "spicyR": [],
     "spiky": [
         "BSgenome"
     ],
@@ -2749,27 +2716,20 @@
         "ensembldb"
     ],
     "SPONGE": [],
-    "SpotClean": [
-        "SpatialExperiment"
-    ],
+    "SpotClean": [],
     "SPOTlight": [],
     "SPsimSeq": [],
     "standR": [
         "EDASeq",
         "GenomicFeatures",
-        "RUVSeq",
-        "SpatialExperiment"
+        "RUVSeq"
     ],
     "staRank": [
         "cellHTS2"
     ],
     "StarBioTrek": [],
-    "Statial": [
-        "SpatialExperiment"
-    ],
-    "stJoincount": [
-        "SpatialExperiment"
-    ],
+    "Statial": [],
+    "stJoincount": [],
     "strandCheckR": [
         "GenomicFeatures"
     ],
@@ -2991,7 +2951,6 @@
     "ViSEAGO": [],
     "vissE": [],
     "Voyager": [
-        "SpatialExperiment",
         "SpatialFeatureExperiment"
     ],
     "vtpnet": [
