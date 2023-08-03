@@ -179,7 +179,6 @@
         "VariantAnnotation",
         "alabaster.mae",
         "alabaster.matrix",
-        "alabaster.ranges",
         "alabaster.sce",
         "alabaster.se",
         "alabaster.spatial",
@@ -194,26 +193,22 @@
         "MultiAssayExperiment",
         "SummarizedExperiment",
         "alabaster.matrix",
-        "alabaster.ranges",
         "alabaster.se"
     ],
     "alabaster.matrix": [
         "HDF5Array"
     ],
-    "alabaster.ranges": [],
     "alabaster.sce": [
         "HDF5Array",
         "SingleCellExperiment",
         "SummarizedExperiment",
         "alabaster.matrix",
-        "alabaster.ranges",
         "alabaster.se"
     ],
     "alabaster.se": [
         "HDF5Array",
         "SummarizedExperiment",
-        "alabaster.matrix",
-        "alabaster.ranges"
+        "alabaster.matrix"
     ],
     "alabaster.spatial": [
         "DelayedMatrixStats",
@@ -223,7 +218,6 @@
         "SpatialExperiment",
         "SummarizedExperiment",
         "alabaster.matrix",
-        "alabaster.ranges",
         "alabaster.sce",
         "alabaster.se",
         "beachmat",
@@ -240,7 +234,6 @@
         "SummarizedExperiment",
         "VariantAnnotation",
         "alabaster.matrix",
-        "alabaster.ranges",
         "alabaster.se",
         "biomaRt",
         "rtracklayer"
