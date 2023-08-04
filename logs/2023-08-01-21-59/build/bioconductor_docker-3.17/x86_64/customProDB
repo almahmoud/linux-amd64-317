@@ -1,0 +1,112 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE); p <- .libPaths(); p <- c('\''/tmp/tmp/built'\'', p); .libPaths(p); if(BiocManager::install('\''customProDB'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://packagemanager.posit.co/cran/__linux__/jammy/latest
+Bioconductor version 3.17 (BiocManager 1.30.20), R 4.3.0 (2023-04-21)
+Installing package(s) 'customProDB'
+also installing the dependencies ‘timechange’, ‘lubridate’, ‘AhoCorasickTrie’, ‘RMariaDB’
+
+trying URL 'https://packagemanager.posit.co/cran/__linux__/jammy/latest/src/contrib/timechange_0.2.0.tar.gz'
+Content type 'binary/octet-stream' length 182019 bytes (177 KB)
+==================================================
+downloaded 177 KB
+
+trying URL 'https://packagemanager.posit.co/cran/__linux__/jammy/latest/src/contrib/lubridate_1.9.2.tar.gz'
+Content type 'binary/octet-stream' length 980374 bytes (957 KB)
+==================================================
+downloaded 957 KB
+
+trying URL 'https://packagemanager.posit.co/cran/__linux__/jammy/latest/src/contrib/AhoCorasickTrie_0.1.2.tar.gz'
+Content type 'binary/octet-stream' length 78551 bytes (76 KB)
+==================================================
+downloaded 76 KB
+
+trying URL 'https://packagemanager.posit.co/cran/__linux__/jammy/latest/src/contrib/RMariaDB_1.2.2.tar.gz'
+Content type 'binary/octet-stream' length 400880 bytes (391 KB)
+==================================================
+downloaded 391 KB
+
+trying URL 'https://bioconductor.org/packages/3.17/bioc/src/contrib/customProDB_1.40.0.tar.gz'
+Content type 'application/x-gzip' length 553594 bytes (540 KB)
+==================================================
+downloaded 540 KB
+
+* installing *binary* package ‘timechange’ ...
+* ‘timechange’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘timechange’ as ‘timechange_0.2.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (timechange)
+* installing *binary* package ‘AhoCorasickTrie’ ...
+* ‘AhoCorasickTrie’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘AhoCorasickTrie’ as ‘AhoCorasickTrie_0.1.2_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (AhoCorasickTrie)
+* installing *binary* package ‘lubridate’ ...
+* ‘lubridate’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘lubridate’ as ‘lubridate_1.9.2_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (lubridate)
+* installing *source* package ‘customProDB’ ...
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘customProDB’ as ‘customProDB_1.40.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (customProDB)
+* installing *binary* package ‘RMariaDB’ ...
+* ‘RMariaDB’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘RMariaDB’ as ‘RMariaDB_1.2.2_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (RMariaDB)
+
+The downloaded source packages are in
+	‘/tmp/RtmpGEbbVV/downloaded_packages’
+Old packages: 'BiocManager', 'bslib', 'cachem', 'cpp11', 'curl', 'digest',
+  'downlit', 'evaluate', 'fs', 'httpuv', 'httr', 'httr2', 'jsonlite', 'knitr',
+  'later', 'openssl', 'pkgbuild', 'pkgload', 'processx', 'profvis', 'Rcpp',
+  'remotes', 'rmarkdown', 'rstudioapi', 'sass', 'shiny', 'sys', 'testthat',
+  'usethis', 'vctrs', 'waldo', 'xml2', 'class', 'KernSmooth', 'MASS', 'Matrix',
+  'mgcv', 'nnet', 'spatial'
+
+real	0m44.315s
+user	0m36.566s
+sys	0m2.113s
+* installing *binary* package ‘palmerpenguins’ ...
+* ‘palmerpenguins’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘palmerpenguins’ as ‘palmerpenguins_0.1.1_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (palmerpenguins)
+* installing *binary* package ‘tzdb’ ...
+* ‘tzdb’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘tzdb’ as ‘tzdb_0.4.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (tzdb)
+* installing *binary* package ‘RMariaDB’ ...
+* ‘RMariaDB’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘RMariaDB’ as ‘RMariaDB_1.2.2_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (RMariaDB)
+* installing *binary* package ‘vroom’ ...
+* ‘vroom’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘vroom’ as ‘vroom_1.6.3_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (vroom)
+* installing *binary* package ‘DBItest’ ...
+* ‘DBItest’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘DBItest’ as ‘DBItest_1.7.3_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (DBItest)
+* installing *binary* package ‘readr’ ...
+* ‘readr’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘readr’ as ‘readr_2.1.4_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (readr)
