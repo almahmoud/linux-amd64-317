@@ -1,0 +1,75 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE); p <- .libPaths(); p <- c('\''/tmp/tmp/built'\'', p); .libPaths(p); if(BiocManager::install('\''shinyMethyl'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://packagemanager.posit.co/cran/__linux__/jammy/latest
+Bioconductor version 3.17 (BiocManager 1.30.20), R 4.3.0 (2023-04-21)
+Installing package(s) 'shinyMethyl'
+also installing the dependency ‘shinyMethylData’
+
+trying URL 'https://bioconductor.org/packages/3.17/data/experiment/src/contrib/shinyMethylData_1.20.0.tar.gz'
+Content type 'application/x-gzip' length 37311970 bytes (35.6 MB)
+==================================================
+downloaded 35.6 MB
+
+trying URL 'https://bioconductor.org/packages/3.17/bioc/src/contrib/shinyMethyl_1.36.0.tar.gz'
+Content type 'application/x-gzip' length 7577542 bytes (7.2 MB)
+==================================================
+downloaded 7.2 MB
+
+* installing *source* package ‘shinyMethylData’ ...
+** using staged installation
+** data
+*** moving datasets to lazyload DB
+** inst
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘shinyMethylData’ as ‘shinyMethylData_1.20.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (shinyMethylData)
+* installing *source* package ‘shinyMethyl’ ...
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘shinyMethyl’ as ‘shinyMethyl_1.36.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (shinyMethyl)
+
+The downloaded source packages are in
+	‘/tmp/RtmpLWUah3/downloaded_packages’
+Old packages: 'BiocManager', 'bslib', 'cachem', 'cpp11', 'curl', 'digest',
+  'downlit', 'evaluate', 'fs', 'httpuv', 'httr', 'httr2', 'jsonlite', 'knitr',
+  'later', 'openssl', 'pkgbuild', 'pkgload', 'processx', 'profvis', 'Rcpp',
+  'remotes', 'rmarkdown', 'rstudioapi', 'sass', 'shiny', 'sys', 'testthat',
+  'usethis', 'vctrs', 'waldo', 'xml2', 'class', 'KernSmooth', 'MASS', 'Matrix',
+  'mgcv', 'nnet', 'spatial'
+
+real	1m17.695s
+user	1m11.370s
+sys	0m4.050s
+* installing *source* package ‘shinyMethylData’ ...
+** using staged installation
+** data
+*** moving datasets to lazyload DB
+** inst
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘shinyMethylData’ as ‘shinyMethylData_1.20.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (shinyMethylData)
