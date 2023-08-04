@@ -1,0 +1,214 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE); p <- .libPaths(); p <- c('\''/tmp/tmp/built'\'', p); .libPaths(p); if(BiocManager::install('\''EWCE'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://packagemanager.posit.co/cran/__linux__/jammy/latest
+Bioconductor version 3.17 (BiocManager 1.30.20), R 4.3.0 (2023-04-21)
+Installing package(s) 'EWCE'
+also installing the dependencies ‘rematch’, ‘globals’, ‘listenv’, ‘parallelly’, ‘cellranger’, ‘future.apply’, ‘future’, ‘RNOmni’, ‘ewceData’, ‘reshape2’, ‘HGNChelper’, ‘readxl’, ‘sctransform’, ‘MAST’, ‘ggdendro’
+
+trying URL 'https://packagemanager.posit.co/cran/__linux__/jammy/latest/src/contrib/rematch_1.0.1.tar.gz'
+Content type 'binary/octet-stream' length 12215 bytes (11 KB)
+==================================================
+downloaded 11 KB
+
+trying URL 'https://packagemanager.posit.co/cran/__linux__/jammy/latest/src/contrib/globals_0.16.2.tar.gz'
+Content type 'binary/octet-stream' length 104912 bytes (102 KB)
+==================================================
+downloaded 102 KB
+
+trying URL 'https://packagemanager.posit.co/cran/__linux__/jammy/latest/src/contrib/listenv_0.9.0.tar.gz'
+Content type 'binary/octet-stream' length 105140 bytes (102 KB)
+==================================================
+downloaded 102 KB
+
+trying URL 'https://packagemanager.posit.co/cran/__linux__/jammy/latest/src/contrib/parallelly_1.36.0.tar.gz'
+Content type 'binary/octet-stream' length 348828 bytes (340 KB)
+==================================================
+downloaded 340 KB
+
+trying URL 'https://packagemanager.posit.co/cran/__linux__/jammy/latest/src/contrib/cellranger_1.1.0.tar.gz'
+Content type 'binary/octet-stream' length 100989 bytes (98 KB)
+==================================================
+downloaded 98 KB
+
+trying URL 'https://packagemanager.posit.co/cran/__linux__/jammy/latest/src/contrib/future.apply_1.11.0.tar.gz'
+Content type 'binary/octet-stream' length 153057 bytes (149 KB)
+==================================================
+downloaded 149 KB
+
+trying URL 'https://packagemanager.posit.co/cran/__linux__/jammy/latest/src/contrib/future_1.33.0.tar.gz'
+Content type 'binary/octet-stream' length 642120 bytes (627 KB)
+==================================================
+downloaded 627 KB
+
+trying URL 'https://packagemanager.posit.co/cran/__linux__/jammy/latest/src/contrib/RNOmni_1.0.1.tar.gz'
+Content type 'binary/octet-stream' length 213524 bytes (208 KB)
+==================================================
+downloaded 208 KB
+
+trying URL 'https://bioconductor.org/packages/3.17/data/experiment/src/contrib/ewceData_1.8.0.tar.gz'
+Content type 'application/x-gzip' length 27437 bytes (26 KB)
+==================================================
+downloaded 26 KB
+
+trying URL 'https://packagemanager.posit.co/cran/__linux__/jammy/latest/src/contrib/reshape2_1.4.4.tar.gz'
+Content type 'binary/octet-stream' length 115350 bytes (112 KB)
+==================================================
+downloaded 112 KB
+
+trying URL 'https://packagemanager.posit.co/cran/__linux__/jammy/latest/src/contrib/HGNChelper_0.8.1.tar.gz'
+Content type 'binary/octet-stream' length 1970414 bytes (1.9 MB)
+==================================================
+downloaded 1.9 MB
+
+trying URL 'https://packagemanager.posit.co/cran/__linux__/jammy/latest/src/contrib/readxl_1.4.3.tar.gz'
+Content type 'binary/octet-stream' length 876809 bytes (856 KB)
+==================================================
+downloaded 856 KB
+
+trying URL 'https://packagemanager.posit.co/cran/__linux__/jammy/latest/src/contrib/sctransform_0.3.5.tar.gz'
+Content type 'binary/octet-stream' length 561587 bytes (548 KB)
+==================================================
+downloaded 548 KB
+
+trying URL 'https://bioconductor.org/packages/3.17/bioc/src/contrib/MAST_1.26.0.tar.gz'
+Content type 'application/x-gzip' length 6995058 bytes (6.7 MB)
+==================================================
+downloaded 6.7 MB
+
+trying URL 'https://packagemanager.posit.co/cran/__linux__/jammy/latest/src/contrib/ggdendro_0.1.23.tar.gz'
+Content type 'binary/octet-stream' length 174138 bytes (170 KB)
+==================================================
+downloaded 170 KB
+
+trying URL 'https://bioconductor.org/packages/3.17/bioc/src/contrib/EWCE_1.8.2.tar.gz'
+Content type 'application/x-gzip' length 2305877 bytes (2.2 MB)
+==================================================
+downloaded 2.2 MB
+
+* installing *binary* package ‘rematch’ ...
+* ‘rematch’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘rematch’ as ‘rematch_1.0.1_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (rematch)
+* installing *binary* package ‘globals’ ...
+* ‘globals’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘globals’ as ‘globals_0.16.2_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (globals)
+* installing *binary* package ‘listenv’ ...
+* ‘listenv’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘listenv’ as ‘listenv_0.9.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (listenv)
+* installing *binary* package ‘parallelly’ ...
+* ‘parallelly’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘parallelly’ as ‘parallelly_1.36.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (parallelly)
+* installing *binary* package ‘RNOmni’ ...
+* ‘RNOmni’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘RNOmni’ as ‘RNOmni_1.0.1_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (RNOmni)
+* installing *source* package ‘ewceData’ ...
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘ewceData’ as ‘ewceData_1.8.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (ewceData)
+* installing *binary* package ‘reshape2’ ...
+* ‘reshape2’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘reshape2’ as ‘reshape2_1.4.4_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (reshape2)
+* installing *binary* package ‘HGNChelper’ ...
+* ‘HGNChelper’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘HGNChelper’ as ‘HGNChelper_0.8.1_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (HGNChelper)
+* installing *binary* package ‘ggdendro’ ...
+* ‘ggdendro’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘ggdendro’ as ‘ggdendro_0.1.23_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (ggdendro)
+* installing *binary* package ‘cellranger’ ...
+* ‘cellranger’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘cellranger’ as ‘cellranger_1.1.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (cellranger)
+* installing *binary* package ‘future’ ...
+* ‘future’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘future’ as ‘future_1.33.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (future)
+* installing *source* package ‘MAST’ ...
+** using staged installation
+** R
+** data
+*** moving datasets to lazyload DB
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘MAST’ as ‘MAST_1.26.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (MAST)
+* installing *source* package ‘EWCE’ ...
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘EWCE’ as ‘EWCE_1.8.2_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (EWCE)
+* installing *binary* package ‘future.apply’ ...
+* ‘future.apply’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘future.apply’ as ‘future.apply_1.11.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (future.apply)
+* installing *binary* package ‘readxl’ ...
+* ‘readxl’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘readxl’ as ‘readxl_1.4.3_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (readxl)
+* installing *binary* package ‘sctransform’ ...
+* ‘sctransform’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘sctransform’ as ‘sctransform_0.3.5_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (sctransform)
+
+The downloaded source packages are in
+	‘/tmp/Rtmpz15RBp/downloaded_packages’
+Old packages: 'BiocManager', 'bslib', 'cachem', 'cpp11', 'curl', 'digest',
+  'downlit', 'evaluate', 'fs', 'httpuv', 'httr', 'httr2', 'jsonlite', 'knitr',
+  'later', 'openssl', 'pkgbuild', 'pkgload', 'processx', 'profvis', 'Rcpp',
+  'remotes', 'rmarkdown', 'rstudioapi', 'sass', 'shiny', 'sys', 'testthat',
+  'usethis', 'vctrs', 'waldo', 'xml2', 'class', 'KernSmooth', 'MASS', 'Matrix',
+  'mgcv', 'nnet', 'spatial'
+
+real	1m28.923s
+user	1m13.777s
+sys	0m5.531s
