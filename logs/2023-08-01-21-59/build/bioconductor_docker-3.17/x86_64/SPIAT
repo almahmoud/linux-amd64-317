@@ -1,0 +1,184 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE); p <- .libPaths(); p <- c('\''/tmp/tmp/built'\'', p); .libPaths(p); if(BiocManager::install('\''SPIAT'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://packagemanager.posit.co/cran/__linux__/jammy/latest
+Bioconductor version 3.17 (BiocManager 1.30.20), R 4.3.0 (2023-04-21)
+Installing package(s) 'SPIAT'
+also installing the dependencies ‘terra’, ‘interp’, ‘sgeostat’, ‘splancs’, ‘RSpectra’, ‘apcluster’, ‘pracma’, ‘dbscan’, ‘mmand’, ‘raster’, ‘alphahull’, ‘umap’, ‘elsa’
+
+trying URL 'https://packagemanager.posit.co/cran/__linux__/jammy/latest/src/contrib/terra_1.7-39.tar.gz'
+Content type 'binary/octet-stream' length 4101573 bytes (3.9 MB)
+==================================================
+downloaded 3.9 MB
+
+trying URL 'https://packagemanager.posit.co/cran/__linux__/jammy/latest/src/contrib/interp_1.1-4.tar.gz'
+Content type 'binary/octet-stream' length 1519023 bytes (1.4 MB)
+==================================================
+downloaded 1.4 MB
+
+trying URL 'https://packagemanager.posit.co/cran/__linux__/jammy/latest/src/contrib/sgeostat_1.0-27.tar.gz'
+Content type 'binary/octet-stream' length 141110 bytes (137 KB)
+==================================================
+downloaded 137 KB
+
+trying URL 'https://packagemanager.posit.co/cran/__linux__/jammy/latest/src/contrib/splancs_2.01-43.tar.gz'
+Content type 'binary/octet-stream' length 314639 bytes (307 KB)
+==================================================
+downloaded 307 KB
+
+trying URL 'https://packagemanager.posit.co/cran/__linux__/jammy/latest/src/contrib/RSpectra_0.16-1.tar.gz'
+Content type 'binary/octet-stream' length 494253 bytes (482 KB)
+==================================================
+downloaded 482 KB
+
+trying URL 'https://packagemanager.posit.co/cran/__linux__/jammy/latest/src/contrib/apcluster_1.4.10.tar.gz'
+Content type 'binary/octet-stream' length 1540327 bytes (1.5 MB)
+==================================================
+downloaded 1.5 MB
+
+trying URL 'https://packagemanager.posit.co/cran/__linux__/jammy/latest/src/contrib/pracma_2.4.2.tar.gz'
+Content type 'binary/octet-stream' length 1722874 bytes (1.6 MB)
+==================================================
+downloaded 1.6 MB
+
+trying URL 'https://packagemanager.posit.co/cran/__linux__/jammy/latest/src/contrib/dbscan_1.1-11.tar.gz'
+Content type 'binary/octet-stream' length 2515551 bytes (2.4 MB)
+==================================================
+downloaded 2.4 MB
+
+trying URL 'https://packagemanager.posit.co/cran/__linux__/jammy/latest/src/contrib/mmand_1.6.3.tar.gz'
+Content type 'binary/octet-stream' length 598194 bytes (584 KB)
+==================================================
+downloaded 584 KB
+
+trying URL 'https://packagemanager.posit.co/cran/__linux__/jammy/latest/src/contrib/raster_3.6-23.tar.gz'
+Content type 'binary/octet-stream' length 3324897 bytes (3.2 MB)
+==================================================
+downloaded 3.2 MB
+
+trying URL 'https://packagemanager.posit.co/cran/__linux__/jammy/latest/src/contrib/alphahull_2.5.tar.gz'
+Content type 'binary/octet-stream' length 604888 bytes (590 KB)
+==================================================
+downloaded 590 KB
+
+trying URL 'https://packagemanager.posit.co/cran/__linux__/jammy/latest/src/contrib/umap_0.2.10.0.tar.gz'
+Content type 'binary/octet-stream' length 180293 bytes (176 KB)
+==================================================
+downloaded 176 KB
+
+trying URL 'https://packagemanager.posit.co/cran/__linux__/jammy/latest/src/contrib/elsa_1.1-28.tar.gz'
+Content type 'binary/octet-stream' length 827891 bytes (808 KB)
+==================================================
+downloaded 808 KB
+
+trying URL 'https://bioconductor.org/packages/3.17/bioc/src/contrib/SPIAT_1.2.2.tar.gz'
+Content type 'application/x-gzip' length 6918384 bytes (6.6 MB)
+==================================================
+downloaded 6.6 MB
+
+* installing *binary* package ‘terra’ ...
+* ‘terra’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘terra’ as ‘terra_1.7-39_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (terra)
+* installing *binary* package ‘interp’ ...
+* ‘interp’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘interp’ as ‘interp_1.1-4_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (interp)
+* installing *binary* package ‘sgeostat’ ...
+* ‘sgeostat’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘sgeostat’ as ‘sgeostat_1.0-27_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (sgeostat)
+* installing *binary* package ‘splancs’ ...
+* ‘splancs’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘splancs’ as ‘splancs_2.01-43_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (splancs)
+* installing *binary* package ‘RSpectra’ ...
+* ‘RSpectra’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘RSpectra’ as ‘RSpectra_0.16-1_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (RSpectra)
+* installing *binary* package ‘apcluster’ ...
+* ‘apcluster’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘apcluster’ as ‘apcluster_1.4.10_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (apcluster)
+* installing *binary* package ‘pracma’ ...
+* ‘pracma’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘pracma’ as ‘pracma_2.4.2_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (pracma)
+* installing *binary* package ‘dbscan’ ...
+* ‘dbscan’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘dbscan’ as ‘dbscan_1.1-11_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (dbscan)
+* installing *binary* package ‘mmand’ ...
+* ‘mmand’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘mmand’ as ‘mmand_1.6.3_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (mmand)
+* installing *binary* package ‘raster’ ...
+* ‘raster’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘raster’ as ‘raster_3.6-23_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (raster)
+* installing *binary* package ‘alphahull’ ...
+* ‘alphahull’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘alphahull’ as ‘alphahull_2.5_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (alphahull)
+* installing *binary* package ‘umap’ ...
+* ‘umap’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘umap’ as ‘umap_0.2.10.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (umap)
+* installing *binary* package ‘elsa’ ...
+* ‘elsa’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘elsa’ as ‘elsa_1.1-28_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (elsa)
+* installing *source* package ‘SPIAT’ ...
+** using staged installation
+** R
+** data
+*** moving datasets to lazyload DB
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘SPIAT’ as ‘SPIAT_1.2.2_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (SPIAT)
+
+The downloaded source packages are in
+	‘/tmp/RtmpSqUx3x/downloaded_packages’
+Old packages: 'BiocManager', 'bslib', 'cachem', 'cpp11', 'curl', 'digest',
+  'downlit', 'evaluate', 'fs', 'httpuv', 'httr', 'httr2', 'jsonlite', 'knitr',
+  'later', 'openssl', 'pkgbuild', 'pkgload', 'processx', 'profvis', 'Rcpp',
+  'remotes', 'rmarkdown', 'rstudioapi', 'sass', 'shiny', 'sys', 'testthat',
+  'usethis', 'vctrs', 'waldo', 'xml2', 'class', 'KernSmooth', 'MASS', 'Matrix',
+  'mgcv', 'nnet', 'spatial'
+
+real	1m4.481s
+user	0m46.705s
+sys	0m4.416s
+* installing *binary* package ‘alphahull’ ...
+* ‘alphahull’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘alphahull’ as ‘alphahull_2.5_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (alphahull)
+* installing *binary* package ‘elsa’ ...
+* ‘elsa’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘elsa’ as ‘elsa_1.1-28_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (elsa)
