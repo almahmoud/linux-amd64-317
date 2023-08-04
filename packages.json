@@ -324,7 +324,6 @@
         "biovizBase",
         "bsseq",
         "ensembldb",
-        "goseq",
         "lumi",
         "methylumi",
         "minfi",
@@ -892,7 +891,6 @@
     "GOfuncR": [],
     "GOpro": [],
     "goProfiles": [],
-    "goseq": [],
     "goSorensen": [
         "goProfiles"
     ],
@@ -979,9 +977,7 @@
         "BSgenome",
         "CODEX"
     ],
-    "ideal": [
-        "goseq"
-    ],
+    "ideal": [],
     "igvR": [
         "BSgenome",
         "VariantAnnotation"
@@ -1561,9 +1557,7 @@
         "regioneR"
     ],
     "rGREAT": [],
-    "rgsepd": [
-        "goseq"
-    ],
+    "rgsepd": [],
     "Rhisat2": [
         "SGSeq"
     ],
@@ -1782,8 +1776,7 @@
     ],
     "slingshot": [],
     "SMITE": [
-        "BioNet",
-        "goseq"
+        "BioNet"
     ],
     "SNPhood": [
         "BSgenome",
