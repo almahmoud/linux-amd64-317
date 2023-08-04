@@ -1,0 +1,169 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE); p <- .libPaths(); p <- c('\''/tmp/tmp/built'\'', p); .libPaths(p); if(BiocManager::install('\''ASSIGN'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://packagemanager.posit.co/cran/__linux__/jammy/latest
+Bioconductor version 3.17 (BiocManager 1.30.20), R 4.3.0 (2023-04-21)
+Installing package(s) 'ASSIGN'
+also installing the dependencies ‘mvtnorm’, ‘expm’, ‘backports’, ‘cyclocomp’, ‘rex’, ‘xmlparsedata’, ‘msm’, ‘Rlab’, ‘lintr’
+
+trying URL 'https://packagemanager.posit.co/cran/__linux__/jammy/latest/src/contrib/mvtnorm_1.2-2.tar.gz'
+Content type 'binary/octet-stream' length 744473 bytes (727 KB)
+==================================================
+downloaded 727 KB
+
+trying URL 'https://packagemanager.posit.co/cran/__linux__/jammy/latest/src/contrib/expm_0.999-7.tar.gz'
+Content type 'binary/octet-stream' length 203737 bytes (198 KB)
+==================================================
+downloaded 198 KB
+
+trying URL 'https://packagemanager.posit.co/cran/__linux__/jammy/latest/src/contrib/backports_1.4.1.tar.gz'
+Content type 'binary/octet-stream' length 95020 bytes (92 KB)
+==================================================
+downloaded 92 KB
+
+trying URL 'https://packagemanager.posit.co/cran/__linux__/jammy/latest/src/contrib/cyclocomp_1.1.0.tar.gz'
+Content type 'binary/octet-stream' length 30492 bytes (29 KB)
+==================================================
+downloaded 29 KB
+
+trying URL 'https://packagemanager.posit.co/cran/__linux__/jammy/latest/src/contrib/rex_1.2.1.tar.gz'
+Content type 'binary/octet-stream' length 124178 bytes (121 KB)
+==================================================
+downloaded 121 KB
+
+trying URL 'https://packagemanager.posit.co/cran/__linux__/jammy/latest/src/contrib/xmlparsedata_1.0.5.tar.gz'
+Content type 'binary/octet-stream' length 18467 bytes (18 KB)
+==================================================
+downloaded 18 KB
+
+trying URL 'https://packagemanager.posit.co/cran/__linux__/jammy/latest/src/contrib/msm_1.7.tar.gz'
+Content type 'binary/octet-stream' length 1452274 bytes (1.4 MB)
+==================================================
+downloaded 1.4 MB
+
+trying URL 'https://packagemanager.posit.co/cran/__linux__/jammy/latest/src/contrib/Rlab_4.0.tar.gz'
+Content type 'binary/octet-stream' length 266428 bytes (260 KB)
+==================================================
+downloaded 260 KB
+
+trying URL 'https://packagemanager.posit.co/cran/__linux__/jammy/latest/src/contrib/lintr_3.1.0.tar.gz'
+Content type 'binary/octet-stream' length 1191941 bytes (1.1 MB)
+==================================================
+downloaded 1.1 MB
+
+trying URL 'https://bioconductor.org/packages/3.17/bioc/src/contrib/ASSIGN_1.36.0.tar.gz'
+Content type 'application/x-gzip' length 1684867 bytes (1.6 MB)
+==================================================
+downloaded 1.6 MB
+
+* installing *binary* package ‘mvtnorm’ ...
+* ‘mvtnorm’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘mvtnorm’ as ‘mvtnorm_1.2-2_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (mvtnorm)
+* installing *binary* package ‘expm’ ...
+* ‘expm’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘expm’ as ‘expm_0.999-7_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (expm)
+* installing *binary* package ‘backports’ ...
+* ‘backports’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘backports’ as ‘backports_1.4.1_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (backports)
+* installing *binary* package ‘cyclocomp’ ...
+* ‘cyclocomp’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘cyclocomp’ as ‘cyclocomp_1.1.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (cyclocomp)
+* installing *binary* package ‘rex’ ...
+* ‘rex’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘rex’ as ‘rex_1.2.1_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (rex)
+* installing *binary* package ‘xmlparsedata’ ...
+* ‘xmlparsedata’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘xmlparsedata’ as ‘xmlparsedata_1.0.5_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (xmlparsedata)
+* installing *binary* package ‘Rlab’ ...
+* ‘Rlab’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘Rlab’ as ‘Rlab_4.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (Rlab)
+* installing *binary* package ‘msm’ ...
+* ‘msm’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘msm’ as ‘msm_1.7_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (msm)
+* installing *binary* package ‘lintr’ ...
+* ‘lintr’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘lintr’ as ‘lintr_3.1.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (lintr)
+* installing *source* package ‘ASSIGN’ ...
+** using staged installation
+** R
+** data
+*** moving datasets to lazyload DB
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘ASSIGN’ as ‘ASSIGN_1.36.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (ASSIGN)
+
+The downloaded source packages are in
+	‘/tmp/Rtmpn8KELa/downloaded_packages’
+Old packages: 'BiocManager', 'bslib', 'cachem', 'cpp11', 'curl', 'digest',
+  'downlit', 'evaluate', 'fs', 'httpuv', 'httr', 'httr2', 'jsonlite', 'knitr',
+  'later', 'openssl', 'pkgbuild', 'pkgload', 'processx', 'profvis', 'Rcpp',
+  'remotes', 'rmarkdown', 'rstudioapi', 'sass', 'shiny', 'sys', 'testthat',
+  'usethis', 'vctrs', 'waldo', 'xml2', 'class', 'KernSmooth', 'MASS', 'Matrix',
+  'mgcv', 'nnet', 'spatial'
+
+real	0m16.071s
+user	0m10.649s
+sys	0m2.125s
+* installing *binary* package ‘cyclocomp’ ...
+* ‘cyclocomp’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘cyclocomp’ as ‘cyclocomp_1.1.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (cyclocomp)
+* installing *binary* package ‘mockery’ ...
+* ‘mockery’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘mockery’ as ‘mockery_0.4.3_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (mockery)
+* installing *binary* package ‘patrick’ ...
+* ‘patrick’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘patrick’ as ‘patrick_0.2.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (patrick)
+* installing *binary* package ‘tufte’ ...
+* ‘tufte’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘tufte’ as ‘tufte_0.13_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (tufte)
+* installing *binary* package ‘lintr’ ...
+* ‘lintr’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘lintr’ as ‘lintr_3.1.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (lintr)
+* installing *binary* package ‘covr’ ...
+* ‘covr’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘covr’ as ‘covr_3.6.2_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (covr)
+* installing *binary* package ‘xmlparsedata’ ...
+* ‘xmlparsedata’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘xmlparsedata’ as ‘xmlparsedata_1.0.5_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (xmlparsedata)
