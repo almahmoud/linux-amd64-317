@@ -1,0 +1,215 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE); p <- .libPaths(); p <- c('\''/tmp/tmp/built'\'', p); .libPaths(p); if(BiocManager::install('\''MOMA'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://packagemanager.posit.co/cran/__linux__/jammy/latest
+Bioconductor version 3.17 (BiocManager 1.30.20), R 4.3.0 (2023-04-21)
+Installing package(s) 'MOMA'
+also installing the dependencies ‘lazyeval’, ‘crosstalk’, ‘DEoptimR’, ‘kernlab’, ‘plotly’, ‘segmented’, ‘proxy’, ‘robustbase’, ‘vroom’, ‘tzdb’, ‘mixtools’, ‘e1071’, ‘MKmisc’, ‘readr’, ‘viper’
+
+trying URL 'https://packagemanager.posit.co/cran/__linux__/jammy/latest/src/contrib/lazyeval_0.2.2.tar.gz'
+Content type 'binary/octet-stream' length 155230 bytes (151 KB)
+==================================================
+downloaded 151 KB
+
+trying URL 'https://packagemanager.posit.co/cran/__linux__/jammy/latest/src/contrib/crosstalk_1.2.0.tar.gz'
+Content type 'binary/octet-stream' length 403467 bytes (394 KB)
+==================================================
+downloaded 394 KB
+
+trying URL 'https://packagemanager.posit.co/cran/__linux__/jammy/latest/src/contrib/DEoptimR_1.1-0.tar.gz'
+Content type 'binary/octet-stream' length 70184 bytes (68 KB)
+==================================================
+downloaded 68 KB
+
+trying URL 'https://packagemanager.posit.co/cran/__linux__/jammy/latest/src/contrib/kernlab_0.9-32.tar.gz'
+Content type 'binary/octet-stream' length 2215637 bytes (2.1 MB)
+==================================================
+downloaded 2.1 MB
+
+trying URL 'https://packagemanager.posit.co/cran/__linux__/jammy/latest/src/contrib/plotly_4.10.2.tar.gz'
+Content type 'binary/octet-stream' length 3196212 bytes (3.0 MB)
+==================================================
+downloaded 3.0 MB
+
+trying URL 'https://packagemanager.posit.co/cran/__linux__/jammy/latest/src/contrib/segmented_1.6-4.tar.gz'
+Content type 'binary/octet-stream' length 779678 bytes (761 KB)
+==================================================
+downloaded 761 KB
+
+trying URL 'https://packagemanager.posit.co/cran/__linux__/jammy/latest/src/contrib/proxy_0.4-27.tar.gz'
+Content type 'binary/octet-stream' length 174072 bytes (169 KB)
+==================================================
+downloaded 169 KB
+
+trying URL 'https://packagemanager.posit.co/cran/__linux__/jammy/latest/src/contrib/robustbase_0.99-0.tar.gz'
+Content type 'binary/octet-stream' length 3085090 bytes (2.9 MB)
+==================================================
+downloaded 2.9 MB
+
+trying URL 'https://packagemanager.posit.co/cran/__linux__/jammy/latest/src/contrib/vroom_1.6.3.tar.gz'
+Content type 'binary/octet-stream' length 963664 bytes (941 KB)
+==================================================
+downloaded 941 KB
+
+trying URL 'https://packagemanager.posit.co/cran/__linux__/jammy/latest/src/contrib/tzdb_0.4.0.tar.gz'
+Content type 'binary/octet-stream' length 646703 bytes (631 KB)
+==================================================
+downloaded 631 KB
+
+trying URL 'https://packagemanager.posit.co/cran/__linux__/jammy/latest/src/contrib/mixtools_2.0.0.tar.gz'
+Content type 'binary/octet-stream' length 1417119 bytes (1.4 MB)
+==================================================
+downloaded 1.4 MB
+
+trying URL 'https://packagemanager.posit.co/cran/__linux__/jammy/latest/src/contrib/e1071_1.7-13.tar.gz'
+Content type 'binary/octet-stream' length 578232 bytes (564 KB)
+==================================================
+downloaded 564 KB
+
+trying URL 'https://packagemanager.posit.co/cran/__linux__/jammy/latest/src/contrib/MKmisc_1.9.tar.gz'
+Content type 'binary/octet-stream' length 459145 bytes (448 KB)
+==================================================
+downloaded 448 KB
+
+trying URL 'https://packagemanager.posit.co/cran/__linux__/jammy/latest/src/contrib/readr_2.1.4.tar.gz'
+Content type 'binary/octet-stream' length 863834 bytes (843 KB)
+==================================================
+downloaded 843 KB
+
+trying URL 'https://bioconductor.org/packages/3.17/bioc/src/contrib/viper_1.34.0.tar.gz'
+Content type 'application/x-gzip' length 318575 bytes (311 KB)
+==================================================
+downloaded 311 KB
+
+trying URL 'https://bioconductor.org/packages/3.17/bioc/src/contrib/MOMA_1.12.0.tar.gz'
+Content type 'application/x-gzip' length 4458779 bytes (4.3 MB)
+==================================================
+downloaded 4.3 MB
+
+* installing *binary* package ‘lazyeval’ ...
+* ‘lazyeval’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘lazyeval’ as ‘lazyeval_0.2.2_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (lazyeval)
+* installing *binary* package ‘DEoptimR’ ...
+* ‘DEoptimR’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘DEoptimR’ as ‘DEoptimR_1.1-0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (DEoptimR)
+* installing *binary* package ‘kernlab’ ...
+* ‘kernlab’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘kernlab’ as ‘kernlab_0.9-32_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (kernlab)
+* installing *binary* package ‘segmented’ ...
+* ‘segmented’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘segmented’ as ‘segmented_1.6-4_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (segmented)
+* installing *binary* package ‘proxy’ ...
+* ‘proxy’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘proxy’ as ‘proxy_0.4-27_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (proxy)
+* installing *binary* package ‘tzdb’ ...
+* ‘tzdb’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘tzdb’ as ‘tzdb_0.4.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (tzdb)
+* installing *binary* package ‘crosstalk’ ...
+* ‘crosstalk’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘crosstalk’ as ‘crosstalk_1.2.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (crosstalk)
+* installing *binary* package ‘robustbase’ ...
+* ‘robustbase’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘robustbase’ as ‘robustbase_0.99-0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (robustbase)
+* installing *binary* package ‘vroom’ ...
+* ‘vroom’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘vroom’ as ‘vroom_1.6.3_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (vroom)
+* installing *binary* package ‘e1071’ ...
+* ‘e1071’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘e1071’ as ‘e1071_1.7-13_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (e1071)
+* installing *binary* package ‘plotly’ ...
+* ‘plotly’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘plotly’ as ‘plotly_4.10.2_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (plotly)
+* installing *source* package ‘MKmisc’ ...
+** package ‘MKmisc’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘MKmisc’ as ‘MKmisc_1.9_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (MKmisc)
+* installing *binary* package ‘readr’ ...
+* ‘readr’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘readr’ as ‘readr_2.1.4_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (readr)
+* installing *binary* package ‘mixtools’ ...
+* ‘mixtools’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘mixtools’ as ‘mixtools_2.0.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (mixtools)
+* installing *source* package ‘MOMA’ ...
+** using staged installation
+** R
+** data
+*** moving datasets to lazyload DB
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘MOMA’ as ‘MOMA_1.12.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (MOMA)
+* installing *source* package ‘viper’ ...
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘viper’ as ‘viper_1.34.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (viper)
+
+The downloaded source packages are in
+	‘/tmp/Rtmp2D1KGG/downloaded_packages’
+Old packages: 'BiocManager', 'bslib', 'cachem', 'cpp11', 'curl', 'digest',
+  'downlit', 'evaluate', 'fs', 'httpuv', 'httr', 'httr2', 'jsonlite', 'knitr',
+  'later', 'openssl', 'pkgbuild', 'pkgload', 'processx', 'profvis', 'Rcpp',
+  'remotes', 'rmarkdown', 'rstudioapi', 'sass', 'shiny', 'sys', 'testthat',
+  'usethis', 'vctrs', 'waldo', 'xml2', 'class', 'KernSmooth', 'MASS', 'Matrix',
+  'mgcv', 'nnet', 'spatial'
+
+real	1m14.769s
+user	1m0.643s
+sys	0m5.722s
