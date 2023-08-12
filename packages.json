@@ -457,7 +457,6 @@
         "basilisk.utils",
         "beachmat",
         "densvis",
-        "dir.expiry",
         "scater",
         "scuttle",
         "sparseMatrixStats"
@@ -896,7 +895,6 @@
         "beachmat",
         "decontam",
         "densvis",
-        "dir.expiry",
         "mia",
         "scater",
         "scuttle",
@@ -1957,12 +1955,9 @@
         "XVector"
     ],
     "basilisk": [
-        "basilisk.utils",
-        "dir.expiry"
+        "basilisk.utils"
     ],
-    "basilisk.utils": [
-        "dir.expiry"
-    ],
+    "basilisk.utils": [],
     "batchelor": [
         "Biobase",
         "BiocGenerics",
@@ -2031,7 +2026,6 @@
         "beachmat",
         "bluster",
         "densvis",
-        "dir.expiry",
         "edgeR",
         "metapod",
         "rhdf5",
@@ -2231,7 +2225,6 @@
         "biomformat",
         "decontam",
         "densvis",
-        "dir.expiry",
         "edgeR",
         "genefilter",
         "metagenomeSeq",
@@ -2484,8 +2477,7 @@
     "BiocHail": [
         "BiocGenerics",
         "basilisk",
-        "basilisk.utils",
-        "dir.expiry"
+        "basilisk.utils"
     ],
     "BiocHubsShiny": [
         "AnnotationDbi",
@@ -2606,8 +2598,7 @@
         "SummarizedExperiment",
         "XVector",
         "basilisk",
-        "basilisk.utils",
-        "dir.expiry"
+        "basilisk.utils"
     ],
     "biocthis": [],
     "BiocVersion": [],
@@ -3778,7 +3769,6 @@
         "beachmat",
         "cytolib",
         "densvis",
-        "dir.expiry",
         "flowCore",
         "scater",
         "scuttle",
@@ -3934,8 +3924,7 @@
     ],
     "cbpManager": [
         "basilisk",
-        "basilisk.utils",
-        "dir.expiry"
+        "basilisk.utils"
     ],
     "ccfindR": [
         "Biobase",
@@ -4019,7 +4008,6 @@
         "beachmat",
         "bluster",
         "densvis",
-        "dir.expiry",
         "edgeR",
         "metapod",
         "scater",
@@ -4125,7 +4113,6 @@
         "basilisk.utils",
         "beachmat",
         "densvis",
-        "dir.expiry",
         "fgsea",
         "scater",
         "scuttle",
@@ -4170,7 +4157,6 @@
         "basilisk.utils",
         "beachmat",
         "densvis",
-        "dir.expiry",
         "scater",
         "scuttle",
         "sparseMatrixStats"
@@ -4357,8 +4343,7 @@
         "S4Vectors",
         "XVector",
         "basilisk",
-        "basilisk.utils",
-        "dir.expiry"
+        "basilisk.utils"
     ],
     "CGHbase": [
         "Biobase",
@@ -4885,7 +4870,6 @@
         "beachmat",
         "bluster",
         "densvis",
-        "dir.expiry",
         "edgeR",
         "metapod",
         "rtracklayer",
@@ -5984,7 +5968,6 @@
         "basilisk.utils",
         "beachmat",
         "densvis",
-        "dir.expiry",
         "distinct",
         "scater",
         "scuttle",
@@ -6552,7 +6535,6 @@
         "crisprBase",
         "crisprBowtie",
         "crisprScore",
-        "dir.expiry",
         "interactiveDisplayBase",
         "rtracklayer"
     ],
@@ -6571,7 +6553,6 @@
         "XVector",
         "basilisk",
         "basilisk.utils",
-        "dir.expiry",
         "interactiveDisplayBase"
     ],
     "CRISPRseek": [
@@ -6694,7 +6675,6 @@
         "crisprDesign",
         "crisprScore",
         "crisprViz",
-        "dir.expiry",
         "ensembldb",
         "interactiveDisplayBase",
         "rtracklayer"
@@ -6736,7 +6716,6 @@
         "crisprBowtie",
         "crisprDesign",
         "crisprScore",
-        "dir.expiry",
         "ensembldb",
         "interactiveDisplayBase",
         "rtracklayer"
@@ -7097,7 +7076,6 @@
         "beachmat",
         "cytolib",
         "densvis",
-        "dir.expiry",
         "flowCore",
         "scater",
         "scuttle",
@@ -7384,7 +7362,6 @@
         "basilisk",
         "basilisk.utils",
         "biomaRt",
-        "dir.expiry",
         "megadepth",
         "plyranges",
         "rtracklayer"
@@ -7807,8 +7784,7 @@
     "demuxmix": [],
     "densvis": [
         "basilisk",
-        "basilisk.utils",
-        "dir.expiry"
+        "basilisk.utils"
     ],
     "DEP": [
         "Biobase",
@@ -8278,7 +8254,6 @@
         "scuttle",
         "sparseMatrixStats"
     ],
-    "dir.expiry": [],
     "DirichletMultinomial": [
         "BiocGenerics",
         "IRanges",
@@ -8323,7 +8298,6 @@
         "basilisk.utils",
         "beachmat",
         "densvis",
-        "dir.expiry",
         "scater",
         "scuttle",
         "sparseMatrixStats"
@@ -9904,7 +9878,6 @@
         "basilisk.utils",
         "beachmat",
         "densvis",
-        "dir.expiry",
         "edgeR",
         "interactiveDisplayBase",
         "rhdf5",
@@ -10637,7 +10610,6 @@
         "biovizBase",
         "bluster",
         "densvis",
-        "dir.expiry",
         "edgeR",
         "ensembldb",
         "ggbio",
@@ -13284,7 +13256,6 @@
         "XVector",
         "basilisk",
         "basilisk.utils",
-        "dir.expiry",
         "rhdf5",
         "rhdf5filters"
     ],
@@ -14262,7 +14233,6 @@
         "bluster",
         "clusterProfiler",
         "densvis",
-        "dir.expiry",
         "edgeR",
         "enrichplot",
         "fgsea",
@@ -15108,7 +15078,6 @@
         "XVector",
         "basilisk",
         "basilisk.utils",
-        "dir.expiry",
         "interactiveDisplayBase"
     ],
     "made4": [
@@ -15823,7 +15792,6 @@
         "basilisk.utils",
         "beachmat",
         "densvis",
-        "dir.expiry",
         "edgeR",
         "scater",
         "scuttle",
@@ -16787,7 +16755,6 @@
         "beachmat",
         "decontam",
         "densvis",
-        "dir.expiry",
         "scater",
         "scuttle",
         "sparseMatrixStats",
@@ -16839,7 +16806,6 @@
         "beachmat",
         "decontam",
         "densvis",
-        "dir.expiry",
         "ggtree",
         "mia",
         "scater",
@@ -16939,7 +16905,6 @@
         "biomformat",
         "decontam",
         "densvis",
-        "dir.expiry",
         "edgeR",
         "ggtree",
         "metagenomeSeq",
@@ -17675,7 +17640,6 @@
         "S4Vectors",
         "basilisk",
         "basilisk.utils",
-        "dir.expiry",
         "rhdf5",
         "rhdf5filters"
     ],
@@ -18757,7 +18721,6 @@
         "basilisk.utils",
         "beachmat",
         "densvis",
-        "dir.expiry",
         "edgeR",
         "scater",
         "scuttle",
@@ -19275,7 +19238,6 @@
         "beachmat",
         "clusterExperiment",
         "densvis",
-        "dir.expiry",
         "edgeR",
         "genefilter",
         "mbkmeans",
@@ -19654,7 +19616,6 @@
         "dasper",
         "derfinder",
         "derfinderHelper",
-        "dir.expiry",
         "megadepth",
         "plyranges",
         "qvalue",
@@ -20481,7 +20442,6 @@
         "XVector",
         "basilisk",
         "basilisk.utils",
-        "dir.expiry",
         "fgsea",
         "qvalue"
     ],
@@ -20738,7 +20698,6 @@
         "basilisk.utils",
         "beachmat",
         "densvis",
-        "dir.expiry",
         "scater",
         "scuttle",
         "sparseMatrixStats"
@@ -21121,7 +21080,6 @@
         "beachmat",
         "bluster",
         "densvis",
-        "dir.expiry",
         "edgeR",
         "metapod",
         "scater",
@@ -22768,8 +22726,7 @@
         "BiocParallel",
         "S4Vectors",
         "basilisk",
-        "basilisk.utils",
-        "dir.expiry"
+        "basilisk.utils"
     ],
     "RcwlPipelines": [
         "BiocGenerics",
@@ -22777,8 +22734,7 @@
         "Rcwl",
         "S4Vectors",
         "basilisk",
-        "basilisk.utils",
-        "dir.expiry"
+        "basilisk.utils"
     ],
     "RCy3": [
         "BiocGenerics",
@@ -22821,7 +22777,6 @@
     "REBET": [],
     "rebook": [
         "BiocGenerics",
-        "dir.expiry",
         "graph"
     ],
     "receptLoss": [
@@ -22934,7 +22889,6 @@
         "basilisk.utils",
         "biomaRt",
         "bumphunter",
-        "dir.expiry",
         "genefilter",
         "minfi",
         "multtest",
@@ -23381,8 +23335,7 @@
         "RcwlPipelines",
         "S4Vectors",
         "basilisk",
-        "basilisk.utils",
-        "dir.expiry"
+        "basilisk.utils"
     ],
     "rexposome": [
         "Biobase",
@@ -25088,7 +25041,6 @@
         "basilisk.utils",
         "beachmat",
         "densvis",
-        "dir.expiry",
         "scuttle",
         "sparseMatrixStats"
     ],
@@ -25233,7 +25185,6 @@
         "beachmat",
         "bluster",
         "densvis",
-        "dir.expiry",
         "edgeR",
         "metapod",
         "rtracklayer",
@@ -25461,7 +25412,6 @@
         "beachmat",
         "bluster",
         "densvis",
-        "dir.expiry",
         "edgeR",
         "metapod",
         "scater",
@@ -25684,7 +25634,6 @@
         "basilisk.utils",
         "beachmat",
         "biomaRt",
-        "dir.expiry",
         "edgeR",
         "rhdf5",
         "rhdf5filters",
@@ -25949,7 +25898,6 @@
         "bluster",
         "bumphunter",
         "densvis",
-        "dir.expiry",
         "edgeR",
         "ensembldb",
         "epivizr",
@@ -26002,7 +25950,6 @@
         "basilisk.utils",
         "beachmat",
         "densvis",
-        "dir.expiry",
         "scater",
         "scuttle",
         "sparseMatrixStats"
@@ -26804,7 +26751,6 @@
         "basilisk",
         "basilisk.utils",
         "biomformat",
-        "dir.expiry",
         "multtest",
         "phyloseq",
         "rhdf5",
@@ -26979,7 +26925,6 @@
         "bluster",
         "celda",
         "densvis",
-        "dir.expiry",
         "edgeR",
         "ensembldb",
         "genefilter",
@@ -27292,8 +27237,7 @@
     ],
     "snifter": [
         "basilisk",
-        "basilisk.utils",
-        "dir.expiry"
+        "basilisk.utils"
     ],
     "snm": [],
     "SNPhood": [
@@ -27421,7 +27365,6 @@
         "beachmat",
         "bluster",
         "densvis",
-        "dir.expiry",
         "edgeR",
         "metapod",
         "rhdf5",
@@ -27549,7 +27492,6 @@
         "basilisk",
         "basilisk.utils",
         "beachmat",
-        "dir.expiry",
         "edgeR",
         "rhdf5",
         "rhdf5filters",
@@ -27646,7 +27588,6 @@
         "beachmat",
         "bluster",
         "densvis",
-        "dir.expiry",
         "edgeR",
         "genefilter",
         "impute",
@@ -29895,7 +29836,6 @@
         "basilisk.utils",
         "beachmat",
         "densvis",
-        "dir.expiry",
         "scater",
         "scuttle",
         "sparseMatrixStats"
@@ -30341,7 +30281,6 @@
         "basilisk.utils",
         "beachmat",
         "densvis",
-        "dir.expiry",
         "scater",
         "scuttle",
         "sparseMatrixStats",
@@ -30577,8 +30516,7 @@
         "SummarizedExperiment",
         "XVector",
         "basilisk",
-        "basilisk.utils",
-        "dir.expiry"
+        "basilisk.utils"
     ],
     "VegaMC": [
         "AnnotationDbi",
@@ -30612,7 +30550,6 @@
         "basilisk",
         "basilisk.utils",
         "beachmat",
-        "dir.expiry",
         "scuttle",
         "sparseMatrixStats",
         "zellkonverter"
@@ -31190,8 +31127,7 @@
         "SummarizedExperiment",
         "XVector",
         "basilisk",
-        "basilisk.utils",
-        "dir.expiry"
+        "basilisk.utils"
     ],
     "zenith": [
         "AnnotationDbi",
