@@ -1,0 +1,958 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE); p <- .libPaths(); p <- c('\''/tmp/tmp/built'\'', p); .libPaths(p); if(BiocManager::install('\''compcodeR'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://packagemanager.posit.co/cran/__linux__/jammy/latest
+Bioconductor version 3.17 (BiocManager 1.30.20), R 4.3.0 (2023-04-21)
+Installing package(s) 'compcodeR'
+Warning: dependencies ‘baySeq’, ‘TCC’ are not available
+also installing the dependencies ‘formatR’, ‘lambda.r’, ‘futile.options’, ‘plyr’, ‘gridGraphics’, ‘timeDate’, ‘timeSeries’, ‘gss’, ‘rmutil’, ‘clue’, ‘futile.logger’, ‘snow’, ‘BH’, ‘XML’, ‘reshape2’, ‘iterators’, ‘ggplotify’, ‘patchwork’, ‘fBasics’, ‘stable’, ‘stabledist’, ‘statip’, ‘zoo’, ‘bookdown’, ‘blockmodeling’, ‘BiocParallel’, ‘RcppArmadillo’, ‘annotate’, ‘qvalue’, ‘maps’, ‘clusterGeneration’, ‘coda’, ‘combinat’, ‘doParallel’, ‘expm’, ‘foreach’, ‘mnormt’, ‘numDeriv’, ‘optimParallel’, ‘plotrix’, ‘scatterplot3d’, ‘fastmatch’, ‘generics’, ‘igraph’, ‘quadprog’, ‘aplot’, ‘dplyr’, ‘ggfun’, ‘yulab.utils’, ‘tidyr’, ‘treeio’, ‘lazyeval’, ‘rex’, ‘sm’, ‘markdown’, ‘ROCR’, ‘modeest’, ‘vioplot’, ‘ape’, ‘phylolm’, ‘BiocStyle’, ‘EBSeq’, ‘DESeq2’, ‘genefilter’, ‘NOISeq’, ‘NBPSeq’, ‘phytools’, ‘phangorn’, ‘ggtree’, ‘tidytree’, ‘covr’, ‘sva’
+
+trying URL 'https://packagemanager.posit.co/cran/__linux__/jammy/latest/src/contrib/formatR_1.14.tar.gz'
+Content type 'binary/octet-stream' length 150706 bytes (147 KB)
+==================================================
+downloaded 147 KB
+
+trying URL 'https://packagemanager.posit.co/cran/__linux__/jammy/latest/src/contrib/lambda.r_1.2.4.tar.gz'
+Content type 'binary/octet-stream' length 109515 bytes (106 KB)
+==================================================
+downloaded 106 KB
+
+trying URL 'https://packagemanager.posit.co/cran/__linux__/jammy/latest/src/contrib/futile.options_1.0.1.tar.gz'
+Content type 'binary/octet-stream' length 18111 bytes (17 KB)
+==================================================
+downloaded 17 KB
+
+trying URL 'https://packagemanager.posit.co/cran/__linux__/jammy/latest/src/contrib/plyr_1.8.8.tar.gz'
+Content type 'binary/octet-stream' length 822467 bytes (803 KB)
+==================================================
+downloaded 803 KB
+
+trying URL 'https://packagemanager.posit.co/cran/__linux__/jammy/latest/src/contrib/gridGraphics_0.5-1.tar.gz'
+Content type 'binary/octet-stream' length 248728 bytes (242 KB)
+==================================================
+downloaded 242 KB
+
+trying URL 'https://packagemanager.posit.co/cran/__linux__/jammy/latest/src/contrib/timeDate_4022.108.tar.gz'
+Content type 'binary/octet-stream' length 1384283 bytes (1.3 MB)
+==================================================
+downloaded 1.3 MB
+
+trying URL 'https://packagemanager.posit.co/cran/__linux__/jammy/latest/src/contrib/timeSeries_4030.106.tar.gz'
+Content type 'binary/octet-stream' length 2104155 bytes (2.0 MB)
+==================================================
+downloaded 2.0 MB
+
+trying URL 'https://packagemanager.posit.co/cran/__linux__/jammy/latest/src/contrib/gss_2.2-6.tar.gz'
+Content type 'binary/octet-stream' length 1685674 bytes (1.6 MB)
+==================================================
+downloaded 1.6 MB
+
+trying URL 'https://packagemanager.posit.co/cran/__linux__/jammy/latest/src/contrib/rmutil_1.1.10.tar.gz'
+Content type 'binary/octet-stream' length 731637 bytes (714 KB)
+==================================================
+downloaded 714 KB
+
+trying URL 'https://packagemanager.posit.co/cran/__linux__/jammy/latest/src/contrib/clue_0.3-64.tar.gz'
+Content type 'binary/octet-stream' length 991832 bytes (968 KB)
+==================================================
+downloaded 968 KB
+
+trying URL 'https://packagemanager.posit.co/cran/__linux__/jammy/latest/src/contrib/futile.logger_1.4.3.tar.gz'
+Content type 'binary/octet-stream' length 98263 bytes (95 KB)
+==================================================
+downloaded 95 KB
+
+trying URL 'https://packagemanager.posit.co/cran/__linux__/jammy/latest/src/contrib/snow_0.4-4.tar.gz'
+Content type 'binary/octet-stream' length 95638 bytes (93 KB)
+==================================================
+downloaded 93 KB
+
+trying URL 'https://packagemanager.posit.co/cran/__linux__/jammy/latest/src/contrib/BH_1.81.0-1.tar.gz'
+Content type 'binary/octet-stream' length 12940877 bytes (12.3 MB)
+==================================================
+downloaded 12.3 MB
+
+trying URL 'https://packagemanager.posit.co/cran/__linux__/jammy/latest/src/contrib/XML_3.99-0.14.tar.gz'
+Content type 'binary/octet-stream' length 1805036 bytes (1.7 MB)
+==================================================
+downloaded 1.7 MB
+
+trying URL 'https://packagemanager.posit.co/cran/__linux__/jammy/latest/src/contrib/reshape2_1.4.4.tar.gz'
+Content type 'binary/octet-stream' length 115350 bytes (112 KB)
+==================================================
+downloaded 112 KB
+
+trying URL 'https://packagemanager.posit.co/cran/__linux__/jammy/latest/src/contrib/iterators_1.0.14.tar.gz'
+Content type 'binary/octet-stream' length 345411 bytes (337 KB)
+==================================================
+downloaded 337 KB
+
+trying URL 'https://packagemanager.posit.co/cran/__linux__/jammy/latest/src/contrib/ggplotify_0.1.2.tar.gz'
+Content type 'binary/octet-stream' length 139888 bytes (136 KB)
+==================================================
+downloaded 136 KB
+
+trying URL 'https://packagemanager.posit.co/cran/__linux__/jammy/latest/src/contrib/patchwork_1.1.2.tar.gz'
+Content type 'binary/octet-stream' length 3235694 bytes (3.1 MB)
+==================================================
+downloaded 3.1 MB
+
+trying URL 'https://packagemanager.posit.co/cran/__linux__/jammy/latest/src/contrib/fBasics_4022.94.tar.gz'
+Content type 'binary/octet-stream' length 2674101 bytes (2.6 MB)
+==================================================
+downloaded 2.6 MB
+
+trying URL 'https://packagemanager.posit.co/cran/__linux__/jammy/latest/src/contrib/stable_1.1.6.tar.gz'
+Content type 'binary/octet-stream' length 119922 bytes (117 KB)
+==================================================
+downloaded 117 KB
+
+trying URL 'https://packagemanager.posit.co/cran/__linux__/jammy/latest/src/contrib/stabledist_0.7-1.tar.gz'
+Content type 'binary/octet-stream' length 72418 bytes (70 KB)
+==================================================
+downloaded 70 KB
+
+trying URL 'https://packagemanager.posit.co/cran/__linux__/jammy/latest/src/contrib/statip_0.2.3.tar.gz'
+Content type 'binary/octet-stream' length 104925 bytes (102 KB)
+==================================================
+downloaded 102 KB
+
+trying URL 'https://packagemanager.posit.co/cran/__linux__/jammy/latest/src/contrib/zoo_1.8-12.tar.gz'
+Content type 'binary/octet-stream' length 1015488 bytes (991 KB)
+==================================================
+downloaded 991 KB
+
+trying URL 'https://packagemanager.posit.co/cran/__linux__/jammy/latest/src/contrib/bookdown_0.35.tar.gz'
+Content type 'binary/octet-stream' length 1089819 bytes (1.0 MB)
+==================================================
+downloaded 1.0 MB
+
+trying URL 'https://packagemanager.posit.co/cran/__linux__/jammy/latest/src/contrib/blockmodeling_1.1.4.tar.gz'
+Content type 'binary/octet-stream' length 428102 bytes (418 KB)
+==================================================
+downloaded 418 KB
+
+trying URL 'https://bioconductor.org/packages/3.17/bioc/src/contrib/BiocParallel_1.34.2.tar.gz'
+Content type 'application/x-gzip' length 997208 bytes (973 KB)
+==================================================
+downloaded 973 KB
+
+trying URL 'https://packagemanager.posit.co/cran/__linux__/jammy/latest/src/contrib/RcppArmadillo_0.12.6.1.0.tar.gz'
+Content type 'binary/octet-stream' length 1067477 bytes (1.0 MB)
+==================================================
+downloaded 1.0 MB
+
+trying URL 'https://bioconductor.org/packages/3.17/bioc/src/contrib/annotate_1.78.0.tar.gz'
+Content type 'application/x-gzip' length 1496796 bytes (1.4 MB)
+==================================================
+downloaded 1.4 MB
+
+trying URL 'https://bioconductor.org/packages/3.17/bioc/src/contrib/qvalue_2.32.0.tar.gz'
+Content type 'application/x-gzip' length 2767895 bytes (2.6 MB)
+==================================================
+downloaded 2.6 MB
+
+trying URL 'https://packagemanager.posit.co/cran/__linux__/jammy/latest/src/contrib/maps_3.4.1.tar.gz'
+Content type 'binary/octet-stream' length 3096095 bytes (3.0 MB)
+==================================================
+downloaded 3.0 MB
+
+trying URL 'https://packagemanager.posit.co/cran/__linux__/jammy/latest/src/contrib/clusterGeneration_1.3.7.tar.gz'
+Content type 'binary/octet-stream' length 265195 bytes (258 KB)
+==================================================
+downloaded 258 KB
+
+trying URL 'https://packagemanager.posit.co/cran/__linux__/jammy/latest/src/contrib/coda_0.19-4.tar.gz'
+Content type 'binary/octet-stream' length 320307 bytes (312 KB)
+==================================================
+downloaded 312 KB
+
+trying URL 'https://packagemanager.posit.co/cran/__linux__/jammy/latest/src/contrib/combinat_0.0-8.tar.gz'
+Content type 'binary/octet-stream' length 40279 bytes (39 KB)
+==================================================
+downloaded 39 KB
+
+trying URL 'https://packagemanager.posit.co/cran/__linux__/jammy/latest/src/contrib/doParallel_1.0.17.tar.gz'
+Content type 'binary/octet-stream' length 187672 bytes (183 KB)
+==================================================
+downloaded 183 KB
+
+trying URL 'https://packagemanager.posit.co/cran/__linux__/jammy/latest/src/contrib/expm_0.999-7.tar.gz'
+Content type 'binary/octet-stream' length 203737 bytes (198 KB)
+==================================================
+downloaded 198 KB
+
+trying URL 'https://packagemanager.posit.co/cran/__linux__/jammy/latest/src/contrib/foreach_1.5.2.tar.gz'
+Content type 'binary/octet-stream' length 138028 bytes (134 KB)
+==================================================
+downloaded 134 KB
+
+trying URL 'https://packagemanager.posit.co/cran/__linux__/jammy/latest/src/contrib/mnormt_2.1.1.tar.gz'
+Content type 'binary/octet-stream' length 172518 bytes (168 KB)
+==================================================
+downloaded 168 KB
+
+trying URL 'https://packagemanager.posit.co/cran/__linux__/jammy/latest/src/contrib/numDeriv_2016.8-1.1.tar.gz'
+Content type 'binary/octet-stream' length 113093 bytes (110 KB)
+==================================================
+downloaded 110 KB
+
+trying URL 'https://packagemanager.posit.co/cran/__linux__/jammy/latest/src/contrib/optimParallel_1.0-2.tar.gz'
+Content type 'binary/octet-stream' length 199493 bytes (194 KB)
+==================================================
+downloaded 194 KB
+
+trying URL 'https://packagemanager.posit.co/cran/__linux__/jammy/latest/src/contrib/plotrix_3.8-2.tar.gz'
+Content type 'binary/octet-stream' length 1137799 bytes (1.1 MB)
+==================================================
+downloaded 1.1 MB
+
+trying URL 'https://packagemanager.posit.co/cran/__linux__/jammy/latest/src/contrib/scatterplot3d_0.3-44.tar.gz'
+Content type 'binary/octet-stream' length 348008 bytes (339 KB)
+==================================================
+downloaded 339 KB
+
+trying URL 'https://packagemanager.posit.co/cran/__linux__/jammy/latest/src/contrib/fastmatch_1.1-3.tar.gz'
+Content type 'binary/octet-stream' length 34366 bytes (33 KB)
+==================================================
+downloaded 33 KB
+
+trying URL 'https://packagemanager.posit.co/cran/__linux__/jammy/latest/src/contrib/generics_0.1.3.tar.gz'
+Content type 'binary/octet-stream' length 76238 bytes (74 KB)
+==================================================
+downloaded 74 KB
+
+trying URL 'https://packagemanager.posit.co/cran/__linux__/jammy/latest/src/contrib/igraph_1.5.1.tar.gz'
+Content type 'binary/octet-stream' length 4875394 bytes (4.6 MB)
+==================================================
+downloaded 4.6 MB
+
+trying URL 'https://packagemanager.posit.co/cran/__linux__/jammy/latest/src/contrib/quadprog_1.5-8.tar.gz'
+Content type 'binary/octet-stream' length 30243 bytes (29 KB)
+==================================================
+downloaded 29 KB
+
+trying URL 'https://packagemanager.posit.co/cran/__linux__/jammy/latest/src/contrib/aplot_0.2.0.tar.gz'
+Content type 'binary/octet-stream' length 62575 bytes (61 KB)
+==================================================
+downloaded 61 KB
+
+trying URL 'https://packagemanager.posit.co/cran/__linux__/jammy/latest/src/contrib/dplyr_1.1.2.tar.gz'
+Content type 'binary/octet-stream' length 1463316 bytes (1.4 MB)
+==================================================
+downloaded 1.4 MB
+
+trying URL 'https://packagemanager.posit.co/cran/__linux__/jammy/latest/src/contrib/ggfun_0.1.2.tar.gz'
+Content type 'binary/octet-stream' length 191369 bytes (186 KB)
+==================================================
+downloaded 186 KB
+
+trying URL 'https://packagemanager.posit.co/cran/__linux__/jammy/latest/src/contrib/yulab.utils_0.0.7.tar.gz'
+Content type 'binary/octet-stream' length 48529 bytes (47 KB)
+==================================================
+downloaded 47 KB
+
+trying URL 'https://packagemanager.posit.co/cran/__linux__/jammy/latest/src/contrib/tidyr_1.3.0.tar.gz'
+Content type 'binary/octet-stream' length 1188040 bytes (1.1 MB)
+==================================================
+downloaded 1.1 MB
+
+trying URL 'https://bioconductor.org/packages/3.17/bioc/src/contrib/treeio_1.24.3.tar.gz'
+Content type 'application/x-gzip' length 700914 bytes (684 KB)
+==================================================
+downloaded 684 KB
+
+trying URL 'https://packagemanager.posit.co/cran/__linux__/jammy/latest/src/contrib/lazyeval_0.2.2.tar.gz'
+Content type 'binary/octet-stream' length 155230 bytes (151 KB)
+==================================================
+downloaded 151 KB
+
+trying URL 'https://packagemanager.posit.co/cran/__linux__/jammy/latest/src/contrib/rex_1.2.1.tar.gz'
+Content type 'binary/octet-stream' length 124178 bytes (121 KB)
+==================================================
+downloaded 121 KB
+
+trying URL 'https://packagemanager.posit.co/cran/__linux__/jammy/latest/src/contrib/sm_2.2-5.7.1.tar.gz'
+Content type 'binary/octet-stream' length 804499 bytes (785 KB)
+==================================================
+downloaded 785 KB
+
+trying URL 'https://packagemanager.posit.co/cran/__linux__/jammy/latest/src/contrib/markdown_1.7.tar.gz'
+Content type 'binary/octet-stream' length 191090 bytes (186 KB)
+==================================================
+downloaded 186 KB
+
+trying URL 'https://packagemanager.posit.co/cran/__linux__/jammy/latest/src/contrib/ROCR_1.0-11.tar.gz'
+Content type 'binary/octet-stream' length 464171 bytes (453 KB)
+==================================================
+downloaded 453 KB
+
+trying URL 'https://packagemanager.posit.co/cran/__linux__/jammy/latest/src/contrib/modeest_2.4.0.tar.gz'
+Content type 'binary/octet-stream' length 141150 bytes (137 KB)
+==================================================
+downloaded 137 KB
+
+trying URL 'https://packagemanager.posit.co/cran/__linux__/jammy/latest/src/contrib/vioplot_0.4.0.tar.gz'
+Content type 'binary/octet-stream' length 1385871 bytes (1.3 MB)
+==================================================
+downloaded 1.3 MB
+
+trying URL 'https://packagemanager.posit.co/cran/__linux__/jammy/latest/src/contrib/ape_5.7-1.tar.gz'
+Content type 'binary/octet-stream' length 3068974 bytes (2.9 MB)
+==================================================
+downloaded 2.9 MB
+
+trying URL 'https://packagemanager.posit.co/cran/__linux__/jammy/latest/src/contrib/phylolm_2.6.2.tar.gz'
+Content type 'binary/octet-stream' length 481257 bytes (469 KB)
+==================================================
+downloaded 469 KB
+
+trying URL 'https://bioconductor.org/packages/3.17/bioc/src/contrib/BiocStyle_2.28.0.tar.gz'
+Content type 'application/x-gzip' length 772922 bytes (754 KB)
+==================================================
+downloaded 754 KB
+
+trying URL 'https://bioconductor.org/packages/3.17/bioc/src/contrib/EBSeq_1.40.0.tar.gz'
+Content type 'application/x-gzip' length 1356307 bytes (1.3 MB)
+==================================================
+downloaded 1.3 MB
+
+trying URL 'https://bioconductor.org/packages/3.17/bioc/src/contrib/DESeq2_1.40.2.tar.gz'
+Content type 'application/x-gzip' length 2133292 bytes (2.0 MB)
+==================================================
+downloaded 2.0 MB
+
+trying URL 'https://bioconductor.org/packages/3.17/bioc/src/contrib/genefilter_1.82.1.tar.gz'
+Content type 'application/x-gzip' length 991861 bytes (968 KB)
+==================================================
+downloaded 968 KB
+
+trying URL 'https://bioconductor.org/packages/3.17/bioc/src/contrib/NOISeq_2.44.0.tar.gz'
+Content type 'application/x-gzip' length 1982758 bytes (1.9 MB)
+==================================================
+downloaded 1.9 MB
+
+trying URL 'https://packagemanager.posit.co/cran/__linux__/jammy/latest/src/contrib/NBPSeq_0.3.1.tar.gz'
+Content type 'binary/octet-stream' length 208942 bytes (204 KB)
+==================================================
+downloaded 204 KB
+
+trying URL 'https://packagemanager.posit.co/cran/__linux__/jammy/latest/src/contrib/phytools_1.9-16.tar.gz'
+Content type 'binary/octet-stream' length 2470303 bytes (2.4 MB)
+==================================================
+downloaded 2.4 MB
+
+trying URL 'https://packagemanager.posit.co/cran/__linux__/jammy/latest/src/contrib/phangorn_2.11.1.tar.gz'
+Content type 'binary/octet-stream' length 2591792 bytes (2.5 MB)
+==================================================
+downloaded 2.5 MB
+
+trying URL 'https://bioconductor.org/packages/3.17/bioc/src/contrib/ggtree_3.8.2.tar.gz'
+Content type 'application/x-gzip' length 360923 bytes (352 KB)
+==================================================
+downloaded 352 KB
+
+trying URL 'https://packagemanager.posit.co/cran/__linux__/jammy/latest/src/contrib/tidytree_0.4.5.tar.gz'
+Content type 'binary/octet-stream' length 340345 bytes (332 KB)
+==================================================
+downloaded 332 KB
+
+trying URL 'https://packagemanager.posit.co/cran/__linux__/jammy/latest/src/contrib/covr_3.6.2.tar.gz'
+Content type 'binary/octet-stream' length 325344 bytes (317 KB)
+==================================================
+downloaded 317 KB
+
+trying URL 'https://bioconductor.org/packages/3.17/bioc/src/contrib/sva_3.48.0.tar.gz'
+Content type 'application/x-gzip' length 453292 bytes (442 KB)
+==================================================
+downloaded 442 KB
+
+trying URL 'https://bioconductor.org/packages/3.17/bioc/src/contrib/compcodeR_1.36.2.tar.gz'
+Content type 'application/x-gzip' length 4957857 bytes (4.7 MB)
+==================================================
+downloaded 4.7 MB
+
+* installing *binary* package ‘formatR’ ...
+* ‘formatR’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘formatR’ as ‘formatR_1.14_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (formatR)
+* installing *binary* package ‘futile.options’ ...
+* ‘futile.options’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘futile.options’ as ‘futile.options_1.0.1_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (futile.options)
+* installing *binary* package ‘plyr’ ...
+* ‘plyr’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘plyr’ as ‘plyr_1.8.8_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (plyr)
+* installing *binary* package ‘gridGraphics’ ...
+* ‘gridGraphics’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘gridGraphics’ as ‘gridGraphics_0.5-1_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (gridGraphics)
+* installing *binary* package ‘timeDate’ ...
+* ‘timeDate’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘timeDate’ as ‘timeDate_4022.108_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (timeDate)
+* installing *binary* package ‘gss’ ...
+* ‘gss’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘gss’ as ‘gss_2.2-6_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (gss)
+* installing *binary* package ‘rmutil’ ...
+* ‘rmutil’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘rmutil’ as ‘rmutil_1.1.10_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (rmutil)
+* installing *binary* package ‘clue’ ...
+* ‘clue’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘clue’ as ‘clue_0.3-64_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (clue)
+* installing *binary* package ‘snow’ ...
+* ‘snow’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘snow’ as ‘snow_0.4-4_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (snow)
+* installing *binary* package ‘BH’ ...
+* ‘BH’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘BH’ as ‘BH_1.81.0-1_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (BH)
+* installing *binary* package ‘XML’ ...
+* ‘XML’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘XML’ as ‘XML_3.99-0.14_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (XML)
+* installing *binary* package ‘iterators’ ...
+* ‘iterators’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘iterators’ as ‘iterators_1.0.14_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (iterators)
+* installing *binary* package ‘patchwork’ ...
+* ‘patchwork’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘patchwork’ as ‘patchwork_1.1.2_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (patchwork)
+* installing *binary* package ‘stabledist’ ...
+* ‘stabledist’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘stabledist’ as ‘stabledist_0.7-1_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (stabledist)
+* installing *binary* package ‘zoo’ ...
+* ‘zoo’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘zoo’ as ‘zoo_1.8-12_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (zoo)
+* installing *binary* package ‘bookdown’ ...
+* ‘bookdown’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘bookdown’ as ‘bookdown_0.35_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (bookdown)
+* installing *binary* package ‘blockmodeling’ ...
+* ‘blockmodeling’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘blockmodeling’ as ‘blockmodeling_1.1.4_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (blockmodeling)
+* installing *binary* package ‘RcppArmadillo’ ...
+* ‘RcppArmadillo’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘RcppArmadillo’ as ‘RcppArmadillo_0.12.6.1.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (RcppArmadillo)
+* installing *binary* package ‘maps’ ...
+* ‘maps’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘maps’ as ‘maps_3.4.1_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (maps)
+* installing *binary* package ‘clusterGeneration’ ...
+* ‘clusterGeneration’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘clusterGeneration’ as ‘clusterGeneration_1.3.7_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (clusterGeneration)
+* installing *binary* package ‘coda’ ...
+* ‘coda’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘coda’ as ‘coda_0.19-4_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (coda)
+* installing *binary* package ‘combinat’ ...
+* ‘combinat’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘combinat’ as ‘combinat_0.0-8_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (combinat)
+* installing *binary* package ‘expm’ ...
+* ‘expm’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘expm’ as ‘expm_0.999-7_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (expm)
+* installing *binary* package ‘mnormt’ ...
+* ‘mnormt’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘mnormt’ as ‘mnormt_2.1.1_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (mnormt)
+* installing *binary* package ‘numDeriv’ ...
+* ‘numDeriv’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘numDeriv’ as ‘numDeriv_2016.8-1.1_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (numDeriv)
+* installing *binary* package ‘optimParallel’ ...
+* ‘optimParallel’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘optimParallel’ as ‘optimParallel_1.0-2_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (optimParallel)
+* installing *binary* package ‘plotrix’ ...
+* ‘plotrix’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘plotrix’ as ‘plotrix_3.8-2_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (plotrix)
+* installing *binary* package ‘scatterplot3d’ ...
+* ‘scatterplot3d’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘scatterplot3d’ as ‘scatterplot3d_0.3-44_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (scatterplot3d)
+* installing *binary* package ‘fastmatch’ ...
+* ‘fastmatch’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘fastmatch’ as ‘fastmatch_1.1-3_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (fastmatch)
+* installing *binary* package ‘generics’ ...
+* ‘generics’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘generics’ as ‘generics_0.1.3_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (generics)
+* installing *binary* package ‘igraph’ ...
+* ‘igraph’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘igraph’ as ‘igraph_1.5.1_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (igraph)
+* installing *binary* package ‘quadprog’ ...
+* ‘quadprog’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘quadprog’ as ‘quadprog_1.5-8_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (quadprog)
+* installing *binary* package ‘ggfun’ ...
+* ‘ggfun’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘ggfun’ as ‘ggfun_0.1.2_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (ggfun)
+* installing *binary* package ‘yulab.utils’ ...
+* ‘yulab.utils’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘yulab.utils’ as ‘yulab.utils_0.0.7_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (yulab.utils)
+* installing *binary* package ‘lazyeval’ ...
+* ‘lazyeval’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘lazyeval’ as ‘lazyeval_0.2.2_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (lazyeval)
+* installing *binary* package ‘sm’ ...
+* ‘sm’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘sm’ as ‘sm_2.2-5.7.1_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (sm)
+* installing *binary* package ‘markdown’ ...
+* ‘markdown’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘markdown’ as ‘markdown_1.7_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (markdown)
+* installing *binary* package ‘ROCR’ ...
+* ‘ROCR’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘ROCR’ as ‘ROCR_1.0-11_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (ROCR)
+* installing *binary* package ‘ape’ ...
+* ‘ape’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘ape’ as ‘ape_5.7-1_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (ape)
+* installing *source* package ‘NOISeq’ ...
+** using staged installation
+** R
+** data
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘NOISeq’ as ‘NOISeq_2.44.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (NOISeq)
+* installing *binary* package ‘lambda.r’ ...
+* ‘lambda.r’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘lambda.r’ as ‘lambda.r_1.2.4_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (lambda.r)
+* installing *binary* package ‘timeSeries’ ...
+* ‘timeSeries’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘timeSeries’ as ‘timeSeries_4030.106_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (timeSeries)
+* installing *binary* package ‘reshape2’ ...
+* ‘reshape2’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘reshape2’ as ‘reshape2_1.4.4_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (reshape2)
+* installing *binary* package ‘ggplotify’ ...
+* ‘ggplotify’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘ggplotify’ as ‘ggplotify_0.1.2_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (ggplotify)
+* installing *binary* package ‘stable’ ...
+* ‘stable’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘stable’ as ‘stable_1.1.6_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (stable)
+* installing *binary* package ‘statip’ ...
+* ‘statip’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘statip’ as ‘statip_0.2.3_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (statip)
+* installing *source* package ‘annotate’ ...
+** using staged installation
+** R
+** data
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘annotate’ as ‘annotate_1.78.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (annotate)
+* installing *binary* package ‘foreach’ ...
+* ‘foreach’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘foreach’ as ‘foreach_1.5.2_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (foreach)
+* installing *binary* package ‘dplyr’ ...
+* ‘dplyr’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘dplyr’ as ‘dplyr_1.1.2_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (dplyr)
+* installing *binary* package ‘rex’ ...
+* ‘rex’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘rex’ as ‘rex_1.2.1_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (rex)
+* installing *binary* package ‘vioplot’ ...
+* ‘vioplot’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘vioplot’ as ‘vioplot_0.4.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (vioplot)
+* installing *binary* package ‘phylolm’ ...
+* ‘phylolm’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘phylolm’ as ‘phylolm_2.6.2_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (phylolm)
+* installing *source* package ‘BiocStyle’ ...
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘BiocStyle’ as ‘BiocStyle_2.28.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (BiocStyle)
+* installing *source* package ‘EBSeq’ ...
+** using staged installation
+** R
+** data
+** demo
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘EBSeq’ as ‘EBSeq_1.40.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (EBSeq)
+* installing *binary* package ‘phangorn’ ...
+* ‘phangorn’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘phangorn’ as ‘phangorn_2.11.1_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (phangorn)
+* installing *binary* package ‘futile.logger’ ...
+* ‘futile.logger’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘futile.logger’ as ‘futile.logger_1.4.3_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (futile.logger)
+* installing *binary* package ‘fBasics’ ...
+* ‘fBasics’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘fBasics’ as ‘fBasics_4022.94_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (fBasics)
+* installing *source* package ‘qvalue’ ...
+** using staged installation
+** R
+** data
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘qvalue’ as ‘qvalue_2.32.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (qvalue)
+* installing *binary* package ‘doParallel’ ...
+* ‘doParallel’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘doParallel’ as ‘doParallel_1.0.17_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (doParallel)
+* installing *binary* package ‘aplot’ ...
+* ‘aplot’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘aplot’ as ‘aplot_0.2.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (aplot)
+* installing *binary* package ‘tidyr’ ...
+* ‘tidyr’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘tidyr’ as ‘tidyr_1.3.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (tidyr)
+* installing *source* package ‘genefilter’ ...
+** using staged installation
+** libs
+using C compiler: ‘gcc (Ubuntu 11.3.0-1ubuntu1~22.04) 11.3.0’
+using Fortran compiler: ‘GNU Fortran (Ubuntu 11.3.0-1ubuntu1~22.04) 11.3.0’
+using C++ compiler: ‘g++ (Ubuntu 11.3.0-1ubuntu1~22.04) 11.3.0’
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c half_range_mode.cpp -o half_range_mode.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c init.c -o init.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c nd.c -o nd.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c pAUC.c -o pAUC.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c rowPAUCs.c -o rowPAUCs.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c rowttests.c -o rowttests.o
+gfortran  -fpic  -g -O2  -c ttest.f -o ttest.o
+g++ -std=gnu++17 -shared -L/usr/local/lib/R/lib -L/usr/local/lib -o genefilter.so half_range_mode.o init.o nd.o pAUC.o rowPAUCs.o rowttests.o ttest.o -lgfortran -lm -lquadmath -L/usr/local/lib/R/lib -lR
+installing to /tmp/tmp/built/00LOCK-genefilter/00new/genefilter/libs
+** R
+** data
+*** moving datasets to lazyload DB
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘genefilter’ as ‘genefilter_1.82.1_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (genefilter)
+* installing *binary* package ‘covr’ ...
+* ‘covr’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘covr’ as ‘covr_3.6.2_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (covr)
+* installing *source* package ‘BiocParallel’ ...
+** using staged installation
+checking whether the C++ compiler works... yes
+checking for C++ compiler default output file name... a.out
+checking for suffix of executables... 
+checking whether we are cross compiling... no
+checking for suffix of object files... o
+checking whether the compiler supports GNU C++... yes
+checking whether g++ -std=gnu++17 accepts -g... yes
+checking for g++ -std=gnu++17 option to enable C++11 features... none needed
+checking for library containing shm_open... none required
+checking for stdio.h... yes
+checking for stdlib.h... yes
+checking for string.h... yes
+checking for inttypes.h... yes
+checking for stdint.h... yes
+checking for strings.h... yes
+checking for sys/stat.h... yes
+checking for sys/types.h... yes
+checking for unistd.h... yes
+checking for sys/mman.h... yes
+configure: creating ./config.status
+config.status: creating src/Makevars
+** libs
+using C++ compiler: ‘g++ (Ubuntu 11.3.0-1ubuntu1~22.04) 11.3.0’
+using C++11
+g++ -std=gnu++11 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/tmp/tmp/built/BH/include' -I'/usr/local/lib/R/site-library/cpp11/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c cpp11.cpp -o cpp11.o
+g++ -std=gnu++11 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/tmp/tmp/built/BH/include' -I'/usr/local/lib/R/site-library/cpp11/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c ipcmutex.cpp -o ipcmutex.o
+g++ -std=gnu++11 -shared -L/usr/local/lib/R/lib -L/usr/local/lib -o BiocParallel.so cpp11.o ipcmutex.o -L/usr/local/lib/R/lib -lR
+installing to /tmp/tmp/built/00LOCK-BiocParallel/00new/BiocParallel/libs
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘BiocParallel’ as ‘BiocParallel_1.34.2_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (BiocParallel)
+* installing *binary* package ‘modeest’ ...
+* ‘modeest’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘modeest’ as ‘modeest_2.4.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (modeest)
+* installing *source* package ‘NBPSeq’ ...
+** package ‘NBPSeq’ successfully unpacked and MD5 sums checked
+** using staged installation
+** libs
+using C compiler: ‘gcc (Ubuntu 11.3.0-1ubuntu1~22.04) 11.3.0’
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c lm.c -o lm.o
+gcc -shared -L/usr/local/lib/R/lib -L/usr/local/lib -o NBPSeq.so lm.o -L/usr/local/lib/R/lib -lR
+installing to /tmp/tmp/built/00LOCK-NBPSeq/00new/NBPSeq/libs
+** R
+** data
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘NBPSeq’ as ‘NBPSeq_0.3.1_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (NBPSeq)
+* installing *binary* package ‘phytools’ ...
+* ‘phytools’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘phytools’ as ‘phytools_1.9-16_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (phytools)
+* installing *binary* package ‘tidytree’ ...
+* ‘tidytree’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘tidytree’ as ‘tidytree_0.4.5_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (tidytree)
+* installing *source* package ‘treeio’ ...
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+*** copying figures
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘treeio’ as ‘treeio_1.24.3_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (treeio)
+* installing *source* package ‘DESeq2’ ...
+** using staged installation
+** libs
+using C++ compiler: ‘g++ (Ubuntu 11.3.0-1ubuntu1~22.04) 11.3.0’
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/tmp/tmp/built/RcppArmadillo/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c DESeq2.cpp -o DESeq2.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/tmp/tmp/built/RcppArmadillo/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c RcppExports.cpp -o RcppExports.o
+g++ -std=gnu++17 -shared -L/usr/local/lib/R/lib -L/usr/local/lib -o DESeq2.so DESeq2.o RcppExports.o -llapack -lblas -lgfortran -lm -lquadmath -L/usr/local/lib/R/lib -lR
+installing to /tmp/tmp/built/00LOCK-DESeq2/00new/DESeq2/libs
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘DESeq2’ as ‘DESeq2_1.40.2_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (DESeq2)
+* installing *source* package ‘sva’ ...
+** using staged installation
+** libs
+using C compiler: ‘gcc (Ubuntu 11.3.0-1ubuntu1~22.04) 11.3.0’
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c sva.c -o sva.o
+gcc -shared -L/usr/local/lib/R/lib -L/usr/local/lib -o sva.so sva.o -L/usr/local/lib/R/lib -lR
+installing to /tmp/tmp/built/00LOCK-sva/00new/sva/libs
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘sva’ as ‘sva_3.48.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (sva)
+* installing *source* package ‘compcodeR’ ...
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+Warning: no DISPLAY variable so Tk is not available
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+Warning: no DISPLAY variable so Tk is not available
+** testing if installed package can be loaded from final location
+Warning: no DISPLAY variable so Tk is not available
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘compcodeR’ as ‘compcodeR_1.36.2_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (compcodeR)
+* installing *source* package ‘ggtree’ ...
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘ggtree’ as ‘ggtree_3.8.2_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (ggtree)
+
+The downloaded source packages are in
+	‘/tmp/RtmpHjWdXx/downloaded_packages’
+Old packages: 'BiocManager', 'bslib', 'cachem', 'cpp11', 'curl', 'digest',
+  'downlit', 'evaluate', 'fs', 'gert', 'htmltools', 'httpuv', 'httr', 'httr2',
+  'jsonlite', 'knitr', 'later', 'openssl', 'pkgbuild', 'pkgload', 'processx',
+  'profvis', 'promises', 'purrr', 'Rcpp', 'remotes', 'rmarkdown', 'rstudioapi',
+  'sass', 'shiny', 'sys', 'testthat', 'tinytex', 'usethis', 'vctrs', 'waldo',
+  'xfun', 'xml2', 'class', 'KernSmooth', 'MASS', 'Matrix', 'mgcv', 'nlme',
+  'nnet', 'spatial'
+
+real	5m39.307s
+user	4m30.135s
+sys	0m29.723s
