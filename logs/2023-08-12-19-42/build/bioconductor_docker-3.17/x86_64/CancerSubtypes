@@ -1,0 +1,669 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE); p <- .libPaths(); p <- c('\''/tmp/tmp/built'\'', p); .libPaths(p); if(BiocManager::install('\''CancerSubtypes'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://packagemanager.posit.co/cran/__linux__/jammy/latest
+Bioconductor version 3.17 (BiocManager 1.30.20), R 4.3.0 (2023-04-21)
+Installing package(s) 'CancerSubtypes'
+also installing the dependencies ‘Matrix’, ‘numDeriv’, ‘SparseM’, ‘MatrixModels’, ‘minqa’, ‘nloptr’, ‘RcppEigen’, ‘carData’, ‘pbkrtest’, ‘quantreg’, ‘lme4’, ‘corrplot’, ‘car’, ‘markdown’, ‘jpeg’, ‘ggrepel’, ‘ggsci’, ‘cowplot’, ‘ggsignif’, ‘polynom’, ‘rstatix’, ‘exactRankTests’, ‘mvtnorm’, ‘backports’, ‘KMsurv’, ‘zoo’, ‘km.ci’, ‘gridtext’, ‘selectr’, ‘generics’, ‘tidyselect’, ‘ggpubr’, ‘gridExtra’, ‘maxstat’, ‘broom’, ‘tidyr’, ‘survMisc’, ‘ggtext’, ‘assertthat’, ‘rvest’, ‘data.table’, ‘dplyr’, ‘survminer’, ‘ggthemes’, ‘viridis’, ‘registry’, ‘rngtools’, ‘gridBase’, ‘reshape2’, ‘RTCGA’, ‘sigclust’, ‘NMF’, ‘RTCGA.mRNA’
+
+trying URL 'https://packagemanager.posit.co/cran/__linux__/jammy/latest/src/contrib/Matrix_1.6-0.tar.gz'
+Content type 'binary/octet-stream' length 4621047 bytes (4.4 MB)
+==================================================
+downloaded 4.4 MB
+
+trying URL 'https://packagemanager.posit.co/cran/__linux__/jammy/latest/src/contrib/numDeriv_2016.8-1.1.tar.gz'
+Content type 'binary/octet-stream' length 113093 bytes (110 KB)
+==================================================
+downloaded 110 KB
+
+trying URL 'https://packagemanager.posit.co/cran/__linux__/jammy/latest/src/contrib/SparseM_1.81.tar.gz'
+Content type 'binary/octet-stream' length 1041744 bytes (1017 KB)
+==================================================
+downloaded 1017 KB
+
+trying URL 'https://packagemanager.posit.co/cran/__linux__/jammy/latest/src/contrib/MatrixModels_0.5-2.tar.gz'
+Content type 'binary/octet-stream' length 449653 bytes (439 KB)
+==================================================
+downloaded 439 KB
+
+trying URL 'https://packagemanager.posit.co/cran/__linux__/jammy/latest/src/contrib/minqa_1.2.5.tar.gz'
+Content type 'binary/octet-stream' length 117604 bytes (114 KB)
+==================================================
+downloaded 114 KB
+
+trying URL 'https://packagemanager.posit.co/cran/__linux__/jammy/latest/src/contrib/nloptr_2.0.3.tar.gz'
+Content type 'binary/octet-stream' length 710251 bytes (693 KB)
+==================================================
+downloaded 693 KB
+
+trying URL 'https://packagemanager.posit.co/cran/__linux__/jammy/latest/src/contrib/RcppEigen_0.3.3.9.3.tar.gz'
+Content type 'binary/octet-stream' length 1546641 bytes (1.5 MB)
+==================================================
+downloaded 1.5 MB
+
+trying URL 'https://packagemanager.posit.co/cran/__linux__/jammy/latest/src/contrib/carData_3.0-5.tar.gz'
+Content type 'binary/octet-stream' length 1820730 bytes (1.7 MB)
+==================================================
+downloaded 1.7 MB
+
+trying URL 'https://packagemanager.posit.co/cran/__linux__/jammy/latest/src/contrib/pbkrtest_0.5.2.tar.gz'
+Content type 'binary/octet-stream' length 186585 bytes (182 KB)
+==================================================
+downloaded 182 KB
+
+trying URL 'https://packagemanager.posit.co/cran/__linux__/jammy/latest/src/contrib/quantreg_5.96.tar.gz'
+Content type 'binary/octet-stream' length 1549107 bytes (1.5 MB)
+==================================================
+downloaded 1.5 MB
+
+trying URL 'https://packagemanager.posit.co/cran/__linux__/jammy/latest/src/contrib/lme4_1.1-34.tar.gz'
+Content type 'binary/octet-stream' length 4234407 bytes (4.0 MB)
+==================================================
+downloaded 4.0 MB
+
+trying URL 'https://packagemanager.posit.co/cran/__linux__/jammy/latest/src/contrib/corrplot_0.92.tar.gz'
+Content type 'binary/octet-stream' length 3842542 bytes (3.7 MB)
+==================================================
+downloaded 3.7 MB
+
+trying URL 'https://packagemanager.posit.co/cran/__linux__/jammy/latest/src/contrib/car_3.1-2.tar.gz'
+Content type 'binary/octet-stream' length 1705983 bytes (1.6 MB)
+==================================================
+downloaded 1.6 MB
+
+trying URL 'https://packagemanager.posit.co/cran/__linux__/jammy/latest/src/contrib/markdown_1.7.tar.gz'
+Content type 'binary/octet-stream' length 191090 bytes (186 KB)
+==================================================
+downloaded 186 KB
+
+trying URL 'https://packagemanager.posit.co/cran/__linux__/jammy/latest/src/contrib/jpeg_0.1-10.tar.gz'
+Content type 'binary/octet-stream' length 28790 bytes (28 KB)
+==================================================
+downloaded 28 KB
+
+trying URL 'https://packagemanager.posit.co/cran/__linux__/jammy/latest/src/contrib/ggrepel_0.9.3.tar.gz'
+Content type 'binary/octet-stream' length 270455 bytes (264 KB)
+==================================================
+downloaded 264 KB
+
+trying URL 'https://packagemanager.posit.co/cran/__linux__/jammy/latest/src/contrib/ggsci_3.0.0.tar.gz'
+Content type 'binary/octet-stream' length 2434674 bytes (2.3 MB)
+==================================================
+downloaded 2.3 MB
+
+trying URL 'https://packagemanager.posit.co/cran/__linux__/jammy/latest/src/contrib/cowplot_1.1.1.tar.gz'
+Content type 'binary/octet-stream' length 1376564 bytes (1.3 MB)
+==================================================
+downloaded 1.3 MB
+
+trying URL 'https://packagemanager.posit.co/cran/__linux__/jammy/latest/src/contrib/ggsignif_0.6.4.tar.gz'
+Content type 'binary/octet-stream' length 601431 bytes (587 KB)
+==================================================
+downloaded 587 KB
+
+trying URL 'https://packagemanager.posit.co/cran/__linux__/jammy/latest/src/contrib/polynom_1.4-1.tar.gz'
+Content type 'binary/octet-stream' length 404660 bytes (395 KB)
+==================================================
+downloaded 395 KB
+
+trying URL 'https://packagemanager.posit.co/cran/__linux__/jammy/latest/src/contrib/rstatix_0.7.2.tar.gz'
+Content type 'binary/octet-stream' length 605258 bytes (591 KB)
+==================================================
+downloaded 591 KB
+
+trying URL 'https://packagemanager.posit.co/cran/__linux__/jammy/latest/src/contrib/exactRankTests_0.8-35.tar.gz'
+Content type 'binary/octet-stream' length 149174 bytes (145 KB)
+==================================================
+downloaded 145 KB
+
+trying URL 'https://packagemanager.posit.co/cran/__linux__/jammy/latest/src/contrib/mvtnorm_1.2-2.tar.gz'
+Content type 'binary/octet-stream' length 744473 bytes (727 KB)
+==================================================
+downloaded 727 KB
+
+trying URL 'https://packagemanager.posit.co/cran/__linux__/jammy/latest/src/contrib/backports_1.4.1.tar.gz'
+Content type 'binary/octet-stream' length 95020 bytes (92 KB)
+==================================================
+downloaded 92 KB
+
+trying URL 'https://packagemanager.posit.co/cran/__linux__/jammy/latest/src/contrib/KMsurv_0.1-5.tar.gz'
+Content type 'binary/octet-stream' length 123203 bytes (120 KB)
+==================================================
+downloaded 120 KB
+
+trying URL 'https://packagemanager.posit.co/cran/__linux__/jammy/latest/src/contrib/zoo_1.8-12.tar.gz'
+Content type 'binary/octet-stream' length 1015488 bytes (991 KB)
+==================================================
+downloaded 991 KB
+
+trying URL 'https://packagemanager.posit.co/cran/__linux__/jammy/latest/src/contrib/km.ci_0.5-6.tar.gz'
+Content type 'binary/octet-stream' length 66222 bytes (64 KB)
+==================================================
+downloaded 64 KB
+
+trying URL 'https://packagemanager.posit.co/cran/__linux__/jammy/latest/src/contrib/gridtext_0.1.5.tar.gz'
+Content type 'binary/octet-stream' length 353536 bytes (345 KB)
+==================================================
+downloaded 345 KB
+
+trying URL 'https://packagemanager.posit.co/cran/__linux__/jammy/latest/src/contrib/selectr_0.4-2.tar.gz'
+Content type 'binary/octet-stream' length 488354 bytes (476 KB)
+==================================================
+downloaded 476 KB
+
+trying URL 'https://packagemanager.posit.co/cran/__linux__/jammy/latest/src/contrib/generics_0.1.3.tar.gz'
+Content type 'binary/octet-stream' length 76238 bytes (74 KB)
+==================================================
+downloaded 74 KB
+
+trying URL 'https://packagemanager.posit.co/cran/__linux__/jammy/latest/src/contrib/tidyselect_1.2.0.tar.gz'
+Content type 'binary/octet-stream' length 219931 bytes (214 KB)
+==================================================
+downloaded 214 KB
+
+trying URL 'https://packagemanager.posit.co/cran/__linux__/jammy/latest/src/contrib/ggpubr_0.6.0.tar.gz'
+Content type 'binary/octet-stream' length 2085480 bytes (2.0 MB)
+==================================================
+downloaded 2.0 MB
+
+trying URL 'https://packagemanager.posit.co/cran/__linux__/jammy/latest/src/contrib/gridExtra_2.3.tar.gz'
+Content type 'binary/octet-stream' length 1106992 bytes (1.1 MB)
+==================================================
+downloaded 1.1 MB
+
+trying URL 'https://packagemanager.posit.co/cran/__linux__/jammy/latest/src/contrib/maxstat_0.7-25.tar.gz'
+Content type 'binary/octet-stream' length 173661 bytes (169 KB)
+==================================================
+downloaded 169 KB
+
+trying URL 'https://packagemanager.posit.co/cran/__linux__/jammy/latest/src/contrib/broom_1.0.5.tar.gz'
+Content type 'binary/octet-stream' length 1851908 bytes (1.8 MB)
+==================================================
+downloaded 1.8 MB
+
+trying URL 'https://packagemanager.posit.co/cran/__linux__/jammy/latest/src/contrib/tidyr_1.3.0.tar.gz'
+Content type 'binary/octet-stream' length 1188040 bytes (1.1 MB)
+==================================================
+downloaded 1.1 MB
+
+trying URL 'https://packagemanager.posit.co/cran/__linux__/jammy/latest/src/contrib/survMisc_0.5.6.tar.gz'
+Content type 'binary/octet-stream' length 334935 bytes (327 KB)
+==================================================
+downloaded 327 KB
+
+trying URL 'https://packagemanager.posit.co/cran/__linux__/jammy/latest/src/contrib/ggtext_0.1.2.tar.gz'
+Content type 'binary/octet-stream' length 1255995 bytes (1.2 MB)
+==================================================
+downloaded 1.2 MB
+
+trying URL 'https://packagemanager.posit.co/cran/__linux__/jammy/latest/src/contrib/assertthat_0.2.1.tar.gz'
+Content type 'binary/octet-stream' length 52457 bytes (51 KB)
+==================================================
+downloaded 51 KB
+
+trying URL 'https://packagemanager.posit.co/cran/__linux__/jammy/latest/src/contrib/rvest_1.0.3.tar.gz'
+Content type 'binary/octet-stream' length 210026 bytes (205 KB)
+==================================================
+downloaded 205 KB
+
+trying URL 'https://packagemanager.posit.co/cran/__linux__/jammy/latest/src/contrib/data.table_1.14.8.tar.gz'
+Content type 'binary/octet-stream' length 2126876 bytes (2.0 MB)
+==================================================
+downloaded 2.0 MB
+
+trying URL 'https://packagemanager.posit.co/cran/__linux__/jammy/latest/src/contrib/dplyr_1.1.2.tar.gz'
+Content type 'binary/octet-stream' length 1463316 bytes (1.4 MB)
+==================================================
+downloaded 1.4 MB
+
+trying URL 'https://packagemanager.posit.co/cran/__linux__/jammy/latest/src/contrib/survminer_0.4.9.tar.gz'
+Content type 'binary/octet-stream' length 3234458 bytes (3.1 MB)
+==================================================
+downloaded 3.1 MB
+
+trying URL 'https://packagemanager.posit.co/cran/__linux__/jammy/latest/src/contrib/ggthemes_4.2.4.tar.gz'
+Content type 'binary/octet-stream' length 429037 bytes (418 KB)
+==================================================
+downloaded 418 KB
+
+trying URL 'https://packagemanager.posit.co/cran/__linux__/jammy/latest/src/contrib/viridis_0.6.4.tar.gz'
+Content type 'binary/octet-stream' length 3027388 bytes (2.9 MB)
+==================================================
+downloaded 2.9 MB
+
+trying URL 'https://packagemanager.posit.co/cran/__linux__/jammy/latest/src/contrib/registry_0.5-1.tar.gz'
+Content type 'binary/octet-stream' length 194099 bytes (189 KB)
+==================================================
+downloaded 189 KB
+
+trying URL 'https://packagemanager.posit.co/cran/__linux__/jammy/latest/src/contrib/rngtools_1.5.2.tar.gz'
+Content type 'binary/octet-stream' length 76598 bytes (74 KB)
+==================================================
+downloaded 74 KB
+
+trying URL 'https://packagemanager.posit.co/cran/__linux__/jammy/latest/src/contrib/gridBase_0.4-7.tar.gz'
+Content type 'binary/octet-stream' length 161760 bytes (157 KB)
+==================================================
+downloaded 157 KB
+
+trying URL 'https://packagemanager.posit.co/cran/__linux__/jammy/latest/src/contrib/reshape2_1.4.4.tar.gz'
+Content type 'binary/octet-stream' length 115350 bytes (112 KB)
+==================================================
+downloaded 112 KB
+
+trying URL 'https://bioconductor.org/packages/3.17/bioc/src/contrib/RTCGA_1.30.0.tar.gz'
+Content type 'application/x-gzip' length 2441815 bytes (2.3 MB)
+==================================================
+downloaded 2.3 MB
+
+trying URL 'https://packagemanager.posit.co/cran/__linux__/jammy/latest/src/contrib/sigclust_1.1.0.1.tar.gz'
+Content type 'binary/octet-stream' length 43148 bytes (42 KB)
+==================================================
+downloaded 42 KB
+
+trying URL 'https://packagemanager.posit.co/cran/__linux__/jammy/latest/src/contrib/NMF_0.26.tar.gz'
+Content type 'binary/octet-stream' length 1679058 bytes (1.6 MB)
+==================================================
+downloaded 1.6 MB
+
+trying URL 'https://bioconductor.org/packages/3.17/data/experiment/src/contrib/RTCGA.mRNA_1.28.0.tar.gz'
+Content type 'application/x-gzip' length 89110794 bytes (85.0 MB)
+==================================================
+downloaded 85.0 MB
+
+trying URL 'https://bioconductor.org/packages/3.17/bioc/src/contrib/CancerSubtypes_1.26.0.tar.gz'
+Content type 'application/x-gzip' length 1834514 bytes (1.7 MB)
+==================================================
+downloaded 1.7 MB
+
+* installing *binary* package ‘Matrix’ ...
+* ‘Matrix’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘Matrix’ as ‘Matrix_1.6-0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (Matrix)
+* installing *binary* package ‘numDeriv’ ...
+* ‘numDeriv’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘numDeriv’ as ‘numDeriv_2016.8-1.1_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (numDeriv)
+* installing *binary* package ‘SparseM’ ...
+* ‘SparseM’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘SparseM’ as ‘SparseM_1.81_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (SparseM)
+* installing *binary* package ‘minqa’ ...
+* ‘minqa’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘minqa’ as ‘minqa_1.2.5_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (minqa)
+* installing *binary* package ‘nloptr’ ...
+* ‘nloptr’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘nloptr’ as ‘nloptr_2.0.3_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (nloptr)
+* installing *binary* package ‘carData’ ...
+* ‘carData’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘carData’ as ‘carData_3.0-5_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (carData)
+* installing *binary* package ‘corrplot’ ...
+* ‘corrplot’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘corrplot’ as ‘corrplot_0.92_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (corrplot)
+* installing *binary* package ‘markdown’ ...
+* ‘markdown’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘markdown’ as ‘markdown_1.7_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (markdown)
+* installing *binary* package ‘jpeg’ ...
+* ‘jpeg’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘jpeg’ as ‘jpeg_0.1-10_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (jpeg)
+* installing *binary* package ‘ggrepel’ ...
+* ‘ggrepel’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘ggrepel’ as ‘ggrepel_0.9.3_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (ggrepel)
+* installing *binary* package ‘ggsci’ ...
+* ‘ggsci’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘ggsci’ as ‘ggsci_3.0.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (ggsci)
+* installing *binary* package ‘cowplot’ ...
+* ‘cowplot’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘cowplot’ as ‘cowplot_1.1.1_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (cowplot)
+* installing *binary* package ‘ggsignif’ ...
+* ‘ggsignif’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘ggsignif’ as ‘ggsignif_0.6.4_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (ggsignif)
+* installing *binary* package ‘polynom’ ...
+* ‘polynom’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘polynom’ as ‘polynom_1.4-1_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (polynom)
+* installing *binary* package ‘exactRankTests’ ...
+* ‘exactRankTests’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘exactRankTests’ as ‘exactRankTests_0.8-35_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (exactRankTests)
+* installing *binary* package ‘mvtnorm’ ...
+* ‘mvtnorm’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘mvtnorm’ as ‘mvtnorm_1.2-2_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (mvtnorm)
+* installing *binary* package ‘backports’ ...
+* ‘backports’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘backports’ as ‘backports_1.4.1_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (backports)
+* installing *binary* package ‘KMsurv’ ...
+* ‘KMsurv’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘KMsurv’ as ‘KMsurv_0.1-5_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (KMsurv)
+* installing *binary* package ‘zoo’ ...
+* ‘zoo’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘zoo’ as ‘zoo_1.8-12_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (zoo)
+* installing *binary* package ‘km.ci’ ...
+* ‘km.ci’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘km.ci’ as ‘km.ci_0.5-6_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (km.ci)
+* installing *binary* package ‘selectr’ ...
+* ‘selectr’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘selectr’ as ‘selectr_0.4-2_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (selectr)
+* installing *binary* package ‘generics’ ...
+* ‘generics’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘generics’ as ‘generics_0.1.3_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (generics)
+* installing *binary* package ‘tidyselect’ ...
+* ‘tidyselect’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘tidyselect’ as ‘tidyselect_1.2.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (tidyselect)
+* installing *binary* package ‘gridExtra’ ...
+* ‘gridExtra’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘gridExtra’ as ‘gridExtra_2.3_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (gridExtra)
+* installing *binary* package ‘assertthat’ ...
+* ‘assertthat’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘assertthat’ as ‘assertthat_0.2.1_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (assertthat)
+* installing *binary* package ‘data.table’ ...
+* ‘data.table’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘data.table’ as ‘data.table_1.14.8_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (data.table)
+* installing *binary* package ‘ggthemes’ ...
+* ‘ggthemes’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘ggthemes’ as ‘ggthemes_4.2.4_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (ggthemes)
+* installing *binary* package ‘registry’ ...
+* ‘registry’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘registry’ as ‘registry_0.5-1_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (registry)
+* installing *binary* package ‘rngtools’ ...
+* ‘rngtools’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘rngtools’ as ‘rngtools_1.5.2_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (rngtools)
+* installing *binary* package ‘gridBase’ ...
+* ‘gridBase’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘gridBase’ as ‘gridBase_0.4-7_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (gridBase)
+* installing *binary* package ‘reshape2’ ...
+* ‘reshape2’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘reshape2’ as ‘reshape2_1.4.4_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (reshape2)
+* installing *binary* package ‘sigclust’ ...
+* ‘sigclust’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘sigclust’ as ‘sigclust_1.1.0.1_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (sigclust)
+* installing *binary* package ‘MatrixModels’ ...
+* ‘MatrixModels’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘MatrixModels’ as ‘MatrixModels_0.5-2_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (MatrixModels)
+* installing *binary* package ‘RcppEigen’ ...
+* ‘RcppEigen’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘RcppEigen’ as ‘RcppEigen_0.3.3.9.3_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (RcppEigen)
+* installing *binary* package ‘gridtext’ ...
+* ‘gridtext’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘gridtext’ as ‘gridtext_0.1.5_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (gridtext)
+* installing *binary* package ‘maxstat’ ...
+* ‘maxstat’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘maxstat’ as ‘maxstat_0.7-25_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (maxstat)
+* installing *binary* package ‘survMisc’ ...
+* ‘survMisc’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘survMisc’ as ‘survMisc_0.5.6_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (survMisc)
+* installing *binary* package ‘rvest’ ...
+* ‘rvest’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘rvest’ as ‘rvest_1.0.3_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (rvest)
+* installing *binary* package ‘dplyr’ ...
+* ‘dplyr’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘dplyr’ as ‘dplyr_1.1.2_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (dplyr)
+* installing *binary* package ‘viridis’ ...
+* ‘viridis’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘viridis’ as ‘viridis_0.6.4_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (viridis)
+* installing *source* package ‘NMF’ ...
+** package ‘NMF’ successfully unpacked and MD5 sums checked
+** using staged installation
+** libs
+using C compiler: ‘gcc (Ubuntu 11.3.0-1ubuntu1~22.04) 11.3.0’
+using C++ compiler: ‘g++ (Ubuntu 11.3.0-1ubuntu1~22.04) 11.3.0’
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c distance.cpp -o distance.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c divergence.cpp -o divergence.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c euclidean.cpp -o euclidean.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c registerDynamicSymbol.c -o registerDynamicSymbol.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c utils.cpp -o utils.o
+g++ -std=gnu++17 -shared -L/usr/local/lib/R/lib -L/usr/local/lib -o NMF.so distance.o divergence.o euclidean.o registerDynamicSymbol.o utils.o -L/usr/local/lib/R/lib -lR
+installing to /tmp/tmp/built/00LOCK-NMF/00new/NMF/libs
+** R
+** data
+** demo
+** inst
+** byte-compile and prepare package for lazy loading
+Setting package specific options: package:NMF:logger (1 default option(s))
+Setting package specific options: package:NMF (10 default option(s))
+Creating a generic function for ‘plot’ from ‘graphics’ in package ‘NMF’
+    (from the saved implicit definition)
+Creating meta registry in package 'NMF' ... OK
+Creating registry 'extra_handler' in package 'NMF' ... OK
+Creating registry 'extra_action' in package 'NMF' ... OK
+Registering extra handler 'install.packages' [function] ... OK
+Creating registry 'algorithm' in package 'NMF' ... OK
+Registering NMF algorithm '.R#brunet' [NMFStrategyIterative] ... OK
+Registering NMF algorithm 'brunet' [NMFStrategyIterative] based on template '.R#brunet' ... OK
+Registering NMF algorithm 'KL' [NMFStrategyIterative] ... OK
+Registering NMF algorithm '.R#lee' [NMFStrategyIterative] ... OK
+Registering NMF algorithm 'lee' [NMFStrategyIterative] based on template '.R#lee' ... OK
+Registering NMF algorithm 'Frobenius' [NMFStrategyIterative] ... OK
+Registering NMF algorithm '.R#offset' [NMFStrategyIterative] ... OK
+Registering NMF algorithm 'offset' [NMFStrategyIterative] based on template '.R#offset' ... OK
+Registering NMF algorithm '.R#nsNMF' [NMFStrategyIterative] ... OK
+Registering NMF algorithm 'nsNMF' [NMFStrategyIterative] based on template '.R#nsNMF' ... OK
+Registering NMF algorithm 'ls-nmf' [NMFStrategyIterative] ... OK
+Registering NMF algorithm 'pe-nmf' [NMFStrategyIterative] ... OK
+Registering NMF algorithm '.siNMF' [NMFStrategyIterative] based on template 'lee' ... OK
+Registering NMF algorithm 'siNMF' [NMFStrategyIterative] based on template 'lee' ... OK
+Registering NMF algorithm 'snmf/r' [NMFStrategyFunction] ... OK
+Registering NMF algorithm 'snmf/l' [NMFStrategyFunction] ... OK
+Registering extra action 'bigmemory' for handler 'install.packages' ... OK
+Registering extra action 'synchronicity' for handler 'install.packages' ... OK
+Creating registry 'seed' in package 'NMF' ... OK
+Registering NMF seeding method 'none' [NMFSeed] ... OK
+Registering NMF seeding method 'random' [NMFSeed] ... OK
+Registering NMF seeding method 'ica' [NMFSeed] ... OK
+Registering NMF seeding method 'nndsvd' [NMFSeed] ... OK
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘NMF’ as ‘NMF_0.26_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (NMF)
+* installing *binary* package ‘quantreg’ ...
+* ‘quantreg’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘quantreg’ as ‘quantreg_5.96_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (quantreg)
+* installing *binary* package ‘lme4’ ...
+* ‘lme4’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘lme4’ as ‘lme4_1.1-34_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (lme4)
+* installing *binary* package ‘tidyr’ ...
+* ‘tidyr’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘tidyr’ as ‘tidyr_1.3.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (tidyr)
+* installing *binary* package ‘ggtext’ ...
+* ‘ggtext’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘ggtext’ as ‘ggtext_0.1.2_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (ggtext)
+* installing *source* package ‘CancerSubtypes’ ...
+** using staged installation
+** R
+** data
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘CancerSubtypes’ as ‘CancerSubtypes_1.26.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (CancerSubtypes)
+* installing *binary* package ‘broom’ ...
+* ‘broom’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘broom’ as ‘broom_1.0.5_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (broom)
+* installing *binary* package ‘pbkrtest’ ...
+* ‘pbkrtest’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘pbkrtest’ as ‘pbkrtest_0.5.2_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (pbkrtest)
+* installing *binary* package ‘car’ ...
+* ‘car’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘car’ as ‘car_3.1-2_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (car)
+* installing *binary* package ‘rstatix’ ...
+* ‘rstatix’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘rstatix’ as ‘rstatix_0.7.2_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (rstatix)
+* installing *binary* package ‘ggpubr’ ...
+* ‘ggpubr’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘ggpubr’ as ‘ggpubr_0.6.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (ggpubr)
+* installing *binary* package ‘survminer’ ...
+* ‘survminer’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘survminer’ as ‘survminer_0.4.9_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (survminer)
+* installing *source* package ‘RTCGA’ ...
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘RTCGA’ as ‘RTCGA_1.30.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (RTCGA)
+* installing *source* package ‘RTCGA.mRNA’ ...
+** using staged installation
+** R
+** data
+*** moving datasets to lazyload DB
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘RTCGA.mRNA’ as ‘RTCGA.mRNA_1.28.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (RTCGA.mRNA)
+
+The downloaded source packages are in
+	‘/tmp/RtmpNG8YkN/downloaded_packages’
+Old packages: 'BiocManager', 'bslib', 'cachem', 'cpp11', 'curl', 'digest',
+  'downlit', 'evaluate', 'fs', 'gert', 'htmltools', 'httpuv', 'httr', 'httr2',
+  'jsonlite', 'knitr', 'later', 'openssl', 'pkgbuild', 'pkgload', 'processx',
+  'profvis', 'promises', 'purrr', 'Rcpp', 'remotes', 'rmarkdown', 'rstudioapi',
+  'sass', 'shiny', 'sys', 'testthat', 'tinytex', 'usethis', 'vctrs', 'waldo',
+  'xfun', 'xml2', 'class', 'KernSmooth', 'MASS', 'Matrix', 'mgcv', 'nlme',
+  'nnet', 'spatial'
+
+real	3m0.486s
+user	2m30.659s
+sys	0m14.029s
+* installing *source* package ‘RTCGA.mRNA’ ...
+** using staged installation
+** R
+** data
+*** moving datasets to lazyload DB
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘RTCGA.mRNA’ as ‘RTCGA.mRNA_1.28.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (RTCGA.mRNA)
