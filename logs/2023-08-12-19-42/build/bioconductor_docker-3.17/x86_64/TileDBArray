@@ -1,0 +1,120 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE); p <- .libPaths(); p <- c('\''/tmp/tmp/built'\'', p); .libPaths(p); if(BiocManager::install('\''TileDBArray'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://packagemanager.posit.co/cran/__linux__/jammy/latest
+Bioconductor version 3.17 (BiocManager 1.30.20), R 4.3.0 (2023-04-21)
+Installing package(s) 'TileDBArray'
+also installing the dependencies ‘RcppCCTZ’, ‘zoo’, ‘RcppDate’, ‘RcppSpdlog’, ‘nanotime’, ‘spdl’, ‘tiledb’
+
+trying URL 'https://packagemanager.posit.co/cran/__linux__/jammy/latest/src/contrib/RcppCCTZ_0.2.12.tar.gz'
+Content type 'binary/octet-stream' length 153780 bytes (150 KB)
+==================================================
+downloaded 150 KB
+
+trying URL 'https://packagemanager.posit.co/cran/__linux__/jammy/latest/src/contrib/zoo_1.8-12.tar.gz'
+Content type 'binary/octet-stream' length 1015488 bytes (991 KB)
+==================================================
+downloaded 991 KB
+
+trying URL 'https://packagemanager.posit.co/cran/__linux__/jammy/latest/src/contrib/RcppDate_0.0.3.tar.gz'
+Content type 'binary/octet-stream' length 88817 bytes (86 KB)
+==================================================
+downloaded 86 KB
+
+trying URL 'https://packagemanager.posit.co/cran/__linux__/jammy/latest/src/contrib/RcppSpdlog_0.0.14.tar.gz'
+Content type 'binary/octet-stream' length 442998 bytes (432 KB)
+==================================================
+downloaded 432 KB
+
+trying URL 'https://packagemanager.posit.co/cran/__linux__/jammy/latest/src/contrib/nanotime_0.3.7.tar.gz'
+Content type 'binary/octet-stream' length 682411 bytes (666 KB)
+==================================================
+downloaded 666 KB
+
+trying URL 'https://packagemanager.posit.co/cran/__linux__/jammy/latest/src/contrib/spdl_0.0.5.tar.gz'
+Content type 'binary/octet-stream' length 16253 bytes (15 KB)
+==================================================
+downloaded 15 KB
+
+trying URL 'https://packagemanager.posit.co/cran/__linux__/jammy/latest/src/contrib/tiledb_0.20.3.tar.gz'
+Content type 'binary/octet-stream' length 36517768 bytes (34.8 MB)
+==================================================
+downloaded 34.8 MB
+
+trying URL 'https://bioconductor.org/packages/3.17/bioc/src/contrib/TileDBArray_1.10.0.tar.gz'
+Content type 'application/x-gzip' length 298646 bytes (291 KB)
+==================================================
+downloaded 291 KB
+
+* installing *binary* package ‘RcppCCTZ’ ...
+* ‘RcppCCTZ’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘RcppCCTZ’ as ‘RcppCCTZ_0.2.12_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (RcppCCTZ)
+* installing *binary* package ‘zoo’ ...
+* ‘zoo’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘zoo’ as ‘zoo_1.8-12_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (zoo)
+* installing *binary* package ‘RcppDate’ ...
+* ‘RcppDate’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘RcppDate’ as ‘RcppDate_0.0.3_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (RcppDate)
+* installing *binary* package ‘RcppSpdlog’ ...
+* ‘RcppSpdlog’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘RcppSpdlog’ as ‘RcppSpdlog_0.0.14_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (RcppSpdlog)
+* installing *binary* package ‘nanotime’ ...
+* ‘nanotime’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘nanotime’ as ‘nanotime_0.3.7_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (nanotime)
+* installing *binary* package ‘spdl’ ...
+* ‘spdl’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘spdl’ as ‘spdl_0.0.5_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (spdl)
+* installing *binary* package ‘tiledb’ ...
+* ‘tiledb’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘tiledb’ as ‘tiledb_0.20.3_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (tiledb)
+* installing *source* package ‘TileDBArray’ ...
+** using staged installation
+** libs
+using C++ compiler: ‘g++ (Ubuntu 11.3.0-1ubuntu1~22.04) 11.3.0’
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c RcppExports.cpp -o RcppExports.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c remap_indices.cpp -o remap_indices.o
+g++ -std=gnu++17 -shared -L/usr/local/lib/R/lib -L/usr/local/lib -o TileDBArray.so RcppExports.o remap_indices.o -L/usr/local/lib/R/lib -lR
+installing to /tmp/tmp/built/00LOCK-TileDBArray/00new/TileDBArray/libs
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘TileDBArray’ as ‘TileDBArray_1.10.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (TileDBArray)
+
+The downloaded source packages are in
+	‘/tmp/RtmpCzmSDi/downloaded_packages’
+Old packages: 'BiocManager', 'bslib', 'cachem', 'cpp11', 'curl', 'digest',
+  'downlit', 'evaluate', 'fs', 'gert', 'htmltools', 'httpuv', 'httr', 'httr2',
+  'jsonlite', 'knitr', 'later', 'openssl', 'pkgbuild', 'pkgload', 'processx',
+  'profvis', 'promises', 'purrr', 'Rcpp', 'remotes', 'rmarkdown', 'rstudioapi',
+  'sass', 'shiny', 'sys', 'testthat', 'tinytex', 'usethis', 'vctrs', 'waldo',
+  'xfun', 'xml2', 'class', 'KernSmooth', 'MASS', 'Matrix', 'mgcv', 'nlme',
+  'nnet', 'spatial'
+
+real	1m12.712s
+user	1m3.394s
+sys	0m2.913s
