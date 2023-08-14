@@ -322,7 +322,6 @@
         "SummarizedExperiment",
         "VariantAnnotation",
         "XVector",
-        "alabaster.base",
         "alabaster.bumpy",
         "alabaster.mae",
         "alabaster.matrix",
@@ -337,11 +336,9 @@
         "rtracklayer",
         "scuttle"
     ],
-    "alabaster.base": [],
     "alabaster.bumpy": [
         "BumpyMatrix",
-        "IRanges",
-        "alabaster.base"
+        "IRanges"
     ],
     "alabaster.mae": [
         "DelayedArray",
@@ -353,7 +350,6 @@
         "S4Arrays",
         "SummarizedExperiment",
         "XVector",
-        "alabaster.base",
         "alabaster.matrix",
         "alabaster.ranges",
         "alabaster.se"
@@ -362,15 +358,13 @@
         "DelayedArray",
         "HDF5Array",
         "IRanges",
-        "S4Arrays",
-        "alabaster.base"
+        "S4Arrays"
     ],
     "alabaster.ranges": [
         "GenomeInfoDb",
         "GenomicRanges",
         "IRanges",
-        "XVector",
-        "alabaster.base"
+        "XVector"
     ],
     "alabaster.sce": [
         "DelayedArray",
@@ -382,7 +376,6 @@
         "SingleCellExperiment",
         "SummarizedExperiment",
         "XVector",
-        "alabaster.base",
         "alabaster.matrix",
         "alabaster.ranges",
         "alabaster.se"
@@ -396,7 +389,6 @@
         "S4Arrays",
         "SummarizedExperiment",
         "XVector",
-        "alabaster.base",
         "alabaster.matrix",
         "alabaster.ranges"
     ],
@@ -413,7 +405,6 @@
         "SpatialExperiment",
         "SummarizedExperiment",
         "XVector",
-        "alabaster.base",
         "alabaster.matrix",
         "alabaster.ranges",
         "alabaster.sce",
@@ -425,8 +416,7 @@
         "Biostrings",
         "GenomeInfoDb",
         "IRanges",
-        "XVector",
-        "alabaster.base"
+        "XVector"
     ],
     "alabaster.vcf": [
         "AnnotationDbi",
@@ -446,7 +436,6 @@
         "SummarizedExperiment",
         "VariantAnnotation",
         "XVector",
-        "alabaster.base",
         "alabaster.matrix",
         "alabaster.ranges",
         "alabaster.se",
