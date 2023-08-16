@@ -1,0 +1,480 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE); p <- .libPaths(); p <- c('\''/tmp/tmp/built'\'', p); .libPaths(p); if(BiocManager::install('\''geneXtendeR'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://packagemanager.posit.co/cran/__linux__/jammy/latest
+Bioconductor version 3.17 (BiocManager 1.30.20), R 4.3.0 (2023-04-21)
+Installing package(s) 'geneXtendeR'
+also installing the dependencies ‘igraph’, ‘NLP’, ‘slam’, ‘GO.db’, ‘networkD3’, ‘SnowballC’, ‘tm’, ‘wordcloud’, ‘org.Rn.eg.db’, ‘org.Ag.eg.db’, ‘org.Bt.eg.db’, ‘org.Ce.eg.db’, ‘org.Cf.eg.db’, ‘org.Dm.eg.db’, ‘org.Dr.eg.db’, ‘org.Gg.eg.db’, ‘org.Mm.eg.db’, ‘org.Pt.eg.db’, ‘org.Sc.sgd.db’, ‘org.Ss.eg.db’, ‘org.Xl.eg.db’
+
+trying URL 'https://packagemanager.posit.co/cran/__linux__/jammy/latest/src/contrib/igraph_1.5.1.tar.gz'
+Content type 'binary/octet-stream' length 4875394 bytes (4.6 MB)
+==================================================
+downloaded 4.6 MB
+
+trying URL 'https://packagemanager.posit.co/cran/__linux__/jammy/latest/src/contrib/NLP_0.2-1.tar.gz'
+Content type 'binary/octet-stream' length 387316 bytes (378 KB)
+==================================================
+downloaded 378 KB
+
+trying URL 'https://packagemanager.posit.co/cran/__linux__/jammy/latest/src/contrib/slam_0.1-50.tar.gz'
+Content type 'binary/octet-stream' length 184464 bytes (180 KB)
+==================================================
+downloaded 180 KB
+
+trying URL 'https://bioconductor.org/packages/3.17/data/annotation/src/contrib/GO.db_3.17.0.tar.gz'
+Content type 'application/x-gzip' length 29245567 bytes (27.9 MB)
+==================================================
+downloaded 27.9 MB
+
+trying URL 'https://packagemanager.posit.co/cran/__linux__/jammy/latest/src/contrib/networkD3_0.4.tar.gz'
+Content type 'binary/octet-stream' length 188445 bytes (184 KB)
+==================================================
+downloaded 184 KB
+
+trying URL 'https://packagemanager.posit.co/cran/__linux__/jammy/latest/src/contrib/SnowballC_0.7.1.tar.gz'
+Content type 'binary/octet-stream' length 372906 bytes (364 KB)
+==================================================
+downloaded 364 KB
+
+trying URL 'https://packagemanager.posit.co/cran/__linux__/jammy/latest/src/contrib/tm_0.7-11.tar.gz'
+Content type 'binary/octet-stream' length 617077 bytes (602 KB)
+==================================================
+downloaded 602 KB
+
+trying URL 'https://packagemanager.posit.co/cran/__linux__/jammy/latest/src/contrib/wordcloud_2.6.tar.gz'
+Content type 'binary/octet-stream' length 106344 bytes (103 KB)
+==================================================
+downloaded 103 KB
+
+trying URL 'https://bioconductor.org/packages/3.17/data/annotation/src/contrib/org.Rn.eg.db_3.17.0.tar.gz'
+Content type 'application/x-gzip' length 58824310 bytes (56.1 MB)
+==================================================
+downloaded 56.1 MB
+
+trying URL 'https://bioconductor.org/packages/3.17/data/annotation/src/contrib/org.Ag.eg.db_3.17.0.tar.gz'
+Content type 'application/x-gzip' length 2753186 bytes (2.6 MB)
+==================================================
+downloaded 2.6 MB
+
+trying URL 'https://bioconductor.org/packages/3.17/data/annotation/src/contrib/org.Bt.eg.db_3.17.0.tar.gz'
+Content type 'application/x-gzip' length 17489014 bytes (16.7 MB)
+==================================================
+downloaded 16.7 MB
+
+trying URL 'https://bioconductor.org/packages/3.17/data/annotation/src/contrib/org.Ce.eg.db_3.17.0.tar.gz'
+Content type 'application/x-gzip' length 20347924 bytes (19.4 MB)
+==================================================
+downloaded 19.4 MB
+
+trying URL 'https://bioconductor.org/packages/3.17/data/annotation/src/contrib/org.Cf.eg.db_3.17.0.tar.gz'
+Content type 'application/x-gzip' length 25643924 bytes (24.5 MB)
+==================================================
+downloaded 24.5 MB
+
+trying URL 'https://bioconductor.org/packages/3.17/data/annotation/src/contrib/org.Dm.eg.db_3.17.0.tar.gz'
+Content type 'application/x-gzip' length 31432669 bytes (30.0 MB)
+==================================================
+downloaded 30.0 MB
+
+trying URL 'https://bioconductor.org/packages/3.17/data/annotation/src/contrib/org.Dr.eg.db_3.17.0.tar.gz'
+Content type 'application/x-gzip' length 32605220 bytes (31.1 MB)
+==================================================
+downloaded 31.1 MB
+
+trying URL 'https://bioconductor.org/packages/3.17/data/annotation/src/contrib/org.Gg.eg.db_3.17.0.tar.gz'
+Content type 'application/x-gzip' length 14265787 bytes (13.6 MB)
+==================================================
+downloaded 13.6 MB
+
+trying URL 'https://bioconductor.org/packages/3.17/data/annotation/src/contrib/org.Mm.eg.db_3.17.0.tar.gz'
+Content type 'application/x-gzip' length 78182157 bytes (74.6 MB)
+==================================================
+downloaded 74.6 MB
+
+trying URL 'https://bioconductor.org/packages/3.17/data/annotation/src/contrib/org.Pt.eg.db_3.17.0.tar.gz'
+Content type 'application/x-gzip' length 25934116 bytes (24.7 MB)
+==================================================
+downloaded 24.7 MB
+
+trying URL 'https://bioconductor.org/packages/3.17/data/annotation/src/contrib/org.Sc.sgd.db_3.17.0.tar.gz'
+Content type 'application/x-gzip' length 20717356 bytes (19.8 MB)
+==================================================
+downloaded 19.8 MB
+
+trying URL 'https://bioconductor.org/packages/3.17/data/annotation/src/contrib/org.Ss.eg.db_3.17.0.tar.gz'
+Content type 'application/x-gzip' length 15472190 bytes (14.8 MB)
+==================================================
+downloaded 14.8 MB
+
+trying URL 'https://bioconductor.org/packages/3.17/data/annotation/src/contrib/org.Xl.eg.db_3.17.0.tar.gz'
+Content type 'application/x-gzip' length 16515760 bytes (15.8 MB)
+==================================================
+downloaded 15.8 MB
+
+trying URL 'https://bioconductor.org/packages/3.17/bioc/src/contrib/geneXtendeR_1.26.0.tar.gz'
+Content type 'application/x-gzip' length 12309757 bytes (11.7 MB)
+==================================================
+downloaded 11.7 MB
+
+* installing *binary* package ‘igraph’ ...
+* ‘igraph’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘igraph’ as ‘igraph_1.5.1_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (igraph)
+* installing *binary* package ‘NLP’ ...
+* ‘NLP’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘NLP’ as ‘NLP_0.2-1_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (NLP)
+* installing *binary* package ‘slam’ ...
+* ‘slam’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘slam’ as ‘slam_0.1-50_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (slam)
+* installing *source* package ‘GO.db’ ...
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘GO.db’ as ‘GO.db_3.17.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (GO.db)
+* installing *binary* package ‘SnowballC’ ...
+* ‘SnowballC’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘SnowballC’ as ‘SnowballC_0.7.1_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (SnowballC)
+* installing *binary* package ‘wordcloud’ ...
+* ‘wordcloud’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘wordcloud’ as ‘wordcloud_2.6_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (wordcloud)
+* installing *source* package ‘org.Rn.eg.db’ ...
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘org.Rn.eg.db’ as ‘org.Rn.eg.db_3.17.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (org.Rn.eg.db)
+* installing *source* package ‘org.Ag.eg.db’ ...
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘org.Ag.eg.db’ as ‘org.Ag.eg.db_3.17.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (org.Ag.eg.db)
+* installing *source* package ‘org.Bt.eg.db’ ...
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘org.Bt.eg.db’ as ‘org.Bt.eg.db_3.17.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (org.Bt.eg.db)
+* installing *source* package ‘org.Ce.eg.db’ ...
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘org.Ce.eg.db’ as ‘org.Ce.eg.db_3.17.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (org.Ce.eg.db)
+* installing *source* package ‘org.Cf.eg.db’ ...
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘org.Cf.eg.db’ as ‘org.Cf.eg.db_3.17.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (org.Cf.eg.db)
+* installing *source* package ‘org.Dm.eg.db’ ...
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘org.Dm.eg.db’ as ‘org.Dm.eg.db_3.17.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (org.Dm.eg.db)
+* installing *source* package ‘org.Dr.eg.db’ ...
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘org.Dr.eg.db’ as ‘org.Dr.eg.db_3.17.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (org.Dr.eg.db)
+* installing *source* package ‘org.Gg.eg.db’ ...
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘org.Gg.eg.db’ as ‘org.Gg.eg.db_3.17.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (org.Gg.eg.db)
+* installing *source* package ‘org.Mm.eg.db’ ...
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘org.Mm.eg.db’ as ‘org.Mm.eg.db_3.17.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (org.Mm.eg.db)
+* installing *source* package ‘org.Pt.eg.db’ ...
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘org.Pt.eg.db’ as ‘org.Pt.eg.db_3.17.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (org.Pt.eg.db)
+* installing *source* package ‘org.Sc.sgd.db’ ...
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘org.Sc.sgd.db’ as ‘org.Sc.sgd.db_3.17.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (org.Sc.sgd.db)
+* installing *source* package ‘org.Ss.eg.db’ ...
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘org.Ss.eg.db’ as ‘org.Ss.eg.db_3.17.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (org.Ss.eg.db)
+* installing *source* package ‘org.Xl.eg.db’ ...
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘org.Xl.eg.db’ as ‘org.Xl.eg.db_3.17.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (org.Xl.eg.db)
+* installing *binary* package ‘networkD3’ ...
+* ‘networkD3’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘networkD3’ as ‘networkD3_0.4_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (networkD3)
+* installing *binary* package ‘tm’ ...
+* ‘tm’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘tm’ as ‘tm_0.7-11_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (tm)
+* installing *source* package ‘geneXtendeR’ ...
+** using staged installation
+** libs
+using C compiler: ‘gcc (Ubuntu 11.3.0-1ubuntu1~22.04) 11.3.0’
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c annotate.c -o annotate.o
+annotate.c: In function ‘annotate’:
+annotate.c:106:5: warning: ignoring return value of ‘fgets’ declared with attribute ‘warn_unused_result’ [-Wunused-result]
+  106 |     fgets(varstr, 50000, varfp);
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~~~~
+annotate.c:116:5: warning: ignoring return value of ‘fgets’ declared with attribute ‘warn_unused_result’ [-Wunused-result]
+  116 |     fgets(vcfstr, 10000, vcffp);
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~~~~
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c extract_number.c -o extract_number.o
+extract_number.c: In function ‘extractnumber’:
+extract_number.c:98:5: warning: ignoring return value of ‘fgets’ declared with attribute ‘warn_unused_result’ [-Wunused-result]
+   98 |     fgets(varstr, 50000, varfp);
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~~~~
+extract_number.c:108:5: warning: ignoring return value of ‘fgets’ declared with attribute ‘warn_unused_result’ [-Wunused-result]
+  108 |     fgets(vcfstr, 10000, vcffp);
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~~~~
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c extract_peaks.c -o extract_peaks.o
+extract_peaks.c: In function ‘extractpeaks’:
+extract_peaks.c:107:5: warning: ignoring return value of ‘fgets’ declared with attribute ‘warn_unused_result’ [-Wunused-result]
+  107 |     fgets(varstr, 50000, varfp);
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~~~~
+extract_peaks.c:117:5: warning: ignoring return value of ‘fgets’ declared with attribute ‘warn_unused_result’ [-Wunused-result]
+  117 |     fgets(vcfstr, 10000, vcffp);
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~~~~
+gcc -shared -L/usr/local/lib/R/lib -L/usr/local/lib -o geneXtendeR.so annotate.o extract_number.o extract_peaks.o -L/usr/local/lib/R/lib -lR
+installing to /tmp/tmp/built/00LOCK-geneXtendeR/00new/geneXtendeR/libs
+** R
+** data
+*** moving datasets to lazyload DB
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘geneXtendeR’ as ‘geneXtendeR_1.26.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (geneXtendeR)
+
+The downloaded source packages are in
+	‘/tmp/RtmpvxqMU9/downloaded_packages’
+Old packages: 'ggplot2', 'Gviz', 'BiocManager', 'bslib', 'cachem', 'cpp11',
+  'curl', 'digest', 'downlit', 'evaluate', 'fs', 'gert', 'htmltools', 'httpuv',
+  'httr', 'httr2', 'jsonlite', 'knitr', 'later', 'openssl', 'pkgbuild',
+  'pkgload', 'processx', 'profvis', 'promises', 'purrr', 'Rcpp', 'remotes',
+  'rmarkdown', 'rstudioapi', 'sass', 'shiny', 'sys', 'testthat', 'tinytex',
+  'usethis', 'vctrs', 'waldo', 'xfun', 'xml2', 'class', 'KernSmooth', 'MASS',
+  'Matrix', 'mgcv', 'nlme', 'nnet', 'spatial', 'survival'
+
+real	19m2.579s
+user	18m40.008s
+sys	0m21.187s
+* installing *source* package ‘org.Ag.eg.db’ ...
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘org.Ag.eg.db’ as ‘org.Ag.eg.db_3.17.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (org.Ag.eg.db)
+* installing *source* package ‘org.Cf.eg.db’ ...
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘org.Cf.eg.db’ as ‘org.Cf.eg.db_3.17.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (org.Cf.eg.db)
+* installing *source* package ‘org.Pt.eg.db’ ...
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘org.Pt.eg.db’ as ‘org.Pt.eg.db_3.17.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (org.Pt.eg.db)
+* installing *source* package ‘org.Ss.eg.db’ ...
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘org.Ss.eg.db’ as ‘org.Ss.eg.db_3.17.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (org.Ss.eg.db)
+* installing *source* package ‘org.Xl.eg.db’ ...
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘org.Xl.eg.db’ as ‘org.Xl.eg.db_3.17.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (org.Xl.eg.db)
