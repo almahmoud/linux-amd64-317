@@ -15,7 +15,6 @@
         "BSgenome",
         "Category",
         "GOstats",
-        "GSEABase",
         "GenomicFeatures",
         "OrganismDbi",
         "ReportingTools",
@@ -26,14 +25,11 @@
         "oligoClasses",
         "rtracklayer"
     ],
-    "AGDEX": [
-        "GSEABase"
-    ],
+    "AGDEX": [],
     "AgiMicroRna": [
         "BSgenome",
         "Category",
         "GOstats",
-        "GSEABase",
         "GenomicFeatures",
         "OrganismDbi",
         "ReportingTools",
@@ -197,12 +193,9 @@
     ],
     "attract": [
         "Category",
-        "GOstats",
-        "GSEABase"
+        "GOstats"
     ],
-    "AUCell": [
-        "GSEABase"
-    ],
+    "AUCell": [],
     "BadRegionFinder": [
         "BSgenome",
         "GenomicFeatures",
@@ -267,9 +260,7 @@
         "rtracklayer"
     ],
     "BGmix": [],
-    "BicARE": [
-        "GSEABase"
-    ],
+    "BicARE": [],
     "bigmelon": [
         "GenomicFeatures",
         "bumphunter",
@@ -303,9 +294,7 @@
         "GenomicFeatures",
         "rtracklayer"
     ],
-    "BioCor": [
-        "GSEABase"
-    ],
+    "BioCor": [],
     "BioNAR": [],
     "BioNERO": [
         "sva"
@@ -468,7 +457,6 @@
     ],
     "canceR": [
         "Category",
-        "GSEABase",
         "phenoTest"
     ],
     "cardelino": [
@@ -484,13 +472,10 @@
     "CATALYST": [
         "scater"
     ],
-    "Category": [
-        "GSEABase"
-    ],
+    "Category": [],
     "categoryCompare": [
         "Category",
-        "GOstats",
-        "GSEABase"
+        "GOstats"
     ],
     "cbaf": [
         "GenomicFeatures",
@@ -513,7 +498,6 @@
         "enrichplot"
     ],
     "CCPROMISE": [
-        "GSEABase",
         "PROMISE"
     ],
     "celaref": [],
@@ -525,8 +509,7 @@
         "ShortRead"
     ],
     "cellHTS2": [
-        "Category",
-        "GSEABase"
+        "Category"
     ],
     "CelliD": [
         "scater"
@@ -539,9 +522,7 @@
         "clusterProfiler",
         "enrichplot"
     ],
-    "Cepo": [
-        "GSEABase"
-    ],
+    "Cepo": [],
     "CeTF": [
         "DOSE",
         "clusterProfiler",
@@ -816,7 +797,6 @@
         "rtracklayer"
     ],
     "consensusOV": [
-        "GSEABase",
         "GSVA",
         "genefu"
     ],
@@ -850,16 +830,13 @@
     "CoSIA": [
         "ExperimentHub"
     ],
-    "cosmosR": [
-        "GSEABase"
-    ],
+    "cosmosR": [],
     "countsimQC": [],
     "CoverageView": [
         "rtracklayer"
     ],
     "covRNA": [],
     "cpvSNP": [
-        "GSEABase",
         "GenomicFeatures",
         "rtracklayer"
     ],
@@ -1199,7 +1176,6 @@
         "enrichplot"
     ],
     "EGSEA": [
-        "GSEABase",
         "GSVA"
     ],
     "ELMER": [
@@ -1226,9 +1202,7 @@
         "minfi",
         "rtracklayer"
     ],
-    "EnrichmentBrowser": [
-        "GSEABase"
-    ],
+    "EnrichmentBrowser": [],
     "enrichplot": [
         "DOSE"
     ],
@@ -1354,7 +1328,6 @@
         "rtracklayer"
     ],
     "escape": [
-        "GSEABase",
         "GSVA"
     ],
     "escheR": [
@@ -1574,12 +1547,9 @@
         "VariantAnnotation",
         "rtracklayer"
     ],
-    "gep2pep": [
-        "GSEABase"
-    ],
+    "gep2pep": [],
     "gespeR": [
         "Category",
-        "GSEABase",
         "cellHTS2"
     ],
     "ggbio": [
@@ -1597,13 +1567,9 @@
     "girafe": [
         "ShortRead"
     ],
-    "GISPA": [
-        "GSEABase"
-    ],
+    "GISPA": [],
     "glmSparseNet": [],
-    "GlobalAncova": [
-        "GSEABase"
-    ],
+    "GlobalAncova": [],
     "gmapR": [
         "BSgenome",
         "GenomicFeatures",
@@ -1612,8 +1578,7 @@
     ],
     "GmicR": [
         "Category",
-        "GOstats",
-        "GSEABase"
+        "GOstats"
     ],
     "gmoviz": [
         "GenomicFeatures",
@@ -1632,8 +1597,7 @@
     ],
     "goSTAG": [],
     "GOstats": [
-        "Category",
-        "GSEABase"
+        "Category"
     ],
     "GOTHiC": [
         "BSgenome",
@@ -1652,11 +1616,9 @@
     "groHMM": [
         "rtracklayer"
     ],
-    "GSEABase": [],
     "GSEABenchmarkeR": [
         "EnrichmentBrowser",
-        "ExperimentHub",
-        "GSEABase"
+        "ExperimentHub"
     ],
     "gsean": [
         "PPInfer"
@@ -1666,12 +1628,8 @@
         "OrganismDbi",
         "rtracklayer"
     ],
-    "GSRI": [
-        "GSEABase"
-    ],
-    "GSVA": [
-        "GSEABase"
-    ],
+    "GSRI": [],
+    "GSVA": [],
     "GUIDEseq": [
         "BSgenome",
         "CRISPRseek",
@@ -1784,7 +1742,6 @@
     "ideal": [
         "Category",
         "GOstats",
-        "GSEABase",
         "GenomicFeatures",
         "goseq",
         "pcaExplorer",
@@ -1833,8 +1790,7 @@
         "rtracklayer"
     ],
     "interactiveDisplay": [
-        "Category",
-        "GSEABase"
+        "Category"
     ],
     "InterCellar": [],
     "IntEREst": [
@@ -1986,8 +1942,7 @@
         "rtracklayer"
     ],
     "mastR": [
-        "ExperimentHub",
-        "GSEABase"
+        "ExperimentHub"
     ],
     "MatrixQCvis": [
         "ExperimentHub"
@@ -2050,8 +2005,7 @@
         "enrichplot"
     ],
     "meshr": [
-        "Category",
-        "GSEABase"
+        "Category"
     ],
     "Metab": [],
     "MetaboAnnotation": [],
@@ -2187,7 +2141,6 @@
     "MineICA": [
         "Category",
         "GOstats",
-        "GSEABase",
         "GenomicFeatures",
         "bumphunter",
         "lumi",
@@ -2215,13 +2168,11 @@
     "miRLAB": [
         "Category",
         "GOstats",
-        "GSEABase",
         "TCGAbiolinks"
     ],
     "miRSM": [
         "BicARE",
         "DOSE",
-        "GSEABase",
         "ReactomePA",
         "SPONGE",
         "clusterProfiler",
@@ -2266,9 +2217,7 @@
     ],
     "moanin": [],
     "MobilityTransformR": [],
-    "mogsa": [
-        "GSEABase"
-    ],
+    "mogsa": [],
     "MoleculeExperiment": [
         "SpatialExperiment"
     ],
@@ -2447,7 +2396,6 @@
     "netZooR": [
         "Category",
         "GOstats",
-        "GSEABase",
         "GenomicFeatures",
         "bumphunter",
         "minfi",
@@ -2465,9 +2413,7 @@
     "normr": [
         "rtracklayer"
     ],
-    "npGSEA": [
-        "GSEABase"
-    ],
+    "npGSEA": [],
     "nucleR": [
         "ShortRead"
     ],
@@ -2483,7 +2429,6 @@
     "octad": [
         "EDASeq",
         "ExperimentHub",
-        "GSEABase",
         "GSVA",
         "GenomicFeatures",
         "RUVSeq",
@@ -2533,7 +2478,6 @@
     "ontoProc": [],
     "oposSOM": [],
     "oppar": [
-        "GSEABase",
         "GSVA"
     ],
     "ORFhunteR": [
@@ -2584,7 +2528,6 @@
     "panelcn.mops": [],
     "PanomiR": [
         "DOSE",
-        "GSEABase",
         "clusterProfiler",
         "enrichplot"
     ],
@@ -2597,8 +2540,7 @@
     "PathoStat": [],
     "pcaExplorer": [
         "Category",
-        "GOstats",
-        "GSEABase"
+        "GOstats"
     ],
     "PDATK": [
         "genefu"
@@ -2627,8 +2569,7 @@
         "ropls"
     ],
     "phenoTest": [
-        "Category",
-        "GSEABase"
+        "Category"
     ],
     "PhyloProfile": [
         "ExperimentHub",
@@ -2661,8 +2602,7 @@
     ],
     "PloGO2": [
         "Category",
-        "GOstats",
-        "GSEABase"
+        "GOstats"
     ],
     "plotgardener": [
         "plyranges",
@@ -2732,9 +2672,7 @@
         "MLInterfaces",
         "pRoloc"
     ],
-    "PROMISE": [
-        "GSEABase"
-    ],
+    "PROMISE": [],
     "PROPS": [
         "sva"
     ],
@@ -2859,8 +2797,7 @@
         "rtracklayer"
     ],
     "RcisTarget": [
-        "AUCell",
-        "GSEABase"
+        "AUCell"
     ],
     "Rcpi": [],
     "ReactomePA": [
@@ -2943,7 +2880,6 @@
         "BSgenome",
         "Category",
         "GOstats",
-        "GSEABase",
         "GenomicFeatures",
         "OrganismDbi",
         "VariantAnnotation",
@@ -3080,7 +3016,6 @@
     ],
     "RNAinteract": [
         "Category",
-        "GSEABase",
         "cellHTS2"
     ],
     "RNAmodR": [
@@ -3209,8 +3144,7 @@
     ],
     "scCB2": [],
     "scClassify": [
-        "Cepo",
-        "GSEABase"
+        "Cepo"
     ],
     "scDblFinder": [
         "rtracklayer",
@@ -3222,7 +3156,6 @@
     ],
     "scFeatures": [
         "AUCell",
-        "GSEABase",
         "GSVA",
         "GenomicFeatures",
         "SingleCellSignalR",
@@ -3286,14 +3219,11 @@
         "Category",
         "DOSE",
         "GOstats",
-        "GSEABase",
         "ReactomePA",
         "enrichplot",
         "meshr"
     ],
-    "scTGIF": [
-        "GSEABase"
-    ],
+    "scTGIF": [],
     "scTreeViz": [
         "GenomicFeatures",
         "OrganismDbi",
@@ -3356,8 +3286,7 @@
     ],
     "SGCP": [
         "Category",
-        "GOstats",
-        "GSEABase"
+        "GOstats"
     ],
     "SGSeq": [
         "GenomicFeatures",
@@ -3382,7 +3311,6 @@
     "signatureSearch": [
         "DOSE",
         "ExperimentHub",
-        "GSEABase",
         "clusterProfiler",
         "enrichplot"
     ],
@@ -3393,7 +3321,6 @@
         "rtracklayer"
     ],
     "signifinder": [
-        "GSEABase",
         "GSVA",
         "GenomicFeatures",
         "consensusOV",
@@ -3422,7 +3349,6 @@
     ],
     "singleCellTK": [
         "ExperimentHub",
-        "GSEABase",
         "GSVA",
         "GenomicFeatures",
         "TSCAN",
@@ -3446,11 +3372,8 @@
         "VariantAnnotation",
         "rtracklayer"
     ],
-    "singscore": [
-        "GSEABase"
-    ],
+    "singscore": [],
     "SISPA": [
-        "GSEABase",
         "GSVA"
     ],
     "sitadela": [
@@ -3466,9 +3389,7 @@
         "rtracklayer",
         "wateRmelon"
     ],
-    "slalom": [
-        "GSEABase"
-    ],
+    "slalom": [],
     "slingshot": [],
     "SMITE": [
         "GenomicFeatures",
@@ -3503,9 +3424,7 @@
         "scater",
         "scran"
     ],
-    "sparrow": [
-        "GSEABase"
-    ],
+    "sparrow": [],
     "SparseSignatures": [
         "BSgenome",
         "rtracklayer"
@@ -3562,9 +3481,7 @@
         "GenomicFeatures",
         "rtracklayer"
     ],
-    "splineTimeR": [
-        "GSEABase"
-    ],
+    "splineTimeR": [],
     "SPLINTER": [
         "BSgenome",
         "GenomicFeatures",
@@ -3589,7 +3506,6 @@
     ],
     "staRank": [
         "Category",
-        "GSEABase",
         "cellHTS2"
     ],
     "StarBioTrek": [
@@ -3649,7 +3565,6 @@
     ],
     "TBSignatureProfiler": [
         "ASSIGN",
-        "GSEABase",
         "GSVA",
         "singscore",
         "sva"
@@ -3690,9 +3605,7 @@
         "ORFik",
         "rtracklayer"
     ],
-    "TFutils": [
-        "GSEABase"
-    ],
+    "TFutils": [],
     "tigre": [],
     "tilingArray": [],
     "TimiRGeN": [
@@ -3700,9 +3613,7 @@
         "clusterProfiler",
         "enrichplot"
     ],
-    "TissueEnrich": [
-        "GSEABase"
-    ],
+    "TissueEnrich": [],
     "TitanCNA": [
         "BSgenome",
         "GenomicFeatures",
@@ -3716,7 +3627,6 @@
         "rtracklayer"
     ],
     "TNBC.CMS": [
-        "GSEABase",
         "GSVA"
     ],
     "TOP": [
@@ -3874,8 +3784,7 @@
     "vidger": [],
     "ViSEAGO": [],
     "vissE": [
-        "ExperimentHub",
-        "GSEABase"
+        "ExperimentHub"
     ],
     "Voyager": [
         "SpatialExperiment",
@@ -3946,8 +3855,7 @@
         "rtracklayer"
     ],
     "zenith": [
-        "EnrichmentBrowser",
-        "GSEABase"
+        "EnrichmentBrowser"
     ],
     "zinbwave": [],
     "ZygosityPredictor": [
