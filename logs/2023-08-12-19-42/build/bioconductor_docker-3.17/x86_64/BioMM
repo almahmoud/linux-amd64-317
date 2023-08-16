@@ -1,0 +1,449 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE); p <- .libPaths(); p <- c('\''/tmp/tmp/built'\'', p); .libPaths(p); if(BiocManager::install('\''BioMM'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://packagemanager.posit.co/cran/__linux__/jammy/latest
+Bioconductor version 3.17 (BiocManager 1.30.20), R 4.3.0 (2023-04-21)
+Installing package(s) 'BioMM'
+also installing the dependencies ‘Matrix’, ‘viridis’, ‘Formula’, ‘MatrixModels’, ‘mvtnorm’, ‘TH.data’, ‘sandwich’, ‘bmp’, ‘tiff’, ‘shape’, ‘Hmisc’, ‘quantreg’, ‘polspline’, ‘multcomp’, ‘htmlTable’, ‘assertthat’, ‘gridExtra’, ‘proxy’, ‘sm’, ‘zoo’, ‘readbitmap’, ‘downloader’, ‘igraph’, ‘rJava’, ‘xlsxjars’, ‘glmnet’, ‘rms’, ‘precrec’, ‘nsprcomp’, ‘ranger’, ‘e1071’, ‘vioplot’, ‘CMplot’, ‘imager’, ‘xlsx’
+
+trying URL 'https://packagemanager.posit.co/cran/__linux__/jammy/latest/src/contrib/Matrix_1.6-1.tar.gz'
+Content type 'binary/octet-stream' length 4595185 bytes (4.4 MB)
+==================================================
+downloaded 4.4 MB
+
+trying URL 'https://packagemanager.posit.co/cran/__linux__/jammy/latest/src/contrib/viridis_0.6.4.tar.gz'
+Content type 'binary/octet-stream' length 3027388 bytes (2.9 MB)
+==================================================
+downloaded 2.9 MB
+
+trying URL 'https://packagemanager.posit.co/cran/__linux__/jammy/latest/src/contrib/Formula_1.2-5.tar.gz'
+Content type 'binary/octet-stream' length 158389 bytes (154 KB)
+==================================================
+downloaded 154 KB
+
+trying URL 'https://packagemanager.posit.co/cran/__linux__/jammy/latest/src/contrib/MatrixModels_0.5-2.tar.gz'
+Content type 'binary/octet-stream' length 449653 bytes (439 KB)
+==================================================
+downloaded 439 KB
+
+trying URL 'https://packagemanager.posit.co/cran/__linux__/jammy/latest/src/contrib/mvtnorm_1.2-2.tar.gz'
+Content type 'binary/octet-stream' length 744473 bytes (727 KB)
+==================================================
+downloaded 727 KB
+
+trying URL 'https://packagemanager.posit.co/cran/__linux__/jammy/latest/src/contrib/TH.data_1.1-2.tar.gz'
+Content type 'binary/octet-stream' length 8807251 bytes (8.4 MB)
+==================================================
+downloaded 8.4 MB
+
+trying URL 'https://packagemanager.posit.co/cran/__linux__/jammy/latest/src/contrib/sandwich_3.0-2.tar.gz'
+Content type 'binary/octet-stream' length 1456618 bytes (1.4 MB)
+==================================================
+downloaded 1.4 MB
+
+trying URL 'https://packagemanager.posit.co/cran/__linux__/jammy/latest/src/contrib/bmp_0.3.tar.gz'
+Content type 'binary/octet-stream' length 119998 bytes (117 KB)
+==================================================
+downloaded 117 KB
+
+trying URL 'https://packagemanager.posit.co/cran/__linux__/jammy/latest/src/contrib/tiff_0.1-11.tar.gz'
+Content type 'binary/octet-stream' length 48244 bytes (47 KB)
+==================================================
+downloaded 47 KB
+
+trying URL 'https://packagemanager.posit.co/cran/__linux__/jammy/latest/src/contrib/shape_1.4.6.tar.gz'
+Content type 'binary/octet-stream' length 784187 bytes (765 KB)
+==================================================
+downloaded 765 KB
+
+trying URL 'https://packagemanager.posit.co/cran/__linux__/jammy/latest/src/contrib/Hmisc_5.1-0.tar.gz'
+Content type 'binary/octet-stream' length 3477858 bytes (3.3 MB)
+==================================================
+downloaded 3.3 MB
+
+trying URL 'https://packagemanager.posit.co/cran/__linux__/jammy/latest/src/contrib/quantreg_5.96.tar.gz'
+Content type 'binary/octet-stream' length 1549107 bytes (1.5 MB)
+==================================================
+downloaded 1.5 MB
+
+trying URL 'https://packagemanager.posit.co/cran/__linux__/jammy/latest/src/contrib/polspline_1.1.23.tar.gz'
+Content type 'binary/octet-stream' length 594255 bytes (580 KB)
+==================================================
+downloaded 580 KB
+
+trying URL 'https://packagemanager.posit.co/cran/__linux__/jammy/latest/src/contrib/multcomp_1.4-25.tar.gz'
+Content type 'binary/octet-stream' length 738683 bytes (721 KB)
+==================================================
+downloaded 721 KB
+
+trying URL 'https://packagemanager.posit.co/cran/__linux__/jammy/latest/src/contrib/htmlTable_2.4.1.tar.gz'
+Content type 'binary/octet-stream' length 415139 bytes (405 KB)
+==================================================
+downloaded 405 KB
+
+trying URL 'https://packagemanager.posit.co/cran/__linux__/jammy/latest/src/contrib/assertthat_0.2.1.tar.gz'
+Content type 'binary/octet-stream' length 52457 bytes (51 KB)
+==================================================
+downloaded 51 KB
+
+trying URL 'https://packagemanager.posit.co/cran/__linux__/jammy/latest/src/contrib/gridExtra_2.3.tar.gz'
+Content type 'binary/octet-stream' length 1106992 bytes (1.1 MB)
+==================================================
+downloaded 1.1 MB
+
+trying URL 'https://packagemanager.posit.co/cran/__linux__/jammy/latest/src/contrib/proxy_0.4-27.tar.gz'
+Content type 'binary/octet-stream' length 174072 bytes (169 KB)
+==================================================
+downloaded 169 KB
+
+trying URL 'https://packagemanager.posit.co/cran/__linux__/jammy/latest/src/contrib/sm_2.2-5.7.1.tar.gz'
+Content type 'binary/octet-stream' length 804499 bytes (785 KB)
+==================================================
+downloaded 785 KB
+
+trying URL 'https://packagemanager.posit.co/cran/__linux__/jammy/latest/src/contrib/zoo_1.8-12.tar.gz'
+Content type 'binary/octet-stream' length 1015488 bytes (991 KB)
+==================================================
+downloaded 991 KB
+
+trying URL 'https://packagemanager.posit.co/cran/__linux__/jammy/latest/src/contrib/readbitmap_0.1.5.tar.gz'
+Content type 'binary/octet-stream' length 16895 bytes (16 KB)
+==================================================
+downloaded 16 KB
+
+trying URL 'https://packagemanager.posit.co/cran/__linux__/jammy/latest/src/contrib/downloader_0.4.tar.gz'
+Content type 'binary/octet-stream' length 21759 bytes (21 KB)
+==================================================
+downloaded 21 KB
+
+trying URL 'https://packagemanager.posit.co/cran/__linux__/jammy/latest/src/contrib/igraph_1.5.1.tar.gz'
+Content type 'binary/octet-stream' length 4875394 bytes (4.6 MB)
+==================================================
+downloaded 4.6 MB
+
+trying URL 'https://packagemanager.posit.co/cran/__linux__/jammy/latest/src/contrib/rJava_1.0-6.tar.gz'
+Content type 'binary/octet-stream' length 1313797 bytes (1.3 MB)
+==================================================
+downloaded 1.3 MB
+
+trying URL 'https://packagemanager.posit.co/cran/__linux__/jammy/latest/src/contrib/xlsxjars_0.6.1.tar.gz'
+Content type 'binary/octet-stream' length 9482897 bytes (9.0 MB)
+==================================================
+downloaded 9.0 MB
+
+trying URL 'https://packagemanager.posit.co/cran/__linux__/jammy/latest/src/contrib/glmnet_4.1-7.tar.gz'
+Content type 'binary/octet-stream' length 1989257 bytes (1.9 MB)
+==================================================
+downloaded 1.9 MB
+
+trying URL 'https://packagemanager.posit.co/cran/__linux__/jammy/latest/src/contrib/rms_6.7-0.tar.gz'
+Content type 'binary/octet-stream' length 2215155 bytes (2.1 MB)
+==================================================
+downloaded 2.1 MB
+
+trying URL 'https://packagemanager.posit.co/cran/__linux__/jammy/latest/src/contrib/precrec_0.14.2.tar.gz'
+Content type 'binary/octet-stream' length 1981135 bytes (1.9 MB)
+==================================================
+downloaded 1.9 MB
+
+trying URL 'https://packagemanager.posit.co/cran/__linux__/jammy/latest/src/contrib/nsprcomp_0.5.1-2.tar.gz'
+Content type 'binary/octet-stream' length 62663 bytes (61 KB)
+==================================================
+downloaded 61 KB
+
+trying URL 'https://packagemanager.posit.co/cran/__linux__/jammy/latest/src/contrib/ranger_0.15.1.tar.gz'
+Content type 'binary/octet-stream' length 411491 bytes (401 KB)
+==================================================
+downloaded 401 KB
+
+trying URL 'https://packagemanager.posit.co/cran/__linux__/jammy/latest/src/contrib/e1071_1.7-13.tar.gz'
+Content type 'binary/octet-stream' length 578232 bytes (564 KB)
+==================================================
+downloaded 564 KB
+
+trying URL 'https://packagemanager.posit.co/cran/__linux__/jammy/latest/src/contrib/vioplot_0.4.0.tar.gz'
+Content type 'binary/octet-stream' length 1385871 bytes (1.3 MB)
+==================================================
+downloaded 1.3 MB
+
+trying URL 'https://packagemanager.posit.co/cran/__linux__/jammy/latest/src/contrib/CMplot_4.3.1.tar.gz'
+Content type 'binary/octet-stream' length 1867609 bytes (1.8 MB)
+==================================================
+downloaded 1.8 MB
+
+trying URL 'https://packagemanager.posit.co/cran/__linux__/jammy/latest/src/contrib/imager_0.45.2.tar.gz'
+Content type 'binary/octet-stream' length 4964430 bytes (4.7 MB)
+==================================================
+downloaded 4.7 MB
+
+trying URL 'https://packagemanager.posit.co/cran/__linux__/jammy/latest/src/contrib/xlsx_0.6.5.tar.gz'
+Content type 'binary/octet-stream' length 374781 bytes (365 KB)
+==================================================
+downloaded 365 KB
+
+trying URL 'https://bioconductor.org/packages/3.17/bioc/src/contrib/BioMM_1.15.0.tar.gz'
+Content type 'application/x-gzip' length 2981825 bytes (2.8 MB)
+==================================================
+downloaded 2.8 MB
+
+* installing *binary* package ‘Matrix’ ...
+* ‘Matrix’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘Matrix’ as ‘Matrix_1.6-1_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (Matrix)
+* installing *binary* package ‘Formula’ ...
+* ‘Formula’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘Formula’ as ‘Formula_1.2-5_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (Formula)
+* installing *binary* package ‘mvtnorm’ ...
+* ‘mvtnorm’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘mvtnorm’ as ‘mvtnorm_1.2-2_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (mvtnorm)
+* installing *binary* package ‘TH.data’ ...
+* ‘TH.data’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘TH.data’ as ‘TH.data_1.1-2_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (TH.data)
+* installing *binary* package ‘bmp’ ...
+* ‘bmp’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘bmp’ as ‘bmp_0.3_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (bmp)
+* installing *binary* package ‘tiff’ ...
+* ‘tiff’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘tiff’ as ‘tiff_0.1-11_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (tiff)
+* installing *binary* package ‘shape’ ...
+* ‘shape’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘shape’ as ‘shape_1.4.6_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (shape)
+* installing *binary* package ‘polspline’ ...
+* ‘polspline’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘polspline’ as ‘polspline_1.1.23_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (polspline)
+* installing *binary* package ‘htmlTable’ ...
+* ‘htmlTable’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘htmlTable’ as ‘htmlTable_2.4.1_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (htmlTable)
+* installing *binary* package ‘assertthat’ ...
+* ‘assertthat’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘assertthat’ as ‘assertthat_0.2.1_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (assertthat)
+* installing *binary* package ‘gridExtra’ ...
+* ‘gridExtra’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘gridExtra’ as ‘gridExtra_2.3_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (gridExtra)
+* installing *binary* package ‘proxy’ ...
+* ‘proxy’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘proxy’ as ‘proxy_0.4-27_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (proxy)
+* installing *binary* package ‘sm’ ...
+* ‘sm’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘sm’ as ‘sm_2.2-5.7.1_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (sm)
+* installing *binary* package ‘zoo’ ...
+* ‘zoo’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘zoo’ as ‘zoo_1.8-12_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (zoo)
+* installing *binary* package ‘downloader’ ...
+* ‘downloader’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘downloader’ as ‘downloader_0.4_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (downloader)
+* installing *binary* package ‘rJava’ ...
+* ‘rJava’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘rJava’ as ‘rJava_1.0-6_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (rJava)
+* installing *binary* package ‘nsprcomp’ ...
+* ‘nsprcomp’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘nsprcomp’ as ‘nsprcomp_0.5.1-2_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (nsprcomp)
+* installing *binary* package ‘CMplot’ ...
+* ‘CMplot’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘CMplot’ as ‘CMplot_4.3.1_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (CMplot)
+* installing *binary* package ‘viridis’ ...
+* ‘viridis’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘viridis’ as ‘viridis_0.6.4_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (viridis)
+* installing *binary* package ‘MatrixModels’ ...
+* ‘MatrixModels’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘MatrixModels’ as ‘MatrixModels_0.5-2_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (MatrixModels)
+* installing *binary* package ‘sandwich’ ...
+* ‘sandwich’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘sandwich’ as ‘sandwich_3.0-2_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (sandwich)
+* installing *binary* package ‘readbitmap’ ...
+* ‘readbitmap’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘readbitmap’ as ‘readbitmap_0.1.5_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (readbitmap)
+* installing *binary* package ‘igraph’ ...
+* ‘igraph’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘igraph’ as ‘igraph_1.5.1_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (igraph)
+* installing *binary* package ‘xlsxjars’ ...
+* ‘xlsxjars’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘xlsxjars’ as ‘xlsxjars_0.6.1_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (xlsxjars)
+* installing *binary* package ‘glmnet’ ...
+* ‘glmnet’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘glmnet’ as ‘glmnet_4.1-7_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (glmnet)
+* installing *binary* package ‘precrec’ ...
+* ‘precrec’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘precrec’ as ‘precrec_0.14.2_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (precrec)
+* installing *binary* package ‘ranger’ ...
+* ‘ranger’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘ranger’ as ‘ranger_0.15.1_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (ranger)
+* installing *binary* package ‘e1071’ ...
+* ‘e1071’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘e1071’ as ‘e1071_1.7-13_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (e1071)
+* installing *binary* package ‘vioplot’ ...
+* ‘vioplot’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘vioplot’ as ‘vioplot_0.4.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (vioplot)
+* installing *binary* package ‘Hmisc’ ...
+* ‘Hmisc’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘Hmisc’ as ‘Hmisc_5.1-0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (Hmisc)
+* installing *binary* package ‘quantreg’ ...
+* ‘quantreg’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘quantreg’ as ‘quantreg_5.96_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (quantreg)
+* installing *binary* package ‘multcomp’ ...
+* ‘multcomp’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘multcomp’ as ‘multcomp_1.4-25_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (multcomp)
+* installing *source* package ‘imager’ ...
+** package ‘imager’ successfully unpacked and MD5 sums checked
+** using staged installation
+checking for pkg-config... /usr/bin/pkg-config
+checking whether the C++ compiler works... yes
+checking for C++ compiler default output file name... a.out
+checking for suffix of executables... 
+checking whether we are cross compiling... no
+checking for suffix of object files... o
+checking whether we are using the GNU C++ compiler... yes
+checking whether g++ -std=gnu++17 accepts -g... yes
+checking how to run the C++ preprocessor... g++ -std=gnu++17 -E
+checking for X... libraries , headers 
+checking for XOpenDisplay in -lX11... yes
+X11 library found.
+configure: Checking if FFTW3 library is available using pkg-config
+checking for pkg-config... /usr/bin/pkg-config
+checking pkg-config is at least version 0.9.0... yes
+checking for FFTW... yes
+FFTW3 found!
+checking whether pkg-config knows about libtiff-4... yes
+checking for configurable backends... checking whether --static is needed... no
+checking for g++ -std=gnu++17 option to support OpenMP... -fopenmp
+configure: creating ./config.status
+config.status: creating src/Makevars
+** libs
+using C++ compiler: ‘g++ (Ubuntu 11.3.0-1ubuntu1~22.04) 11.3.0’
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -I/usr/local/include  -Dcimg_use_fftw3  -I/usr/include/x86_64-linux-gnu -Dcimg_use_tiff -I../inst/include -DCIMG_COMPILING -Dcimg_use_rng -Dcimg_use_r -Dcimg_use_fftw3_singlethread -Dcimg_verbosity=1 -Dcimg_date='""' -Dcimg_time='""' -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include   -fopenmp -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c RcppExports.cpp -o RcppExports.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -I/usr/local/include  -Dcimg_use_fftw3  -I/usr/include/x86_64-linux-gnu -Dcimg_use_tiff -I../inst/include -DCIMG_COMPILING -Dcimg_use_rng -Dcimg_use_r -Dcimg_use_fftw3_singlethread -Dcimg_verbosity=1 -Dcimg_date='""' -Dcimg_time='""' -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include   -fopenmp -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c colourspace.cpp -o colourspace.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -I/usr/local/include  -Dcimg_use_fftw3  -I/usr/include/x86_64-linux-gnu -Dcimg_use_tiff -I../inst/include -DCIMG_COMPILING -Dcimg_use_rng -Dcimg_use_r -Dcimg_use_fftw3_singlethread -Dcimg_verbosity=1 -Dcimg_date='""' -Dcimg_time='""' -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include   -fopenmp -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c coordinates.cpp -o coordinates.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -I/usr/local/include  -Dcimg_use_fftw3  -I/usr/include/x86_64-linux-gnu -Dcimg_use_tiff -I../inst/include -DCIMG_COMPILING -Dcimg_use_rng -Dcimg_use_r -Dcimg_use_fftw3_singlethread -Dcimg_verbosity=1 -Dcimg_date='""' -Dcimg_time='""' -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include   -fopenmp -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c display.cpp -o display.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -I/usr/local/include  -Dcimg_use_fftw3  -I/usr/include/x86_64-linux-gnu -Dcimg_use_tiff -I../inst/include -DCIMG_COMPILING -Dcimg_use_rng -Dcimg_use_r -Dcimg_use_fftw3_singlethread -Dcimg_verbosity=1 -Dcimg_date='""' -Dcimg_time='""' -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include   -fopenmp -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c drawing.cpp -o drawing.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -I/usr/local/include  -Dcimg_use_fftw3  -I/usr/include/x86_64-linux-gnu -Dcimg_use_tiff -I../inst/include -DCIMG_COMPILING -Dcimg_use_rng -Dcimg_use_r -Dcimg_use_fftw3_singlethread -Dcimg_verbosity=1 -Dcimg_date='""' -Dcimg_time='""' -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include   -fopenmp -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c filtering.cpp -o filtering.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -I/usr/local/include  -Dcimg_use_fftw3  -I/usr/include/x86_64-linux-gnu -Dcimg_use_tiff -I../inst/include -DCIMG_COMPILING -Dcimg_use_rng -Dcimg_use_r -Dcimg_use_fftw3_singlethread -Dcimg_verbosity=1 -Dcimg_date='""' -Dcimg_time='""' -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include   -fopenmp -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c hough.cpp -o hough.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -I/usr/local/include  -Dcimg_use_fftw3  -I/usr/include/x86_64-linux-gnu -Dcimg_use_tiff -I../inst/include -DCIMG_COMPILING -Dcimg_use_rng -Dcimg_use_r -Dcimg_use_fftw3_singlethread -Dcimg_verbosity=1 -Dcimg_date='""' -Dcimg_time='""' -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include   -fopenmp -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c imgraphs.cpp -o imgraphs.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -I/usr/local/include  -Dcimg_use_fftw3  -I/usr/include/x86_64-linux-gnu -Dcimg_use_tiff -I../inst/include -DCIMG_COMPILING -Dcimg_use_rng -Dcimg_use_r -Dcimg_use_fftw3_singlethread -Dcimg_verbosity=1 -Dcimg_date='""' -Dcimg_time='""' -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include   -fopenmp -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c interact.cpp -o interact.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -I/usr/local/include  -Dcimg_use_fftw3  -I/usr/include/x86_64-linux-gnu -Dcimg_use_tiff -I../inst/include -DCIMG_COMPILING -Dcimg_use_rng -Dcimg_use_r -Dcimg_use_fftw3_singlethread -Dcimg_verbosity=1 -Dcimg_date='""' -Dcimg_time='""' -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include   -fopenmp -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c interpolation.cpp -o interpolation.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -I/usr/local/include  -Dcimg_use_fftw3  -I/usr/include/x86_64-linux-gnu -Dcimg_use_tiff -I../inst/include -DCIMG_COMPILING -Dcimg_use_rng -Dcimg_use_r -Dcimg_use_fftw3_singlethread -Dcimg_verbosity=1 -Dcimg_date='""' -Dcimg_time='""' -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include   -fopenmp -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c morphology.cpp -o morphology.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -I/usr/local/include  -Dcimg_use_fftw3  -I/usr/include/x86_64-linux-gnu -Dcimg_use_tiff -I../inst/include -DCIMG_COMPILING -Dcimg_use_rng -Dcimg_use_r -Dcimg_use_fftw3_singlethread -Dcimg_verbosity=1 -Dcimg_date='""' -Dcimg_time='""' -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include   -fopenmp -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c reductions.cpp -o reductions.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -I/usr/local/include  -Dcimg_use_fftw3  -I/usr/include/x86_64-linux-gnu -Dcimg_use_tiff -I../inst/include -DCIMG_COMPILING -Dcimg_use_rng -Dcimg_use_r -Dcimg_use_fftw3_singlethread -Dcimg_verbosity=1 -Dcimg_date='""' -Dcimg_time='""' -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include   -fopenmp -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c transformations.cpp -o transformations.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -I/usr/local/include  -Dcimg_use_fftw3  -I/usr/include/x86_64-linux-gnu -Dcimg_use_tiff -I../inst/include -DCIMG_COMPILING -Dcimg_use_rng -Dcimg_use_r -Dcimg_use_fftw3_singlethread -Dcimg_verbosity=1 -Dcimg_date='""' -Dcimg_time='""' -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include   -fopenmp -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c utils.cpp -o utils.o
+g++ -std=gnu++17 -I"/usr/local/lib/R/include" -DNDEBUG -I/usr/local/include  -Dcimg_use_fftw3  -I/usr/include/x86_64-linux-gnu -Dcimg_use_tiff -I../inst/include -DCIMG_COMPILING -Dcimg_use_rng -Dcimg_use_r -Dcimg_use_fftw3_singlethread -Dcimg_verbosity=1 -Dcimg_date='""' -Dcimg_time='""' -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include   -fopenmp -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c wrappers.cpp -o wrappers.o
+g++ -std=gnu++17 -shared -L/usr/local/lib/R/lib -L/usr/local/lib -o imager.so RcppExports.o colourspace.o coordinates.o display.o drawing.o filtering.o hough.o imgraphs.o interact.o interpolation.o morphology.o reductions.o transformations.o utils.o wrappers.o -fopenmp -lX11 -Dcimg_use_fftw3 -lfftw3 -ltiff -L/usr/local/lib/R/lib -lR
+installing to /tmp/tmp/built/00LOCK-imager/00new/imager/libs
+** R
+** data
+*** moving datasets to lazyload DB
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘imager’ as ‘imager_0.45.2_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (imager)
+* installing *binary* package ‘xlsx’ ...
+* ‘xlsx’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘xlsx’ as ‘xlsx_0.6.5_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (xlsx)
+* installing *binary* package ‘rms’ ...
+* ‘rms’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘rms’ as ‘rms_6.7-0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (rms)
+* installing *source* package ‘BioMM’ ...
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+Note: possible error in 'CMplot(cpgResults, plot.type = "c", ': unused argument (memo = fileName) 
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘BioMM’ as ‘BioMM_1.15.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (BioMM)
+
+The downloaded source packages are in
+	‘/tmp/RtmpA3zhAg/downloaded_packages’
+Old packages: 'ggplot2', 'BiocManager', 'bslib', 'cachem', 'cpp11', 'curl',
+  'digest', 'downlit', 'evaluate', 'fs', 'gert', 'htmltools', 'httpuv', 'httr',
+  'httr2', 'jsonlite', 'knitr', 'later', 'openssl', 'pkgbuild', 'pkgload',
+  'processx', 'profvis', 'promises', 'purrr', 'Rcpp', 'remotes', 'rmarkdown',
+  'rstudioapi', 'sass', 'shiny', 'sys', 'testthat', 'tinytex', 'usethis',
+  'vctrs', 'waldo', 'xfun', 'xml2', 'class', 'KernSmooth', 'MASS', 'Matrix',
+  'mgcv', 'nlme', 'nnet', 'spatial', 'survival'
+
+real	7m35.235s
+user	6m47.706s
+sys	0m16.766s
