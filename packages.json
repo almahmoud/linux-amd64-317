@@ -217,20 +217,15 @@
         "BSgenome",
         "rtracklayer"
     ],
-    "BASiCS": [
-        "scran"
-    ],
+    "BASiCS": [],
     "BASiCStan": [
-        "BASiCS",
-        "scran"
+        "BASiCS"
     ],
     "batchelor": [],
     "BatchQC": [
         "sva"
     ],
-    "BayesSpace": [
-        "scran"
-    ],
+    "BayesSpace": [],
     "BBCAnalyzer": [
         "BSgenome",
         "GenomicFeatures",
@@ -294,9 +289,7 @@
     ],
     "BioNetStat": [],
     "biosigner": [],
-    "BioTIP": [
-        "scran"
-    ],
+    "BioTIP": [],
     "biovizBase": [
         "BSgenome",
         "GenomicFeatures",
@@ -490,9 +483,7 @@
         "PROMISE"
     ],
     "celaref": [],
-    "celda": [
-        "scran"
-    ],
+    "celda": [],
     "CellBarcode": [
         "ShortRead"
     ],
@@ -618,8 +609,7 @@
     "chromPlot": [],
     "ChromSCape": [
         "batchelor",
-        "rtracklayer",
-        "scran"
+        "rtracklayer"
     ],
     "chromswitch": [
         "rtracklayer"
@@ -654,9 +644,7 @@
         "ShortRead",
         "rtracklayer"
     ],
-    "CiteFuse": [
-        "scran"
-    ],
+    "CiteFuse": [],
     "ClassifyR": [],
     "cleanUpdTSeq": [
         "BSgenome",
@@ -1049,9 +1037,7 @@
         "ensembldb",
         "rtracklayer"
     ],
-    "Dino": [
-        "scran"
-    ],
+    "Dino": [],
     "distinct": [],
     "DMCFB": [
         "rtracklayer"
@@ -1407,8 +1393,7 @@
         "biovizBase",
         "ensembldb",
         "ggbio",
-        "rtracklayer",
-        "scran"
+        "rtracklayer"
     ],
     "FRASER": [
         "BSgenome",
@@ -1782,8 +1767,7 @@
     "IRISFGM": [
         "DOSE",
         "clusterProfiler",
-        "enrichplot",
-        "scran"
+        "enrichplot"
     ],
     "ISAnalytics": [],
     "iSEEhex": [],
@@ -2236,9 +2220,7 @@
         "ggbio",
         "rtracklayer"
     ],
-    "msImpute": [
-        "scran"
-    ],
+    "msImpute": [],
     "MSnID": [],
     "MSPrep": [
         "sva"
@@ -2267,8 +2249,7 @@
         "enrichplot"
     ],
     "mumosa": [
-        "batchelor",
-        "scran"
+        "batchelor"
     ],
     "MungeSumstats": [
         "BSgenome",
@@ -2520,9 +2501,7 @@
         "ensembldb",
         "rtracklayer"
     ],
-    "pipeComp": [
-        "scran"
-    ],
+    "pipeComp": [],
     "pipeFrame": [
         "BSgenome",
         "rtracklayer"
@@ -3064,12 +3043,9 @@
         "Cepo"
     ],
     "scDblFinder": [
-        "rtracklayer",
-        "scran"
+        "rtracklayer"
     ],
-    "scDD": [
-        "scran"
-    ],
+    "scDD": [],
     "scFeatures": [
         "AUCell",
         "GSVA",
@@ -3077,13 +3053,11 @@
         "SingleCellSignalR",
         "SpatialExperiment",
         "ensembldb",
-        "rtracklayer",
-        "scran"
+        "rtracklayer"
     ],
     "scGPS": [],
     "scMerge": [
-        "batchelor",
-        "scran"
+        "batchelor"
     ],
     "scmeth": [
         "BSgenome",
@@ -3114,7 +3088,6 @@
     "scPipe": [
         "rtracklayer"
     ],
-    "scran": [],
     "scRNAseqApp": [
         "rtracklayer",
         "slingshot"
@@ -3146,8 +3119,7 @@
         "ensembldb",
         "epivizr",
         "epivizrData",
-        "rtracklayer",
-        "scran"
+        "rtracklayer"
     ],
     "scviR": [],
     "segmenter": [
@@ -3256,9 +3228,7 @@
     ],
     "simplifyEnrichment": [],
     "single": [],
-    "SingleCellSignalR": [
-        "scran"
-    ],
+    "SingleCellSignalR": [],
     "singleCellTK": [
         "ExperimentHub",
         "GSVA",
@@ -3270,7 +3240,6 @@
         "rtracklayer",
         "scDblFinder",
         "scMerge",
-        "scran",
         "sva",
         "zinbwave"
     ],
@@ -3331,9 +3300,7 @@
         "ggbio",
         "rtracklayer"
     ],
-    "Spaniel": [
-        "scran"
-    ],
+    "Spaniel": [],
     "sparrow": [],
     "SparseSignatures": [
         "BSgenome",
@@ -3349,9 +3316,7 @@
     "SpatialFeatureExperiment": [
         "SpatialExperiment"
     ],
-    "spatialHeatmap": [
-        "scran"
-    ],
+    "spatialHeatmap": [],
     "spatzie": [
         "BSgenome",
         "CNEr",
