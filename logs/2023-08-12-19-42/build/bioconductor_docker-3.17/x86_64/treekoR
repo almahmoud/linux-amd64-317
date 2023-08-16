@@ -1,0 +1,140 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE); p <- .libPaths(); p <- c('\''/tmp/tmp/built'\'', p); .libPaths(p); if(BiocManager::install('\''treekoR'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://packagemanager.posit.co/cran/__linux__/jammy/latest
+Bioconductor version 3.17 (BiocManager 1.30.20), R 4.3.0 (2023-04-21)
+Installing package(s) 'treekoR'
+also installing the dependencies ‘scuttle’, ‘uuid’, ‘scater’, ‘ggiraph’, ‘CATALYST’
+
+trying URL 'https://bioconductor.org/packages/3.17/bioc/src/contrib/scuttle_1.10.2.tar.gz'
+Content type 'application/x-gzip' length 1029617 bytes (1005 KB)
+==================================================
+downloaded 1005 KB
+
+trying URL 'https://packagemanager.posit.co/cran/__linux__/jammy/latest/src/contrib/uuid_1.1-0.tar.gz'
+Content type 'binary/octet-stream' length 44963 bytes (43 KB)
+==================================================
+downloaded 43 KB
+
+trying URL 'https://bioconductor.org/packages/3.17/bioc/src/contrib/scater_1.28.0.tar.gz'
+Content type 'application/x-gzip' length 4089325 bytes (3.9 MB)
+==================================================
+downloaded 3.9 MB
+
+trying URL 'https://packagemanager.posit.co/cran/__linux__/jammy/latest/src/contrib/ggiraph_0.8.7.tar.gz'
+Content type 'binary/octet-stream' length 1311906 bytes (1.3 MB)
+==================================================
+downloaded 1.3 MB
+
+trying URL 'https://bioconductor.org/packages/3.17/bioc/src/contrib/CATALYST_1.24.0.tar.gz'
+Content type 'application/x-gzip' length 10825510 bytes (10.3 MB)
+==================================================
+downloaded 10.3 MB
+
+trying URL 'https://bioconductor.org/packages/3.17/bioc/src/contrib/treekoR_1.8.0.tar.gz'
+Content type 'application/x-gzip' length 1652197 bytes (1.6 MB)
+==================================================
+downloaded 1.6 MB
+
+* installing *source* package ‘scuttle’ ...
+** using staged installation
+** libs
+using C++ compiler: ‘g++ (Ubuntu 11.3.0-1ubuntu1~22.04) 11.3.0’
+using C++11
+g++ -std=gnu++11 -I"/usr/local/lib/R/include" -DNDEBUG -I../inst/include/ -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/tmp/tmp/built/beachmat/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c RcppExports.cpp -o RcppExports.o
+g++ -std=gnu++11 -I"/usr/local/lib/R/include" -DNDEBUG -I../inst/include/ -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/tmp/tmp/built/beachmat/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c cumulative_prop.cpp -o cumulative_prop.o
+g++ -std=gnu++11 -I"/usr/local/lib/R/include" -DNDEBUG -I../inst/include/ -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/tmp/tmp/built/beachmat/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c downsample_counts.cpp -o downsample_counts.o
+g++ -std=gnu++11 -I"/usr/local/lib/R/include" -DNDEBUG -I../inst/include/ -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/tmp/tmp/built/beachmat/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c fit_linear_model.cpp -o fit_linear_model.o
+g++ -std=gnu++11 -I"/usr/local/lib/R/include" -DNDEBUG -I../inst/include/ -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/tmp/tmp/built/beachmat/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c pool_size_factors.cpp -o pool_size_factors.o
+g++ -std=gnu++11 -I"/usr/local/lib/R/include" -DNDEBUG -I../inst/include/ -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/tmp/tmp/built/beachmat/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c sparse_summarize.cpp -o sparse_summarize.o
+g++ -std=gnu++11 -I"/usr/local/lib/R/include" -DNDEBUG -I../inst/include/ -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/tmp/tmp/built/beachmat/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c sum_counts.cpp -o sum_counts.o
+g++ -std=gnu++11 -I"/usr/local/lib/R/include" -DNDEBUG -I../inst/include/ -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/tmp/tmp/built/beachmat/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c utils.cpp -o utils.o
+g++ -std=gnu++11 -shared -L/usr/local/lib/R/lib -L/usr/local/lib -o scuttle.so RcppExports.o cumulative_prop.o downsample_counts.o fit_linear_model.o pool_size_factors.o sparse_summarize.o sum_counts.o utils.o -llapack -lblas -lgfortran -lm -lquadmath -L/usr/local/lib/R/lib -lR
+installing to /tmp/tmp/built/00LOCK-scuttle/00new/scuttle/libs
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘scuttle’ as ‘scuttle_1.10.2_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (scuttle)
+* installing *binary* package ‘uuid’ ...
+* ‘uuid’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘uuid’ as ‘uuid_1.1-0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (uuid)
+* installing *source* package ‘scater’ ...
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘scater’ as ‘scater_1.28.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (scater)
+* installing *binary* package ‘ggiraph’ ...
+* ‘ggiraph’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘ggiraph’ as ‘ggiraph_0.8.7_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (ggiraph)
+* installing *source* package ‘CATALYST’ ...
+** using staged installation
+** R
+** data
+*** moving datasets to lazyload DB
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘CATALYST’ as ‘CATALYST_1.24.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (CATALYST)
+* installing *source* package ‘treekoR’ ...
+** using staged installation
+** R
+** data
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘treekoR’ as ‘treekoR_1.8.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (treekoR)
+
+The downloaded source packages are in
+	‘/tmp/RtmpOvtPn7/downloaded_packages’
+Old packages: 'ggplot2', 'Matrix', 'patchwork', 'BiocManager', 'bslib',
+  'cachem', 'cpp11', 'curl', 'digest', 'downlit', 'evaluate', 'fs', 'gert',
+  'htmltools', 'httpuv', 'httr', 'httr2', 'jsonlite', 'knitr', 'later',
+  'openssl', 'pkgbuild', 'pkgload', 'processx', 'profvis', 'promises', 'purrr',
+  'Rcpp', 'remotes', 'rmarkdown', 'rstudioapi', 'sass', 'shiny', 'sys',
+  'testthat', 'tinytex', 'usethis', 'vctrs', 'waldo', 'xfun', 'xml2', 'class',
+  'KernSmooth', 'MASS', 'mgcv', 'nlme', 'nnet', 'spatial', 'survival'
+
+real	3m17.299s
+user	3m3.419s
+sys	0m11.977s
