@@ -1,0 +1,1307 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE); p <- .libPaths(); p <- c('\''/tmp/tmp/built'\'', p); .libPaths(p); if(BiocManager::install('\''GenProSeq'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://packagemanager.posit.co/cran/__linux__/jammy/latest
+Bioconductor version 3.17 (BiocManager 1.30.20), R 4.3.0 (2023-04-21)
+Installing package(s) 'GenProSeq'
+also installing the dependencies ‘filelock’, ‘zlibbioc’, ‘bitops’, ‘sitmo’, ‘dir.expiry’, ‘basilisk.utils’, ‘XVector’, ‘matrixStats’, ‘RCurl’, ‘GenomeInfoDbData’, ‘abind’, ‘sparseMatrixStats’, ‘RcppHNSW’, ‘ScaledMatrix’, ‘irlba’, ‘rsvd’, ‘beeswarm’, ‘vipor’, ‘RcppEigen’, ‘FNN’, ‘RcppAnnoy’, ‘dqrng’, ‘basilisk’, ‘assertthat’, ‘Cairo’, ‘S4Vectors’, ‘BiocGenerics’, ‘GenomicRanges’, ‘DelayedArray’, ‘MatrixGenerics’, ‘Biobase’, ‘IRanges’, ‘GenomeInfoDb’, ‘S4Arrays’, ‘scuttle’, ‘DelayedMatrixStats’, ‘beachmat’, ‘BiocNeighbors’, ‘BiocSingular’, ‘ggbeeswarm’, ‘Rtsne’, ‘RcppML’, ‘uwot’, ‘pheatmap’, ‘ggrepel’, ‘densvis’, ‘ggrastr’, ‘RcppProgress’, ‘SingleCellExperiment’, ‘SummarizedExperiment’, ‘scater’, ‘mclust’, ‘word2vec’, ‘ggseqlogo’, ‘VAExprs’
+
+trying URL 'https://packagemanager.posit.co/cran/__linux__/jammy/latest/src/contrib/filelock_1.0.2.tar.gz'
+Content type 'binary/octet-stream' length 21806 bytes (21 KB)
+==================================================
+downloaded 21 KB
+
+trying URL 'https://bioconductor.org/packages/3.17/bioc/src/contrib/zlibbioc_1.46.0.tar.gz'
+Content type 'application/x-gzip' length 163370 bytes (159 KB)
+==================================================
+downloaded 159 KB
+
+trying URL 'https://packagemanager.posit.co/cran/__linux__/jammy/latest/src/contrib/bitops_1.0-7.tar.gz'
+Content type 'binary/octet-stream' length 24849 bytes (24 KB)
+==================================================
+downloaded 24 KB
+
+trying URL 'https://packagemanager.posit.co/cran/__linux__/jammy/latest/src/contrib/sitmo_2.0.2.tar.gz'
+Content type 'binary/octet-stream' length 169389 bytes (165 KB)
+==================================================
+downloaded 165 KB
+
+trying URL 'https://bioconductor.org/packages/3.17/bioc/src/contrib/dir.expiry_1.8.0.tar.gz'
+Content type 'application/x-gzip' length 292895 bytes (286 KB)
+==================================================
+downloaded 286 KB
+
+trying URL 'https://bioconductor.org/packages/3.17/bioc/src/contrib/basilisk.utils_1.12.1.tar.gz'
+Content type 'application/x-gzip' length 240028 bytes (234 KB)
+==================================================
+downloaded 234 KB
+
+trying URL 'https://bioconductor.org/packages/3.17/bioc/src/contrib/XVector_0.40.0.tar.gz'
+Content type 'application/x-gzip' length 67818 bytes (66 KB)
+==================================================
+downloaded 66 KB
+
+trying URL 'https://packagemanager.posit.co/cran/__linux__/jammy/latest/src/contrib/matrixStats_1.0.0.tar.gz'
+Content type 'binary/octet-stream' length 466929 bytes (455 KB)
+==================================================
+downloaded 455 KB
+
+trying URL 'https://packagemanager.posit.co/cran/__linux__/jammy/latest/src/contrib/RCurl_1.98-1.12.tar.gz'
+Content type 'binary/octet-stream' length 1064508 bytes (1.0 MB)
+==================================================
+downloaded 1.0 MB
+
+trying URL 'https://bioconductor.org/packages/3.17/data/annotation/src/contrib/GenomeInfoDbData_1.2.10.tar.gz'
+Content type 'application/x-gzip' length 12026674 bytes (11.5 MB)
+==================================================
+downloaded 11.5 MB
+
+trying URL 'https://packagemanager.posit.co/cran/__linux__/jammy/latest/src/contrib/abind_1.4-5.tar.gz'
+Content type 'binary/octet-stream' length 61357 bytes (59 KB)
+==================================================
+downloaded 59 KB
+
+trying URL 'https://bioconductor.org/packages/3.17/bioc/src/contrib/sparseMatrixStats_1.12.2.tar.gz'
+Content type 'application/x-gzip' length 702895 bytes (686 KB)
+==================================================
+downloaded 686 KB
+
+trying URL 'https://packagemanager.posit.co/cran/__linux__/jammy/latest/src/contrib/RcppHNSW_0.4.1.tar.gz'
+Content type 'binary/octet-stream' length 179637 bytes (175 KB)
+==================================================
+downloaded 175 KB
+
+trying URL 'https://bioconductor.org/packages/3.17/bioc/src/contrib/ScaledMatrix_1.8.1.tar.gz'
+Content type 'application/x-gzip' length 298083 bytes (291 KB)
+==================================================
+downloaded 291 KB
+
+trying URL 'https://packagemanager.posit.co/cran/__linux__/jammy/latest/src/contrib/irlba_2.3.5.1.tar.gz'
+Content type 'binary/octet-stream' length 292013 bytes (285 KB)
+==================================================
+downloaded 285 KB
+
+trying URL 'https://packagemanager.posit.co/cran/__linux__/jammy/latest/src/contrib/rsvd_1.0.5.tar.gz'
+Content type 'binary/octet-stream' length 3582950 bytes (3.4 MB)
+==================================================
+downloaded 3.4 MB
+
+trying URL 'https://packagemanager.posit.co/cran/__linux__/jammy/latest/src/contrib/beeswarm_0.4.0.tar.gz'
+Content type 'binary/octet-stream' length 77211 bytes (75 KB)
+==================================================
+downloaded 75 KB
+
+trying URL 'https://packagemanager.posit.co/cran/__linux__/jammy/latest/src/contrib/vipor_0.4.5.tar.gz'
+Content type 'binary/octet-stream' length 4404117 bytes (4.2 MB)
+==================================================
+downloaded 4.2 MB
+
+trying URL 'https://packagemanager.posit.co/cran/__linux__/jammy/latest/src/contrib/RcppEigen_0.3.3.9.3.tar.gz'
+Content type 'binary/octet-stream' length 1546641 bytes (1.5 MB)
+==================================================
+downloaded 1.5 MB
+
+trying URL 'https://packagemanager.posit.co/cran/__linux__/jammy/latest/src/contrib/FNN_1.1.3.2.tar.gz'
+Content type 'binary/octet-stream' length 125792 bytes (122 KB)
+==================================================
+downloaded 122 KB
+
+trying URL 'https://packagemanager.posit.co/cran/__linux__/jammy/latest/src/contrib/RcppAnnoy_0.0.21.tar.gz'
+Content type 'binary/octet-stream' length 264248 bytes (258 KB)
+==================================================
+downloaded 258 KB
+
+trying URL 'https://packagemanager.posit.co/cran/__linux__/jammy/latest/src/contrib/dqrng_0.3.0.tar.gz'
+Content type 'binary/octet-stream' length 153350 bytes (149 KB)
+==================================================
+downloaded 149 KB
+
+trying URL 'https://bioconductor.org/packages/3.17/bioc/src/contrib/basilisk_1.12.1.tar.gz'
+Content type 'application/x-gzip' length 267290 bytes (261 KB)
+==================================================
+downloaded 261 KB
+
+trying URL 'https://packagemanager.posit.co/cran/__linux__/jammy/latest/src/contrib/assertthat_0.2.1.tar.gz'
+Content type 'binary/octet-stream' length 52457 bytes (51 KB)
+==================================================
+downloaded 51 KB
+
+trying URL 'https://packagemanager.posit.co/cran/__linux__/jammy/latest/src/contrib/Cairo_1.6-0.tar.gz'
+Content type 'binary/octet-stream' length 99233 bytes (96 KB)
+==================================================
+downloaded 96 KB
+
+trying URL 'https://bioconductor.org/packages/3.17/bioc/src/contrib/S4Vectors_0.38.1.tar.gz'
+Content type 'application/x-gzip' length 838821 bytes (819 KB)
+==================================================
+downloaded 819 KB
+
+trying URL 'https://bioconductor.org/packages/3.17/bioc/src/contrib/BiocGenerics_0.46.0.tar.gz'
+Content type 'application/x-gzip' length 48250 bytes (47 KB)
+==================================================
+downloaded 47 KB
+
+trying URL 'https://bioconductor.org/packages/3.17/bioc/src/contrib/GenomicRanges_1.52.0.tar.gz'
+Content type 'application/x-gzip' length 1139139 bytes (1.1 MB)
+==================================================
+downloaded 1.1 MB
+
+trying URL 'https://bioconductor.org/packages/3.17/bioc/src/contrib/DelayedArray_0.26.7.tar.gz'
+Content type 'application/x-gzip' length 628192 bytes (613 KB)
+==================================================
+downloaded 613 KB
+
+trying URL 'https://bioconductor.org/packages/3.17/bioc/src/contrib/MatrixGenerics_1.12.3.tar.gz'
+Content type 'application/x-gzip' length 31569 bytes (30 KB)
+==================================================
+downloaded 30 KB
+
+trying URL 'https://bioconductor.org/packages/3.17/bioc/src/contrib/Biobase_2.60.0.tar.gz'
+Content type 'application/x-gzip' length 1795905 bytes (1.7 MB)
+==================================================
+downloaded 1.7 MB
+
+trying URL 'https://bioconductor.org/packages/3.17/bioc/src/contrib/IRanges_2.34.1.tar.gz'
+Content type 'application/x-gzip' length 480919 bytes (469 KB)
+==================================================
+downloaded 469 KB
+
+trying URL 'https://bioconductor.org/packages/3.17/bioc/src/contrib/GenomeInfoDb_1.36.1.tar.gz'
+Content type 'application/x-gzip' length 3578274 bytes (3.4 MB)
+==================================================
+downloaded 3.4 MB
+
+trying URL 'https://bioconductor.org/packages/3.17/bioc/src/contrib/S4Arrays_1.0.5.tar.gz'
+Content type 'application/x-gzip' length 279242 bytes (272 KB)
+==================================================
+downloaded 272 KB
+
+trying URL 'https://bioconductor.org/packages/3.17/bioc/src/contrib/scuttle_1.10.2.tar.gz'
+Content type 'application/x-gzip' length 1029617 bytes (1005 KB)
+==================================================
+downloaded 1005 KB
+
+trying URL 'https://bioconductor.org/packages/3.17/bioc/src/contrib/DelayedMatrixStats_1.22.5.tar.gz'
+Content type 'application/x-gzip' length 277681 bytes (271 KB)
+==================================================
+downloaded 271 KB
+
+trying URL 'https://bioconductor.org/packages/3.17/bioc/src/contrib/beachmat_2.16.0.tar.gz'
+Content type 'application/x-gzip' length 1303004 bytes (1.2 MB)
+==================================================
+downloaded 1.2 MB
+
+trying URL 'https://bioconductor.org/packages/3.17/bioc/src/contrib/BiocNeighbors_1.18.0.tar.gz'
+Content type 'application/x-gzip' length 996090 bytes (972 KB)
+==================================================
+downloaded 972 KB
+
+trying URL 'https://bioconductor.org/packages/3.17/bioc/src/contrib/BiocSingular_1.16.0.tar.gz'
+Content type 'application/x-gzip' length 583845 bytes (570 KB)
+==================================================
+downloaded 570 KB
+
+trying URL 'https://packagemanager.posit.co/cran/__linux__/jammy/latest/src/contrib/ggbeeswarm_0.7.2.tar.gz'
+Content type 'binary/octet-stream' length 1754648 bytes (1.7 MB)
+==================================================
+downloaded 1.7 MB
+
+trying URL 'https://packagemanager.posit.co/cran/__linux__/jammy/latest/src/contrib/Rtsne_0.16.tar.gz'
+Content type 'binary/octet-stream' length 112069 bytes (109 KB)
+==================================================
+downloaded 109 KB
+
+trying URL 'https://packagemanager.posit.co/cran/__linux__/jammy/latest/src/contrib/RcppML_0.3.7.tar.gz'
+Content type 'binary/octet-stream' length 195003 bytes (190 KB)
+==================================================
+downloaded 190 KB
+
+trying URL 'https://packagemanager.posit.co/cran/__linux__/jammy/latest/src/contrib/uwot_0.1.16.tar.gz'
+Content type 'binary/octet-stream' length 682660 bytes (666 KB)
+==================================================
+downloaded 666 KB
+
+trying URL 'https://packagemanager.posit.co/cran/__linux__/jammy/latest/src/contrib/pheatmap_1.0.12.tar.gz'
+Content type 'binary/octet-stream' length 76685 bytes (74 KB)
+==================================================
+downloaded 74 KB
+
+trying URL 'https://packagemanager.posit.co/cran/__linux__/jammy/latest/src/contrib/ggrepel_0.9.3.tar.gz'
+Content type 'binary/octet-stream' length 270455 bytes (264 KB)
+==================================================
+downloaded 264 KB
+
+trying URL 'https://bioconductor.org/packages/3.17/bioc/src/contrib/densvis_1.10.3.tar.gz'
+Content type 'application/x-gzip' length 1731202 bytes (1.7 MB)
+==================================================
+downloaded 1.7 MB
+
+trying URL 'https://packagemanager.posit.co/cran/__linux__/jammy/latest/src/contrib/ggrastr_1.0.2.tar.gz'
+Content type 'binary/octet-stream' length 2580633 bytes (2.5 MB)
+==================================================
+downloaded 2.5 MB
+
+trying URL 'https://packagemanager.posit.co/cran/__linux__/jammy/latest/src/contrib/RcppProgress_0.4.2.tar.gz'
+Content type 'binary/octet-stream' length 19762 bytes (19 KB)
+==================================================
+downloaded 19 KB
+
+trying URL 'https://bioconductor.org/packages/3.17/bioc/src/contrib/SingleCellExperiment_1.22.0.tar.gz'
+Content type 'application/x-gzip' length 939387 bytes (917 KB)
+==================================================
+downloaded 917 KB
+
+trying URL 'https://bioconductor.org/packages/3.17/bioc/src/contrib/SummarizedExperiment_1.30.2.tar.gz'
+Content type 'application/x-gzip' length 684561 bytes (668 KB)
+==================================================
+downloaded 668 KB
+
+trying URL 'https://bioconductor.org/packages/3.17/bioc/src/contrib/scater_1.28.0.tar.gz'
+Content type 'application/x-gzip' length 4089325 bytes (3.9 MB)
+==================================================
+downloaded 3.9 MB
+
+trying URL 'https://packagemanager.posit.co/cran/__linux__/jammy/latest/src/contrib/mclust_6.0.0.tar.gz'
+Content type 'binary/octet-stream' length 4093485 bytes (3.9 MB)
+==================================================
+downloaded 3.9 MB
+
+trying URL 'https://packagemanager.posit.co/cran/__linux__/jammy/latest/src/contrib/word2vec_0.3.4.tar.gz'
+Content type 'binary/octet-stream' length 306196 bytes (299 KB)
+==================================================
+downloaded 299 KB
+
+trying URL 'https://packagemanager.posit.co/cran/__linux__/jammy/latest/src/contrib/ggseqlogo_0.1.tar.gz'
+Content type 'binary/octet-stream' length 778960 bytes (760 KB)
+==================================================
+downloaded 760 KB
+
+trying URL 'https://bioconductor.org/packages/3.17/bioc/src/contrib/VAExprs_1.6.0.tar.gz'
+Content type 'application/x-gzip' length 1999106 bytes (1.9 MB)
+==================================================
+downloaded 1.9 MB
+
+trying URL 'https://bioconductor.org/packages/3.17/bioc/src/contrib/GenProSeq_1.4.2.tar.gz'
+Content type 'application/x-gzip' length 1917808 bytes (1.8 MB)
+==================================================
+downloaded 1.8 MB
+
+* installing *binary* package ‘filelock’ ...
+* ‘filelock’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘filelock’ as ‘filelock_1.0.2_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (filelock)
+* installing *source* package ‘zlibbioc’ ...
+** using staged installation
+configure: creating ./config.status
+config.status: creating src/Makevars
+** libs
+using C compiler: ‘gcc (Ubuntu 11.3.0-1ubuntu1~22.04) 11.3.0’
+mkdir -p "/tmp/tmp/built/00LOCK-zlibbioc/00new/zlibbioc/include"
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c R_init_zlibbioc.c -o R_init_zlibbioc.o
+gcc -shared -L/usr/local/lib/R/lib -L/usr/local/lib -o zlibbioc.so R_init_zlibbioc.o -L/usr/local/lib/R/lib -lR
+installing to /tmp/tmp/built/00LOCK-zlibbioc/00new/zlibbioc/libs
+** R
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘zlibbioc’ as ‘zlibbioc_1.46.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (zlibbioc)
+* installing *binary* package ‘bitops’ ...
+* ‘bitops’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘bitops’ as ‘bitops_1.0-7_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (bitops)
+* installing *binary* package ‘sitmo’ ...
+* ‘sitmo’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘sitmo’ as ‘sitmo_2.0.2_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (sitmo)
+* installing *binary* package ‘matrixStats’ ...
+* ‘matrixStats’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘matrixStats’ as ‘matrixStats_1.0.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (matrixStats)
+* installing *source* package ‘GenomeInfoDbData’ ...
+** using staged installation
+** data
+** inst
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘GenomeInfoDbData’ as ‘GenomeInfoDbData_1.2.10_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (GenomeInfoDbData)
+* installing *binary* package ‘abind’ ...
+* ‘abind’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘abind’ as ‘abind_1.4-5_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (abind)
+* installing *binary* package ‘RcppHNSW’ ...
+* ‘RcppHNSW’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘RcppHNSW’ as ‘RcppHNSW_0.4.1_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (RcppHNSW)
+* installing *binary* package ‘irlba’ ...
+* ‘irlba’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘irlba’ as ‘irlba_2.3.5.1_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (irlba)
+* installing *binary* package ‘rsvd’ ...
+* ‘rsvd’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘rsvd’ as ‘rsvd_1.0.5_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (rsvd)
+* installing *binary* package ‘beeswarm’ ...
+* ‘beeswarm’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘beeswarm’ as ‘beeswarm_0.4.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (beeswarm)
+* installing *binary* package ‘vipor’ ...
+* ‘vipor’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘vipor’ as ‘vipor_0.4.5_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (vipor)
+* installing *binary* package ‘RcppEigen’ ...
+* ‘RcppEigen’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘RcppEigen’ as ‘RcppEigen_0.3.3.9.3_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (RcppEigen)
+* installing *binary* package ‘FNN’ ...
+* ‘FNN’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘FNN’ as ‘FNN_1.1.3.2_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (FNN)
+* installing *binary* package ‘RcppAnnoy’ ...
+* ‘RcppAnnoy’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘RcppAnnoy’ as ‘RcppAnnoy_0.0.21_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (RcppAnnoy)
+* installing *binary* package ‘assertthat’ ...
+* ‘assertthat’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘assertthat’ as ‘assertthat_0.2.1_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (assertthat)
+* installing *source* package ‘Cairo’ ...
+** package ‘Cairo’ successfully unpacked and MD5 sums checked
+** using staged installation
+checking for gcc... gcc
+checking whether the C compiler works... yes
+checking for C compiler default output file name... a.out
+checking for suffix of executables... 
+checking whether we are cross compiling... no
+checking for suffix of object files... o
+checking whether the compiler supports GNU C... yes
+checking whether gcc accepts -g... yes
+checking for gcc option to enable C11 features... none needed
+checking for sys/wait.h that is POSIX.1 compatible... yes
+checking for stdio.h... yes
+checking for stdlib.h... yes
+checking for string.h... yes
+checking for inttypes.h... yes
+checking for stdint.h... yes
+checking for strings.h... yes
+checking for sys/stat.h... yes
+checking for sys/types.h... yes
+checking for unistd.h... yes
+checking for string.h... (cached) yes
+checking for sys/time.h... yes
+checking for unistd.h... (cached) yes
+checking for an ANSI C-conforming const... yes
+checking for pkg-config... /usr/bin/pkg-config
+checking whether pkg-config knows about cairo... yes
+checking for configurable backends... cairo cairo-ft cairo-pdf cairo-png cairo-ps cairo-xlib cairo-xlib-xrender
+checking whether --static is needed... no
+configure: CAIRO_CFLAGS=-I/usr/include/cairo -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include -I/usr/include/pixman-1 -I/usr/include/uuid -I/usr/include/freetype2 -I/usr/include/libpng16
+checking if R was compiled with the RConn patch... no
+checking for cairo.h... yes
+checking for PNG support in Cairo... yes
+checking for ATS font support in Cairo... no
+configure: CAIRO_LIBS=-lfreetype -lz -lpng16 -lz -lcairo -lXext -lXrender -lX11
+checking for library containing deflate... none required
+checking whether Cairo programs can be compiled... yes
+checking for gcc options needed to detect all undeclared functions... none needed
+checking whether cairo_image_surface_get_format is declared... no
+checking whether FreeType support is desired... auto
+checking for FreeType support in cairo... yes
+checking whether FreeType needs additional flags... no
+checking whether libjpeg works... yes
+checking whether Harfbuzz layout is desired... auto
+checking whether Harfbuzz + ICU works... yes
+checking whether libtiff works... yes
+configure: creating ./config.status
+config.status: creating src/Makevars
+config.status: creating src/cconfig.h
+** libs
+using C compiler: ‘gcc (Ubuntu 11.3.0-1ubuntu1~22.04) 11.3.0’
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -I/usr/include/cairo -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include -I/usr/include/pixman-1 -I/usr/include/uuid -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/harfbuzz -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include -I/usr/include/freetype2 -I/usr/include/libpng16  -I. -Iinclude  -I/usr/local/include   -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c cairobem.c -o cairobem.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -I/usr/include/cairo -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include -I/usr/include/pixman-1 -I/usr/include/uuid -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/harfbuzz -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include -I/usr/include/freetype2 -I/usr/include/libpng16  -I. -Iinclude  -I/usr/local/include   -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c cairogd.c -o cairogd.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -I/usr/include/cairo -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include -I/usr/include/pixman-1 -I/usr/include/uuid -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/harfbuzz -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include -I/usr/include/freetype2 -I/usr/include/libpng16  -I. -Iinclude  -I/usr/local/include   -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c cairotalk.c -o cairotalk.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -I/usr/include/cairo -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include -I/usr/include/pixman-1 -I/usr/include/uuid -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/harfbuzz -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include -I/usr/include/freetype2 -I/usr/include/libpng16  -I. -Iinclude  -I/usr/local/include   -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c img-backend.c -o img-backend.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -I/usr/include/cairo -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include -I/usr/include/pixman-1 -I/usr/include/uuid -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/harfbuzz -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include -I/usr/include/freetype2 -I/usr/include/libpng16  -I. -Iinclude  -I/usr/local/include   -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c img-jpeg.c -o img-jpeg.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -I/usr/include/cairo -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include -I/usr/include/pixman-1 -I/usr/include/uuid -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/harfbuzz -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include -I/usr/include/freetype2 -I/usr/include/libpng16  -I. -Iinclude  -I/usr/local/include   -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c img-tiff.c -o img-tiff.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -I/usr/include/cairo -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include -I/usr/include/pixman-1 -I/usr/include/uuid -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/harfbuzz -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include -I/usr/include/freetype2 -I/usr/include/libpng16  -I. -Iinclude  -I/usr/local/include   -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c pdf-backend.c -o pdf-backend.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -I/usr/include/cairo -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include -I/usr/include/pixman-1 -I/usr/include/uuid -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/harfbuzz -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include -I/usr/include/freetype2 -I/usr/include/libpng16  -I. -Iinclude  -I/usr/local/include   -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c ps-backend.c -o ps-backend.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -I/usr/include/cairo -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include -I/usr/include/pixman-1 -I/usr/include/uuid -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/harfbuzz -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include -I/usr/include/freetype2 -I/usr/include/libpng16  -I. -Iinclude  -I/usr/local/include   -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c svg-backend.c -o svg-backend.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -I/usr/include/cairo -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include -I/usr/include/pixman-1 -I/usr/include/uuid -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/harfbuzz -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include -I/usr/include/freetype2 -I/usr/include/libpng16  -I. -Iinclude  -I/usr/local/include   -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c w32-backend.c -o w32-backend.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG -I/usr/include/cairo -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include -I/usr/include/pixman-1 -I/usr/include/uuid -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/harfbuzz -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include -I/usr/include/freetype2 -I/usr/include/libpng16  -I. -Iinclude  -I/usr/local/include   -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c xlib-backend.c -o xlib-backend.o
+gcc -shared -L/usr/local/lib/R/lib -L/usr/local/lib -o Cairo.so cairobem.o cairogd.o cairotalk.o img-backend.o img-jpeg.o img-tiff.o pdf-backend.o ps-backend.o svg-backend.o w32-backend.o xlib-backend.o -L/usr/local/lib -lfreetype -lz -lpng16 -lz -lcairo -lXext -lXrender -lX11 -ljpeg -lharfbuzz-icu -lharfbuzz -licuuc -licudata -lstdc++ -ltiff -L/usr/local/lib/R/lib -lR
+installing to /tmp/tmp/built/00LOCK-Cairo/00new/Cairo/libs
+** R
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘Cairo’ as ‘Cairo_1.6-0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (Cairo)
+* installing *source* package ‘BiocGenerics’ ...
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+Creating a new generic function for ‘aperm’ in package ‘BiocGenerics’
+Creating a new generic function for ‘append’ in package ‘BiocGenerics’
+Creating a new generic function for ‘as.data.frame’ in package ‘BiocGenerics’
+Creating a new generic function for ‘cbind’ in package ‘BiocGenerics’
+Creating a new generic function for ‘rbind’ in package ‘BiocGenerics’
+Creating a new generic function for ‘do.call’ in package ‘BiocGenerics’
+Creating a new generic function for ‘duplicated’ in package ‘BiocGenerics’
+Creating a new generic function for ‘anyDuplicated’ in package ‘BiocGenerics’
+Creating a new generic function for ‘eval’ in package ‘BiocGenerics’
+Creating a new generic function for ‘pmax’ in package ‘BiocGenerics’
+Creating a new generic function for ‘pmin’ in package ‘BiocGenerics’
+Creating a new generic function for ‘pmax.int’ in package ‘BiocGenerics’
+Creating a new generic function for ‘pmin.int’ in package ‘BiocGenerics’
+Creating a new generic function for ‘Reduce’ in package ‘BiocGenerics’
+Creating a new generic function for ‘Filter’ in package ‘BiocGenerics’
+Creating a new generic function for ‘Find’ in package ‘BiocGenerics’
+Creating a new generic function for ‘Map’ in package ‘BiocGenerics’
+Creating a new generic function for ‘Position’ in package ‘BiocGenerics’
+Creating a new generic function for ‘get’ in package ‘BiocGenerics’
+Creating a new generic function for ‘mget’ in package ‘BiocGenerics’
+Creating a new generic function for ‘grep’ in package ‘BiocGenerics’
+Creating a new generic function for ‘grepl’ in package ‘BiocGenerics’
+Creating a new generic function for ‘is.unsorted’ in package ‘BiocGenerics’
+Creating a new generic function for ‘lapply’ in package ‘BiocGenerics’
+Creating a new generic function for ‘sapply’ in package ‘BiocGenerics’
+Creating a new generic function for ‘mapply’ in package ‘BiocGenerics’
+Creating a new generic function for ‘match’ in package ‘BiocGenerics’
+Creating a new generic function for ‘order’ in package ‘BiocGenerics’
+Creating a new generic function for ‘paste’ in package ‘BiocGenerics’
+Creating a new generic function for ‘rank’ in package ‘BiocGenerics’
+Creating a new generic function for ‘rownames’ in package ‘BiocGenerics’
+Creating a new generic function for ‘colnames’ in package ‘BiocGenerics’
+Creating a new generic function for ‘union’ in package ‘BiocGenerics’
+Creating a new generic function for ‘intersect’ in package ‘BiocGenerics’
+Creating a new generic function for ‘setdiff’ in package ‘BiocGenerics’
+Creating a new generic function for ‘sort’ in package ‘BiocGenerics’
+Creating a new generic function for ‘table’ in package ‘BiocGenerics’
+Creating a new generic function for ‘tapply’ in package ‘BiocGenerics’
+Creating a new generic function for ‘unique’ in package ‘BiocGenerics’
+Creating a new generic function for ‘unsplit’ in package ‘BiocGenerics’
+Creating a new generic function for ‘var’ in package ‘BiocGenerics’
+Creating a new generic function for ‘sd’ in package ‘BiocGenerics’
+Creating a new generic function for ‘which.min’ in package ‘BiocGenerics’
+Creating a new generic function for ‘which.max’ in package ‘BiocGenerics’
+Creating a new generic function for ‘IQR’ in package ‘BiocGenerics’
+Creating a new generic function for ‘mad’ in package ‘BiocGenerics’
+Creating a new generic function for ‘xtabs’ in package ‘BiocGenerics’
+Creating a new generic function for ‘basename’ in package ‘BiocGenerics’
+Creating a new generic function for ‘dirname’ in package ‘BiocGenerics’
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘BiocGenerics’ as ‘BiocGenerics_0.46.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (BiocGenerics)
+* installing *binary* package ‘Rtsne’ ...
+* ‘Rtsne’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘Rtsne’ as ‘Rtsne_0.16_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (Rtsne)
+* installing *binary* package ‘pheatmap’ ...
+* ‘pheatmap’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘pheatmap’ as ‘pheatmap_1.0.12_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (pheatmap)
+* installing *binary* package ‘ggrepel’ ...
+* ‘ggrepel’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘ggrepel’ as ‘ggrepel_0.9.3_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (ggrepel)
+* installing *binary* package ‘RcppProgress’ ...
+* ‘RcppProgress’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘RcppProgress’ as ‘RcppProgress_0.4.2_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (RcppProgress)
+* installing *binary* package ‘mclust’ ...
+* ‘mclust’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘mclust’ as ‘mclust_6.0.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (mclust)
+* installing *binary* package ‘ggseqlogo’ ...
+* ‘ggseqlogo’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘ggseqlogo’ as ‘ggseqlogo_0.1_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (ggseqlogo)
+* installing *source* package ‘dir.expiry’ ...
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘dir.expiry’ as ‘dir.expiry_1.8.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (dir.expiry)
+* installing *binary* package ‘RCurl’ ...
+* ‘RCurl’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘RCurl’ as ‘RCurl_1.98-1.12_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (RCurl)
+* installing *binary* package ‘dqrng’ ...
+* ‘dqrng’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘dqrng’ as ‘dqrng_0.3.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (dqrng)
+* installing *source* package ‘S4Vectors’ ...
+** using staged installation
+** libs
+using C compiler: ‘gcc (Ubuntu 11.3.0-1ubuntu1~22.04) 11.3.0’
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c AEbufs.c -o AEbufs.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c DataFrame_class.c -o DataFrame_class.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c Hits_class.c -o Hits_class.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c LLint_class.c -o LLint_class.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c List_class.c -o List_class.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c R_init_S4Vectors.c -o R_init_S4Vectors.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c Rle_class.c -o Rle_class.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c Rle_utils.c -o Rle_utils.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c SEXP_utils.c -o SEXP_utils.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c SimpleList_class.c -o SimpleList_class.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c anyMissing.c -o anyMissing.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c character_utils.c -o character_utils.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c eval_utils.c -o eval_utils.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c hash_utils.c -o hash_utils.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c integer_utils.c -o integer_utils.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c logical_utils.c -o logical_utils.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c map_ranges_to_runs.c -o map_ranges_to_runs.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c raw_utils.c -o raw_utils.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c safe_arithm.c -o safe_arithm.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c sort_utils.c -o sort_utils.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c subsetting_utils.c -o subsetting_utils.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c vector_utils.c -o vector_utils.o
+gcc -shared -L/usr/local/lib/R/lib -L/usr/local/lib -o S4Vectors.so AEbufs.o DataFrame_class.o Hits_class.o LLint_class.o List_class.o R_init_S4Vectors.o Rle_class.o Rle_utils.o SEXP_utils.o SimpleList_class.o anyMissing.o character_utils.o eval_utils.o hash_utils.o integer_utils.o logical_utils.o map_ranges_to_runs.o raw_utils.o safe_arithm.o sort_utils.o subsetting_utils.o vector_utils.o -L/usr/local/lib/R/lib -lR
+installing to /tmp/tmp/built/00LOCK-S4Vectors/00new/S4Vectors/libs
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+in method for ‘normalizeSingleBracketReplacementValue’ with signature ‘"List"’: no definition for class “List”
+Creating a new generic function for ‘unname’ in package ‘S4Vectors’
+Creating a new generic function for ‘expand.grid’ in package ‘S4Vectors’
+Creating a new generic function for ‘findMatches’ in package ‘S4Vectors’
+Creating a generic function for ‘setequal’ from package ‘base’ in package ‘S4Vectors’
+in method for ‘coerce’ with signature ‘"Hits","DFrame"’: no definition for class “DFrame”
+Creating a generic function for ‘as.factor’ from package ‘base’ in package ‘S4Vectors’
+Creating a generic function for ‘tabulate’ from package ‘base’ in package ‘S4Vectors’
+Creating a generic function for ‘cov’ from package ‘stats’ in package ‘S4Vectors’
+Creating a generic function for ‘cor’ from package ‘stats’ in package ‘S4Vectors’
+Creating a generic function for ‘smoothEnds’ from package ‘stats’ in package ‘S4Vectors’
+Creating a generic function for ‘runmed’ from package ‘stats’ in package ‘S4Vectors’
+Creating a generic function for ‘nchar’ from package ‘base’ in package ‘S4Vectors’
+Creating a generic function for ‘substr’ from package ‘base’ in package ‘S4Vectors’
+Creating a generic function for ‘substring’ from package ‘base’ in package ‘S4Vectors’
+Creating a generic function for ‘chartr’ from package ‘base’ in package ‘S4Vectors’
+Creating a generic function for ‘tolower’ from package ‘base’ in package ‘S4Vectors’
+Creating a generic function for ‘toupper’ from package ‘base’ in package ‘S4Vectors’
+Creating a generic function for ‘sub’ from package ‘base’ in package ‘S4Vectors’
+Creating a generic function for ‘gsub’ from package ‘base’ in package ‘S4Vectors’
+Creating a generic function for ‘nlevels’ from package ‘base’ in package ‘S4Vectors’
+in method for ‘coerce’ with signature ‘"data.table","DFrame"’: no definition for class “data.table”
+Creating a generic function for ‘complete.cases’ from package ‘stats’ in package ‘S4Vectors’
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘S4Vectors’ as ‘S4Vectors_0.38.1_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (S4Vectors)
+* installing *source* package ‘MatrixGenerics’ ...
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+Creating a new generic function for ‘rowAlls’ in package ‘MatrixGenerics’
+Creating a new generic function for ‘colAlls’ in package ‘MatrixGenerics’
+Creating a new generic function for ‘rowAnyNAs’ in package ‘MatrixGenerics’
+Creating a new generic function for ‘colAnyNAs’ in package ‘MatrixGenerics’
+Creating a new generic function for ‘rowAnys’ in package ‘MatrixGenerics’
+Creating a new generic function for ‘colAnys’ in package ‘MatrixGenerics’
+Creating a new generic function for ‘rowAvgsPerColSet’ in package ‘MatrixGenerics’
+Creating a new generic function for ‘colAvgsPerRowSet’ in package ‘MatrixGenerics’
+Creating a new generic function for ‘rowCollapse’ in package ‘MatrixGenerics’
+Creating a new generic function for ‘colCollapse’ in package ‘MatrixGenerics’
+Creating a new generic function for ‘rowCounts’ in package ‘MatrixGenerics’
+Creating a new generic function for ‘colCounts’ in package ‘MatrixGenerics’
+Creating a new generic function for ‘rowCummaxs’ in package ‘MatrixGenerics’
+Creating a new generic function for ‘colCummaxs’ in package ‘MatrixGenerics’
+Creating a new generic function for ‘rowCummins’ in package ‘MatrixGenerics’
+Creating a new generic function for ‘colCummins’ in package ‘MatrixGenerics’
+Creating a new generic function for ‘rowCumprods’ in package ‘MatrixGenerics’
+Creating a new generic function for ‘colCumprods’ in package ‘MatrixGenerics’
+Creating a new generic function for ‘rowCumsums’ in package ‘MatrixGenerics’
+Creating a new generic function for ‘colCumsums’ in package ‘MatrixGenerics’
+Creating a new generic function for ‘rowDiffs’ in package ‘MatrixGenerics’
+Creating a new generic function for ‘colDiffs’ in package ‘MatrixGenerics’
+Creating a new generic function for ‘rowIQRDiffs’ in package ‘MatrixGenerics’
+Creating a new generic function for ‘colIQRDiffs’ in package ‘MatrixGenerics’
+Creating a new generic function for ‘rowIQRs’ in package ‘MatrixGenerics’
+Creating a new generic function for ‘colIQRs’ in package ‘MatrixGenerics’
+Creating a new generic function for ‘rowLogSumExps’ in package ‘MatrixGenerics’
+Creating a new generic function for ‘colLogSumExps’ in package ‘MatrixGenerics’
+Creating a new generic function for ‘rowMadDiffs’ in package ‘MatrixGenerics’
+Creating a new generic function for ‘colMadDiffs’ in package ‘MatrixGenerics’
+Creating a new generic function for ‘rowMads’ in package ‘MatrixGenerics’
+Creating a new generic function for ‘colMads’ in package ‘MatrixGenerics’
+Creating a new generic function for ‘rowMaxs’ in package ‘MatrixGenerics’
+Creating a new generic function for ‘colMaxs’ in package ‘MatrixGenerics’
+Creating a new generic function for ‘rowMeans2’ in package ‘MatrixGenerics’
+Creating a new generic function for ‘colMeans2’ in package ‘MatrixGenerics’
+Creating a new generic function for ‘rowMedians’ in package ‘MatrixGenerics’
+Creating a new generic function for ‘colMedians’ in package ‘MatrixGenerics’
+Creating a new generic function for ‘rowMins’ in package ‘MatrixGenerics’
+Creating a new generic function for ‘colMins’ in package ‘MatrixGenerics’
+Creating a new generic function for ‘rowOrderStats’ in package ‘MatrixGenerics’
+Creating a new generic function for ‘colOrderStats’ in package ‘MatrixGenerics’
+Creating a new generic function for ‘rowProds’ in package ‘MatrixGenerics’
+Creating a new generic function for ‘colProds’ in package ‘MatrixGenerics’
+Creating a new generic function for ‘rowQuantiles’ in package ‘MatrixGenerics’
+Creating a new generic function for ‘colQuantiles’ in package ‘MatrixGenerics’
+Creating a new generic function for ‘rowRanges’ in package ‘MatrixGenerics’
+Creating a new generic function for ‘colRanges’ in package ‘MatrixGenerics’
+Creating a new generic function for ‘rowRanks’ in package ‘MatrixGenerics’
+Creating a new generic function for ‘colRanks’ in package ‘MatrixGenerics’
+Creating a new generic function for ‘rowSdDiffs’ in package ‘MatrixGenerics’
+Creating a new generic function for ‘colSdDiffs’ in package ‘MatrixGenerics’
+Creating a new generic function for ‘rowSds’ in package ‘MatrixGenerics’
+Creating a new generic function for ‘colSds’ in package ‘MatrixGenerics’
+Creating a new generic function for ‘rowSums2’ in package ‘MatrixGenerics’
+Creating a new generic function for ‘colSums2’ in package ‘MatrixGenerics’
+Creating a new generic function for ‘rowTabulates’ in package ‘MatrixGenerics’
+Creating a new generic function for ‘colTabulates’ in package ‘MatrixGenerics’
+Creating a new generic function for ‘rowVarDiffs’ in package ‘MatrixGenerics’
+Creating a new generic function for ‘colVarDiffs’ in package ‘MatrixGenerics’
+Creating a new generic function for ‘rowVars’ in package ‘MatrixGenerics’
+Creating a new generic function for ‘colVars’ in package ‘MatrixGenerics’
+Creating a new generic function for ‘rowWeightedMads’ in package ‘MatrixGenerics’
+Creating a new generic function for ‘colWeightedMads’ in package ‘MatrixGenerics’
+Creating a new generic function for ‘rowWeightedMeans’ in package ‘MatrixGenerics’
+Creating a new generic function for ‘colWeightedMeans’ in package ‘MatrixGenerics’
+Creating a new generic function for ‘rowWeightedMedians’ in package ‘MatrixGenerics’
+Creating a new generic function for ‘colWeightedMedians’ in package ‘MatrixGenerics’
+Creating a new generic function for ‘rowWeightedSds’ in package ‘MatrixGenerics’
+Creating a new generic function for ‘colWeightedSds’ in package ‘MatrixGenerics’
+Creating a new generic function for ‘rowWeightedVars’ in package ‘MatrixGenerics’
+Creating a new generic function for ‘colWeightedVars’ in package ‘MatrixGenerics’
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘MatrixGenerics’ as ‘MatrixGenerics_1.12.3_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (MatrixGenerics)
+* installing *source* package ‘Biobase’ ...
+** using staged installation
+** libs
+using C compiler: ‘gcc (Ubuntu 11.3.0-1ubuntu1~22.04) 11.3.0’
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c Rinit.c -o Rinit.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c anyMissing.c -o anyMissing.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c envir.c -o envir.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c matchpt.c -o matchpt.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c rowMedians.c -o rowMedians.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG   -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c sublist_extract.c -o sublist_extract.o
+gcc -shared -L/usr/local/lib/R/lib -L/usr/local/lib -o Biobase.so Rinit.o anyMissing.o envir.o matchpt.o rowMedians.o sublist_extract.o -L/usr/local/lib/R/lib -lR
+installing to /tmp/tmp/built/00LOCK-Biobase/00new/Biobase/libs
+** R
+** data
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘Biobase’ as ‘Biobase_2.60.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (Biobase)
+* installing *binary* package ‘ggbeeswarm’ ...
+* ‘ggbeeswarm’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘ggbeeswarm’ as ‘ggbeeswarm_0.7.2_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (ggbeeswarm)
+* installing *binary* package ‘RcppML’ ...
+* ‘RcppML’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘RcppML’ as ‘RcppML_0.3.7_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (RcppML)
+* installing *binary* package ‘word2vec’ ...
+* ‘word2vec’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘word2vec’ as ‘word2vec_0.3.4_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (word2vec)
+* installing *source* package ‘basilisk.utils’ ...
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘basilisk.utils’ as ‘basilisk.utils_1.12.1_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (basilisk.utils)
+* installing *source* package ‘sparseMatrixStats’ ...
+** using staged installation
+** libs
+using C++ compiler: ‘g++ (Ubuntu 11.3.0-1ubuntu1~22.04) 11.3.0’
+using C++11
+g++ -std=gnu++11 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c RcppExports.cpp -o RcppExports.o
+g++ -std=gnu++11 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c SparseMatrixView.cpp -o SparseMatrixView.o
+g++ -std=gnu++11 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c methods.cpp -o methods.o
+g++ -std=gnu++11 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c row_methods.cpp -o row_methods.o
+g++ -std=gnu++11 -shared -L/usr/local/lib/R/lib -L/usr/local/lib -o sparseMatrixStats.so RcppExports.o SparseMatrixView.o methods.o row_methods.o -L/usr/local/lib/R/lib -lR
+installing to /tmp/tmp/built/00LOCK-sparseMatrixStats/00new/sparseMatrixStats/libs
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+*** copying figures
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘sparseMatrixStats’ as ‘sparseMatrixStats_1.12.2_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (sparseMatrixStats)
+* installing *source* package ‘IRanges’ ...
+** using staged installation
+** libs
+using C compiler: ‘gcc (Ubuntu 11.3.0-1ubuntu1~22.04) 11.3.0’
+gcc -I"/usr/local/lib/R/include" -DNDEBUG  -I'/tmp/tmp/built/S4Vectors/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c CompressedAtomicList_utils.c -o CompressedAtomicList_utils.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG  -I'/tmp/tmp/built/S4Vectors/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c CompressedIRangesList_class.c -o CompressedIRangesList_class.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG  -I'/tmp/tmp/built/S4Vectors/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c CompressedList_class.c -o CompressedList_class.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG  -I'/tmp/tmp/built/S4Vectors/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c Grouping_class.c -o Grouping_class.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG  -I'/tmp/tmp/built/S4Vectors/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c IPosRanges_comparison.c -o IPosRanges_comparison.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG  -I'/tmp/tmp/built/S4Vectors/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c IRanges_class.c -o IRanges_class.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG  -I'/tmp/tmp/built/S4Vectors/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c IRanges_constructor.c -o IRanges_constructor.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG  -I'/tmp/tmp/built/S4Vectors/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c NCList.c -o NCList.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG  -I'/tmp/tmp/built/S4Vectors/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c R_init_IRanges.c -o R_init_IRanges.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG  -I'/tmp/tmp/built/S4Vectors/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c Ranges_class.c -o Ranges_class.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG  -I'/tmp/tmp/built/S4Vectors/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c RleViews_utils.c -o RleViews_utils.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG  -I'/tmp/tmp/built/S4Vectors/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c S4Vectors_stubs.c -o S4Vectors_stubs.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG  -I'/tmp/tmp/built/S4Vectors/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c SimpleIRangesList_class.c -o SimpleIRangesList_class.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG  -I'/tmp/tmp/built/S4Vectors/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c coverage_methods.c -o coverage_methods.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG  -I'/tmp/tmp/built/S4Vectors/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c extractListFragments.c -o extractListFragments.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG  -I'/tmp/tmp/built/S4Vectors/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c inter_range_methods.c -o inter_range_methods.o
+gcc -shared -L/usr/local/lib/R/lib -L/usr/local/lib -o IRanges.so CompressedAtomicList_utils.o CompressedIRangesList_class.o CompressedList_class.o Grouping_class.o IPosRanges_comparison.o IRanges_class.o IRanges_constructor.o NCList.o R_init_IRanges.o Ranges_class.o RleViews_utils.o S4Vectors_stubs.o SimpleIRangesList_class.o coverage_methods.o extractListFragments.o inter_range_methods.o -L/usr/local/lib/R/lib -lR
+installing to /tmp/tmp/built/00LOCK-IRanges/00new/IRanges/libs
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+Creating a generic function for ‘drop’ from package ‘base’ in package ‘IRanges’
+Creating a generic function for ‘runmed’ from package ‘stats’ in package ‘IRanges’
+Creating a generic function for ‘chartr’ from package ‘base’ in package ‘IRanges’
+Creating a generic function for ‘toupper’ from package ‘base’ in package ‘IRanges’
+Creating a generic function for ‘tolower’ from package ‘base’ in package ‘IRanges’
+Creating a generic function for ‘sub’ from package ‘base’ in package ‘IRanges’
+Creating a generic function for ‘gsub’ from package ‘base’ in package ‘IRanges’
+Creating a generic function for ‘startsWith’ from package ‘base’ in package ‘IRanges’
+Creating a generic function for ‘endsWith’ from package ‘base’ in package ‘IRanges’
+Creating a generic function for ‘smoothEnds’ from package ‘stats’ in package ‘IRanges’
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘IRanges’ as ‘IRanges_2.34.1_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (IRanges)
+* installing *source* package ‘BiocNeighbors’ ...
+** using staged installation
+** libs
+using C++ compiler: ‘g++ (Ubuntu 11.3.0-1ubuntu1~22.04) 11.3.0’
+using C++11
+g++ -std=gnu++11 -I"/usr/local/lib/R/include" -DNDEBUG -I../inst/include/ -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/tmp/tmp/built/RcppHNSW/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c RcppExports.cpp -o RcppExports.o
+g++ -std=gnu++11 -I"/usr/local/lib/R/include" -DNDEBUG -I../inst/include/ -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/tmp/tmp/built/RcppHNSW/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c annoy.cpp -o annoy.o
+g++ -std=gnu++11 -I"/usr/local/lib/R/include" -DNDEBUG -I../inst/include/ -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/tmp/tmp/built/RcppHNSW/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c build_annoy.cpp -o build_annoy.o
+g++ -std=gnu++11 -I"/usr/local/lib/R/include" -DNDEBUG -I../inst/include/ -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/tmp/tmp/built/RcppHNSW/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c build_hnsw.cpp -o build_hnsw.o
+g++ -std=gnu++11 -I"/usr/local/lib/R/include" -DNDEBUG -I../inst/include/ -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/tmp/tmp/built/RcppHNSW/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c build_vptree.cpp -o build_vptree.o
+g++ -std=gnu++11 -I"/usr/local/lib/R/include" -DNDEBUG -I../inst/include/ -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/tmp/tmp/built/RcppHNSW/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c distances.cpp -o distances.o
+g++ -std=gnu++11 -I"/usr/local/lib/R/include" -DNDEBUG -I../inst/include/ -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/tmp/tmp/built/RcppHNSW/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c exhaustive.cpp -o exhaustive.o
+g++ -std=gnu++11 -I"/usr/local/lib/R/include" -DNDEBUG -I../inst/include/ -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/tmp/tmp/built/RcppHNSW/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c find_annoy.cpp -o find_annoy.o
+g++ -std=gnu++11 -I"/usr/local/lib/R/include" -DNDEBUG -I../inst/include/ -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/tmp/tmp/built/RcppHNSW/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c find_exhaustive.cpp -o find_exhaustive.o
+g++ -std=gnu++11 -I"/usr/local/lib/R/include" -DNDEBUG -I../inst/include/ -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/tmp/tmp/built/RcppHNSW/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c find_hnsw.cpp -o find_hnsw.o
+g++ -std=gnu++11 -I"/usr/local/lib/R/include" -DNDEBUG -I../inst/include/ -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/tmp/tmp/built/RcppHNSW/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c find_kmknn.cpp -o find_kmknn.o
+g++ -std=gnu++11 -I"/usr/local/lib/R/include" -DNDEBUG -I../inst/include/ -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/tmp/tmp/built/RcppHNSW/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c find_mutual_nns.cpp -o find_mutual_nns.o
+g++ -std=gnu++11 -I"/usr/local/lib/R/include" -DNDEBUG -I../inst/include/ -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/tmp/tmp/built/RcppHNSW/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c find_vptree.cpp -o find_vptree.o
+g++ -std=gnu++11 -I"/usr/local/lib/R/include" -DNDEBUG -I../inst/include/ -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/tmp/tmp/built/RcppHNSW/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c hnsw.cpp -o hnsw.o
+g++ -std=gnu++11 -I"/usr/local/lib/R/include" -DNDEBUG -I../inst/include/ -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/tmp/tmp/built/RcppHNSW/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c kmknn.cpp -o kmknn.o
+g++ -std=gnu++11 -I"/usr/local/lib/R/include" -DNDEBUG -I../inst/include/ -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/tmp/tmp/built/RcppHNSW/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c query_annoy.cpp -o query_annoy.o
+g++ -std=gnu++11 -I"/usr/local/lib/R/include" -DNDEBUG -I../inst/include/ -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/tmp/tmp/built/RcppHNSW/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c query_exhaustive.cpp -o query_exhaustive.o
+g++ -std=gnu++11 -I"/usr/local/lib/R/include" -DNDEBUG -I../inst/include/ -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/tmp/tmp/built/RcppHNSW/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c query_hnsw.cpp -o query_hnsw.o
+g++ -std=gnu++11 -I"/usr/local/lib/R/include" -DNDEBUG -I../inst/include/ -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/tmp/tmp/built/RcppHNSW/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c query_kmknn.cpp -o query_kmknn.o
+g++ -std=gnu++11 -I"/usr/local/lib/R/include" -DNDEBUG -I../inst/include/ -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/tmp/tmp/built/RcppHNSW/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c query_vptree.cpp -o query_vptree.o
+g++ -std=gnu++11 -I"/usr/local/lib/R/include" -DNDEBUG -I../inst/include/ -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/tmp/tmp/built/RcppHNSW/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c utils.cpp -o utils.o
+g++ -std=gnu++11 -I"/usr/local/lib/R/include" -DNDEBUG -I../inst/include/ -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/tmp/tmp/built/RcppHNSW/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c vptree.cpp -o vptree.o
+g++ -std=gnu++11 -shared -L/usr/local/lib/R/lib -L/usr/local/lib -o BiocNeighbors.so RcppExports.o annoy.o build_annoy.o build_hnsw.o build_vptree.o distances.o exhaustive.o find_annoy.o find_exhaustive.o find_hnsw.o find_kmknn.o find_mutual_nns.o find_vptree.o hnsw.o kmknn.o query_annoy.o query_exhaustive.o query_hnsw.o query_kmknn.o query_vptree.o utils.o vptree.o -L/usr/local/lib/R/lib -lR
+installing to /tmp/tmp/built/00LOCK-BiocNeighbors/00new/BiocNeighbors/libs
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘BiocNeighbors’ as ‘BiocNeighbors_1.18.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (BiocNeighbors)
+* installing *binary* package ‘uwot’ ...
+* ‘uwot’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘uwot’ as ‘uwot_0.1.16_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (uwot)
+* installing *source* package ‘ggrastr’ ...
+** package ‘ggrastr’ successfully unpacked and MD5 sums checked
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘ggrastr’ as ‘ggrastr_1.0.2_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (ggrastr)
+* installing *source* package ‘GenProSeq’ ...
+** using staged installation
+** R
+** data
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘GenProSeq’ as ‘GenProSeq_1.4.2_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (GenProSeq)
+* installing *source* package ‘XVector’ ...
+** using staged installation
+** libs
+using C compiler: ‘gcc (Ubuntu 11.3.0-1ubuntu1~22.04) 11.3.0’
+gcc -I"/usr/local/lib/R/include" -DNDEBUG  -I'/tmp/tmp/built/S4Vectors/include' -I'/tmp/tmp/built/IRanges/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c IRanges_stubs.c -o IRanges_stubs.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG  -I'/tmp/tmp/built/S4Vectors/include' -I'/tmp/tmp/built/IRanges/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c Ocopy_byteblocks.c -o Ocopy_byteblocks.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG  -I'/tmp/tmp/built/S4Vectors/include' -I'/tmp/tmp/built/IRanges/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c RDS_random_access.c -o RDS_random_access.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG  -I'/tmp/tmp/built/S4Vectors/include' -I'/tmp/tmp/built/IRanges/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c R_init_XVector.c -o R_init_XVector.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG  -I'/tmp/tmp/built/S4Vectors/include' -I'/tmp/tmp/built/IRanges/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c S4Vectors_stubs.c -o S4Vectors_stubs.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG  -I'/tmp/tmp/built/S4Vectors/include' -I'/tmp/tmp/built/IRanges/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c SharedDouble_class.c -o SharedDouble_class.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG  -I'/tmp/tmp/built/S4Vectors/include' -I'/tmp/tmp/built/IRanges/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c SharedInteger_class.c -o SharedInteger_class.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG  -I'/tmp/tmp/built/S4Vectors/include' -I'/tmp/tmp/built/IRanges/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c SharedRaw_class.c -o SharedRaw_class.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG  -I'/tmp/tmp/built/S4Vectors/include' -I'/tmp/tmp/built/IRanges/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c SharedVector_class.c -o SharedVector_class.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG  -I'/tmp/tmp/built/S4Vectors/include' -I'/tmp/tmp/built/IRanges/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c XDouble_class.c -o XDouble_class.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG  -I'/tmp/tmp/built/S4Vectors/include' -I'/tmp/tmp/built/IRanges/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c XInteger_class.c -o XInteger_class.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG  -I'/tmp/tmp/built/S4Vectors/include' -I'/tmp/tmp/built/IRanges/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c XRawList_comparison.c -o XRawList_comparison.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG  -I'/tmp/tmp/built/S4Vectors/include' -I'/tmp/tmp/built/IRanges/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c XRaw_class.c -o XRaw_class.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG  -I'/tmp/tmp/built/S4Vectors/include' -I'/tmp/tmp/built/IRanges/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c XVectorList_class.c -o XVectorList_class.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG  -I'/tmp/tmp/built/S4Vectors/include' -I'/tmp/tmp/built/IRanges/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c XVector_class.c -o XVector_class.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG  -I'/tmp/tmp/built/S4Vectors/include' -I'/tmp/tmp/built/IRanges/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c io_utils.c -o io_utils.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG  -I'/tmp/tmp/built/S4Vectors/include' -I'/tmp/tmp/built/IRanges/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c slice_methods.c -o slice_methods.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG  -I'/tmp/tmp/built/S4Vectors/include' -I'/tmp/tmp/built/IRanges/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c vector_copy.c -o vector_copy.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG  -I'/tmp/tmp/built/S4Vectors/include' -I'/tmp/tmp/built/IRanges/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c view_summarization_methods.c -o view_summarization_methods.o
+gcc -shared -L/usr/local/lib/R/lib -L/usr/local/lib -o XVector.so IRanges_stubs.o Ocopy_byteblocks.o RDS_random_access.o R_init_XVector.o S4Vectors_stubs.o SharedDouble_class.o SharedInteger_class.o SharedRaw_class.o SharedVector_class.o XDouble_class.o XInteger_class.o XRawList_comparison.o XRaw_class.o XVectorList_class.o XVector_class.o io_utils.o slice_methods.o vector_copy.o view_summarization_methods.o -lz -L/usr/local/lib/R/lib -lR
+installing to /tmp/tmp/built/00LOCK-XVector/00new/XVector/libs
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘XVector’ as ‘XVector_0.40.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (XVector)
+* installing *source* package ‘basilisk’ ...
+** using non-staged installation via StagedInstall field
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded
+* creating tarball
+packaged installation of ‘basilisk’ as ‘basilisk_1.12.1_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (basilisk)
+* installing *source* package ‘GenomeInfoDb’ ...
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘GenomeInfoDb’ as ‘GenomeInfoDb_1.36.1_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (GenomeInfoDb)
+* installing *source* package ‘S4Arrays’ ...
+** using staged installation
+** libs
+using C compiler: ‘gcc (Ubuntu 11.3.0-1ubuntu1~22.04) 11.3.0’
+gcc -I"/usr/local/lib/R/include" -DNDEBUG  -I'/tmp/tmp/built/S4Vectors/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c R_init_S4Arrays.c -o R_init_S4Arrays.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG  -I'/tmp/tmp/built/S4Vectors/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c S4Vectors_stubs.c -o S4Vectors_stubs.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG  -I'/tmp/tmp/built/S4Vectors/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c abind.c -o abind.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG  -I'/tmp/tmp/built/S4Vectors/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c array_selection.c -o array_selection.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG  -I'/tmp/tmp/built/S4Vectors/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c dim_tuning_utils.c -o dim_tuning_utils.o
+gcc -shared -L/usr/local/lib/R/lib -L/usr/local/lib -o S4Arrays.so R_init_S4Arrays.o S4Vectors_stubs.o abind.o array_selection.o dim_tuning_utils.o -L/usr/local/lib/R/lib -lR
+installing to /tmp/tmp/built/00LOCK-S4Arrays/00new/S4Arrays/libs
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+Creating a new generic function for ‘rowsum’ in package ‘S4Arrays’
+Creating a new generic function for ‘abind’ in package ‘S4Arrays’
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘S4Arrays’ as ‘S4Arrays_1.0.5_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (S4Arrays)
+* installing *source* package ‘GenomicRanges’ ...
+** using staged installation
+** libs
+using C compiler: ‘gcc (Ubuntu 11.3.0-1ubuntu1~22.04) 11.3.0’
+gcc -I"/usr/local/lib/R/include" -DNDEBUG  -I'/tmp/tmp/built/S4Vectors/include' -I'/tmp/tmp/built/IRanges/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c IRanges_stubs.c -o IRanges_stubs.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG  -I'/tmp/tmp/built/S4Vectors/include' -I'/tmp/tmp/built/IRanges/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c R_init_GenomicRanges.c -o R_init_GenomicRanges.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG  -I'/tmp/tmp/built/S4Vectors/include' -I'/tmp/tmp/built/IRanges/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c S4Vectors_stubs.c -o S4Vectors_stubs.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG  -I'/tmp/tmp/built/S4Vectors/include' -I'/tmp/tmp/built/IRanges/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c transcript_utils.c -o transcript_utils.o
+gcc -shared -L/usr/local/lib/R/lib -L/usr/local/lib -o GenomicRanges.so IRanges_stubs.o R_init_GenomicRanges.o S4Vectors_stubs.o transcript_utils.o -L/usr/local/lib/R/lib -lR
+installing to /tmp/tmp/built/00LOCK-GenomicRanges/00new/GenomicRanges/libs
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘GenomicRanges’ as ‘GenomicRanges_1.52.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (GenomicRanges)
+* installing *source* package ‘DelayedArray’ ...
+** using staged installation
+** libs
+using C compiler: ‘gcc (Ubuntu 11.3.0-1ubuntu1~22.04) 11.3.0’
+gcc -I"/usr/local/lib/R/include" -DNDEBUG  -I'/tmp/tmp/built/S4Vectors/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c R_init_DelayedArray.c -o R_init_DelayedArray.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG  -I'/tmp/tmp/built/S4Vectors/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c S4Vectors_stubs.c -o S4Vectors_stubs.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG  -I'/tmp/tmp/built/S4Vectors/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c compress_atomic_vector.c -o compress_atomic_vector.o
+gcc -I"/usr/local/lib/R/include" -DNDEBUG  -I'/tmp/tmp/built/S4Vectors/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c sparseMatrix_utils.c -o sparseMatrix_utils.o
+gcc -shared -L/usr/local/lib/R/lib -L/usr/local/lib -o DelayedArray.so R_init_DelayedArray.o S4Vectors_stubs.o compress_atomic_vector.o sparseMatrix_utils.o -L/usr/local/lib/R/lib -lR
+installing to /tmp/tmp/built/00LOCK-DelayedArray/00new/DelayedArray/libs
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+Creating a new generic function for ‘apply’ in package ‘DelayedArray’
+Creating a new generic function for ‘sweep’ in package ‘DelayedArray’
+Creating a new generic function for ‘scale’ in package ‘DelayedArray’
+Creating a generic function for ‘dnorm’ from package ‘stats’ in package ‘DelayedArray’
+Creating a generic function for ‘pnorm’ from package ‘stats’ in package ‘DelayedArray’
+Creating a generic function for ‘qnorm’ from package ‘stats’ in package ‘DelayedArray’
+Creating a generic function for ‘dbinom’ from package ‘stats’ in package ‘DelayedArray’
+Creating a generic function for ‘pbinom’ from package ‘stats’ in package ‘DelayedArray’
+Creating a generic function for ‘qbinom’ from package ‘stats’ in package ‘DelayedArray’
+Creating a generic function for ‘dpois’ from package ‘stats’ in package ‘DelayedArray’
+Creating a generic function for ‘ppois’ from package ‘stats’ in package ‘DelayedArray’
+Creating a generic function for ‘qpois’ from package ‘stats’ in package ‘DelayedArray’
+Creating a generic function for ‘dlogis’ from package ‘stats’ in package ‘DelayedArray’
+Creating a generic function for ‘plogis’ from package ‘stats’ in package ‘DelayedArray’
+Creating a generic function for ‘qlogis’ from package ‘stats’ in package ‘DelayedArray’
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘DelayedArray’ as ‘DelayedArray_0.26.7_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (DelayedArray)
+* installing *source* package ‘densvis’ ...
+** using non-staged installation via StagedInstall field
+** libs
+using C++ compiler: ‘g++ (Ubuntu 11.3.0-1ubuntu1~22.04) 11.3.0’
+using C++14
+g++ -std=gnu++14 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include   -fopenmp -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c RcppExports.cpp -o RcppExports.o
+g++ -std=gnu++14 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include   -fopenmp -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c densne.cpp -o densne.o
+g++ -std=gnu++14 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include   -fopenmp -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c densvis.cpp -o densvis.o
+g++ -std=gnu++14 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include   -fopenmp -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c sptree.cpp -o sptree.o
+g++ -std=gnu++14 -shared -L/usr/local/lib/R/lib -L/usr/local/lib -o densvis.so RcppExports.o densne.o densvis.o sptree.o -llapack -lblas -lgfortran -lm -lquadmath -fopenmp -L/usr/local/lib/R/lib -lR
+installing to /tmp/tmp/built/densvis/libs
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded
+* creating tarball
+packaged installation of ‘densvis’ as ‘densvis_1.10.3_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (densvis)
+* installing *source* package ‘ScaledMatrix’ ...
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘ScaledMatrix’ as ‘ScaledMatrix_1.8.1_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (ScaledMatrix)
+* installing *source* package ‘DelayedMatrixStats’ ...
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘DelayedMatrixStats’ as ‘DelayedMatrixStats_1.22.5_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (DelayedMatrixStats)
+* installing *source* package ‘beachmat’ ...
+** using staged installation
+** libs
+using C++ compiler: ‘g++ (Ubuntu 11.3.0-1ubuntu1~22.04) 11.3.0’
+using C++11
+g++ -std=gnu++11 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c RcppExports.cpp -o RcppExports.o
+g++ -std=gnu++11 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c fragment_sparse_rows.cpp -o fragment_sparse_rows.o
+g++ -std=gnu++11 -shared -L/usr/local/lib/R/lib -L/usr/local/lib -o beachmat.so RcppExports.o fragment_sparse_rows.o -L/usr/local/lib/R/lib -lR
+installing to /tmp/tmp/built/00LOCK-beachmat/00new/beachmat/libs
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘beachmat’ as ‘beachmat_2.16.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (beachmat)
+* installing *source* package ‘SummarizedExperiment’ ...
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘SummarizedExperiment’ as ‘SummarizedExperiment_1.30.2_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (SummarizedExperiment)
+* installing *source* package ‘BiocSingular’ ...
+** using staged installation
+** libs
+using C++ compiler: ‘g++ (Ubuntu 11.3.0-1ubuntu1~22.04) 11.3.0’
+using C++11
+g++ -std=gnu++11 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/tmp/tmp/built/beachmat/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c RcppExports.cpp -o RcppExports.o
+g++ -std=gnu++11 -I"/usr/local/lib/R/include" -DNDEBUG  -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/tmp/tmp/built/beachmat/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c compute_scale.cpp -o compute_scale.o
+g++ -std=gnu++11 -shared -L/usr/local/lib/R/lib -L/usr/local/lib -o BiocSingular.so RcppExports.o compute_scale.o -L/usr/local/lib/R/lib -lR
+installing to /tmp/tmp/built/00LOCK-BiocSingular/00new/BiocSingular/libs
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘BiocSingular’ as ‘BiocSingular_1.16.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (BiocSingular)
+* installing *source* package ‘SingleCellExperiment’ ...
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘SingleCellExperiment’ as ‘SingleCellExperiment_1.22.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (SingleCellExperiment)
+* installing *source* package ‘scuttle’ ...
+** using staged installation
+** libs
+using C++ compiler: ‘g++ (Ubuntu 11.3.0-1ubuntu1~22.04) 11.3.0’
+using C++11
+g++ -std=gnu++11 -I"/usr/local/lib/R/include" -DNDEBUG -I../inst/include/ -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/tmp/tmp/built/beachmat/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c RcppExports.cpp -o RcppExports.o
+g++ -std=gnu++11 -I"/usr/local/lib/R/include" -DNDEBUG -I../inst/include/ -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/tmp/tmp/built/beachmat/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c cumulative_prop.cpp -o cumulative_prop.o
+g++ -std=gnu++11 -I"/usr/local/lib/R/include" -DNDEBUG -I../inst/include/ -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/tmp/tmp/built/beachmat/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c downsample_counts.cpp -o downsample_counts.o
+g++ -std=gnu++11 -I"/usr/local/lib/R/include" -DNDEBUG -I../inst/include/ -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/tmp/tmp/built/beachmat/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c fit_linear_model.cpp -o fit_linear_model.o
+g++ -std=gnu++11 -I"/usr/local/lib/R/include" -DNDEBUG -I../inst/include/ -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/tmp/tmp/built/beachmat/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c pool_size_factors.cpp -o pool_size_factors.o
+g++ -std=gnu++11 -I"/usr/local/lib/R/include" -DNDEBUG -I../inst/include/ -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/tmp/tmp/built/beachmat/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c sparse_summarize.cpp -o sparse_summarize.o
+g++ -std=gnu++11 -I"/usr/local/lib/R/include" -DNDEBUG -I../inst/include/ -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/tmp/tmp/built/beachmat/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c sum_counts.cpp -o sum_counts.o
+g++ -std=gnu++11 -I"/usr/local/lib/R/include" -DNDEBUG -I../inst/include/ -I'/usr/local/lib/R/site-library/Rcpp/include' -I'/tmp/tmp/built/beachmat/include' -I/usr/local/include    -fpic  -g -O2 -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -g  -c utils.cpp -o utils.o
+g++ -std=gnu++11 -shared -L/usr/local/lib/R/lib -L/usr/local/lib -o scuttle.so RcppExports.o cumulative_prop.o downsample_counts.o fit_linear_model.o pool_size_factors.o sparse_summarize.o sum_counts.o utils.o -llapack -lblas -lgfortran -lm -lquadmath -L/usr/local/lib/R/lib -lR
+installing to /tmp/tmp/built/00LOCK-scuttle/00new/scuttle/libs
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘scuttle’ as ‘scuttle_1.10.2_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (scuttle)
+* installing *source* package ‘scater’ ...
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘scater’ as ‘scater_1.28.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (scater)
+* installing *source* package ‘VAExprs’ ...
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘VAExprs’ as ‘VAExprs_1.6.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (VAExprs)
+
+The downloaded source packages are in
+	‘/tmp/RtmpuRfeUG/downloaded_packages’
+Old packages: 'BiocManager', 'bslib', 'cachem', 'cpp11', 'curl', 'digest',
+  'downlit', 'evaluate', 'fs', 'gert', 'htmltools', 'httpuv', 'httr', 'httr2',
+  'jsonlite', 'knitr', 'later', 'openssl', 'pkgbuild', 'pkgload', 'processx',
+  'profvis', 'promises', 'purrr', 'Rcpp', 'remotes', 'rmarkdown', 'rstudioapi',
+  'sass', 'shiny', 'sys', 'testthat', 'tinytex', 'usethis', 'vctrs', 'waldo',
+  'xfun', 'xml2', 'class', 'KernSmooth', 'MASS', 'Matrix', 'mgcv', 'nlme',
+  'nnet', 'spatial', 'survival'
+
+real	12m30.664s
+user	11m25.359s
+sys	0m51.797s
