@@ -1,0 +1,272 @@
++ Rscript -e 'Sys.setenv(BIOCONDUCTOR_USE_CONTAINER_REPOSITORY=FALSE); p <- .libPaths(); p <- c('\''/tmp/tmp/built'\'', p); .libPaths(p); if(BiocManager::install('\''FamAgg'\'', INSTALL_opts = '\''--build'\'', update = TRUE, quiet = FALSE, dependencies=TRUE, force = TRUE, keep_outputs = TRUE) %in% rownames(installed.packages())) q(status = 0) else q(status = 1)'
+'getOption("repos")' replaces Bioconductor standard repositories, see
+'help("repositories", package = "BiocManager")' for details.
+Replacement repositories:
+    CRAN: https://packagemanager.posit.co/cran/__linux__/jammy/latest
+Bioconductor version 3.17 (BiocManager 1.30.20), R 4.3.0 (2023-04-21)
+Installing package(s) 'FamAgg'
+also installing the dependencies ‘generics’, ‘tidyselect’, ‘tidyr’, ‘lazyeval’, ‘crosstalk’, ‘data.table’, ‘quadprog’, ‘gap.datasets’, ‘dplyr’, ‘plotly’, ‘minqa’, ‘numDeriv’, ‘mitools’, ‘bookdown’, ‘kinship2’, ‘igraph’, ‘gap’, ‘survey’, ‘BiocStyle’
+
+trying URL 'https://packagemanager.posit.co/cran/__linux__/jammy/latest/src/contrib/generics_0.1.3.tar.gz'
+Content type 'binary/octet-stream' length 76238 bytes (74 KB)
+==================================================
+downloaded 74 KB
+
+trying URL 'https://packagemanager.posit.co/cran/__linux__/jammy/latest/src/contrib/tidyselect_1.2.0.tar.gz'
+Content type 'binary/octet-stream' length 219931 bytes (214 KB)
+==================================================
+downloaded 214 KB
+
+trying URL 'https://packagemanager.posit.co/cran/__linux__/jammy/latest/src/contrib/tidyr_1.3.0.tar.gz'
+Content type 'binary/octet-stream' length 1188040 bytes (1.1 MB)
+==================================================
+downloaded 1.1 MB
+
+trying URL 'https://packagemanager.posit.co/cran/__linux__/jammy/latest/src/contrib/lazyeval_0.2.2.tar.gz'
+Content type 'binary/octet-stream' length 155230 bytes (151 KB)
+==================================================
+downloaded 151 KB
+
+trying URL 'https://packagemanager.posit.co/cran/__linux__/jammy/latest/src/contrib/crosstalk_1.2.0.tar.gz'
+Content type 'binary/octet-stream' length 403467 bytes (394 KB)
+==================================================
+downloaded 394 KB
+
+trying URL 'https://packagemanager.posit.co/cran/__linux__/jammy/latest/src/contrib/data.table_1.14.8.tar.gz'
+Content type 'binary/octet-stream' length 2126876 bytes (2.0 MB)
+==================================================
+downloaded 2.0 MB
+
+trying URL 'https://packagemanager.posit.co/cran/__linux__/jammy/latest/src/contrib/quadprog_1.5-8.tar.gz'
+Content type 'binary/octet-stream' length 30243 bytes (29 KB)
+==================================================
+downloaded 29 KB
+
+trying URL 'https://packagemanager.posit.co/cran/__linux__/jammy/latest/src/contrib/gap.datasets_0.0.5.tar.gz'
+Content type 'binary/octet-stream' length 3569140 bytes (3.4 MB)
+==================================================
+downloaded 3.4 MB
+
+trying URL 'https://packagemanager.posit.co/cran/__linux__/jammy/latest/src/contrib/dplyr_1.1.2.tar.gz'
+Content type 'binary/octet-stream' length 1463316 bytes (1.4 MB)
+==================================================
+downloaded 1.4 MB
+
+trying URL 'https://packagemanager.posit.co/cran/__linux__/jammy/latest/src/contrib/plotly_4.10.2.tar.gz'
+Content type 'binary/octet-stream' length 3196212 bytes (3.0 MB)
+==================================================
+downloaded 3.0 MB
+
+trying URL 'https://packagemanager.posit.co/cran/__linux__/jammy/latest/src/contrib/minqa_1.2.5.tar.gz'
+Content type 'binary/octet-stream' length 117604 bytes (114 KB)
+==================================================
+downloaded 114 KB
+
+trying URL 'https://packagemanager.posit.co/cran/__linux__/jammy/latest/src/contrib/numDeriv_2016.8-1.1.tar.gz'
+Content type 'binary/octet-stream' length 113093 bytes (110 KB)
+==================================================
+downloaded 110 KB
+
+trying URL 'https://packagemanager.posit.co/cran/__linux__/jammy/latest/src/contrib/mitools_2.4.tar.gz'
+Content type 'binary/octet-stream' length 269450 bytes (263 KB)
+==================================================
+downloaded 263 KB
+
+trying URL 'https://packagemanager.posit.co/cran/__linux__/jammy/latest/src/contrib/bookdown_0.35.tar.gz'
+Content type 'binary/octet-stream' length 1089819 bytes (1.0 MB)
+==================================================
+downloaded 1.0 MB
+
+trying URL 'https://packagemanager.posit.co/cran/__linux__/jammy/latest/src/contrib/kinship2_1.9.6.tar.gz'
+Content type 'binary/octet-stream' length 525614 bytes (513 KB)
+==================================================
+downloaded 513 KB
+
+trying URL 'https://packagemanager.posit.co/cran/__linux__/jammy/latest/src/contrib/igraph_1.5.1.tar.gz'
+Content type 'binary/octet-stream' length 4875394 bytes (4.6 MB)
+==================================================
+downloaded 4.6 MB
+
+trying URL 'https://packagemanager.posit.co/cran/__linux__/jammy/latest/src/contrib/gap_1.5-1.tar.gz'
+Content type 'binary/octet-stream' length 4857341 bytes (4.6 MB)
+==================================================
+downloaded 4.6 MB
+
+trying URL 'https://packagemanager.posit.co/cran/__linux__/jammy/latest/src/contrib/survey_4.2-1.tar.gz'
+Content type 'binary/octet-stream' length 3196157 bytes (3.0 MB)
+==================================================
+downloaded 3.0 MB
+
+trying URL 'https://bioconductor.org/packages/3.17/bioc/src/contrib/BiocStyle_2.28.0.tar.gz'
+Content type 'application/x-gzip' length 772922 bytes (754 KB)
+==================================================
+downloaded 754 KB
+
+trying URL 'https://bioconductor.org/packages/3.17/bioc/src/contrib/FamAgg_1.28.0.tar.gz'
+Content type 'application/x-gzip' length 1536695 bytes (1.5 MB)
+==================================================
+downloaded 1.5 MB
+
+* installing *binary* package ‘generics’ ...
+* ‘generics’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘generics’ as ‘generics_0.1.3_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (generics)
+* installing *binary* package ‘tidyselect’ ...
+* ‘tidyselect’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘tidyselect’ as ‘tidyselect_1.2.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (tidyselect)
+* installing *binary* package ‘lazyeval’ ...
+* ‘lazyeval’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘lazyeval’ as ‘lazyeval_0.2.2_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (lazyeval)
+* installing *binary* package ‘data.table’ ...
+* ‘data.table’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘data.table’ as ‘data.table_1.14.8_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (data.table)
+* installing *binary* package ‘quadprog’ ...
+* ‘quadprog’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘quadprog’ as ‘quadprog_1.5-8_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (quadprog)
+* installing *binary* package ‘gap.datasets’ ...
+* ‘gap.datasets’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘gap.datasets’ as ‘gap.datasets_0.0.5_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (gap.datasets)
+* installing *binary* package ‘minqa’ ...
+* ‘minqa’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘minqa’ as ‘minqa_1.2.5_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (minqa)
+* installing *binary* package ‘numDeriv’ ...
+* ‘numDeriv’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘numDeriv’ as ‘numDeriv_2016.8-1.1_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (numDeriv)
+* installing *binary* package ‘mitools’ ...
+* ‘mitools’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘mitools’ as ‘mitools_2.4_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (mitools)
+* installing *binary* package ‘bookdown’ ...
+* ‘bookdown’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘bookdown’ as ‘bookdown_0.35_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (bookdown)
+* installing *binary* package ‘igraph’ ...
+* ‘igraph’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘igraph’ as ‘igraph_1.5.1_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (igraph)
+* installing *binary* package ‘crosstalk’ ...
+* ‘crosstalk’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘crosstalk’ as ‘crosstalk_1.2.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (crosstalk)
+* installing *binary* package ‘dplyr’ ...
+* ‘dplyr’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘dplyr’ as ‘dplyr_1.1.2_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (dplyr)
+* installing *binary* package ‘kinship2’ ...
+* ‘kinship2’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘kinship2’ as ‘kinship2_1.9.6_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (kinship2)
+* installing *binary* package ‘survey’ ...
+* ‘survey’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘survey’ as ‘survey_4.2-1_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (survey)
+* installing *source* package ‘BiocStyle’ ...
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘BiocStyle’ as ‘BiocStyle_2.28.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (BiocStyle)
+* installing *binary* package ‘tidyr’ ...
+* ‘tidyr’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘tidyr’ as ‘tidyr_1.3.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (tidyr)
+* installing *binary* package ‘plotly’ ...
+* ‘plotly’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘plotly’ as ‘plotly_4.10.2_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (plotly)
+* installing *binary* package ‘gap’ ...
+* ‘gap’ was already a binary package and will not be rebuilt
+* creating tarball
+packaged installation of ‘gap’ as ‘gap_1.5-1_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (gap)
+* installing *source* package ‘FamAgg’ ...
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+Creating a new generic function for ‘pedigree’ in package ‘FamAgg’
+in method for ‘countGenerations’ with signature ‘"pedigreeList"’: no definition for class “pedigreeList”
+in method for ‘countGenerations’ with signature ‘"pedigree"’: no definition for class “pedigree”
+in method for ‘estimateGenerations’ with signature ‘"pedigree"’: no definition for class “pedigree”
+in method for ‘estimateGenerations’ with signature ‘"pedigreeList"’: no definition for class “pedigreeList”
+in method for ‘findFounders’ with signature ‘"pedigreeList"’: no definition for class “pedigreeList”
+in method for ‘findFounders’ with signature ‘"pedigreeList"’: no definition for class “pedigreeList”
+in method for ‘generationsFrom’ with signature ‘"pedigree"’: no definition for class “pedigree”
+in method for ‘generationsFrom’ with signature ‘"pedigreeList"’: no definition for class “pedigreeList”
+in method for ‘getAncestors’ with signature ‘"pedigreeList"’: no definition for class “pedigreeList”
+in method for ‘getAncestors’ with signature ‘"pedigree"’: no definition for class “pedigree”
+in method for ‘getChildren’ with signature ‘"pedigreeList"’: no definition for class “pedigreeList”
+in method for ‘getChildren’ with signature ‘"pedigree"’: no definition for class “pedigree”
+in method for ‘getCommonAncestor’ with signature ‘"pedigree"’: no definition for class “pedigree”
+in method for ‘getCommonAncestor’ with signature ‘"pedigreeList"’: no definition for class “pedigreeList”
+in method for ‘getMissingMate’ with signature ‘"pedigreeList"’: no definition for class “pedigreeList”
+in method for ‘getMissingMate’ with signature ‘"pedigree"’: no definition for class “pedigree”
+in method for ‘getSiblings’ with signature ‘"pedigreeList"’: no definition for class “pedigreeList”
+in method for ‘getSiblings’ with signature ‘"pedigree"’: no definition for class “pedigree”
+in method for ‘getAll’ with signature ‘"pedigreeList"’: no definition for class “pedigreeList”
+in method for ‘getAll’ with signature ‘"pedigree"’: no definition for class “pedigree”
+in method for ‘getExternalMatched’ with signature ‘"pedigreeList"’: no definition for class “pedigreeList”
+in method for ‘getExternalMatched’ with signature ‘"pedigree"’: no definition for class “pedigree”
+in method for ‘getGenerationMatched’ with signature ‘"pedigreeList"’: no definition for class “pedigreeList”
+in method for ‘getGenerationMatched’ with signature ‘"pedigree"’: no definition for class “pedigree”
+in method for ‘getGenerationSexMatched’ with signature ‘"pedigreeList"’: no definition for class “pedigreeList”
+in method for ‘getGenerationSexMatched’ with signature ‘"pedigree"’: no definition for class “pedigree”
+in method for ‘getSexMatched’ with signature ‘"pedigreeList"’: no definition for class “pedigreeList”
+in method for ‘getSexMatched’ with signature ‘"pedigree"’: no definition for class “pedigree”
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* creating tarball
+packaged installation of ‘FamAgg’ as ‘FamAgg_1.28.0_R_x86_64-pc-linux-gnu.tar.gz’
+* DONE (FamAgg)
+
+The downloaded source packages are in
+	‘/tmp/Rtmp1IWZNc/downloaded_packages’
+Old packages: 'BiocManager', 'bslib', 'cachem', 'cpp11', 'curl', 'digest',
+  'downlit', 'evaluate', 'fs', 'gert', 'htmltools', 'httpuv', 'httr', 'httr2',
+  'jsonlite', 'knitr', 'later', 'openssl', 'pkgbuild', 'pkgload', 'processx',
+  'profvis', 'promises', 'purrr', 'Rcpp', 'remotes', 'rmarkdown', 'rstudioapi',
+  'sass', 'shiny', 'sys', 'testthat', 'tinytex', 'usethis', 'vctrs', 'waldo',
+  'xfun', 'xml2', 'class', 'KernSmooth', 'MASS', 'Matrix', 'mgcv', 'nlme',
+  'nnet', 'spatial', 'survival'
+
+real	1m4.850s
+user	0m37.728s
+sys	0m5.148s
