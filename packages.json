@@ -83,8 +83,7 @@
         "GenomeInfoDb",
         "IRanges",
         "KEGGREST",
-        "XVector",
-        "mzR"
+        "XVector"
     ],
     "ADImpute": [
         "DelayedArray",
@@ -1202,7 +1201,6 @@
         "annotate",
         "biomaRt",
         "genefilter",
-        "mzR",
         "pRoloc",
         "vsn"
     ],
@@ -2411,7 +2409,6 @@
         "S4Arrays",
         "SummarizedExperiment",
         "XVector",
-        "mzR",
         "vsn",
         "xcms"
     ],
@@ -3484,7 +3481,6 @@
         "S4Arrays",
         "SummarizedExperiment",
         "XVector",
-        "mzR",
         "vsn",
         "xcms"
     ],
@@ -3492,7 +3488,6 @@
         "IRanges",
         "MSnbase",
         "MsCoreUtils",
-        "mzR",
         "vsn"
     ],
     "clusterExperiment": [
@@ -4222,7 +4217,6 @@
         "S4Arrays",
         "SummarizedExperiment",
         "XVector",
-        "mzR",
         "vsn",
         "xcms"
     ],
@@ -4886,7 +4880,6 @@
         "IRanges",
         "MSnbase",
         "MsCoreUtils",
-        "mzR",
         "vsn"
     ],
     "dasper": [
@@ -5191,7 +5184,6 @@
         "S4Arrays",
         "SummarizedExperiment",
         "XVector",
-        "mzR",
         "vsn"
     ],
     "derfinder": [
@@ -5362,9 +5354,7 @@
         "genefilter",
         "geneplotter"
     ],
-    "DIAlignR": [
-        "mzR"
-    ],
+    "DIAlignR": [],
     "DiffBind": [
         "BSgenome",
         "BiocIO",
@@ -7052,7 +7042,6 @@
         "S4Arrays",
         "SummarizedExperiment",
         "XVector",
-        "mzR",
         "vsn",
         "xcms"
     ],
@@ -9407,7 +9396,6 @@
         "S4Arrays",
         "SummarizedExperiment",
         "XVector",
-        "mzR",
         "vsn",
         "xcms"
     ],
@@ -9855,7 +9843,6 @@
         "S4Arrays",
         "SummarizedExperiment",
         "XVector",
-        "mzR",
         "vsn",
         "xcms"
     ],
@@ -10110,7 +10097,6 @@
         "S4Arrays",
         "SummarizedExperiment",
         "XVector",
-        "mzR",
         "vsn",
         "xcms"
     ],
@@ -10550,7 +10536,6 @@
         "S4Arrays",
         "SummarizedExperiment",
         "XVector",
-        "mzR",
         "vsn",
         "xcms"
     ],
@@ -10666,7 +10651,6 @@
         "S4Arrays",
         "SummarizedExperiment",
         "XVector",
-        "mzR",
         "vsn",
         "xcms"
     ],
@@ -11635,7 +11619,6 @@
         "Spectra",
         "SummarizedExperiment",
         "XVector",
-        "mzR",
         "vsn",
         "xcms"
     ],
@@ -12032,7 +12015,6 @@
         "IRanges",
         "MSnbase",
         "MsCoreUtils",
-        "mzR",
         "vsn"
     ],
     "msmsTests": [
@@ -12040,13 +12022,11 @@
         "MSnbase",
         "MsCoreUtils",
         "msmsEDA",
-        "mzR",
         "vsn"
     ],
     "MSnbase": [
         "IRanges",
         "MsCoreUtils",
-        "mzR",
         "vsn"
     ],
     "MSnID": [
@@ -12061,7 +12041,6 @@
         "XVector",
         "msmsEDA",
         "msmsTests",
-        "mzR",
         "vsn"
     ],
     "MSPrep": [
@@ -12079,9 +12058,7 @@
         "genefilter",
         "sva"
     ],
-    "msPurity": [
-        "mzR"
-    ],
+    "msPurity": [],
     "msqrob2": [
         "AnnotationFilter",
         "DelayedArray",
@@ -12129,7 +12106,6 @@
         "IRanges",
         "MSnbase",
         "MsCoreUtils",
-        "mzR",
         "qcmetrics",
         "vsn"
     ],
@@ -12138,7 +12114,6 @@
         "MSnbase",
         "MSstatsQC",
         "MsCoreUtils",
-        "mzR",
         "qcmetrics",
         "vsn"
     ],
@@ -12455,7 +12430,6 @@
         "biomaRt",
         "rtracklayer"
     ],
-    "mzR": [],
     "NADfinder": [
         "ATACseqQC",
         "AnnotationDbi",
@@ -12575,7 +12549,6 @@
         "S4Arrays",
         "SummarizedExperiment",
         "XVector",
-        "mzR",
         "vsn",
         "xcms"
     ],
@@ -13641,7 +13614,6 @@
         "IRanges",
         "MSnbase",
         "MsCoreUtils",
-        "mzR",
         "vsn"
     ],
     "PECA": [
@@ -14164,7 +14136,6 @@
         "IRanges",
         "MSnbase",
         "MsCoreUtils",
-        "mzR",
         "vsn"
     ],
     "proActiv": [
@@ -14281,7 +14252,6 @@
         "annotate",
         "biomaRt",
         "genefilter",
-        "mzR",
         "vsn"
     ],
     "pRolocGUI": [
@@ -14301,7 +14271,6 @@
         "annotate",
         "biomaRt",
         "genefilter",
-        "mzR",
         "pRoloc",
         "vsn"
     ],
@@ -14331,7 +14300,6 @@
         "IRanges",
         "MSnbase",
         "MsCoreUtils",
-        "mzR",
         "vsn"
     ],
     "proteasy": [
@@ -14453,7 +14421,6 @@
         "IRanges",
         "MSnbase",
         "MsCoreUtils",
-        "mzR",
         "rhdf5",
         "vsn"
     ],
@@ -14607,7 +14574,6 @@
         "MSnbase",
         "MsCoreUtils",
         "XVector",
-        "mzR",
         "vsn"
     ],
     "qsea": [
@@ -15699,7 +15665,6 @@
         "SummarizedExperiment",
         "XVector",
         "biocViews",
-        "mzR",
         "vsn",
         "xcms"
     ],
@@ -15769,7 +15734,6 @@
         "IRanges",
         "MSnbase",
         "MsCoreUtils",
-        "mzR",
         "vsn"
     ],
     "Rmmquant": [
@@ -17701,9 +17665,7 @@
         "annotate",
         "globaltest"
     ],
-    "SIMAT": [
-        "mzR"
-    ],
+    "SIMAT": [],
     "SimBindProfiles": [
         "AnnotationDbi",
         "Biostrings",
@@ -18971,7 +18933,6 @@
         "MsCoreUtils",
         "XVector",
         "cleaver",
-        "mzR",
         "vsn"
     ],
     "SynExtend": [
@@ -19062,9 +19023,7 @@
         "IRanges",
         "XVector"
     ],
-    "TargetDecoy": [
-        "mzR"
-    ],
+    "TargetDecoy": [],
     "TBSignatureProfiler": [
         "ASSIGN",
         "AnnotationDbi",
@@ -19517,7 +19476,6 @@
         "MSnbase",
         "MsCoreUtils",
         "XVector",
-        "mzR",
         "vsn"
     ],
     "topGO": [
@@ -20550,7 +20508,6 @@
         "S4Arrays",
         "SummarizedExperiment",
         "XVector",
-        "mzR",
         "vsn"
     ],
     "xcore": [
@@ -20615,8 +20572,7 @@
         "IRanges",
         "S4Arrays",
         "SummarizedExperiment",
-        "XVector",
-        "mzR"
+        "XVector"
     ],
     "YAPSA": [
         "AnnotationDbi",
