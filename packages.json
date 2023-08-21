@@ -1790,12 +1790,10 @@
         "scuttle"
     ],
     "CytoML": [
-        "ggcyto",
         "openCyto"
     ],
     "CytoPipeline": [
-        "PeacoQC",
-        "ggcyto"
+        "PeacoQC"
     ],
     "cytoviewer": [
         "DropletUtils",
@@ -2688,9 +2686,7 @@
     ],
     "flowClean": [],
     "flowCut": [],
-    "flowGate": [
-        "ggcyto"
-    ],
+    "flowGate": [],
     "flowVS": [],
     "FoldGO": [
         "AnnotationDbi",
@@ -2941,7 +2937,6 @@
         "ensembldb",
         "rtracklayer"
     ],
-    "ggcyto": [],
     "ggmanh": [],
     "ggmsa": [],
     "ggspavis": [
