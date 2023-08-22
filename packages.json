@@ -1522,7 +1522,6 @@
         "BSgenome",
         "rtracklayer"
     ],
-    "HiCcompare": [],
     "HiCDCPlus": [
         "BSgenome",
         "GenomicFeatures",
@@ -1534,7 +1533,6 @@
         "rtracklayer"
     ],
     "HiCDOC": [
-        "HiCcompare",
         "multiHiCcompare"
     ],
     "HiCExperiment": [],
@@ -2103,9 +2101,7 @@
         "regioneR",
         "rtracklayer"
     ],
-    "multiHiCcompare": [
-        "HiCcompare"
-    ],
+    "multiHiCcompare": [],
     "multiSight": [
         "ReactomePA",
         "biosigner",
@@ -3116,9 +3112,7 @@
         "motifmatchr",
         "rtracklayer"
     ],
-    "SpectralTAD": [
-        "HiCcompare"
-    ],
+    "SpectralTAD": [],
     "SPIAT": [
         "SpatialExperiment"
     ],
@@ -3201,9 +3195,7 @@
         "rtracklayer"
     ],
     "systemPipeR": [],
-    "TADCompare": [
-        "HiCcompare"
-    ],
+    "TADCompare": [],
     "TAPseq": [
         "BSgenome",
         "GenomicFeatures",
