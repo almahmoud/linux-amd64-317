@@ -466,7 +466,6 @@
         "alabaster.matrix",
         "alabaster.ranges",
         "alabaster.sce",
-        "alabaster.schemas",
         "alabaster.se",
         "alabaster.spatial",
         "alabaster.string",
@@ -484,7 +483,6 @@
     "alabaster.base": [
         "Rhdf5lib",
         "S4Vectors",
-        "alabaster.schemas",
         "rhdf5",
         "rhdf5filters"
     ],
@@ -494,7 +492,6 @@
         "Rhdf5lib",
         "S4Vectors",
         "alabaster.base",
-        "alabaster.schemas",
         "rhdf5",
         "rhdf5filters"
     ],
@@ -514,7 +511,6 @@
         "alabaster.base",
         "alabaster.matrix",
         "alabaster.ranges",
-        "alabaster.schemas",
         "alabaster.se",
         "rhdf5",
         "rhdf5filters"
@@ -527,7 +523,6 @@
         "S4Arrays",
         "S4Vectors",
         "alabaster.base",
-        "alabaster.schemas",
         "rhdf5",
         "rhdf5filters"
     ],
@@ -539,7 +534,6 @@
         "S4Vectors",
         "XVector",
         "alabaster.base",
-        "alabaster.schemas",
         "rhdf5",
         "rhdf5filters"
     ],
@@ -559,12 +553,10 @@
         "alabaster.base",
         "alabaster.matrix",
         "alabaster.ranges",
-        "alabaster.schemas",
         "alabaster.se",
         "rhdf5",
         "rhdf5filters"
     ],
-    "alabaster.schemas": [],
     "alabaster.se": [
         "Biobase",
         "DelayedArray",
@@ -580,7 +572,6 @@
         "alabaster.base",
         "alabaster.matrix",
         "alabaster.ranges",
-        "alabaster.schemas",
         "rhdf5",
         "rhdf5filters"
     ],
@@ -605,7 +596,6 @@
         "alabaster.matrix",
         "alabaster.ranges",
         "alabaster.sce",
-        "alabaster.schemas",
         "alabaster.se",
         "beachmat",
         "edgeR",
@@ -623,7 +613,6 @@
         "S4Vectors",
         "XVector",
         "alabaster.base",
-        "alabaster.schemas",
         "rhdf5",
         "rhdf5filters"
     ],
@@ -653,7 +642,6 @@
         "alabaster.base",
         "alabaster.matrix",
         "alabaster.ranges",
-        "alabaster.schemas",
         "alabaster.se",
         "alabaster.string",
         "biomaRt",
